@@ -1,8 +1,0 @@
-sprite $persistent_disk [64x64/16z] xSkr0O0m00117FQVc0edxibVVvql6BM5_7n-Py7pvozY8Jw_FrdyZvh-s7q4-Cj7NNyx9Vvy2w4_VrC8ylbyUzW1
-
-EntityColoring(persistent_disk)
-!define persistent_disk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, persistent_disk, persistent_disk)
-!define persistent_disk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, persistent_disk, persistent_disk)
-!define persistent_diskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, persistent_disk, persistent_disk)
-!define persistent_diskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, persistent_disk, persistent_disk)
-

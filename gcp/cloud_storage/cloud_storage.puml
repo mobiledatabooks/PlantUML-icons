@@ -1,7 +1,0 @@
-sprite $cloud_storage [64x64/16z] xTIr4S0040F1D-dTVyFcnCnyb--C8jdR8r9LjBYqJE_sljDhfRUgpTwQZl8QyTRfLBzzls_qGUErraSDt-AxxVTwj_VQ4__F__F__3___yQ8SW
-
-EntityColoring(cloud_storage)
-!define cloud_storage(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_storage, cloud_storage)
-!define cloud_storage(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_storage, cloud_storage)
-!define cloud_storageParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_storage, cloud_storage)
-!define cloud_storageParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_storage, cloud_storage)

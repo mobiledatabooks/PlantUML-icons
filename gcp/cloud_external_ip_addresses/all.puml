@@ -1,8 +1,0 @@
-sprite $cloud_external_ip_addresses [64x64/16z] xT550e0W00LHM-z_ONDbqStC_dq5cW3Hyf4c_n_0J_zT_c6yUBpL--7nMWFDs-kbx_7JMNOUZyVZfn-laMEFrnyO6rVH1W
-
-EntityColoring(cloud_external_ip_addresses)
-!define cloud_external_ip_addresses(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_external_ip_addresses, cloud_external_ip_addresses)
-!define cloud_external_ip_addresses(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_external_ip_addresses, cloud_external_ip_addresses)
-!define cloud_external_ip_addressesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_external_ip_addresses, cloud_external_ip_addresses)
-!define cloud_external_ip_addressesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_external_ip_addresses, cloud_external_ip_addresses)
-

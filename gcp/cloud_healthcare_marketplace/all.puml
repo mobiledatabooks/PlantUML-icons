@@ -1,8 +1,0 @@
-sprite $cloud_healthcare_marketplace [64x64/16z] xPQr5G1148Kckzz_m-VklWOfZsHrR0Je137smFu3---NnwialPvUAyJUi__qpprU-pfxE03Pfxqzo5kkr5
-
-EntityColoring(cloud_healthcare_marketplace)
-!define cloud_healthcare_marketplace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
-!define cloud_healthcare_marketplace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
-!define cloud_healthcare_marketplaceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
-!define cloud_healthcare_marketplaceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
-
