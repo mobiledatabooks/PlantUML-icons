@@ -5,8 +5,8 @@ P0FqFx41-f_OGFrFRC3-1pPW_mCRkF-13Tp_m0RiVs03z_yn6xZ_3zZWwt-R3Vx-DzdWp_ZP_o3AE0Wp
 }
 
 EntityColoring(project)
-!define project(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, project, project)
-!define project(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, project, project)
-!define projectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, project, project)
-!define projectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, project, project)
+!define project(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, project, project)
+!define project(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, project, project)
+!define projectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, project, project)
+!define projectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, project, project)
 

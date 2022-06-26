@@ -4,8 +4,8 @@ VEqFW7SYx03UdHpe3AvciODMxMol6l7QyZ3q-uE8dV7zUuOZzjrHJtBqGNngvFFuVqro3Lt_0Xvv0tqZ
 }
 
 EntityColoring(data_transfer)
-!define data_transfer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, data_transfer, data_transfer)
-!define data_transfer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, data_transfer, data_transfer)
-!define data_transferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, data_transfer, data_transfer)
-!define data_transferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, data_transfer, data_transfer)
+!define data_transfer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, data_transfer, data_transfer)
+!define data_transfer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, data_transfer, data_transfer)
+!define data_transferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, data_transfer, data_transfer)
+!define data_transferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, data_transfer, data_transfer)
 

@@ -4,8 +4,8 @@ HCrDu9_FptyveBW8u37lEM0v1vYhWEALzoC2Yei0SnFmd1Lm7G2k0y1L0BWF0FS1u3u0t0JQN0TS1u2x
 }
 
 EntityColoring(cloud_asset_inventory)
-!define cloud_asset_inventory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_asset_inventory, cloud_asset_inventory)
-!define cloud_asset_inventory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_asset_inventory, cloud_asset_inventory)
-!define cloud_asset_inventoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_asset_inventory, cloud_asset_inventory)
-!define cloud_asset_inventoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_asset_inventory, cloud_asset_inventory)
+!define cloud_asset_inventory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_asset_inventory, cloud_asset_inventory)
+!define cloud_asset_inventory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_asset_inventory, cloud_asset_inventory)
+!define cloud_asset_inventoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_asset_inventory, cloud_asset_inventory)
+!define cloud_asset_inventoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_asset_inventory, cloud_asset_inventory)
 

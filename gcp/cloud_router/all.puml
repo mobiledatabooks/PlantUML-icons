@@ -4,8 +4,8 @@ Y-_zx_FNrw_kdxX_-_dfvxVV7_t-wlTdlx_x-z7Vhrr1VhzJ1Vd_aYh8_xTKGVw_fWho_prLKFEN0-BW
 }
 
 EntityColoring(cloud_router)
-!define cloud_router(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_router, cloud_router)
-!define cloud_router(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_router, cloud_router)
-!define cloud_routerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_router, cloud_router)
-!define cloud_routerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_router, cloud_router)
+!define cloud_router(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_router, cloud_router)
+!define cloud_router(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_router, cloud_router)
+!define cloud_routerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_router, cloud_router)
+!define cloud_routerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_router, cloud_router)
 

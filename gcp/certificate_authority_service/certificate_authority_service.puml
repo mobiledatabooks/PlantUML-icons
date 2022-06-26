@@ -8,7 +8,7 @@ UqnMu_kvlmC
 }
 
 EntityColoring(certificate_authority_service)
-!define certificate_authority_service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, certificate_authority_service, certificate_authority_service)
-!define certificate_authority_service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, certificate_authority_service, certificate_authority_service)
-!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, certificate_authority_service, certificate_authority_service)
-!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, certificate_authority_service, certificate_authority_service)

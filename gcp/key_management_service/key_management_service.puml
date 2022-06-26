@@ -6,7 +6,7 @@ y32wpnkU7fBouKtfUxVFR7kzcX-2dlCNp_GSFtkXj_Jm_YFUlio-zo0ACMF4wxC0XKyNcFBwDFXeAFLZ
 }
 
 EntityColoring(key_management_service)
-!define key_management_service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, key_management_service, key_management_service)
-!define key_management_service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, key_management_service, key_management_service)
-!define key_management_serviceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, key_management_service, key_management_service)
-!define key_management_serviceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, key_management_service, key_management_service)
+!define key_management_service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, key_management_service, key_management_service)
+!define key_management_service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, key_management_service, key_management_service)
+!define key_management_serviceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, key_management_service, key_management_service)
+!define key_management_serviceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, key_management_service, key_management_service)

@@ -7,8 +7,8 @@ ojvUb63gc6u9gMfJ1kz-Jk1D_2dVgKlJANrtFswthT06h3pWEzm7C5s8x4ZRuherbXtvTLtjl6_JXMZR
 }
 
 EntityColoring(artifact_registry)
-!define artifact_registry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, artifact_registry, artifact_registry)
-!define artifact_registry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, artifact_registry, artifact_registry)
-!define artifact_registryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, artifact_registry, artifact_registry)
-!define artifact_registryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, artifact_registry, artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, artifact_registry, artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, artifact_registry, artifact_registry)
 

@@ -6,8 +6,8 @@ o-C9LC7aUPSlHogMlsHWdEk_bXeoCKPZw9IznWfZ9RGXFXKlBWjXu1sOJvFBwLy2x44Yex3T5snfvjPH
 }
 
 EntityColoring(cloud_translation_api)
-!define cloud_translation_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_translation_api, cloud_translation_api)
-!define cloud_translation_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_translation_api, cloud_translation_api)
-!define cloud_translation_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_translation_api, cloud_translation_api)
-!define cloud_translation_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_translation_api, cloud_translation_api)
 

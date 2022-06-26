@@ -6,7 +6,7 @@ MuAw_Z54PcX0Sms_XcukD3eld-m
 }
 
 EntityColoring(api_monetization)
-!define api_monetization(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, api_monetization, api_monetization)
-!define api_monetization(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, api_monetization, api_monetization)
-!define api_monetizationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, api_monetization, api_monetization)
-!define api_monetizationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, api_monetization, api_monetization)
+!define api_monetization(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, api_monetization, api_monetization)
+!define api_monetization(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, api_monetization, api_monetization)
+!define api_monetizationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, api_monetization, api_monetization)
+!define api_monetizationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, api_monetization, api_monetization)

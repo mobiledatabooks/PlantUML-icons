@@ -6,8 +6,8 @@ e2BzohDCK17-_cGqR0s0ll4izmC4sksq6cQqrYyc4BbpwCxz4oi-tV3OK2BT894eD-oZtB2FSiC-oWqI
 }
 
 EntityColoring(cloud_routes)
-!define cloud_routes(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_routes, cloud_routes)
-!define cloud_routes(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_routes, cloud_routes)
-!define cloud_routesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_routes, cloud_routes)
-!define cloud_routesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_routes, cloud_routes)
+!define cloud_routes(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_routes, cloud_routes)
+!define cloud_routes(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_routes, cloud_routes)
+!define cloud_routesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_routes, cloud_routes)
+!define cloud_routesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_routes, cloud_routes)
 

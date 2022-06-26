@@ -6,7 +6,7 @@ y_sHfK0wzrIOTRTBVYwWWpx2gT-V8EdCAwX0EbiYMl-73q0Adt_MMbf_hMakT7fyjK9oRiae-zY9Ue6U
 }
 
 EntityColoring(cloud_sql)
-!define cloud_sql(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_sql, cloud_sql)
-!define cloud_sql(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_sql, cloud_sql)
-!define cloud_sqlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_sql, cloud_sql)
-!define cloud_sqlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_sql, cloud_sql)
+!define cloud_sql(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_sql, cloud_sql)
+!define cloud_sql(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_sql, cloud_sql)
+!define cloud_sqlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_sql, cloud_sql)
+!define cloud_sqlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_sql, cloud_sql)

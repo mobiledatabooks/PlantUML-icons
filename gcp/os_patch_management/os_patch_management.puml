@@ -5,7 +5,7 @@ YPjzzrzlOn-LbsF3l8AuORzS_XxCEPd59KRolk4yFjWYj4w7xhQ-qJofJXyomdlddpK
 }
 
 EntityColoring(os_patch_management)
-!define os_patch_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, os_patch_management, os_patch_management)
-!define os_patch_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, os_patch_management, os_patch_management)
-!define os_patch_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, os_patch_management, os_patch_management)
-!define os_patch_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, os_patch_management, os_patch_management)
+!define os_patch_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, os_patch_management, os_patch_management)
+!define os_patch_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, os_patch_management, os_patch_management)
+!define os_patch_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, os_patch_management, os_patch_management)
+!define os_patch_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, os_patch_management, os_patch_management)

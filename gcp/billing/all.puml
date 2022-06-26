@@ -1,8 +1,8 @@
 sprite $billing [64x64/16z] xTO53e0m44JHHIVS_y8GnUlU-LZinQX9rXXRb46PXcizD5phKRVNjscgszFtCFxrNXmAu-av_l9xN2hFoz7psutNvESv_iNF-vvViyRO3W
 
 EntityColoring(billing)
-!define billing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, billing, billing)
-!define billing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, billing, billing)
-!define billingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, billing, billing)
-!define billingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, billing, billing)
+!define billing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, billing, billing)
+!define billing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, billing, billing)
+!define billingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, billing, billing)
+!define billingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, billing, billing)
 

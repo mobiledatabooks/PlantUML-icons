@@ -5,7 +5,7 @@ M31CJttIZtVVc_pn_OhzstnQdV0Dzo_yAj-V9lFu5jo0O9fyizbi_W4
 }
 
 EntityColoring(cloud_for_marketing)
-!define cloud_for_marketing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_for_marketing, cloud_for_marketing)
-!define cloud_for_marketing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_for_marketing, cloud_for_marketing)
-!define cloud_for_marketingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_for_marketing, cloud_for_marketing)
-!define cloud_for_marketingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_for_marketing, cloud_for_marketing)

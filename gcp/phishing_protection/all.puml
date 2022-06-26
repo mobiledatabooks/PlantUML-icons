@@ -8,8 +8,8 @@ NoRV_cDNKwsR_aJDtMtzwPDFlW
 }
 
 EntityColoring(phishing_protection)
-!define phishing_protection(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, phishing_protection, phishing_protection)
-!define phishing_protection(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, phishing_protection, phishing_protection)
-!define phishing_protectionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, phishing_protection, phishing_protection)
-!define phishing_protectionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, phishing_protection, phishing_protection)
+!define phishing_protection(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, phishing_protection, phishing_protection)
+!define phishing_protection(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, phishing_protection, phishing_protection)
+!define phishing_protectionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, phishing_protection, phishing_protection)
+!define phishing_protectionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, phishing_protection, phishing_protection)
 

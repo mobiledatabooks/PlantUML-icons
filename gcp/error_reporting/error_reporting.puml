@@ -5,7 +5,7 @@ VkJdtp_avps_-llZtzyHV7zz0Fb-qEyNy1rFlfzVF1_r_LR_7-h_I_n_YlzliNyG-nUnVnBxDx5_5FjN
 }
 
 EntityColoring(error_reporting)
-!define error_reporting(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, error_reporting, error_reporting)
-!define error_reporting(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, error_reporting, error_reporting)
-!define error_reportingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, error_reporting, error_reporting)
-!define error_reportingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, error_reporting, error_reporting)
+!define error_reporting(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, error_reporting, error_reporting)
+!define error_reporting(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, error_reporting, error_reporting)

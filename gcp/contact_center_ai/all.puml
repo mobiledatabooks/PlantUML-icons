@@ -5,8 +5,8 @@ J_5UtEClSKyoB-f1zQ1wakZXolxZeV9ZrJFaVyhxtBy60XvstokUunPh6i3i5r1zvz3ioElQIsMzMBNj
 }
 
 EntityColoring(contact_center_ai)
-!define contact_center_ai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, contact_center_ai, contact_center_ai)
-!define contact_center_ai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, contact_center_ai, contact_center_ai)
-!define contact_center_aiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, contact_center_ai, contact_center_ai)
-!define contact_center_aiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, contact_center_ai, contact_center_ai)
+!define contact_center_ai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, contact_center_ai, contact_center_ai)
+!define contact_center_ai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, contact_center_ai, contact_center_ai)
+!define contact_center_aiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, contact_center_ai, contact_center_ai)
+!define contact_center_aiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, contact_center_ai, contact_center_ai)
 

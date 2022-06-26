@@ -1,8 +1,8 @@
 sprite $cloud_load_balancing [64x64/16z] xTMd0S0m30NHz6J_XTFW9-xzZjdImvgYHgjqI8ay7e_Nhhz9Ik7n-CEwP1wlF_hLeSVhiR3yQj_ZyNZ_w04
 
 EntityColoring(cloud_load_balancing)
-!define cloud_load_balancing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_load_balancing, cloud_load_balancing)
-!define cloud_load_balancing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_load_balancing, cloud_load_balancing)
-!define cloud_load_balancingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_load_balancing, cloud_load_balancing)
-!define cloud_load_balancingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_load_balancing, cloud_load_balancing)
+!define cloud_load_balancing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_load_balancing, cloud_load_balancing)
+!define cloud_load_balancing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_load_balancing, cloud_load_balancing)
+!define cloud_load_balancingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_load_balancing, cloud_load_balancing)
+!define cloud_load_balancingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_load_balancing, cloud_load_balancing)
 

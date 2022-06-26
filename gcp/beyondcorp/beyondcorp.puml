@@ -5,7 +5,7 @@ Rw3Zg07FGGEuXD__4Juz5SmmFq9bad2ivW4Of2ZJ8_FF7W
 }
 
 EntityColoring(beyondcorp)
-!define beyondcorp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, beyondcorp, beyondcorp)
-!define beyondcorp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, beyondcorp, beyondcorp)
-!define beyondcorpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, beyondcorp, beyondcorp)
-!define beyondcorpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, beyondcorp, beyondcorp)
+!define beyondcorp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, beyondcorp, beyondcorp)

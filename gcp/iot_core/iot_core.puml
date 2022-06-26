@@ -7,7 +7,7 @@ rtJiGVB-maqXfewHc2cFaqJYRMBdVOh7-xu-O-0xVdICuXKvRi6bc_Sda1jgwURt-F4N
 }
 
 EntityColoring(iot_core)
-!define iot_core(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, iot_core, iot_core)
-!define iot_core(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, iot_core, iot_core)
-!define iot_coreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, iot_core, iot_core)
-!define iot_coreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, iot_core, iot_core)
+!define iot_core(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, iot_core, iot_core)
+!define iot_core(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, iot_core, iot_core)

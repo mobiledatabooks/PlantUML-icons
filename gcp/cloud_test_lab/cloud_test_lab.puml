@@ -5,7 +5,7 @@ UbodxcfOv_lrNO_h_DzFt_Mupk-V-eIHVn4lpxzHQm
 }
 
 EntityColoring(cloud_test_lab)
-!define cloud_test_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_test_lab, cloud_test_lab)
-!define cloud_test_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_test_lab, cloud_test_lab)
-!define cloud_test_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_test_lab, cloud_test_lab)
-!define cloud_test_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_test_lab, cloud_test_lab)

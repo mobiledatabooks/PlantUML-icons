@@ -1,8 +1,8 @@
 sprite $quotas [64x64/16z] xSl50O0m0CNGZxF_miW9T-e9KdtwAwh7T54xvhUln_FTCNwFFojsZyVZwtdjF9yz7e_7dsN1hsjNHUnrr-kewevlz5_K0m
 
 EntityColoring(quotas)
-!define quotas(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, quotas, quotas)
-!define quotas(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, quotas, quotas)
-!define quotasParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, quotas, quotas)
-!define quotasParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, quotas, quotas)
+!define quotas(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, quotas, quotas)
+!define quotas(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, quotas, quotas)
+!define quotasParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, quotas, quotas)
+!define quotasParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, quotas, quotas)
 

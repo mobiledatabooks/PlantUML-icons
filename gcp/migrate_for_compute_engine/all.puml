@@ -4,8 +4,8 @@ SkHL4xv_2i40-v9MLPUxZv-UTjl3G3gCVNk00my3di_rMruL6e2RX_EC_n-PxI714-1wuBP7RlfimC5J
 }
 
 EntityColoring(migrate_for_compute_engine)
-!define migrate_for_compute_engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, migrate_for_compute_engine, migrate_for_compute_engine)
-!define migrate_for_compute_engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, migrate_for_compute_engine, migrate_for_compute_engine)
-!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, migrate_for_compute_engine, migrate_for_compute_engine)
-!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, migrate_for_compute_engine, migrate_for_compute_engine)
 

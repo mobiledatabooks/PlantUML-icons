@@ -7,8 +7,8 @@ bXM4bXM4bXM4bXMeVyVt9vsFV0O
 }
 
 EntityColoring(identity_platform)
-!define identity_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, identity_platform, identity_platform)
-!define identity_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, identity_platform, identity_platform)
-!define identity_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, identity_platform, identity_platform)
-!define identity_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, identity_platform, identity_platform)
+!define identity_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, identity_platform, identity_platform)
+!define identity_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, identity_platform, identity_platform)
+!define identity_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, identity_platform, identity_platform)
+!define identity_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, identity_platform, identity_platform)
 

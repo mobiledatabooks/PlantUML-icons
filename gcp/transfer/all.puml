@@ -4,8 +4,8 @@ R_AQlD53zMpHG_LCZGEH0zRRfdgedkgXUZRv_VOE
 }
 
 EntityColoring(transfer)
-!define transfer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, transfer, transfer)
-!define transfer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, transfer, transfer)
-!define transferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, transfer, transfer)
-!define transferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, transfer, transfer)
+!define transfer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, transfer, transfer)
+!define transfer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, transfer, transfer)
+!define transferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, transfer, transfer)
+!define transferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, transfer, transfer)
 

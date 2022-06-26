@@ -7,7 +7,7 @@ Uxgii-rrVPTE-VNZm_os_UPPZWllNU2PLaJe2_pu0m
 }
 
 EntityColoring(dataflow)
-!define dataflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, dataflow, dataflow)
-!define dataflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, dataflow, dataflow)
-!define dataflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, dataflow, dataflow)
-!define dataflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, dataflow, dataflow)
+!define dataflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, dataflow, dataflow)
+!define dataflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, dataflow, dataflow)
+!define dataflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, dataflow, dataflow)
+!define dataflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, dataflow, dataflow)

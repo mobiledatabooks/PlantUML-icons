@@ -1,8 +1,8 @@
 sprite $cloud_natural_language_api [64x64/16z] xTQr0O100C10dEo_CDBXxYGrXxy4-pAphDNQu_PxFLN1ugZgNd-T7xh_DV_BatqyseZN-_trVl-NUhy_6tnEQprTwNDeUrZXS-hS_-pqPYK
 
 EntityColoring(cloud_natural_language_api)
-!define cloud_natural_language_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_natural_language_api, cloud_natural_language_api)
-!define cloud_natural_language_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_natural_language_api, cloud_natural_language_api)
-!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_natural_language_api, cloud_natural_language_api)
-!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_natural_language_api, cloud_natural_language_api)
 

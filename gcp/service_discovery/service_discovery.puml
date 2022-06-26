@@ -7,7 +7,7 @@ dvOVMVXw9gLgv8TVmJww_5IcJFWgS8RYOa_ErtTgwnn7b7xExpc_vtmUubD7HqF5p-jVpokFvxdmB_Rx
 }
 
 EntityColoring(service_discovery)
-!define service_discovery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, service_discovery, service_discovery)
-!define service_discovery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, service_discovery, service_discovery)
-!define service_discoveryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, service_discovery, service_discovery)
-!define service_discoveryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, service_discovery, service_discovery)
+!define service_discovery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, service_discovery, service_discovery)
+!define service_discovery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, service_discovery, service_discovery)
+!define service_discoveryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, service_discovery, service_discovery)
+!define service_discoveryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, service_discovery, service_discovery)

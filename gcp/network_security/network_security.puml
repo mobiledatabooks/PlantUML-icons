@@ -7,7 +7,7 @@ V-x_v_9p8Nq1Fca0Gje2E0Nhu_i2AdBGg_a-Qm3Dx3GTL3EwRGTZzIsQInzGwT6rRxqzZd6Zjm6tVUij
 }
 
 EntityColoring(network_security)
-!define network_security(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, network_security, network_security)
-!define network_security(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, network_security, network_security)
-!define network_securityParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, network_security, network_security)
-!define network_securityParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, network_security, network_security)
+!define network_security(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, network_security, network_security)
+!define network_security(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, network_security, network_security)

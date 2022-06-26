@@ -5,7 +5,7 @@ hccV-mK8MWxdmJcvIqbs8N3zOu82OzD_6gtjSyYtd--LZ_r8WUYWoQDRj-5wRK2uauIR5QQjzIpmH_AV
 }
 
 EntityColoring(migrate_for_anthos)
-!define migrate_for_anthos(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, migrate_for_anthos, migrate_for_anthos)
-!define migrate_for_anthos(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, migrate_for_anthos, migrate_for_anthos)
-!define migrate_for_anthosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, migrate_for_anthos, migrate_for_anthos)
-!define migrate_for_anthosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthos(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthos(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, migrate_for_anthos, migrate_for_anthos)

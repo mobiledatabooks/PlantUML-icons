@@ -7,7 +7,7 @@ yfwZBHu90z8_FLBQtqVVSvlxDytCw0mSEsSCj-SufFx2blUlC1ZgPzy_8zJMBrcEdBv_XxS_yQ--kW8
 }
 
 EntityColoring(cloud_scheduler)
-!define cloud_scheduler(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_scheduler, cloud_scheduler)
-!define cloud_scheduler(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_scheduler, cloud_scheduler)
-!define cloud_schedulerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_scheduler, cloud_scheduler)
-!define cloud_schedulerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_scheduler, cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_scheduler, cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_scheduler, cloud_scheduler)

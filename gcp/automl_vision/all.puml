@@ -5,8 +5,8 @@ ciSDVe-qJOgoy6lxiYEERnCTjDzwn7sck_RHxefjWEukiQ79xkoDZw3BSNl32vAua_AwEvANzrq5pnTj
 }
 
 EntityColoring(automl_vision)
-!define automl_vision(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, automl_vision, automl_vision)
-!define automl_vision(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, automl_vision, automl_vision)
-!define automl_visionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, automl_vision, automl_vision)
-!define automl_visionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, automl_vision, automl_vision)
+!define automl_vision(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, automl_vision, automl_vision)
+!define automl_vision(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, automl_vision, automl_vision)
+!define automl_visionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, automl_vision, automl_vision)
+!define automl_visionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, automl_vision, automl_vision)
 

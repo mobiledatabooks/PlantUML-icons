@@ -5,8 +5,8 @@ W0LDmRfFwEBt8-ugT6U-y_wKMF3E13DDMh53N01PhQrSQ_qX2nEkpfyDy3FKqGZBwHFQYKMTt4tryGuV
 }
 
 EntityColoring(gce_systems_management)
-!define gce_systems_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, gce_systems_management, gce_systems_management)
-!define gce_systems_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, gce_systems_management, gce_systems_management)
-!define gce_systems_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, gce_systems_management, gce_systems_management)
-!define gce_systems_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, gce_systems_management, gce_systems_management)
+!define gce_systems_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, gce_systems_management, gce_systems_management)
+!define gce_systems_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, gce_systems_management, gce_systems_management)
+!define gce_systems_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, gce_systems_management, gce_systems_management)
+!define gce_systems_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, gce_systems_management, gce_systems_management)
 

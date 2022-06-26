@@ -4,8 +4,8 @@ qFLBSGWX3m
 }
 
 EntityColoring(workload_identity_pool)
-!define workload_identity_pool(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, workload_identity_pool, workload_identity_pool)
-!define workload_identity_pool(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, workload_identity_pool, workload_identity_pool)
-!define workload_identity_poolParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, workload_identity_pool, workload_identity_pool)
-!define workload_identity_poolParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, workload_identity_pool, workload_identity_pool)
+!define workload_identity_pool(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, workload_identity_pool, workload_identity_pool)
+!define workload_identity_pool(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, workload_identity_pool, workload_identity_pool)
+!define workload_identity_poolParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, workload_identity_pool, workload_identity_pool)
+!define workload_identity_poolParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, workload_identity_pool, workload_identity_pool)
 

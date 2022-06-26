@@ -5,7 +5,7 @@ EnnTBv4hbHMCs_Sy8bV-pq3jJFfUSF_w8NtF3UXbvWMthv_IzSpYyf2Xvn5usUnx1kAPP-_YN_xyy4YR
 }
 
 EntityColoring(web_risk)
-!define web_risk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, web_risk, web_risk)
-!define web_risk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, web_risk, web_risk)
-!define web_riskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, web_risk, web_risk)
-!define web_riskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, web_risk, web_risk)
+!define web_risk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, web_risk, web_risk)
+!define web_risk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, web_risk, web_risk)
+!define web_riskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, web_risk, web_risk)
+!define web_riskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, web_risk, web_risk)

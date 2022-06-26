@@ -5,8 +5,8 @@ zKJVw6w5VADs4uX3_tT8LxN78nJKrGYc_d0C-uzRbFhP4O22kXf1gHT6KEg54PHwQOHKhxC8zH8cr4jG
 }
 
 EntityColoring(cloud_vision_api)
-!define cloud_vision_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_vision_api, cloud_vision_api)
-!define cloud_vision_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_vision_api, cloud_vision_api)
-!define cloud_vision_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_vision_api, cloud_vision_api)
-!define cloud_vision_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_vision_api, cloud_vision_api)
+!define cloud_vision_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_vision_api, cloud_vision_api)
+!define cloud_vision_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_vision_api, cloud_vision_api)
+!define cloud_vision_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_vision_api, cloud_vision_api)
+!define cloud_vision_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_vision_api, cloud_vision_api)
 

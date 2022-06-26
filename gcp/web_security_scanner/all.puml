@@ -7,8 +7,8 @@ rDqhPBEF12qzCUEqhJ4mk7XyCtOpXIH4v_yNncwlIzupwEn0p5tFi_l--QHHr8o4uZc02muNbcCo5vYj
 }
 
 EntityColoring(web_security_scanner)
-!define web_security_scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, web_security_scanner, web_security_scanner)
-!define web_security_scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, web_security_scanner, web_security_scanner)
-!define web_security_scannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, web_security_scanner, web_security_scanner)
-!define web_security_scannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, web_security_scanner, web_security_scanner)
+!define web_security_scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, web_security_scanner, web_security_scanner)
+!define web_security_scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, web_security_scanner, web_security_scanner)
+!define web_security_scannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, web_security_scanner, web_security_scanner)
+!define web_security_scannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, web_security_scanner, web_security_scanner)
 

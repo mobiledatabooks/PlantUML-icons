@@ -6,8 +6,8 @@ FOUSlWu8DRiDMNrDCD5mFbIoLj3pQB8N5KWEBUkm43oqMmUchTnISFM24PMxvFe5IMunzddTCLRqmC7V
 }
 
 EntityColoring(cloud_armor)
-!define cloud_armor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_armor, cloud_armor)
-!define cloud_armor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_armor, cloud_armor)
-!define cloud_armorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_armor, cloud_armor)
-!define cloud_armorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_armor, cloud_armor)
+!define cloud_armor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_armor, cloud_armor)
 

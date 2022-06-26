@@ -1,8 +1,8 @@
 sprite $producer_portal [64x64/16z] xTC53e0m44JHHIVS_y1e18UwpOzMNgGYuMFGoj3JippkhpNqqCoobz_T-ahNz-hVuI2Wwn6J5rqF3IzsFAnudUnu-grXIovTbYvpzFJqpyNhwSF79W
 
 EntityColoring(producer_portal)
-!define producer_portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, producer_portal, producer_portal)
-!define producer_portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, producer_portal, producer_portal)
-!define producer_portalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, producer_portal, producer_portal)
-!define producer_portalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, producer_portal, producer_portal)
+!define producer_portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, producer_portal, producer_portal)
+!define producer_portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, producer_portal, producer_portal)
+!define producer_portalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, producer_portal, producer_portal)
+!define producer_portalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, producer_portal, producer_portal)
 

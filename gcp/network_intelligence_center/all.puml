@@ -5,8 +5,8 @@ owpz-rlF7uZGywbKAdi
 }
 
 EntityColoring(network_intelligence_center)
-!define network_intelligence_center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, network_intelligence_center, network_intelligence_center)
-!define network_intelligence_center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, network_intelligence_center, network_intelligence_center)
-!define network_intelligence_centerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, network_intelligence_center, network_intelligence_center)
-!define network_intelligence_centerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_centerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_centerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, network_intelligence_center, network_intelligence_center)
 

@@ -6,7 +6,7 @@ Q49UKAT_BC2E_eBwh7xklwBE1HnIgWKlg3D7Vc0U_4HTk03NDbA2fxeGmtxwUNXNAutgOipY1RL5gFus
 }
 
 EntityColoring(managed_service_for_microsoft_active_directory)
-!define managed_service_for_microsoft_active_directory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
-!define managed_service_for_microsoft_active_directory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
-!define managed_service_for_microsoft_active_directoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
-!define managed_service_for_microsoft_active_directoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
+!define managed_service_for_microsoft_active_directory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
+!define managed_service_for_microsoft_active_directory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
+!define managed_service_for_microsoft_active_directoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)
+!define managed_service_for_microsoft_active_directoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, managed_service_for_microsoft_active_directory, managed_service_for_microsoft_active_directory)

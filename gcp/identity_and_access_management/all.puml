@@ -6,8 +6,8 @@ PoW_80Ev78gn6t3Q-yT33EsS4htu6m7ABpkmeFD3T6sR9y-nQiOt6oxhQBP_WJBPmlEP3vBxOXU-sBqD
 }
 
 EntityColoring(identity_and_access_management)
-!define identity_and_access_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, identity_and_access_management, identity_and_access_management)
-!define identity_and_access_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, identity_and_access_management, identity_and_access_management)
-!define identity_and_access_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, identity_and_access_management, identity_and_access_management)
-!define identity_and_access_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, identity_and_access_management, identity_and_access_management)
+!define identity_and_access_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, identity_and_access_management, identity_and_access_management)
+!define identity_and_access_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, identity_and_access_management, identity_and_access_management)
+!define identity_and_access_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, identity_and_access_management, identity_and_access_management)
+!define identity_and_access_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, identity_and_access_management, identity_and_access_management)
 

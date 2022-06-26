@@ -6,7 +6,7 @@ r_6v8IQuW65pT-FL0dMwxqYzgpk4VVFasBid1dNoFt0fdz0Zsgy3QDcuyq5zGBci3DQ5Tr93gbtxYQHU
 }
 
 EntityColoring(retail_api)
-!define retail_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, retail_api, retail_api)
-!define retail_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, retail_api, retail_api)
-!define retail_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, retail_api, retail_api)
-!define retail_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, retail_api, retail_api)
+!define retail_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, retail_api, retail_api)
+!define retail_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, retail_api, retail_api)
+!define retail_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, retail_api, retail_api)
+!define retail_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, retail_api, retail_api)

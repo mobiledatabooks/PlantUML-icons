@@ -6,7 +6,7 @@ iqmW1Iwz8tm7f_EVApXyV0o3myV7GBeyD-O_yOaX5cUUICo_uf6QeAdFVO4qpjwJ0ZHsV4lzwnK
 }
 
 EntityColoring(cloud_build)
-!define cloud_build(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_build, cloud_build)
-!define cloud_build(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_build, cloud_build)
-!define cloud_buildParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_build, cloud_build)
-!define cloud_buildParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_build, cloud_build)
+!define cloud_build(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_build, cloud_build)
+!define cloud_build(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_build, cloud_build)
+!define cloud_buildParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_build, cloud_build)
+!define cloud_buildParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_build, cloud_build)

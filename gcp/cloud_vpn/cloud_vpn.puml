@@ -4,7 +4,7 @@ D_o5wE6YTCNztWkUw7sfriDwxux_KilZXeVtuXZ-66_Td7wGyPYQ_aBIpKbAoZS5VzBsp8FRdr-mGDWh
 }
 
 EntityColoring(cloud_vpn)
-!define cloud_vpn(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_vpn, cloud_vpn)
-!define cloud_vpn(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_vpn, cloud_vpn)
-!define cloud_vpnParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_vpn, cloud_vpn)
-!define cloud_vpnParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_vpn, cloud_vpn)
+!define cloud_vpn(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_vpn, cloud_vpn)
+!define cloud_vpn(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_vpn, cloud_vpn)
+!define cloud_vpnParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_vpn, cloud_vpn)
+!define cloud_vpnParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_vpn, cloud_vpn)

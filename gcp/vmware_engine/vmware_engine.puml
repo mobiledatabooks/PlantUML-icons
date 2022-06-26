@@ -4,7 +4,7 @@ W6NMymAKPyuBeCc8vr6hntlNZw7zNn7tZhzES1rnsuV1nTtjBM21fWMq_V8iuRQ8DTvOjGC
 }
 
 EntityColoring(vmware_engine)
-!define vmware_engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, vmware_engine, vmware_engine)
-!define vmware_engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, vmware_engine, vmware_engine)
-!define vmware_engineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, vmware_engine, vmware_engine)
-!define vmware_engineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, vmware_engine, vmware_engine)
+!define vmware_engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, vmware_engine, vmware_engine)
+!define vmware_engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, vmware_engine, vmware_engine)
+!define vmware_engineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, vmware_engine, vmware_engine)
+!define vmware_engineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, vmware_engine, vmware_engine)

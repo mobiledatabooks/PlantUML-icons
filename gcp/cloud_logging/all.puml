@@ -1,8 +1,8 @@
 sprite $cloud_logging [64x64/16z] xTH50e0m40H17Fx_OTpTa-nstViuups7S4P0dnmptTFJcz_F8Aju5UCzVNBiWtvWfgVtMiRwy-Zv7n7_HR_aGWyK
 
 EntityColoring(cloud_logging)
-!define cloud_logging(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_logging, cloud_logging)
-!define cloud_logging(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_logging, cloud_logging)
-!define cloud_loggingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_logging, cloud_logging)
-!define cloud_loggingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_logging, cloud_logging)
+!define cloud_logging(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_logging, cloud_logging)
+!define cloud_logging(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_logging, cloud_logging)
+!define cloud_loggingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_logging, cloud_logging)
+!define cloud_loggingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_logging, cloud_logging)
 

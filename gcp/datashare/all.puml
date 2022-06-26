@@ -7,8 +7,8 @@ qlgXlvC75ZxqT_0PBgF-U0ycVzvV_rr_7VZPYtptjtcr04P_Moguh1vztF_S-dlbauuilh2blv_6LX-0
 }
 
 EntityColoring(datashare)
-!define datashare(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, datashare, datashare)
-!define datashare(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, datashare, datashare)
-!define datashareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, datashare, datashare)
-!define datashareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, datashare, datashare)
+!define datashare(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, datashare, datashare)
+!define datashare(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, datashare, datashare)
+!define datashareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, datashare, datashare)
+!define datashareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, datashare, datashare)
 

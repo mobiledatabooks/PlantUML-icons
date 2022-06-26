@@ -5,7 +5,7 @@ jQutC5n7Q7F0Q7lvjaT0w_HsXZpo3
 }
 
 EntityColoring(connectivity_test)
-!define connectivity_test(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, connectivity_test, connectivity_test)
-!define connectivity_test(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, connectivity_test, connectivity_test)
-!define connectivity_testParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, connectivity_test, connectivity_test)
-!define connectivity_testParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, connectivity_test, connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, connectivity_test, connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, connectivity_test, connectivity_test)

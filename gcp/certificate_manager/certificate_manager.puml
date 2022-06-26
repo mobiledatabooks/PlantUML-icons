@@ -4,7 +4,7 @@ fvrypdNm3Ut0IwFw-8yt-mEQF2ZbugrLUAoHVNJbMLUUAH-eKka1
 }
 
 EntityColoring(certificate_manager)
-!define certificate_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, certificate_manager, certificate_manager)
-!define certificate_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, certificate_manager, certificate_manager)
-!define certificate_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, certificate_manager, certificate_manager)
-!define certificate_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, certificate_manager, certificate_manager)
+!define certificate_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, certificate_manager, certificate_manager)
+!define certificate_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, certificate_manager, certificate_manager)
+!define certificate_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, certificate_manager, certificate_manager)
+!define certificate_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, certificate_manager, certificate_manager)

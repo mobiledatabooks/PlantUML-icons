@@ -4,8 +4,8 @@ xP873iD020JnrVt_XzCh8gliMLPbr14pN8h594cI0DYZRrWBp8U6bwzbFZHixu7kMpMJ_F7Sdq6GuaJ7
 }
 
 EntityColoring(standard_network_tier)
-!define standard_network_tier(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, standard_network_tier, standard_network_tier)
-!define standard_network_tier(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, standard_network_tier, standard_network_tier)
-!define standard_network_tierParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, standard_network_tier, standard_network_tier)
-!define standard_network_tierParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, standard_network_tier, standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, standard_network_tier, standard_network_tier)
 

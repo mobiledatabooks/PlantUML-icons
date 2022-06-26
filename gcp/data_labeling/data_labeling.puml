@@ -5,7 +5,7 @@ wVMBD-f9BEoVmlujdH_LywjsVZBOmzK3V4Nz_ghVd_Nxku5Vz7ufDb1zlrNVZ_Ntw_Uxkti2
 }
 
 EntityColoring(data_labeling)
-!define data_labeling(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, data_labeling, data_labeling)
-!define data_labeling(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, data_labeling, data_labeling)
-!define data_labelingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, data_labeling, data_labeling)
-!define data_labelingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, data_labeling, data_labeling)
+!define data_labeling(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, data_labeling, data_labeling)
+!define data_labeling(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, data_labeling, data_labeling)
+!define data_labelingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, data_labeling, data_labeling)
+!define data_labelingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, data_labeling, data_labeling)

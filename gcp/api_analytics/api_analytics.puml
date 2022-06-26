@@ -7,7 +7,7 @@ XhcYGd-_m6QpsVm3
 }
 
 EntityColoring(api_analytics)
-!define api_analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, api_analytics, api_analytics)
-!define api_analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, api_analytics, api_analytics)
-!define api_analyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, api_analytics, api_analytics)
-!define api_analyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, api_analytics, api_analytics)
+!define api_analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, api_analytics, api_analytics)
+!define api_analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, api_analytics, api_analytics)
+!define api_analyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, api_analytics, api_analytics)
+!define api_analyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, api_analytics, api_analytics)

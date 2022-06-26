@@ -7,7 +7,7 @@ anXm-ExUvPiwGEqH25qZhfVD2UDLHxJmMsimNa02_AQ5tmuDfFgIME76eB--2PU14nrSY2c3o07Lhde3
 }
 
 EntityColoring(bigquery)
-!define bigquery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, bigquery, bigquery)
-!define bigquery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, bigquery, bigquery)
-!define bigqueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, bigquery, bigquery)
-!define bigqueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, bigquery, bigquery)
+!define bigquery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, bigquery, bigquery)
+!define bigquery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, bigquery, bigquery)
+!define bigqueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, bigquery, bigquery)
+!define bigqueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, bigquery, bigquery)

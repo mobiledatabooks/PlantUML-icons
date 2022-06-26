@@ -4,8 +4,8 @@ jmO1bqF0vHWmEGTixWVqsrVWw_tqnJdWSWumzmB8tG1mAy3S3Z3t0y3z070_0DmE4FS3ubb0F0k8Xm7n
 }
 
 EntityColoring(asset_inventory)
-!define asset_inventory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, asset_inventory, asset_inventory)
-!define asset_inventory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, asset_inventory, asset_inventory)
-!define asset_inventoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, asset_inventory, asset_inventory)
-!define asset_inventoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, asset_inventory, asset_inventory)
+!define asset_inventory(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, asset_inventory, asset_inventory)
+!define asset_inventory(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, asset_inventory, asset_inventory)
+!define asset_inventoryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, asset_inventory, asset_inventory)
+!define asset_inventoryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, asset_inventory, asset_inventory)
 

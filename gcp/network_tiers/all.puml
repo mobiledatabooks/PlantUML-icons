@@ -6,8 +6,8 @@ xX_sQPPhrOC-hiNTG6UOdluZK8k7n_WVutXeQVsZg6cHyhKiS6h_5YTMDCUCbD0FvwWHY-eocEEEXGLA
 }
 
 EntityColoring(network_tiers)
-!define network_tiers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, network_tiers, network_tiers)
-!define network_tiers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, network_tiers, network_tiers)
-!define network_tiersParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, network_tiers, network_tiers)
-!define network_tiersParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, network_tiers, network_tiers)
+!define network_tiers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, network_tiers, network_tiers)
+!define network_tiers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, network_tiers, network_tiers)
+!define network_tiersParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, network_tiers, network_tiers)
+!define network_tiersParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, network_tiers, network_tiers)
 

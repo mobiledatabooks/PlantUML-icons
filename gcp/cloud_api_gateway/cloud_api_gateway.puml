@@ -4,7 +4,7 @@ xPU50S900CJgpVuBu-vS7YT8DUzQlJ5_c2DrQ9mEKeTOtnmpVypzTgC1z5doHINkI2NyFj3PEnTyWu_m
 }
 
 EntityColoring(cloud_api_gateway)
-!define cloud_api_gateway(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_api_gateway, cloud_api_gateway)
-!define cloud_api_gateway(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_api_gateway, cloud_api_gateway)
-!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_api_gateway, cloud_api_gateway)
-!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_api_gateway, cloud_api_gateway)

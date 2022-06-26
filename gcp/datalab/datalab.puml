@@ -4,7 +4,7 @@ bdnSV0CWVZjKWG8OcmsYlHW08F8pive378zFMUHmFD87gfbU7Rw6zNByg9jitx3h5yuV5t1w8te_VlqI
 }
 
 EntityColoring(datalab)
-!define datalab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, datalab, datalab)
-!define datalab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, datalab, datalab)
-!define datalabParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, datalab, datalab)
-!define datalabParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, datalab, datalab)
+!define datalab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, datalab, datalab)
+!define datalab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, datalab, datalab)

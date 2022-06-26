@@ -7,7 +7,7 @@ cizFHOFf-_aPuhA7Z7n-qmsVJ_U7XC9-V_Z3AdIPmLIyl_RxSoBk7zpVsVuW-Vx07-ulp_jJqAUG-lvM
 }
 
 EntityColoring(apigee_sense)
-!define apigee_sense(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, apigee_sense, apigee_sense)
-!define apigee_sense(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, apigee_sense, apigee_sense)
-!define apigee_senseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, apigee_sense, apigee_sense)
-!define apigee_senseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, apigee_sense, apigee_sense)
+!define apigee_sense(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, apigee_sense, apigee_sense)
+!define apigee_sense(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, apigee_sense, apigee_sense)
+!define apigee_senseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, apigee_sense, apigee_sense)
+!define apigee_senseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, apigee_sense, apigee_sense)

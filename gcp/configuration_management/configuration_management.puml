@@ -5,7 +5,7 @@ UQIzjJT_-SlhkcyyBqv_-pxfoPGdo-m25STdlFvyF_BnupzblInxoVhw0H5kNYS3VFuZhsi_7X3XDe2J
 }
 
 EntityColoring(configuration_management)
-!define configuration_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, configuration_management, configuration_management)
-!define configuration_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, configuration_management, configuration_management)
-!define configuration_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, configuration_management, configuration_management)
-!define configuration_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, configuration_management, configuration_management)
+!define configuration_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, configuration_management, configuration_management)
+!define configuration_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, configuration_management, configuration_management)
+!define configuration_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, configuration_management, configuration_management)
+!define configuration_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, configuration_management, configuration_management)

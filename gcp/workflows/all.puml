@@ -6,8 +6,8 @@ LE3lD7woyMa0B-ld6nqTSlxv4-dp9-B-4yNermHJ_G-wqVqCtbm1
 }
 
 EntityColoring(workflows)
-!define workflows(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, workflows, workflows)
-!define workflows(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, workflows, workflows)
-!define workflowsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, workflows, workflows)
-!define workflowsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, workflows, workflows)
+!define workflows(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, workflows, workflows)
+!define workflows(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, workflows, workflows)
+!define workflowsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, workflows, workflows)
+!define workflowsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, workflows, workflows)
 

@@ -6,7 +6,7 @@ Zfa7jfq4aJRXVth7Oly8DS72ysp_ehZoLKEOSg_NrtlkQRv_Am6EWYky1DVR3vldb-RvgNb-6ytpO-Fy
 }
 
 EntityColoring(user_preferences)
-!define user_preferences(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, user_preferences, user_preferences)
-!define user_preferences(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, user_preferences, user_preferences)
-!define user_preferencesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, user_preferences, user_preferences)
-!define user_preferencesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, user_preferences, user_preferences)
+!define user_preferences(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, user_preferences, user_preferences)
+!define user_preferences(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, user_preferences, user_preferences)
+!define user_preferencesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, user_preferences, user_preferences)
+!define user_preferencesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, user_preferences, user_preferences)

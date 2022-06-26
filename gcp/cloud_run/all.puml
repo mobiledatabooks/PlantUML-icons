@@ -6,10 +6,10 @@ ijlwYk-pA-_FIFQ1lkAJtGmk02jf0vkTlcmJtsLduMuJd-nkZjfeEFtjlF81
 }
 
 EntityColoring(cloud_run)
-!define cloud_run(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_run, cloud_run)
-!define cloud_run(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_run, cloud_run)
-!define cloud_runParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_run, cloud_run)
-!define cloud_runParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_run, cloud_run)
+!define cloud_run(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_run, cloud_run)
+!define cloud_run(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_run, cloud_run)
+!define cloud_runParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_run, cloud_run)
+!define cloud_runParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_run, cloud_run)
 
 sprite $cloud_run_x64 [64x64/16z] {
 xPA9QiOm38Ddkutw_Y-yguWfK8FClUqNfqlbV5_8sz_8An7xEEvdQYTpkg1ADqJMkCyD76SEcTyRWcELxK3YxyWuSoZsTOnfdmBqoU45LAhFm8455MWTV04w
@@ -19,8 +19,8 @@ ijlwYk-pA-_FIFQ1lkAJtGmk02jf0vkTlcmJtsLduMuJd-nkZjfeEFtjlF81
 }
 
 EntityColoring(cloud_run_x64)
-!define cloud_run_x64(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_run_x64, cloud_run_x64)
-!define cloud_run_x64(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_run_x64, cloud_run_x64)
-!define cloud_run_x64Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_run_x64, cloud_run_x64)
-!define cloud_run_x64Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_run_x64, cloud_run_x64)
 

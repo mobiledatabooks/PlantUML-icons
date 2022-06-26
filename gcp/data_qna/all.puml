@@ -1,8 +1,8 @@
 sprite $data_qna [64x64/16z] xTIr4SHG00DHpNpil-4xCxFCrkOlNRHJoY-9qNdocs8z3l5nMMC-BcsPbpTv7_F8UvNtUU_mylA08JqCySyiGteOqiEG7eRmlHXUUsoEv20vI0wIW-14Ilq1
 
 EntityColoring(data_qna)
-!define data_qna(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, data_qna, data_qna)
-!define data_qna(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, data_qna, data_qna)
-!define data_qnaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, data_qna, data_qna)
-!define data_qnaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, data_qna, data_qna)
+!define data_qna(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, data_qna, data_qna)
+!define data_qna(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, data_qna, data_qna)
+!define data_qnaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, data_qna, data_qna)
+!define data_qnaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, data_qna, data_qna)
 

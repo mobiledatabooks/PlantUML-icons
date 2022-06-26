@@ -4,7 +4,7 @@ xT853iD030NHfP3lVz_Yg2ie-RlSZC2YboobPxPMSaJNGxgc0AU09bsJuo1p9QB0pocWITSKu7HPbujc
 }
 
 EntityColoring(dialogflow_insights)
-!define dialogflow_insights(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, dialogflow_insights, dialogflow_insights)
-!define dialogflow_insights(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, dialogflow_insights, dialogflow_insights)
-!define dialogflow_insightsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, dialogflow_insights, dialogflow_insights)
-!define dialogflow_insightsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insights(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insights(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insightsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insightsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, dialogflow_insights, dialogflow_insights)

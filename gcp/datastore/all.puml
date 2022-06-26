@@ -5,8 +5,8 @@ xADpSEoD_K6lLjr_VfecnM-MPTa3
 }
 
 EntityColoring(datastore)
-!define datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, datastore, datastore)
-!define datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, datastore, datastore)
-!define datastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, datastore, datastore)
-!define datastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, datastore, datastore)
+!define datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, datastore, datastore)
+!define datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, datastore, datastore)
 

@@ -7,8 +7,8 @@ aNR_1DcT5fQFEmXIUAS8tzTl4rv_VqkR7l_0_V6dr_z6_-_z_U7X5m
 }
 
 EntityColoring(ai_platform)
-!define ai_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, ai_platform, ai_platform)
-!define ai_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, ai_platform, ai_platform)
-!define ai_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, ai_platform, ai_platform)
-!define ai_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, ai_platform, ai_platform)
+!define ai_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, ai_platform, ai_platform)
+!define ai_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, ai_platform, ai_platform)
+!define ai_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, ai_platform, ai_platform)
+!define ai_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, ai_platform, ai_platform)
 

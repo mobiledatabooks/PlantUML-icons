@@ -7,7 +7,7 @@ xh2FuVHf1N1gqg-vLpPHf4YhGWrW_mB_-G8
 }
 
 EntityColoring(cloud_optimization_ai___fleet_routing_api)
-!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
-!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
-!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
-!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)

@@ -8,7 +8,7 @@ rIPwy4wCDkLd8m0x3opCLn4q6bsOBoC0gdpHl14g65zNPDw_rlpBOkirzJVSl_VvuMzwVkdpqv-eN_eT
 }
 
 EntityColoring(advanced_solutions_lab)
-!define advanced_solutions_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
-!define advanced_solutions_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
-!define advanced_solutions_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
-!define advanced_solutions_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, advanced_solutions_lab, advanced_solutions_lab)

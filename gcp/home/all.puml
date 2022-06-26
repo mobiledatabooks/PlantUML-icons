@@ -5,8 +5,8 @@ mFU1LHAyyhAUNorq5Sa3vrxrigfS30U-zXWvhy_Aky5ZbRTVwgUVVlhfzPghO7oHaH-oUm
 }
 
 EntityColoring(home)
-!define home(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, home, home)
-!define home(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, home, home)
-!define homeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, home, home)
-!define homeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, home, home)
+!define home(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, home, home)
+!define home(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, home, home)
+!define homeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, home, home)
+!define homeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, home, home)
 

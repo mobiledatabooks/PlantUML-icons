@@ -4,8 +4,8 @@ xSl73GCn4C10H-BwhzWlvusuA6dv9UQqVjLLQAvddWVcUEPvvdb-_LLAtVpwQyepppFFCy-Jy5AYBs-Z
 }
 
 EntityColoring(cloud_data_fusion)
-!define cloud_data_fusion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_data_fusion, cloud_data_fusion)
-!define cloud_data_fusion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_data_fusion, cloud_data_fusion)
-!define cloud_data_fusionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_data_fusion, cloud_data_fusion)
-!define cloud_data_fusionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_data_fusion, cloud_data_fusion)
 
