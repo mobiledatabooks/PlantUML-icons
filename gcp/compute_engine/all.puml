@@ -1,0 +1,11 @@
+sprite $compute_engine [64x64/16z] {
+xTK34iHG50NHOTVT_uQ7dx7vkX2U69Ufi_ZcnlBHOtlpzqvDxStZwhPzkSmNYxvuArHONgZDQvpNEAznNgqULz57hhxtB_9nNkCyZF808po_wdsnWiSryFuJ
+6kGXDi2JrTjJgDQF_twON___QJuMRuuAenVN8RpvyLbl
+}
+
+EntityColoring(compute_engine)
+!define compute_engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, compute_engine, compute_engine)
+!define compute_engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, compute_engine, compute_engine)
+!define compute_engineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, compute_engine, compute_engine)
+!define compute_engineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, compute_engine, compute_engine)
+

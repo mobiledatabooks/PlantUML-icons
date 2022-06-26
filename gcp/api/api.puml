@@ -1,0 +1,10 @@
+sprite $api [64x64/16z] {
+xT653GCn40NH5MMK_WiEvvZDzX-1yOdM6ayfHTVsBRDcjxVblniUZdmDvfcr_3EijtVTVl6sw_wkEr_pE7bmyhXvAlJVcKnzTtd4i-GvxDdsTibpsBFjRSUp
+v6VwmlowqdjvPZbw-MPJIZq1
+}
+
+EntityColoring(api)
+!define api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, api, api)
+!define api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, api, api)
+!define apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, api, api)
+!define apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, api, api)

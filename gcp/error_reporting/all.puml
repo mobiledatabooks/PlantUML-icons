@@ -1,0 +1,12 @@
+sprite $error_reporting [64x64/16z] {
+xTU73eD030FGSll_VxWhL-4s82irGejeiPxPaBiTN5Ub0fLWcSsnoWsgBiRRhFmNNzObESBRv1KMvG2VfmiS0ZZFZli0palxhSnvhRNCXVLJ4C1ufklZd6n1
+EDc6SB8LuNoxjB4uMTdCiX6GLbyyB_rToR9wyG45lUTZZ9Lt2DZoZ8_X0xol-nm3AlEUMm3rm0To2E0-6PzXTNA8v1xtrdhS-u2unu2uzm5nZm4nxmAgxCy_
+VkJdtp_avps_-llZtzyHV7zz0Fb-qEyNy1rFlfzVF1_r_LR_7-h_I_n_YlzliNyG-nUnVnBxDx5_5FjNkN_M-tTz_A2FN_JnarvNFG
+}
+
+EntityColoring(error_reporting)
+!define error_reporting(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, error_reporting, error_reporting)
+!define error_reporting(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, error_reporting, error_reporting)
+

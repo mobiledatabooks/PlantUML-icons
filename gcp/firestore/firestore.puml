@@ -1,0 +1,12 @@
+sprite $firestore [64x64/16z] {
+xTJRZWGX28JXfX2Pzt_XFNI6FVxPGJTprtN_9L8gnpDpnVGlxHxXjgdbRvbl6RPpS3yppmnjwF9dGajZ-wUlO14yDdagWW_EdefWpPwAuB7PGn4mTiDp4OvU
+Xus9-UKXTXyhThpiospHyAWh6YjUT3kZwmrq5V7G2pGKWPur5S5UyA27e0ZoClmEzE3DuvS7NU-N7howMu0VV7yBmCzlwKhZvyFOuAa87fiz5S47Pmz5W6vu
+BiAS4vCIJkyNTuZ6xluI_Fo-D_ZvRI-3dz_sClxvFI-mLSHZR-2W2FO23KMW5sek0ltVPavzBIAEbVZCjqm_Tc8ZytOcSzYgLfpwdipGcYzToTlKaYzOoKpV
+zyij9Xn-qsU6DGJxXCjhUHwxxtdilazwC_tmsFtuySnSUGK
+}
+
+EntityColoring(firestore)
+!define firestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, firestore, firestore)
+!define firestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, firestore, firestore)
+!define firestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, firestore, firestore)
+!define firestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, firestore, firestore)

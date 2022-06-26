@@ -1,0 +1,12 @@
+sprite $data_catalog [64x64/16z] {
+xPRRjeCW34JBX6Jo_p_S2yqwSfP4qBwwtshSCbpB8-Vcfk0d7K8hFzWY9El5wFA1xgHSq87mton7GD32TxxsjHnbCF8PQAeN-fUn7qMMpBSrtn8TxOtZ_EqN
+3fgdlgaZl-eRvW6arJ2SF_sNSRmUkBtO-FF9kWtPDy50hzoDBPfFxHyM3jPJzhn0Q7BKpYmNPDBF09wCosoS0oJTIWSAq-4Bye7AkvMJJ-1tfikyUIO3PMHT
+oLyvNi3Gi6SKnL5LQjuq5ixSwYP36p3NCZsnrPs6OScShBCJMzsTr9tT_CFJNCBVh-Mo-Kuk-TWb2zzN_DkNypusdyIZf_Df-G8AdzGo-hPDBmD5e4uhutJc
+yosEIYJVXgriyNX5If-gAoq1wtUGnOPSHftkw8v6kfxnZVqyCPcr7FW7quObjvRvAH_aVqtpgrJ0nqc4td7X1chii2itzuxnuDtSl
+}
+
+EntityColoring(data_catalog)
+!define data_catalog(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, data_catalog, data_catalog)
+!define data_catalog(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, data_catalog, data_catalog)
+!define data_catalogParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, data_catalog, data_catalog)
+!define data_catalogParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, data_catalog, data_catalog)

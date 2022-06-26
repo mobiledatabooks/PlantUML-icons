@@ -1,0 +1,7 @@
+sprite $administration [64x64/16z] xTAr0O0m04HHNFPVc0QtkFzh8FBYLKNwIyPB_7WyVllVZ9d7v_5-vhd_Z1t_VtxuyJCMlEBzvUh_x-_PPi7Z2tv_t3_l3uyd2m
+
+EntityColoring(administration)
+!define administration(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, administration, administration)
+!define administration(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, administration, administration)
+!define administrationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, administration, administration)
+!define administrationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, administration, administration)

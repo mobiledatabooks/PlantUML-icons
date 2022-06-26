@@ -1,0 +1,14 @@
+sprite $api_analytics [64x64/16z] {
+xPHdaiCm28MNplrFl458dcUFq_vcz6q911we__qQcyrcGmpGztfcEM3-eYijKmu8eyyHZupCC5u5KCuM6P7XyaGT4Jc8D882RViHZRYhODMvo67mQ5doOKcf
+ktyPTYUFCARgwfNIiWSjpmnNfaVKygQ0riG8l0pg6OoFydL5EQ8yX4eElYo_stiapfdAf-legNU8ZX5mzHh_HZy8KrnciEghknlFRmogU--Wk-kQBiXvkke3
+XWoepXtLEG36rGlhXARipAIEqZHNbCiEN45hJtr2lUHy6XsjgBR2dklvJi_FzTgUOF_J-8EWlwoE1p8N61h8N3zOBFK6DsnrwC6IjRmNQ2HEsuxjCOBLRI1R
+LFlcO0DPfujL1VCRF65D7tWyNkTqnUsV1JFrVC3bSXq8vLqF6zPttBQMOzVxiGgobxEgOO5IcJcy49VNnLND4-G0sT15_zThM35gzEJvR32EzPkQvXD8r4oV
+XhcYGd-_m6QpsVm3
+}
+
+EntityColoring(api_analytics)
+!define api_analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, api_analytics, api_analytics)
+!define api_analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, api_analytics, api_analytics)
+!define api_analyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, api_analytics, api_analytics)
+!define api_analyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, api_analytics, api_analytics)
+

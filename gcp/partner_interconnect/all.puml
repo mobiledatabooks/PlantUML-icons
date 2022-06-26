@@ -1,0 +1,8 @@
+sprite $partner_interconnect [64x64/16z] xTN50O0m40117Ffl67U7UBBxdq_aBh8e8YfkUi4JT_snBmPVhIgtlbhtnbVwFBuOUkkB8TUznVU7ZxU-kFRCt_S-XFtzmbiH4JK
+
+EntityColoring(partner_interconnect)
+!define partner_interconnect(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, partner_interconnect, partner_interconnect)
+!define partner_interconnect(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, partner_interconnect, partner_interconnect)
+!define partner_interconnectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, partner_interconnect, partner_interconnect)
+!define partner_interconnectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, partner_interconnect, partner_interconnect)
+

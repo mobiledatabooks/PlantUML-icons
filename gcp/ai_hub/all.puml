@@ -1,0 +1,13 @@
+sprite $ai_hub [64x64/16z] {
+xTFRKWGX38JX2O4mx__45jer1TMussOzQwxv_Zq4Ze-S_p5xI1VtOe_eCSNoEbc0JXRWlwPWbY_0P0iuhnVsMY-mJXUirTsPVQ66aOyeXJKNXZxFdJUwyRHD
+wDVySPIwQFeVXhxbBTggrmBqBH-BNWjsgdx__gnhdhTPeyWUs_HrOs_r-0UW4nxR73hjeq4lllTGFVZaXtQWX8TE-XCwww4LxyR-ccftVOJFlfT9ztxFjnZJ
+uB6nImllhxmK0jeNBNWKOgCrZm9frQD0Ml9sATAQZ-OxhVj0WRJghuAJbZmA5LhmuRCtRwC0BVa8B_Fx6uMjfli_NLX-lyp3WQX0NjKeaDSr2kHbZGAymUiQ
+0zySNjIypLQ6JsYi_daoUYvazBpDj4O1EbrGT7x-vma
+}
+
+EntityColoring(ai_hub)
+!define ai_hub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, ai_hub, ai_hub)
+!define ai_hub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, ai_hub, ai_hub)
+!define ai_hubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, ai_hub, ai_hub)
+!define ai_hubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, ai_hub, ai_hub)
+

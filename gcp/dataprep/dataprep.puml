@@ -1,0 +1,12 @@
+sprite $dataprep [64x64/16z] {
+xTS5Wjim50RXH__8zxzmGG53IL6wx5a8VcQq5-ii9PNDL-r7J_bbuIb_-lQmYgpqkr_QFOPu8K5S_IuVu0cP0f_qLwcQyuxwCa1luqsacOkSz04ga4rw2m7b
+lrd_tGyKuPljJ_TgQllzCljVLANRMXRBklmFuKSkG8HTSw6s_B4M1rwGKTo7AnGQzquVTIhDxZj0jM4Vq0T3MI-LCpvMNyE-1zKNMgppyv0FG4ZhyaGiWtxT
+x-nUGllp-b_zceVlNslT_uxLUVxyKvuPgr_evJ1F97GyVZBEgQpZ-M_SGrvtdodlq1_HjFV-CE7N_T1AEUa3L48swIrXUltrFBRRJwEN7t7_EVsFtk3-QRop
+xm
+}
+
+EntityColoring(dataprep)
+!define dataprep(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, dataprep, dataprep)
+!define dataprep(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, dataprep, dataprep)
+!define dataprepParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, dataprep, dataprep)
+!define dataprepParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, dataprep, dataprep)

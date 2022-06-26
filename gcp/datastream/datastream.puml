@@ -1,0 +1,11 @@
+sprite $datastream [64x64/16z] {
+xPPL0eGm44C7gUN-zrtt3LF1vVsWBmsER8C3r_QnSQEd3d-Thm6uCX-V2ncw9tvEWk4-oli_oFGVPKe3M68neMT0_mPzVLbzWQE08G4y446x2-aAtfC7LC_5
+9ztFltqYLnoKbulks_yHGVsW-K-dxVQDwak5AuRu2SV_FWbnNpGQxULkLPrMJSFQXWLKgVeLASVUwAclSVXZU9ld0trqtEYXq_U7hNlwYNhWlf54MkfBEiIV
+zb-fAj4F3iu
+}
+
+EntityColoring(datastream)
+!define datastream(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, datastream, datastream)
+!define datastream(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, datastream, datastream)
+!define datastreamParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, datastream, datastream)
+!define datastreamParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, datastream, datastream)

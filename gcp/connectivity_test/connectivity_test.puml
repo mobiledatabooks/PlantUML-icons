@@ -1,0 +1,11 @@
+sprite $connectivity_test [64x64/16z] {
+xTPdZW8n44HXoshakl-5D-VbuMUHG_tcSnSmqtAxo_JzUBAVpXu7ZEpbyvdzTB9PrvNiCtvFlHVl1nlU-GDHrPSzQFAigmalgdiFcZphqPRzWE7IWvO-m9sl
+kSuEBtJOPyeJzjqCP_z3TzBivzL7bEVgoXTfvtdxiXVLbH-adJVRbxtQlkpDzWKl_tBqGbVRuKrrzgQwyxnzlUVjwprewGFS-G8j_KJlVrUejvpXcgFq-Q-7
+jQutC5n7Q7F0Q7lvjaT0w_HsXZpo3
+}
+
+EntityColoring(connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, connectivity_test, connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, connectivity_test, connectivity_test)

@@ -1,0 +1,11 @@
+sprite $cloud_data_fusion [64x64/16z] {
+xSl73GCn4C10H-BwhzWlvusuA6dv9UQqVjLLQAvddWVcUEPvvdb-_LLAtVpwQyepppFFCy-Jy5AYBs-ZxNrvlorz-VBJgsFwykKn2dZCN8-Jut4pFO4CJoZL
+4qpnX1CzYVxzYLJJF0wdfQeU
+}
+
+EntityColoring(cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_data_fusion, cloud_data_fusion)
+

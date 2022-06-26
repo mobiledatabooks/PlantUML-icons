@@ -1,0 +1,10 @@
+sprite $release_notes [64x64/16z] {
+xT9L6a9134FXuDd_Xd6d7naQu5hF-pzQ3AAA9hSzJKxczINuVfDUOU7ym-NmSn9nSuPTlVW7ygt7pJFXvJ-onVDIolE-pmSiUR5uXKLkmEF32z_-_j3Hzn1U
+pA7huNcCsOjSxv-Vntxaouk6uVbG-Q7yN_crZ8SMeMyFGGlJm-I0mRkhsW4
+}
+
+EntityColoring(release_notes)
+!define release_notes(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, release_notes, release_notes)
+!define release_notes(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, release_notes, release_notes)
+!define release_notesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, release_notes, release_notes)
+!define release_notesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, release_notes, release_notes)

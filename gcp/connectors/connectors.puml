@@ -1,0 +1,13 @@
+sprite $connectors [64x64/16z] {
+xPPNWgCX38CZsI3kV-4jwKemFzkhdcQIV4R8jDDlgly2oGYfzmnyEHmNQGn9eoU-5BxpPsbqRk9dslYpfAqAY71Uqhr2VidW1CufPjFGjKB7vipfLLEwMk2E
+Txn_bT9X0HlxLMXN2pp0KNv_TO1bTAjmfNE81tWjN1naxHu7xLKL0Hqd8uXRJqdBGBre7QtSZRSlcio03__o_uNtmfWRCFSh_fJd250CVyoVD6c1pRxWpO2S
+j-7h_CxYU9i0ddbyLcHc402OduNFUfw0Z_RiiJzhF4bFBLI-yTZbKwyTZ6t-leY_XR__u_7lylZ5F8t_vlo-lN--Vbh5Tri_vVhDWbVpzLi5m8eFsp_r_gru
+Ey4MvqTCUUNY_F0EjYc_Eh_S02UyQEVd-loEDrxXv_V1_K7dTSUZl07z-aDxy597VN_T2IzmOhlowYpkJnTVRr0qQQYXkB-Ftm_f2ztV3tK1Eb-yN-e8o1cV
+zdvQEYXummjnoTyRMGirBsjSANBAD-s-m84P7mLToFbQQzxc_Flflpu2
+}
+
+EntityColoring(connectors)
+!define connectors(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, connectors, connectors)
+!define connectors(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, connectors, connectors)
+!define connectorsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, connectors, connectors)
+!define connectorsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, connectors, connectors)

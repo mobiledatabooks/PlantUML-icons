@@ -1,0 +1,12 @@
+sprite $cloud_translation_api [64x64/16z] {
+xPM5Wkj024K7x_z_yKk8y7Qet7KzgvL3238TZJ_-K7DtUeNltykd2LjzfeaxbuFukhwzpcUvIKRMZV42Lh-9E9oDVDqWsSjryWKP25L8UiKSPxNRGnnzKY-h
+o-C9LC7aUPSlHogMlsHWdEk_bXeoCKPZw9IznWfZ9RGXFXKlBWjXu1sOJvFBwLy2x44Yex3T5snfvjPHN99mR8hcoT7Lpny2zUp2YSUQ--eheBS0dBNVea1w
+1QZgyT3y0-X6uWbLysEhOXYYZ_5_05aztVC8I3y2s5azsgSevBxUzvVYR7p-1-bx0DwR7r9pG3S7F_L2zlHhy2ahWUY9I3M_1Ya0VLwTsCd_UJIawxNv4s7F
+-QYHoR-rH9fwnpFbukOf8ACeA0KlQWGWilaybvCmkLQdu3e50BWD378Az6px7M6qQjKfW21jOMkTiVGNUaqMPFpnnpy
+}
+
+EntityColoring(cloud_translation_api)
+!define cloud_translation_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_translation_api, cloud_translation_api)
+!define cloud_translation_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_translation_api, cloud_translation_api)

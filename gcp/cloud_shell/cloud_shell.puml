@@ -1,0 +1,11 @@
+sprite $cloud_shell [64x64/16z] {
+xTK5KWL1303HfBDs_mlZf1YXGYOuTEcNjpeYlwB_5EpDWNRQqZL7i8NQqvSkW1NFgrwLadzu7HN_41N_aBBgFLOysWpCXFVQ8oIz_-nfsiUtqVhu24BWmsb6
+ndiKlK7HIy6ZbVjlNw4bFTtR2tmmUZA-rUdnJst-QQFpllqUB-ULuMy9J_2tSFqlUE_hVTltzFNzNo2hGLwMzzAcIfVjdccVn75vo4ASp_pyQru1sqvlQrvu
+tBOVG_kMyCUa7-HjdsJo-_hl5W
+}
+
+EntityColoring(cloud_shell)
+!define cloud_shell(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_shell, cloud_shell)
+!define cloud_shell(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_shell, cloud_shell)
+!define cloud_shellParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_shell, cloud_shell)
+!define cloud_shellParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_shell, cloud_shell)

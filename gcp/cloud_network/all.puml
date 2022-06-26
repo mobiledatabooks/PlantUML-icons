@@ -1,0 +1,12 @@
+sprite $cloud_network [64x64/16z] {
+xPT5OiH04CIQ_VyNXrDcgacMTMvfqGFokBnGSpVbTVz2URqfOB--SRw3Llywxrz__T2cG5JoWOYieWFPTHM50EEd843w290-0goF0EiZmFe8i3u2fByVKFj0
+PKp0Hm1pOspxKKCWC4Sygv6EkGLzF-0hSpuaLl4X0rr7Ugqo2gW0OtnhzLVUVvv__pBgRk039XlbBn6o3kQcsohIKPNhFkRCfcNemu2QwT4zMJyGGG3Ft-BS
+EdXCuPy30VXa03uRWCy6uBC1-5oW53xv3XfENu77ZGrau_dFN-U_Fpc0Q-lzuN5vyGu
+}
+
+EntityColoring(cloud_network)
+!define cloud_network(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_network, cloud_network)
+!define cloud_network(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_network, cloud_network)
+!define cloud_networkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_network, cloud_network)
+!define cloud_networkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_network, cloud_network)
+

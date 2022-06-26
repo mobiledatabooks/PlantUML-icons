@@ -1,0 +1,7 @@
+sprite $trace [64x64/16z] xTAd0G0X0C30Dm_iFp6QtdlEn-Lh1s5PsjFJFmGGOIgigQUdlnAGz__Idfw-7JG
+
+EntityColoring(trace)
+!define trace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, trace, trace)
+!define trace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, trace, trace)
+!define traceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, trace, trace)
+!define traceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, trace, trace)

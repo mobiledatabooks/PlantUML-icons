@@ -1,0 +1,12 @@
+sprite $security_health_advisor [64x64/16z] {
+xPI9SiCW34JH2Wd-_uihDw7UXA4HpbmzNiymVjh5Lrdopp-eaEkschlgnGcYVg07k53S_VHtIy3SoT-R87hQRaf8ngxETYn0DLq2HdP52NOcLBRvGD009FoZ
+ECCbNlj6X_24d6_h7IBZr_8xVCDRFfg_vRVMCVa8FUTRwtC1GI0P7wq7YwY47-rhQtxL3xSMepDW4rNNFZwZvInGsumj_H1R95E1rljtlesr7Xn_edqWunBK
+TbkOdp_scQzrb60iOF4ML7lYde5R0Rt75oK_XRME4J_yf3eAs1alBtsj0H_XhIFYSuzF-7uWLA3rSJKosnS_U2hGELuJTx0_d06Af_eBC1UWtIUkdirdWEDZ
+SgQ0yKH9ndE1AKSIkwTBuCz7AiLdBe79f5DyOWSc5tJUWOFsllNam6_eeovbTu1L29JqpG61advb0EbRI6KVPH_Oy27b4gXcYhNzppyV
+}
+
+EntityColoring(security_health_advisor)
+!define security_health_advisor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, security_health_advisor, security_health_advisor)
+!define security_health_advisor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, security_health_advisor, security_health_advisor)
+!define security_health_advisorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, security_health_advisor, security_health_advisor)
+!define security_health_advisorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, security_health_advisor, security_health_advisor)

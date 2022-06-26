@@ -1,0 +1,10 @@
+sprite $cloud_monitoring [64x64/16z] {
+xT9LWW9140JH7i_xNtXbD91sd8eLB5zzuPwSPLbZGUH5FSgRxueyXqMUktBltVWztva_vyZl-K6BvzA0LTGtRWvSQZ4BURuFBir7a_nivl_W4eOU3xximN4W
+x0y3pWDnFnrxpV506_OE2E50X-tL5CZ5Kx0YpZoe9FDL1ng7-gjDS_tLN4AXx-bd-qbdzNbU5xbNoxAiNm
+}
+
+EntityColoring(cloud_monitoring)
+!define cloud_monitoring(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoring(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoringParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoringParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_monitoring, cloud_monitoring)

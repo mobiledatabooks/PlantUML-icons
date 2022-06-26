@@ -1,0 +1,13 @@
+sprite $eventarc [64x64/16z] {
+xPU7Tgin28EB6EBzNxZB9GliS_UiEXFq6V0uyV_qP-fJekR1LuMRojV25aaotqKoGxw44iYR3v5Su58chIo0x73ecx1eCXbkh_9WikXb6N4jHIOpRdkMHKWv
+SCBLI9D3XZP0ZOsF9aPwXR2SEWOh2JfRwIkLDBumd7Zq53t_r_DLL2kkfP3wEtO7e9eS94SBz4FR3MQcfS4INlmE9tsF8pCKYg87F9E0RYp1P1ksuTkmPDA-
+0c_nStelVAT8nbGM82DkqShNHiFZLOvMFCYygrQPAQsdA1K-fglsMyznLU4bFinsiBMlSQCox_oHz4VBhRolHyprb11tGb_kCw_tlFvA_klhx_Cdz_mqV-Vr
+iwzPFsVoi7rSdlh-EUzV9nk-tx-I9Dg1zOLRuOTqOTDv5xNnxX3CUAXemdUIljm7lCkg_A_7AtsC0G3Iy6OnZd7HfMXujyGKAyKE1muNcFL-YywMy_tbwp-_
+l_x-y1lkBxZXvUlx5-tzp_C_qaPUBOVjKsD3RcD1PhgMnWmhUN7tzsTcCWDzz_JzlsIylRyl-ivobZm-FvXy_VDB15yLOLhmdwPFlG
+}
+
+EntityColoring(eventarc)
+!define eventarc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, eventarc, eventarc)
+!define eventarc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, eventarc, eventarc)
+!define eventarcParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, eventarc, eventarc)
+!define eventarcParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, eventarc, eventarc)

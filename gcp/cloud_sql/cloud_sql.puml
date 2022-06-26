@@ -1,0 +1,12 @@
+sprite $cloud_sql [64x64/16z] {
+xTNRhW8n28LXORKmx__2-u3PwM4vEBZZdTn_lqbBnzixvpEAV-bkRlggbcPcXrEXe7_ySVZHzKKTFWfIqZ0RFWhUhXT2hpuA5tMtQVoe5NJHrhel1TIq_9n5
+F-Q29GLX7T6j8EVBEWNcErTp7xwTUaNhf6DWVjTkYSVFDDOnyBlEVHHEZgY5VkwXakv5xkyZZtJ1GuNsugaNW0gaBTaWKN116c_LvSBGj1VN2ZNDnr3H8bmO
+6dytYMJ_gR0VEaQ8_RmvElicqnRb7heKPXrxa7igaCxzLX1jkkdSZmBzdR3FLqT9b_UVD6rHkdjncLWrYEI5vEbUEKRGqqr6k03MekS_h5GWtVBxr-qgjaF7
+y_sHfK0wzrIOTRTBVYwWWpx2gT-V8EdCAwX0EbiYMl-73q0Adt_MMbf_hMakT7fyjK9oRiae-zY9Ue6URh5GqtoPf8k5JbTMBDpUEP_v1W
+}
+
+EntityColoring(cloud_sql)
+!define cloud_sql(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_sql, cloud_sql)
+!define cloud_sql(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_sql, cloud_sql)
+!define cloud_sqlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_sql, cloud_sql)
+!define cloud_sqlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_sql, cloud_sql)

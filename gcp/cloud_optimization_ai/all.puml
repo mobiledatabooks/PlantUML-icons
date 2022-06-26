@@ -1,0 +1,14 @@
+sprite $cloud_optimization_ai [64x64/16z] {
+xPPRrjiW38IP0IJlVyN52Xn79rWbfYzj_-_5rv56tDC_p0zWpYJmL9y7n8xUu4F_5m_B0EYhs322j1c1wJ7uBW2OKbRDpi9o01QHbBJXtYws0PfwebyDG35u
+td0oeb9C5gFmRaXYGLuGzC9lpLVUXu_x02R7DNtndO4gGqvHOzQ42DsReAeUXchzCC0eVKaDKPDQ49KF0r7riEodMagHCu9tmFi2Sa_FKoHuXJplwVMyqPTU
+lUXbsZ_4r9Tzd2b7Yl4KmJvHfM6FBgFegm3KIgjIbLwlZQwlziEXvQsgzfYxk_7thdxkdxNYthyqBly1y_Q3kLjXtdzi-X9ibEDXCduEzi6Hqo2O4_FnEyRs
+89WJq_bJelBzdF3pzwXkPgykQnGrgebG9-cZLSMlNwXHzGs6onhhS1yRYBOZttVh2pkB1F9mQsBVn9pvq00dqpBQZk80Gr-OLg0_98tp0v4MuTuXQGJWymZu
+KoUzJ63BmeOHvZSsgmZqCG1f_lzXVlW5
+}
+
+EntityColoring(cloud_optimization_ai)
+!define cloud_optimization_ai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_optimization_ai, cloud_optimization_ai)
+!define cloud_optimization_ai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_optimization_ai, cloud_optimization_ai)
+!define cloud_optimization_aiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_optimization_ai, cloud_optimization_ai)
+!define cloud_optimization_aiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_optimization_ai, cloud_optimization_ai)
+

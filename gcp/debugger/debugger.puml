@@ -1,0 +1,10 @@
+sprite $debugger [64x64/16z] {
+xTOr0iKm30DGVoZu_WSkBEKgpDOQlILC91aEiUXwy-B5C-Qiz0pvez_3Qm07mw2XpN47Szp27FSm1qrTVkzs3rcvPfuzwUV9Kp0_70ByhLkZvpKlwx-c9Y_h
+7_lykTyVxlUN-_tfVd-xln_kxvVx--dwVZly7vp_B-d_N-B5IsO
+}
+
+EntityColoring(debugger)
+!define debugger(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, debugger, debugger)
+!define debugger(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, debugger, debugger)
+!define debuggerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, debugger, debugger)
+!define debuggerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, debugger, debugger)

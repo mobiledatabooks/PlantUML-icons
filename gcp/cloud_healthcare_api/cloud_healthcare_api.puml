@@ -1,0 +1,12 @@
+sprite $cloud_healthcare_api [64x64/16z] {
+xTQ7RiKW38LXZWV9-pzneUmE2nnTpVmQdL-6YSWD7-mDHF1huk_8oRddv_u3OFPmtxnx1BnqxdNftCSbn_bdxZW_pPx2UUeyVGlQEO8hALo2DxfI55euzRZk
+-ngAZsz4Kc7u67bZnvZAddgIPqcM9erszcf8t4eUSECMQ8-p-S0gOLJM7ot9rux_E7u_wSX-Ndzh-lJ7nQrRJ_lUy6HvEsGlVXzYZlnUokfAZQgN5EDyovFg
+osy5UnCO3L_QEO0OlXt032nQ4gu-_yAtZnK_PWkdRxEb1vwJvpEwU3dpK9K7ryzbtCWU_LsqgqdjZSSEa_QymyNOjjqNe6ThfvaGoPKISdo8bJB_EuNW2Pgz
+f11yeJq_tXxxruCPuKauu8xUlW
+}
+
+EntityColoring(cloud_healthcare_api)
+!define cloud_healthcare_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_healthcare_api, cloud_healthcare_api)

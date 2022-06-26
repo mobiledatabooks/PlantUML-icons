@@ -1,0 +1,8 @@
+sprite $cloud_dns [64x64/16z] xTIr0O0m00117FPV68S6YVjVWtuJgyoX_JPyizlJxxVqh1_F_RTfL-cYt_azVpa_wLa_dB_qxItsVdWbMaJqcSo_FYm
+
+EntityColoring(cloud_dns)
+!define cloud_dns(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_dns, cloud_dns)
+!define cloud_dns(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_dns, cloud_dns)
+!define cloud_dnsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_dns, cloud_dns)
+!define cloud_dnsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_dns, cloud_dns)
+

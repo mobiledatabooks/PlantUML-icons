@@ -1,0 +1,13 @@
+sprite $cloud_tpu [64x64/16z] {
+xPO7Okim34Cj3e3tF_4FPUMpMQhSlT0ceSVJ0ZMs2_tfJ-80l8VcW5iF-qrPuf7Q-Ons7gaVppSrStGgrKFl8KQeROPZGPC2T8NNnxojyFOklAGSDM24FLNU
+7eybTSrN-RwNHxzyJhbetsFUzf6aNZIFIIppOCH54vrwW5T6NBI_aTkSz-g_Wt4I_wUQ6EYNl4_y8oFodqGlme8CPdTqnNzNQUA4ECc0sjuQjaM-Fs_1RBYJ
+P7HHb_aKeutLB0PlXtZdsJyCtjkCLpl9wxdHpZntdlHQ3tJgV-LlnxiVvYJMygS6S6iWn1YGKsoBV0sWaCYODJwBVAzOIC_u0JyPlpPoS2G3Yg_nc_dd79vt
+diKl-Zyya-45scjuOx0TuYsOECzM1FK0tq0YI4gb49xXlVmJPdz5jRObvgtf-e4IMK-h2AAjvG_YRWkpW0N-yIxjfA_mlZsG4wN9_cKfJTbbY8lzwzFstrUV
+7rv_Vddz-Udl_Fdwy_kV_lGF
+}
+
+EntityColoring(cloud_tpu)
+!define cloud_tpu(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_tpu, cloud_tpu)
+!define cloud_tpu(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_tpu, cloud_tpu)
+!define cloud_tpuParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_tpu, cloud_tpu)
+!define cloud_tpuParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_tpu, cloud_tpu)

@@ -1,0 +1,13 @@
+sprite $datashare [64x64/16z] {
+xTS7RkGm38NXPVrv_mkd4TCK4r64HSzBBv-Bf3Us__t__4NC8nEmhnyjCZDqrmO5GDNDvsTsl7WMLEVNNgBjeVVMXrwozQ5Ng2ql5X6wSe7QyiPNKbvzKbjU
+Yo8BSZdwslEzfYGBV_QnwPLs0io7FtkZf078cUzXNFRlcrwBw5bu7K2j7Ty76Yf6_saQmDbBzx8FOnh1sVVK0Jul_zbtrCnarNqAn_q9wK4zzHdtSfpvstHe
+05nwDvqzz_aKzQJeF7kebD5NFKs9g7b4Phxu0cJsZ6VOtZIBd7r1cWo-nuygdVnN85HcxpoM_R3yWNILQsyl2tVgBr1aHhZhgq_GHKxzvIl-uhtW0i_zVV79
+qlgXlvC75ZxqT_0PBgF-U0ycVzvV_rr_7VZPYtptjtcr04P_Moguh1vztF_S-dlbauuilh2blv_6LX-0UnQv-YBc_jwyLE_PmLPVLEeFtcuEOlMzw5r7tuCd
+3Rxx3aMOxkn_xc_Nrp-YYnVkvw-_xs_tbF24tAZVrVp7zVsNm8Rl7o1zk7_Swuzitx_wyVtpxEV8qD-3vuVPxp-_dFdkxy7pqqd-yWu
+}
+
+EntityColoring(datashare)
+!define datashare(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, datashare, datashare)
+!define datashare(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, datashare, datashare)
+!define datashareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, datashare, datashare)
+!define datashareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, datashare, datashare)

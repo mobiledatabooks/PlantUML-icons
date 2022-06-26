@@ -1,0 +1,13 @@
+sprite $user_preferences [64x64/16z] {
+pTTbmkGm20PW85ZlV-1nPQ3PB9-z_qQUDYxmHuDgb_XsYZkkUhPhjcjarSkxrrMlxzvMlRrxN-GO_8PDJskUenTSUFb9Hx_vv0ciZ739C0l-6cUuXCGrwYkI
+0O1YYR_6261SlkAYl_Mg4t-DUjwVR4Ms8XAwAyy0v03J0I4LFuLpho-SBC-rR5kU4Hglyb1uV-cxD3hkRPlerpvCjU1h_JBlkDDt0zuYTHzYnZ_7Lz67XOSO
+B3sG5g-V5C09ha69dZxzYDom7lxuwMbt0j3KOpBwoXa0CsyGeZCFRzw_sjkQtxh-hzLVrdpy1nMJjvp2OsVvPaWZrVX52Ro8vFE7j2Zyv05EwVe3E_cNzGTh
+Zfa7jfq4aJRXVth7Oly8DS72ysp_ehZoLKEOSg_NrtlkQRv_Am6EWYky1DVR3vldb-RvgNb-6ytpO-FysZW_jyxlFO_D-qlt_jIzltNlZ-txwn_D4G
+}
+
+EntityColoring(user_preferences)
+!define user_preferences(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, user_preferences, user_preferences)
+!define user_preferences(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, user_preferences, user_preferences)
+!define user_preferencesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, user_preferences, user_preferences)
+!define user_preferencesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, user_preferences, user_preferences)
+

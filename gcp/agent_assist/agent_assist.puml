@@ -1,0 +1,11 @@
+sprite $agent_assist [64x64/16z] {
+xPS5bWCX40MPHkz_uRNFnaOx5KygEa0ztC8r-L0IiTiVP-VTEWF8N11R05kKxVRG9W6PTuWjrljiXG5aBZpjbgPAj3NtbOWnyucIqrUQ-b-97vp-_d7_vF3p
+A4UVhuTZnU7NyKXm-TFpzvP-WNuxnMxgYz7ZxNmpE_JDd7x_sZ_QS_aH-Bpz6_55YZ6sJlp1vuynfpzAZ7t_1kBVGmtOOiMkx00GDW5iKQTiOmSmUlm3FZn-
+re1yS7YM3Vn8Rmx43m3P3y-7Rm
+}
+
+EntityColoring(agent_assist)
+!define agent_assist(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, agent_assist, agent_assist)
+!define agent_assist(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, agent_assist, agent_assist)
+!define agent_assistParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, agent_assist, agent_assist)
+!define agent_assistParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, agent_assist, agent_assist)
