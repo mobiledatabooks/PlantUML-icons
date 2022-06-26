@@ -1,0 +1,11 @@
+sprite $access_context_manager [64x64/16z] {
+tTO72iD044FH3G8nzxzmUXL5n9-wegG-kTkpDiZ6aI2N89SWbo2N89SWbuxozvkZl1GqNWeQRmMTzuBEUq7zB-7t47uFvEiWzuhCNtpPwQVoN-_qKtXwfv_2
+qplz59xUwQVmz4u_XQTt-YaylTCFzN3zwVxZnu-VF_pyvTSFltxv_OFVltg1JgX0GWKIA60FGFu0JWxc1p2_iFa9ps-e0C-lg03FxwXWaGJV89lb0W
+}
+
+EntityColoring(access_context_manager)
+!define access_context_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, access_context_manager, access_context_manager)
+!define access_context_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, access_context_manager, access_context_manager)
+!define access_context_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, access_context_manager, access_context_manager)
+!define access_context_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, access_context_manager, access_context_manager)
+

@@ -1,0 +1,14 @@
+sprite $advanced_solutions_lab [64x64/16z] {
+xPU9UhCu40JLLNZV_v4t2DovZ7BjlN_dmfgKkuM7-M3yYVgbkEKd-6zFullyjlEtx_Et7_7ny9VlqUXjnyLycMQNK-pAbt2c9p3f4P2lHMVFuD0XwT9dL3F9
+pWSRwNFHoJo0CVGyQELQoIiNpS57NoLBhfhjrbtUNRM7koBRqsUwFS2PlSAOggasoY5cJ_B8VbTV2gCysCByjmS1d8NSxK_2ymzvvU_5nR912hpWWzr_xTye
+swOYvnaht-q4LBVYhwMQYCaTAnyDOb2vwjffYofl-C4PJRdcprw_uC-DvOflhwkObpoYdAyN_0mGlFSwjvipsPaD65dnqMZENZ_cdx0JmUXOyuDkFkxuV8Fq
+5F0H7_Nb5T5kRsdD3-KjFzTR-j2_0-0LtzAQR_E4ydEXfIKFZEc2k1tu9fE38LdoamsUOypRaHwHixJi7w11fxQjdzsnFNBDSsyXpTl-pttpve8V2WH0UCk3
+8kslY_bnR3pwbjUUXitBcuLjfz_FdoxG-RMQt-Nwju7ocVbTl_B0SdxNFwC1Khxs-s7z7--V1h3yo_5_FRz7697fMqPVJF-pJCQrcBrUg4tNsahrQ02jVGjh
+rIPwy4wCDkLd8m0x3opCLn4q6bsOBoC0gdpHl14g65zNPDw_rlpBOkirzJVSl_VvuMzwVkdpqv-eN_eT
+}
+
+EntityColoring(advanced_solutions_lab)
+!define advanced_solutions_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, advanced_solutions_lab, advanced_solutions_lab)
+!define advanced_solutions_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, advanced_solutions_lab, advanced_solutions_lab)

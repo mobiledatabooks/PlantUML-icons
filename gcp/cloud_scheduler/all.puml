@@ -1,0 +1,14 @@
+sprite $cloud_scheduler [64x64/16z] {
+xPRN6kim28CFOCRxlt1te_WhukoxwZBmopEO7_zINudyLTnKxI_YTfVokAhTDEBWrPPxXFiwVNfen4qUcHwRNCyfFy75ej4pyjI8Mn3POA1lN3oe_1QsVfFV
+k9wob-bDjawE-ZPeZcR3tGH1CTyDLBi507Vz23iCw1rvuzO5xJ1W4Wm-kGlZ_OdB1gby-1FSW4EP6Kjs0-lvTdPPLPaksnBuyF06_t1GaWJrQyjwAksyHtHu
+PNozPg1i0exXMxvIM1wchnFlftcIoo6CnmIa7yWmBSglvmBQ3LXnqvhvu9bmvNobOAOjhpDVZxYsVFm2d-3Z5tclcP_dhv4rpd_UlvKxNit-yVEJoDh5pgzr
+DGpExm-_lmwQtD_k08nitFp_O5fEvax-NrO_TCDf_U3ros30wjTSFnKhOFLphj_YS63rUtu_P4NUq1hVZ_dz4bNoVlsNzzFoLzxlD8fN_hn_o2866bMLF-jV
+yfwZBHu90z8_FLBQtqVVSvlxDytCw0mSEsSCj-SufFx2blUlC1ZgPzy_8zJMBrcEdBv_XxS_yQ--kW8
+}
+
+EntityColoring(cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_scheduler, cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_scheduler, cloud_scheduler)
+

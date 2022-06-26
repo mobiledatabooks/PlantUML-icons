@@ -1,0 +1,15 @@
+sprite $phishing_protection [64x64/16z] {
+xTRPciCW20LW0O6y_nEF4Yr-fsOMvxRdfbj-98jyBG_vv1CIDRTAXroinLlg4Q_MSxMu7gu-_7NG0TaTzoX0PyihY_bH0ngylui2TkGvEea6_kl_s__vzJkx
+WHIyYfaVtRyY3RTOoyaJJ2mHYrJ-evOP6r6XlowTFflu6sUA6V0A_yedZimI_YTFy9tvvJzwIOz5_Pg-FdC33_psrrC1DlJ9U_V3k_EMau47ddx_D2lubJUT
+_jeMK0DFj73InRTc7gPr-ixenKknzBk9pePUcwF9XwVfBnVi7dsnNc1o0Wy3JInz2KynkBppxAyiNc1vy3mcdrikeBVty8R3obZlx_Xr0zLTbmNgy18T45mz
+BQIuWOZc0RbzZUx614vVycDaFyqZjViADvzX1pFylXmWtUlUPmEKxUNoprxUHb2UFDIlu2MlxY0IuL4SVrOu_tmwe81mrz3zs09SCjOZkmAJKydKyE-xZpPJ
+U3Ev-Nq74Yv2QZMzkz4w2tiOj_-w36ilrtr_qq0EFV5rUTn1MfcvemWHL-6nuQozbHfwCy78tiFvj0Jg6M-vO4YtF5lEx2SuLLkZl3uVdZel9eOrjS1u7Rsx
+NoRV_cDNKwsR_aJDtMtzwPDFlW
+}
+
+EntityColoring(phishing_protection)
+!define phishing_protection(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, phishing_protection, phishing_protection)
+!define phishing_protection(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, phishing_protection, phishing_protection)
+!define phishing_protectionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, phishing_protection, phishing_protection)
+!define phishing_protectionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, phishing_protection, phishing_protection)
+

@@ -1,0 +1,11 @@
+sprite $policy_analyzer [64x64/16z] {
+xPO56eKm3CPQjFU_y7ET1TS5frz-d4ssGyO0qX7GcNdzyVLSptLpEPMVw-QJ_GUZxc-HSj6tEuFzSUs7_LBrkd_1szd7jn1h-AsKNNoNVwE_xmY3VNrL1_a_
+EU2xo8ysYT_6_Iha5u-vD7Jyw8Vlt3V7fmJz2FLZhlGHqWkW2Hy3xlF2sX6TQlwFSO2i6Y1309tviOSdg6oDp1K
+}
+
+EntityColoring(policy_analyzer)
+!define policy_analyzer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, policy_analyzer, policy_analyzer)
+!define policy_analyzer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, policy_analyzer, policy_analyzer)
+!define policy_analyzerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, policy_analyzer, policy_analyzer)
+!define policy_analyzerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, policy_analyzer, policy_analyzer)
+

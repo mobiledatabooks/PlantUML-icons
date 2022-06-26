@@ -1,0 +1,11 @@
+sprite $free_trial [64x64/16z] {
+xTHLaWKX341HGfJzB_XfDyvKnetpcxgjGCYs3KXKLOGGka4aUOm8mXfg8TKb8ck1opngwtalGD56NFMYFOv0sfDLhqwk-sV--xEwyAe7TO6mWfQIFUZ07b8o
+36kHBHti8NS7upWD0VaWXPhUt6CvyG6XpNb63xUU1r3tn1FoOazrp_u-stss-ob_JymiWwhlvFLRWALUxdi6OPJyVGgVq9k_jrdF_k_7qzx__toz_9P-zxlV
+FVbxclNWFpyWp00kUZEkuPblsnK
+}
+
+EntityColoring(free_trial)
+!define free_trial(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, free_trial, free_trial)
+!define free_trial(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, free_trial, free_trial)
+!define free_trialParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, free_trial, free_trial)
+!define free_trialParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, free_trial, free_trial)

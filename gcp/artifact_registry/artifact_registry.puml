@@ -1,0 +1,13 @@
+sprite $artifact_registry [64x64/16z] {
+xTO7WkCW30LG5QIlV_y3Ro6D3IJ6svkcCtwc8-HtYl_Xt_I09OuyqkH5Q0377WYLLJHWpmDjBlV4laVwKyS3EEE1iA7Z3JZhWQQtfcCeFF8DZ_1Uae-2UMJN
+itIB75kqcbdFzDKgkSNe_SMSvE8VimzzNKtQgXEZhrhgDrshUlWYUTQJhAilpjwUss-pPtLVN7YKZ-Ddg8LdB-JA9mcxpPybkVHyvydKorYJN-V946dartkg
+rD_XSSvBVEbJJtbNqNpuD57NRU_PJoV3nSCknuxlUSlxKUPGwJzpEdKdFnzFwTDMJ3lmZZ6YZoJ6Q0VrUqudz7JallPXZoQ4YePgVlxngDpYdGTJHTkrfwre
+IiPrLA9FQhttPA_NHRp8xbczNkkBwjZtn_latpnPBhqvMvw4D7BqP0Z8NK-9Pm-fVL-ppn_cCVXuyb31ay_1p_d7Sl1z8iHhyB0X_oppd-FcurRKwkhB5_bl
+ojvUb63gc6u9gMfJ1kz-Jk1D_2dVgKlJANrtFswthT06h3pWEzm7C5s8x4ZRuherbXtvTLtjl6_JXMZRhwzRiUzZEKoUUpvVJbFRyUtjqZZoJUKxnl_u2
+}
+
+EntityColoring(artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, artifact_registry, artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, artifact_registry, artifact_registry)

@@ -1,0 +1,11 @@
+sprite $catalog [64x64/16z] {
+xTG54eCm04HHNEv_uOxHoC_iuCIsWkt3eGccfcOKAS4pJtkzroLuvZq_1rA2hvu9-YE1rtnrClnNO3nAApnMOBpXsfiL8EiHpnMiXpoJkX-RwRnVJEsGP_EO
+Pt4wwyrGUC6tiLvx_NoXcfStdQt9ypSTz6O5isaUymEAEpsRi_08kp6zFwgF83K_
+}
+
+EntityColoring(catalog)
+!define catalog(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, catalog, catalog)
+!define catalog(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, catalog, catalog)
+!define catalogParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, catalog, catalog)
+!define catalogParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, catalog, catalog)
+

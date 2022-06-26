@@ -1,0 +1,13 @@
+sprite $tools_for_powershell [64x64/16z] {
+xPG7ZiGm30CjMMB-_-D32WWJvx8DtOEoLHg6AUN7R3QRZLV5tXptAcIMjwXA0FvD-WIk07Ono-pdh_PV3zJpBpY9IMRdEz6Vd9lvRfIvhwVMSD8hqrRwkyBW
+ksxZMfwR5VF0Gqg0aTxqcg7pgR3otKfV21UmmbYNrvQS02lqo-yZFOzTrgEfC754irxrBdhILkW7P7__t1KXsmgJ0fcF5-UPLWy_3ytVdKyfIm8Sa00clxC_
+rHDt781SFd9wg6_A4eBfN4wWwgsRdWODu1nFbYTw0HhWnEtk1hFoD81SWe6CI61Q7k6ZXKS0ijGtppPA4ehrzIIqmW3XPZldtKi7-T4xUdb-hw2UrF8EHZtB
+Uu-QYfNVijbiDdy
+}
+
+EntityColoring(tools_for_powershell)
+!define tools_for_powershell(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershell(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershellParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershellParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, tools_for_powershell, tools_for_powershell)
+

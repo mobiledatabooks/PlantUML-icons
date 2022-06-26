@@ -1,0 +1,11 @@
+sprite $os_configuration_management [64x64/16z] {
+xPO54iCm40FFmVt_YpjebHIwShr36KKRZkru9ernJEa0IHs-ru-4tYYGUW5KDjQt-k1VjVTzK-KrNx7tWIjTmOe_rws9A-PgpTWRgBf5JSFC8dEim0f97Lxf
+symptAaYkbX5kedMy7xykfz_VY1yjgxhRPVqz_jyNoJr65XaC5fw_BhSJO1Gy8JnEpL_vESlKRRFl-KPyxS_G8d6BwxVs_gzSG8
+}
+
+EntityColoring(os_configuration_management)
+!define os_configuration_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, os_configuration_management, os_configuration_management)
+!define os_configuration_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, os_configuration_management, os_configuration_management)
+!define os_configuration_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, os_configuration_management, os_configuration_management)
+!define os_configuration_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, os_configuration_management, os_configuration_management)
+

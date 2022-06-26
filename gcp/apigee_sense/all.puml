@@ -1,0 +1,14 @@
+sprite $apigee_sense [64x64/16z] {
+xLVPaeGm21oknl__ujKab4TXb0VVjlVUINT13n3yVO9_aDe1IbK-_0GKwRHSK0n0_4ntgV7johTQ-BvSu9K4DEW7kBvLOFSbWRlKKlSL_Nl118876ogyGXIX
+uA17utoSFAPB0X-Yz4ZFKnNt5mBeXumIwUwBuzawZRzPL8L3J8RuKz7AheS6a_5wzu3l-5rV3u8OC3v6CAcwStXifYC6tHDqdTHyuY_hBd1tXiJyla_PGY0y
+53gniRWlazp803GF4AKDklPRaXenCuK0zW0kHfdVTRciu9O200cNCdvUNCAoeiK8D0Oyv-UrHHG23BIKTSQNp3kHvlPmK7B-f3IvMs3T09xmbvHFdQ-z17Xv
+u8jPEoTCLRutVZUQMRWQluVHmpQk-1VbHt5m1HVVFxI_HgL88AcVMVrAz0hBYiWYhT-yVm0OHVkCTs7QFmG_zY-7m8wzVySONq3tyqDZv4tdHpw_VY40vTdy
+cizFHOFf-_aPuhA7Z7n-qmsVJ_U7XC9-V_Z3AdIPmLIyl_RxSoBk7zpVsVuW-Vx07-ulp_jJqAUG-lvMtn_h--jt-tDzVwydG1y_lyoVdun-d-0VVm
+}
+
+EntityColoring(apigee_sense)
+!define apigee_sense(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, apigee_sense, apigee_sense)
+!define apigee_sense(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, apigee_sense, apigee_sense)
+!define apigee_senseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, apigee_sense, apigee_sense)
+!define apigee_senseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, apigee_sense, apigee_sense)
+

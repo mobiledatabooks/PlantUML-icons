@@ -1,0 +1,12 @@
+sprite $web_risk [64x64/16z] {
+xTO5Zkr034HHbp7xt_27ZfGQ7hk7uGeUdjY2W7nyl_scqt2BPprMFbO8ypeUAn_Dw6F7UyVNm1TZRLyXxVpTF5xarTCKcnuMcMbcYeddw9Mj55tFqVGyGiDp
+D3qFqV0W3eD0xLyHzYzql1BB6TIFmsVU84phgA6NMxpAREx94rlUBYuxFiiMByYcBptvn8FxPnt7udEFzRRMzCjBnqlmLqISN0VUhWNOujhpk7D_uFY6vmA1
+EnnTBv4hbHMCs_Sy8bV-pq3jJFfUSF_w8NtF3UXbvWMthv_IzSpYyf2Xvn5usUnx1kAPP-_YN_xyy4YRddNy_lFRovyVzvzVFxxVVliB
+}
+
+EntityColoring(web_risk)
+!define web_risk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, web_risk, web_risk)
+!define web_risk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, web_risk, web_risk)
+!define web_riskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, web_risk, web_risk)
+!define web_riskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, web_risk, web_risk)
+

@@ -1,0 +1,13 @@
+sprite $cloud_optimization_ai___fleet_routing_api [64x64/16z] {
+xPQ74gCm34IrkvR5_t_ncI74H-JC45qlBzsZvqeax5_WFz20PPqKAQgiStuKaCv-K1z-WCe4u7twtl6f7j7ry4dVWf_gszQ4npx4zgu3g3LQeWzZ-280iMs3
+W6KKEsbr6deqWpWGZj-UzHRRJhps_Gm7YRF3F04SUkgRUtHQKBJry7bndeCvclghxzFdPR3HGijBGlPF-1gxEX6ydxyL_Cl-LNnJ77gtcc_iCN0K_G4bf5Zt
+llPlGP5YsHS9a2hwEhEUxlcyje9CMU_qQHcFuDN7yykDyR6V_XsV4MuPPdyzVmEJFCVF-mVARZ3zV7ubVru_LNzz_KBYNJ__V-0nwApwFOuyhP8_4rsWucFc
+ELLyddekGfYnb_3-Ma-cdmiBKreENyv_MOEMwPCtzcykG5_NIizBGiHw-3DSirQtM6rpZy5iJejhkmfAxQW72ROs4tMkrj9vEv9k1pAv0tzc3VMftuNT-N38
+xh2FuVHf1N1gqg-vLpPHf4YhGWrW_mB_-G8
+}
+
+EntityColoring(cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)
+!define cloud_optimization_ai___fleet_routing_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_optimization_ai___fleet_routing_api, cloud_optimization_ai___fleet_routing_api)

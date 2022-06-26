@@ -1,0 +1,11 @@
+sprite $automl_vision [64x64/16z] {
+xPPLWiOW60CBduJxNtXTiFpDkivxMiXWno_ZdyhGuWP6I7aqYZ82vtdaURoWSM2d-RYOzzFkqIw0uunys_3jAOuDgPS7tr24ykIYsU-vQBqyL2r0t27U-Flo
+chX3M6MIkuFmUzpbtB1jtPa_OttLYs6qZRkQ7Ls-O1wbRTr55u-nQYHPUlr7iwFslryjELPtsU5BrTWKW6I_ByjSuMi3w4V9VazsIM9qvzaXR9CgkoExD8OF
+ciSDVe-qJOgoy6lxiYEERnCTjDzwn7sck_RHxefjWEukiQ79xkoDZw3BSNl32vAua_AwEvANzrq5pnTjfJ5SssX6gCSluvzh
+}
+
+EntityColoring(automl_vision)
+!define automl_vision(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, automl_vision, automl_vision)
+!define automl_vision(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, automl_vision, automl_vision)
+!define automl_visionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, automl_vision, automl_vision)
+!define automl_visionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, automl_vision, automl_vision)

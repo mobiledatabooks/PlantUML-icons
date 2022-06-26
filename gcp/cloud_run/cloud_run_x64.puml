@@ -1,0 +1,12 @@
+sprite $cloud_run_x64 [64x64/16z] {
+xPA9QiOm38Ddkutw_Y-yguWfK8FClUqNfqlbV5_8sz_8An7xEEvdQYTpkg1ADqJMkCyD76SEcTyRWcELxK3YxyWuSoZsTOnfdmBqoU45LAhFm8455MWTV04w
+-FrDOEAGZO3h4Da8ADLSm7UeQWHC1m9liphCBe2pxy3_P1uvL3K2faCs0gu3Bw0HeCDKm7UeQWJC1LcDWEbmuix1yz6a8S3r7IIFn_KGe3a-sEU7XQVwsUaN
+iFqGJ-shVm4dxbzAz-t14lPEFmJVOrTzBCusk-82XymkE_LxVBBtkOy3YE-pg_uZFeIzr-VZ8xxFhlh4STaPVNoA3xvtJxy4tsNNyuBuDhlgOyawiblXurDy
+ijlwYk-pA-_FIFQ1lkAJtGmk02jf0vkTlcmJtsLduMuJd-nkZjfeEFtjlF81
+}
+
+EntityColoring(cloud_run_x64)
+!define cloud_run_x64(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_run_x64, cloud_run_x64)
+!define cloud_run_x64Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_run_x64, cloud_run_x64)

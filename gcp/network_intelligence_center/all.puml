@@ -1,0 +1,12 @@
+sprite $network_intelligence_center [64x64/16z] {
+xPO50iCm30DLSlJ_3uz1BWR6omtR-iA4vr2fL7YaK2VVxOTaPpR_9g8iNl5-L6LuezN2y0xMQ2Hma5HZ_EL89lldVt8Jw6DqNsNHhqzwRDAxegZLDOX7VMGG
+M9O0bNZ7H1SqLImmQ2WzZTwD6FiS4p6Z6S4pVNre6UNtQuUdrK619HOddTuEJni_dWVwQLfOol_uMxX-47dhbpnvwlev7vZicvbhZC4iRZEKeBJzIvUz3jwN
+owpz-rlF7uZGywbKAdi
+}
+
+EntityColoring(network_intelligence_center)
+!define network_intelligence_center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_centerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, network_intelligence_center, network_intelligence_center)
+!define network_intelligence_centerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, network_intelligence_center, network_intelligence_center)
+

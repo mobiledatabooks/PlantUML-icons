@@ -1,0 +1,13 @@
+sprite $cloud_spanner [64x64/16z] {
+xTK5aeKm30RWndl_2wzaIYfBONbk_mZwLP0clNe-0JYDON4eT8gcyAe21pdIJwfNvMEUHgzlwB7id-fz12HwkgUYJ_Tw7u-ZbyFVV-i5J_Y3ggTqKegNT698
+cDICJ_QgQlaydv_TVxoSo57SPwEJjVjiYlyqSH-mUYnx0oOmtBDTiwZHfGMkFpLEVdSFmZ9qSrvRe5XK25OwZxITjsqOKmHXeZqIcZbQKEg2BHyyYUiia198
+jk2jnsdtBDg-DVJ1g31r-UjnqQh-k29abbMN5d3Te--KWZL-z6pw6udRUe-4q7vr2ca8z8K02JiFozwqsfI65mMjXxgtvs50Gs1QBJNyLcZFq_u_E_VRfHH2
+J-Vl4LZLh16QJyt3AosmZ5VdFGZF9n_pEtuBRUfeWT8i47eUXFGw-UGR
+}
+
+EntityColoring(cloud_spanner)
+!define cloud_spanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_spanner, cloud_spanner)
+!define cloud_spanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_spanner, cloud_spanner)
+!define cloud_spannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_spanner, cloud_spanner)
+!define cloud_spannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_spanner, cloud_spanner)
+

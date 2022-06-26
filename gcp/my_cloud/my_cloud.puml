@@ -1,0 +1,10 @@
+sprite $my_cloud [64x64/16z] {
+xPM52iLG3CNc_VylVkuPb9I7ZGQzaZEvqe4qJTFCyM2isF65je6rIKNVjdWZTVOOVRypPzkVcVYSA0FudZuW-T697o-cYezrTW6XVR--InGMXzDueaVexX-b
+ElsGFaEi_YRnRO3tXweFfVs_BS2czJSuLDxtHu0ziTKBZ0MfKWTMhoKaApL5oZGSXQOv0m
+}
+
+EntityColoring(my_cloud)
+!define my_cloud(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, my_cloud, my_cloud)
+!define my_cloud(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, my_cloud, my_cloud)
+!define my_cloudParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, my_cloud, my_cloud)
+!define my_cloudParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, my_cloud, my_cloud)

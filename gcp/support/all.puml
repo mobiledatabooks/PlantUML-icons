@@ -1,0 +1,8 @@
+sprite $support [64x64/16z] xTCb5i1040JHKLklxt_We0apfyj_Cn1F3f2qGuFAjdDKjPcZkiizRQzTtfvxzvzstk--_qcx_fTuUaoaYRxXxViD-PZeUzxUtZwAlkdjxUrT3W
+
+EntityColoring(support)
+!define support(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, support, support)
+!define support(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, support, support)
+!define supportParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, support, support)
+!define supportParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, support, support)
+

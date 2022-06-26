@@ -1,0 +1,11 @@
+sprite $cloud_ekm [64x64/16z] {
+xTK54eG034FHuBd_XLTmpxIu_B4L7Wx5yjxewVLbhnTB-3nQsNs4Ji8h3XWzYZ8oH97mO_zrlvazwvGNl3mRVa-7pnPwIZ_TuEyn87oyq7EvxtvFuLr1L7or
+UaRjBrmuaHQEj8KpSTbGpU0gBNImRB03b_ElPz53_NlzbtiMNTjV-VhjqTiN
+}
+
+EntityColoring(cloud_ekm)
+!define cloud_ekm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, cloud_ekm, cloud_ekm)
+!define cloud_ekm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, cloud_ekm, cloud_ekm)
+!define cloud_ekmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, cloud_ekm, cloud_ekm)
+!define cloud_ekmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, cloud_ekm, cloud_ekm)
+
