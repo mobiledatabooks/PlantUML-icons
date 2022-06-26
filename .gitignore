@@ -11,14 +11,12 @@ tst.bash
 upl.bash
 deploy.bash
 c.out
-pkg/fizzbuzz/c.out
-pkg/fizzbuzz/doc.md
-pkg/fizzbuzz/tst.bash
 # Test binary, built with `go test -c`
 *.test
 .DS_Store
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+.gitignore
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
