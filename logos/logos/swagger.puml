@@ -1,0 +1,13 @@
+sprite $swagger [64x64/16z] {
+xPU7hgKm34JNTVZ_7zv6O3MQ5nPBJ_sEoYrmOiUDy6EZZymZgxiotSQm5u1Z2K253IpdNvO4bB-awuH5w3Sh9D4ibFtFU1CkmhCB3aLOo0Sy55VLREkgcbbN
+rGjyl81TE52PfQdBwlj7ADzqpRuqQVTDfh6ZfLrujj9RxzVl3H-R7HJTbzMw_tAre-Ppbuc5u4i7aYARnpEl4G3nzSnh9pdzk-Lj9O2BY07cMSo3tL-o1zwP
+Due--QZIs21e-n8ZLN9kKh9teDWTLh6j5XvbgnMmvc3VdvTpqVZ7S_ZpZaQkNilbJPo6ay85Rjqr6gtN5L-VYTDItY5xv1rx_YYsh_wl1U9S5TUd_wLENEtd
+uj5v_UmydQh2-PbOnU4bCsIIFuFcBzxKZ_PsZUfNUokaV-IU9nx-RVqR83wdyyDcl0xGOXvx7kI-J034o_bzf3pzxh-j6aftq8F2Y7TgwltpBzYyHW3-oBVk
+VWcqW0alLhP7hyu8AQ6EY9JWRKvFm242fFCa12_LcrDepN1LOOIh4YDyVW163a__ypS0RxmmFbu1YCaRK0DKE-NJrxV8QW3epjZ5_ADV
+}
+
+EntityColoring(swagger)
+!define swagger(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, swagger, swagger)
+!define swagger(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, swagger, swagger)
+!define swaggerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, swagger, swagger)
+!define swaggerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, swagger, swagger)

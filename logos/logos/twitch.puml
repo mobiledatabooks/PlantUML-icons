@@ -1,0 +1,11 @@
+sprite $twitch [61x64/16z] {
+xTG5pe0m38RXmgnhxtzUtEKBPP5VU6F8dZIsKbVMbtNMIG5E-XvNKe1z2MOT4hQKHrpBY3DP2YEEMe1p0NPIW5aBi9HW_V1QxRhg_QjxYhDqCSsnz3t5egfR
+h5qb-CCV_d1MaHssNCaGOmoUvdp_6dxx0cI03HPWR376bb_WD8b4TioBnHXREqwhXHZRFQwhDPggzjMhtMELJNwoMMNNtivud_ZPxjjPZB7565kCiSKOMupl
+B1F0Kn5RZEMH9TvtLCARecr7Y2D33AmDYoSR1jQ2nP4TuxaOuxaOc-Qs
+}
+
+EntityColoring(twitch)
+!define twitch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, twitch, twitch)
+!define twitch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, twitch, twitch)
+!define twitchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, twitch, twitch)
+!define twitchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, twitch, twitch)

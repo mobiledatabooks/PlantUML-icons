@@ -1,0 +1,11 @@
+sprite $todoist [64x16/16z] {
+fTC5ciGm509WU0RtF_5-oTfqNAZBtqP3FatXnVWi_D37UruH1qyS4nD_fohyX82sIiIS-jQPJ-UbBn58ky6UWvVFV2n_dZRH155AnB_ds5DWQtBPKTVoDMe2
+dSXHeMrDgLAzoBaFU-J6Fjg9iSOYrRJQlJtHGvGw_pqmNXi1cUC0nXbk8DrqfGiasiI-gI7gt7i0b5F2Sbac08jko9xOdYCfaFAvb_P9h7EqCvr0U9PdbBLz
+8X8X-ymNorDZ8QrgEs5NsKbNAYcZt6a5npxp8JVQzX0eMwMVlnIemZfBKDQjySkr1O-ZaO7Z6J-UFv_Etoy
+}
+
+EntityColoring(todoist)
+!define todoist(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, todoist, todoist)
+!define todoist(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, todoist, todoist)
+!define todoistParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, todoist, todoist)
+!define todoistParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, todoist, todoist)

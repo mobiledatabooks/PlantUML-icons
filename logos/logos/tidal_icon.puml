@@ -1,0 +1,11 @@
+sprite $tidal_icon [64x43/16z] {
+bT9LGWG14CJGMXcNllzj8JW4w_fRoHlDszOXthJ6kwxNQ4kTTtqvdhKutsk_E2y0vLMBym9G3g0SGBa0SW7a0iW5a0iOo9ytEmTm3g0Sm3c0Sm3b0Cu1d0Ce
+1t0Eu1p0ES1brvVRXLp0V9QtxENjurdQVZ_AwB2MjsGubLzo1T1TCJ0d0lPh0g0SGBa0SW7da0WW5q0kWDp0x3UTF0B81P0B81T0Rc1911oFkG1o0UG2o0MG
+2o0NG2w0N02vDZXFxbFYZVddBjjnIsFAgmJqSW6zN40l5z3B1VHo0RtSG3ytqC_xm72Mj-J_cmoiwMngvWQKTm7bNK1v5r3U1PHt0ULTG7bpyvRVzm
+}
+
+EntityColoring(tidal_icon)
+!define tidal_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tidal_icon, tidal_icon)
+!define tidal_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tidal_icon, tidal_icon)
+!define tidal_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tidal_icon, tidal_icon)
+!define tidal_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tidal_icon, tidal_icon)

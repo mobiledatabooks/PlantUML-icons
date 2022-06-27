@@ -1,0 +1,14 @@
+sprite $udacity_icon [64x64/16z] {
+xPVNqkim28HHBy3xl-uPdw3VUA9DlStUXV0nhC2DDYfSwRdIg20kAYCzeMEth5rSHAKzeaErh7uNDoa7Z1UM9HGNpASffwx6vJbl1aKTVutto90FRO4p3Lsy
+DpuJ4UJhCiY5oF75no6VpRXA2-JuD5mSycaiWoCIdNpiFexvkOndefCtuouE-TEWu-V2Az5ptWmwNjRCw2K-aEVzp5xZuuwtrE_v7__ZV_oFdz_owb8XFsNF
+M-NqZ6V8joDQdl1H85-EQ0UyJzAvuQqqF-77yRiQlylDWFVjfprV__Vsa6-tb2rlnGlWNGRWgQl5qVDlM0AhHJSDw81BtLQ3qrPbSmBN6GO_aoBhWFgTKTUW
+Bv2FdyCNbuXMvL1WlJpQszzBHkWtl81LCILsxrHsVCczgrLthULz0Rj0Mo9AjtVYM5aCzwioQASurPAvJn7tjgHItAHG0uTJ5I_rBpn-LIRjbQSnNbplTxKH
+K9bNMAMxTVExX9GgEteaCEbCIE7avouhNOuKpr6v0eysP_2ddiQ16kmkZernM436jKBgm3ZgKeLRZaUV8UGs_re7ni5N6VDa5i76uQUL5pQElsbT2MmSAzR3
+XQfOyzmIlQbO-kG3dRs-0Fy3
+}
+
+EntityColoring(udacity_icon)
+!define udacity_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, udacity_icon, udacity_icon)
+!define udacity_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, udacity_icon, udacity_icon)
+!define udacity_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, udacity_icon, udacity_icon)
+!define udacity_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, udacity_icon, udacity_icon)

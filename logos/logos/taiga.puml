@@ -1,0 +1,15 @@
+sprite $taiga [64x64/16z] {
+fPK9SgKw54Czt06Rx7-zdrlc1JqB_-w6KqF68yk2Ij8VoUaDEUTtUYdvdLvoVcD3m2Czo6_q83-s_-46-7kerxziK0VnomMf0waLUZ2vVW0N_S68UU1NqK06
+d5189_z2qj8lv6F0sb_Nvm2fApzO-bLU-ZLSKPMocby40jWN5JDHoGjVpEQ0RrlDNPUFJyrCfojywnui7f-e1Se-wi6jBtOY631r7oZxqVqkW0uFhD1ye7zD
+GFfjWG8wJc0RT0TC4d9EHpUmdvz6XuTkLg6xg8PF0Vvpq4H2d_rhWYBAVjmWz0Y8xkphrNts0mrzq9tyGCxk0EYwXGe1v5iTfpFXWyu1DYWHe7U4ZlGXeF-P
+GF3KN_gtluV222vWlr30lXruS1DGvFA1ZZhW0VgfiXzqq0atU8U4zC0_0Pix-NQW6LzWqjttSNnt3XZTyHKcsziUza4ZtqrB0gegwVqmZyDl0pow8wAJlkr1
+xtqFvWcK__xCtOVVXZzDu2NDrAax-7G3zqo-K7VmCI1qJuJwr7rOutES87HZ_p2nE_ld1EvBtw4xriSRhFv_P3zfv6F0YP1V_4Cd7oSO5FAhKm3xtKyo-NBv
+6_aKmBxwHQFvmL_E3_I5ttpfbofgDWNqrdhlF9-c1Nd4sFRn1preJezl7MCT_K1_uzqA6OJ5gPU_LOnFVoPl3V2LigPyTN-0GFT7sEFkE86cnvJMe_jpzC_T
+_mC
+}
+
+EntityColoring(taiga)
+!define taiga(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, taiga, taiga)
+!define taiga(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, taiga, taiga)
+!define taigaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, taiga, taiga)
+!define taigaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, taiga, taiga)

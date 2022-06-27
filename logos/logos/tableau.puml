@@ -1,0 +1,11 @@
+sprite $tableau [64x14/16z] {
+dOy5eXqn3CGq7Zk9y-v_ti92-vcq49I1WmX-Jg1CONw8p_p5X-Yzx2uBecRvdV07oxn3WWGbJaRn1EsFVM6m8V5ptpR0Jl_t7LVH1YGYKiXL5fu6QdIF0cRt
+FlpLu_RNwWHghuTW9VkrNxqgGHirGADz-NxCjO0TzEKZ2cmOp-lNLfpv5RSVsn70zkaN6s8A2QtWgKzrd_cxy_APlHB8ipNtMkJeOV3OCpcGhZ4u205CFzdJ
+kQVp16nO_90anWYIdsFpGtu3
+}
+
+EntityColoring(tableau)
+!define tableau(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tableau, tableau)
+!define tableau(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tableau, tableau)
+!define tableauParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tableau, tableau)
+!define tableauParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tableau, tableau)

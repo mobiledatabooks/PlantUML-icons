@@ -1,0 +1,12 @@
+sprite $typo3 [64x17/16z] {
+bP5NTiKW34I5w4sp_zr6O6ob9sy-vj2k6gHoxDL3Z34mlImVbDCWSSk_IFEcZ0ylyl6Ihlx8xvojR77pJEJFGfL5vXHfQQx0VYPA0aXR83V1FWvpdSGdxRNS
+iMEjWbgpmz1TWwE2cWgwxWPAdl3AbrHHWpKGthS_H4snG8oo5go1rCBQCHfjJM4hWExqnhEch73AhumPOI-Kcy-hQ0MumFIHLpXAfSCdX5q3KSULI2Rvfm2J
+yGmeSEglQcsJsqDkIEJY4N_7ArDfypba3CriV0KGDCmJm7t39yIBLmq-v777KzJZhL_v4xvU_OixrQbvQ-0N_imdVvX_mN8RuD_yn__lctU6_ydJG4vpxM99
+5PsMN3Z5c_gfCChcizmy3q3IYhmd-WO
+}
+
+EntityColoring(typo3)
+!define typo3(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, typo3, typo3)
+!define typo3(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, typo3, typo3)
+!define typo3Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, typo3, typo3)
+!define typo3Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, typo3, typo3)

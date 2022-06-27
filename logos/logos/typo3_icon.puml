@@ -1,0 +1,12 @@
+sprite $typo3_icon [63x64/16z] {
+fPK7TW9H30DTfFiVEJq1zdjbvtbUJM1MRe2D2F0R01dXfl58v9FDAmY_DVc5FM05_2mo-SjJkBC6HuCFugXT-PvynGSwKSbpdQTywYxr81TwiYJiWT2JDMaF
+m3kSWwKcxqWrbRvvKPSzKFQY-I0dpOUOtA9w4tgqrSEmgJuCc-hTSbXzrkK5PzLR_NYdm7NyyLHnELQ_2WfCnVkn4ZKyGpKPvtHuKGw6y_ZgoJcEjsehmUdk
+pAkbS1uVnRynxzv2VPhwU7CSFwviuv-9lFmdAR46foIj0PIuQO8IM0DtvISrqGvFuxjuU1E_yy6EqF4zcHaglcSLpz33tvmFEs2AMDuETfVlRUcQtDYwVBSU
+bnllIMdtO6NNVjeObzazlh5Ft-sVEEINL4_qXVS7W5v-1m
+}
+
+EntityColoring(typo3_icon)
+!define typo3_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, typo3_icon, typo3_icon)
+!define typo3_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, typo3_icon, typo3_icon)
+!define typo3_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, typo3_icon, typo3_icon)
+!define typo3_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, typo3_icon, typo3_icon)

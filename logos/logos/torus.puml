@@ -1,0 +1,11 @@
+sprite $torus [64x33/16z] {
+dTDNeiCm24HHCwEAzh_ULnHIHLmu_vV4DcmU0NDfhNVzrrkh9L6sKoILrjNHMqquY96Rxkg5NsDPOty4tBfqFQjYhTM49gIk5_NyaXSDgB8PQaYs76oXFi5o
+va0zAedRhf9jNEuxEGU0__fOjxMMd7FAkTJgR7IwzS8fjV5CQrwFHPZgSyZecHD0Kzq5zyzZj4G3tkK-jANj0AeEBNGLg_UX93w1Bu3ZN40wlG5aFmRV2VW1
+W8ZVBZMnWIiOcM2uWjZpk7P2Wxd_ONP0uLos2GZdyG70ybqZUUml0EAjnzdOwiW8MEsJtNs1nRj4CBdj4kyDuSDE-Wi
+}
+
+EntityColoring(torus)
+!define torus(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, torus, torus)
+!define torus(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, torus, torus)
+!define torusParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, torus, torus)
+!define torusParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, torus, torus)

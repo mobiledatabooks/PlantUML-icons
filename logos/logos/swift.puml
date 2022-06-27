@@ -1,0 +1,14 @@
+sprite $swift [64x64/16z] {
+fTC7OkCm34JHGHaWzp_nHb1igu6KLszBwX-HANWHZ_pPoRX6ck10Z6VHSyMMyL8Ck6oEpaQCw2P_Cj3bym5fxdvtW024CSA8Z9O1pfZ9La0OK-nxCyQKQsI3
+7dDKORCGZ1i8U3TmnERhR76lzyi1T0Dnedvz0DYazoWKl_v9WurxAjSTUFExuiC-AEk0mUB8iU2eptfoPeH08_9y0KWErPCpWwY1hH0iR3AWq6N00M4SFb8u
+6P0Amm1ux8zM9CUuXY77dnZ7YlcpTJbWcO5V6hlt5vtqwMl8EYrFFMBIPztKmx7mKsyvwLDHbpSix71_oBGFMSzUEv3udAhi-tu0AYZ-FbJXjC_0Ljr1yEAx
+_lVFMH8x4h5Ps_TbDW31cpRzUA3j6-aF-j8DsBnV4PTyzv32_6B0VCFM_zKl1qBQViyWl1f8nP7u5KEpeFFd5mKW5eSw56VU3TI4HrQQGHDSqT504H4Cs6HW
+Hlo3_c6uQTjlk0bkCNydtBfx1stwoH54LUl3qlPqTWlYnQJj-uMgkN8TziLDzmTtRcpUDBRSJOlvwIDyKJxYu2C6vnC2UVPum1xqM3Z_brOl3qvVv45Un1bV
+8XKRIdvNsyMlzEtQF_K_
+}
+
+EntityColoring(swift)
+!define swift(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, swift, swift)
+!define swift(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, swift, swift)
+!define swiftParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, swift, swift)
+!define swiftParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, swift, swift)

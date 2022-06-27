@@ -1,0 +1,12 @@
+sprite $typeform [64x38/16z] {
+fPO7bk0W34CbIv00plslku_j9RCaWz9ZVzCBVYbiIvAjm5jH_WqAcQ_mV_pvAeBZDkPZ_3ufcXlub6CB1wGb7lzrKIoJ1rO1jXBmbXcWbjQD5CGb7x48lfBU
+y56dTEF3mmzuzNwDNcxIxytFyfO2oxI9TWs8fHA-3aBLWAE8LcLKtV2SV9PvANlBqEXji5vT9TiuqRDPsVleFJ_WSGpKX1FePydYhCX0LaH6xu0puXAlZ_X8
+ZmeFu6mrptOQgNaYrUla4GccF-3HCWcdE6hDu1aJxeqbENaFJFwwuyVaTHqpbP6TEZ8RC8GO8mjQ0JGGupvz49WePoea890_VWU_l_3RAU9U_SJa9nAV6J_n
+yovYQm1uERgs78mzUsYH_Cxy3HfB-QdjVHecTW8uy4Zq5WxmnfNcpWv2mYlHugUs7xz3bYBcuodz1G
+}
+
+EntityColoring(typeform)
+!define typeform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, typeform, typeform)
+!define typeform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, typeform, typeform)
+!define typeformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, typeform, typeform)
+!define typeformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, typeform, typeform)

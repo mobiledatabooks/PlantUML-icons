@@ -1,0 +1,10 @@
+sprite $tnw [64x16/16z] {
+fSy54WCn30D0AUJx_uSBrWNAzSH3fWqSQrIKaRSC1LLwdZqldZVFFtYH3I-puOKslDIE5_lkIIOjaCJf2zaFobXzMRnv3hnPo2CxsZfECbcRt_n83HXZcWmd
+jyyUskRfYMId8SRtoXVVF8Vy6ZOoHs6_yBXlAu_xL2Pds5j6MNZGMoMwjo9y1G
+}
+
+EntityColoring(tnw)
+!define tnw(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tnw, tnw)
+!define tnw(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tnw, tnw)
+!define tnwParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tnw, tnw)
+!define tnwParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tnw, tnw)

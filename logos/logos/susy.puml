@@ -1,0 +1,14 @@
+sprite $susy [64x57/16z] {
+ZLPPek0W22k2GhZ_VMUhq-LXmNosXiqOFJv0eWPt6qppY-YnZJRW_m6LTf2OE-_IE_m5uD-7iSScdIHL1PvXzkZsRsrlSmvsyVSQ-9VTwBZ0LmJTwNsnK30R
+e7hoMArhimJPgru-Xk9M3kzAlvvgs-v-7Q0N_6HHmqO3I9Am_q4hffyLEKeDDqzrRevUyRCcsVWe-Cak5LI--dUjryR9GQPyocqcGA8wG7F_wm3gu43dKtyJ
+IhdAmM-wZqi09z2J2EBF0Crkmr1_6YSbnnJy41tQNTe3iCxqTPeWTyaIlERjtm4NYp4L6mDS04O8yO_NJwiVuKy0jCKPkklgOg2nZ30MnzaRLeR7kefW58nM
+3hBbYMcnXlUocpRMHvPOiQxW8b7XAyJTtZ7q6jvJuZsv6jex15ygq_UUW-hNmDMe_YnOa3eZ3JmBuDYl87SjncC2jaWcIVxdoKQnjWgGb5cW5u-G2eJw3K3P
+JwluR9RnHy5lo8sxL_rRNbwlvj_p_wDwH3Qa0Qoy6osha51kdvmIu--Vs94897bRfL0_CMWzVJjoyEJ74cJlyE2sEexQaQF2y1icCns9UMW-QU02JCSO5gPQ
+I02T9PY_jasNG8yt48ntRSgkF3IBWFNFtBy1
+}
+
+EntityColoring(susy)
+!define susy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, susy, susy)
+!define susy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, susy, susy)
+!define susyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, susy, susy)
+!define susyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, susy, susy)

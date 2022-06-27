@@ -1,0 +1,12 @@
+sprite $typescript [64x16/16z] {
+fP85TY0n34Cbi-v_uNs9jyojXcoDVtXcHRmlwvv-QU2vCdEKcH_Y1X3Fn7YADwp6Xoh79rgm6zooe9DPSM9cnZFUCfE6E2_Rduo9MDxa1nVLqwq2J5DgsF3Y
+qMvXLU7Mg2otgcSyxXfDGJB0vPW4g81FF2rQ7xDHVHD_6Zz216LG7MVIPTXMsKsaRwKjVpFFPppbo04KrwdGrIs8EU3rkVpDh9xngCR40pyLiYFYg7m9r0F_
+fd-OGiIEdtBJ4bSP6I_ukAu_y7FxlAZau35c20Qvm-RmEJ_S9Mq-dP-K7xv66WDi90spCpi0xyooonVgkWP4vK5v-S7X0sQuCZy17nR1dTW8PN3V6iE3b5Z-
+QvMziQp4F_0c6Nx5_mC
+}
+
+EntityColoring(typescript)
+!define typescript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, typescript, typescript)
+!define typescript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, typescript, typescript)
+!define typescriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, typescript, typescript)
+!define typescriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, typescript, typescript)

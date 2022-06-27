@@ -1,0 +1,12 @@
+sprite $todoist_icon [64x64/16z] {
+xPG7KaGn34ETkExz3qm7JV2mJg73c_whPIcYEvfuBEFQwH697IuHIlTeR6Fu--u7MXp16aUun_Vc7-lzm6HdkgFlsYpqI8yTjD4ZJRU4qnEyBRmKRuNmQdHY
+ZumrcYmdF08SmalVyeW1uHObQKN9CvThKy0YU3O85zmj8v8zquRybKvrUg8P5bdRWAV6XxrU9Em6x2lXzrSYkgqb2CCEdl5iWh0iumxFiCW2cBLtwfD6o-6l
+ty_2CPJrQ_OD7kTJZ_wiqzCPdYtq9_O5uUcErYqD8Uirufo4JwRVnYF0go4On7P_d_xanVwqDmhbk3zheBD8_s9_Mip2gJ-hqUl-N4HJVowG-dC7zESsrfl4
+9_EFN-88ZIEynn52HmCu4Ldiq-Za0zuFJcouq1st
+}
+
+EntityColoring(todoist_icon)
+!define todoist_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, todoist_icon, todoist_icon)
+!define todoist_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, todoist_icon, todoist_icon)
+!define todoist_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, todoist_icon, todoist_icon)
+!define todoist_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, todoist_icon, todoist_icon)

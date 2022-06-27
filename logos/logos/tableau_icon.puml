@@ -1,0 +1,13 @@
+sprite $tableau_icon [64x63/16z] {
+xPM7jjim242544lE_tzl7n4dKQdhsTrtC-J1jGLub6sOeLpYqmU7kVfmr6dKNZex8knW2LWs9qH4sxwer2sVAUSVuPTz-A_zHeVy6X0Hnc8Am86ej5XCVK-q
+b8SyKKS6C4zprzUCmFhyw-hyiJqXKQKsE5I_Z4pdFUZVwLzZfZi-YV0jdt-9Noj4F1trcMaEmx7GzdoMyCqq-Odi1n2Zcbpoow_meGwGHHXhiEetXuLym18W
+1-BVWCgWYcDcuh0J0xrz6Jnt1YzVRG8T5l9PmjjVuUNpVFxr-a508bmXAC4Vt3z4X4qVMuCDttglMpxqPS5lht-0Siml_H5-UZ2TyeDVulCj7udQ3JyuxCEU
+3z_nHGUzTul5zDxlvlJbyOWbWw_ddO4qxymo1sZFnE5pmF8XhWJ0e5hl6ClfpJ20a_MlQdIdVzN-Mn_m0p9ZTCxxP1Dwi7z41B58EkawtT2muUTtO3FZwfHh
+vFfbFlql
+}
+
+EntityColoring(tableau_icon)
+!define tableau_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tableau_icon, tableau_icon)
+!define tableau_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tableau_icon, tableau_icon)
+!define tableau_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tableau_icon, tableau_icon)
+!define tableau_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tableau_icon, tableau_icon)

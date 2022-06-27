@@ -1,0 +1,16 @@
+sprite $threejs [63x64/16z] {
+dPO9igmg44G1KHahzx_R7pJYURFVhZiPpSq8JjPaxocwxwDBihBxB-L5yQWcjNFxHhuhEkTZxfBbzvS8IlDXEvka-lOIlTsFFbP9FSSNbyZckKgNMfEi7k4D
+_8pDRE_L-RqObtY6HnrTjVcSkCGZ_59lpXrQteLZNAAbwFyFV9GDuQQJeqCZh1pX0NwgHrX5hTPxc5MLjd_0enxmg7rI60bD_LFQuI_mk_ewEhMjX-PTrBwS
+g2RZ4aIn0xNRTA1stZ9L5Ot-8WwfNvy0Vsfwq3edIQQq-WlusrpWa-gIt0TPQLUy-glJNzr-DFTKS4bb7W7lYfBpolINNVrLp67kW4Sz1AYTQ-q-sBD94pxU
+vgeDmkKNy5Lf0dYEyYIax2UN32U60BNRjNEYV9jDD4cO-n7ugfCQkxt8wycuKb7J6NDV6VPAhkcWnd1oFj1cyvRU2awSM--eWQ-e7MtskMMpszok4USl3GOD
+y7oQX7CXQyqDu7r33Ro_RXdd7yRVPtYbw2zurC2ZTXD-gitYS8lXbRNXXGFUTnsK2kFlunR3gyd8FV2-y-c0P_mnYtqSbn1gsknM0n-7-d8BcX_Lm5__Gvym
+m0OyJaP703zR6FYX3fJAyWBrp_3jR2QxIZt9HmROeOYJI7w6doqyjrDKGJtWSVBNOC2ofvlK_A-BAFvDpO0T4VQYkyeeIhpuDQWqbbEdr0Syg-2ly83KG_jQ
+aPjtGITE_Xr-FRLFvjbEXndg1_XJrLFsSspWv3_XMH1PWRE2-W4-gJ1IeNbIp-tYygLsuGCFpMD47Onk-eHrzmYFcZv1_GIlIyr8nOldIEizYZw1vZaYRvGJ
+_erwmETxoyOX3UM5UbOQbLhKNwWPi5HgUY5UBo8CnVE5bXSHrjsxeCrOME_Xtwk1_qfDvgThgD_31zRT5_2XMtoheyq2Q-mzl2fhx1lujPI_X7-f_Wy
+}
+
+EntityColoring(threejs)
+!define threejs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, threejs, threejs)
+!define threejs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, threejs, threejs)
+!define threejsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, threejs, threejs)
+!define threejsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, threejs, threejs)

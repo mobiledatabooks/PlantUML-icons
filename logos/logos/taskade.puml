@@ -1,0 +1,12 @@
+sprite $taskade [64x18/16z] {
+dP5N0jWW28P_G6LAxd_RrgGhZytd7cmSnACo5hv1dZfbpiY93umqkZSafH-iv_YpvmynkBry4Hm8RvRY3SVlJRx-gfrvRBo9m9jnqRFnjsQvrSq-CykP8G9u
+00oGC70le-dv41F2D3281OEG34XVUy2xUu6gkyW3sZIxsu7HlRC9qNkFubK_oMSAZW5WjJpZujK4PG_jmRqWhMW3rmKjWdOEsFvDCMxvqK0PW5BQPGo_hW7T
+0BH6F_5NkSSLB_dZ_qlUW1ajjYlUyerADLtgiFH7sef64W2v1Dg2UUbKe9S7jV6rm5re0rNS_hDmOlcg8nypOOf3j25wrzRPtKNc6Cshzyw4xEvZndktmeAy
+VhalCnatV9S7H20HdFMf7u5-bVHFWMFnZ9DzPSc1_uRT7miyQ-4Bccx3D4Fm3LeQff-aVm
+}
+
+EntityColoring(taskade)
+!define taskade(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, taskade, taskade)
+!define taskade(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, taskade, taskade)
+!define taskadeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, taskade, taskade)
+!define taskadeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, taskade, taskade)

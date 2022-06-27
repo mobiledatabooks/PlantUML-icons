@@ -1,0 +1,11 @@
+sprite $tailwindcss [64x8/16z] {
+RL430WD139nOz__tjhaQiuo5AyJ35G_G_LNLUB0SJnZX2-GM4NQd91-AQlNGo9VHy8yzm17XPalK1Ap2MSLI5IvmTd8l0xoyUMzm9YFoaJPRXDFQvwYDnI7X
+bjfq10yFJUg8j-N1KLPQuKiwnDqOBsXX8xMkFTgx8cYe6MKjmCXPWNUGT8hQ5gzlRMj4WaPE-npDaOTzEQxMhH1cpYAnWm2D2BDd9PtStMkl2PlTr6kVUWfO
+faUoswsh_ioF0I72RjmtxxMC5UmD20Cik
+}
+
+EntityColoring(tailwindcss)
+!define tailwindcss(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tailwindcss, tailwindcss)
+!define tailwindcss(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tailwindcss, tailwindcss)
+!define tailwindcssParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tailwindcss, tailwindcss)
+!define tailwindcssParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tailwindcss, tailwindcss)

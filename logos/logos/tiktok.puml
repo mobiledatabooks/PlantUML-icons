@@ -1,0 +1,12 @@
+sprite $tiktok [64x19/16z] {
+fT03Sa1154JHVXYZzx_R32fsSWkVPmJSB4ON_3th7Fu_p_nFJ_-ddyd-vSaH08atTKUCXft7Ky1Z8JeU4pb-Jd96G7cBf4ucx2fF5O_rftkncBCktqFgVNbf
+RNBsBBt9zg8ciNLoD8V4aeDiNm0rXOPA3j_U05Ni6XiWxij7wHmA6Ec03wwQ7jyuNK8ZsH_zxNedRJ9VVhqEpjh9jdojYyCosKgoJpqv5Oy-aGOiQ9qyzxvS
+0l0pNpW0138Sx-j-ikbNVdJsD_CNJk-SZLCGo2u0V7pYeqxcb_ilxUw_OB321Xa1Y-TK7pjpXkCJufQmn-Mkkg8lwsH29LbYdXmPJyKI0Ir5SraertIV06Yg
+9GgGIW3MFNJoDAlXJzdWQbJ77vFKMasAF_K
+}
+
+EntityColoring(tiktok)
+!define tiktok(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tiktok, tiktok)
+!define tiktok(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tiktok, tiktok)
+!define tiktokParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tiktok, tiktok)
+!define tiktokParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tiktok, tiktok)

@@ -1,0 +1,7 @@
+sprite $sublimetext [64x8/16z] fSxH0G0m10FH0_OVkMRelM-IS18XQoRuDgTG_stsHutRlxlcVrVD9t4U
+
+EntityColoring(sublimetext)
+!define sublimetext(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sublimetext, sublimetext)
+!define sublimetext(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sublimetext, sublimetext)
+!define sublimetextParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sublimetext, sublimetext)
+!define sublimetextParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sublimetext, sublimetext)

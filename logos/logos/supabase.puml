@@ -1,0 +1,11 @@
+sprite $supabase [64x12/16z] {
+fT05aeL038JX7aiwnhl_RPTXtUt3vGzLuDGMljSwFhC4txF49-PQ_-d7afVzT9zGmM0RLBUEnh0EImORXeS2AtoWsxxHbuXud8XJAz9REbRrMMcLO4e6U8GL
+aIOblTGC4P9nvNBSjhxxJ0uyzXFdrbKpOGcmC9N5Ng5zb3EE9KyziKtDRAzwI_77lgTB6IOpPd4fnpojtJksdchLh2ntdzp3OcR13hVzPKfnx8ajGYAmjRFF
+XikAM6WMj3RBmZg6kn92XW8IHe4y_3_hk1ote-ETLGC_iVk9zuPr_4mf_kWE
+}
+
+EntityColoring(supabase)
+!define supabase(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, supabase, supabase)
+!define supabase(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, supabase, supabase)
+!define supabaseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, supabase, supabase)
+!define supabaseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, supabase, supabase)

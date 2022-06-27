@@ -1,0 +1,14 @@
+sprite $tiktok_icon [56x64/16z] {
+pTO5akWW381XaWPB0jp_jc-gOIlRfMFl7wryTS7z4lczoGraZePTJ4kH28TSQMlCyPFJZwvm_kIQC7noXUcJQvA-kSRJDrVpc3COnvmLFheQOSXPcIP467TD
+8n6DE9Cfm92pEALFJfZ_JrVrpG4W8bmSItbsWEI9l2T_TPoIrbi74_cjEnSSPIdrudOLisZ9AS79HUV0PsOHLNEugi1bt-3LpKqnyrBFWhIv9xS6w4DAkMEv
+jZTd6PFMnXmiJDkeCpRaS3t80MUxouUeAgBbrQsx2tLNmcllZhgZr9Na55D-SJ3lRcDbKG6N-Ux9sM7oiP0verjxSPC_5khCmBquMnRRshmxT7zqyqsmmmnk
+m8bT5HnnUhZa1jnVbXLRTZUs2PVtvD5DTsCRkqNrk4NXSjzrSvNJUNUXhSd5GVSE5JxTTP_irfBx6L5k1mpzKVwur9TH259i1h7_Tb2omynmVM-hGPqG091c
+vcEr9odTVCsuMHfeHSQQsEdrKMXTDOTLTPVB3hCFIDgFL6JzRTdklBi9GxlDM7QtONvcodOJhb1-PS4zXUKYxBiOdHk3nTXZmFLcPyQU2r8wL5R5v5wR4ekg
+5bNP44TyGwkCt9M3gRU0ObvC2XEuv_u1
+}
+
+EntityColoring(tiktok_icon)
+!define tiktok_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tiktok_icon, tiktok_icon)
+!define tiktok_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tiktok_icon, tiktok_icon)
+!define tiktok_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tiktok_icon, tiktok_icon)
+!define tiktok_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tiktok_icon, tiktok_icon)

@@ -1,0 +1,11 @@
+sprite $teamgrid [64x41/16z] {
+xTOtjgHG34LHvE_y9zpzlGoU64LLm6OHlQDbSuJd5TBbncZGkE9-YhXu17MEufcsE8KMZw36Y-UGJGzOyGYgFBq4UCV3YaTGylGAx7iufKVGBqzlw9wAJwF8
+FuRY7SD3kqTm-gy78pqvkfVu0UbX-vxHF7cAz7hLAtudvBvdHqxSzmO0ht_zwrzlzxqKBa_EFmxaYVta_2L79YUzx7kAtyiP8nlzuTaVJx_Gw8z2b-QZzOzF
+-rTBs2ARVFJNcj_lV_A5Ul_Jx-yV8z8nze_p_GVSttss__JHuFbnnP-Fohn2jltaVm
+}
+
+EntityColoring(teamgrid)
+!define teamgrid(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, teamgrid, teamgrid)
+!define teamgrid(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, teamgrid, teamgrid)
+!define teamgridParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, teamgrid, teamgrid)
+!define teamgridParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, teamgrid, teamgrid)

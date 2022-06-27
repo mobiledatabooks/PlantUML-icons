@@ -1,0 +1,10 @@
+sprite $toml [64x64/16z] {
+xTV30SL004NHiT5_jT-CpNVt9yx0_IL9QzmrDCh3MzN1s-epYtkitLCkxjd2cIdfbpcefosrUPyQYxJ5XznO6klXkx-_h-h-_kWtzZw0wFZz58ilpyctOtju
+U7XuU7ZuDD9hyunsy9m-8kqzrpPF_yq-whB_iO-siV-2lm8
+}
+
+EntityColoring(toml)
+!define toml(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, toml, toml)
+!define toml(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, toml, toml)
+!define tomlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, toml, toml)
+!define tomlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, toml, toml)

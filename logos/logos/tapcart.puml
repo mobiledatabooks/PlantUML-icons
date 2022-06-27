@@ -1,0 +1,12 @@
+sprite $tapcart [64x14/16z] {
+dSy7bjWW303HaMX2W7p_s-Off6Vxk9Tl0q2TljmANqjiDjNIVV2Lz3eGCswbyi4wwXsqDGLcXymM7qj3aWytosDn-SEBSbFvwwWW88XGGWLi2gXNy0BGup6m
+izTkzBqZ9b3sEKjeP-yrqJsEotaEc0b0cs3jr__7KVhJ6C_KiWs98J94er5YeKzKA56O1bAWECnADXnE0rPd740FOvFD1VJqxSwV1Z87T0DNCdE8IlhhvEIz
+pFtwbDTpUNMbEh-yBoZVnr_15ZbKb1QAxB_zvHNr2baFHSzPaJvYxoqmmjTHPgmJpfKI1cZoWdg7MrUGFhGAmwLLiZBoDdLKBT38wZteN_olXlE11En5Jf-y
+sJS
+}
+
+EntityColoring(tapcart)
+!define tapcart(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tapcart, tapcart)
+!define tapcart(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tapcart, tapcart)
+!define tapcartParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tapcart, tapcart)
+!define tapcartParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tapcart, tapcart)

@@ -1,0 +1,14 @@
+sprite $unionpay [64x40/16z] {
+nPQ54kis50NtWYuv_V_VRMLF_T1DoXk6CpgRZ80Rh_cQu_KTnp7VqukRV4vVyVaP0HSnt_0kViE5zflXvu_pws7uT_c-xVzQ_UJYeVxR_FgR-ig9_y_wDQKQ
+CqlzGJzqitwkBxsVnTRn1tq30UAd-dP-tbid7_G5duJrhRvm4lkPdZfzdFcZvflw1NdazpzKSUk3RnrjLrD_EVugKpyEDrUVW4n1osnvXArswubRVt--9LQo
+cILL87YnQMUZ0GBfcE_nxDPtw2sP2qrae9GABB14Mj6rSlGSe1U2zAs_PdHB1B8h1DP8mU4i8yxNn37JK86UlUFMlveZ2h4hE95emu8MwhAgEGCXs2JelNYS
+pTi4DAT4IgLSrij1QqH6jvNqp2LCJ5r_X7EYi-dkw-4uZjTlrzTzT_JruQREPu7jh_xLoREbFfeyRdMC-JBLc51tKzKSnpzPEuu5w49K8KTHGK0CwK_MZeLd
+bk5kq8sK4KjKDJvQErnKrK5Li0aunxuZ_MxbJs75Wgk-iHQMAQpiRoRFG_rny31CnBGRJFPp-5PVdlHJ43MX1A4JKQuv6DU8z-HvMdgT-gMnGQB6MOLEt8LR
+tkmyX-2vK4TM9oUE6lgj_cFUH29aEsZdMaj5HQlqQXnlz7-V0FE0lz5_jtF8FxFnrl-qyVhVozVVE_Uq_grpLyeT_nK
+}
+
+EntityColoring(unionpay)
+!define unionpay(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, unionpay, unionpay)
+!define unionpay(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, unionpay, unionpay)
+!define unionpayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, unionpay, unionpay)
+!define unionpayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, unionpay, unionpay)

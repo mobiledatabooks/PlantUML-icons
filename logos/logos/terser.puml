@@ -1,0 +1,12 @@
+sprite $terser [64x20/16z] {
+xP97kfuX24P1gdow_-q69CKy_oYzt7j6Yk-nWveHV3z_rd_t9IACeK1Y7jqIKMP2I8WbwJeCgcf1MQouhRMdLetL4XqLyzYUdG6eVk1ZT-AqTQwdEiUtzCMA
+dW1ZPz4KGRpXrXifV-toIP-rF0jqt4puH1XhRrS5m5IjA5-j4pOLm7VvzFd-zAmyB9vGeBrt6kqJOf-ufv6P4OIvTrptZpKur3q7v_475DOR43W7L6Jp-KHm
+-VFoXveVvbGyFa4XtcW5lGadUF5dFBDoHsl_dY2LEbhjfjxunSTuSfGHnkqNE8ZCNK0pCfK0NtnX08jmPLQJhtqkZZyYPaR556zVBEaBREZsqRoXaspqzeTs
+0VNp_xbzRwHViE7R1zBoks6Vxs_TwvTH3CciV3g_G_81
+}
+
+EntityColoring(terser)
+!define terser(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, terser, terser)
+!define terser(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, terser, terser)
+!define terserParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, terser, terser)
+!define terserParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, terser, terser)

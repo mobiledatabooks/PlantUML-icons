@@ -1,0 +1,12 @@
+sprite $treehouse [60x64/16z] {
+dPPPUh0m30EHhTp_oF_QLeI6JrRd5GR78jlrJd4jDgu4cV-e7vh_O6H3PYYZrvEfAbDWrkWwWIYYdJWYmTWKbKOaE3DzKkY2YqZqjyPwQ2wUYlHZk3weMgAa
+JihYqGgS2hcFtYeUiQ1LnOeW_1GGxqiUW_Uh-O_2jK5dOhIkqoLEvruxm3naxcOZIGggMDrXojfZMLVcBXR-hpF2P6MNE-HME1M1jB3cVySTw-qEPjOMKVEP
+Lmyd1wXfLZMHiQdyCdeWxxcKtYyVzlu_Rf-X3nltHAdFA0Ywh7WRiXxOZWietXh0eHiFRtMKz4ojlKxbathVGTS8w9-ar2WRlfVrKtYT62syEdyP0xTVXjM-
+ttwzbC6KfKR6SzBjDwPp0TBzmVnORtDTpuzeq9fbxzxvNTXF1ai7ZPhGJAC-D9cftLT8KOtcD4sZlm4
+}
+
+EntityColoring(treehouse)
+!define treehouse(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, treehouse, treehouse)
+!define treehouse(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, treehouse, treehouse)
+!define treehouseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, treehouse, treehouse)
+!define treehouseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, treehouse, treehouse)

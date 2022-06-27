@@ -1,0 +1,11 @@
+sprite $unbounce [64x13/16z] {
+fPA5ai0m449PuWlz_z-zQTBJaRDwmxom1g0kMvFuup5y-JxQLo7Rpt2hjwhhwmRX_WEys7ERwL8030H1tcztLW9WgxS2y57s4X2r1TObb6nrqcwWAhfuqh5q
+lxfbHHMHwrPKzzAabAfsXnnpONc2FloCfR29eU81QbOVVaGctH4nNI9jrt26XN6jmvlRbLv0SNS1bXxU1KFD193EJ6t_NdtymoDMniExn1HlVy_Y5ffqnLHv
+_8dWib1YPkpyqMtNpOjEsITP4SiM3u-nyq-brgv_A29t_K6-Tm5lzSTM012tWj9h0BMNtV_PDNR__pX_zdNz5V_l_By
+}
+
+EntityColoring(unbounce)
+!define unbounce(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, unbounce, unbounce)
+!define unbounce(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, unbounce, unbounce)
+!define unbounceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, unbounce, unbounce)
+!define unbounceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, unbounce, unbounce)

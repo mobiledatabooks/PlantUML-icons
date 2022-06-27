@@ -1,0 +1,11 @@
+sprite $tuple [64x24/16z] {
+hTC5WeCm443HaTZO_Q-x4-hUXlqLzE70CQm3OJKiNLHn6Mksw3Uymv_rVa_P7b-8ztd-HwzkPcxOp1YgMG6TqmDXcmF0EUbkhxp5pAc5CxI8SfmZqCCtFnV7
+Iq-akHv1l_964exjx0SHlV1PhWjmwt6al-pVndZZDTUzzU7tn-_yapVjUEK7Ctpo9KAgXLDwWrbFs1gbbrgRVF0vc0suyfaNYYsWDfxx9WCoRAfIfvCEio8p
+8jawllrdln0IS-soosUL5pqW4sSNlt88TF6Bco0cWZtXWly3
+}
+
+EntityColoring(tuple)
+!define tuple(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tuple, tuple)
+!define tuple(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tuple, tuple)
+!define tupleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tuple, tuple)
+!define tupleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tuple, tuple)

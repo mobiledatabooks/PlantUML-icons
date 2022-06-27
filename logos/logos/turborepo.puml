@@ -1,0 +1,12 @@
+sprite $turborepo [64x14/16z] {
+dSv7ekGW34NH9o4m1g6x_zssNPt6luu3KK7VQEjK7s7wJilPNDwlfk-OFhoRrkjQGxgMNyzyoEwrfaj-PzvDUfPtA9wpsTPdhlOU-HDZl3PBIc9JC1sAL2jU
+tQ2W3U1qNYruLLCCkzZFTx_nRHETqpXUfMGtNzGpjvivM6P1Qh4EozicPPSwI-DV_7nE7GwtWKigUZ6ICQYyWnD9Kf8SN5tZVtniO9j3LbrWaWwZWAa1jOB7
+6Hn9zZ--axAYRJOfv-XY9yjiKgqgF_5B2auFisAQtHpPxtqlpk7yRk5ka705K30CMj47d1sa7kDpGYY68gUUNzLstTbyvzYP-v9YLsMNxQsUUsJcQddhrT_x
+8KtN7wQVy-xwXbrXR_GCVSV7d367IVe5
+}
+
+EntityColoring(turborepo)
+!define turborepo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, turborepo, turborepo)
+!define turborepo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, turborepo, turborepo)
+!define turborepoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, turborepo, turborepo)
+!define turborepoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, turborepo, turborepo)

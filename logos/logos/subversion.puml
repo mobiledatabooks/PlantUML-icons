@@ -1,0 +1,11 @@
+sprite $subversion [64x47/16z] {
+xTQ7YWCn38HXgupU_v7FxEcA1Y8i4tf-GkTZdBQxSHa0Lrdhddutjcv9npvdIt8-goJL7C213JTfvCWIRGDCwspI-MSbwaHxN0uj1bn_IQFXs7WLFB4mUHiM
+GmnoNVVJA7YgJLRjJ0E1dIyElTgvcwf8xbBsQcihqqHDuiYZRPUAj_f4T4VckayYecRcExYRdggDFB_C-1-aLPhg3r5GDXifRJLvqOyPNQ5MAMQ1BnGZx4MB
+OQQbujJcRhFfn1cULvkh43uEj3p4rjsB-FsphSEUbaC0JCdIC4NK-Oa1EAUwsE901hQKTMCVINJojB4eCRPzD1k8MKJ7qSFWk2y
+}
+
+EntityColoring(subversion)
+!define subversion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, subversion, subversion)
+!define subversion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, subversion, subversion)
+!define subversionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, subversion, subversion)
+!define subversionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, subversion, subversion)

@@ -1,0 +1,16 @@
+sprite $surge [43x64/16z] {
+XT07TkCW543HtnlP_te741vacJWl5NCF3HwnHLLhbSRmDScg37UFo2h3No56XQdmI7Gipx_9IXFUYUNH4c6cJhdJA4B2D-ULcMNyJBCoA_RQN6cgPgQgTzUp
+CH6b-unT4B6gtUbm8kE6yJgprGH4IFs7Ty8hoRneXdGe4oFnep71NdXHvruP3SpFf0cnjOj6TEC_WnxAITUg5h8ETcnSpFFrLdgV-T_zUVMYqjBs9Qgjze4i
+cc67bEdkfgzyoT1NPkwP35YnncR3YsWDQIBxqvuNUouv5C-akkJPyCj6bK-fmZj9kuykRAtvWgSsxcYiQif_rOsrSIl-Er5l6KDIZr_H-kdjAV6Al4ORqwHh
+iAUyB9cURR9ZJqtwx40fGcfC_K5vKEFYlwdqdrGgEL1wKEvKSD2X-JVAat8nb7vG3ZbGWhGFwZ_9MrvK2Y4MdUUOgRaPN-v60TpxvA9BTg7sMf9bKaq0YtUA
+AiCuhgilQW6W-KOHJGPon4sLqHr0BYg3uiXvKkgM1zL1oGs0YrzKOLAQbDzfA01rQfE6GRSqAPfCchneIfyi7ZTpyPz9URufXqxQKe9HWv80eA8vHSkiIQLL
+HbIpIIkh5MlB6ZGhEsk9OLsY9eaAUKoQ6AqgiWexTRQnBC95tM6aUL60kEPXPWQZq453OSH5Y_OqO8LmeyamecB4JhTORKgrFYwvKJXHgJLA-q9pqF_7ca_m
+bRgjaUGtAfsch17D9oWyqkgqWpN2aY-KOTvgbVOhnK4ju9L5fqbdIe1X0BTxSV93xNiatyQC57AYd8XlPoljL4zK0i4ITXv8RYUg3lYs21UH-OcQmNhLsyjg
+dAZhslz-0ZdIO4nvl0bJdcYIFZyFny1FYMd57qzjmQTLI-0PL-rL_m4
+}
+
+EntityColoring(surge)
+!define surge(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, surge, surge)
+!define surge(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, surge, surge)
+!define surgeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, surge, surge)
+!define surgeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, surge, surge)

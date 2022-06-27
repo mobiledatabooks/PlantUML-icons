@@ -1,0 +1,13 @@
+sprite $suse [64x30/16z] {
+dT87ikCm30DGi85Mk_zrLtRab9yw-z8B40uLt8WwcHF3LG0tmUyqcFVeHvF9Z-byYH6EhoJoDLhOzm9blk5qD-8popUOuKcZ_byypUZpHiC7ac_HrEBR4V2o
+PUOhT3CF_JmzzSCIIIe-Y4o1amx4cLZ3cxb__GzcnX4avLAWW7Xc6dwIQP81UCQnIZ-dqb_pZgGgc7SnoGpy999mac0AzBei9mNVhLyIXIRnNun9KpyMnheG
+fLNifBO2MAcB05vgErIkWYJJWJfE6_heWad7Q8Xn9U2u2kp4F5nnVD0l7lFIRv-8ZkdyreCw2-K2z_aQyoOBxbxWEO_bAOyJnqYyb7EmLZ9C7lDDzudhHjUL
+Dp_WaVHnqRV7F78irVRy-bu37cdfh_SFjhDQEQvFyKJKkUt7QEq-Fub5xlNRdg-b50hUANEHiyGmpTqLd7n6kK_tXXwipIptlG7MPnT4BtAMnRw5WpuVmAaB
+sZvdtU-0RLo5z76geeORlSKTq7P-wJw_0NuhoDnmOsL9nIHRdqqf05YMmAHRMUZn3m
+}
+
+EntityColoring(suse)
+!define suse(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, suse, suse)
+!define suse(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, suse, suse)
+!define suseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, suse, suse)
+!define suseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, suse, suse)

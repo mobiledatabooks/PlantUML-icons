@@ -1,0 +1,11 @@
+sprite $sublimetext_icon [49x64/16z] {
+pPL5Uc0n3COIqypzBrnmyI_uatVLMdeGF1kkHwpiV69ZDzocWNaAmCQ1HHiik69BW6qDT4WcWAs8dG0PG88C8466X63vr_2L7NRFnZvFqC3Rfe7VLbaGJxP0
+R1xO-GuO6eKDlWQqqO2ELWUyaG0skIHYMnnV9d8OmM3Nw87A0zuCbm88fA71jQWgVjndlJC5Qe-DsF--yTveO55YJqtRAi-HYmmQe4gp2lu_DR5wGOMTWhoV
+oLHlcmRlDWhIseP1sFdAF2GD2SHM1Xi65VSqA2Xl6mRPDWfqScPwtiCE9gjjpYC
+}
+
+EntityColoring(sublimetext_icon)
+!define sublimetext_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sublimetext_icon, sublimetext_icon)
+!define sublimetext_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sublimetext_icon, sublimetext_icon)
+!define sublimetext_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sublimetext_icon, sublimetext_icon)
+!define sublimetext_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sublimetext_icon, sublimetext_icon)

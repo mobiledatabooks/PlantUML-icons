@@ -1,0 +1,12 @@
+sprite $tumblr [64x14/16z] {
+bP07iYKn20E5SS30_S-xo2_E_apLzCWoNS506ueVfetjyY7UPuRze6jafZnZjCkjvqz-_yONopGHI7qWYSDMk5DBadiC-cVb59ur4M8H0uLOXsCJmZW1ASdu
+oOa2Z_1LIP5debdcH24DcqNcavFIRUpklywwChSgzjbRhCYqwSKzg_VZMwyw6ls6vdMtg61GmSt7v87L1dfc02sADmab3JnZn-ZumYSrqv_-UV_5dQUlPVtD
+jo_yZNEtxhpuyl1lKgSlTrziTww5BPdyRJvP4ojJ-OgXf-_qdKyPRMJcb5x5uaO2b798y4VCoRGxwKg6idzRKoVxFBvOr1vqPvXwn1XHivJSpOlUtDVmy05n
+JZDIPSVu1m
+}
+
+EntityColoring(tumblr)
+!define tumblr(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tumblr, tumblr)
+!define tumblr(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tumblr, tumblr)
+!define tumblrParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tumblr, tumblr)
+!define tumblrParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tumblr, tumblr)

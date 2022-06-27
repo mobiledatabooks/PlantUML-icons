@@ -1,0 +1,11 @@
+sprite $teamwork [64x9/16z] {
+dSz7ecKX24NHWs10sSv_k7LVgDJzvhHKpj8FqYZxZkvfaho79BLmXIdCdxPrb-Arwf9SiWXxpIniqMJ-zh2Km9OcS1X1GRqcm-dIAIc83Z2qWNoy7Tw-HbiC
+UwfJlTUTmOa98ufMMmrSIUUu5stVT5luPhpzaJWsYZ7fKkVnGyQH5crX4vR8IKZ1J9gqAAQ-te2QJGkN_ENxr-FEE3kh4z_TjJ5ftLilRI-lSwVaVJAa-RzN
+5Tsfqc3erNmyIKgn1gG7jPBT89FxlvyNKzqbA-QaxElR83NNMfUkmMMPefwEuOHKMneqDLBVo0uSLvQaYMbXVOrV
+}
+
+EntityColoring(teamwork)
+!define teamwork(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, teamwork, teamwork)
+!define teamwork(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, teamwork, teamwork)
+!define teamworkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, teamwork, teamwork)
+!define teamworkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, teamwork, teamwork)

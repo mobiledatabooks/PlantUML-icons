@@ -1,0 +1,12 @@
+sprite $swiftype [52x64/16z] {
+bPS54Yin34FNVFyJVoZ3izfggAI988ct1y0ygtjEwAuCEpGiUzxGvJiZUZRaob08K5MAW4jvpqVK2sK0ID8KxSdcMzoxGYywXrGMvXbVc8bYHosa64VdGXZ8
+Fd5QrJ5lS9bp7qTmSgcwQDuBAyNPQjy_HjqrW5rQh5RNr7BV7rjg9LfOxBGgcvTlEt6AEVovoKE5absV41FdTnI7JsAiPIFb7dJd2Sywg9Xx0aa7EQ6OUm9E
+b2agveJJ6yoyjzihffQBh1kAEQ7ZkA06E7YnEb38JjrX-tMPw-sn5nl3S773-Z3Kk31v-LkZR3baca-zce356fZZWZAEd9Qdb2M7Ed7D75CpAL1qoVbYgDhl
+nR3Nm4zRFbEO5ioRIamNG69pUPSBC3mWvYEN0N6bACs7DrjmN3o6YPnf8MtcZlgPGhMpi1z93S_n-KaNmKemJFsv05JOeM2UTITEL_e1-0i
+}
+
+EntityColoring(swiftype)
+!define swiftype(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, swiftype, swiftype)
+!define swiftype(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, swiftype, swiftype)
+!define swiftypeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, swiftype, swiftype)
+!define swiftypeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, swiftype, swiftype)

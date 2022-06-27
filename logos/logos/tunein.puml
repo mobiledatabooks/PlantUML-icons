@@ -1,0 +1,11 @@
+sprite $tunein [64x28/16z] {
+vT9NOkC028JX0MQu_v4NNDNhooRvRNLzwZWMSpaTzCgL_fPNLUCUNjw3Hyfd4U6gSVRmICSQlAseCGLxh_CZAH_9YfRtWJzr_muzn5qVjxmP9juwu3LyPwib
+puatTM4Y886A6X2gEF0AGwYy9Xx1tcYAfyyU46A43psgQEyJZmSTU7zuczm_AzKuHUMMJpuyIH_uIUjULVighlZqpFPkXbEUyFOoFJrmsBF6LAeG1LVxYfjU
+7n-EAaZlCK32MSNBSx4u_FrYkH_lKqVADQyybbRyFm
+}
+
+EntityColoring(tunein)
+!define tunein(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, tunein, tunein)
+!define tunein(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, tunein, tunein)
+!define tuneinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, tunein, tunein)
+!define tuneinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, tunein, tunein)

@@ -1,0 +1,11 @@
+sprite $udemy_icon [33x64/16z] {
+xT17biGW30JG8jYIR8FkVzg9mBXupNfI_nLP9S2IP10MTpEJY8MmgRtJFU2HhDRf1ioIs9sckRZQH28N9nI5YZFD7w-BhKd2N5nuhZ9D8-MTQQAE2VzErbLJ
+wyObWd4KpM0SHRS0mb6uE0kxcYImEGe-FDNc0BFQU7E17Kv-te7dWUU10dPwKxq986EzUBFJVlRkV5pZ6jd4kmDVr3kDFXmzHZ0V4auVggQ04ALGzydlQgaq
+pm3CruwUUA5yfehNQZ_sr3qeEmE6lVgi2kw257vT0cPPp_gvUMh2y0e
+}
+
+EntityColoring(udemy_icon)
+!define udemy_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, udemy_icon, udemy_icon)
+!define udemy_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, udemy_icon, udemy_icon)
+!define udemy_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, udemy_icon, udemy_icon)
+!define udemy_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, udemy_icon, udemy_icon)

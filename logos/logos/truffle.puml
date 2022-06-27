@@ -1,0 +1,16 @@
+sprite $truffle [61x64/16z] {
+xPNhOkKW28G5KM7o_k-xmSbfchNszdTtUgD7FmT8rBAHjX58XJSj6st81BrRLQtMFRf-6nrfsEGCHUl9I-qnleLBnt6WvI9cQQrpWHRjQxR6oKOjHSnqMgla
+7zK-lcBjH0zeihMKwaZ5o5XjV8Uj5sj0n74A22kgvb-pFICxlN106eufZABIFg4LSvfahyvVaUluSGbUj4JVmd6yZAlDD509axOY5NN3CiCvd1Nd8zFy_TAq
+3lsG5T10BdZGx3qifQFftlY8SZjZpBPHQ2TiY2gRYa_v2pPSpNCWMHS-ZxgKJOVRsRWQbwhTtLj6cOvzODrlcDscTVyxFRGFh9qi6wQMRHb93tawmDHs9VDH
+CM_IOS_iT8K5BxWpRxtenDlSMUQOPQsm7YzXhcMSqJ1nwagihZ3Uu3cc5wrfTmkD9UtW8uHLiwdSr2GHnjswJPjLawR4XWSGmuJjs3MCTH6ndFmKwrb4c89U
+tbPbPNM5dHmLP6hYx-TApM9MTJne8c9JLIMbPcJhPcCywgRNGvfJD-_dyubIUl7jrG7NtM5mquyv8d8Nk3c6ddXFO3KPPLLRQIpNemom7PkdzSGVrxCsu8Zz
+eR_oHum-6pO2k3kvULohG36M_MMrrxrZVqtxXjnclkoPdJJm6Lkte0YVv9vjPI--yXRuEPlSg6dUWNsZzrAVk8u5HsZvKXrkCjqVADhNw9NqEFdn3bqts1vl
+0U0DXBSDkkDh7nuHFbeb-S_gln0Hde47efVKYDoLoX3HE7e5CSYD0E1nyFyCmOaefQ4oT2S3Tyi0quaZNcnEuwVm6zOhf28ATS4SkU7e0ts1QRXpRY_u08Oi
+yAlK39xmgHls3YjBpVkqq-Y6NpC6f7Je3s5Zjmqn46HM6E69-H4HnI9XFa3diXq8PH9-CVuMHCon4QV-
+}
+
+EntityColoring(truffle)
+!define truffle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, truffle, truffle)
+!define truffle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, truffle, truffle)
+!define truffleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, truffle, truffle)
+!define truffleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, truffle, truffle)
