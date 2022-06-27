@@ -1,0 +1,13 @@
+sprite $xtend [64x53/16z] {
+bPPPSiGW34GbpBxv_gVDdZ1DMrJb_Gvb93qrDR8eyvVkv4IxVocoq7d_qLLiwZetLHRfNZH1Z6C5Fyo_CE5mIxyNKHwvNheSAeYEU-45u1FpaW-S_-AYhqyd
+JACB1jGRxgE4SY_IrhEdwLRPY0y3TXFQWIko07u-ZTvlusoM18SBnbMriuHkpJP3JvQ4QhkjE5F_AW7N5jlYqe8b8LXZXPvD2PUj5NiUZYG4d4a_nwe_x3bS
+e4QiiJotvypFtuyP56YO9OJVPYmQwedxoE8A3S0I_7FO4hrA906shcuIn2ZUYf9saC3O4XfBS7A4euI9fzxFQ-IX0BhVd20erFw__jt0X3L8l1QL8zgnrOA9
+RvWyfkBRc3335PFFP4nOmFKj-F8m4PPlJtm6Bm_upTm0SuaydCt9Pgx1Oy0ec8Fe1FZT-6lHy6tCc5mSHxNVdWQZXAttO1D9gxVjQED3R37OvfIA18jmVdeO
+9Vy5QVG3c8uS6f84XM5eCeU6buG7Ky4AXeRmA0RDSMYOj2_6c5zqDGj4ohwOxWkbvqu5GGaS9VkvGnI22LGqnzZhnUPiFCtuPEuieQo-h82U9Mp3uwxE4iOx
+}
+
+EntityColoring(xtend)
+!define xtend(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xtend, xtend)
+!define xtend(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xtend, xtend)
+!define xtendParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xtend, xtend)
+!define xtendParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xtend, xtend)

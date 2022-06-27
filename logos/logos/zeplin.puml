@@ -1,0 +1,13 @@
+sprite $zeplin [64x51/16z] {
+fTO5OiD034JH5Spe_YSkxBIDwqZ1NuOdo-5rBp3Nguc_Cy3fA-Wl--JUuKbbWEixffPupfFWDYP9F86bR5_kJbjV1P_oKa7yGcDyVVhjaUDh321l6VvTXBxw
+dHbCCHQM2PwwFIBvkmWQUt-2qpTt8kPk322-jKV9Juq3WjfR_la1Mlo-Zu4xwZ7lZJQNlEipWMkkCzyBfFoi6--X2l8ZLXCFLCeFM77YaKNv0QkQk1QG7pLO
+BLTa4YCMn-cAEvO5Si2godkkKCK9Y_EmUyQvb1yqIuSNJcGq0vZ2FOVsZiHNqSG2PaxRUEl6PoQhHbtytZuIAjjhkeeJhz13HUE5vOkzhbmgpbvO5LcT5bSf
+VuNbKMmqjRpANv_TBPJ5iowwfBBSNlZAQy1H5qpmE42uys09DxiVRhneg_r9TGTN5X79rfCyQkhKkuUT94zusnCc6c-X0LLKagUmRx2quVWQCCIYd34chtFe
+DCBuUuiZUg_S_TyC5jDjin9CpjuE3sMP4Mv__qutxbFmoRlTU35aNzR8-FRM-0uVppUetPdWUYfTOP2ofFPv8gO-lLhIjCIhWK6irpCMrz0d
+}
+
+EntityColoring(zeplin)
+!define zeplin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zeplin, zeplin)
+!define zeplin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zeplin, zeplin)
+!define zeplinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zeplin, zeplin)
+!define zeplinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zeplin, zeplin)

@@ -1,0 +1,12 @@
+sprite $zapier_icon [64x64/16z] {
+xTU5SiOm30FWs07f_LzulDoglxfvZ3eSV2gtJhE9kG2IM3FRAvBS6V--95O-xsEvjWuYhT-SdATya2JI-it9TS8dUIXGl_bvmI2bGFpcKY3yla2zSZq7IKg1
+UE5wJHUrGBro8fxuX1QeLyv-wto1UCTzmS5xxWiEtlETa8B1dUcv5lWezmLrNYzGxWlgt1VKkI_079aHcNt2SbymvEOmF58pU1kqTlc0pPJqd3pFCky72HRF
+C_HbReBQUGwyqEid5pJvAVvJpr_z-gqttZyv97tw-tVr8Udj8kla12JaurfwVdj6jCWSYtjtYtm3o2-ondtoRPp8AgyNAAyNU8x9dGafCDn-FyCK2FVVRrVW
+-T6R0i_5-uBw_0G_F_N2_2O5ynNp8-pxeStI_0hXvVbP2bQqYypI_0vkhXcih1z0Jhi0gQrVFcFzzUzZuLvZzMPp3G
+}
+
+EntityColoring(zapier_icon)
+!define zapier_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zapier_icon, zapier_icon)
+!define zapier_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zapier_icon, zapier_icon)
+!define zapier_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zapier_icon, zapier_icon)
+!define zapier_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zapier_icon, zapier_icon)

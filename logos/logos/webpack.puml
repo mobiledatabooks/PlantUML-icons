@@ -1,0 +1,13 @@
+sprite $webpack [56x64/16z] {
+xTQ7SeOW40JWkptg-xzmWX5NuH8qPLh-JVs1Zpg3ohEy0eWOdYerCn4pqqSArjqJsHITuRwYermlZEw8BXSskxMacftXdZ8qjvPgGzGhcnISlXs9g_HKA2Nu
+LHnixjHoVKynIcz838j0KriosE_0jA-ZAqtrb8IXMdO9G7fL-o_M8L7FrJ1madeKX5Adx1lKkwVRPTyEHnfta8vpA1uQTvQEHnrzbfGDPnS2Z-2SR28MFtTn
+EouhywuWr_I5ssSKXrDeir-url1yyXdRqImSzyxozR-ruoWS-OxZghZIMuwxo9rTEq8LihLZLEgFtCjfd1oPYc9m_8JakxpLwkpQ_uhZwgJZ9O7UbWxQr5va
+vUfutN-qeXilZr3eU7lsMNL7nHixTfUeAATd7oLIKIbyEZ1TqJ5eKeLtfkTyAIqBvRQ0L_Qzzm8LDtgLewEQvU1MYe7ly5VlTLmcdShDA1tLFTaT_lYzdD7s
+_M_p1W
+}
+
+EntityColoring(webpack)
+!define webpack(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webpack, webpack)
+!define webpack(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webpack, webpack)
+!define webpackParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webpack, webpack)
+!define webpackParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webpack, webpack)

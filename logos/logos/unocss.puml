@@ -1,0 +1,12 @@
+sprite $unocss [64x64/16z] {
+xTLLbkGm341HaQLKNBN_vSuqveGiQARtVnMq3PMG-3v2SFBm4fKvyJQiNPmFKOqx0ugyFe07KVRLZKfUVXZbBZ-kVFdw3I1xlR-dt-h__9__y_u0Wb-UNEPX
+5uPj9Arf4qPOwhVhiDkynYYsfClagrTVSR5DIYMFQlkauCbEQccFQcUrh5SxZtDUR1HcFDgmbl5Yup3XrV4SUpGdZJsRL-pby_nyxvlhk-lZwy-UlyJlppol
+zvuyhU9v3lyVWUuzVlp_Wdgt7wyVm1xkFcte2G1avCNP_DPRe9rpWoKwvmgFJMTyWbLyoX6Uii7LtG4DOQdrhUu2kx3jBYwm3hMlj28SOrrnmSC5PEeFU1A4
+yqZqtcfR7Q3_0G
+}
+
+EntityColoring(unocss)
+!define unocss(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, unocss, unocss)
+!define unocss(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, unocss, unocss)
+!define unocssParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, unocss, unocss)
+!define unocssParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, unocss, unocss)

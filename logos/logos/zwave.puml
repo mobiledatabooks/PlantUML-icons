@@ -1,0 +1,13 @@
+sprite $zwave [64x29/16z] {
+dPG7aWD120CrUG3f_z-zWhhaYlRsvj2WZNYXh-l1WMSi8oKzz5UKJCOJlnibnfszuG4p9FfiUCQc50j9wwCzqQq3wCV9Z-_Vf7I_xy63-z-Zz4eXXfsEZp39
+05nAJFVpzD61Az4wFiV51HoA6m-Ob0FZLszZxVL13glsBbqaEqYHFl4UZOg6cVFSSae5pzlnxtU8rDDC9BrNuAJPljjVINSbc-B4DUkuDd3CUiukPiwmpFQq
+nCN-7GATagDOjMhIwjG1nMmYpiuKN5fRIMJdhOgVUyuO7NMks2Tr9cMTiYgfMu-xKSop_HmgwY8604k9d7KXKfrdHugPzKqC4KkwbVUKxtw1xTu1k99RDpNP
+S8LBl6BlLOipxvM9Cts9-4VvqT12t_uMIHVb6VSUoJB7TsY56VwHgJDzctEnLWSbhzi2LtfYgt2dV9iJ_rYLljXrAX1vH_bztzqfhTp7aNw2VxJ84vF1xr8d
+OY8ORKTORLhDiaKa-C-YMAGUlMgsd6e6lAoY9NZXKFg6y-cFk8Y1H_HRsNV3Utm1
+}
+
+EntityColoring(zwave)
+!define zwave(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zwave, zwave)
+!define zwave(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zwave, zwave)
+!define zwaveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zwave, zwave)
+!define zwaveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zwave, zwave)

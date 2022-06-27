@@ -1,0 +1,16 @@
+sprite $webhint_icon [64x64/16z] {
+bLS7OWGX21JiWFz_RehB5SbYl4al0yCSe1iSG2gDMSOGvbuJXa-0XMGi4Ahnb9sLRC45JjWy529CFs1vgQZ_HKZAbbuIWbg1gJs2IDcneSb5pl3N4erClW-H
+9xkXeuts4ifCtl5VRrguGvqUfx03r35ptDZOp1ySf2cIu3PxFUajcW5ixUC79Pm0wAy7KPH-1BB9W3tnlWA9gtSzd0D_vVBBqz-V87o0jBZDOqZwWAsA1RMh
+rCvJuCEn_af_hZxsg4bLGFx4UsXIDUj3DNsGFikqNTDE7igkUaovb5epJkdqmqblhezyTQwp4bvhPmYbQtJwCZ5zocT_K5wWqDKoHPm5W2S_obZvcb2X1QIa
+9LdWIf-fEY_xuLTFBOkcvOy6LkLqZhgMlqkle9AcqiK0rbrYaCSj16qElf_SfeHT4V3BT-mdXy_1l01EyxF3b-Zm0HvL8Mxu8nc-N7mIuOO1giWGtF3pNtvx
+v9DobVt3fmC-gFzasaNWHB_ojN_Y-XgXUFne-gVgzYXZGZTnzUW2QuznUiJCF7DAWrrwCZtMK9v74IOPFUebna4nzkT06bI7JfXCSay-ofo7EZ-RgVDGxVXU
+BfQt_Uh3J2efaPUZK7PqiDEFgYCjLpW73Uo2weysektbzx70xVBHj5NR-WNCZLZaoULUy6P1Q5QGsnCCCCRqWnZ1sMyFHKKNqpbmFOf8ApW6cQD8T3CTejbD
+KZJU6UfGzMj4FWnG7hrasq7YiNZ6splX_oP2rpNkN6lXvFc6eozi9m7RDKUuUm2Xv4clClOQ8r_nCzpyJGTJFTgda5xUknvJUpxNOTW2s-lArMijjJPzWdHg
+yoDOI4_X292x_25JmN0EI9NanMtP8ty3
+}
+
+EntityColoring(webhint_icon)
+!define webhint_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webhint_icon, webhint_icon)
+!define webhint_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webhint_icon, webhint_icon)
+!define webhint_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webhint_icon, webhint_icon)
+!define webhint_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webhint_icon, webhint_icon)

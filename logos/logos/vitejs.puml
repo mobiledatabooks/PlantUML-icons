@@ -1,0 +1,13 @@
+sprite $vitejs [64x64/16z] {
+hTG7Rkmm38HXbXagzp_nWs0QvdATM1RUbrv-pNPPf-QkiaVDVDBtfLgnasxrcJQwcoVvxxq1RhhJgpdWFFHJx9PcETCpP34FqUpzcnsZh9INSahc3TYvEEyi
+vX2HzPvVJ4HyluTCP7ItFQ9XtjQBFIFc9XW7GWvOwnquljJvIRdM9yR1vOJblixBXI_wI2ONx_toV6Bhb-UJhVHr7lA9KU5nNbklQpsl-GPBVIJved4Pl_KS
+vQ7JU8nJza3BaVz2kSFQ0_o-7FaVONB7OfmYlyNQVE9e0clpIQFtNc7q-Gwjv-syocyqUezY722_yyyUrJalVudMVy-x_CLg7k_c-ttumvdnSzuUUYtzOEGf
+GFpaVVS4vO1fvFpHgppHcHKZvwT1UUQV1qJEJpd_8Bxx_1LaXOtQiypBccZzEU-oHaUx-VAQo2gM_fetaVSN880yZR8EzUhdlCeBu-etvg_NqW1ONdNMEG_0
+ySNa7KNs-KNUSbOchu4No7l6Yye6yEIoGtcIFTYTJyh8-KtEYA39jjb3zXc3Ah8FJpVUFm
+}
+
+EntityColoring(vitejs)
+!define vitejs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vitejs, vitejs)
+!define vitejs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vitejs, vitejs)
+!define vitejsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vitejs, vitejs)
+!define vitejsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vitejs, vitejs)

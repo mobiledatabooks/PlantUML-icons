@@ -1,0 +1,14 @@
+sprite $vagrant_icon [62x64/16z] {
+ZPU7igWW30L1Mih_V-zhpDEWUz6TTWjhu0GpOveKgUapPRGKE8QgZkERc_lVnUNyjOd-HNh-89-BPx4g-XzfRsw9YtCgGoDITkunP5bSzORWyUC9cRWZeZvS
+S_GhTUdfkYdINmkRkHdR9WyRNBRD_SKsdxABmfR01jVSS4jinnMJdWIsjB63wtQajjhpxtgt1zaZfIohFQchV0ZOLb9AVRMnU5zMn3L5mBOIvInWstmXmJOV
+c5bSOHbwUULv0QNFvsSgRlsI2zZNusDkLoPvRTVaAYsX7r2yXdz3PfKUhXuRSj-QqzOujx9hLyTGLVrsihQ4GYrft3HkLyniark_j-kYmZj4JHjynHSA5cy_
+jQkd5S7Y_7R5p3YtIScRp08PcpR2GvUnSATZqsIR6JTDJnjBj_Ham7Gqp2o3NVTs7AK035StAbqIqTZcpFQvsM8RPRRFpRbqJanPckPcrAuE8brstLnnpWsO
+CbnnQ1hAC1Q83kwKeLsG6xgG6J9mrv0PKid6p3Wti6aiC1ripemlEzXqnPd1Dey5petjaTuHi2apfe7DcN5kQ3jaHfG1antV3wRAQhjRnxoPt2JORloXjF_q
+chQROjXxYamRqlfwV8C3VoLtsH_uDm
+}
+
+EntityColoring(vagrant_icon)
+!define vagrant_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vagrant_icon, vagrant_icon)
+!define vagrant_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vagrant_icon, vagrant_icon)
+!define vagrant_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vagrant_icon, vagrant_icon)
+!define vagrant_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vagrant_icon, vagrant_icon)

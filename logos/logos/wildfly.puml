@@ -1,0 +1,12 @@
+sprite $wildfly [64x19/16z] {
+fPA7qeDW20JtEC3w_g-Rn6zq_bwpzhB0ZV83PGTF81Df_eyDKURVH09PubFoPIVJ73ZK1rbp0942TV0MAK9CGAm2DJhzjFU3TTaD42sWB5vcgahRsItmD3B2
+yALw-6jcUXu-E7d9eAZE052QD9GBqagQcAhcXpy3pFky9beNbm6NK7O9XfrYj6qQMb4qao1V_6cV8vUESAOLNPKQilkCqwXeqHo--ig_RUl3psrrTiPG7d9R
+uL5DSFfEqfTVRtqlUwox3yRWqJdiuAAYWdZiUUd_Cd_qtjiwkfj0d7FBWe6pWKuFdmceotyqFxxa10E55CeuK9Y1vk7F8f8cnr_ZxUnlRVkUbvzE891GH3BG
+s8cJiAxhiTUwnuiV_1Nj6oTwm5_nDl7YymmAyHJc0tS
+}
+
+EntityColoring(wildfly)
+!define wildfly(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wildfly, wildfly)
+!define wildfly(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wildfly, wildfly)
+!define wildflyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wildfly, wildfly)
+!define wildflyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wildfly, wildfly)

@@ -1,0 +1,12 @@
+sprite $vwo [64x21/16z] {
+ZPG7SiGW34M5Q9B_cliVDnYZbGdEJDuq5rHubAET6cWb76SJUg40Hw0WgfAP1dosRQoszWcqam0aego3ScUehPrn7NQsiz0B1w14hCO82v_M3dg2rl17zs2Y
+d9WvLUqawkHUBfDJJsjeXG5KVusYgZpQykcwa1qPyXmMrJeozOBrN_8oFOccGBf2VfUNoo9lfQfMKwYBFAws4y0kpwru0sGAqptibYTpR0LabsU46J-hUYS9
+K8j2tEJjyN7EMcyJSReIT0xwViZy6cyABOsLInXaanSqlSxV6lUT5m3KAqe4GCZtDAhMt_v7DHEdK-FKVONobKblUJpNUrj_KzZHntBVKHc3Ivwe2c_xppVE
+SE3RRIe_feDvykAw_oVJ_IEVZAZfNcTIxLGxVvRB3mwUhzyeyPsNr5Z2JM5QNYsA8Pwrg56sQq_MLryR9eUpwEF--m4
+}
+
+EntityColoring(vwo)
+!define vwo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vwo, vwo)
+!define vwo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vwo, vwo)
+!define vwoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vwo, vwo)
+!define vwoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vwo, vwo)

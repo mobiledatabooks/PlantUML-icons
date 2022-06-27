@@ -1,0 +1,12 @@
+sprite $vault [64x23/16z] {
+fL874iCW36EQRV__jqLaakkEkjsJDQ3ACrJrBVnJlbTVezoG1zmJlbC_O6sWS7zyBQ-jcGqqKsmnxIHlKzBRvvFKuM8Wj_uuovkrnYJjcUcWNCc7WMPBVxHp
+-YhZ_oRnEP-snNNNvtFw80pxMEXZIjHJ4Duy6V1T5YOQ1exyX_pA75lCcakF2Gk1lvHz6E34b_A7yu8KmRlGkU1ZJ9F-re1fbxDFaEIbnK6R-CW_7y557cir
+NZrAZ8dVyDtJgmVj90LD06_ugZwz-LbAau0Egp6BVwiCF-6xfpUVCBBWDqUWTG7Kll6P_6nWbX_drjRFGGDPDdrCUJRWr0nFX17wSvQCqZ5wRVeNHtPCQMgW
+gl_XXlmDL2dg3Zpaxo3-Gte
+}
+
+EntityColoring(vault)
+!define vault(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vault, vault)
+!define vault(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vault, vault)
+!define vaultParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vault, vault)
+!define vaultParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vault, vault)

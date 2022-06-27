@@ -1,0 +1,7 @@
+sprite $v8 [64x57/16z] xS6100000CEW-rDVOG3L0W0003W
+
+EntityColoring(v8)
+!define v8(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, v8, v8)
+!define v8(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, v8, v8)
+!define v8Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, v8, v8)
+!define v8Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, v8, v8)

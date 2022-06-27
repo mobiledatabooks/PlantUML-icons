@@ -1,0 +1,14 @@
+sprite $void [64x53/16z] {
+nPLf0kCW28NPH4mrkVzj9nQx3cdDhDylG-3n98jm21Apx30Jmbc8vOLJ6lXUxJRmLEzVLI0vXWc-ml89nlyj83GhmCoqmpjdXk02_9o6V7OBZ1yU2qD468uy
+n09aHjFlLP2PIvaJY0smbJC25BIV4JWoG5Qc18uCQ1aa-0XoRC2AO_Ywtnt2o01ZPBzeC2sco8071wdylFs3z-KjjhJEsaRzLQmkm5RRZIK9G-chciZ3Wuk2
+RSxbPX_BjgJBzamLLb_XihrYs7onbew0j4tJsYCjgwhVLNR1GfxSxrHVWZuPCBQj4grNmSGYx5avUGxPy2F2mo90VHXOscQtG64H6UAwU0jSNKv4kgBNfxk1
+kZK64BzCidDnQVMw8TTw-p960my3w-uT0CpLvD6ab97hqp3PMKSNy8PUOxtUlMQ-xx6cTJZoFhtzCfIXuscjp__UtrJ7hbiohqFFkoJLybmExDiVNu-F_yuY
+qeQZxPKrmy3MjbZPkKPuQJjhfougelkYjOgvUTofYXFlFyiLF7p_7RRYfEZxuw_V7uRVFtO5vedl_xV_FtmtG7Fr5Fr_EtdA0CCROcMWCm8KdJ_p8s283g1f
+1nmDISkT_6M8yUrSxbZ2jn89DECpp37bXmGbyrSh81Y1OvQJxAHi7ZyduDYB9veHY9bqGFat1I3PXt95-0hb8uNCC0L72fO5fg5aRyzI2Sv1eddOrdHS_0C
+}
+
+EntityColoring(void)
+!define void(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, void, void)
+!define void(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, void, void)
+!define voidParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, void, void)
+!define voidParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, void, void)

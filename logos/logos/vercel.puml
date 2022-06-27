@@ -1,0 +1,12 @@
+sprite $vercel [64x15/16z] {
+fP47jgqW34KF88g6PCz_jAyGVk__xNlL0oizIihGXpWvKXIRFLMRi-etfF4MmLQwyHI6wGyKI360ytEeIszqg2gjbNMffBRwMQHjdW1y6rt4ktA6Ha0CgSTp
+p4VL03-aOm9MF_i_l3EKE7T66J0d39q4c9mmXzh0BV2o_HkBMBLbvIKu2tJfXDB1ZdRYLHgdZ4UgpgNqdoIt4kCPk3hu6t3qrTB3fKMyty_WIVyEcoPzhgSl
+_mXtRntJD_xXx_Ttrk-mCIKFJAd2ATNLWwt1Uf56bs55wYNdT_65GukQfGoO5jpRlpXXSy_lcNj-9VZ2L3AoaYi0Qyhwz_xwtf-VA__WQqujIjdVTjIlp_Le
+ALgAKXhV44N_Xl4jG__6Am
+}
+
+EntityColoring(vercel)
+!define vercel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vercel, vercel)
+!define vercel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vercel, vercel)
+!define vercelParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vercel, vercel)
+!define vercelParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vercel, vercel)

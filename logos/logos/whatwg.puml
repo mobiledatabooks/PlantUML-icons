@@ -1,0 +1,15 @@
+sprite $whatwg [64x64/16z] {
+bLS7ScKX30jWWyNzxviU3TyWzgscf60PkSxZJQ0qxn6O4uZXhGWpGRO1p1K8hq_PRM0UWB0dAYmm5U3_yj1YNW6xnjrvjqJKXvS3CVedHW2F91WMes6ryAJQ
+MC_waUwWnI7JPSthED3xmbPrfKbi_ftg_59RA0M6Mtg9GWdzLTeVVPHr0aP4fEvt76GMR5xRCW70Q9jIB49xfjT0RdwQsr-ac_gnYio0vrF-8rYKH1SE-ci4
+bW8oh3qSG6xS4YzwurLE8JtissLXpWi3vesyBgXkdvEQ8nxCDt-dkBq-336IGnJQHoe6_QrEKIYIHfwaEQzQ4KbJnLy6nzbpcd4cB3ai1McUcd-3baVzbDaQ
+6At47XG3SASm3TQlRn45mx-WnCnMp5jGs9tE6gKyHqgV5Z_Zb18mC073UMVQ90J_lXWRdl1Tt4x-NJz5ZYA4GUHFxTMSlslzEkcI_zi6PpwcLlTBlFKlfqRx
+ZiP583kdtyuulzh6BfKnBeB_v7Fkd048Faod9dX9d8pCFs5LLy-voT3U9EwLyQa5r4-KI_FGrp435Tyu7QoQdTlfQVu79Qy2naC-BsnfIlqPlsttnVvbglaL
+Z7Vxbyd-kTiQZY7ODyfnxVNZfa1VhA_xS2l9Bw9fTXtw0pWc9LJHj0xQLF5fIm-IhJ-IE_9pJJmWekZa4C3eRgsP-y3BGTVvYPa0w1UObg21GUr2GiUDtJHJ
+Uz1i_NpUoLwUiVbu0RdHJP4_
+}
+
+EntityColoring(whatwg)
+!define whatwg(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, whatwg, whatwg)
+!define whatwg(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, whatwg, whatwg)
+!define whatwgParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, whatwg, whatwg)
+!define whatwgParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, whatwg, whatwg)

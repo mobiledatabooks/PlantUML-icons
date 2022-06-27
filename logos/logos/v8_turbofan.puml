@@ -1,0 +1,7 @@
+sprite $v8_turbofan [64x54/16z] xSiv0G0W400WxL_Q0ExtmiwP3G20czD_m0C
+
+EntityColoring(v8_turbofan)
+!define v8_turbofan(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, v8_turbofan, v8_turbofan)
+!define v8_turbofan(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, v8_turbofan, v8_turbofan)
+!define v8_turbofanParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, v8_turbofan, v8_turbofan)
+!define v8_turbofanParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, v8_turbofan, v8_turbofan)

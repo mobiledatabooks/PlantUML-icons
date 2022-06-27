@@ -1,0 +1,12 @@
+sprite $webflow [64x16/16z] {
+dPC7TWCm24DPDkZ-5-xxTlTkQPE88GaoxFFmNaymUrQs_IrQzOYMf5pQVwAdb1UvjDssvhTKVpIDYmfa_IM_wymte-ssHbfcMyhM98jesWO-pIdpJcpsFfHX
+l2MtKWEEGEk63yzbudwADBaDHMmsbs4IBkLPUuIVsbd2H-CMq1vJMQivK9IZJa7ArBWqsTUFXJ123ODoTa34bmO3GAEHcgtQgX31YMVsR0CwIcXSVcbIFSfH
+CjggKakUqiumGxJElQ254godiqFJoYrEftAO-CGnYxWVVvAzk2PAF66fGHDfN1PCnS4pKfGaiDjrRPo66W1KTCRvKF5qpVbG-zw_jKQQe8lki4GCgb0Quw0F
+nta64f4WQW5WSpEVPKJI_43vBh22OF-D7tzt3m
+}
+
+EntityColoring(webflow)
+!define webflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webflow, webflow)
+!define webflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webflow, webflow)
+!define webflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webflow, webflow)
+!define webflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webflow, webflow)

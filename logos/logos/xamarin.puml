@@ -1,0 +1,12 @@
+sprite $xamarin [64x57/16z] {
+fTTTRgv038DXvizpzh_Yq-j78YNgUmTkYMA7CDy3AxSWUpmbv_wx9Pdrl_zAddVc_S1-Nidzmgi5wtxYTClBYuNxGi_2SJ-pcjb9kjd9xfedevcTdCAy9BdW
+NJCyzkOJ1Xw5yYgJnAX2Xddvs-gP0_DGXXDhJvloAbktfvOm-2hnsWmnJsLvAPFiL5AKnzL2qGwJoWKo34rYr2hUqE4uoB6y6Tgap5s-eKCh9QbNn2QxxeeO
+PYSgpj0XF3drXeh38wDkt-6LzUpQ_Zg0Ws9vPrb6EV_3MPQjulZxCAkWyFhPZAot_JFh_UCA7yNwyOPLK2XNxT_3_ZUxZ_iVvSNkQL9trz-_KoJ2zyzovuTS
+27TNx_0a-UFvO_OFZsOdQUuscTtZbvocUJAwnq_PtVAIPdQokjb9cjd9IDCy6QVvy-q_
+}
+
+EntityColoring(xamarin)
+!define xamarin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xamarin, xamarin)
+!define xamarin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xamarin, xamarin)
+!define xamarinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xamarin, xamarin)
+!define xamarinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xamarin, xamarin)

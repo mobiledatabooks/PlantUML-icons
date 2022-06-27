@@ -1,0 +1,12 @@
+sprite $xwiki [64x22/16z] {
+dPG7iYGX34CDDgB7U__xBcLPnOQVgK1y84ipRQQst7xK_8dgqTqUPgwxHkXO39l1NbjSUJBzyiWy_KAVMkYR9jm2ethYmBG5iyXyJV7hJ0uQc3m5h5Q9APxu
+WblnXcAg_iXVEUkqzwie9LGaddXOyxOp7nu_U51STOTG0O295ow-BDYd6w_CbelLtU2eEl74nGkiQpZNnaIKS8ukBroypSoCJHKjV7JH3gTzbnT-UVDJEMsy
+Tji0gBnGyL6uUEozwu3mTTgatjaUZtf8F8J_nVlV_C0gKbbYlSDNn-IKelAwrZFFD_NR3Q1JrCvWr7VuldzCJl7Bm9BF0WBpyenVl7w0Ib458Ke-2wYhn5Sm
+8Lv_0ANeWW2_BiCkprqNh__S4psKWHYgfPyJhml8wz7Sai979L-7BwyryW-B9czR5WJyXb7slVVzU2sxlErdc3vFQZEwqx8EE3V8mtxGVWC
+}
+
+EntityColoring(xwiki)
+!define xwiki(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xwiki, xwiki)
+!define xwiki(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xwiki, xwiki)
+!define xwikiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xwiki, xwiki)
+!define xwikiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xwiki, xwiki)

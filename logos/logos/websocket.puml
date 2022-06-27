@@ -1,0 +1,12 @@
+sprite $websocket [64x48/16z] {
+vTG5aiGm34HHKz2Ixd_R1Mzwm8fLMgOk6FnlC5bP-7p29JZscG3z8w3VQx_4Vgy4KhT2Pq1PWdTP0Us-zHr09X4U0F6O0MGMvW4GAzFJk8w1be-0ID96jpsI
+LYsu3g3l-MbTFrzxAllLMdtzSfEd42m0FMULusuBGCz2kS_Rjj01MVS0TAw1GGy0-HX0Zqry0o3NG2H1twtS0jTSv1wekjS0Nw_M_IgKhhS0v2bi8dQlWTiy
+0EXx1o1x201KxmCY0ADt02n6xmDyFG0H1NXw04Ai04SFG6fQUc1rz03gKw60pTk7jOHm0aHdFt5D1u2z0Arluspb8W0O0r2vZRALCnz0ofSTVJfcvm3SqwTy
+eVIElW4vZkS1cCRRF80r1s3E0AOl0lRl1-BuIsGNy0W
+}
+
+EntityColoring(websocket)
+!define websocket(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, websocket, websocket)
+!define websocket(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, websocket, websocket)
+!define websocketParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, websocket, websocket)
+!define websocketParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, websocket, websocket)

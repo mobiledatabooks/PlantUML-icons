@@ -1,0 +1,13 @@
+sprite $wix [64x25/16z] {
+TPG7aaCX34FDxmNG_K-R9jvClCLR4cmBIMQWgwxnRnnDHqGvUoznwqVhMhlQ9Ua8OhbgFIPMfKfQ8owfHSnAhR6_ryls-V-TKfzXVozAJ9BEiTGMiEkT_XHr
+EJNBKSFH_NsXeRwBO_FfNMp5oURSQJXw4BpSSonb9DZyfk_mfl09FHYC-0oms10Zs3HCnM9NR7zQ3nGVtDvbV3IJMRrpfPjmy9NLBQDmUr_mYnrOlG_JD7of
+7kX6x-ulnZEYOyUaQKrOkYqrrnXCnfScXpEsRPvbQ3gjXuF9U7TP8c6Vvfl6Q6Vcal0uS8MuNA_ZS2VhuLmotcKRSq1On8csZnxaPBnbkjC18VRHO_lWyxI-
+xmo4WmyzMuSauoluHcPClDi-UXfoCjudVsO7gnoa6kkIyAXlGyMIHse-1Y3a93muzlbXQk9074V2e_xCDz4h-9AU9U5vCoAz9NIm7qKmuDERaTyINntaOy1t
+5tmZ2qTUtTpLdslmXzNRVBgt322_xKTFxawVIjto-o_L9m
+}
+
+EntityColoring(wix)
+!define wix(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wix, wix)
+!define wix(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wix, wix)
+!define wixParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wix, wix)
+!define wixParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wix, wix)

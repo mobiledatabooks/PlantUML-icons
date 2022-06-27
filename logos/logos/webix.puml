@@ -1,0 +1,12 @@
+sprite $webix [64x21/16z] {
+bSzdWkCW38RX3rE42jBzRxlW8IJRn-yVaVB8kE9qTRmh-5vw_fZC2Azg_wxN_3g5AkrpaUzxkR2I6AfQDt_WLTASFSBMUIt8yWzVwLUld40HeNS55__BizxZ
+uhVNtYPttGkw_CltBv_gXxUO3Tq9V_gQplyBrUKpDI2LUqCxF6nAlMF-yDxkqHmSvWQADLBn70IEnJtszKNFWkD5WB96YJciqnp9k3XQS1GH6Uxx-g9dmV7D
+GK7mHg5cRjq0j547mD4mlTtUz2DXmkuA2WwAgqMdJgLDY6vb88tGvVNs-bDoF4OGA0QISmRca49HYoUrx2Bx1OR-N3--2m1X8Dj8MCD7Gz4yBkHHcDccDrKf
+egUCFvJEU5UPrTsdd-lEWe9lrqJSnzSJo-OD3-ewtFOJgwu8Zs9phVlS9kzuLfBHWBE0yRJSyOukFEW7
+}
+
+EntityColoring(webix)
+!define webix(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webix, webix)
+!define webix(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webix, webix)
+!define webixParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webix, webix)
+!define webixParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webix, webix)

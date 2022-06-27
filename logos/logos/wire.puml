@@ -1,0 +1,12 @@
+sprite $wire [64x22/16z] {
+bTE50lCW30JW2r922RdtVzfVg37VRbBigm4nu4XnjgiM1G1I6EKu_alTkYLfhPh60Au7MDWRxUHS0CZMRHr8HZ8247MEk8RPTnSKfXTUoJfk9ZjjYI74nUXv
+yjw0nEMfDpqUhR2dGwHE_SwJxNX84vnHsfVUDnMyJxomoPU-OAGopTm4N_fzujZk-9VUCPAPx_YNlX_lAzpnt_nAcVdltcMQnjzzfKpyTr-OxZYk6Ua6fFC5
+fsS-KkyuUZzApG5bF7TZUlGmbuSbdCvNcj4TryWdFhCkx1D7EBUyk1MMSw3YYSTAsiG5AAodePrFt-Mf5sEzk7e2LbeSNKhsD4g57l7KGnejooXbemK0_zsw
+DhAfZvBJ8cRVBmyKfxSnoWj6OdMIbe6mbHOSMKTH5LEa64bQ4G1_0G
+}
+
+EntityColoring(wire)
+!define wire(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wire, wire)
+!define wire(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wire, wire)
+!define wireParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wire, wire)
+!define wireParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wire, wire)

@@ -1,0 +1,11 @@
+sprite $zend_framework [64x31/16z] {
+lPG7QY1130HBQVx_upjd2uHwd8kqgLcLQ0QyTf97p3qsmC-E0r578FC19jCwdy0bdY9V1d4q3gxaZoO1hrKUFv8o1lNw3Y0_7O_-Zb9fPs9T7co7nfm--JJT
+jsYOH-GxOKkuhTjQUknmU0_vQC_c2WqkyZ9Udv7FCuYRl0yZyVivQSmsJNlLsqRUApjxsyXgd4hdBd_XRthRiNZII5P2JEzjiQAtaugs6Aac3h3MNnVoQxxk
+jVUpvhkPt-LdFlgDbfz4AxMGL_ciHz9P-Gy
+}
+
+EntityColoring(zend_framework)
+!define zend_framework(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zend_framework, zend_framework)
+!define zend_framework(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zend_framework, zend_framework)
+!define zend_frameworkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zend_framework, zend_framework)
+!define zend_frameworkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zend_framework, zend_framework)

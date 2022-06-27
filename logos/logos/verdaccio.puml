@@ -1,0 +1,11 @@
+sprite $verdaccio [64x12/16z] {
+dP97biD020NhynjQuVxt7OddTjfvQb6WG53Op_C8GBLVY5_nSHmJo7cL9pGXm88N8_XYq6nNWo1pRjkcTScWoJl5D_vOu0CFoC1fmXcCT74xsaIcf3l4Mk0Q
+Frb4ec8C9bMYh9dBWQ8aCbJIV2mmplCi5YfAAZcPtOtXsnaUGEaM6P2FDt2Svo5OL2IUQTHLK7guIsbLcrxWOpozjSVhJSH6wdQj-aXglUJjUpoLe6dtL9Uh
+-XtcdPiSZZkaArWB5BnGQvXERBGS3h0bEhp-0V5_lCR_pXy
+}
+
+EntityColoring(verdaccio)
+!define verdaccio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, verdaccio, verdaccio)
+!define verdaccio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, verdaccio, verdaccio)
+!define verdaccioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, verdaccio, verdaccio)
+!define verdaccioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, verdaccio, verdaccio)

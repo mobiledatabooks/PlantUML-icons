@@ -1,0 +1,16 @@
+sprite $webhooks [64x60/16z] {
+jPRfWkGW28G54G7V_tdtwAGC6xFJzXxVdxa2GQgidl85BDgxjahb3-1cVcBAvKD8pJFzimxL_8P9sKVCLzhVbUytO9IRIgsYzk4H-lbuEtKZp6EqDVtvC2Sr
+pfPQDh1Kpj8gNGsCDwJp5_NrROmHqR2JhHNguPTIIejnOAMKTWomCJvUNsE0NWhPpWRpSpOcmL2blXKVutEC2yK1PCyyYl6l3SX_hD-Vl-xlpzF-QYbgUmxk
+C4eR4tzrhcgzlANvAg3FwRPkBmoeSmMjWEthswaKadwq22hRiEN8P8S0spJF0L833lxi15X2wN3G9l00t4O12u1z3LueDDocMauhYYqDgqwHBASbd1WisezK
+fwUbZo5t2m8_6WmGdU-XUSHKNf-KYQ0qTKWp82dzdg0J6mjUh_8KSsbv2Own49AcIx_fM5wcpwg8b0hedIQIs_AoXgx2NDNHWDBPGf-MbyzeDUyBfgvvTguz
+BozZXva9Uk44TfKBV6_FPYVrY4Fx6kS0V9bJ7VJdSZz7RScJRIglR_vJOK_AmPFDy7h4pYaUoG_QmUlR7abwmgqqXt7KBunmmDyWsBi7-lLSps_g-uoLOvwo
+re-lCDIFcEVvjRwDhVUFOutry2smQVYuoFK2stj7ls8-4SZJ-SB6nAS1JAOWR4c-keOkFUfFCGUe1lTCLwy6GhaWCVeyKI7HtXjZkELJYvf7UEVhqjlyBh9d
+vU5JapdTF_BhhGfD64_sXq_j6g6SuXQlJ-4Ofb953KhPFM73X8b8y4HmogO5JzDhYh_8Cc2nAyvVnsy-7jdgS5gbM-CxdoyJROckkFNd9TjciJSg2vm295pA
+IjNkxeU1dk1cyIhMPEll
+}
+
+EntityColoring(webhooks)
+!define webhooks(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webhooks, webhooks)
+!define webhooks(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webhooks, webhooks)
+!define webhooksParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webhooks, webhooks)
+!define webhooksParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webhooks, webhooks)

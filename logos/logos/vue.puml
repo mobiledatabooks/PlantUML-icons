@@ -1,0 +1,12 @@
+sprite $vue [64x55/16z] {
+XPG5SWGm3CGSSAZ_Vs-vpHRsfA7ZU2JdSWfFbrD2sVBM6lSRe-WJ_TG88UMDhTzeqOSPeCOtvSWRKyY8q9zREcPyCzpnRsSq7K0FQl59rR7cPVHu8yq0EpvP
+LbwyKPt2Z7UQE_vpGA-m_6atzQpun3QS3zlTG5wXRpSoBiChd5xUfRe1EhJx8iTzvuT2k_WXU8NA6V-q2sXescNyeXY5r0uQ2bvUs6i0xGHp3QYTaaOXj8E6
+80yKciKts8RRolCA3yX3XT2E5Re_BGMk0Im-A8Hst93QqJKWUNWDe1qsXCNdXj0E6nfvq500UT0Gv852E9uLWZnM28jF0y3YWqBVZacGHzH1xRWXB3ufX7RS
+4DeH0zfnGv179BJZXY2F5O8yR0ZoM24iFf4WZwZKxWK
+}
+
+EntityColoring(vue)
+!define vue(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vue, vue)
+!define vue(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vue, vue)
+!define vueParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vue, vue)
+!define vueParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vue, vue)

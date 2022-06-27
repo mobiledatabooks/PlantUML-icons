@@ -1,0 +1,11 @@
+sprite $zulip [64x17/16z] {
+fPC5SiKm5CHaU8vvxt_RZWEVogt2Ev7PlkjEz_oMhaSQlqLFJ7xBq2ET7MS7-niGB01cZeMt2CIKKdJ4gJipiEElrX0b1rLr3psBf7bLF2FE1x-VuzB1vPoB
+L9O_7PGNV-n-iVRGuQZXUQ1eyBLlAphx2xqx7Z0fVkkdmtVDi6VTJMM-yKVNod6zWpaUgHfyvqiZ0tueye99WKNOfQRyWR-v_O-fuKyuyLFTKZ9WgeOanTtV
+zkpUVtYU_n7OoJfmO5gK-w9mv_nFfK_Nd-LSIiaP89HMxLmKHnRo1cmv_7_z_t__XQ4xm_DRtW
+}
+
+EntityColoring(zulip)
+!define zulip(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zulip, zulip)
+!define zulip(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zulip, zulip)
+!define zulipParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zulip, zulip)
+!define zulipParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zulip, zulip)

@@ -1,0 +1,11 @@
+sprite $vector_timber [64x38/16z] {
+bT87ZiG024FH0ER-HzwTtZv1ibMc10dp5FKxSKnvJoZvN_GxEeRKy3pxcRnzV_z2ucDzOBsUFr20JRjGIN7Vm14sRR5IuS8uNqyyuSIMXtSB20qyj9I7nmlA
+m-ETiU8LY-A23KzubqdeuR60WJSJMdWpOHXulC30cmaTF3o-nS4ZeOT7GWkF5xXu92GUspCwnSiDZuJ4WyUOyl0OBUlPdaaFZv69Hq8BZoaCfu2tHHWMscz9
+38U0jqKOBgpV2N6gWBSJAd4Jy9O8mqBxBOdXEC7x1m
+}
+
+EntityColoring(vector_timber)
+!define vector_timber(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vector_timber, vector_timber)
+!define vector_timber(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vector_timber, vector_timber)
+!define vector_timberParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vector_timber, vector_timber)
+!define vector_timberParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vector_timber, vector_timber)

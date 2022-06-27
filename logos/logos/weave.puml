@@ -1,0 +1,14 @@
+sprite $weave [63x64/16z] {
+hTHNjcCX34HHWIBp7t17V8MwLSxdM_i5bnS4cwfcPgfCxoIsqszmSNa2iNFBPQqLCkxZQH4jrrY_2o7SK8-Uwxhb4-dv6xVSBet_0FRekVawERTQ8Zg-SUhP
+wk60L-s3dkLGFy-hDe0HhrhpskG97aNBUUpp4Qywf7v1_16lcgkEaBjyE9YRzwKFpB6Mwr0ndm7cbhZoWJW7c5lZI06lse56NDPPNWqhMgZb6aMRrfETCxNS
+rvdRZS-g9_NyNssADEQfD-Ug1o5UzUPIjAN6FFAbbIWw5UAfJU7SKo4tkJYQUweXhdHn0tEp6U92XGETNEFWmLHuDxVOmMqTF2Rrt4VLcmzVoRTkkELEQfjl
+lSglQBbHrPlFM2TdwhasMlVRy83NkUrAjswudjnJioPdMQlbmpnvdVjeHi-7H_8wznbfowV7mNtqMfbcmt_haoCzYSZ_v-nnSYs3LKsoTVBVkl1UxxyfVclF
+bz0ZMZuRlN-zbKUyvLKBNSLIUiZPpfWo5dh4grQcqWFU3FOAnnfpq-k--SWVyV8hWSPSgEUI0dCNIburIW_Dr79bmeddOzxpIVUQdhhXchflw7wdEww37iPk
+Wv9ZZMkv47t0XJxXJA_7-xkkCWds4m
+}
+
+EntityColoring(weave)
+!define weave(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, weave, weave)
+!define weave(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, weave, weave)
+!define weaveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, weave, weave)
+!define weaveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, weave, weave)

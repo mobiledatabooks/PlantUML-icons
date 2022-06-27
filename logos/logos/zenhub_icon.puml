@@ -1,0 +1,10 @@
+sprite $zenhub_icon [64x64/16z] {
+xPH55WD120NRiFjVEAkuy93O3BMl5kJB3r4KhA3vq5uoD7zzrIyVnWCKNu4ltaGE7yywE7Gwwylp-dx-F3lqUTAxGx_S9mpMBlRvwVdyIAiTVRvsz0ErymzE
+tjBX_fRkku7LOxKRlr6x-D9nQ73QV0Ih_cimwDDBlVmMymKLM7w7eZW
+}
+
+EntityColoring(zenhub_icon)
+!define zenhub_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zenhub_icon, zenhub_icon)
+!define zenhub_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zenhub_icon, zenhub_icon)
+!define zenhub_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zenhub_icon, zenhub_icon)
+!define zenhub_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zenhub_icon, zenhub_icon)

@@ -1,0 +1,10 @@
+sprite $ycombinator [64x64/16z] {
+xPC54WD13CCMa___k4SgeyjjD7ZWaHVYlqGG16t4V1VZvMLA6gXxyPm6hiltTFXlImFDhy8AF-_gi_br60Ka_K3bznsz3mW5q7TtiG1weO2WtzqmzCLlWGDJ
+zHGGz401Rsp5RVIbW6McGTi1z681KSySP_HgWTi6vt2EEGK5GwzIqUi5qElv_gVvo4S-3tJNiG5_4a4Gh
+}
+
+EntityColoring(ycombinator)
+!define ycombinator(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ycombinator, ycombinator)
+!define ycombinator(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ycombinator, ycombinator)
+!define ycombinatorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ycombinator, ycombinator)
+!define ycombinatorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ycombinator, ycombinator)

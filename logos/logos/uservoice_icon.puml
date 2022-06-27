@@ -1,0 +1,13 @@
+sprite $uservoice_icon [51x64/16z] {
+pPPN0jim34F51Tx_n5qsAgXgFRhv9Lfy0LSIZsSMvUELMQAHyi3TvcM4RuIZFnkSFj2e4qhquQX47KHJo71uHyR7LIaH1BuArUd4vslmOfSG8VJyP6locuGA
+BGY8IDqxyzt4x0hffNm7yzqGWOUNDDaBG8mDGLg2oESIt6GAEXJNuc8Y5xOW_aj8L9NF_KFv7PBuTdiGrqZeZXJdSedmOIxJlqJwOiTkLNIJdzUIf_EYOwF0
+wX_FPNXc_CJq_mYo_YZHkK8SyhCM010tY45-X-BHZfNE1J-zO_2VGDudTbsBO_zDpcjab3O9hFvcBXJXAjVjzC5Ks01_ZU0PKXeJTqZqwrgAp-RlcB-OIvxZ
+_H_MiXNfVuy4Ro_-n2NAnIb6WHtJxKzUcZYnF5ruzOM7XHQJQp6kMO_YsI0o4gCYdUB52JCCT48q6pObiRIxDCfvfcPACp6lR3gW-hf_sDvj8dktOjGSSlMb
+mHYaN_XB8YYoVrztamycSSymh9IuPd1e98zgLZ-kOoHuN2sm0MNKG1x77LAAKLOGO3FFmYaGPvHb-bZj8m
+}
+
+EntityColoring(uservoice_icon)
+!define uservoice_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, uservoice_icon, uservoice_icon)
+!define uservoice_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, uservoice_icon, uservoice_icon)
+!define uservoice_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, uservoice_icon, uservoice_icon)
+!define uservoice_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, uservoice_icon, uservoice_icon)

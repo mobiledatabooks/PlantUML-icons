@@ -1,0 +1,13 @@
+sprite $yii [60x64/16z] {
+dT9TrgGm28JXWW8ItV-2npFCZ_rXqZ7F_Ni03LuIUhXWWrZyfdYDMMx4ul6Fo_yJMh-qvgPVq-G0r5i_xdeGZpm-4EX7qRi92ejFBgKTrVJuWLVR7nozSRnn
+ShG-4Z8T6wxZjZUTZGsdZzlRtk9H6VjAJA_2fQt4z2U8DiLPQsrE9wsqkS15drjuctC0CcWblWnM0EQL0U2Ns0TBipoQelbWiDPNK_6nDM0XfW9gjLs9ZL87
+c-8lyrch01_79dKVv4vI83OOcxNvCv8As6Xi4evQ0hGxHIMqybLuKQZT4Cz4i_ze2R4RmPZG_lNC5cNZCSabtR9LSBJnUBentGx66cMw7Kp1ejOiMq4zTixE
+yuWy6Cl79ZdEIpTUm5SfuaoUxPkKvrz1YZBJrOrliGY9PUsy2H75csFlJ6JZsDImSsoAhMDJR6sS3AjwQNL_xB4_TlrSFVTNZf9sh3fAIopY_bXulNR_Apks
+pst0xX_gygBTJs5buRtsSEosJR7PTW9RxH6Az_GycdyFVm4
+}
+
+EntityColoring(yii)
+!define yii(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, yii, yii)
+!define yii(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, yii, yii)
+!define yiiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, yii, yii)
+!define yiiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, yii, yii)

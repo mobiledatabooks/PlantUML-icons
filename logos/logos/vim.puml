@@ -1,0 +1,17 @@
+sprite $vim [64x64/16z] {
+fTG7ZlGu3ePXcOhCzx_jclBEJ9LADWpqY_37vmCxAJtNAFsbAlng89TDa9hKIjV00RlIrV1TDgJc_mzKyrrzycOrR-hUSySM0yMvR6es1sWSEryCEz4S60Pv
+5_Fb8M_g9aZNWDkMDtdXOq2UVT_vCds4bRRtrtxv8T1wBr_sZ9oHPeXUo-XrvUGzHQoY6JxzG3NNu3DaLot7mj57kYhDltr7Lw7fPoXU4wmSmywENy_umTbE
+NcvvWer_ucNo5_uTt_kt_DbFVgoSqZk_vqRffKVsBN_bztm4V-Vtt8wNVi-Lw9tVSskL-8t_vJauuMPWRFmTtmmC_VLwn-bdO73zzVTy7HXSVZpzy3PqydKW
+UC7LuuPxy7LWyi6B7xTy7HYSoo1QFTpmTG2bdXmNNzkUBmEDPHWJuO-lUUNymud597LZfjMNyevJIjV0zDlWv7B3-UHpWFZMewWzyZbmwza8rHvv3CZUG_KA
+m8gFF0PkF0b0DiOd7lMzhogjeHC-yGYsldPnT-CzV_QJipF-rsdFWbDwuIkhkweoiaPqslZrvBcFqSkph-XCPwRemipYpAP4wbfKcDdoawzTN71-zicr0sHs
+bmnGn8pENu7vrWTd5ny0pGd56voL4ly9SYaGl_AuzvEpdO0LKJH37L79kUCOs7Ckj_S79nTKXfoD4Oq0sCtS2sGJ8YU0hkdEbyd9Eq1tGl8AiSCc6PgbbAm1
+C2v-uVXrVdFY-VaWIgbgpbdBuXS-po_pV3oPiLZSeJKb8e1cnzu7r_cajS_pzUIQ9vld4wUj3-xCX6Bvytmn4hnOiJY_RNtmFfyqey_ptGYiNUSZ0rGxDXw2
+Z-j5YlE7AytprJa-Qr2zfwGT0BsbpsGSzQnZy1XGAwKCTXAhjOddn5phC4tPMgre_EKF9ew2HztTPYX-5l-RB6gfsAocxm6SzOytaNa-5oB6CFzB5B_EqdFp
+MQVrkNZV760ApY_1Rk0FF0R-mADcHkalTKxF_Gy
+}
+
+EntityColoring(vim)
+!define vim(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vim, vim)
+!define vim(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vim, vim)
+!define vimParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vim, vim)
+!define vimParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vim, vim)

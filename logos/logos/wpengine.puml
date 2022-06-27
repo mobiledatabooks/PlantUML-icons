@@ -1,0 +1,11 @@
+sprite $wpengine [64x64/16z] {
+xTPLOiC038DXsR9r_niFog1IF5x_fz0N9hn57LSX4odJYeyyDVBKo5Cphn_dd_xfM-VbtRxjGmNqtHuqtA_0Uz1mlmBlGSFD2if4lCVgJKNigfF2XSl5INx_
+BvQjs_MCgsTSFUChx_d8Kr_keoe7FbfgBlUr6blkU-XNefPxb5Gny8ZuXkjViEMC0vnnW3CESC3z2dXSuaP9a_LvEZLuNE0jdLJkRTDq-zvflEgKhwBnwZ1U
+PRX4uzK1Vmb2Pz5uAMIY_t_u5Vy_J__qd7aYUk29aIT6ddZClm8
+}
+
+EntityColoring(wpengine)
+!define wpengine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wpengine, wpengine)
+!define wpengine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wpengine, wpengine)
+!define wpengineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wpengine, wpengine)
+!define wpengineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wpengine, wpengine)

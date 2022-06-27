@@ -1,0 +1,12 @@
+sprite $wearos [64x49/16z] {
+xPPPUiCW30OHMhd_XLlu7Eo_YLghorldEI8Zc2xj7V48utQ1EWjtQYbixjhRfCTO-FdnpZBXdaoJnKBdIJ4EWd0yFy3Zm1h5sDX3JXvmUuN6HdISnB6GdBmI
+88-D-xXWyFMPG8yBuqeGp2S2FT835Fn189dtPm621IYx_eNB00GMI0GaDao10h109c0HEo0T02StYEWXFxT50Szk4EcYAjGcDYRG4EK2hAgCHw60VNQ3xFF3
+uN12-eGeSFrP2xag3K1J0GfOStEt8SCrDtSR2loManiDWJukSAkXVFvMGxb_qj0h0Ro_UaCTtw_UaEn-LYJrXZXMlv1VgI4ICnDgGAKXfDPGGg6XX493IBaX
+fDuGKcy8gJU4r1i2_hYX_uQu_eJFyyI5UNxsRpXV48Ys82xCCmO40X10Xk7peG2thz4O2wE61-1u3bjy_1U3EFjl_0q
+}
+
+EntityColoring(wearos)
+!define wearos(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wearos, wearos)
+!define wearos(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wearos, wearos)
+!define wearosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wearos, wearos)
+!define wearosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wearos, wearos)

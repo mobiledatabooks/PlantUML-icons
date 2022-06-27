@@ -1,0 +1,12 @@
+sprite $workplace [64x15/16z] {
+dP474jWm20GF8IG1T___RbpIUx8pjCNTk9X9gPVXlx2KAfDg_w_JMsVW8iY1RuZvw-apgOKNL-4RMB-SFZDry8aj1p0C3mOcy7AhBi36mCrRxCgbuLp0kjBG
+Hf0wG5NJEt7QhqAbtUSlIWbuasNFTnjiu0gZ2DCPAbywQ6KOwt32nNXKmSEN0kmP1qbtbWhOyb0fJ7lBWAHr0-ZtRefN5SRfrfgQ04nzJeiD36NJM4lpy_a5
+e9bokEOdrHtnrVdxeZI0b3QsHBXoXCxxiPdWhVQbybPN3YrJksyatMA53k2YOL0JM7e_LW9tcjmkKVMeBJONWbARbQI3Khp_uqqm7tUsDrtXYizgE9w5Et1F
+jwAsuJUu9dx7A37tYL_kzy3lYPAqyLzy
+}
+
+EntityColoring(workplace)
+!define workplace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, workplace, workplace)
+!define workplace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, workplace, workplace)
+!define workplaceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, workplace, workplace)
+!define workplaceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, workplace, workplace)

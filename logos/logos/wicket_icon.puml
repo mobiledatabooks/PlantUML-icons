@@ -1,0 +1,12 @@
+sprite $wicket_icon [64x64/16z] {
+fPS7haCX30InTxd_aNz9HvcKVOpAQumn9fB3U4MrxFc7hQuHS7RdYh-FKVO4xFx6xhEDV8vG80SHjEY8AvWyIg519wn0HmIwPe2Vz9uHWkGZ19MFM7R1CyO5
+jKimP1yXp3vVGS-32ARF4sZFemYdjoRYvv5OV9THBz6Fg65Z1Jg-5bNFM58N-6QV4k2tLJ0IYrhegzdNLozvhmoxwcBVVk5hYR-yMq3_da2Thoxq6O_ROD-l
+eNzEeCvNL-gVH_j-pVtXMVThLBypydAD_L7BbNsHJx3ltlHhpzVOytiuy6beR_hbmASc_AtF8t41OapzOxj_3Htsj_ltLWCN5JRF7dfe_3UuVJZxCygpNr6k
+hpZVkXLb-aO0xnr051o0qXDOEpZx42M_iPV2fH4ii96MQTq9rVPDjLxAlm
+}
+
+EntityColoring(wicket_icon)
+!define wicket_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, wicket_icon, wicket_icon)
+!define wicket_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, wicket_icon, wicket_icon)
+!define wicket_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, wicket_icon, wicket_icon)
+!define wicket_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, wicket_icon, wicket_icon)

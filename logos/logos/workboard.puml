@@ -1,0 +1,13 @@
+sprite $workboard [64x64/16z] {
+bPTPmjuW30C_ByFzRzoTjd-4bSJF6H7X1VXC4LKDQq5tPNpUH6Jpazq1T3sM-0al2UXyHCCQ0kgE3bWc82rUh9kWmov-7-JeVFyaOAGe--za_8p4U73MYJzc
+bXLGtFDU85d2Mu7Qf2n636Le15ZA_smXPWdY7zvdtaiWvfNVFh0EMC8R2TqeosyV3KCIMOQNhP0lyyn7nL52Tg3NcGSE4iab1S74htMIuDBAPVYb4i5b1tlD
+_5OWbTy6i3n0PtmcFiFmY7_XgqR-il2vMBid_XF3mNIfGTUOMiDQn0ElC08Rti0-VF-_vnCFythzz_x3ZE9sl0wFzxptmLo_X-fL7vqZVxmqHLtw9rp_dYGk
+_NitFm1gxl-mysihT0vys_cvuVFysmDyv66lFF9Xpe_jUvu_j3k_fZ4WNnR2Fwl0zkUtzj3mOM9udNnw1sl7vpJvmYH5BFjhS2Ay_BMzGHRQl_3Y2jpc_cek
+RoBWU9_ZvYaFOHy0WFSU_W7YWthn07hx0YkuVNxP2AE0f_rHusdVw7iCsj2MtJHTuwPz1m
+}
+
+EntityColoring(workboard)
+!define workboard(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, workboard, workboard)
+!define workboard(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, workboard, workboard)
+!define workboardParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, workboard, workboard)
+!define workboardParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, workboard, workboard)

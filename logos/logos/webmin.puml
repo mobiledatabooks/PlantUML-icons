@@ -1,0 +1,13 @@
+sprite $webmin [58x64/16z] {
+bPO7aYmX34FRUdt_A_ymjPHMvS83REpmd0Npz2NU5zLpkuhtiw2kmRNG5Sdh1TSkpPRWB6Vn9iffpYm220iw977WfoZyUkqAbT-oLpxsg9baaNRApsrEQgjr
+jNmLjZVsarzNr3B29UboeMFoIN9ssicNCtBDQv17YR8ZYx6bfVGfNunzAV2eHKFdH4NV3kfxSIjL1OTa6GkVlRWrRWHssOkh4GJbJ16H3w0g4ydcabOxvrKL
+RpfNW-Ccrz5Yu4PKXrpkS1N1dfqYMgX9UcorZvZdsMwd1L1fnX5J9ckNKBRL4unzjcpwXkGht1HI09tye3OisMauR6GEWSFrNO51Y8g6Las-89cpomW4bfqO
+ly1saaBw_5trRwirgY3ifrfcsQIIKoxp4PsP-SOGQNVh_f0SWqI7xf-Sa_AD4ZlGejdjkooo-KXhDEDsENzefLcFglNyqPQa-nJPgecCknXqjpIGbIac2xRU
+vwE1pOOsKucgm9p4EDKXSkArLgj1HSr-mJ2UizmqdGViGRCmoA-1rWLeLEwijm6z1rr3o-EU_SRz1G
+}
+
+EntityColoring(webmin)
+!define webmin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, webmin, webmin)
+!define webmin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, webmin, webmin)
+!define webminParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, webmin, webmin)
+!define webminParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, webmin, webmin)

@@ -1,0 +1,12 @@
+sprite $xcart [64x20/16z] {
+hPG53kGm40HxoE7C_tzxRMUqlCSLwbWgimoF5nH_WiKRWZyWth7_u8iANoAGcESGL4S1zOu-Y-RtC7pXXmRZdkGGO4kYc7CmQLu4SPWhBmj8jUyHqf-MUHwP
+4t0ayU6VtNlnnnNGylbL-bWpcsLk4FQ2kVkRi5DkdltznHUMLlT3CtTO9kjQXWycxpMUm6F_zUx3WmWE-Z1JD3P-KXt-bcd3b_8b1bR-VRg7JxhdHnwOQ57V
+KNvvOaGXyTJ-y1iwTAG_zCbfTx-3mcz-TFJovtaIXeMFVMnVe4ue-dt-BCB7_4dIouj6V-kb_ZH-ZQXGlbthZusAPXxUcsNxS_T7wPFlSN7pQ__9VEsVhVMr
+SuRFVhJoVRhlNsNKCpk-i6aeZMNql_oatsbB-MqkNrM1_jB6sJDuQmfCqyJWzTTQ0ygBk0V37-3_U7xyw_dr0m
+}
+
+EntityColoring(xcart)
+!define xcart(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xcart, xcart)
+!define xcart(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xcart, xcart)
+!define xcartParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xcart, xcart)
+!define xcartParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xcart, xcart)

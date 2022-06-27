@@ -1,0 +1,12 @@
+sprite $zendesk_icon [64x49/16z] {
+fTPL3iH030FG39Dp_-CkqqXk6cdzcxu5bw9MfjnIrSY26Xbd7d5PlfruPEcMBoU-YcJprzc-twPXMVLjde_RiS-cNq7k2J0-t_18yanH-u1wLFqx_QXSorVv
+Pl1pR_d-rVGNe8hbf-mfq2qho-P9zNjYny-ulavDUtdUx9vGni8ji-Vtf_V9VP63X5j-VpZtJLp9oltmyGZYMNSyOIdrYEBAKEgHVRmfzzN7YtBVdTM3Ut_r
+nBkhbwdK-wldtbqzy_xgGRo_-WIbVehtigNUNptrI3xUbNeK7w_AlF-90Ux7_eWoBblcswUxrEO2i4QDl7hgo-lWyjCjHYANBVMlnAbRq4drnBDgNiF8gkU-
+W4nN9DLJdw1q7BRgcIVDaiTPc6fuOyL9U_NSHwXZXRB7revJrFRMYjgtSgcFCFmwNo2pMf7ftTzvXlxdhm
+}
+
+EntityColoring(zendesk_icon)
+!define zendesk_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zendesk_icon, zendesk_icon)
+!define zendesk_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zendesk_icon, zendesk_icon)
+!define zendesk_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zendesk_icon, zendesk_icon)
+!define zendesk_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zendesk_icon, zendesk_icon)

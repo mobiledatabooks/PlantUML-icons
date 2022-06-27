@@ -1,0 +1,13 @@
+sprite $xero [64x64/16z] {
+fPTNOhPG24I1OTZ_Zl-2t0JRL-Iyf9wHYuY9t65mClv3XwbyWyBZ0F5nX34k8IPsWf7zFi7ZBTHRMncVO7UrnuVufOw8IO375t1mzSJF-YH0uslGVSRtwCFU
+dNjeyGWCgkydG3p41vTFj4u_Ae3nd1oT0LRT6no0CK4axhcC9gDXjWxYiK1-dljUiPMfqApKxR1aWUMB_-ZYGUqxqMfExFIuqwC5b8vyDa0IgUNtcBzZJhh-
+1f3H0qeF5UNQrXe1qQtPlzKkZtqOdPlEzVFw52bgZMfzUZNDDGyGvK85n6yepRPIRbuCgAH6-IvQ5wciIzzFlZ9EVbpv4D4jm0xlqLL_ZeAory-kWrk0jtXV
+VhJRRgBBxthTXTvV4omVTRhCznRVz0hm6hog1pzjHTw2jdJGzHN0t2ogAgiVY4eJLMawhQIbhyzfxUyH2FhALe-5w_cfh3FHtSzJolfcOPFzKRKEu71_OhY_
+jPwOqGjijFud1N3u_hRoyVZqamAeij11zGa6rIV-eFUJ0AeSu41FVA0dFj2_kGi--WU89iMZ4bpb9UhlB_uqmKq-mouY29KlCB0lVRkJ_m8
+}
+
+EntityColoring(xero)
+!define xero(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xero, xero)
+!define xero(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xero, xero)
+!define xeroParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xero, xero)
+!define xeroParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xero, xero)

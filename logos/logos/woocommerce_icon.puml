@@ -1,0 +1,13 @@
+sprite $woocommerce_icon [64x38/16z] {
+fLE7Li102ECe8_t_7zPIyZYtrZXkiHAeY1o9ymdIv4BWV8fKaJZ_0Qm3Nxxzfh38gumHO93hDxNXrTD451yU3k7r3u2y8Z-alswB7DBD4pinCtAZVymHjJYZ
+fig5HGkO50oyk0oSxhuKl5IK38qONjB5yMOEqR4WzmPBX2WJusboMgVQqqQLpsnQKOooY6fHOixP1-_jNhFE2QpxZ79qm3RHabAnshpiYjFHJwmdgLnP6eUG
+iPp4i6OnJ9Ewh1Pj9sqCL8cppDzN5hGSqGeTY-bbeSjrfgF_iDxyQJQzohwX4OTqHdMQFW9QSI_AxMXjr2Qe_rEFpGIpEAt0wvP_ykCMRlH8CXa1kwKX3Mj1
+G7FZL5RvL8PY5BHLQ3ksEvLZqKfP9sZ4_equzspeOVU2JgIcypsCWEIAjx68jR-HnmX0bs6JV9Wt1kno1ZRfvolO8w_eJ0nWTDy89ENOJeXZBTsiqtIj8tYn
+fHmZUzDTW0zqsIuwfrVr10xc_mbe6M1l2C4rpj_0nRy8_AChTNES3u6eJgddbm1DyoFYa1-X0HRw44U2S_GG1ixKKpW_wwTO3fT_GRyWy08
+}
+
+EntityColoring(woocommerce_icon)
+!define woocommerce_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, woocommerce_icon, woocommerce_icon)
+!define woocommerce_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, woocommerce_icon, woocommerce_icon)
+!define woocommerce_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, woocommerce_icon, woocommerce_icon)
+!define woocommerce_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, woocommerce_icon, woocommerce_icon)

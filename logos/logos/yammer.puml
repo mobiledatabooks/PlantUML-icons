@@ -1,0 +1,14 @@
+sprite $yammer [64x55/16z] {
+dPQ7iWCX24K5AvV__zxqn8bNVELCpUwYS2ICAGzOIG5vO6WwaU7kgAUNnmNCxq3IZk5tUZe0zp01XT-nd_VtaJOqf_sZRw1nRIKT4FY3jh4NfIywTQNkaS4U
+h5m1j7KNpbAmhKm7vkSdWmMxvmNhvpKmE3PvIN-5kyK6uyFFvc_QueayDrwrmbzWfXyPj7TLd3kCFYLJURMdDgF9D1liIqu554q6ApsoMJf5iokZbDfNE4PE
+4puhvFNmTOR3cgQ8iVnJzTkUmLfE11kKTq7VzaJI3zYtGPi-OcA3UTeBE1liqrvCR52clHWHpRetM72QUv9BxSDmP-XY4FMJYx5qBUqHw1ziDJXUBjXUxWRu
+2XdKrBRsn7m76Mp9zlQqRVOt7lS7Uvfh6yFmmPHxS1v4X8XeVi0zoFFn38yHidU6PXRREqC6oTuPCiZsMg-_ggUwRwyCWyPNQ33kFHwVJ0_ioMkUMfLp0U5j
+gkCtAuouznhURkCL56IF9WpbHnsCG9EQlx5oq6-ntdE3TSekhc5iv2EOUtJxcabokDTqf99ZBJddPd3QFahXwwkEEomcflGgfEH5_y_Gc0n9luQd7ixXSS_o
+vUZtQBT7SFzNz1K
+}
+
+EntityColoring(yammer)
+!define yammer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, yammer, yammer)
+!define yammer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, yammer, yammer)
+!define yammerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, yammer, yammer)
+!define yammerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, yammer, yammer)

@@ -1,0 +1,12 @@
+sprite $vitest [64x59/16z] {
+rTE7RiGm38DXayp5VlyNxb0NEnG55bQ9Ojpu_bxMg0TnT2QfmzdpKC-hvzdpKCyhnbtEdeTwNZtFdeTwNZrFsKZiSHznFmBzlRi5Phx7sVlr6lUcV_JhWSrV
+ZtZdZmzuwzTplepKSHmHy86iVZtdcYz_Bzm2Fe3PhmyU2vy4icVG-OG5BltV_37eWTmZuSC3kMV6hmFG-rAU1zmZutd0FJEU1zmxX_6hW7ial0xW3lV0-zVT
+i-0Uq77Eqm0bLTo_VCorrfI_XOfxuB7Y2xBdkE8-XlV0gBbFCmlWVEVdkDgH131JNWVylsCKUrXWWtjWXtk0Epm2x-CMzy0Mzy0Ezy0qlXzOASy37Hw13ez0
+XqUWnIEmEZn-GS6V0G
+}
+
+EntityColoring(vitest)
+!define vitest(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vitest, vitest)
+!define vitest(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vitest, vitest)
+!define vitestParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vitest, vitest)
+!define vitestParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vitest, vitest)

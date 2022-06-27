@@ -1,0 +1,12 @@
+sprite $vulkan [64x18/16z] {
+bP87ZaCn24G1q-V-zzrWjBsF91VYXnxHfmaVZ-e6q5tfAap_o8d6XtIQ_97cnDSfux_WXUTqkEevgXRPM_XT8fzXV_zMz4xblpbWaqpcJXEDa5NJ15g9m-KN
+FeaeW3EL0kJ5mXikWFxYFvO7Y45kj-UeEb9_uAK154qQ_LWDK9Onc3NWfyA6bodoCJkylucf4EdopmECFkUjp1e0aJlFhGzf0vY3eMDEkWsOTW0d7lstV9E4
+yk0oidbqF0s01z335U9vWAl_aKT9eeH8haayFrix8lRnk5T9D7_Y4Sz_gfWNbcUQbROSPmV8HWwPxtbrGFTRxwoF_4Hs002w956zuQd6ou4pcf_vJG1elljX
+nLj-tEwDkBxb3tPE1T3ej_pqr6cPZMzvogepkpTQhOAiakGMEIjvwc5Lh5KF_h4-0G
+}
+
+EntityColoring(vulkan)
+!define vulkan(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vulkan, vulkan)
+!define vulkan(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vulkan, vulkan)
+!define vulkanParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vulkan, vulkan)
+!define vulkanParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vulkan, vulkan)

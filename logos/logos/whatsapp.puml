@@ -1,0 +1,12 @@
+sprite $whatsapp [63x64/16z] {
+rPT9TiGm24HTG77_6sTEw1U4ZDYvLktXYz61N0_G4uKlZKWr-ezeWZEM_aycRTXy9MgBLgz4kOM5lf6DJ8U87Mr-Aqpfu6jwpgltn2KjyPpqu_p7mrjFf0Wy
+ZkQMJpGYi4OYj38k4Sk1USJzYNbDISL9yPXFPJ_vy8nhl_QwmAtllUMxEEXyfeg0xktWyzsQpc4Yn-Gpt2MIsKszB5BA2HxtqSUnogaCSQB3QofSX9zuSeTp
+xHWOxuhLRMDLOFfY2LOrhNZ5mrulTFt9OFD5GQ-GhlzOipaCTJrgf3dDhPWqx4sJA4LZmDLlBS_DeYvfhITakLF1TZEMNihqGrQFo1hVPoI4DctbTZ1VBcn2
+XzZtV1wwtgsJT1yijVQtk8Djqo5-eRkrs73Lmlx_0PFhJ10rqacQ9lRnUhxU0G
+}
+
+EntityColoring(whatsapp)
+!define whatsapp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, whatsapp, whatsapp)
+!define whatsapp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, whatsapp, whatsapp)
+!define whatsappParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, whatsapp, whatsapp)
+!define whatsappParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, whatsapp, whatsapp)

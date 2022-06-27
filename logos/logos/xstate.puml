@@ -1,0 +1,12 @@
+sprite $xstate [64x20/16z] {
+dPJPjeOW28L1mvnol__R7a9iMEUg_xiYPDowwb0IdJGeGj-8K0vMAq3fz9K29QkHe6pq5HvGmYnKwJi9Cx428v0HHCoAcs7szlImnanBVNqENkOQoWwbiPy0
+k-dKQCQwu1N6MNaAbt1uTnmYjRDrGujdDye0MtznJuNC_dvnAI3vGayLboH77yazXKugQ16W34uqsL2O74PrdxJ-ybGmBJAKGeiE73M-eWie8RmzNOctO8Za
+SEu3x-XHrTp_vJVB2GCdZHu8oYDwGyjvzF_pkpcHrT-5y-Wx8hpooObm_FxAoDjMaUvy7esP8_8hNvxlv_27eeZPxQ5VciNwUEKR_dwRQJ3O9qffYIcd4OND
+BUwP7mQnTOlh3hzovtcTZmIikUMd_qUxTUk__B_-
+}
+
+EntityColoring(xstate)
+!define xstate(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, xstate, xstate)
+!define xstate(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, xstate, xstate)
+!define xstateParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, xstate, xstate)
+!define xstateParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, xstate, xstate)

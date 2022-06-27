@@ -1,0 +1,11 @@
+sprite $zube [64x45/16z] {
+jPO7ZWCn30DFhkJ_7tozCw3MDbPfQ3CErDPF9cAKr-_Nhws83iJhBx1bQ23vpfFeiK7_yAk6Eic_F8csGWj_sL06-PWdPyrfKFa_1byoqlB4B9REU1AZc9Ab
+l1PJQUNLe2NJWF9_Ywcq9hiCRoYJoGd5-gF3qluVlXKZ1ZG_9hzQpZAWj37eOMN-2ED2VwcXJkakQz1qLKXtYs5OGxastwwSUNJk6amxocpQ37h3FkrNTNFq
+Pl_vsSmdA9lkV4EKYQIOveop_UDpu_TVZxFzQtl3ynXnzlpni-7vMUvw_aenXKUxv_wXew8yUjnw_z9Y_l1Iy8k6Jtxt1blUmM5BzW8
+}
+
+EntityColoring(zube)
+!define zube(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, zube, zube)
+!define zube(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, zube, zube)
+!define zubeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, zube, zube)
+!define zubeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, zube, zube)

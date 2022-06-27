@@ -1,0 +1,11 @@
+sprite $uservoice [64x16/16z] {
+dP9NOiOW3CRqUO9p__ls9ztjMyJ6LYOICe18yO0gHHdAxl87VYIMmhkowu4lGmvUeQfdpvzbFttT5JlZ2tZlFYBYTzW32_tmOyCuQwRecGcRQveTv3eRZG_Q
+Cy6yCF_p_35mMOnah0Pyx5LxiTF6xAoehKnTZluz__5FsagnTXK-MICV6zsnyE6-i6PLPE6blxxZlVVBxyAlVINCslppEoAnueVl8nkJdycTzf7ULvujZVlG
+6u_p_5GhVd__DTF4dFxZ--5ZfzsnXGysUv9vqQri9ogiaXipG6uWdVcfkWTm1-mpR6RL7frakpqwlzwTtTMbB9uGVIYpCXxXTNI5UC8R
+}
+
+EntityColoring(uservoice)
+!define uservoice(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, uservoice, uservoice)
+!define uservoice(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, uservoice, uservoice)
+!define uservoiceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, uservoice, uservoice)
+!define uservoiceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, uservoice, uservoice)

@@ -1,0 +1,12 @@
+sprite $vimeo [64x18/16z] {
+lL5NWaGn2CB6k_-DDyBstls8IXuGPl2yceCVrF1YVPyUl2x6Z_mdySyLRfbUV7xCYd0Vph9vwcuPza5wDakSLgRKa6oHcgIYfd-nu7LwanSpXWVIJEHf1xE3
+veP0uwLMg3byOuREiTNgBA0MrMBFNc2wcfB474nBTkipAruZ7t4cm8E74UoD_d9btlireQsOgwYcWDIPJgO7eSN7Y9FKjrmjFmaEApvAK8ffgJj_NGLCyMd7
+e9eV9iyccS87i3xWNIRMDz7BkBMpS0e2n2zzR9rBLWwkO-3x1spFGDHej0onrKBoVg8SPHoFC3ML36XB1p0TjexYyaDfZJ7xJg03uraSqoOyjIFMzEhsv6Di
+oNdtOeEu0G
+}
+
+EntityColoring(vimeo)
+!define vimeo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, vimeo, vimeo)
+!define vimeo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, vimeo, vimeo)
+!define vimeoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, vimeo, vimeo)
+!define vimeoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, vimeo, vimeo)
