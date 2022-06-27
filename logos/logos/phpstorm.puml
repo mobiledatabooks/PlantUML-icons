@@ -1,0 +1,14 @@
+sprite $phpstorm [64x64/16z] {
+dPU7igim34HLRAyer_p_txu79cWqeSISQMd7h5TEeuE4h4Al4Lj1ISAlTDW787Slmh08IbQc0-xKxTZDdcvTxpfKiKkoRmuevplBTWs85EO0A4dvINSadQtA
+hYUx1NP6EdIrDo0ElXyzqOVVi9NIV9XJbzyOZmQ3Fomz_jvWVkt3XzVjUuFoxDTQp_pM82FuawO6fbs6ChDYZhut6FsH3j9wrLbe9_y5_sYmNFcaTLc43iOl
+7yS0Wi-gkaMpTXS3X2Y7_DwWVlcsRdijHnTyhZjg3RutA5y-jjwOY3SVP_Fp1Xcd_YAhFsn53d_VlZU8i_pBjEMlJ1k2lrCVFW3typHDncsXYMa7qVS6yzty
+bcf23Gk-DwZNvwSnjuF2rNt71-3p5n4jq-AqOpX_-r0VWFTVNIpQh1Hzrtq0iV-6hNMEysmnVz2fdCv_FqHEyVw2JldINsODqmW-X1fgxayYCeIpbhOCZ7Z-
+NVS1x5vT8dMUfhc6DODEZ1UVVvcSDpxO_TBjnm2vsuy1jDkF0UILRn86qEyN-j3lnm2bsuy1yk5NYzpwfjH8XpzJfDxwy05q-Z40uzZ_59YNUnzX0Btz-Sz0
+5cQMsk-3oEdteUHmT_v40Kt_oUCZGxCpqncmdu1q_fU89BeYspCnUaJnP1UXM_Gs0X8zmbgwefylqHyzmgb46qgTS4ACteyanEZzIBuyCFy
+}
+
+EntityColoring(phpstorm)
+!define phpstorm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, phpstorm, phpstorm)
+!define phpstorm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, phpstorm, phpstorm)
+!define phpstormParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, phpstorm, phpstorm)
+!define phpstormParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, phpstorm, phpstorm)

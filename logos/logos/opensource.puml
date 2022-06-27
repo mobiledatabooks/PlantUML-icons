@@ -1,0 +1,15 @@
+sprite $opensource [64x62/16z] {
+lLTPjlCy3BfEQbi2zh_TV_JfYMzHXs_YEKGoCKZvAj3EFXCaYOnnjgzFq7gGke3CSRpBFeF_Sx10IXAplzF5BIc9oBWW4vI8qLxLJaf462GbeJyzzwJ4Z089
+YN7KnR6pVG-y5VHE2V42IN5Q-g0fRa0f2dgy1KZnutJ_Wfkdro_ODJWilGR4xIB0qsjGlDo3AMLy1Yhlz9D2V8YKxYT8CJu6n7RNFkDpIDEK_xo1qvT_3Mhy
+ou-oV08aaMK3-DVpbVX9BR1uG3p_Kw-o6H5p1CfCeMRLVbBCSrtkIIch0q3mzxFlmPJ-00ULbdvkmUWDGlKkbfTpDoWSFwPOc6F7aAm0QVXfCjP-PeWfM5qV
+4BQGOFbfylLzFZNDNEGVuyCDY2xF_qdzKYYCjQFvGYpkJposhtIDTiU7U3FbNPspyi-nyLF-iU7Z9oMSb-fP-hVA3ucpBNQdX2g1krXkAkSw-gfkPLu1uaNS
+PxEtQOfFviEB1xRnPLtm-W48PRel0Ghr3dErZ0ccMAbNRnzKl-m7MPLV1uGNPy6OBAyhL4Zvp49TUcmFpOm74y4sVB7KhKu0uLbuG1hVrq-OtS0fw1VGkLaa
+l_iNmaRFzfXlGZt0XcZfUmTyDZ_JqFqFmFxnzoKjAKNx_vszxuUyKMBw0R9C18bZjHHpp6FlCYcXpc_mackz8s_3_0EHWfE7b3ZQb-Slj459uv5_KkArtnQZ
+kv-vDWYdRrxPT_t-1W
+}
+
+EntityColoring(opensource)
+!define opensource(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, opensource, opensource)
+!define opensource(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, opensource, opensource)
+!define opensourceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, opensource, opensource)
+!define opensourceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, opensource, opensource)

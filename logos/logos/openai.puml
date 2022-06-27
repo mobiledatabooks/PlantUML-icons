@@ -1,0 +1,12 @@
+sprite $openai [64x16/16z] {
+dSq5qYWe30JX9ZWXcVlVTd_Mdyk7b7ODWBdank-otBLw-kdy5ZymmkVAmw_hAQit6b1oy9HgV5VXAK_FcUKigkTYNe0jAJhVTjuEIvbIJD9stzdgZVtwezr6
+gF8jHNc1Egxca9Ki-_RfZI47UnzLXpcxdmRCwntMcBuD61gg05j6rhTVOSKfDIjD4o23K7YgShIs1bA4Bd2TN017nd66n-lRSiwcQm34wusgRPhWKHHmLJ0D
+JlpJczpAzZgo3MSTciO_-m55NXNtAeiSjeofLgRgFtrwBbQk_VextoAyxh_-p3bwUVqhhfuDRBs-r9l7y8z-Pe6hNkoe4-eChQ8De_xT5zFflT-abADct0r6
+JozJKG4BVLWGobGOKn7g_Dql6J3KbXuiJ-yU0sBnbpvd1I9iZWBKEGrQXTgf3Q1qi_w0xHiQfVhbKv7yh9afBtngRtxi3m
+}
+
+EntityColoring(openai)
+!define openai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openai, openai)
+!define openai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openai, openai)
+!define openaiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openai, openai)
+!define openaiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openai, openai)

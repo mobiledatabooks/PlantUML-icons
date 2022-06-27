@@ -1,0 +1,12 @@
+sprite $pytorch [53x64/16z] {
+lPM7SaKX24H54Vp_7qxFoVYYWvYoKrwvzxYmjhAJQ4bBh5ymerymG0a6AC409HYW10EKO83IZ6kU6J3IccIPvcDuI_huMwsIOOgEDxK40wGPfbJAEs2GEl77
+3AggDSVCaWj6VR8yO-P0UhJU2D_cM6EV-PMOOM0Ar82PtpAM9B-s8Yolf83lLlFWpZeErBwi6dmeu_0mZ8wjFYlr4ejEQiKo59cfVi17q8U36Nd7eXTQoZJb
+Yy2Zq9FdTlz7wBwdg_JwpJnnm6TMnDNQApUhlFIB_SItSoETliP69AtPq-ZotCCgYhq_lEKn1KCN5IfaHljsk0-Ju7Bjgu5ybRmwWsuslpUPNK1eQ44Dxt3I
+30Hcj_tTtSpS8MXuMVbUVNUjxkLaVMpcNPO0KQsG6cq0U-1CfSIIgX-W6-bFUWO
+}
+
+EntityColoring(pytorch)
+!define pytorch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pytorch, pytorch)
+!define pytorch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pytorch, pytorch)
+!define pytorchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pytorch, pytorch)
+!define pytorchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pytorch, pytorch)

@@ -1,0 +1,12 @@
+sprite $opentelemetry_icon [64x64/16z] {
+vTT7UeH034HXgLM2bkz_tydbo7oWOcdj7Fv7JdPy71YcZoCJSOep8786PAu7oCM0qwi1UZNW_pamblGJWL5LKmcGVzn62f2B0N8nGAu7oDy7ii6t0cZmZG2Y
+nHc0oXd0FhULP3D0tlOCO8TRr9l0QhVnuMPQO1f72bHQDr2t8Q_b47Lde6ekcSkiQl0nQ_L7e7AyVfLLXpYNEny1_nPT6vo17uC6_meC01ZMFspbJvst0RpD
+yU3v6dZZVid5EpA126Gc6fmdUk1rdI4JeyKhNyoCWUEScy_5cmNz3XSzkRx-v9nQlk-_sDr_S-D6qJb-HSUfuFa3vFxXowtr_pf_zu_-KXlSp0EWFXGWxyzI
+CcT0v0u40nBFP43a36Hrk4UGymupXXqV932GzDABFSv_MP3B0N8zG2u5oFK0x5m0fmDsBX0Il08
+}
+
+EntityColoring(opentelemetry_icon)
+!define opentelemetry_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, opentelemetry_icon, opentelemetry_icon)
+!define opentelemetry_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, opentelemetry_icon, opentelemetry_icon)
+!define opentelemetry_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, opentelemetry_icon, opentelemetry_icon)
+!define opentelemetry_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, opentelemetry_icon, opentelemetry_icon)

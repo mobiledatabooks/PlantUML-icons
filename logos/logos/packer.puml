@@ -1,0 +1,11 @@
+sprite $packer [40x64/16z] {
+xTGtbaD124JHnXNiVyEoZ6daIladvDpWaR1wr1SrcccKgoeevwf2E5VbfAiqodKcuoxoCJEqNVw7ZmS1lVBDLVfmcV2Rb1ZIXhl8-qgnI-XmcRsoh94vN2Bq
+UUPmBpDZSosVPKAcwuDc9ZOtCl_BQ3UaNE5MQTDrvdGfxGRKuSf9byAvCjA1TFMzEzpX3YV1k7vlX1llBL-w_RtPUxVa9lFb7_etQYQBSAq1ogrbuDnQ3iuj
+2L3kaXaWN6SIhYNbbZW8rvcKkqWGhZCvjoIUk3C
+}
+
+EntityColoring(packer)
+!define packer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, packer, packer)
+!define packer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, packer, packer)
+!define packerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, packer, packer)
+!define packerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, packer, packer)

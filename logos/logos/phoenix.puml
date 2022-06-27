@@ -1,0 +1,13 @@
+sprite $phoenix [64x44/16z] {
+fPLNWlCm28HXACFzB_mNYMoqjbBzlQJI6Im3jKXMaU6GJr5FrWzC-ymw-Dygp5bDghoDTUn0B3dO--55ZNN2vGCqwmXTHFLj1wmJ9a6cl-V3wmGXCHhxbWTk
+7AWufwFNH6qTQ7OlNc6r8GMAP5KQ5F8Cr8xGiB7RcOwF9j2uhkki5YJf-aO36vzJD3EFv7qqxzfNY77JsJViMr69eP666MPP-SA-5N3V87XaHjWCRES4iWxC
+6fqT5BBYUDDUaCF3KT7wKW4X3SmD7omWCxdliS2ZU_1uWVns4E9q9ZdSambfpWt8kvvScgMJ0NrmMF2xxFojE-IeJ4L4OMPu9E5SwmdjeiaY0xTpJMRelWF4
+-d5g1NQBsCjiiWDS2-Y_CWtQS-mfSsWwNFSExBWIR21-cv3dzBCxvCHsfr9dHlHxB3_QYt7f-o9TMdyYrbY7Bbge8DYjdjrcVzGuFbl77mypd0tNERT-htFx
+mg6dV8z4CTq0YoxaKs8ztnznxXda6v2Bb2FSzFiKsWi-zX1a5OTG8lXD8nM0oXocGhu7mJIvWh5IvG9WKIuw2Bc21ars_0K
+}
+
+EntityColoring(phoenix)
+!define phoenix(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, phoenix, phoenix)
+!define phoenix(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, phoenix, phoenix)
+!define phoenixParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, phoenix, phoenix)
+!define phoenixParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, phoenix, phoenix)

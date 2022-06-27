@@ -1,0 +1,12 @@
+sprite $qlik [64x19/16z] {
+bP9NWWCW24GLa9Bx7tXnDBZfoNpO7qtQpnAB21-z7R6Q3Qvx6wqDipp8SxgbsMDhdACBvCk2vmgZjfwdSeEFEB9zT2dXhO7NYDp57IyBLFKo81CCivWp5m_T
+yprIsikIp2FutN54yQBALxuFLMIhAsqIpY5IY-AJY81V-TkLzwkB91mFBaw8WDUxhS2wUDsyRHmkPTVBMqSmkQoFK91t_2YySHAKPn0rdnMiIoJmo4FQYk-7
+jyb7tO9ypllX6UcWqXwXSvSs8K8kzpmazNsQ8qvWBSTSsxfrHFN0QvGBGm1TqTkER11E2D48M7hW5HscbK0mbjqGp6wWaZpm-_y9bA9jXNW4LXrntnfuvEcK
+qE963hC22yuKcUZaxV0XQ8mvGtfOZ0tgH0Z5QA_tIBJY9kmWKd0cZNmsuE_gnDonS6r_
+}
+
+EntityColoring(qlik)
+!define qlik(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, qlik, qlik)
+!define qlik(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, qlik, qlik)
+!define qlikParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, qlik, qlik)
+!define qlikParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, qlik, qlik)

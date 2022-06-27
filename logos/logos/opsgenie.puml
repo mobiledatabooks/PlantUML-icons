@@ -1,0 +1,12 @@
+sprite $opsgenie [54x64/16z] {
+dTPL4WD124LHe0MP_Qytxe4tSlzFjMIADAMrQR4iuTgPDiRJOtaMKpQXyI1ln-iBsVAN2-74bwHeUAK4hJDRYeBHHPHfYLYjJigb33GhLG6uMCEgbniyiCLf
+k5ofuRYu39mSKyTsM2X76QKDh3HN3IeRkMAiXFB6WGtYnQnHrK1BrMcv5CEvLkuF9Jc3I1gnfYk9LAPTm4W-aSdKpBHNvf8GoVnqAe_XbRXkdzyezsdcvZOx
+Vyu6xPoPIuCUCVFl67gwN-FX3GtNfxkO-CfuRGeDLbyRwTt-Ib34M9sjCr7UtqWofEmPQ_XlHgX7nWIXGKGAsCoGqYNsYl44qxH7pbYjsXzLUrmyHmhV2x4w
+xLly8IzGAzvE40twR7xlha8Jl6egOyhb2ofg9CbhxV4xMPaKxo5OeopHDOGOHfXXXC-64MOgjD84FoveWCy8rE2x41yE7mdlSZBjIBIuS1mFjD0P
+}
+
+EntityColoring(opsgenie)
+!define opsgenie(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, opsgenie, opsgenie)
+!define opsgenie(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, opsgenie, opsgenie)
+!define opsgenieParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, opsgenie, opsgenie)
+!define opsgenieParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, opsgenie, opsgenie)

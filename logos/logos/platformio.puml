@@ -1,0 +1,16 @@
+sprite $platformio [64x64/16z] {
+bPS9ciCw28C3IFBzJ_mMD_c8rRZJCck9Vn3US-mi2oGbaQYCunUBkaW0vx_rTOWaHTnJHXObrdUqLF6eoI9iQERs8VwAWAQtuMFVRHJSvrPIReDRyj-Ir4rQ
+n3jtAz83k9TIUV2Xk6LwoDuu9AioDCQGDRvRtZsKJ42U_2v0a6iVIsiF_CylJTRuN4SLdRu5M9Dx0lYOXlCXk8DByMPTZsTeg6wDtSfSrE66gw2QiJrw7f45
+l7QFLkibTNelJzF6_wOnSEm4v7lwX2uRbmdnB81qFzGssbGkW7FgmBjEpbzcQtygBuKlSEVRh2rXyXrtVkYjW5L-I69bKSwp4ZuEgRnwtrT-ilckd6i5eIfp
+21sg-NQk0aZ85bxSjPmyM_7GofEhVDwha-IzhaKlvFnT7a_-xjEeTS-5bz-M9nyVU1dF5rdv4gjhp0jvylZ8p_80ALy5dBt7GTRiltt-7dw2qu_9rzo_oHd7
+UT9unlmp-RhuGwzkJ5i2paCI-fXjFYM-mjXyWGxhSTLrsZL_Uc23UO2sVBaSNP3kH8qnRBambRvyhpj4zt_ZWxQ3XTr8g3xyeiV_56_fK-dxHseQuXGphWxa
+kH3z42k5-QOHsUidYxxzJ2CVZZhkzYzNVwA-VyUMzqnWF1rVkUFz31AkAlO1TdWdDW4MO8yVulRyJZclDnnAlyoq1LVUMjYDX3q7V1xumFcLoIypVfAPTbFl
+zpa_noV_T2jE0t0Mw14shmFfWZt0PmintCVl0wJXfk07t08Wli3BS7it-VNrmn_6NydputEBuBGzVHvovFCJRPDxEo5ZyMLHn4VQxwyaQXf0IQmuVh0iKgUH
+BSVjNm
+}
+
+EntityColoring(platformio)
+!define platformio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, platformio, platformio)
+!define platformio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, platformio, platformio)
+!define platformioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, platformio, platformio)
+!define platformioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, platformio, platformio)

@@ -1,0 +1,13 @@
+sprite $prometheus [64x64/16z] {
+dLS7ikmm23DLll-5Vtc5cJYAsLZJbsWH0hVn156F180CDndle85v0SBaa5n8_OYTyn6mZYqBszSwzXfyIQWoLuIqoGinT1Ow2UHR6J89dD8DjqnZ3DgAOAMp
+p-hdN2A4pdNAJ-CQ1KiyKNL-PJRRbo1hPYs-VXbH_88LcRWK8-eJy3v2HY5kwhuKwMzGMHzoqtZxJy1l5Bysi36WCHaZAW5GEMW5DjdWM3c4g2Iq1w3Aj0pA
+wiCAuUc_c1hbhesTW7nmjk1QBfCw1SHzmgS2Z0w-NFbQFXEblVmXDUIa067kC_2zG9KLHS5da9IlB_WPr3uEyYt0-7t-0exr5yxzvyZcV6WXZNqTWj85p39S
+XAidoa6I7k4gJlabN2oO0FrFlRSX6-6TZTuurqm1h6tTzgGBQMQ7Tw5W0vlXxMTOrlqBfZiiz6odibygEAT3xZUFZ1t8IXEy604Gi_sKdwIb7P_rsi_uGOT2
+PGVG2v3C0nXV56URLAnHNz5iij5jeLWdRq7krx4I-aO1zb5fztVVx3efcws9_e6IkI7Gf5aaFdx3-UKySHLHYq-UNoJNuHDK79CZzFm5Z7pt25SF53VzCVDV
+}
+
+EntityColoring(prometheus)
+!define prometheus(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, prometheus, prometheus)
+!define prometheus(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, prometheus, prometheus)
+!define prometheusParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, prometheus, prometheus)
+!define prometheusParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, prometheus, prometheus)

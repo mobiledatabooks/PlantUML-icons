@@ -1,0 +1,15 @@
+sprite $onesignal [64x59/16z] {
+bPPfmhGW38Ff6kz_uMzzBGRhbZypQfyIIb76bTGZWMtRW7IJyKLYYOs4T7rBQy4i-1iNbWHzpA14TnbkyS3sfDHtWt-tODZUALhSjzTAQN1iNnDynqkvuFOM
+x1DeCpeGRghcqVOZhKAUyrEhwRaneACKNPE81Vuf_U_LAGCktSF6iCJI-99NRP2dnT7ikixx6TWfhQDlV4Et1c2S_V2qh36WdBFmDe6lOotX4Be601umbkWX
+PDyE0GYLl_uyZy0IFepTAuxRNCnKZWkSQppRrxg4xYs3jDbXq3BG-C6m-S1nx8Ze3PZodiZBGcLh89oYzcBwscjPTGwQSKPd7nLTyjqGA3MIsY7epovA2L6w
+JsDWNrOGJFUKl852sY5etfoSfGF7Ei1-XFyL37Bvp2Uz7tBu4s_5QyS7HNNrun91fVX3RodnUIvHnS8d3wtrawtdQuhLICLNtzUpyamzebM9P1xbcdiBrXIm
+kgrup0snx1y1Ju3sI_4n5EoHZD86h5TZJ5uL5m1lr9YNAJBvN4jKDlaQEjCZY--UrmAXVqzm_Uk6h-_lqoV1SCLN6Ua39bY-auOBFfROpRg3bzKWpCCAdyEJ
+WQ8aSE9JAYyFpmRsq0JnQVnLvoDKDeS5SKpUciCjj7X5TrBN0z-Swlt-x8gCufyFWD65tF4GuhiOu9g73fPm4DArHb0FeCNx18ZciITwl9IpzAt4qU6y2h1n
+8qST_ZiPGiQjP5_KNRy1
+}
+
+EntityColoring(onesignal)
+!define onesignal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, onesignal, onesignal)
+!define onesignal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, onesignal, onesignal)
+!define onesignalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, onesignal, onesignal)
+!define onesignalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, onesignal, onesignal)

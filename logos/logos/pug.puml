@@ -1,0 +1,13 @@
+sprite $pug [64x64/16z] {
+xTD55kqu34LHwSfCclziAuxzE5IVQNUpJipqv_dddt_-uJkw3CRwuAqmCHQom8A9PFrWGFiabAP3zNZXYWwj1BDJPtreMV14KjE7OkYJruViyC4cVGX7UJPW
+R31f_mVcCNEFNQwfJfPUv7jkSS1MdGhJ4tdy5uTiqqdeYTKfu8JNoMtrLN2cRFMYWmSOJsI19mmu7GmzAzer0_XQay46IQq4G9fsbJVEhu23gZDLPhB2KBKY
+HI3FwRyoVGPf_Rkt6XZ3FMUlsYIf8FRH3RtZf1fPT9LwRqAkuy7qFkhAik-VQKFKm5ArypnlQskwI0Rij6l2NXDjYt6URvbNjUGOSvcNEe_xmJxH3ZO0N2vH
+4BJBEQMSjOj0ADa1CDZjCJ2ShbfUL5rvt3_J7apITAfLfsPmslFh9P_xDmLCj0z3sEhZoV0T7umV-JIV4s2tEV_Hqx6pdiv00AUV-wyU4D0v5h5py5eMTKx1
+YJ1TmJ1DFramNSEXw8VgcIxYcAg-QJamNULIIhcqkv9JIfQk4nTYwfnBNGnEw7zX6Ejzi3PuPmLCNuBDWkcBmLXhy3NzuYjw5cE4lWOp_Sh--Gy
+}
+
+EntityColoring(pug)
+!define pug(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pug, pug)
+!define pug(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pug, pug)
+!define pugParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pug, pug)
+!define pugParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pug, pug)

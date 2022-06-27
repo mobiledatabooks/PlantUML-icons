@@ -1,0 +1,15 @@
+sprite $php [64x34/16z] {
+ZPQ7ZkjG24HTBWmjpl__xJE8gpHRRyysLcY64QGjbsmx4KJKJbG4JFksBdzYtGcYXJIg1NXV_oSUIDqDsQBjNlqItvCMbobM-XQ3JlWg1VywZD_HPCVn8BdW
+ns6JY-3qU3vRV-6mVmwN7q3FvzFvTW-yJDXQpWsGUZxrGWoWxDwRYSawvJCmkW0JXENKLml40dfRAzgWv6JlWPjWa3qdXnBarRJH1iZLTVWEF3buF9ulsgtn
+cM0iYvWq5LWPq2E7xEUl1pCZVNH4kZ1GFhq3jNKtcTG80i2KKaePWGbPxATdP9CqpLaAOzZ7lG-gwZWhwJceWgOAd1L91p2L1gcAQjJyJCCGuImgXDHPAmwt
+tlsbvshCogFJK1QxjfkGTQxYJSypC8PdLMbchBtSqFzcrNgpBZjdahDYT1fm7QDCifbt46wDnkjyrN7pEFBy0pDD5f9kXva_wloZ9L0V_hw-oOF6N1zhh-_Z
+uTSu5ZFCzJL7o03vN9_t-jhPcV0QlosxAqHcJYfOXFkly22YsYWLfMuydyE8Nby75iWd0AXUIl3LSrqI3K6VcIIvUIdvRhglIo6Xa3hpdHvzj1SGjsrf48PX
+vk0RFRivGLv0GtDwCpoaztK9zzvUmuENTrO9Lq3kmAk7L6jdVx59X6NpbXQhXutbWWqHRYB0hJR5eVjonz1uX9lA1PhQCEgrtR6JQF6fJOJ7-jVF08mKDI9C
+-xPSyGy
+}
+
+EntityColoring(php)
+!define php(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, php, php)
+!define php(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, php, php)
+!define phpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, php, php)
+!define phpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, php, php)

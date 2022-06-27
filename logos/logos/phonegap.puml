@@ -1,0 +1,16 @@
+sprite $phonegap [59x64/16z] {
+dTS7jlKe201Wi5VO_sxdoF4FCQRSURoQybs9iS9ZXDfRITuQ-9-1ZVz5RoLwYp_JojUW7p_1ybFqckmh3VmM-OqcVesoLKt8ENfdy9EoNwKZdj4nVj2wI2Iz
+yaa9dsh61Fu8yrGpnl-TkfbNQvteZjedQeLoGhc2nleGKowjTvftk771EcSH0I9hEA4PGgqrfnYq34HR9yKgYL5RgBUQjbo7SsHc3gSqKIgrPqdC3KfwaN2n
+dJa2j8LM06F6RKBHfLpR3Kr2-_8gZHt7lO2HKzh8pBLp92bLAK6UAPmes8rwvhBHCWzGYv9xx9LM6GsQCzOw51fgeutcAtMJqhmZpDh0-ezQfUuwXhH1ksR1
+WuAPzBW_NQdXeOhIunrqjd2caJcib9W69Ns0IHjRwAUX85mfqhWrCw5ICwdxf6nUQT17YR14NwbbPgLjfMcZze5weL5h8Q-qCRjNclGrbcrQyP0MQWzQMOio
+6otCuLTQLvh7qyIbWxX90vHNcfZJYPg5PjOiaRcjDCh0zGibxjj4MCOlkzCug6PvH-i3JODgblrAtRZe3uh4x2VDa5PAUEsm_P76CstCzzHTQMUf0ysoCfjh
+NoVqp45fqEfxfJXdmpvF2msfygm-dIxAHcbEArHBQr6eOMQXVfn7fHQM89aDPvHn676bMeRREgot2orGvi69OjsNB6sZPC2F1P019nIDyubuftqyd5APgKPY
+Q1tAHw8kASArDN4wbZnLA3FHEEED57LSNSSrswLBneCsdd7G2avEKijQmyRbcIRusbf9mIuq88z88tk380_XOogrqzs2JQc-fHPz65Cx4L-ZdsZTwHxVD7rJ
+Ug90d_P4uz-fETsTlsc_NKjJZz2_QDfMy2d82lwJ4i93V58FZr5VOVD_sAx89il0MnZQKA_fjxsTNtTZGT5tk2QgH7UVtty
+}
+
+EntityColoring(phonegap)
+!define phonegap(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, phonegap, phonegap)
+!define phonegap(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, phonegap, phonegap)
+!define phonegapParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, phonegap, phonegap)
+!define phonegapParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, phonegap, phonegap)

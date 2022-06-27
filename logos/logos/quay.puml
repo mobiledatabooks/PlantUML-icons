@@ -1,0 +1,13 @@
+sprite $quay [64x59/16z] {
+fPTNTi0m20HN3RdU_xYfVfWb9etvrlEiLG6MTfpALd2pdyhH4BAUDuiPDywRRO08zBiCqYjpL0GiLY-Y0RhLYqG1gj4VOiPj_5sfF-jN4GtGwRSa2b2SNiUj
+JYzIyC3q-YjeytgH_fD-YWRm-YY0i5u3LDP70ShEUWt0YtenodVwJPJY5ZKCm7gbExtY0Wmxh8ioxTytkMaWDgElHHIxzGQ6A0EMRlN0UDGNK81G3rIvi6il
+G120TlWA7KVwem1HWDLVB_MhVW9HWERqEixhEK1zqdVeED8lrpPr0VoziU5YEFqbG-S0_jxeW0POM1y48FqEPOYxjAC0axQOqkWwWrA4Jr5nUcLZ_ME0mdg9
+tY8OAWKeE-rm85nKPTW0aRwoFWomynehxhjXWF3tV-alH-x_a_EVNtyiYVsNtV_9yvSz__5IrT_SF_dxBt__vk___FkJV_-mfzvVVl_dhz__VFsHht_ozLU-
+_ilNd_dw5pMglxU7-ZjN_oVwZndt7t7_SmJzps_xhotgl_BzNxR_V0K
+}
+
+EntityColoring(quay)
+!define quay(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, quay, quay)
+!define quay(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, quay, quay)
+!define quayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, quay, quay)
+!define quayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, quay, quay)

@@ -1,0 +1,15 @@
+sprite $preact [55x64/16z] {
+bLO9jkCu20Inw_xtdUbM7YB6Bsgx_a_Y3KGLYmK_mIxm6iFcd4xm2gZp0qDu3ewvyJXIylcDu5Vn5Np0lo0hlWuzKwGqwWWvYluRJhz8nJp2na7q4nGFeXyG
+_8pKAHaotq3ncrGe4x5Qp3l2FZTZrzlmNdhK50qbR745ptB08ZmG092zkF2wyhdP-KGvCiPIrcbviOhEBpHXzBoIJwUkye1BeJFmlPBMn-RXEG7gbRGezNpo
+bPnLaALH9UTNa04GlHR8QUUd7lFcHYuAmNAh21VtqeDIm2W6UvKO02L2u7PILoGFAHzD5x4NAzyLLsnQUhs1dipgHh6ZPOKfUtZClBBig9WL743hcHKgK7pP
+QPUn2iuHHgGM07M2xh_waW3JQihkbBJ32h6hMQfHZekPTgLYnm2WF2op1Qh33WP8knqafrKTDnY0Mje5V11ffLfPQynugKpH6uUM1Iyd7VIHGxSifhPpeLKG
+jn0z3z1dmH70iY3ihYBNSycYUU6RcfQ1jsuHW54tRilHjxoH3UVZEXUus5Mtz_OEXIQwDp4DyFvYmMpo0eAT1ruWB34w5pcDrn1Sgw74QRmgZ9kHJYt3ssez
+as5Kxt_5DT2ZrqIv0JPt4rhjelLoMor4Okx6rLWSEUKIoDUS6cFVxeH0Hck4Y8DaHTHWGWCHoUhjlSY_WO_7kv92yDizKD-KFexKyB2_Uxl78tz8gaFYuURk
+6KKRS4HliLP29t3qRV8pe3JHdmAjH7y5yXBz5IGEelyF
+}
+
+EntityColoring(preact)
+!define preact(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, preact, preact)
+!define preact(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, preact, preact)
+!define preactParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, preact, preact)
+!define preactParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, preact, preact)

@@ -1,0 +1,12 @@
+sprite $puppet [64x23/16z] {
+nT17biCW60JX_WFAekv_sp62XVoqc-HoRjxdb2tJjykCd_cG_yYdnuzyA_Jjx5Law4T5ngkV_eeV-FY4ztttdtp_WE4ZmzrDiddEPPkk9oPDiz-MzgIjycLR
+Gh72ElkhJ5Slk3haa38eOzdRqZfDKG7AJ2jRdNT_pXii3j7zM6Q3khIFrCbULcfUdvzfddRpAMqSSVCXxHmEHLev2nHFI0TNXjvzI1CrRzwlfRzrma9lwhvr
+zoxDr7Zt2sVtXJfJIybIx3gArjqlYfFTOR6f-zcYiZcivWT7_sltmmFAa3TF1L9dVrB6GZXZqGP7vPG1FFm1TPBoXFsisPUpoFlHB6a5TfUcojE7zvzZuJ9J
+Wdj8pQUret4s7fzURpKl3QzdF_LV
+}
+
+EntityColoring(puppet)
+!define puppet(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, puppet, puppet)
+!define puppet(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, puppet, puppet)
+!define puppetParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, puppet, puppet)
+!define puppetParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, puppet, puppet)

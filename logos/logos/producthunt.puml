@@ -1,0 +1,12 @@
+sprite $producthunt [64x64/16z] {
+fPPNrZGX24H1WIhtl-0_XmdYLzDztwyIpy4QV4GMG19LCTq-mMU1prGC4tcG7q5DLsom1U5sPe17CEs09_WLvSBdbqAOe4RQZg1CRVGaTKhxNNzWyaEogRnC
+FEWEViveQgU2V_fWWvW1U0buKtkLRBwNyVxxySWCz04KDq1QBfYPK_BDT__CTl3j3STs3Khmsp61Emv-rc_2hQdK63pu3_yqdSeu-NZerBxKbPgFPjA0az-y
+zuZebtMZelb3slCcNjHe-jUWpe_kzuic-yKx_YXkASNtMMoGvhS7K-b_J_ezVnfk-Mvnno-pSSUFfiYgx-tbuVs-Qbkjdm39YvHmVIWNIF0IrQocngBVEs2c
+S3tA1s1UlBukbc31xSO3YyFUA2wAODY6v5h2tujmsn9S0aph6E2NDgST2FAibziHJ_9W3tkWVu4xUMCtp2BvxBB2JST75l_PoDd9tm4
+}
+
+EntityColoring(producthunt)
+!define producthunt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, producthunt, producthunt)
+!define producthunt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, producthunt, producthunt)
+!define producthuntParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, producthunt, producthunt)
+!define producthuntParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, producthunt, producthunt)

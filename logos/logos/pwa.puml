@@ -1,0 +1,12 @@
+sprite $pwa [64x24/16z] {
+RLFHkeCH33i0PE__l6U4YizoDLtJ9FNx7A1bzwTeevhFERFjsnJyhdqk80dTOPJwAVJPKxw_QX6-0YANM36fo9Om9lTVVBQh_O5qdzkSZ7ZnMwqD7zfL-oGG
+OOtZf7hn_UYlJ2VsRLy3rKuUfsgPA8YWzebux71-iLZ29mEF_MqrcrF-qtxoos2QVG9oUSqc8sX-AdAj9PhzCprAbcf9LDzl-pWY7RkpYPL80yBlNs153LCb
+KcwwxhCejqD-95z0-pDbfKHPyUhrSR5QNxvRYugKg4itEzoV4gnRwRG_6nFjhxMtlBT7kCwn9tyRADwycS0vScE-0-WWI_Plw6h7xitqYiODUl_wIevT9Z_R
+W-OjhtxIRTh78Y-Ni8xNlzfd0B6Jsy8kAV_jrm3TMkGvF7mQrdVVR7kAibRoyZt4FYFRzfwkyl3jYg9sSjmR0Fy
+}
+
+EntityColoring(pwa)
+!define pwa(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pwa, pwa)
+!define pwa(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pwa, pwa)
+!define pwaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pwa, pwa)
+!define pwaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pwa, pwa)

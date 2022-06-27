@@ -1,0 +1,13 @@
+sprite $pkg [64x57/16z] {
+fTU7ShCm40JWLK6ex_i_xL-YoTnmyJ62VEbbRVbO6cwv8mRyGiwnuRt8C_34Msum1JBWfK8Udknuvo0PtIGptlYVPCJw_48boV2L7mwF9VxdCKYouYa_IN8w
+TFvtuA7EItvwF7BoEz_ufU69m6K0bSlvVFLa1mgN6PuKJ_9PljyL-IdFlB_RV6jhabpYW-8j1KXSjckOA38GASfMyOpyPWqRAKuWa6AwdUA917YIekqKJnpg
+zP1fetWY0kwQlz-HCityJWqZbG1Wy2hV5K_nwYNTrx1IcKxbRskOk9TdiOgdJLKeiuR6_mqv6EXrsSNJsohpfseKRpVFT5CyqTJ2x1fcqbfcuYVDB9xUK0S_
+ocRnHBvvR0R95xx8TonwXNhAWOQYYcVqpDCIfNWt_w0F07f7IdoRPrNBquBapG5rsbR91atJ5zgcaseRHcg_oVSC-3pkyytwSubOOftyO5mEYqfB3iAVtMne
+9hMH0xHG9eLSydZzoBCUrjr6qnLtI5CjwlImwM56pEl80cxfOGPCQsGsb_hF_CWUMsIOafyrmcGES-LbP4_vF2F6_LF_1G
+}
+
+EntityColoring(pkg)
+!define pkg(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pkg, pkg)
+!define pkg(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pkg, pkg)
+!define pkgParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pkg, pkg)
+!define pkgParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pkg, pkg)

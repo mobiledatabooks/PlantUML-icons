@@ -1,0 +1,17 @@
+sprite $octodns [64x60/16z] {
+ZLS7aiD023DLoly_VBFovk99raLNNGG20oRRBpmR13fzUyFCR7i46sG2a8aOPoAhkxioxct4O7P631A85hc4OUB6Ge7utECb4HLkssOULLrnHM-WZXvSiUJd
+kBhpWax4aIt50Di_yNNN6Jrnf5iEjRPPWYW5O39wfi21dCIqBOPK-uy21PAbeuuJzIs57EZkEgWUvAxTG7JPslqWE1aUv9SJCFHxtBAEeD2xYf08P1r1xDfo
+5x3Wp-I1Ek8tMXefPhN_q0qmHK4RHoHm1AMyoH5xTguALwa7spPJ54S4cT4aY5m6aEZnp2fr4_l7FWSi6kXQyOdICskgP7zWKGeYGMB9xmhvEMqHl30C5NuT
+HC_6WwIluTDsW6W_QgkUl2Jjii7ssu6ljgmMtyWwf-ko-EKDr85kYPuEBY1vugjRyorUXpq3l0HUBVwXtRFBn9y9laIGFlbR4JRKby_wqSKRz0jllW4vYrby
+YRk1GXHV79ZDPWfqlMZRBOhqtla6nEm5Qse-tSFu0X7JLk_oWyBs1FcP1m5KX-eYpS5umc-MUKkhWzq-JAQKuG7TTzTG8O4QiqMRi-iUmTn3zvtVualvG_-b
+AAP_nU_4g2fPleNIbEmz_Zt_IOAaFSm_GDXUGBCMOj2VvHylacNlHw44I52_yCnz7EfljD-iVtjIWCRXismseDh_tN_r80D5RfFlG7xrF_k-_VBDxtbtZKFn
+W_Jxzf_y0ln_W5aycNzo8BxeyJD_9Uzc_0r-9uXSpFycRiQl-00Ht--VyZdXRyU_Dgh5-ozDBYwJjyMFS_61qi86OhdeMXOPcpS0r79_qCBOBvBmzTIAald-
+vRlsbwWcCnJ4x_vHfB8a_d9_EkvVHqo3HPmkSCrwi7_bVFqkDtyLzNh_Ekv_isFN0fArFwcZ3qiEfe6-TZy5X090W-YvFd-64vgoNKltX-oGh7rzJtklt-bD
+8j_TkeJrVEvs-03W_yLgDdlrjCNjQp7pQe0y-FCB-coiZcDHavyJ5jLNzCa0AjpSe_H_TrUD4gh1pkq6NW0X44YJruaAU_m9LCBjBNpuNvF_
+}
+
+EntityColoring(octodns)
+!define octodns(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, octodns, octodns)
+!define octodns(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, octodns, octodns)
+!define octodnsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, octodns, octodns)
+!define octodnsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, octodns, octodns)

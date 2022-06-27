@@ -1,0 +1,12 @@
+sprite $octopus_deploy [60x64/16z] {
+tPTP6kCW38F1nXBtl_3iT9IM9VNiewSsoV-1l8MKfQm5s3k9y5hUa0NP7oBHxkAE0GeUTsWJKaK_eerz8SO13VQriDjtHT-A6tYWYPNHZyAROLAnJL4RQC8o
+-Yt517NUOsc9POTYuJRdk1sPTM6pz-ocwnii4dQ7kAYfJB2Y_-TioRD8TC9GvFDBozSaIqaRReaUb0nbDutCbDH1cUj2MdvECZtQrQxAc6Vh3wsRz-lCnpdo
+xwFAV4r6JnUbyRUy5nZh0yvPg0bqY9xmEiIsBmfE_ofSW_FxyD2_yVX7ycjnkfBwS5mF0nHhuM2dDYrXOXnFcGk92wrOQur2beBdoejhO9robyC1xB8CNS8e
+5ng_xye2mFYQ40FGSjFM2nxEEjAaoYhCHJle38Qm2jCNWmFQcUfNdCLyo6ftEr_OKeE4JRkVSbbJgdezKiwSo5vsCYfwDO9oK92B0m6zdEI-s0rAJeRvPz57
+}
+
+EntityColoring(octopus_deploy)
+!define octopus_deploy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, octopus_deploy, octopus_deploy)
+!define octopus_deploy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, octopus_deploy, octopus_deploy)
+!define octopus_deployParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, octopus_deploy, octopus_deploy)
+!define octopus_deployParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, octopus_deploy, octopus_deploy)

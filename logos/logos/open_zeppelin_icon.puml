@@ -1,0 +1,11 @@
+sprite $open_zeppelin_icon [58x64/16z] {
+xPBL0KD13CC2peFz1oupk5UNGVywK3Ag3B89LUnCVQkhPfbe3gQQgPgTYURWgbacceEfPgfcPw8vk6gMYUPWQ_ehINi67ZkqMrbxeDL37M1jP1qIxHTARqKT
+uQgOpN-KydYLc0SbvebIyzJpy_pp_FFW5_BuT-JnY3o6RhhRZC1fQ1xY0VojdZWB6MMOWq2lJ11OdWI3v0bGoFQ0SpvFDfXr3Cm1ZfXdXfXdnhbHuY8Msbi1
+CSyCCS-CAG
+}
+
+EntityColoring(open_zeppelin_icon)
+!define open_zeppelin_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, open_zeppelin_icon, open_zeppelin_icon)
+!define open_zeppelin_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, open_zeppelin_icon, open_zeppelin_icon)
+!define open_zeppelin_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, open_zeppelin_icon, open_zeppelin_icon)
+!define open_zeppelin_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, open_zeppelin_icon, open_zeppelin_icon)

@@ -1,0 +1,12 @@
+sprite $pushbullet [64x64/16z] {
+tPT75jmm34DP0Dp_nkc9p6SvOqIx_DMCxK_rmdYY6gGaaUZASCW6IIr8zkiGXUNE4A_i8G_8jcm_0gWF4Fbe5_K2bgrF7jhGr4i8Nv_0roSuqqLyw3gl4oaR
+vj8X-N1NU_vc_LiyjU2Y8tzIbCIyKY2tBMXk6WMA6PDixWQHslYz_0j9tYfGUt_zcG5kam0o_1c0wy76rywVrQs8zlmf808o_U1e04r_ZdULx-Tr3hRjpmP0
+ljyNWVBzqk9V_DJ0zkE_yS_xxtJy3kUFMcVpzspz2EdxqAB3zbCNqj-_e0Nz_RCrgX_X-QLP_OYcuTVc23Ryrg3k--brZjI72nutywdhEmrzfslHcFQAFtk0
+UWiExoyv3bMRTgz_4zmkxXQC2Vp6J-3h4z3M9-21Rem2ueaalN7tgu2Clv8WtTnhalqK0NMG0RCp3CPw9nxbhm
+}
+
+EntityColoring(pushbullet)
+!define pushbullet(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pushbullet, pushbullet)
+!define pushbullet(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pushbullet, pushbullet)
+!define pushbulletParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pushbullet, pushbullet)
+!define pushbulletParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pushbullet, pushbullet)

@@ -1,0 +1,17 @@
+sprite $prestashop [64x64/16z] {
+bPO7WkKe34HH84asklzjr-353OpnzBpEuPLA-2Ut1H2HBX0HmEtOkqWFY8JmJp9Dz1g_j6d3Rn8szYPXR-yJVgVlsLQ0lRqF-DQnijlXMqSazWqcmat0LaVo
+AOjeHN8AF4SWVkiSfOeTLKcUy2DW-XidwUuGaVt-4946GhVNX3HMmDrrJoeRDFirO5qUEQjiKHa245xQTtrB609UpdxMtx8yhjS0NtS_pc9Mog7h2amTNCPZ
+qCUsXtD8EAx8_EFZF9wV8SL6ZlxxqohXCHO_wQ9tpgdKELq2m3_6D_t8CNWVOfBI6nGx8tEoXCC2ZuvHdvPdyYsHcGWmg6cjPO9muOKweqzzUIk9YJiUgvBh
+U4N0YkV71-W--ZvUczq917Xv8Uj9juvCRtu_lSGJqJUVEKV06nu2SBtf1U8H7mFUllUt3_Jgixpf748WQ0xd0CttdkdXyNsrDSusSOh9_-z7lHjCFet7fsaP
+7ZKxFWYQxqLh58Qjdvy_L3VbB2OGBBdk2mDudtO-GOT2oXTgLiooSzLFXwYG2yK2llhHZI1V6LO9jtzUlcP7Teotsi4djmAXc8bphewtwcjoWHpyuHDBSYyW
+K_lClfXM93ZtvbFsRWingzs-2WyFsFYJb72h0t4sEqKRWdtzqKV-64_9pBIJX_gEEb_ZuwKNVOYF0mx_xcFLs-bt0ZuEuFP97TnDqykWg_3ZVnJ0s1AyLNGY
+z_hLtnQWeoQSPltmbmsQ0BX_OKHdIU5bl6R-QOmVbm3K6aKszIzWkq4_lBL-ciSXVGKSgozXMHS-0wJr7rV7zL-HFWBOAkFmgVsw0KToCt5O83A-NIp0ySKN
+kndAfzcX8YgHSEYv1c1x2i_1arj0zZ4aaP_jrt_0_k9BKmW-He8XdIuxXDXVWdLz3a0lAXVrN-KiTiZz2Y1hiNAqtpO2Tdq2-DPpdLIiKIxifluwzm3tnXsV
+KoLtqiGTaDmx_lR3H1ou_U1sO1BDaKVyb9LLChiF_2cVVedWFg4GTdw5tLy1tFYUqVqEe3zz9d3_021HzxqdtCd_0G
+}
+
+EntityColoring(prestashop)
+!define prestashop(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, prestashop, prestashop)
+!define prestashop(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, prestashop, prestashop)
+!define prestashopParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, prestashop, prestashop)
+!define prestashopParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, prestashop, prestashop)

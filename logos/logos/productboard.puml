@@ -1,0 +1,11 @@
+sprite $productboard [64x8/16z] {
+bOm7Sk0m30F1fWRI_t_kqPVUatKHW9cLF81FsUivYeAE3vJOpPmFLSJk7s3zgUxLnqER1EDXxQc3Y7IkpkPhxobeCacj7CcqA5wB9gc75Ro2lUhCtCgJTchk
+v0N0Md-ye1oSfNjZC0DdPVkJi1X43fnJYemvUXnMqDkV-pzw-mQkn5w8JF_lQyu3jTiFR9OW5uEJthxK6nsL9wt4wfIFEjVSoT8y5LREFcsJ9tBLeeFa9G_w
+KjnaXC00ZUxcAd0pI5WtrV-hU-Ve8lTkFlxpe2CLV-GV
+}
+
+EntityColoring(productboard)
+!define productboard(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, productboard, productboard)
+!define productboard(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, productboard, productboard)
+!define productboardParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, productboard, productboard)
+!define productboardParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, productboard, productboard)

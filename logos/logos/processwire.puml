@@ -1,0 +1,14 @@
+sprite $processwire [64x64/16z] {
+dPTNOk0m24IDgChzxxjT6-81MV7ykJn0WDhLY5WjOlvIXCcWwpiQwlDJ7_ENN4vDaCGivNn2w-mLyeJht2ksCN3CHpczThuFWNmUIaiyRcvSUT0l3TQxPNl4
+RTmoOs2WnqEeAMnh84Uer2J8MWFfYu-p-kPMaZwmlaQVViQ-D4saKGnUhaSP-6BqVcRWNvwZ6piD5k6KJ_m_9o_eoX9Vxuslh95Ic4VFN-ZebmxD0Go8lfnB
+Lew0ah6H8epzl9TKhrZVOO1By4E6HZ7wcAMio02jK08Ad0GkwFyhJSOnUZTFcGmCKTTdATmR_R5dHG3BhSSz-uIJGJ25FByg2BveaH7gIXGGMM37vYYZAwxt
+3PUpzCXBjJmgy97v_84F-OyJFbhUD_unVmBvimsFzHjeSLKBUMoMW5SnddcPIuRzk_wdXYVEMqQHK5s_8p_CVIPfCNzN9gJW5NeCXaGBi89tM01n_LfUek2Z
+NBroGMGjjZ7s_gDevvLrTfUhgXzP_8Ll9qyfOchgJ-ENshFEsFAT30jopkUgZXSyTFCXZtZG2rwB0zWvJrRqqpal0PC1vLruxB3Vx7Y7Ir63Tnbofdyi7E0H
+hmyVyKVDKQPJ75q_Ul7PzQUNRPtJzIXlQHlNYUmrZRsov49lh-3XoXty4m
+}
+
+EntityColoring(processwire)
+!define processwire(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, processwire, processwire)
+!define processwire(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, processwire, processwire)
+!define processwireParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, processwire, processwire)
+!define processwireParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, processwire, processwire)

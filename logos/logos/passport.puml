@@ -1,0 +1,11 @@
+sprite $passport [51x64/16z] {
+xT9NaiKm24HHkWLe_okU71YA9wJ9wNxxLCksf0WWgMQg0x8HU9_QVSh--K0UMY4oaGw1YOGKpKGczH3O41kDIAGmO4kouHOnPj4JGpfM8buGNOrmMDMu9F2m
+Nh3wM93dMCva8IyRnKmniJ8KGTveZEOHgTBqRnR7ghy1aKRw6KKUwMVoIDtd48q4iSl4GxALpT0UySyWZCAtY4PYEm8UYHv_hqdf6_FqLUWpfiTYeXMQHFUz
+aC5qhWwabfvlHqO1fgFzjBaXfyJabBYS4aT7Ej4JExwCAeV4A6V4XyW9yNOXNXYVhWEo7KZ8b_JVVzS
+}
+
+EntityColoring(passport)
+!define passport(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, passport, passport)
+!define passport(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, passport, passport)
+!define passportParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, passport, passport)
+!define passportParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, passport, passport)

@@ -1,0 +1,12 @@
+sprite $python [64x64/16z] {
+nTG75kCW38HXpT14xd_WNPpg33oZhVyhgP_bYir3ohKrzzxTMoi95WYvUJ_dhN2Nvu4rhzZYjQzoRl3IH_wh6y2GBM5-4EtIfp46ZpSQhtpklLSR-SoNZPFl
+XyVC-uP_dAOozVdA9p_6v2eyuBkB3dWfuhFusFbdEUVYO-rwfcbPF4O4FZ6AktUVfCSFFiABq_jbwacvP45FanizvY7hJSnJ3Zxe8UDZdcOUyldRCyITNnuv
+v9iPpzNOUF4jTlG6dlF0z6HctFAkjGpXS-yb4T_P4QN04WTAEj-fVzNM_dMEqbvDRX2eNSSguva2iPoumnZpIUxl40T-pvkriqVKvz_mX1dyDxpzh8WFZ1yr
+yI5kyDljLppi4MhljwVViqoqZrYRZwfuBB9vuYsKUk9So6lyJV_VveD1hsDZNW-RMvxBeyRE-JFEmk59Ndjm5eGluwfDRq6k8SWrHBK6V50iyGy
+}
+
+EntityColoring(python)
+!define python(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, python, python)
+!define python(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, python, python)
+!define pythonParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, python, python)
+!define pythonParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, python, python)

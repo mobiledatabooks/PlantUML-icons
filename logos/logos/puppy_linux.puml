@@ -1,0 +1,14 @@
+sprite $puppy_linux [64x64/16z] {
+rTJNrhCs48NXhTv6i-__RcFWYx5P0XSbVtcEvvr55SxOaAj8lsab-bIbAnVQfPRe3IwOK3eNUiFL6jvqvKebsMDbdJC0N55IIlJMh9nF9Nbxd_AfSQ49TpRM
+TRFsqiWMBIxPr7aJi0djvsAvK7-QcVrYAqd1mWafoJjZh0kvas8nfe-h6qa789BDOHU4wZ3abVk2H381WKnuLjajXfogtQV82WWhZZe5OvxTO1Lvq-18ZwDC
+9emb5jouogrFPC1H8TLYh36u9DmqL59mO9LamPXLxYg4P3Luv3flr60iSPVGUTFZFcopSXNVw3sKAsqvUXzIaOTh6-kywm1FDVF6vL_r3WE1Ey5LNqTzv8Do
+sKU78rlvI2sWF96zFTPPZpEdlIJldkFOo2Crw1nIgT7TpwzOX4C1mWkwu8MAoXbgCgVuo2avSKehdDA5SphdAFzkoZdzD_UDKpHpYWHEAPPJ8eGpB38d2E0v
+8G7eKvSF97wjuSOel-Mno1DFR-e2F3PfukvNmY-enRySln2nI_nOnQFA3ud1ayQFT8jdHlW1TJWoZM_h3WELRnABeSItL8CJllCbZJXdil9QixZaAY-8nqkk
+ACUQnrjCRCeZIHRlCo6ByeTAYMVnFm
+}
+
+EntityColoring(puppy_linux)
+!define puppy_linux(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, puppy_linux, puppy_linux)
+!define puppy_linux(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, puppy_linux, puppy_linux)
+!define puppy_linuxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, puppy_linux, puppy_linux)
+!define puppy_linuxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, puppy_linux, puppy_linux)

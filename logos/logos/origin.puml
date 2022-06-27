@@ -1,0 +1,12 @@
+sprite $origin [48x64/16z] {
+rT97eiCm20JG4J2Z-v_ufpTiRBJyRnbgaB7BYGKM3FG5IRGPhnnTpfkbNVhjH_1kDDFvj9ZEk76tSPgUULt2WfMNMQa8ga86CgSER2uyg6Df9qeh1Kwj50og
+WQExpHEVwTRDzzI-jv6hBQhsl2e6cBBdHpcSoXo8lQ5FheJRTHnVJCcmedinmJqFJ9ZYKMnJRSIq7p8T8JRYF-LhuEoW9_SS-JrF5ifnq-6078uXpI-IfVJv
+JGPg_f1_fyyK17pp6-sPpKqe06Xc4YCeRIBtSuTc5t7Jpd--fglV_exzzdT3hVGexbmGddf_GOQbWi1JRoKY6UpSfhkJOK-e_Ay5tztASS22agPKf9SMqyTQ
+EgAuJ4NFkpTP-WWwxHrjFYS7-bIywGK
+}
+
+EntityColoring(origin)
+!define origin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, origin, origin)
+!define origin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, origin, origin)
+!define originParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, origin, origin)
+!define originParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, origin, origin)

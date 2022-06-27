@@ -1,0 +1,12 @@
+sprite $rails [64x23/16z] {
+dTE7pkiW30LWJsmuUV_dlJWe95V_QdkwZE1ZgQ4liI7qMKx7wgx2HDdUvN2o18u3GFVshYVpZcC7QUznZgLtqFKDBkE68wD50WX-zUOCMuShdVUd0Rno28Vg
+vbre116fhJErlxtcNXrHwhcrdd-VWVVPmxzikFrzXBpuuDxexVZUlTNUjPy9gJwBpApICvsYocMoubNoVNTq4kpPgE4g4qYUbL9b_TEGLSTnnRT7zG_YAglk
+TSPWbDz3W1HdmSLXGrRdK6qu83g_J1p7-D-tsR0PxMZjubDX-Jh8ELPAadpdcwhCOfhjErsR6oA-rd_uh_lll2-_aaIFpZh_z71hNpmbhWllnqxSlZAa_7cL
+NpnPHCmMCHwUdtumbQyylJ6lOISbU_hOzp-gkJo0xLSJeVLT3OhZJXfy-IvZTaPvS7tVlXAsdxR-y8D4QNcIchrzlV_bzUB_
+}
+
+EntityColoring(rails)
+!define rails(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rails, rails)
+!define rails(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rails, rails)
+!define railsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rails, rails)
+!define railsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rails, rails)

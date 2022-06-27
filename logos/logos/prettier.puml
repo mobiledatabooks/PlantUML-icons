@@ -1,0 +1,12 @@
+sprite $prettier [64x64/16z] {
+rTK7akmm24NH-q38-r_n3nrK3OmyEPqA4t7B98tv8WuWTVDbOXSVyQ9m1qGdz2ByL1ufHp8_9r8ccSSo3Tp7AQ-5d3F5cp-Z54BO8e3VLWWRJnCm4WFy_Wte
+WjWFZ4ST0KMRXTWtl4Ko7kF5nRPX3C3QR-Jk9duGsGqW7sCudKSsZ3k_4unRvXA1pQEO9_56TXwF7ff_vRamBuoVGYyvcgmGTz4ObRnvR_oxp_zJQ9rP-NJc
+E-B1lBIZylyhBPygQdozETp0NtQNOxVLX2oNO6oa_SdtwtrXIUaVYhBZ3NocJJ50UOkZVRn374c0HKl-uYFgq_iuUKl-7T-fz87ss8gBql-TmQ9LWdMZ2lmS
+WDGFwoljVaO0wLr-IW5Ky3eZglQgEXEp27-8rxFn7fNWvSHlLVClK6srqd2zucZUh2l0hUSypQcIztx-Ul0lDMObU3aTZUzw7a3LF2e3U6cu_W8
+}
+
+EntityColoring(prettier)
+!define prettier(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, prettier, prettier)
+!define prettier(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, prettier, prettier)
+!define prettierParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, prettier, prettier)
+!define prettierParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, prettier, prettier)

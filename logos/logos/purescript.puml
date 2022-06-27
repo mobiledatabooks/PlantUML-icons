@@ -1,0 +1,10 @@
+sprite $purescript [64x11/16z] {
+dSp7WSKm203H8ODizT_kVddJtU-am03yw-GLZqEe7RnXr_vOBnUayAUt0Tfj119abr1TM1VdXdSP8Sz8TKFVXkW1p6s0jov6j1dBOfaogKIhas53gvqHNKPl
+n-_zCS9i0_39OJXzZxCwq1uf1t8wJtz666Oxg1tyvATteREIyQKiDyANsV8aS-BfNM2uR-5FEWyrG3B1KISgqGhmSamaS143SEIwXBoFuerdGUGXlA6NyTuN
+}
+
+EntityColoring(purescript)
+!define purescript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, purescript, purescript)
+!define purescript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, purescript, purescript)
+!define purescriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, purescript, purescript)
+!define purescriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, purescript, purescript)

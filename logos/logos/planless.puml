@@ -1,0 +1,11 @@
+sprite $planless [64x14/16z] {
+fSq70XWX24JH4GH1T7B_ssPhUi_VNfwWwPNW7slwdmk8thKlrap75tcs7ymTd-xawej_b8alIigFvhxSXn_PvMNDLIfCn5u3KRNYz6tkgV2r0rgxz6ImJ8FC
+ckFicSnYALCg5wMuDlNmay6bN7FrObOSFbe24rcL9zV79nOxiyKYTR8vBQcRHVR5bGZkwgTN1uREgXZ31Q-NlPKHZBgytNwFd69H7uP6Sbr-0A7-sDSVXJ07
+DwbrUa_A-JYlZptFM_6Mo6wfxjw-z3KCC8MvMbD3kyxevslneO0Tjwr3qSpG3uylVU2lClUEpxKkV-VT3V-JAVwhZm
+}
+
+EntityColoring(planless)
+!define planless(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, planless, planless)
+!define planless(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, planless, planless)
+!define planlessParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, planless, planless)
+!define planlessParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, planless, planless)

@@ -1,0 +1,15 @@
+sprite $olark [64x40/16z] {
+fPE7aiGW34CnBH1ZzFz_UwDrscsPsQBhXryaso5ygeuXuLwor70gB-Krlm0Ffyc0T740rfTy1UXrLPwuy0LKUf-F4z0OS_Q-53C3zNr-CEu2m6wD6ImCj7Tv
+aihGMsgPiA1lywoVaQ5B0qOGnKSyxPk73Wei1l83oxly029Hj5X1aRUx7NTRvSfB6vfzzS3W2h6hJPZCSt_Y37ey-1BjM765jrgcupbCZ8Gf3YzZMhhnW6cB
+1DYasSQjH2Z92viNyXNgNfDSOvLh2dcWXmZesVuc1IBvxkDhh2nPk2Ie6ZEJPyUolUEJbhjMvyqGVJEMKl4bS-WT5iWpSOPxCDETlnimeR4R9GyknD38Osob
+ptWIm79Cnc3-h4JBvFFRtvfGoZ_UC8EGZqJeuppH65RCRN_yvh6ekD54nurVW_iSV2NghJIW9CS3tIzNFP6KxJyTo0VVeJpjlh2o3s-WAL0lLw6IjtqN1pzG
+sKDZMq0Hm8JrKngWrwj0VjppYRyN-ZCMAWz7xPn4EWUG6N_t5mCAISvtvG4hbmxoFAKQJJs04ucEGAGzO2cpJXMJ5WFK09yRrpb7sLpH9OGuV3uahGzW0jY-
+azYO75gNcvq4LsUL3d3VL78k9tglKeUjZ7KozrhXMhVJf6OzyaQM69vA9APSQklgTrydffQmwJLIbzPN7JQngs-dpvAv2P5XH9venFz4eChIRYPFaMb3jRUb
+bfmYwtSJ4dofPDmJHDQ-4VSvEwwI47H7hYQlTSar_LM34dbNsevS7LCweE4xaLTWoFSy7F-1jnX-u8d_mizVyD1c-Xpw0m
+}
+
+EntityColoring(olark)
+!define olark(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, olark, olark)
+!define olark(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, olark, olark)
+!define olarkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, olark, olark)
+!define olarkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, olark, olark)

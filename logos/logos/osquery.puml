@@ -1,0 +1,13 @@
+sprite $osquery [64x64/16z] {
+dTSvZkL030JHb4Hg-qlT_xO3jjKPm52eJly5RQxXssHRJhLRjQLlS_yzMvxIoe3xSNOyrGRAMu0yrGRAMu0yLTiOC6y1y5GRA6y1ybGRA6y1ybGRA6y1ybGR
+A6y1ybGRA6y1ybGRA6y1ybGRA8z0SVWkKDu2pbDjO2rl0V0K0_llPReV9pXzVdtlU_Xsvm4-V9zL21p6D-Vn9PSGE2Ov0ySaP-2Ov0mSavo1Ov8pS4no1ev9
+pi0noHau9ZZs-l6Jd85ZaZDmJ786Tl9FoxbxbstPV7cftV7z_DxtGYu-Tyk7xxKup_oEUuABF3_Z_u7zaPT7O8x_-77zbPT7O8gNjy04Du_0CuT7u9738_38
+uH7OoHTmU0GUEJm2ZnmU0V9to_CxFF1mNU4yhk4x3z-cpeU4mBRYmjRuMCH0F3mO0Sv0g0y4E0EX9c0-L6CWX41jDM_N6GZrWG1d8DG70fo1K1y8S0P2VI30
+6GZrWG1d8DG70fo1K1y8S0P2VI306GZrWGqSkqDzu1y
+}
+
+EntityColoring(osquery)
+!define osquery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, osquery, osquery)
+!define osquery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, osquery, osquery)
+!define osqueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, osquery, osquery)
+!define osqueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, osquery, osquery)

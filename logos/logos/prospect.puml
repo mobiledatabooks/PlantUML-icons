@@ -1,0 +1,12 @@
+sprite $prospect [64x64/16z] {
+xTTdGeCn20PWHWAytl--NJY-z9SGjttS8uQfbYvu1ih2XD90az6LeSrvu_QCWB559xP4FE77U_21BVmovJvL0bMJSavpvJhN4nbSw4fGvNIXJcasmZzoL0qw
+4EpTxzZw0GCLOTFY-bOeQUcqPiOEGFFyA8HlIz1AIRpIzKFOKYj1C1t8uHDQRdeUodp4gj4d0rHaU65b5jmVsNNmwj7N9qzUe-QbX-N98HlB-NBu79OXqEoL
+Jr_M8F1E0K2MnXjNhXVsDGCWL4l56vXKBFowDsnh1lNIIMzoWkwneK2xOvkCLk8euJNqkVMNQWHgWhkXfz6jUl9krUzxfu66u7RYIR9dUmy70XkyUFfXz_6B
+OKi8jWpQ2Y28o7UYpqrlSg4RROKGWoxE
+}
+
+EntityColoring(prospect)
+!define prospect(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, prospect, prospect)
+!define prospect(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, prospect, prospect)
+!define prospectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, prospect, prospect)
+!define prospectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, prospect, prospect)

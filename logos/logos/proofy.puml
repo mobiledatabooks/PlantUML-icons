@@ -1,0 +1,13 @@
+sprite $proofy [63x64/16z] {
+xTHdbiGW30DWcgtS_y9RdMTcCO9iR_h_lP60IQeuM42YpJJXDCBqckFuKlxF_pc2w9W9bnma1P68e-po4lByTbvUP6n4UGC_QosyV55oSLhNsoicN5lUEhg6
+aLjlpgKyBv21QpLQ2CVvTghUSkkTHIlX3mZrNE1Sh7S3mFb3j5_GzrRiyADV0BHqziOcFz3E1PAzzmwtQEtVV5LiSukKanS1hd9Ry32w0HUvHOlrlimjOlWo
+j-0Anv8huxBcUSQBFRGvjoTO8tuqUsXpRazG0-ulLIPSYpr-XDp_Qnhnwkztmls_1kVUstvwplrh8UYv-lSYu6G1Xk_5ogDVq7_dC4P7VlEz2tjx_9321HBt
+zbUa1k85tZkAfcHdF5jWlMETxGaVamKfnxtjFYmjylQAH6FSygdPWacaEBQZZJtlxOcF8EoTekI63QwIGnql67GP55iGZAPfY3dlFRj4SbaxHq1wioDmJYwB
+Bt1EHlC5zBBM2m3mqVmI5xtl0G
+}
+
+EntityColoring(proofy)
+!define proofy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, proofy, proofy)
+!define proofy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, proofy, proofy)
+!define proofyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, proofy, proofy)
+!define proofyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, proofy, proofy)

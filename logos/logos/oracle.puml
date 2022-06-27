@@ -1,0 +1,10 @@
+sprite $oracle [64x8/16z] {
+RT25WTX034JH4MlKVy79ql4pmpSi97caG7Wv5cDYqU9cte8hk9KqAvOSYap7qZG0mjbR9JCM15__Agan7CgI2Mmi04dh5VIhFllagrXuadPxcpnVhom80p_x
+djfI-Td7whL9iWL2dcV-tVUMA2eEOQ_lrvvs0NAykdietNzy_wkK35-2rDL3Ydw-tkk_INktQ4puPitq3LgShHLt_98fvEUeMCz2ypa8kLN-0m
+}
+
+EntityColoring(oracle)
+!define oracle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, oracle, oracle)
+!define oracle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, oracle, oracle)
+!define oracleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, oracle, oracle)
+!define oracleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, oracle, oracle)

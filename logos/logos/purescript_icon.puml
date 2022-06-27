@@ -1,0 +1,11 @@
+sprite $purescript_icon [64x40/16z] {
+fPDNiiCm30EfNg7xt_QLz8AngU7-xoQsGTacDR4G9wf9Np04t5Y09H3dMS1vYjm8E0cu3i9CZtzm5f2syCN2Pw0S1C02MH-eMD-Ww0EbCG8FxCC3jPa21QWx
+WGjl-ax0NOVuhgyPzWvXlEk8cxeJhll8y5ezWZ7klkllUlvOU9hi0hhJwY0wcYZrpCQlrrrXv4_T4rt3HLyFFTbqkRvfjIxryUU9hmkiUTN9uskeLvqCNuaJ
+EGgupA1_a0SA65KVo7o_-a2o1t1mW8Jw4GYP4KGHKC83qzi2JSGIQ6AXzNtd5m
+}
+
+EntityColoring(purescript_icon)
+!define purescript_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, purescript_icon, purescript_icon)
+!define purescript_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, purescript_icon, purescript_icon)
+!define purescript_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, purescript_icon, purescript_icon)
+!define purescript_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, purescript_icon, purescript_icon)

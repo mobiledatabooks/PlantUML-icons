@@ -1,0 +1,14 @@
+sprite $playwright [64x48/16z] {
+fPK7aiGm20GLWG7__xrtCd8geujTQLEFMG5sMf95Ile714Nzkmxz1EslUbSFeFmt7-uhfFv5hwO7eF9xNnHNmEyJihe_0RZ-oc-0Fe7q7nUHcq1V0D9hkRUZ
+r1QKLJepe04GOMQYFY1Y5f6Kxv6vTXuVnxu451PcwgqrJtH27v6l4W7zgM-XZcdiVEMpOkr3pMoaB7NfWdVcuGzzsymKIx-HhguFQJaNqi-4fS-bhNrkURGK
+swPOT8zpqRi6VHwVK1q1XaNvb19mkDnBmStt2B2OAGuVSC5fAR4Nu2lQWkd1hNlO3rIll_-fN7vk4lWpmeNUMMqpJ7zVTN_3_ENqmiiTa6qskp_UlaPuxGjJ
+pIbrs_nj7Nwp7_jUPo_m0ZZjA5O-LhiBdUKFwFNbASAZLiFdVZOyFkPZODNCCsAVqeJrPhTKp7s5RVlwA4A_klqeWCjuQ-g0uHiO-PnEoCJn3gjX-dtCbEvb
+ACBBEwfdPgxzre3zY2i5PV3pSUVVK2D-303eU2Imbu7tvGVqw05k0TSFInVJr-5Fn69_taUSoZBXd7uSe13ghNNYn-A_0x3m5U_H2I3JHO1CbjKxHKmnzVlo
+8D1Z2i6xvZVTqFUzMPDpJgdePcV0MbzJRGGWk7oWHpJRPW9-gpjLHy1pTn7hCPcVImCefLzHsFVE_5dC9VsMiVxRmD33hdy
+}
+
+EntityColoring(playwright)
+!define playwright(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, playwright, playwright)
+!define playwright(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, playwright, playwright)
+!define playwrightParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, playwright, playwright)
+!define playwrightParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, playwright, playwright)

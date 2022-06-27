@@ -1,0 +1,11 @@
+sprite $pagerduty_icon [44x64/16z] {
+xTHLGi1034NHUDBzBnY7LyyKj_jzAgFJNdLNXYlJekcagZJkBNX8Ry63ONkji3rss06yjBLevpTWGsUPUIvzCMmPhHEVwzYrY0EwPDyY0uxE4lwZkBEKBq9R
+g_LCehMCdsWjvGKR4-girmTPe0l_-wxp82yaM-ilrc7RPPFEvlHSKcEZ0CwjvEnSy8bbZLhEwVuvriqvpWltWy0EtMYZTDIc3D-_pkzvhzTzOKmezujmKw6t
+zXy_HttrdFLsUkedsd_xRsy1
+}
+
+EntityColoring(pagerduty_icon)
+!define pagerduty_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pagerduty_icon, pagerduty_icon)
+!define pagerduty_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pagerduty_icon, pagerduty_icon)
+!define pagerduty_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pagerduty_icon, pagerduty_icon)
+!define pagerduty_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pagerduty_icon, pagerduty_icon)

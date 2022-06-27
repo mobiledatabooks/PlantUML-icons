@@ -1,0 +1,13 @@
+sprite $postman_icon [64x64/16z] {
+dPT7kkqm38850kz_nwzwa6vycPtoAwXyiLnlOiiUVsKrKJj2UrpaHahJur7ka7vNRz7x4JIMCbvf-0c8BVG8fHn_bjFKym0zjkG4psl036g0Ukg24zeuDHcx
+jPiuDCDjkjV42zSCmh6Rk32caDT-yaQLUUc1yvQtgiXpHHZ1qi0Ce7D97D2ielqlG1-RLLN8Ajy2BF9SB2RLu_HTUehi47_Ej6ezj1E77dWon_d0TwzwFd4Q
+UEnhYBzLojzzctZhhL5ES7KLnwvunB5B2yR4cKpvtJpy5yVFSA0rpA8HulUo2duOtBn_BO-LURr7LgDWV9llnG43V-Bc6vxj1C8tpkMC-GlN-apghzo3TpfU
+yGxFb6US3e_KViBXV8cuVmUDIBpdwOrbnbLN0pBpDmqdtqVp9hPNA1yDcSvuJFem0xRbr7smlyKBe7PnP-jlVWlm5e-wINjFpmBaU3wt2Yv0OT_tBGZrAMYn
+2DwKHn0h4tM7tQWDiNrWnJVuDm
+}
+
+EntityColoring(postman_icon)
+!define postman_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, postman_icon, postman_icon)
+!define postman_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, postman_icon, postman_icon)
+!define postman_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, postman_icon, postman_icon)
+!define postman_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, postman_icon, postman_icon)

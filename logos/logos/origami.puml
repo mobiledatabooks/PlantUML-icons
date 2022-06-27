@@ -1,0 +1,12 @@
+sprite $origami [64x64/16z] {
+fPO7bkWm308Hmhd_ZN-lgx0XJ_Fg5iP6JeEZsDBvXjHTU4LHvmDYxA3E7HB3jENPK2OT6leyqjdY7j4tp-1z_CHqMZqNyBoYJJo6O_8RWSvh56r_BsWeQK2P
+k6-du0G4b9qkdmK5WAXa0-1z70rKiW7q_TzLJY1CmRn8ctOyDGNJJi496aCmugXJJY1CmTpRHJX1JS6SxH6SW1XeDDDLxXdJcEZZx_kq4mYtWdbfgrb3OFAG
+y2zrVg9cVHJWZheQ__BlWaaUTQMF9pX1hVAeaxqRuA2YnoCix7404y53uZT9Vi9w763ZCvxpH4GVGo62jdv6sVeXc-tx0GgxV2EbTylxf__c082StV90s3wV
+dmghyH4vjIolPVbTdBjuxRf3ktZFSr-KL-CLfV_JXK5UtgIpyY9oveS735y1
+}
+
+EntityColoring(origami)
+!define origami(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, origami, origami)
+!define origami(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, origami, origami)
+!define origamiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, origami, origami)
+!define origamiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, origami, origami)

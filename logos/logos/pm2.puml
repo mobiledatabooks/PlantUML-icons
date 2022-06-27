@@ -1,0 +1,10 @@
+sprite $pm2 [64x11/16z] {
+VT054WGn24JH1heZzx_m5koulP6K_LZm901eGy0fnuwA_FVn9qXd03mM5E6Ii8cQarDHEBlvYU58WYiKM9YO_UXOSE8BixUGx_DLtx28ULl_tkTGGbQzsRx-
+c6TsEdzKRna1ha3soJo2QdDedBJZ_JDGFKAEIfTVcsLq6UuKs5KFolAhFdEwtSgltaHNOEc7iA5E-DJN86Bhcs-eivSUbEtztFq
+}
+
+EntityColoring(pm2)
+!define pm2(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pm2, pm2)
+!define pm2(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pm2, pm2)
+!define pm2Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pm2, pm2)
+!define pm2Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pm2, pm2)

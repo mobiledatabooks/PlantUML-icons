@@ -1,0 +1,13 @@
+sprite $pagekite [57x64/16z] {
+dPHfTlCW40Hd7uJlVzvlKIRM4urvoFKx5Ieq2cqX5aVGCrWzZ_vwlGxQH-nqVkYw6zTwIKLknBKww4RdXID-nG6s5uUqMHmwgrQCM-Dq0T9kQxuUqEKIRK_1
+LjbF7PvT_xQrhN-ojzjlZakCpzAHBapveTK-I66LfUUH-8b8npfNfejZ_ebmlzUPq81_U7R7-w1GXgy5ckowrhe6S2mo4ow-NILX38vdPhRMKkh-i1M_i3YT
+mk6HE3WLrsuaRDscSK3g-thWsTtYW80fWufiAv9hIdnslXQjNWcs6Xo9hJbhrPLOK-fjoX9bBJQ7wz7QOYAkfynD4QVa-HwP6N0zRVA9n5ro5Q8SfxJ9i_Et
+5AwC6zMKs6e_TLOI_k4ufTUGOS9q9s3AFZmxXCTdaJPEsGKaKLCTMnF-QSNW5DWArmFIYOnFs8SfUvwQse0IJQRKNwkTIIXMgu_FZlgfXPG6OhKAJ1brs1kn
+lLQfmnQYCJwx2OpYE6NwXWXJPXhJ55kqWWRYl3L32G0HMjE59i2GC2LeA2AqWHWY-o9g-o9gQnYqNV6XXaCgqpD0smMrVL7e6_InzXS
+}
+
+EntityColoring(pagekite)
+!define pagekite(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pagekite, pagekite)
+!define pagekite(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pagekite, pagekite)
+!define pagekiteParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pagekite, pagekite)
+!define pagekiteParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pagekite, pagekite)

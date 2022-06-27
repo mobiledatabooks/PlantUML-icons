@@ -1,0 +1,11 @@
+sprite $openframeworks [64x34/16z] {
+ZT9NeiGW28NXuyYOODt_Qc-TD1B0_zdFZgEGSkjZz9PJm16FSpsFSmrRaVjf5CSfNyEsTXuY3eQNdFgurKdragVnM5Azv4h9y0UdeKQgFtZekkz1ystZu674
+YZzu76RnqRUN-1vgVFDN7hhj-yrVEDx3YQI_SB3dL-al7DNpHVZbmj4zNxFmkVoLwSyFhrQK_vlcV3VytFvDt_pxCttsFDi-UVvj-vVdW-rHR5uWF0jFjYVf
+urR0n0OAf0yGHSj7tsFH-O893zOuOyg33JxZiJxn5TCUrAHk1DFBKhle17XUHhbzS2PWqdy3
+}
+
+EntityColoring(openframeworks)
+!define openframeworks(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openframeworks, openframeworks)
+!define openframeworks(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openframeworks, openframeworks)
+!define openframeworksParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openframeworks, openframeworks)
+!define openframeworksParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openframeworks, openframeworks)

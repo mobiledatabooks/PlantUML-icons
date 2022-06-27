@@ -1,0 +1,12 @@
+sprite $prott [64x25/16z] {
+hP87biKW24Kf5WJtlzx9CyHCBpbpVrF91Gzy-XF5e-MoXmlzbJ5dC069EVj_-5f1kU-YXKbALLfWMVXhlqVYZHObmjTXmQvwWA5hOt7umy2HQRePqYGnrXrw
+Rf6TnnL6spZc1v1duxpzMDqTvn9UrCzzRlt0pa8z_MYCL0tNxQhLSSQa7GVMWQ5URqo9h6S4_XwCeomMZ8kqx1zzFZySH5r-A04zJkmEZk_dZnXEu0k1kZEb
+-BrlSvMpxRTS0Nlew-zzNptA9q49780rEgTl_HeebtvAUPKSohS-Yg54-jkAoYo6XQGlspVyceE07kMjpux3E6Fjcf6xIuvxkFdSHBydTQ9nnxAb2-JAq5iz
+wzE5MAoGr-j6WPralsRO2WFJVAHZjP7QhHMcX6llkTFMcnBy9Y9CpyYsWST-fUTu_acVeew-F-S5
+}
+
+EntityColoring(prott)
+!define prott(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, prott, prott)
+!define prott(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, prott, prott)
+!define prottParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, prott, prott)
+!define prottParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, prott, prott)

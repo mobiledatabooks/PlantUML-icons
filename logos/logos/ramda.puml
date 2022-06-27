@@ -1,0 +1,15 @@
+sprite $ramda [54x64/16z] {
+bPK7iiCi48DZkZ5yklzf_vBXPIVEyegcfLW8j19-64Bf0vXNIu_V8dMG198OzVWD9tGaNf1c-PcKfyGRHFz9hY80BPt56-4F97ZHlbFBYpGhe5ccMBHhJpgc
+a40zWOW5bflGjgnJY2dK8jBv608nfq343IaYD8j4VUHIme745TCKeBwNGeH-XYzl9ktn9848srC1vM48-H5VZhIDWKWYUqi16fiDYa6_RM2yMBWp6uAQmySE
+NiWUQmhnsGmJcrS_Mxuf0gWz327LrlkKnH_4RE7ECWUFUc79m23HtdV8J8lJGCA761QKInhvk9NCfsecQmbBF5oW9nWDZsUs1VGQPIZdTLszfUMyenOiXvg7
+Oxm7dLzYK_JwJYjiOEjdX6PUt-9vM0mTL3D4YBFb67FdV3gqSrANRMW5OFswf3I7qN3I73j84iyPD06WcZp_qriJpzxF4bQvri4lcOOTpCMIebXXqCoNO7-J
+16Gbddg5elnGRgm7rSOqP1FxLihEo16MeoBifSZthxEYtPKGRMplqaURQ6TY5rO9-m6DsAOim3kfXSIYKGloNpINIRt_199hlIsixbwDPhql5RzjQFHUclVG
+L0oUzSEJ-kYesaqArzfsOtLNAlWX0y_4ObARbF5fuh5FPpIn-xchIJd3zqsqtdj5I3iJgsUhFsdr3wd3PHNVn2RSyjYYZed1f7nKpyJJaTgBKMpwZfGRAw5s
+lyqCVgpET4dTPc_UkEXQkqbeh1-SuZYnUh82cgltZfGRAxMdCUkhA-KqNQJ74BxKFbOYdc9zyQJyM6aqiNh_ivHbjGyTGqzui_8dBTgLnvZ_OtYny3ij-hy
+}
+
+EntityColoring(ramda)
+!define ramda(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ramda, ramda)
+!define ramda(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ramda, ramda)
+!define ramdaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ramda, ramda)
+!define ramdaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ramda, ramda)

@@ -1,0 +1,13 @@
+sprite $pipefy [64x22/16z] {
+dPDL0kOm20Q_43To_zikyAUiM-UXCQP4yT-amGdlwUUSZDSqqNV4MqZq5l2QSix2jyH8YBMt4Y2460CeHb3jlH0kkS-UWqQFSsOIFj5IET9n52wVrJKioN6C
+1YNje-oCmESoxrPwXqQxxmpLlPN1tzGHrR7KlJGTIT_ulLGjAyBMLkqiSPJdEQiK-Mx0lgf7mC8ct4-01J3A3Q2jOnO0OlspV0eiXv8bBZp-yCFI7LkrjLPr
+MzJlW1OQl00DWQ9xGuzVO4XAdR73Zn-svjZP_EJ9tAymM0RDPsOjF3-AvYMOFvwBoNZy3INVNouA0X45zs6hKL_e0Q4ULNt_9edEKY9g026qjHQvRmimN-7D
+yjt1VMtnFPfk4VgPS5_JaViV8SBz2oS8m--S-u6rl7uTBBQzgifiVhFhqWb6Ndnu5To0v_oUBIO48dm80UedG7VB2Thm092_3Jz_n_oCFp8q_Ni_YbJWFk5x
+vj_yhXVayWK
+}
+
+EntityColoring(pipefy)
+!define pipefy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pipefy, pipefy)
+!define pipefy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pipefy, pipefy)
+!define pipefyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pipefy, pipefy)
+!define pipefyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pipefy, pipefy)

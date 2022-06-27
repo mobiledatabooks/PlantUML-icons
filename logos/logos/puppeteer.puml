@@ -1,0 +1,14 @@
+sprite $puppeteer [43x64/16z] {
+xT975kCs44NHGYe0bVx-TskH0fMJxHxscoZm7YBILj7ezAuUaccL1QxX_1AoXthC7QS97ynTiU4d2EtCyuGJKSLEd_4EhU-F3AWRLOTFFZNi5ZU77Uy8YHCj
+i37ly3ESmr28gEg1-u7J2VeTr4fxrSuuP670vosCIaS3TtZQ7THmkYH8HHRUrVtGYdIX-_SYOGB8eWCGYtsEWdoX5hGriLOzUCrPrlzN6hOs_33tMzTH3fcW
+Tt3h5ZFQbVeD39cG6V1nO0KVSk0MRWzXynP3qYwxFq1hLDO9Nl1-dmkWQnyFk5KNjXth-MQ5miSzVC0pe1ijq6dOe2xuXA53DahDGYsUuUKYGIIyqvu1kC1d
+l7MSWQFB1JvZOSLwQORHv-OX1lGB7K1Uuyylb76UGGF65zfmde42_8LMx3F80DeNMk3R33eSBNskGCE8787u5WB8tLivLpzKIZC9JhrKpZsdprMWb6ZJQjIK
+FvLoeAISjc_fIzcXybiAZFvZWKG_viZ_XlwbAUTVwGYtH4znUa47ELUgkRPHg75Fr7ggCNFkbL9dAhKjwkhTIBlwy1eYmgx68SqbgfgF6RAejboDZ9N9kgVa
+vcB9IeLO3zKvvJe1oY5WzUabL8LTXDIwJokYodCiMWeH5QvP9-SKp4IL4oKkcIiHDofvqKlQY9AbNuvWH-bFdDPV6lL7cT6zvbyg9jG3lnIJ_W4
+}
+
+EntityColoring(puppeteer)
+!define puppeteer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, puppeteer, puppeteer)
+!define puppeteer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, puppeteer, puppeteer)
+!define puppeteerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, puppeteer, puppeteer)
+!define puppeteerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, puppeteer, puppeteer)

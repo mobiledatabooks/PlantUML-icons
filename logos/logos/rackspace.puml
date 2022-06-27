@@ -1,0 +1,12 @@
+sprite $rackspace [64x13/16z] {
+fL07ekWW24DHXbLp_zl-yFT-ArNPa29_my8Z7y56o6kXFdfCqKXlD0TblvWotDfCEgUhfGb1Sr0qewpNUt751gQ3UAGjYZk0pkiFY75mAKBwHfaootIjzx91
+UNVGmzjP4MQ6ot0COAehqtpZjeqz3vBsDcEJQc7IBdOJ-aK11ufeucmicK0sgIx2Zb7J7kI3pPJ06L4H1KOzofopS8JWj7B8AeOihVHR7MjE3QqKeZmCjvhK
+sFkfUYbANeIaVdKbTjKz6_638XtBvjVrITL7y3hlS5fQR7qeqqX64nWRnmwW5sTEUx27UkXWHar4KPxjW0YWTI11t75HSF6oS2Y9L1JI8zSG4SrKzoRDLyuH
+Bc9kbikx0lGfStmPkOcCND55OwKrLNa1jRwFeDRtFtm2
+}
+
+EntityColoring(rackspace)
+!define rackspace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rackspace, rackspace)
+!define rackspace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rackspace, rackspace)
+!define rackspaceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rackspace, rackspace)
+!define rackspaceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rackspace, rackspace)

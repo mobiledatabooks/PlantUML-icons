@@ -1,0 +1,13 @@
+sprite $peer5 [56x64/16z] {
+lTHNigKm38HXPJ7xN_0aV8rfWdnYlr9V4VmNovFBBxjuydR-fBExY-Vx_vZwdFDddJpdZ9zpoZdZa2r2tONZ3EQRuyqPyNw4qz7rO9nnrow9UZ1HEdlP1P7D
+EnzT3oOVS4uawBHFshYvwCwEJexdxcTk2qqgDsH6nBbtd0Td1oT4Mp1wvNHbFEJodCj_BaedgvFDqUXiTJ7f7CBsAwTZBaI6xXSwFdKAWLh-BDeEMJius5sU
+4DgSi_LO7dRwtytUByRCnc2aTYsNvzooNedIOTRqVnXeuFcrTPUhStJOIniwWx1B5-YeXLquRxtkmwPP9-2iSjOSX5sw_j_OEwsSq3e86noovnsVEobSDWU1
+rexQ_4M7Vzxhp20qfHddH11Qc33DE0YcqRXtXgujY_ifjV5olZCqEie9j_H9TzNzbjsuEyyRjy22XecTqAD95oOOAzmMJIYOyRPnRjA4OELjq_kDAckHMpy4
+gszxSwC_
+}
+
+EntityColoring(peer5)
+!define peer5(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, peer5, peer5)
+!define peer5(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, peer5, peer5)
+!define peer5Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, peer5, peer5)
+!define peer5Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, peer5, peer5)

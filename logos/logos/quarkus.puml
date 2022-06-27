@@ -1,0 +1,11 @@
+sprite $quarkus [64x10/16z] {
+bSkveUmu30310YzGe6Ro3tVrRdT_EsrLN_dP2Y32_oz2zcWHBUO4kweQVMC7reQgshZ2tC-GWwowCgmrcpvXRzPX54x3kGEdHIrEZ1FYO4_jfcMutg_vxU_0
+wSQ5QeoT4uTCpgZWppSovlrwt_FJnu5h_FbhjCAzTyMpr_RdpNErZ3ZlT_hoDzIVZrVLgt5M9SuumvzdtHaoL_VfrQJTeHtYXBKZCZdY3ex-kKODy7ZHmhTl
+P-ypiIjhKPrsE26lpwrdy-Jrh5zvLVQ8rSMOy7mNwBEXGVFv_ZjjTkZFHZwjoDLyL-aV-Wy
+}
+
+EntityColoring(quarkus)
+!define quarkus(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, quarkus, quarkus)
+!define quarkus(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, quarkus, quarkus)
+!define quarkusParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, quarkus, quarkus)
+!define quarkusParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, quarkus, quarkus)

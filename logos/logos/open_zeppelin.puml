@@ -1,0 +1,11 @@
+sprite $open_zeppelin [64x10/16z] {
+dSl7eIH120DGGKc5w_pZtMcptv_cSS6f7e7trCFnddsAq3FLnW-HiV5RBWOUIyIbIbLObC54EEKWZm1bzveKu5eeBXcrhhWS9ny0urFPrj7Kv02xeTTaKrLs
+PALDp2egUUG1c4GyUOEDjsDqP6qb1Xn3TVPv71_OQB9qvGi3K3BSidSd9gEz5To9yQF4NKexrtP4bezoPIXrvbsYkJjE2W4TuV3OM8Hixn0K2nFXDX665OBp
+B0YI5b_meHr_QGDiy0CbydlUyIV_y_OF
+}
+
+EntityColoring(open_zeppelin)
+!define open_zeppelin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, open_zeppelin, open_zeppelin)
+!define open_zeppelin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, open_zeppelin, open_zeppelin)
+!define open_zeppelinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, open_zeppelin, open_zeppelin)
+!define open_zeppelinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, open_zeppelin, open_zeppelin)

@@ -1,0 +1,10 @@
+sprite $puppet_icon [41x64/16z] {
+xTQr0S0m3011qVuh1xg0uSFuzLL6nJn9zaBerkTrgDAdxu2cVNRvpdWQKXbK1fKwBY7J7IjjL4ec4og5Ig5IalazuGzrow6WBgYBlFDnz7Bjx_YJ0jpsPyzt
+V9hnz_6PJvEF2gE-0bi
+}
+
+EntityColoring(puppet_icon)
+!define puppet_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, puppet_icon, puppet_icon)
+!define puppet_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, puppet_icon, puppet_icon)
+!define puppet_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, puppet_icon, puppet_icon)
+!define puppet_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, puppet_icon, puppet_icon)

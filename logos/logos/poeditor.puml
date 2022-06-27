@@ -1,0 +1,13 @@
+sprite $poeditor [64x52/16z] {
+bTBHbkeW38NXG98DXFT_tsCzMT99IxJ_tOn-komi_Qcmw4rGgPJbM5y1TmDG_aL3z-K3rN5IniLrLitujMDGk9PFVNH8INZG7BuxvYlhalAbQRNyaOMRuEIo
+W_S6qweeTbTLcCkTduRaz517CF_csNizURppngNFELlmNlTliMuuToAPhtZvcnCeDgy9fjGtmQtt_rSD2Nsyj_DJ_FZXxZoTdkwy5IB1xeSljhuL_JgPulfu
+Z-tDcRRUIl0gTAgsCLgblPzAtz_Rp0_tED9NzPcV_5-hY2ZytV7AgQt7mLNuI77sEbTZwyVX3-u3o-CdRwfGzkIvdsVFv_kJlcfx3vmy0DgKUAppjv7ullFh
+_fhnthDjFCGvscoqhzh6GqK4EFoizEG4Xa_kEpqP61S_zSa0hjxuzm7Zw9yD3DBWau5MBmDASkEdwPqV5WUiK0tUw_N6pn46G5IYzmprwiF0e5ToyPurBl7z
+Fm_uDTKxxrc7ygSn_mw0tcdmUMkWqL4uWENOB_reNOzWrRzpfPWktop7GmjTAlXfO42gYsnWR1QCQLlHyy9zg9Ga-5gXhAh8am0UBYXzhx0-VVe_
+}
+
+EntityColoring(poeditor)
+!define poeditor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, poeditor, poeditor)
+!define poeditor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, poeditor, poeditor)
+!define poeditorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, poeditor, poeditor)
+!define poeditorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, poeditor, poeditor)

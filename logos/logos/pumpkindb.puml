@@ -1,0 +1,13 @@
+sprite $pumpkindb [50x64/16z] {
+lTG7SY8m30LGrI-dt_-qALQAnWYytgPKZD-e0TG78vIE0kDky0dGSNSt_4J4tNkC0y1Z2ZaWcCBEafmsuXyaJWGV2x9nTxWHFXQ47E_Hsay5_vRG8s5R8Ou0
+8c12OeZvwcL3p5E_m1BZA-w-_jxTvOECqAM44H40t84OCUFZUfxWuz7m2kOTU0OIv4avAaGJrFizCShWQ41F98NNfo9kaSWKJGybl9BGDKM2FadU-n1TYkjr
+2P6sAU2EDeaJUPT2cOYrIm8YD2c4PcWZWhafwdktlenhfjTojAJeaxXTAugLIHe1RuH-WFld1zPEe8hIXxoCE_F8g28QaKdkd-_jOecB-0Qv3xLenJggklET
+GFHH1VwJm4xqi_gt0duWiWqx5QxBphV266S2GhyoNY-2gM-z5_bEK5InRuE8ZmI4g2sh5_bnrPIrAOhePrfx0Pv2DsKjAPeacnJxJd2HeeuBkq5btDx9iekl
+aAi4Fq0BgAriG9jb3pBOiBQF1430-GAaoJisiObO0bZj-Gq
+}
+
+EntityColoring(pumpkindb)
+!define pumpkindb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pumpkindb, pumpkindb)
+!define pumpkindb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pumpkindb, pumpkindb)
+!define pumpkindbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pumpkindb, pumpkindb)
+!define pumpkindbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pumpkindb, pumpkindb)

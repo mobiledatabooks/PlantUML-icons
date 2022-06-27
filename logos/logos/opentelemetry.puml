@@ -1,0 +1,11 @@
+sprite $opentelemetry [64x23/16z] {
+fPA5eUKm30IrO4jA_mLVd7UVETump9WKRsF5JkGj0Jp6ba1R0dfBWEhv4F0cVcm85dxy5nX_v_F4dmGty51VEPfn9u2wPdQFMpYxW7Nr6ob1N3S_ujqE-Tt8
+NLshFwnu6y_t-D6Gr-ubaG1PWKRCDEiy3rPL5fd9R9ylfbXF-D5X1Ko7Lap3YtUDTgspckqSEVCyHIPyAY822pyQD6qO4arIySGFbNkTepZ7ISidxq0rdvQ-
+2t7rs58y-h_uUlG__v-Jmwl_B4z5p7ggdOLVWUFNSVaY65cuLJCHrh3ZVkXXn9P0iHLvX_u7
+}
+
+EntityColoring(opentelemetry)
+!define opentelemetry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, opentelemetry, opentelemetry)
+!define opentelemetry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, opentelemetry, opentelemetry)
+!define opentelemetryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, opentelemetry, opentelemetry)
+!define opentelemetryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, opentelemetry, opentelemetry)

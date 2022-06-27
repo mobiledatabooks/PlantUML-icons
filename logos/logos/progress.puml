@@ -1,0 +1,11 @@
+sprite $progress [59x64/16z] {
+rPP9ak1020CB2Vt_otCZmiGKDBXNdKcJU2jE4NEUNIZ9RG52aZQmkI8SWTGZ60mPcLd3zPzmDkJCchh7iMhPZqmruQflFpAahxIs5zPyOuqNrlx6-bbEjyAw
+G97kWB53io4-Q9qxv3l02iqLsTfB5EMhYWkShZknBgP1OmtTqppa-gLXzMfsBmtkVTjNtQr2JsDTeOqr2ZIi5sXO3z485cY4EpHRzsWEz-WndwCHxD63FuDY
+Yy9zXvfBEvJI3eLhZ8Rh3gMqG-5QeYxjK1xu78r_B1SeucKOeaphSqPp8Mvh3sze528SSimJcWjHh7X8Q5eaKQveVAAETELoWo_SmDEaS-jHZ82fspy
+}
+
+EntityColoring(progress)
+!define progress(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, progress, progress)
+!define progress(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, progress, progress)
+!define progressParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, progress, progress)
+!define progressParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, progress, progress)

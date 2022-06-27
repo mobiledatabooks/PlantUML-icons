@@ -1,0 +1,12 @@
+sprite $pyup [55x64/16z] {
+tTFThiGW20HW0N6qx_---xzDvx16l3rpstm9qB5COwsMxOZttfjkgeh-IfCDPEXdQXPgwzV0iajnFBVKFbD2IIQq5B6z-PZfvEWB1fSVHr-pZif7Hyym-ekJ
+fPew8ZkBQeIe6zeYUyHbijIvWu7O-NdyKYxNhaNMSHmCuolJ-fS13qPmKdXYUB4Jqb9J1fpi4LfgpW1cnw2b9WpCNl72aS3mYrcXrD3SjcO6sZN7jD5bSqoS
+_cEIQUXdYjbn4FCaezfWXtqWiCLUUQ5zDluZ6yngZXN5XJNDLzdwbzdUm_7nP5NA7YlIUlgPCYmSGOA5L62VMSC-Kq99fWwicGWX2MXMBXU-H8mYC3sEuNm9
+pgjmrYDxm4gN86Jb5O_i1Hqnry89YF5xuxZIt-mfrYnqPwnPBJ4Y2-PIvc76Hqyodc-VkPHbZ1dFDuyCPbQIyPFbvgFQZEnyN9j1fSZ6Eyt7kGC
+}
+
+EntityColoring(pyup)
+!define pyup(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pyup, pyup)
+!define pyup(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pyup, pyup)
+!define pyupParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pyup, pyup)
+!define pyupParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pyup, pyup)

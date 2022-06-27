@@ -1,0 +1,11 @@
+sprite $parcel [64x13/16z] {
+ZP87bcGX30D9jehxNtYDblcJGtNIKxj-0Z0QhGZ8TeDPbIT6lRLqyX249tVAq0eowIUaN2UpIbrQkm4TF__x8Y8awW86e6bVP4IYh5Ag2PBoJrsiydLz_qwE
+7-BMUQ_7lkyYeH-_cQzz527wb_xARD_ulVSu_e1HdscVESPyV6DVHRpraqEM7yAzVO4GwxsVMJfwv-j0deev4O-VgBttjRDORtsnYda6NzRiNhz4V_mPyTtz
+toQ4KTelnUPVdh-Hr0i9-zqtT7ofBX1XFuer_TywyV47nDswy_hhn4v-kV_IQUzz_RNty77sZfPxbz_PycsOKVwcSCkD_m
+}
+
+EntityColoring(parcel)
+!define parcel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, parcel, parcel)
+!define parcel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, parcel, parcel)
+!define parcelParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, parcel, parcel)
+!define parcelParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, parcel, parcel)

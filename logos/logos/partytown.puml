@@ -1,0 +1,11 @@
+sprite $partytown [64x13/16z] {
+dSw54TrG34JHk-Bjl-6C7He8_cDuAE0Z8OZcOmAgqMV1hLNE1iD7WgdPvNCrgY5dv-ws-EaANd7YDw9cW9oKl3aECeL2aPw8W8Xs2MMWRwz2AHvPDztgwPA7
+zDk8shwrfupSvwlqkjECsKdVdG1DJVVkLCqJuoMgdUK0DxZwI8jRsdATov6MN81kgdURXpVqxZpnyCRtEN_6CxTzHtsB9yPJtHL8U01vnja7h1VvU7vLdXlI
+9S_F-9xnTQK0CW2YCXNvRXIwUlU2x0HIpwk4DwQyintyLftuW-Wj-EOB
+}
+
+EntityColoring(partytown)
+!define partytown(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, partytown, partytown)
+!define partytown(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, partytown, partytown)
+!define partytownParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, partytown, partytown)
+!define partytownParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, partytown, partytown)

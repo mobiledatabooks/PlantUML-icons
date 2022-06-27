@@ -1,0 +1,16 @@
+sprite $phalcon [56x64/16z] {
+lTO7aeGu30LGPUE4xd_RnIOEEnWs_idXbIHNMzrm2yBV2_xVa6W01_CW4Nrm8U35y0g_z5ggmH6HvZv1chteuLImGtg7wkv5e8TLjQbFCFgIp7r0MI1lyXLM
+RqbDafvmF2GXiA-9j47v0fN1DZXF2FmLaYfbtsN0QqKQGJQrwdkgoHNI0AgPpNxAg2tqsYikS6hmaDEtO-K5Xknt-Gx5baprAaiu8Br0Y_DDCeqafi2jLLFB
+VassSKKiNdBeCfIVKiSpjZhHVcbsZZmSCVMsrYI_fgvmT9jgQEpUREcEd-3Kkz9VcitD2Jujjh0UuI_DfbPFu278Ksczwf-RZOjJV8H8CjKvsfQfdX1910OG
+IUDaUz8nPa0KXCTG2xFe1jLYNgsDdwkGrh2khYMaibWTA69kwA2wnwPSU5HEL2vKz8mmmeiyAP-I--120xZae7mwqJxn0yNrxzRAyaKoyN5OJoLPRKyZjZbH
+wr5-WDo6xE9ChzrbpE7X_kCsPejqhIRzsXEhnHG3F8JFKspHb48mt1x4eVZeJCzJ3NCsElzQtH_6knP3pZxTh_Ye6Et5tEvRp6w604X-jCZPPu4VmI0t5N6h
+DaLQezKBmJXI1Q2nK3mW4HDh2840mv36qCw_B_kPYSH4p4m9r4l4PyTjk7KtH2HIKxOEYq_sTecgjmYHDA7MCdl9C0g9plkARfMGDsSY8oT2tHdIEXgggLBo
+2OOHfCPcfcqo4440h778a83sBRkvDJp1ItWx5Ukk5IFyyZA_rSj8MpqLW5e3mLiGYhl01dM1mPFfgsC8Ng4vqEuq-fpnrGcmXtLJe1elRl8azkeKeMft2AGe
+AfDdUA_7257trSH2Z5GhV8eS3gHzulBD8QrVZcy9lgUvOVu
+}
+
+EntityColoring(phalcon)
+!define phalcon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, phalcon, phalcon)
+!define phalcon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, phalcon, phalcon)
+!define phalconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, phalcon, phalcon)
+!define phalconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, phalcon, phalcon)

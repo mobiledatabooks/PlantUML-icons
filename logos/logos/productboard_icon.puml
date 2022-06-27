@@ -1,0 +1,10 @@
+sprite $productboard_icon [64x42/16z] {
+xSp50G910CNGbR7VVyCqC8JWjhc_RBkiz7sPjLcUmC1m61X-Vh1Uv2F1WUL9WG5p7Z0N0-9g0DmDWBi1S3S0xWR0tG2u6m1t0ykJ2WFcF03k1i3TeCJMfdve
+F-xZ_V5yUnbl7y4FVl3Ty_f8Vl3b1
+}
+
+EntityColoring(productboard_icon)
+!define productboard_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, productboard_icon, productboard_icon)
+!define productboard_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, productboard_icon, productboard_icon)
+!define productboard_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, productboard_icon, productboard_icon)
+!define productboard_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, productboard_icon, productboard_icon)

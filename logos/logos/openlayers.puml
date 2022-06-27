@@ -1,0 +1,13 @@
+sprite $openlayers [63x64/16z] {
+fP07Tg0m30LLJR7lVzxb_HJGFYT6oj3BW3tqCong5y9KGCo_CCdARFx4E6MB_u_KRQ2lRVKPzj8sdsESZ9OFm0wAllZlQ29QDg3v6kDqj0YdeqLa5IqTK3s3
+rMrWd8ZM7eI0osXjpYEWM4Az-Gme5HaOvbroWH9PKGOiLHkObMLGbq7T1dKRM5a6-YVRkMe3PVs3RSniPTk5uPTje3KRluPVi0tsgNmX-URGpd4mJZnd2wms
+-jWOM3wQzt6Cu2VjtleOXt0ce37OncNofG_qUnlmyztzyhfHwpY6W6jRpt6n4z4Elp7mTzCss2VJbny3hgDT74AWuMeF0LVHHj-PFl4-Gi15DDWRtQ34Ak1d
+j0ElEZsH0m6TWQ-YTQK8BmA6QAS4TnKmHXk8TZCDQE7NCLfW7f15tU6QC90GROASTq0W0lKPpQ8o3nXOH7kotG43RH9j4H0ieyq3xifVQEkurUWD0d_qOtDJ
+ytRqCOcs2XZfCTewOBGFfWGUV4HB8Nllzw-LqWYQZNvklyZ_
+}
+
+EntityColoring(openlayers)
+!define openlayers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openlayers, openlayers)
+!define openlayers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openlayers, openlayers)
+!define openlayersParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openlayers, openlayers)
+!define openlayersParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openlayers, openlayers)

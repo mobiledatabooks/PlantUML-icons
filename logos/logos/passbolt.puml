@@ -1,0 +1,11 @@
+sprite $passbolt [64x11/16z] {
+fP17mYOX24GBy5C1iUv_sscTk9a_lWtnqG5lKXl_igZOXLyO3b_sHqu04HbJO9aPGo0p7mmzdZ1Gp9mAgA_insz9vW3EuZe7o5KiENunuQpZD-vVVXMtwcOM
+_L_VyZ252vWSWAfjOh6R2ZhTJ73VVt1ETg2eVzxVfhK-HgGVlz7RviF6kC7qblFwoamg46pvsn_vaWPuvl47Hx2h5GLYrXaGjLCU_qLtlkxF--F3n7EC32Lp
+SQipfvFImpqvzGd1kl-FD2DzCSu95AC3UFnC5v2rmg2ngbPYrXCShHxI4EjEORbh0hu4bYUx1wO0NFWYOi3rlyKF
+}
+
+EntityColoring(passbolt)
+!define passbolt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, passbolt, passbolt)
+!define passbolt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, passbolt, passbolt)
+!define passboltParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, passbolt, passbolt)
+!define passboltParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, passbolt, passbolt)

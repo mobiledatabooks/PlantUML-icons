@@ -1,0 +1,14 @@
+sprite $plastic_scm [57x64/16z] {
+pPH1pkuW24KB8e3xN_1hVbBYHxN1sJlJzXYkt7Xj8HOck4vfed_GcOQi3zBg6dITOInwf9aEvN0PEWX70D2a5XNwQpegH4q_RG_BfB7Mut-7-peJlyCv0AiK
+C8UJHJYIE2KT7LEcS9kk8gVVUWxdPsqEStYUdk6xg_uXJ8phAdKLM1qIcwPCLyyIwkkxs1YtIgjrRahXCyguCJdgQhyrSP6ANNskN1unxMNRLVQZaeY5hj9A
+x6RfwjjhHNqfZd6hDFqxduA-eBLuezkkTXNv47dxhZOfYAchPH7KT0Qh8jgOJMa7uWXLv50SPguTYbv--Tz5E1Cvn4j_HIYBm1QYTBXAeeDYBiPRG2NnXjHk
+aQu7heXE5vhUQ2c96HA7piGc3_0jWjAa8OU7wPKRd4GpmJcSGpy3-C8mYMCOGuIBTJe-WPT4MnPljRSMKp9Eb_q7cRUB8OatAW_jbRXVEXpJRSdpElr-GKUG
+nHGEI1um6hqJkItMoJ0rsj7sAr8EvsS55AO9XgWDhkqwuyEajkUcBoUlCyZpngJlSBZiieOwYyXvdM_8ifZ3PNBK4FVXFg8ExTjmtr5j2bUYlxjQ9B-hHVAx
+UWYfTtN7Fm
+}
+
+EntityColoring(plastic_scm)
+!define plastic_scm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, plastic_scm, plastic_scm)
+!define plastic_scm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, plastic_scm, plastic_scm)
+!define plastic_scmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, plastic_scm, plastic_scm)
+!define plastic_scmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, plastic_scm, plastic_scm)

@@ -1,0 +1,14 @@
+sprite $percona [64x63/16z] {
+fTRfsXiX20LWMLJ0-x_Uxgsfd35yJyxVpElAa6bFOHtJVsKEvVQba4wFzPA8sQcgPSO22TEALbkFyVvEozOmeJTDSxsDyICNHw2yX1whbW7vMEKO5NXvWCth
+iOFtAiG3oCA9Y2WS8WMoreM9I7J2dsLxMockr7R48W_mxm45DLAehVcuUgDAVGG__30QZE8xeCYyE82Wgv_jCHqjm8-3RvVCV0KSvw7i434pNGgbxzFBgsSH
+KLMHbo5wse0_J4yY-ZUo5tK-pe6dfwtt07a1gk16DjzXV09pu9e-kGh13RZ1jvgILu5b70vBJpHxWaKOvtrkZqz0rYMQbfysm3V_zncz-FZGv_rdByZ3_Jlo
+TF5Qy9VpJ-yRz9ovm5xjFNky08RrRvmyFa71FR2tWBvnwVLPt2RsZGLnISrIizyDABUVrEqeijyZYEXh-nkWNYVoEB90h-Ue-FraUjsjwENaiOSjU3tuxZRp
+z69S-3Jr_Qzq-XMJNpMFk7t0QF9hXNUXNwDpjtZp0JMI_vK8Tu-Cy_-qPNzFy7-U_6i-9DK6zFLlUFQw3savP5KVt616bBnHUqZbFovwk-VkZTi7tXM3aW_B
+6eSi4lREhHwIOR7jL6eutm4
+}
+
+EntityColoring(percona)
+!define percona(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, percona, percona)
+!define percona(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, percona, percona)
+!define perconaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, percona, percona)
+!define perconaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, percona, percona)
