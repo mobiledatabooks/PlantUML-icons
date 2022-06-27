@@ -1,0 +1,13 @@
+sprite $aws_elastic_beanstalk [64x64/16z] {
+xP9fpXin34D9IQI-tl_0NHm3OpXxqhrzVuVF9kZvz8lv-1lvpt_QaljLkOW1gr-mHI2oAWbG_VJbGBe7Jg3wMPtkOmO-Tq1hwii1we_-oaDwZ_X26-XMbI-T
+q3j2z4OX203P3n1mxn185H5z7x0FAjEZW4v7g-_XvH9lhGtsFRJaYPIuN4hudXw7ByIsPuBfleu3e0w_ja4KDr_17FRXX_VtzArNoEqJaIf0UyUyDZszzm5G
+U-pQYdKUBL0NSdbbF1z3CUHk8ttZ5vdih-l2DxBdX2tPVUytyk43PH4QlaK0vNsd7STSsebokv0MmW8YrWECkEGFOVfojwOVA5k0zzoE2VaK27kq4DAWbtBj
+6RjO0B978Z90Z_k1wRlTjWDhVQyaaF9SZFBidtQ17XH1NwK0a6adqZxv8iZHp440uLjKZ4GXzPMnXE9KnYQOyYCK9d7o_2mPWrVzYTxtIz8R_kHbd_6DVBs_
+FFad_Io_XVoNep-Q__XDlW
+}
+
+EntityColoring(aws_elastic_beanstalk)
+!define aws_elastic_beanstalk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_elastic_beanstalk, aws_elastic_beanstalk)
+!define aws_elastic_beanstalk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_elastic_beanstalk, aws_elastic_beanstalk)
+!define aws_elastic_beanstalkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_elastic_beanstalk, aws_elastic_beanstalk)
+!define aws_elastic_beanstalkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_elastic_beanstalk, aws_elastic_beanstalk)

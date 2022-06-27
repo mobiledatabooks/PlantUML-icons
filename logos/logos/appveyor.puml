@@ -1,0 +1,13 @@
+sprite $appveyor [64x64/16z] {
+dLO5aYCm3AiColzVV5JEIQcx6Wp8R8yl1eXgSlq1sHMuV0DahmqiJDd99S4SiZtg4piCUsO3Udq4CLFkaSvpHvX5eTOORUXZqD37w8dlSm4neVWWWkjxn9FV
+wmVWmFgP1xGgklwWtJkEiU-dWoYJ0w--CQWFEFMCKNErK2-K-oJ_lJwM1e2JWBmwPlex-psGK0xGpPVW5Wwb2n0X4N_Jf2f2sAvKXIwLAl5BVQIE05kuBfDQ
+-fuoRUdQhGHVZ6MEYtLFqTK5Eo-kuVOLstKDaq0A_kvwkLzdVZp3vlM7pkjBsjAawGeRVxwEmJO3rJtqWn_FD2iteHsh_Icq0sNAEcuKyCrE34TbuIeRtAPo
+A7gAf5u3oF_-eZVZvG33lun4osheRVDhrLIGeRu24O5JKwQ8YLknO7eoJQtkeAkfsOfLLaqjXMrVZiC6i3HO6H6Pc_MoRJq8PsEBq1XwB068r6Ww-64DpYFz
+qXyNmDPqBvslxBCAQCCsq5f8Gz_GXbwIBj2I7WEwqDGdlno2U__uzUXiGYUqzGtBtSSUkyhkj1xOI9RjaIt8YSiSYEBh90X7_Wq
+}
+
+EntityColoring(appveyor)
+!define appveyor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, appveyor, appveyor)
+!define appveyor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, appveyor, appveyor)
+!define appveyorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, appveyor, appveyor)
+!define appveyorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, appveyor, appveyor)

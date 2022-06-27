@@ -1,0 +1,7 @@
+sprite $appcircle [64x13/16z] dTBN0K0X349HWjpzLtvL1-1yMrBGRKAiNhYDMkOHjG8FzzzxdBe067cKiW0J1UIoW9pxLG6BKtzL08_fCy0ZCWztzRCqF5HOptN9a2R25m
+
+EntityColoring(appcircle)
+!define appcircle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, appcircle, appcircle)
+!define appcircle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, appcircle, appcircle)
+!define appcircleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, appcircle, appcircle)
+!define appcircleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, appcircle, appcircle)

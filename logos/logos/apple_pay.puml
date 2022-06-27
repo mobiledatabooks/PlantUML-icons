@@ -1,0 +1,12 @@
+sprite $apple_pay [64x26/16z] {
+fPD5Wkqm30JRCYK6zVrF-q4A3y-hLQWi30waJxn0L0xiX6MZ2Bx990js8W-wu3jaik50UAA2Rr16mSrN-KUiIWvyIgXZj1oa3fshd3wCH3BX4sHwbZGqFNnq
+Sh57kPGK08GO8vmOKvYyaP_-OesHviTNxstOSzFA6mNl-AibwIckmDW_Mydb7dxWuTlN5OtiCKWb6L7sKKrIU6F1q_-l28PEIxcH5O7Ku4lIyR5VIYvrUCe8
+nscBdPAzilBms-4_duMOIrs6-TaVJch0u8tuz4SnUzLhYagrz9ibSMNAaN-A__1R6_9egyNtnYTKgoBoZigzVtlPGuxwJLenl8lzaG3UyTk-LyrzJ4xnnY9z
+ld_6kdsRQRxbqSYqlppfUFfxZ5vhfsw-UAhEuC4CCEBTtsFqkldebeaJrZcAIEwp2Hpfe-5AxdFsWZHydYWswz-pa0E_9qoouBVORp5_7zpsBFxULshVzRy
+}
+
+EntityColoring(apple_pay)
+!define apple_pay(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, apple_pay, apple_pay)
+!define apple_pay(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, apple_pay, apple_pay)
+!define apple_payParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, apple_pay, apple_pay)
+!define apple_payParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, apple_pay, apple_pay)

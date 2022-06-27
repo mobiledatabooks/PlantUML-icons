@@ -1,0 +1,12 @@
+sprite $aws_certificate_manager [64x64/16z] {
+xSy7hWCX38JXmO0zi-_-vqr1wK69z_NsRr7ZquYNtz1__wbQlhZtWHMrvPOlWRuauznxah_emY-7rlgx0ftA5NEVR-wj9QjpxqiophnFlVGsNulUuWFeR_0o
+eEZrFb0x-ckzP0YXIFTUJxpelHfCQYYrU_29bwFhVA9WNzaf6KQXj1-eE2MDQp0CXVDz7Hh-70rjfwNnwoYXKyEVcthHK3KQdBeeuoL3dND5oXFGo11wbJSf
+GchmMryJtj7PWCf0Uurlg0N5W0PxZJViADK15Axt12oqYnM8zLwzKoDwOywd6fxlxNdsle-ItyK7lkDmNnRiShBWDZBXvNqNAU-tJVPvQFXaUt_kpX_sUR4V
+A_pi_dNrVbpjUywdUhltZ_757dKWOMPbvXsFiyjZZVV5aowFyT1_yQR-unlR0W
+}
+
+EntityColoring(aws_certificate_manager)
+!define aws_certificate_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_certificate_manager, aws_certificate_manager)
+!define aws_certificate_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_certificate_manager, aws_certificate_manager)
+!define aws_certificate_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_certificate_manager, aws_certificate_manager)
+!define aws_certificate_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_certificate_manager, aws_certificate_manager)

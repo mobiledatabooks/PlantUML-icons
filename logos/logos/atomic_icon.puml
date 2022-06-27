@@ -1,0 +1,12 @@
+sprite $atomic_icon [64x58/16z] {
+jPLPaiGm24Cj4eDy_mFFJky4mbI_RnP58kLn07ObRSheiHj_KJIweQHZ3GdA6modnVCEFQlUU8-CKqm-CCSPX8zOmxns_yR_zHkVq6PspjxBpZ4qikl59upM
+0xti_Ej5MjbvU111ApjkV-j5MjcfhnT19plnzVa03RE3_DBDJlv0DpidCI_Cpi4fy-Zc5GJCe-po0HB_Tt87kjavmU6dwnsSEtp88-N33_fHF7plpmVCG7tG
+B_dXspOE-f5aPnCtqpC1sE_PP3YnW9nSGCpx1Q0hmBcnJ-qbkgFm1NF5K95O25k7K681tfuEY0NeIk61XR8Ap3X3NGM8S01N1Gs_ODLm2xlz5WdWgh470dJL
+8081gyZhbmH-FyqCnm3NQcVuFRDiuVDZz2i9kafmF0mOZanZmjrx0l7TunC
+}
+
+EntityColoring(atomic_icon)
+!define atomic_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, atomic_icon, atomic_icon)
+!define atomic_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, atomic_icon, atomic_icon)
+!define atomic_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, atomic_icon, atomic_icon)
+!define atomic_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, atomic_icon, atomic_icon)

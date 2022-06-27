@@ -1,0 +1,12 @@
+sprite $appcircle_icon [64x64/16z] {
+dPT75aCn20C3YFjVETdzecSFZfQuZDpDPwqezK-g_FoXL5-gqzQXVYhFu6qwiL3TBftJsG6F_NmEr0jfXk-bQevd0untvGpF1XZF1XZl4k91INYG08zAE3Wa
+0HwLW2TfZbVzf8K1mb_NPfOPGBnYVIKauhrAee7O4v8C59Jdta30DKE0Qkyz9Ucggvq1xppr3bYT1Tvgim4RVVHDGJFW9UgRH4jWh0k_2CO2tpUKcN9B7iVs
+Rg3wdDyoF8_VOeQ7-RUWLONrXoZiFwlfKT_kkWNCW4Nv_5sIHU7ycm73m_tZ1jJjYkdR506F5Fq9Q_RLMbMJUg44EYfWx2J1hmIL4xm6lzNwhxqczXFQ0ryn
+y9-xETBH_Bd56AnVxH356p2s2F41oDqM3V7voPt343It3km1WkDl4FlWbS6t6RMC42bTsJfaz1Vx2m
+}
+
+EntityColoring(appcircle_icon)
+!define appcircle_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, appcircle_icon, appcircle_icon)
+!define appcircle_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, appcircle_icon, appcircle_icon)
+!define appcircle_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, appcircle_icon, appcircle_icon)
+!define appcircle_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, appcircle_icon, appcircle_icon)

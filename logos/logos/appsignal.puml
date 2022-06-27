@@ -1,0 +1,11 @@
+sprite $appsignal [64x11/16z] {
+dOq55bWn20GN0WdiSl_pjb_gtebXyuB_vAZUo1Q-9zAlyeyiUuEWTJnXptUJnf4y6p-Y0o3we19HE1rmiG2t5GPpJqUCu_b_fI-uUoxWlhG1C4xJOEnQmcR8
+G56qBMh2fnUmXJEKh2IDErldzer02m0R87Hi0YHiSe-ZYTNJsF99v5YDcpPyjUoJ7xDjJm9S8qs31z3P0eu0hCdBNrYo8g0ThA_yoc9b0oowvtZBOs9Fkifh
+nUM3Z9xNRzh7M0s07iG5myMyWvPqi4NHl4U5R7Ynnau1p12BI2qWEQeB3XCFB1YmPGO0pmrpBrt1bzeR-ug8vLzAFC3busjoHe7Vym4
+}
+
+EntityColoring(appsignal)
+!define appsignal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, appsignal, appsignal)
+!define appsignal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, appsignal, appsignal)
+!define appsignalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, appsignal, appsignal)
+!define appsignalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, appsignal, appsignal)

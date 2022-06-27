@@ -1,0 +1,11 @@
+sprite $assembla [64x18/16z] {
+dPC74kGW30H7SSHQ_lzt3ykNAovTHQR9u46gkmIdn7Llhi0Hzkbxw8yTwEnntxWEzNkj-so0VZttdnd1Tzn3aUlrzRsF7JbfK3AWbIaecGOZAH8Zb-2rl6dz
+P_uidp4Kr1rvOAlNZlE3C6G8iV6Arr_ioFN7ft17gO3J0Ijt23aXqajVltOoKZHNU__odLgwjKn0es0qWwHx-ECRVNnTIf_fyv6pVlaLlbK1-4If5W2KgCBs
+3SRnCpt6oQjsUaM_voS9816P1cVcd9zA81m9BvPAaJRTPj5tJ_BV_SdF-7za8i5GsnfEti__0_GIV8t__Z-NuuZiqLDmYAxkfJZX1m
+}
+
+EntityColoring(assembla)
+!define assembla(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, assembla, assembla)
+!define assembla(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, assembla, assembla)
+!define assemblaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, assembla, assembla)
+!define assemblaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, assembla, assembla)

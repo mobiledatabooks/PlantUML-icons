@@ -1,0 +1,13 @@
+sprite $aws_ecs [64x64/16z] {
+xT47UjqW40JWsJOuzxzmpFFoOMzGu2czZBlW7rRuqo_Eor-S_s7_QdTr2E8b875BKm7ugmUKJ-jcWFh3cmBMdXvTeWMy1QA507xUq9Wdldb_VUA0iXsFdflJ
+pyfse1sGw1kdxpbxYSQ-AyzfwVElsNojn-WBFvSte_VrSM3tzkv9pF76endjQpCq81eVHyuue6qTIDdOXycRdw7Wqh_RDOSPGu_epkUKhBDaPEVhWJcEyj3N
+AnkTSkmhJyVnS-UjtV3yNZw-tVFNUARNtz1JGERF9TzvXJXl-Yo01dEEQy-r9na2s4VFcUvx7lxBX95qG03ML0_ngXL0Rr1iV6xMA5eCa213PET9bz4mjDVQ
+jQyDGy-7zXKVh0sUUYHVOfbUNXlgLJg0Aqz37S_4k7YfgqGshBAvltBNnoiryROl5fE9yIGnxhpUJF0myVQlYmz_nX4lv9xkAkp1odKyrm2WQulajnfItok8
+dOu_El_3Rynd
+}
+
+EntityColoring(aws_ecs)
+!define aws_ecs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_ecs, aws_ecs)
+!define aws_ecs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_ecs, aws_ecs)
+!define aws_ecsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_ecs, aws_ecs)
+!define aws_ecsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_ecs, aws_ecs)

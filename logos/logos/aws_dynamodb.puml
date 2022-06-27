@@ -1,0 +1,15 @@
+sprite $aws_dynamodb [64x64/16z] {
+xT47Okis48JXsJwBvFxd3KL64Dn8EhsypvtoZxBw-L_jXv_-cKQJLIJx-ob31I_grVThsjvOH6PbXEzhwRXNjm4Q76-lagOtSu7nTqnDaP_C8nTrkZtiawU6
+LP_rdys9q7hAyq4suEzV7uPwtGHvVdv0Sentsu_PA_gyzm1WoHwxVNikQzauwmaV7OgDgBd7MBPVrbgDbxtVTBaADZBssu_3FjxT6hthMwp6hfiz21rJGEEX
+nnSQrWgWnfEXncGurFYA8fkXSmF2rkL9bi37bmWOnxfZr8Rh4njVIsmqgf_tEKZVorl0CcpKF3X6niQXT_9vtIvNR68UAbvvd_V2EQhgELG-S-rntaDolDFG
+u-VCp_O7DDXZciTllym7uJG0wb5aFumsSERNVJT3CNatfFTSEExqrHjckEacEX4zEY3iEpq1gosO3DL7df-kq0j260BKcqU_vexiAmvbb_TBmf-vzYK2yEg5
+eH9I523xaa454ClYF7u0rHI3y7fxxKx3Jexfpt4ueY_KSKTMk8e0tWQWvYIk-sKFahrSk-HM3wlrmJEd0tTwLK2zI1uFDDciC43iJczCnKRCFJ8Zt5G0IB3k
+zPiqmK8iYllyUAFtv4FbO_V8B1wNuRs-03b6oDrCRlIa8Ck0v2UlwV9umLK0JXO_Ie7nMWXWoNVA1N1UcVyADO_CseVeAfYBNblVllKD_9RASBUDUsJnp_B3
+3xy
+}
+
+EntityColoring(aws_dynamodb)
+!define aws_dynamodb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_dynamodb, aws_dynamodb)
+!define aws_dynamodb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_dynamodb, aws_dynamodb)
+!define aws_dynamodbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_dynamodb, aws_dynamodb)
+!define aws_dynamodbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_dynamodb, aws_dynamodb)

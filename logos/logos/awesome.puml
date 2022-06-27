@@ -1,0 +1,13 @@
+sprite $awesome [64x48/16z] {
+xT07ZgCn20NWHxMDxt_VXT_IfYbCKTdwJKcCUBZW4IcXeumEcLiRT-C-xgvuYptn-xWdetR_9E-cMn_l1vp36HhTW1DNV4XkVNsv7z0MUsAFlVspz2_Ln_i1
+T1ytmHUGdG6ttHdutW2oRyHliTkWhph7zcBw3UQ_Fol-ROB4lt7-Vzu-p9Dtr1k4OjtstNJ3HTeJDWTW7DRkeEtjsnSmGj9szqBMn04sVw64UsAlQS5Fn7fF
+62zO7bi8lu7_w0BGjJWbuDGUFq_vkDNsPN0OmB40p2cnqoIQEuLWxEB8zH4AFqrMF6GkL9k0G-VIB4RzfZLuZ_mSGNEPUItMeXXgwfkAXEGlnOm9pxQPDQuy
+Km870z2WDN0MddaZ8jrnsO8O5cnRicUUgd5Sb4DkUQd5oFm9xY4YcZMFMAYgO2qf19QqPctvcdSfUx1mvJcs0cClOCqACkaKPixLjbpxSvubZNqHO0O03WTi
+bph_BeQroyHT7lC4Vm
+}
+
+EntityColoring(awesome)
+!define awesome(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, awesome, awesome)
+!define awesome(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, awesome, awesome)
+!define awesomeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, awesome, awesome)
+!define awesomeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, awesome, awesome)

@@ -1,0 +1,13 @@
+sprite $aws_api_gateway [64x64/16z] {
+xSy7pkim30DWUacKt_tl-rnr2RNp9rsO9M244V1v_FjqVlcbQvzcj7uGTqdGnwa1rVeHtH80cOu7V8SZkWcaJxvAMkpGOyorTHt-8SFtVjaXPANxfh_im2M_
+wZ_zzXtqelUyxr1dBsvs_Do3USzBCFAspwNr5bT-pWFPCk9wpZTQjxWKrOAtfz__PM-2PelUxMLlvsuZszukSRFe3UBVancP-hRNT989P3hz1QD7l0BEYhUd
+_PbRWPXlG9JWowvFVWQHpW3ofA_87CLtiOAiJtfM95g6cd5mFkkD5PN8_fTfJtkZi9vdGZSCdllUZ0dHFEzRiwEUm_2nayTzSpFrFSzBtCpz6ZUBpeEUqHpm
+LKd69Szv83CZhkTyoeKbhXJCzzy_Umb6lkEhXlw2HsdwbzTBAydxGtICVGlTzged36JX7DLMC594DxnKntx4AdhP8cLKdNowuA3NMsHWvGUkCzQ7-A2LULoh
+-3Vabr_uPlu3
+}
+
+EntityColoring(aws_api_gateway)
+!define aws_api_gateway(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_api_gateway, aws_api_gateway)
+!define aws_api_gateway(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_api_gateway, aws_api_gateway)
+!define aws_api_gatewayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_api_gateway, aws_api_gateway)
+!define aws_api_gatewayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_api_gateway, aws_api_gateway)

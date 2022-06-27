@@ -1,0 +1,13 @@
+sprite $aws_batch [64x64/16z] {
+xP8BZjmm34CfYQJR-r-uY64Ra_LEi9lflttu2GoVe0Jv-elvyfJ__CSaVTjMuA3QJHqeMO6ujS203h4LyiQ2bb1RqmqVwspVES2ejgtwEEsslqbDg1j-WgqF
+BQ2dVdkA0VOXaUqE0e8iTFqEpl7_tiO9jbSe-4LVdplu5LyPYFBL-vjykf000e1MkN14V5YtWXq1j0_7gnt5mZh1WI2p1niEgBalAFU0o6FGNEZgWNkm8QGT
+g6R0dS3SK-vW10M-vzC5G4uCObo6INfKozlvHqW0TY0wY5aVmJD_X64pPIFEznUu1Rll7BN4-dvz4K_Vp-vvsx20f1W8hut8Ie2d802vxLY1W_IiZ_zdj5UG
+ZxeVOI1rIXBqYO3yd89y7IJyegzBdrlz5L_rALzlV5KWpycLhmIYv0dH2RrfU6FLuw5Ee2GcLb9OZHq1j5NpiG8y9YLgBQIbHDexkUeSxPGoQCsD0Sx5tX1Y
+3ZcEfGg07D2fGTIb7yClTL_BJwtBTXyuFnttbyRzQx68qkvdJxNUxXXqaAEkM0rvHq2I5VCuSGOnwYC0ybrVWOFrKBmATYHc5lNHO4S7Lu7snX_DV_mYtm
+}
+
+EntityColoring(aws_batch)
+!define aws_batch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_batch, aws_batch)
+!define aws_batch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_batch, aws_batch)
+!define aws_batchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_batch, aws_batch)
+!define aws_batchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_batch, aws_batch)

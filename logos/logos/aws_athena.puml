@@ -1,0 +1,15 @@
+sprite $aws_athena [64x64/16z] {
+xPK7OkH630GR6Q3__ryJ6Awonhnrjg-KX-n24qg__2dyv2T7PKHa7KzbNGWBaZX-DAsJCtFJzf0TFnAtJkHndA7Z99L0VjnD9uFyobwEDafzVVj70j0prNFT
+p69w72MWEcuGW4zfmGNf1FMM884uFvHqpYF2UdzZi1k2efdk0BTcA2TGJWFvhRn2Pz9ONh7LYkTuGqv5N-FUua1UbtS8ObQGKrk5JzIYdHCrs3PlCYrZ5lWA
+UKVrFBsnme1KDs6Bh9Dq1Q8tcxsV-7xtEN3VLmoDgZwjSkgzERJb-crSiP2EyVJc4pJzH4Irtds3wuamVCbCcKOYHgWvYbvBVbjWKEJAnppxh626biDgpdVn
+OjIwsQijqW9m7mMqolhyOspm1Q7wB61J1j1CS9ravzlx9OaBgYQWyy48842s-S469UJISIsSSHBrsd-B8bxp2m5BTlJQtvRPyjhv0qOkJSpdtoQr4V3RqAig
+GVDkq_mY7jCMkOosrgVr7Uc3WPUDr3tSbIQJX5pM7LcL0biV7iZwKgT-RkDgCybN7rDLyqaeE4TTEm9Tqe4LgipheuAYAbgo8xNBfWCwoKK6Jpofhsv9XhQ0
+G1gPsGr20OvftzvzFWZMAGN0edhz-yqJ0GTz4kG7vfQPobZmf8F1rzKzGTss2MzoSEhuFG436laM5m2HDmLf18X5BiAuTm6wBqWb0CGYmdIjG1y2nmr1-YZ6
+efxDMu7b3MQ14rd8Hd27U2EWU5umdtW-BrZvfmKdGEJJ0bM2HZujE978PmatyzTu_AlvIVvEVWK
+}
+
+EntityColoring(aws_athena)
+!define aws_athena(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_athena, aws_athena)
+!define aws_athena(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_athena, aws_athena)
+!define aws_athenaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_athena, aws_athena)
+!define aws_athenaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_athena, aws_athena)

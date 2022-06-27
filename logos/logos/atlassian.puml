@@ -1,0 +1,12 @@
+sprite $atlassian [64x64/16z] {
+fTH74YKn20JHKikGQEv_tl7cEoPeaNkYtWhzjxQigz02Qpgk0mmTPr0132W132g03YM0GGLmGGameGGmIe0E9S244i0e0HgK01rAW44DiAW1Z1h0A06QKG8q
+A04Qb00NDS153T2e0Hf5W9q2Md2V19ZJ96bn11XxRvgaoH60_JsJD3W1ZFspALsS0DW_yqko0y3m_IkaTG1W_yw71ad0-_nFG2C6nFCFW1K3ula7GByBOFj3
+NNOFqFqfqxm7m9zhZHWGp3_Mxm7CNrfA0E9vHmb0FE-q6u3kx_KR0FFtXXA0UDwd4e1utfSIW7ZUJLc01VT9G2UuJmBCW_i489xtfGGWdcSg0OZd6Ke1pFbS
+LmRGYMhA08mWanA0r9UD0TE8-Ga0leDCoW36_lAnVUcX5Z77Dm
+}
+
+EntityColoring(atlassian)
+!define atlassian(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, atlassian, atlassian)
+!define atlassian(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, atlassian, atlassian)
+!define atlassianParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, atlassian, atlassian)
+!define atlassianParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, atlassian, atlassian)

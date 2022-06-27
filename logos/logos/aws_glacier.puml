@@ -1,0 +1,14 @@
+sprite $aws_glacier [64x64/16z] {
+xPNdijfG38HNTQMRzt_Vu7EfZcMOoLy-kjOgXnN3dsE-VFcvSdxHdbkegxYewgloyndDCC4BQi7-ABb2SK7KF28o8y9DiQ7njWGLW1xqQlec6TzbMuvDEZUz
+nlHyg1CqW9C6sKb3aw67xoeF178Ix1DpTMf3GD-Pt9Hn_i85pUufjw-xqOCE_RNVithZBcnKNXT0PCg_A5sks11rZyWBQ__ake3L3Pto5RscpElwxty0QoJ2
+-oNhWO7TjqYHgtacMTMBJKf43mIot-BWeEnA3nXgaWZVLnJTNwrpVa7t0Un3owI1sck5vVZSuzri0H50y-oCEmDVgUvKGAAkWOHLJ_YXWKK3uBnU0cKFn61W
+qGNGg2g3OhGvuSDmLQ40B0MLcFQCkDez3m5u-lGT5AHwfYeDYnZo1TMdb7guPpr5db6m1dezhdGTuyYQe4PHlSu8n8dcHMYTaV0XMKoHLG9JhH72feDTO9K1
+ECiVHQQk-H6i4qGEasFL1csTBxC61WCDpc908QnAp2xReO4KM4G0sui3NXEEEFRk6UMfoV-I0dDt0Ehk0cSD98orXx_dztL-CWMS3PG3ZS5Y0jT2cNE-GfFS
+woH34QJ0Tp9VIG7Kax_SLSS5aWP0U8eBBeXvtF-_dI5sww_ADwIhuC6rOy2OK7v6PhXTyLWH3QOwd_ZofVwJlm
+}
+
+EntityColoring(aws_glacier)
+!define aws_glacier(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_glacier, aws_glacier)
+!define aws_glacier(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_glacier, aws_glacier)
+!define aws_glacierParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_glacier, aws_glacier)
+!define aws_glacierParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_glacier, aws_glacier)

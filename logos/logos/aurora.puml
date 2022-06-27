@@ -1,0 +1,12 @@
+sprite $aurora [64x57/16z] {
+jPM9aWCW24CJIFx_a_VULPnP76lxUjSR4i5hOU0A2JU4dRX0jdYrl7rn0dz1F4ZQDnkWVuY7WtUpWV0VUR7yeo5CUI0SmyBb-Flz4qSeQloemzofva_EmzpD
+6m1jyqpuclKhsphqNGx_n13HWU-8UNbRXxuJSdmS-53rtEIPYiFsTF24pdoecdVmp8Vf2J1mw4FD943D4AycDH50f0P9z4GzFu7b_86E4E51rdpQX18DAhxL
+cb0XsnocYs-ZwFbNYje87x4cEuUSMXlaw5NwiVfO6z-HQxSSTceseE9R4GCL7tlZEs9uRRGHlGzLVAkrCMTbiVTTG8421RO-vARS4AL3O84nGGBeU-39KDOl
+5lkBnGgioExp4_qzHWyQVVslmAojtGhgzRkzcjaAE7Q5BT4TKDlQqC_FNMtAjZbtjL5zvKQB-YgU3hJGGaTYGn9FvHq
+}
+
+EntityColoring(aurora)
+!define aurora(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aurora, aurora)
+!define aurora(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aurora, aurora)
+!define auroraParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aurora, aurora)
+!define auroraParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aurora, aurora)

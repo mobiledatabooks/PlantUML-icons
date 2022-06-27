@@ -1,0 +1,13 @@
+sprite $aws_elb [64x64/16z] {
+xT67ihGw30DWoKviUU_xl--b3Ja5PfcSAN_xjcAGq_xxE_pppslnWtGwwNhDnZj00l7wKdyeGQtVq6kAxy54cueN-Dh0vlBaqSTcvv_hJpoSVrLzBWGGLG7K
+-smu0NhNg2MnoxVfXeKP0RZ6w5tDhEbTF0bsrT97OK3VYXs8Ty4nK8qhejKw8-QpU09Phq54BmVrz9JF-6XWiAVnTan-g0JyhDNYFbu2wrlHpobLXLlxCi6g
+8T3hcuJNJeRLkgFN7AhloDePN0gYrmtYjkkOYC2wS7-dWROYukYNTtcxpX-ENBlB5wdB-QTM7QrMXEgQNTmPpslREJbQtUZNvsVdFz00Kzr8sDNoemxf19lg
+bYE-zyH8Q55rB_5rRsKO3TvI1rCroE59-EC63OnpZag3gMImVDu07jfampQov63gUlNwAWoWUNC2xDhiq-gjXHu89rRMTMe0jrhgYOpuyc07FC91pN6qyJE1
+q2fXcf6WDk3i-Ab5m3IbmLAPHDUKDD0TS4rA1y2cQPaHcVh3v6_j7_tG_m
+}
+
+EntityColoring(aws_elb)
+!define aws_elb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_elb, aws_elb)
+!define aws_elb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_elb, aws_elb)
+!define aws_elbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_elb, aws_elb)
+!define aws_elbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_elb, aws_elb)

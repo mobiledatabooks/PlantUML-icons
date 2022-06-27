@@ -1,0 +1,11 @@
+sprite $atom [64x13/16z] {
+dP1NekCm2007X0fWP-z_sYt2-_JANoQngUC6Z4n3FOpt2D7MmpJuYOZiemfL-8b3To0uscqxMaHU4GuWAzoZr_pI9u9adw_HcxJZJmyUMbIK7836tCKhwzOl
+MNx5PJQcU-T14c_V_3KhxZjBx79ufD7kXc6gCuJDdF-ruwTK76lxP4EJkA3Tp5zg2_ewkz6--9eK5kMtb332GfOFwH2eztEBxbzy-V2zVCOr8H1rGe1ftTXS
+yOzRlpv_g-ZzyHb0G1zrJPiKtSzJ7B_d3fQKNmHCWpMWBOhKywMFpqpJDcieUVmnTQbFR55q2gjLuw4jzq7HEN6vmOfilC4V
+}
+
+EntityColoring(atom)
+!define atom(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, atom, atom)
+!define atom(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, atom, atom)
+!define atomParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, atom, atom)
+!define atomParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, atom, atom)

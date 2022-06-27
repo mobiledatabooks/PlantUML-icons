@@ -1,0 +1,12 @@
+sprite $aws_amplify [64x48/16z] {
+nPK9SeKm34EnvTp_o5tZ3gf1nD15NVxFDdeZGxoTos8AsprvJFbsJv7w1m1x_uUOihOrdaKucUy2-BGqz06Issz6cDYW2D6l6mW0ZV36ftm_6DO-7-y36pbQ
+vnzx03m5Y3v07W41BDNG2817AzRCZ8gZ5K7CuHL7spCpHnYuJfwVk-PxY3p2bnUFhg_StVUA8uHZvaM0DD404E4n97eHLWk18-pJeLj3L0DGQ1h0IiAz6gAi
+5cO8W1eFt_yqydDxs75DJ6nIZySn08Gzop4Ng1t1n2u1S1AX8KNJj3O1Q2Hhbxf-3rss6ADL7_Kk3Pehmj3z4EDByLsksn5Da9XPjICC9UXsfEtp2BSZnb77
+cRa2MFQsDO3QZiXUHXZxVeWS6KAgjAC4IBq2
+}
+
+EntityColoring(aws_amplify)
+!define aws_amplify(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_amplify, aws_amplify)
+!define aws_amplify(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_amplify, aws_amplify)
+!define aws_amplifyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_amplify, aws_amplify)
+!define aws_amplifyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_amplify, aws_amplify)

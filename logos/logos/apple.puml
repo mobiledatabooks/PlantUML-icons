@@ -1,0 +1,12 @@
+sprite $apple [52x64/16z] {
+fTO54aCX30HGt67lVzfwwDIpqpTQ2RBaY_ajr3aD9Gu0on8LhkDiCfCiN0oY13V5QFc5cs2q1W1oEmaY6Qs9cy4706-q6h-olRHir2mkLcIw1cVL6O8TisT5
+XGin1lVyPIobvFYstDU9Yr7y_SjoRmRvUWiTkElHdfUNEXwqXyaAdgnU-yA3nnJjW5RcItPH1yFVzaAezXmd64bMHfMGqyYzf49FBjZ5HNOMeDTtq-X5Gv_d
+lj5F9W4-WYOrqAl_rV1hM-0pcE2p7k3Fj87ldOm_UfIOo2uGCX-2n510IN8_eEzL4voPP74CUGYIYNTmWXmhszw3Jzj44EQ-OV4NXAT2e--cpco3Q6pX5h4o
+aQ2md7bGTHtmgEbEytFHwZMdNEUd_RycFfBTxrKIpWpcBTy0hFRmgqrz0IDRinq1
+}
+
+EntityColoring(apple)
+!define apple(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, apple, apple)
+!define apple(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, apple, apple)
+!define appleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, apple, apple)
+!define appleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, apple, apple)

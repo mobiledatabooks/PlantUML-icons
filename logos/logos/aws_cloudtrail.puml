@@ -1,0 +1,11 @@
+sprite $aws_cloudtrail [64x64/16z] {
+xT05efmX40FW83EJjFS_xrjNbb_hvLj1WttVR1Y6Rt-eGLvpBiwDwOghgWtnI4WM4YqXnVhuOriPO2lZJ73T6Wh0LyLLO7fg1i1JkJJko6ewwDMb9N5bKEy7
+AZXAhcPsAr3qXa0ohq1eNeMtVPcI74NpCgYE1CrYwkSBZBEdHrAF0SaqWHd9g2wlGAQw2WerYGM9wd1aQWOhQdyizZqmjO31z07TpaAybXsEIhM82wDTIdL4
+vv5jsVvytfytOboGjxyRYa_42cEhug8GW0KUdAyIWYql5yvw-YiFRxCB2ZSBIyZym01t7DtAmi0ddTqzfV1qT2ih8wT6hi6ROOWTXe4x7G
+}
+
+EntityColoring(aws_cloudtrail)
+!define aws_cloudtrail(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_cloudtrail, aws_cloudtrail)
+!define aws_cloudtrail(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_cloudtrail, aws_cloudtrail)
+!define aws_cloudtrailParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_cloudtrail, aws_cloudtrail)
+!define aws_cloudtrailParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_cloudtrail, aws_cloudtrail)

@@ -1,0 +1,15 @@
+sprite $aws_cloudsearch [64x64/16z] {
+xP57OiKs34G77M3kVzyOi2mtyUUNR5BUWcB138h--FVnFojTXLdKSpqk3i4N9DP3QYU0DBBMgWnbW7pTNpW3cklhZG9yPnlB0AtLkuFUbWAsxf4BA5QBmvZU
+O8tLvoJ8kaVEjTxo6G4WuldONCdEO9sLBeNqncT-rTiA9S1wsmQtCN1B1B3wUasGFlFux4bG_pBkwA-q8_SB8M_f6J5oFGqZ3e6EGO3NdfZ-v4DUtNWFeiRW
+UFHRwRD7nuSRWSHC21JpsjAyKK12lhJe7pCi0_mSZY1sUaMqJ0-ppy00mcCfhFUwaHUXLaqFFnjr0Bgg2oYYsfNFDSjv-8HXkKhQkvTB0jQPxEFmLL-ZyQx9
+TWCm-2f5J3Z3hp9eBM_d2rfQxoMM0vpN7LQRxFMCwX1urU-8wg5Sw6iuzDcBroKV-QyuwwykyvA4tD0xh4ryDfUqz2zVTHlHvht4hZfwNm9Ibn3ocD0byoA8
+ekiK0QxTS1g3JL0wA2xz_GZQDf0JbGg8-LTclfn73nka4mGGvOJlvDotYUprCGKOA3F3z0jMIR3iDMfBAZHxfPZZ5uAEfsvYHzlxH7MkBwIXvUKWlcMGWJ4m
+W2nFZCOmlL_bfe5X3480iFeRsbk9bhTBNXZaoHXCvX320KbavlcItS8Ucsnv_WAB76JaTnW40Pe_K4ABxZ981I2U9ou0bEytY7O0YvgfSE-xfGSCCkph_6O6
+3naquVQ6n-S5W-FBFkzaPo2l6jXB1jxR5mm2bFc2GVJcIOF8384-fMy33nVG8Oz7OJJayIp6n1f_3_-JB_8d
+}
+
+EntityColoring(aws_cloudsearch)
+!define aws_cloudsearch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_cloudsearch, aws_cloudsearch)
+!define aws_cloudsearch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_cloudsearch, aws_cloudsearch)
+!define aws_cloudsearchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_cloudsearch, aws_cloudsearch)
+!define aws_cloudsearchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_cloudsearch, aws_cloudsearch)

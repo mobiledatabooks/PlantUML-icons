@@ -1,0 +1,12 @@
+sprite $aws_appflow [64x64/16z] {
+xT69afmm30JGjgsZbVp__wPSc0LvYcASpHtUNbojwHLVlzlZyVZofvDwPgjnGnPhyIXW70njiJqqdLVuIfmekR2ZhhHlc1VMhomihyPDexlblLnKoBjnXSJz
+q2pOnLmr8fpRaQ75TRoYazYM5-EgQolGs1_noxYXDX6nw8SrHaBGrHZ3pYkCh837eSTWJHK0fuTU2IG6XUJ13RRVQHTneZ0VdgRvYF7wunjiEXpOorSP7VKY
+xgWns74uPJmLI-h7ndWiRyvKMCpINhpvj2BsJ2wMfRqebDWEZmpdOjVlZgWDoZJOJnqPsVm_iW3LrI9dZlTmbnTqvPJne7MQYcMK_MCCG1NZntLX7t9ClToV
+SqiOoToBkl6Nr2xOrnpzeFy4XruvFNQjmZZhGz_bA3SpRpG8CqNb-nnm9dsd2nIDPuB69GKszrbYG3qK2DTumrbrhl8ptdZu9pmU_AHl
+}
+
+EntityColoring(aws_appflow)
+!define aws_appflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_appflow, aws_appflow)
+!define aws_appflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_appflow, aws_appflow)
+!define aws_appflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_appflow, aws_appflow)
+!define aws_appflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_appflow, aws_appflow)

@@ -1,0 +1,12 @@
+sprite $aws_cloudformation [64x64/16z] {
+xT47Zjr030DGJfMetF-yM-I23u-rSKcF7ye0bEZwRTVZyJ0pacRsrKwCFUD3QhGhUW9oAHb0i_CQq3WzHaAXdIH8QZCM53k72LwV5LIZ24yyVTjShk13fHt3
+nith8DMQa6aHbHUgqs6BNEWVeiSVRC-wJje7ZH-W8zUjiltppEYC-frRCZnk0L9dq3-GKGhGQ0FsprYwazTiWvBGkTzdXKkC-qRr-OmBxsjtyfgDwkPJXRl-
+JKU26lG3X_kzXdpMlzEl2Fciy5D32_eg8PyfFsY2tdX_pQWyrfSgGxib58twBIzao5m2K9L1NoiMCcOkLPz4tsyrPWlkqewcvBAXBzaXsj2KwkPpphwcCz-T
+txNxMUVi8Dzj-PFuUQ6_yTlxJx-Uw9UsLKxrzpGzIbeTDT73P8_-R7B3uw4tlGC
+}
+
+EntityColoring(aws_cloudformation)
+!define aws_cloudformation(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_cloudformation, aws_cloudformation)
+!define aws_cloudformation(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_cloudformation, aws_cloudformation)
+!define aws_cloudformationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_cloudformation, aws_cloudformation)
+!define aws_cloudformationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_cloudformation, aws_cloudformation)

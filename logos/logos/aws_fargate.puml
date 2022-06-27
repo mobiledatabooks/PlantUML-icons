@@ -1,0 +1,13 @@
+sprite $aws_fargate [64x64/16z] {
+xPG7akKu34C1ae1sxt_XAOkbpghMz-JmEZW-WdJw_oVptw_AF_unYYoFcx8Jaz0OZyj5u0g_baYFXsm5LkxeFbZZN9_HOonZT3sV-aQtF9RUGzGuzYExvKaF
+ayV-C79PyggaZ_tn0KREHH5halQFQByHsxhhZy1uq5VwXSzNVkfJcq3jVFULtEC0GcERhmIelKw4ntZj-uNVpx9sVlIjslkzf3Vne5-lBB-3jMRKjdslHa8l
+_DRXvNjyJ2AyAe5PjWdRoW1MV9-qk_mipojOWLSmMn9tuwykaV946Pp4x6HuA8bEt-5P0MsyGXK446fzYrr1JCY8p0YIc4GFzmchzvOQHfRSzbc5HfBSF60h
+2LOxNKmnH_S-grddeZ_wRee0hx_o0NcfiuZSu58B0Czyue8lVFQEGryYKldiqmMKJ_sQxlGhDVt-Eyxllun-Qa0zv4SbgZ_-cRqGg3pp2o-8m0lIHypeA6A6
+9w44m9HFKSacB4Awbgxoen1w-hl3ohxlC_iQtFCLcB1y3oc9aEIxo6t_kkYtvX_-Ihu
+}
+
+EntityColoring(aws_fargate)
+!define aws_fargate(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_fargate, aws_fargate)
+!define aws_fargate(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_fargate, aws_fargate)
+!define aws_fargateParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_fargate, aws_fargate)
+!define aws_fargateParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_fargate, aws_fargate)

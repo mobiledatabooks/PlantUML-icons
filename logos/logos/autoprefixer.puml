@@ -1,0 +1,12 @@
+sprite $autoprefixer [64x48/16z] {
+fPLLekKm3CLYjlU_u9d7fmoEFY-qKd1SGpAcK1zJUDAOWB9aIhzgAY2gagRqgsHA7m4zVGGqzQjqIhygflJx0PnLCm5MFqHR7m4zVGHqzVi1MOM0bZxGbZw8
+fZu2clePpG2lBnnxeAMlbAq0-Ulk1VYVDW8w-XX8wkWpjf6szB6Gult1LxPS2TJJnrYyri_LJeYUFWBuvRbTGjyWW8MPZj_9ekeUQJZuyWTiOiulmar_doHg
+7fdr-pFvqT-J_FDeF3r4ibOaz7Ve_ZltMWFzFJ5sRXcPQyTZVGHWO2B2dOYPHTJCt2CSYW4ISYp2J1_SNJj-i23YnRajwsS-Na9sTE8Q0kw88rL-7C37kosV
+1jZn3nq1Z_Jp-4IeUAXl-orz7F0V
+}
+
+EntityColoring(autoprefixer)
+!define autoprefixer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, autoprefixer, autoprefixer)
+!define autoprefixer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, autoprefixer, autoprefixer)
+!define autoprefixerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, autoprefixer, autoprefixer)
+!define autoprefixerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, autoprefixer, autoprefixer)

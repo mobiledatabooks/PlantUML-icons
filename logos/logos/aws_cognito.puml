@@ -1,0 +1,13 @@
+sprite $aws_cognito [64x64/16z] {
+xSzfUg0W48JXwgQXgyZzxpl2Oyo6ZYQ_PldSbrVXvQ_eV__hMVn6eHDVSI_JaWl6_ljK4NqvUjH-evTkrj-xrnBjlkz7LzxnfTA7xxUy0FyKJ4zyUJthU_uT
+tnpmzivhxIC_rZ1z0To1EZqoJtp3bwPlSFPEGqw_TUPB_LWCByDydV3f8yxyQlxgsjn8DfYRP4-z3gz7djCxsBToJiPnwQMZtGzeAJK3BxqshsP7tBq2W1c0
+gWVUTvy6Ys9Mmk1SUErD_p6Y4AZQ2nXjzpgwzEwJxmMYrUbrvZcRn-61edTLIXU-gcB62jZqe3vsxRECWjinfdSjF4xznmWKpZHYgr5JQks-tziK2sOMqbrV
+V8zgGxRM2c1vvTTLe6h607BjWpeftnbMsEf50hMjekXeEc8WrWDO5snmQY-3D2m7aB4i6MW71-OrjOZBH0SbxhoI3K7TZmOo2yN9fKGvF6yqVC1oygtXd-H8
+ii0CaxCYUBlZ_OATqz7uf8HnA-gxoqS52e_IKFciT9J5-VtIO3N7IM3ofsK1O6u0WjyfMndO8_dTSiGF_Iz_rF_umtu1
+}
+
+EntityColoring(aws_cognito)
+!define aws_cognito(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_cognito, aws_cognito)
+!define aws_cognito(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_cognito, aws_cognito)
+!define aws_cognitoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_cognito, aws_cognito)
+!define aws_cognitoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_cognito, aws_cognito)

@@ -1,0 +1,13 @@
+sprite $apple_app_store [64x64/16z] {
+fTA9ckiW20LW43ZGzt_WkqbjRoPa8V_iuuSYHtfZKSCbPiAqmOfRRD0tDTnbJ6ziw1YRyku6tVAyWgBDY6ZW0SdksuZnY0WUCVC2O0QidmMWNE3vCdJEs0lL
+mdmS3D3Cs6y2pqAXlqQtFWdyBgClyDimDiVt6s1u0uIIUkgDaBqf9s3UOzJCFcNx6E8TciCp8kjFZy6z2SfxUBq4aSERlt0tE-H6qiWkotAZNdQha-7NnShE
+O-Le7huZThnxvd-hdp-kMjdD-ayp5wtiShiSnjNwbLrCdp1EwZ1f7ezfHK26oOjB5uQ1bd8KIZNTxctn0zE1RGCIFmmwO7PQ3pgWpfJAA35glhOVVmYYuYhc
+iMSzYYEpJTrTolFZY1wyLDr4T_UC7257JGxlQ9b5bAfmqpYRG7NxXBDwFHcGxAo_leGoMxnAeJmsw_xwbXjkrUjXhqTynADw8tzI7apwf04GaJywdgW_WT1y
+h-tXJHBTyZIYstowdKA0wJ-iDt9mOqg_0G
+}
+
+EntityColoring(apple_app_store)
+!define apple_app_store(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, apple_app_store, apple_app_store)
+!define apple_app_store(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, apple_app_store, apple_app_store)
+!define apple_app_storeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, apple_app_store, apple_app_store)
+!define apple_app_storeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, apple_app_store, apple_app_store)

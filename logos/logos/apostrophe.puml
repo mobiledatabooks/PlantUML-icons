@@ -1,0 +1,15 @@
+sprite $apostrophe [63x64/16z] {
+dPS7WkCW34NTKUV-jrtIP9J14E-RblQC_Aap3LYs0rar5vHXctvbNhQ4efO32ijGN7SWERs8mNojhWSMiO-kxLPtShEBxGqPt1tpnp-2FCBMs3JdUsYTtwBv
+BZYmHwnUkUJ_W3ywNkNJzvUNlJL4PKA0VbNmqYM8yXHJ0H9qTNdQUtRq8Je0OEFgEJjOb9U895eUQrS_Yhtag2D_9Ycb9CEkF_9953Wb7juyvIj1KgAkRcNW
+QZxHb30-6muy2mj9WlXiE6t3yo9OIDAwEaIz25LVZQCdryVHcug8VKTl-QVeZH4AI1AY3ya78KGl28WF7O6i7hP-DHVEAUVH2nITc1aV3qv_YvFTYk1Jhl3M
+jKYaxp8GpWBJbBwY3rCENxLHfMZnvHprUz39HMArZm68sH50EXUi9UZw4B_tHOxh3YBwXQVPyWX2jF0Kz9ELHzy1eyw8SaPFTrjd13qN7FX5rzRJ67r4p-4X
+YFLOHCHghrZREW7W9w0YQDquvpoA7WfqXkK-nI1zkOe8FE3AOJKpmOBaMfUhsW4-4HkX4-pStY6jg4RLFiCVcJH7FRLhnsnunfTDgBZiikjRGtzjh-gt7uZw
+Sb7xEq0Pw8sUuq-d-UrVwvCqQ_T7sB6jwDYglNf8_GFESL6xZn_kRl5hetQjhmNQsMF_35kjQbSXA5ZlR4YDsbyh_PkalRFPdWFuTiu_r3-OwbVjBg8VTNh7
+OWYllXVwQz7NoJTnuCb0z4vpKhw3smxVb7MRQcQzPUCyHLRxsJLQNRlh6wTbQh7mI5M6BLGTILS5c38Us_Y_roJVeX3igpSvP4sixxc6FuZ_
+}
+
+EntityColoring(apostrophe)
+!define apostrophe(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, apostrophe, apostrophe)
+!define apostrophe(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, apostrophe, apostrophe)
+!define apostropheParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, apostrophe, apostrophe)
+!define apostropheParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, apostrophe, apostrophe)

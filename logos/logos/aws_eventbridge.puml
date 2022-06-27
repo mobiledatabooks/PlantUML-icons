@@ -1,0 +1,14 @@
+sprite $aws_eventbridge [64x64/16z] {
+xP9LOkOm38H7iZ1x__jkq6wYWWkF_rSmY4QA__qnBruixh7yF5gnqlBduQJQG3zC4A1SbaKXovPj_RrO3vNbYSBsbMXVqZgvp228VMNi_e4EJqIN-ejVDDXC
+V89Ybw7La7C28CBWh0R9d4XXX1MfoWW4i7_TGdWml5mpg37cnk2r0KNB9HsO6aCPTz8HgD2P-7YEEy6dClcuS_6-LH2V-56VyeZN3nimjBpY6pfxOBOjCFCs
+sT9YN5i3Hnx8KJ40CUDUef0AoP7Ayu8GkLuvTJ6TV4E0hf9xgewXdHjLXkK7DEX8XSW13p4EoaAn2FHkuc8g36MrI8EzBwqqELBDZ6QdNXFy4K-8KgYu-73X
+l26GwbSRYCldqO1_9Ny4ZO2fB_keeYAwcQD1XzjuoxiX2zssGVOe4molmYh1Q6Q2pJiKBKwq3gPoXeo5m2U0ztXjSG-AGOD7VojX6An1iRCkFQR0y7qbYXjE
+i9X0eB5Yu1XSDnCuOEzNOsXCe00H83Kpo6C2Ownu50G4y8m85xHtugkooiVJjdqoDlST56n-qb-6pdy7PtJazZ8S55C9EdfSZ7YVIj0PC_Lz4O-Vu8HcrW2F
+7-56M24hyJv5k6jhkcy6Brx4B_aF
+}
+
+EntityColoring(aws_eventbridge)
+!define aws_eventbridge(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_eventbridge, aws_eventbridge)
+!define aws_eventbridge(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_eventbridge, aws_eventbridge)
+!define aws_eventbridgeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_eventbridge, aws_eventbridge)
+!define aws_eventbridgeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_eventbridge, aws_eventbridge)
