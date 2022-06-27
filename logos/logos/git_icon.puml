@@ -1,0 +1,12 @@
+sprite $git_icon [64x64/16z] {
+rTL9TW8n34NHih2bl_yLPnJ-mK7lL3EAPmdSLwtCGMiiAUEukw8agU8HbnHFE0UOG-0avm3p9u6Nz6y3aV4a4AM2m0ak29pX53Z57NZ5p2O0_7Fivhc0-HvO
+JG2vbEzjH4q0kURxase2mC4xW5phVVwb9a1SDM0MaFi6Se2vL041vhw5Czg0EVXLemcOenS4pC7_1d9bRG5pydwKOss1OGxUWNsOKgUywllBNBhi5u7Mv_5z
+Exb-_fzYr3cl-3gCyuXJtXUmzX6FSruPVlxcMm2yL9dwonrWxsNk07ZW3e0dpe4Sdjk6Ko3zKSCfu9cRn1sW_P-v0_pxOyu1zkOSIFyRE0J24zjm3bHuue3J
+9SpNBE0Sy6BE0UOSOCu1vXm0VZV0d0FCES2S0ypF1vXpW3a72lZfm3ne_G
+}
+
+EntityColoring(git_icon)
+!define git_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, git_icon, git_icon)
+!define git_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, git_icon, git_icon)
+!define git_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, git_icon, git_icon)
+!define git_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, git_icon, git_icon)
