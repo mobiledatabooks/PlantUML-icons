@@ -1,0 +1,11 @@
+sprite $flannel [34x64/16z] {
+xPK5hiD030NDzxznkHEoK_774OH6zbjGLdeiiXx4yBcWCpGBMiDhGym5C6O1OnRoZc-DHKXNQGY-cxJejhUPtz2kXz_jQ98QxvWKZ4sAvFPWr1EZmjumIcZr
+HX0pMuFtkfHmkw676AjsUtZl9FvWw6oeFT3zShoxMy4c6KPuO_Xaq3SdWochSyD4HuDHvmDzZoMtH3iVViFaWCSTOv6LB-PRz6tu0we3MOtTS302Wpa_Cv9S
+an5ilibmWaw6iLyMc8_75rd19CU7NVYTZ7-3lHQpKViVtNGqwTAkLs9fDvmTIXEJLd5AbBJeaZXa8el4BVJ8IMYcQr1SpWXYpiekn1K
+}
+
+EntityColoring(flannel)
+!define flannel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flannel, flannel)
+!define flannel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flannel, flannel)
+!define flannelParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flannel, flannel)
+!define flannelParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flannel, flannel)

@@ -1,0 +1,11 @@
+sprite $engine_yard [64x10/16z] {
+dP09pkmm38Bn5d2RT__hFgV_p1oWP3NI9o60lFQjn5lLlVTzzNg9vpxug03u8YCALkSxLs4PocTOCHRcZvL0aOKOrwwzQQZk1f1oj-fmcSgP8Mk2aHmVK8GG
+4g0APJ6Mzhzj0DJomrTPIIaNF2DewcGyFWuQuCmVVi7wmrD_VARLAXq-oCCVwF41a4Fat9I8X--zPPOKV_aNz9U_JdxB_kO_H8biLxZioHzJ_yLH_FhBUU7y
+zRVyyG54eXoecBlYwGzrxsc_5zxATJNZBVqV
+}
+
+EntityColoring(engine_yard)
+!define engine_yard(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, engine_yard, engine_yard)
+!define engine_yard(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, engine_yard, engine_yard)
+!define engine_yardParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, engine_yard, engine_yard)
+!define engine_yardParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, engine_yard, engine_yard)

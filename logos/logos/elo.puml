@@ -1,0 +1,15 @@
+sprite $elo [64x64/16z] {
+dPVPjeCW34K5L192Jlx_RwzNcuKTdDYlTJE4im8T3WXZvgg0GMkXAGvFY5aKjWEebExQay1-W9h33Nkki2EKhaOOgvsYyvaT67Q5fEF9rMw0-MZdi5k0V-e4
+kqi9tphR0-Hh0B97ID_U6_nUUTX3a8T6K7iCnixQEJLqhjuXzwjrWVYglNLIVFfEaDPs0Ji0b3FXAWHoki5uvciu_G3fmhTv6B9Plry-bmyfN2f--H0cOi7x
+1jwYM-Vuwj_wxUVmJqo4VOXtsSEkkyQ2DrzX4ZV2liTIRdh-R4VDLrgSARm6I6q0ALznzaMKveE9OHB7COPr07L9VIYhgvHOjL9Sjw1mln1HCIYWz3z2Q97t
+aJ3jigZh0EI-qe9V3JN5XUe-Tb4Q4hR-dBOQkY-qeAtvBj2dNxOj6pJ7Lntovllo7J2BwAzc402PXetKwWzUV3dAgATZSI8dxqW5PaS-gcexW3Q_4_mAF_25
+cOlFMzl-DsAhr7x_xMP6MNmnztmThstxT-udhtyB2YzK_uJQ-RUNYvQt-K6x0rH-M_u4trNC5PYAeb8O2DxVOguU000gl9_UEBeFR4-3iEMVuPaSWeBN00WN
+NYbegwvlxQHHpQ_fSJq2h2jtlNL8Ug_N-qkepc5DfQ6Q2My8p17F_89_lYQWvOD6xCwDorjqyyVr0HNA980rq7vSmDSDbgsRih_ykvy0P9r8UttqJzzVWPOM
+iGuq3av2n-hd_kUVhxx1lQylftHktWdoI4_DR0DqwWxZxjxZy9CCkm4uNFpxwly75WXs2aeSJecC4rl6uPB4UZItsnU4kIW-N4YEmtt2IArHel9q9Fy1
+}
+
+EntityColoring(elo)
+!define elo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, elo, elo)
+!define elo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, elo, elo)
+!define eloParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, elo, elo)
+!define eloParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, elo, elo)

@@ -1,0 +1,13 @@
+sprite $ello [64x64/16z] {
+xTT5ji0W30NG12iIylQ_skzMfCRqtr6zo3daGHFiOguLRxIMw0tTORUYs9FewA8W6AeRqxbGCQMHwPYlEAGR7U2CKs9fnYckc3LXmqM9HY8kAqoTX1k45_x-
+hdHzlodlHnwtHVh5YliS_SXue39zyUZSwa75CxOR-tlox-yN6X3mMA8tWiUKYImM1A8D2mgHO84oArPuXoKfOebaBD6ADHKh_kd-J712wi7uLoQFGx5TR4kx
+7bGSCSrggt7Nk9D2rZyWllsymO7GDZ2PRabFcAfTgGiaRKqnYXbFHALfSEooIS14wdulxGKryo4iz4QwtzN-eJWDBR6RJje6LJ7ek5RuGOjO1_7C5knKFueP
+Zjx5OLrs-VUx4ePrNYRf8pEzOnzpAIK6CubORXQUD537oZo32LhYQSTbjDJyVXizJTxyR4K4lN0U_rJULBqG03FUBIJOWbkgeJqMtA2MMbmMNhyt1cAMDY2P
+QS9LdD90Snnn8XiwP3CEYADJDYd6YgDBE1H5IpP3rx6FelYYaiBivLS
+}
+
+EntityColoring(ello)
+!define ello(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ello, ello)
+!define ello(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ello, ello)
+!define elloParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ello, ello)
+!define elloParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ello, ello)

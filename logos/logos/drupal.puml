@@ -1,0 +1,11 @@
+sprite $drupal [64x17/16z] {
+fT5LeY0X34JHYjRT_uP7QCRbMVsq7Y29JaeVIhW-nY4_m1SWFx2xOtuiKBQzzJfgQI6amQ6J1XlsDHuqG4jQV3qh9LHqgQQZMr9rIj7JUM3DvF49EPGaqp-y
+XaayG3xdywZWsImDC0fOMbfAIloJRpQ1wKquwtN0zaBAk8Vp1a9XACd4xpvFaTVFJmSBgV3rTYwf9N_ovpVzxFUKMUpvunOFlOIqpb_sN_g7JydKCj_tbrJ7
+xsr_mlVwNRquhjVYNeY5gRdrLtDyNXz0Nm_WLFhnOO3IiZ_tVm_MW4CQM9r4VKayDthoZ7tfcCdpJq-fwlmnu3LiwFzPMdzBBk2ItkC_0m
+}
+
+EntityColoring(drupal)
+!define drupal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, drupal, drupal)
+!define drupal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, drupal, drupal)
+!define drupalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, drupal, drupal)
+!define drupalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, drupal, drupal)

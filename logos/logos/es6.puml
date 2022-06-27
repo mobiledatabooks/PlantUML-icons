@@ -1,0 +1,11 @@
+sprite $es6 [64x64/16z] {
+xP59UWOX24HbxFlVE42is3l9BWFl7_dePwayVurX68R10Kghly0lkYoWKIcjWhnS5MOMQ_kwGFgezEPJ4J6PpY9C51rRcrk-uFoU3piw70jRDMu-_gVlfpZ9
+j_otyYwyvPDeykppcn_VpRmvFpetJbh-Hjh-cJ-d3-JYaoQsZwsIQrZv95bGy_w0XwEuFykVvln0-0A_Vfhvu9lvn8M5IAAcydb-obaQNyyFCXAGlphQzWbw
+3iEvCtytu5Nb9Esh5uK_lvPX68RX0m
+}
+
+EntityColoring(es6)
+!define es6(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, es6, es6)
+!define es6(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, es6, es6)
+!define es6Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, es6, es6)
+!define es6Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, es6, es6)

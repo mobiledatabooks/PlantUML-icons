@@ -1,0 +1,11 @@
+sprite $frontapp [45x64/16z] {
+xT1LaWKX38NXGEEH_UzsN4C76PVxFtyLJW5t-Omiy-0cLxIqyK6os8rbMSQEP1qNMS_p1iwo4UvWbfyR4xQRa7XAx-LzIEEhZ_IHissfTV6wjJMtDj3rDSPp
+ZFUlUZt2FeqUr66hMW80gCLM3a1Xid7iCDeux-3IuMPNz_7wZ7MSThukT9ZjoQx3WlQA3jkdVOVjrH4qjeTaECTyeelJsBwT0HGsTzS02kifzOb61sCi3Nn8
+EQVWxyq4gzwBB_Y2BxZkuBY1oQrZEc0LS_LWTWq
+}
+
+EntityColoring(frontapp)
+!define frontapp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, frontapp, frontapp)
+!define frontapp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, frontapp, frontapp)
+!define frontappParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, frontapp, frontapp)
+!define frontappParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, frontapp, frontapp)

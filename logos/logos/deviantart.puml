@@ -1,0 +1,12 @@
+sprite $deviantart [64x16/16z] {
+ZSq7bk0W30JH5Y8OKEd-nzs1vzcSldCefAkCCKoVrcxg79qmMT0ZYixDaaFLP0R7rjM-xpsIrY0YFAWQh095wcJ8oQsLfq-YlUE_xwizx9xHMjLY6BYTtW9m
+1vxpka0rjVxXv5slDbI8GK9ev7fowSuVh4rthg6xfiQdebSCDM9ad3KhWD_UoBLpEdVjs_ktlkdLs1EUHimvpSYSEhqz2MHKGlFR_Fxp-0amrJcADfJRDsXU
+OH2okFsKL4fvnx-AkvjaVjn7VN2_Dv_NuaLoq-6dTpDTxhfjkUcz-OVnili0JHFWgLpZ7tdzlhT8fcR6Wh4sh6dwAnlVzm_arcHevr01qp-qa_OFpNI23cL2
+G9N_Ht_ogjTCDjIPa5F_stUz72B8PpASC3bR_z6xNfCf3VPYw1nEqxzy0G
+}
+
+EntityColoring(deviantart)
+!define deviantart(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, deviantart, deviantart)
+!define deviantart(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, deviantart, deviantart)
+!define deviantartParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, deviantart, deviantart)
+!define deviantartParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, deviantart, deviantart)

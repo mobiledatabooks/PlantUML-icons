@@ -1,0 +1,17 @@
+sprite $freedomdefined [64x64/16z] {
+dPS5WlOW34HB4jpkVzkb7sKAbRNto-gRX0golQ34XPnhbUqVa8sbTlxXwrZ1ttsJwmp_pPPKGSafHb7gzxRoSACp8ZoWNuN8Q3qvtIG1dwGV8qpfTZG2T-Ad
+1DVjR0NyFW5w4C3W_1PzhnUxolU8bnPCxzt0Vk2R0EwwXlst09LVTIAw9Tm2_AuN0tsYvzEt0L9tRBTfhRuTz3we1_3gf_F6aRgm0VM1xW7w73oh1nzC0UfQ
+tjrr4cCTFGVmPVH9TXRR-1XZW7y6i3JExmTSF9fq7PhSkFeO0RvLcfulvSd63_2V6y2JwzVov0uxHjvMbYk0zattwGEgzmmdgq-aUBe5-MXViwAEqd75pqti
+Ffq3O3mx14AyejS6fW7eu-RhqpVnZbnyBLhEUSE8ddp_u0U506gmRW8kNz4D7Zg7dQwbdRXZxhuQ3szUVDriFtG4UFXg-FJi6vHFy1iq-oJ3px_rHJNWxuPG
+0xuU3pNyaz3m3Ol-SzbfRe8_Bgc63tq0Nshdy6MmDVZTD-FwQ_YV-oSivxIa_2KW0Ea-anrwSRMXbwdTTHysyEhZCvD7-vzEBC_BcuGTw2SMStb2-zp_5moW
+uPzzJqTvbZ9yW_Tt6W0ZOF7DjiCDMmVSvmyjImEc2wlljb6Uuz3pyGBxRcDMi050xm_Vhkiwy9W_WK87Tntb1xBCt_FI97wslPwcNu6UiNvakGOexM4RsYO_
+mNUNzGi17H9ZhT7zQ-WEUg5p2YnQ02iO0Bgkm5_NRq1ljf82lIZiVZ22rnOKT60Vzo-0rCrMPjBJTf8GiCAi9iZNayAJpmNRlmkqUpjAwLGdp3QZwqi7TCYa
+Ovtnsuhj0UwflYAngIu4Y6j03LfMj74XrmiHsYqWhor0dGdVdX-I_S5tspESQoTxy-uNyulpKqtU6ltaH_h5-Gq7k7Inizb-m42vKwpwrVcrFDh9mFu1CjU8
+aYnlVq69zIcNHax12MqlV04
+}
+
+EntityColoring(freedomdefined)
+!define freedomdefined(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, freedomdefined, freedomdefined)
+!define freedomdefined(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, freedomdefined, freedomdefined)
+!define freedomdefinedParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, freedomdefined, freedomdefined)
+!define freedomdefinedParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, freedomdefined, freedomdefined)

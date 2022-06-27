@@ -1,0 +1,13 @@
+sprite $ganache_icon [57x64/16z] {
+dPG7Wkim24J5W1gw_tb_iTd61bdafHCzcy6bX82PGIKBBeU0Z7G9n2B214P2OmQBmV_iGm_2yXC-qrw1vox5oAaiCKovBf-ZaZo3H3W79S9jea8om8LBgonv
+cCpBO_7oyFLyL-Qt1N160xiVISt0cGgyg56ixfSm4USrKn5hxh_gpq846hcAzbyN78v2h3MhNrMmBvYujFs-QdYdcVYFBf7wJoEMK5pjrGK7m2wxMDGQt5iW
+iXLjGhMstjgNAo6rBaDRRKFrsaYN1-gzqlZsVTIzDrV444yRSuv-Rx2lcEvx-pQAgh7dntnxPlPOyxjiF-fpAqunN6_JVkrxRRrLDqIjp-8raTdx_5blwq5q
+GqY8CoaQlMaavl33cLbHJAnPiTqp6sLcpViT1MRcR2x_Q9hLEfKBTCreWyidF8xLAUK7CW-7IiL1JG_2mLb7KNLo2U2f6w-M3LLFmvr5rO7o28R6uVR8rEDm
+STGuN1pLmYNXOUTNm5y
+}
+
+EntityColoring(ganache_icon)
+!define ganache_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ganache_icon, ganache_icon)
+!define ganache_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ganache_icon, ganache_icon)
+!define ganache_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ganache_icon, ganache_icon)
+!define ganache_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ganache_icon, ganache_icon)

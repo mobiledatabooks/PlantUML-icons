@@ -1,0 +1,12 @@
+sprite $embedly [56x64/16z] {
+dTP5WWGX44HHKkB-HnutwcTtnS0EURYjno5hdOIKwen9_MzM4g3Ff8u31cYm0zZQGzeCq6C7CC08VIQLptmOMybE4-REa60o9iN86io170oJfV0Ov-e2Yso6
+IfCHxemPqJ73EoOzXVcGVKBklq1blJCf9zZePM8o23yJ0nqmOAzLO0wCrMG1Y5cj8Ck-5YnEV6ANf2H0N5c5rHp7LBZ6BztCxu8Rn5B3jMQObYDSc-FuGYFC
+wuGMRnJ2JXoSnFe58NEqU7SGyiNfrMABFSBQ3aJgAMomxzIs88zfoe2V34c4QuCimvSv2ME-N-CE2emBIaXs0-kE4SAHpP2ER8PqP3DiWn7MAZ8BDfW7mMp8
+DVKXcG_927r6I6P1CW-smsx-XXMMs6Nd8_KA
+}
+
+EntityColoring(embedly)
+!define embedly(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, embedly, embedly)
+!define embedly(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, embedly, embedly)
+!define embedlyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, embedly, embedly)
+!define embedlyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, embedly, embedly)

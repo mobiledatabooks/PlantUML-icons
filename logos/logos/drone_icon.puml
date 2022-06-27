@@ -1,0 +1,13 @@
+sprite $drone_icon [64x64/16z] {
+fLThckqm2AeQnVrl-BxlUDeG9_t2htb1a5Gwvrf1R4G0cK2uwVKAvW2o0C1DDibw9vU6xxaOI0uWjXGCkG92jXrmO1muw2tOda22f-3m0m49v4fWka_OJCzC
+8W0W_1S207LGT2803Aq7Eb02k8SOcKGW7ZRrGo7kqIKHQ9-CPTYzW66EG8h-HY28UoQWDeRfSuIwH2qw3H5_43PdNT-lbaG2qtClTmCAmbUM3EGnRzHtatzc
+BRu6hcEaETx0nyB7zyRu_FXCJ0DqzXKBOmFrFTRf6nQ_iHg0fc-q1ejV93SQtpO_F1b_rtzcD7oIdstnRNb_CjL5zugmnM96jgZD3dgy87j0IBFmUq7o0CZ-
+Geahz0DKVy25lLqZ6mFLNqE5jsqq2KoO1U394PiTV3FpkiGn1Cc1w4VW-z-_fASGGVgdyFXtom9n5u3NA1I0cyelg3cGcNS1Q9Nf0lX2PZu5GFk_1pu4HhjD
+lK313mK4UIRWXmA2F1Emzm9wDa6Yo4sZRk-6T0AyuGy4M3b8l3gT2U20FXLpVtKS1dm_UbThuhq2O5SFRHH09kSUmCXX1n-VO-Zr1c8UWR_d-j1bQ3y1
+}
+
+EntityColoring(drone_icon)
+!define drone_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, drone_icon, drone_icon)
+!define drone_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, drone_icon, drone_icon)
+!define drone_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, drone_icon, drone_icon)
+!define drone_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, drone_icon, drone_icon)

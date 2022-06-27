@@ -1,0 +1,12 @@
+sprite $drift [64x15/16z] {
+VPC73iCm24K_U2-u_sqhI52d-ZiIP1xBzhcrAW50VTfmBRSsxrYGYNcUqf2S0g0zxU7nnDypH4CBIvyIbprLAj0afD80ElU2lxYSbo-v7niVqWrqCNK4RvfO
+7snZJjE8WMOSCmyBHon63Tny9HU8ETbAOMRZ2m0hIi_50qXUpfL-3dxbWOYN0GIFuXcTP_ByXuYtzJNVwk-_-CZusly0gWyi_DKrVlCryhkVfR-gras8_F_u
+7Vt7z1aO1iqI_iVrNNybIkiv_rEdnIAWJpiPDVmBGa_-n_ul9DzL7uhkXBzyzFiyVnjOTm5J1k4l_-FyRw1Op8OaDVn5DVYmN-kF-tVL3soxTEZbcI_c_BIF
+yGy
+}
+
+EntityColoring(drift)
+!define drift(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, drift, drift)
+!define drift(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, drift, drift)
+!define driftParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, drift, drift)
+!define driftParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, drift, drift)

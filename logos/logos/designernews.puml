@@ -1,0 +1,14 @@
+sprite $designernews [64x64/16z] {
+bTU9iiCW20NGo0M1___WjrD2ddRapXexnrsJNhiC8e2_0e36rGk1Iy2DEWQGF0ECGysR0DJNDHYTSJT7CLAtkf3yAA1-tskepslGvpNeZxs6tl3-9BPvNKPY
+xWUrz_rGwNq_s2nTjmF9cy5czBqE1CShN5AAwk-uUL06Z6pZ9-K9zpr0uH_7eHO7-NbWkNK0cnD1jNXAUZ59j3sIenIJIRRlFl_K6DWVwL8iDjE_AY3Yuc5c
+auF8lLfrPOIF2l3Fkxlf-Elpl7aoLmuV5G0BxwxHv4n_oMzvUDSVjlJsrr28gCxIHmKh7upCRQI7LU-wytyDZV0KQr2zsw5d-NtMXtSxz4Q_0tfwnw6FUJpn
+EN_-yiuDd-kNtcZfwVt-IU-wyZRmRl_UlV72wyNLg-fhpwhVVOoWUDdS7udIk_xtT57rbLTl_FIMr_V33t4lFXwAbxmQYoSnNtZNXwTyVI5kLP5fdlafdUwU
+buR6avQxMRqPu_hsdrt_V7-BzPlF6UYEGSldJtyCL3vWkcCmsNqzQg_tkGQDCUIzd5FG6OCXQLPmFeRacmgc7V8CdOx1afVGmHZoTbjad8n12ccEmPHQVrrr
+SsJUXNYpdJLqvr-eQEntkXePXBoNJBVu4m
+}
+
+EntityColoring(designernews)
+!define designernews(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, designernews, designernews)
+!define designernews(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, designernews, designernews)
+!define designernewsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, designernews, designernews)
+!define designernewsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, designernews, designernews)

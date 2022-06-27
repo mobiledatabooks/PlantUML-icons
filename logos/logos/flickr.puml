@@ -1,0 +1,12 @@
+sprite $flickr [64x20/16z] {
+dTC55iCW40JGmLa9tF-sXNsDrZjF4XX-F1ZnjFJU65b6F48USJZ6yMWAdiSFFIAeSnD0S-FFle_m2o_TGdzwwrh9yUZRzpxChW9OlVCZ-CtdtL-aTw-ybI8w
+kqMahhx8Y5r0ajPxqxfxqf5ecmnglVKjUdr-NkzDstoUMm5cKzdAbzwthLczJIqEvfjrH69BYFB5IpUKC_FgPNr0sYrjKI2kp-_iVP-9i9Wdk_g2pIS0hxpB
+Hd3mskmYDb_mpjiW7RqbxDv_uw_dbyqtuEFryz6JzUKhlpw_VF2CPWk-y-0-exMokhilDlEbTqjVithOL3txzCB3oSNRsf5uya5K9M8agwfub3dXxDBOFbY2
+crDb_Ny8LLNPz0q
+}
+
+EntityColoring(flickr)
+!define flickr(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flickr, flickr)
+!define flickr(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flickr, flickr)
+!define flickrParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flickr, flickr)
+!define flickrParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flickr, flickr)

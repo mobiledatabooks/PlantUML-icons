@@ -1,0 +1,13 @@
+sprite $eta_lang [58x64/16z] {
+dPPNmkGm28D5aUz_uoqfpCOR_HxyFKrJa61238Kdns0wcZZ71LjQo_4FQVYM61FHCdhGiMobwsajXoHj5L0JZO32iZQgeM56w9PnOpI8Ha0LDqQRA66R161Z
+2mTUCgR7yorVihwKJ9ilzpgpc3-ZLtJo4yh733cR0AwIJDZbMjv3iz2k5bJ_V2qr_CLhOfVDm4eQg0a3pYDpda4Ny_lKuI4X355AnAhaSV7pTpx2ApD0dVBp
+2x_DyUC5BXjxuyyPEcwulE_o-BdbV2kxD5lm7gtXWUhiGvfuWIAcb5RnL4fBreCl6Szz4sgaUNzUWozfrBNzLLbMIZhlctXNXl_NPkUqRqHDllqFyz4Lz_L6
+TRTJIbChHCF0t1AEB-7B71fIZYq2oEsYFlROL-eMSUbM_KBbJp-cRjgiwtK6qlMI3JskC8EfaEMcJs3_QRydpSrJpOZDarHQwzHNqFH9it_Qz4R0cLW6b5Xs
+ZQxZCh0aTC2-LWVKSNN0TLm6cdZovtg_0G
+}
+
+EntityColoring(eta_lang)
+!define eta_lang(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, eta_lang, eta_lang)
+!define eta_lang(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, eta_lang, eta_lang)
+!define eta_langParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, eta_lang, eta_lang)
+!define eta_langParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, eta_lang, eta_lang)

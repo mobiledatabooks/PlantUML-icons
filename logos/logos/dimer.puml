@@ -1,0 +1,11 @@
+sprite $dimer [64x17/16z] {
+dPC5baKX241LmE0Xx7-tWp6_swGknoIYN0wHWrkb6BukD4lh8mFN1maIVi2Jhq2OkTpvOxVw0RyNqDO2004HOVFj0xvkFYrZDoLYoMFz53xXPV6mh6pTHrbB
+ZzxJR27wCASufnZYAvxC88lMo5rBDu6Yoewnj5v24Ms7lkAJMWNlhbe1Ju3PZCBXNGpTq-KTtyBWYsbqcuIediYi5f-d9xtXwp-VJZoPPKICSNZ2AnxDu9vt
+AmOlx_d3bt-z_k2ySv8YfY7VyMdYs4q9MKT-jIEnBpc9AQ1h8QkPylJ0u_U3onYt2Dvn383J2gNIyk3f_JlFpFNN_tTQ_YzyOSUTpZ_y_py
+}
+
+EntityColoring(dimer)
+!define dimer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dimer, dimer)
+!define dimer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dimer, dimer)
+!define dimerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dimer, dimer)
+!define dimerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dimer, dimer)

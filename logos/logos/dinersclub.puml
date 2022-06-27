@@ -1,0 +1,13 @@
+sprite $dinersclub [64x17/16z] {
+bSzN0fif303XKKCI-FxdNS1japnvNFxwKJXvLbNFsUdydbKe8D5hhJP-B4fubMitsAcP0iO_YPjgthFxRyMtNBi0OccqIlp3FRVsUVtzBm4TXnZGsqy5c_1w
+Iq00UPujTjgSMWGVeBFlt0Q-TldqF4RhZ6aHvRDp326kb8wKjXbpb4Ajkhv1vlRpxRsPH4rFc_YqpvhQYh96LmcoNdufzDhfzT7oz7q4uikGXu7QsqiNwCSx
+rDEFXqUAJPkIsHNUubuArcxfT-qnFQn0Fju-yyiEEFyYg22S_vCg279IeHJwvITmzozFg2eg9yxtq9qWYe1mRqU0hRxUp-akeNoQXRTLM8sq9I5Zx5Fl21-L
+4ao9WPI09p22p_P9YmwH8bEojksGd0odMcYlL6ktSUstE7m0vIvBjCdGoZApwTwQJcTe1Zt2EuR2o3zviji0HHpRwVwY9lj4nSNs6PZXPdPKETVKrZFuEHcL
+8tlh7i9l_GS
+}
+
+EntityColoring(dinersclub)
+!define dinersclub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dinersclub, dinersclub)
+!define dinersclub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dinersclub, dinersclub)
+!define dinersclubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dinersclub, dinersclub)
+!define dinersclubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dinersclub, dinersclub)

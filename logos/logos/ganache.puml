@@ -1,0 +1,14 @@
+sprite $ganache [42x64/16z] {
+pSy7igim38NX8wlOEkn_lq-UDE8BWUdllpNoDqRWJz8gN3UTwWrRoXwf_7GFT6b5RQbTk0lRx3YLUswrelQpjhXBAtOdBMdtQX2x6Tgy-ahfGrPwPdU7K_wq
+sjJsichjpAtIzA_TJs1zTuEqBoTgUxcbBuT7RafkZFsr3z0UrozoezlUGWJbZkI3keUlhxRAeX63t9XXXqNcbFluHRrtjygvhV9xvr5d7FEVRPMpyO6FGJVd
+8fTBWwz1R8ToS_C-mfplGJ-HOJblucSmpcGiWrEPkJrQdgxSBk9J8hUhHauEjEHs6Jig2LwvD3ngdRyS7PyqUGf3y9MJXsuqh4dmTC6rrdcwu9ecbmNFS_9a
+mQDrURxWkcuEnt-OcBTRq3a61OU5ufDH0Ugn77ttQ1eGb1CPk_kplhFXMZBG59N4C4JhNG2TlzleqiE70Zwif9Lg3iaU3KodmHarO9rtzZvW6NnA8sf01JlI
+X6fp9mWw4GFfdYMZPAVGCB-rPB7wxkFnxbEELFIWG9aFgPpIYVeU11gZfB2CKJ97zaJaO6R9dibHtttKGKbZrjcyLSoRiukgg3G0AlCV1Meo1pf_L51faeuR
+2SqJTr9g1curc8Bh_W4
+}
+
+EntityColoring(ganache)
+!define ganache(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ganache, ganache)
+!define ganache(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ganache, ganache)
+!define ganacheParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ganache, ganache)
+!define ganacheParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ganache, ganache)

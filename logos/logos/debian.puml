@@ -1,0 +1,14 @@
+sprite $debian [52x64/16z] {
+jPK9Zkmi48DTEr3S_xh_WaGwBn3rCDBxPbySkmmDs47CIX36Zs7FxDd2tJoKy1qfsUzaqM-AsbUQURpcfDBVQFkGPDdVoQORIRt_GotXPbvQzejOschzeZ0k
+I3-bb5T9VORWiXLnpbHXZ0NBZMYw5C8McIB3n6UZ3uzLbFndigPuH-UqenWWrYfNPXO1s433nl65UXaHgFn80XcAsWZ0Hl9k92YpWC0AiIW_ZPeeQ1JGiC2H
+_zE2S36UJcoZWBfP-QpAH6oXc9JnhoAZTrkApIfN9BdNNS0eksYoNomT6XhHbesS1Jiun_DrPrEJlcbY-PFZLTCDibbFNspefb78sXhb4jReqYI6HhusGFVU
+nXT-Q7h17isUCZH9Jqs-x-p6lDNaupSqmyVORaEA1_bOPDEhjYGYw4PJ7WFnfxK0OsHRHlt4PURxRclylqRMUI3jChBWctsZqJglMrJ8ijlk2eYvwCihpfIr
+TrtFSv-UhIzBwCRMq-_MaJq_rdKjZiHDytC_a6VlJN3Xumn-ug7_FonCBLhsda6F0qYneBNKTbscroIV4XfXWRoOgBcRhZ768H9O8VrVeFnwIHYs415sZDWL
+H_ZFplYbXTxexnkDYGhE6DK9pYZpD3sjGN66zB5LpxjhfwAO8vtseFY5KwDpqVbCbhzmujfx5HpYsNlrKwl8yqqEzfRd0I7HMh4ttRy
+}
+
+EntityColoring(debian)
+!define debian(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, debian, debian)
+!define debian(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, debian, debian)
+!define debianParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, debian, debian)
+!define debianParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, debian, debian)

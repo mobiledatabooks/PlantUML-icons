@@ -1,0 +1,12 @@
+sprite $envato [64x12/16z] {
+bP85ikWu30H7PBRc_hVTgFAuQ7y73IsJyA-CLFn5p0t_aqt37pHQQ-zV6wt2ky5xLo2gz7wyZv3okokgsAjOevTU6ZgB3kHTzUV6ZGVdr4kILx59RjYfOWPW
+Y5OOq7XT_TAHpB31gqb3ZHb-k-hWnkO8bUGqwwIxoUixS2a0QinaeCgFCG1buYM9LH47LnKxJvYr3r-Pys4n9IarB5rAhI2miUybPT61GozVo8Zuz8tCuax9
+_F2n64WgEddMp0__qb1-Cje71cLPnG_VkOEhHYhZVlYR3Gz6weV-7iseoctuzd5uQHzR42m_wkSg89iJ_leAG9DdBjAH_F8RUL1XpbWafJ5tnsIkURa5i7X6
+LnIwITuQz7odwg5_DB7D2ono03t9-lu7
+}
+
+EntityColoring(envato)
+!define envato(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, envato, envato)
+!define envato(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, envato, envato)
+!define envatoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, envato, envato)
+!define envatoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, envato, envato)

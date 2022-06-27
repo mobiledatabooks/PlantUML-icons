@@ -1,0 +1,11 @@
+sprite $flarum [64x15/16z] {
+TT05aiD040J1mIx3__zx7ccD6zS1PL2An6joSp4BgUnOIVr82ocdRIdDptx-pEObbbzm1TMdJpCJkrTtlxtcv_5gaByzRHQxNr2StiV7-1uJpU6zG6xDzyQJ
+dpw4gDE7bkVqQOBTbxk_VAAYpKHRGQoEfuFTJzGlNoZHU1hmJw_-n_FsecD-5xEojr_RlRhBe8TF7M9v-_1geDbzBJTnG90cD6nw-4O9NQ3Rx1h-cFtwu5YD
+SyWFJq0LMDtkz_lDPfilGA33WJwzjQ9WpCFxhnyPlTxTuVfqOYoiyq_okldB1SYXXnkVaC652_tsbzErBI_bL01AgSrIYbRFVpM2Va3fkB3u0m
+}
+
+EntityColoring(flarum)
+!define flarum(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flarum, flarum)
+!define flarum(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flarum, flarum)
+!define flarumParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flarum, flarum)
+!define flarumParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flarum, flarum)

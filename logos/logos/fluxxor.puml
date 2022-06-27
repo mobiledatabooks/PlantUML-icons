@@ -1,0 +1,15 @@
+sprite $fluxxor [51x64/16z] {
+xT5NqkCu30JWPau0-lwtNSBo1DTFLqdFE-qWCNoCwFeiAqxAUXAXSYB4Lm9s8l0g-skw2a1A2S2xJoC7X3kY0q2s17GRhAYS9WYgMMZKqBXZ6TM9hbnAkWWt
+6OR9pedCAOp3SieszYFlnvkOY7mI20NmvWnP0AOEAxcolOdEEUEB91QW6u9I0z39-YOokBF2HMnWHwMrLiLw4mjYbOBAFfaxUzs_OMcnuIBIdKpRMS4Visj6
+rkaJBud3Q1DDWAxj8gdadVBAzQp5AsgzgdFrj_tqlnV9lTnFgquQdgJ_9aMC-XN7eRIPFiYWZI6KS1J9kFeqrhz8OtzDnNKImIpvOp7_9i4MK5lOD1z8Pq9i
+1S7aDydC6AGWS1o828AHTTlmYrH6A6a1DW_49ZB9wVt-dgMJpFWsYxSMd-LZBxagvvUzJAwQhhrydbWqold4AEyJ-taljDCiZVHx8UldxI-__QZCftKTRjyJ
+Wl-v-I7yuQqVv7VSd0Hm86VZuaI-6nT7yjMuE9DlniKzugQsKLtS9GX2pyHzWaLFUqACdlM4A3tZ2Qdqf2S4LIaPZmWA4nwJ_Byb_qXcUaegopDIbQJa1sHG
+9gUnt2Q5m_SIXF4kKGKwAoB7JHBPKKYB4BrDAWR9WcatINXjXHgWSfDWCYAMWC9sbqJJ16mXz-yb6rMC4kyJX2QwAl2D1DpFHM9lfzHZPK-LQgtr1wd2f7oO
+-Xy
+}
+
+EntityColoring(fluxxor)
+!define fluxxor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, fluxxor, fluxxor)
+!define fluxxor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, fluxxor, fluxxor)
+!define fluxxorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, fluxxor, fluxxor)
+!define fluxxorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, fluxxor, fluxxor)

@@ -1,0 +1,15 @@
+sprite $fetch [64x64/16z] {
+ZLTNWkmW31l0JTp_lgzEuX2jIVotHOuA6FWKrOPQ1EO4mdMqpwOOB0xCQo6qlqKFJ-pIGjwmaC2i2lhKOSJS5cIhsp2VAlhBZmFXzgSyW5SK19T_SkcfjSlL
+KjYFS4LoPAVRrLV_SDa5NUMQ_qBzDJDY92jq_WlRozLE2hPIE-1EnDWbfjb0NHyre9Dt2T-L74g9lPSGzyuIJWMnXC9bc1E3w1uAX0MnkHFPlSN2DnOwND_C
+XE92lnWQAuZ3SMvft9wh7u7nxz2EzlnvIWUZaOLoBdmjyNeTecqbu0Tzj8tyh8mnlh06CgVQr-bviXe3U_TatieM0QhPjJO_Avb-RIVvXNWou0kCNNej22ut
+NuBig-00OEqUAzAKFJn6RwMnzWI7yhBSumVsXzO0y-SvMKzLIJpxrtslBltZ_8QwW-0LtczxMv3O6fxhvxP-hLYlNFYckaoVJl3ORmnRzY_lDhJzlfHp46HN
+tYrSENOq1R1-UvXASNuo-FfMdqZBr8o3QUQFbvz7orP1ucWey-AvpXZXcIcRy9ApKbJR4pNvHNd0xSyalOKh95V0uM-k6q4tKmKWbNZIsq4D-cWFSA5Xmebn
+ZMLjK6AmzkRwnzvwpkaQtRrUsP7NyoBsfbXEORxQSWT6rvTa0ptNw051vCkP3xYfZ26gZkKFLll3votg4xYcK1UUBlZTi4DJkBiEZ7x_V6QmRfdpyprx84mg
+y6y
+}
+
+EntityColoring(fetch)
+!define fetch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, fetch, fetch)
+!define fetch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, fetch, fetch)
+!define fetchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, fetch, fetch)
+!define fetchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, fetch, fetch)

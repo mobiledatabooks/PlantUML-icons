@@ -1,0 +1,12 @@
+sprite $flow [52x64/16z] {
+dT87bgj044DHbLJU_v9_e8UMqPp2uTbaBXbPuVF8BupuXH6_CDA7flGMgkVK_tgDgDQk7__IQrJjbla8sSo8yXKvVO7y82RKHsdkKNUYxfTeClt9FVLEl6PK
+FBQrYT4rEFBvJAsnyV8wDwH9P9F89b6OG9XGOqJZ5x5CeOvGi_4NyMFSZO4MMLj8ep29R0A5YVlbQHBP9AAD4QwcYhiwHZRS1hG9b8RRm2PH6cu3cqHfk0qk
+1dU6su2Oa8qHNA31q2PG6idnVmDAuxeR4xBXR1BP9CA0R8frHSA0RB0-vpuB4wZWrCwxH99eOcI3tyGc4OmKsGJ2Y6mI8L6Q-ebLPHCeZRWCgsWJA4ptWQID
+C26RXMI42Tai92DCo6OXdKWsWS8qTI880qhJEX5SeZIFfPguGMaUlRf5QHvQrHrAqw98SKPf3dGqepH7Br4Q8uqep5iepQflKLrC8lu5
+}
+
+EntityColoring(flow)
+!define flow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flow, flow)
+!define flow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flow, flow)
+!define flowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flow, flow)
+!define flowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flow, flow)

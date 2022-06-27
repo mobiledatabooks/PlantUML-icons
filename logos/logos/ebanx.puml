@@ -1,0 +1,11 @@
+sprite $ebanx [64x12/16z] {
+RP87eYKX20HD8mBtl-_IvUpF_OA9eZ7uiQlPsWvqsdFRsQHHtQwEnQFcX2boiB8Z_KXQiaJUTg9G0WONp1WqrdhaOQ8wIc04MFegpK9YhKSn9LTAU5huzcJE
+gRmX7xcB1y3I-G-LdscPu_AvuSaQeQYWudxvwfGWUn-kTFH377pEbvzP6k8b7vT7gnZ4TYDDYU5TEnPFCEtbOtxo0OysFeC_yQT76ZpL7FZN2Dv7wQs_Rr6c
+erntumLKB-7fhCl7MN-TNrT0v5N0K-DRjxicG_WXWRncQSY_wf3_p0n91mVV0rvhGrMzxySMjj_VJyKVLG9by1o8SQduZV23R5RK-SwRk2rUeV1qZPT7rlCF
+}
+
+EntityColoring(ebanx)
+!define ebanx(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ebanx, ebanx)
+!define ebanx(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ebanx, ebanx)
+!define ebanxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ebanx, ebanx)
+!define ebanxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ebanx, ebanx)

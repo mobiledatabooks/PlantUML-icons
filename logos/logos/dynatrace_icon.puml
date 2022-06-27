@@ -1,0 +1,13 @@
+sprite $dynatrace_icon [63x64/16z] {
+rTO5aiCm38LXiQdtF--wBbfHCl4i_mF5xvK1meX5k4U4YB0OiipTTfQqZuLlCylQxnoDe9oAUUcsVR6cdzCadzAgJikv27faff_GQcRuAMtqqhoYsKRyAMsy
+g7dI9f_IfciQeIVc-AAUESQQHu-ZqdDwy9TMLRFK4t1XZyZf4G9ts5NEkTpA3Bk9EKvY3_VWjAlLNCJMmHpkQJOVQ_ObME3fSpn_YikMsmBNzDLS_mstJtBR
+SFa_N7-EovRBht9UUDrro-blyOGBN36Trc2R46PkLqscmZJzdqKaukrTXy6TBgtLHsLKQskN4cYmZQujwkAv4ipSeCSlxNYUDS8rVMhrslD0WqnQXevv2ZIm
+qxkyfK039QTtUQG1q_DZffFsl3hzuidfa9UdXlVINPlJhkSJBp1bYS_e1tSQTEZaTFp43-tpEkP7EW2ErmDTQsZy4yyGXYIMIZqSIKv78vfol78fNk-liDfj
+vZLKJ9q-CSDgrw5IiWf2r0S
+}
+
+EntityColoring(dynatrace_icon)
+!define dynatrace_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dynatrace_icon, dynatrace_icon)
+!define dynatrace_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dynatrace_icon, dynatrace_icon)
+!define dynatrace_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dynatrace_icon, dynatrace_icon)
+!define dynatrace_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dynatrace_icon, dynatrace_icon)

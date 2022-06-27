@@ -1,0 +1,13 @@
+sprite $ethers [64x41/16z] {
+dPK7ZaGX34Ct3KZC_Q-xbI-qamnJdZh2W4q27nMa8-OCD_fu1ukvG7jz1VOvDo4loWNp7z2tv1kySWB6fOe0beKNCbZUXtvhI0Rc3-Fvv6yoKymVdeuWRi_B
+loF-b9Yu_Jhd78WIypa5wLTUhR247wBBNRLZBi25fmMSItd7dkD5fXjOVMcRdai2E2umTh4FqnoJYcXpt2l7DXUknu2zDiZO1plJvoogQHpQh3Owgktj-UO2
+vTln5xeBSXZAvCqiLLSy-RZa2iSkcWGd_KpwFP99jSHvDWvwutf_JVv7lR_T3kGEZSFroIWhCAgXalXlW2ARjNsaJ1z5fu6Acgm3v7zDPULKFnbeUm7gzMTm
+VkB7T2LYiO7TVEK1w6xFOZzWw8N9yoUbCIymf2optGCbsWD0UEDpMmuw_4sKHbY-uPNXwGdCGckzDvMz9gzue_51ADgwkuzkGhdMrnbYc33HfI5Y-TdF0u4O
+JUzkm3QkUm8Gls0HtfimFRGcrZtsLne_EZiAlm
+}
+
+EntityColoring(ethers)
+!define ethers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ethers, ethers)
+!define ethers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ethers, ethers)
+!define ethersParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ethers, ethers)
+!define ethersParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ethers, ethers)

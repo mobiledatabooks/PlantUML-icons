@@ -1,0 +1,11 @@
+sprite $elm [64x64/16z] {
+fT4nWeKm3CHG0p5_v_uNtXe1gF3qUf2awbZzldLKRNs-huR0Rvi1-St-84CWGo1384CWGo1384CWGo1380G-zWG4W8r0Xa12ODlVTmTo1zPwky2jwi0Tv0du
+o7c94O0vdp46C0SG0PWJY03C2KG0vWGY07C24O0vWGZ0d404O4uW0Y0dK160EO48m9n0Fe6jc1FuxFzsxJMN_vVyM02Gb-Hz0a1Ubfy0a2_B0J1loGamRya9
+C6_92J1loGamRya9C6_92J1lomaWRyq9NFFMdC0rRyq9NFEMd03pjfm0UyaLa5m1oHMGN0795P1S0SaLa5m1oHMGN0795P1SWKro0oHNu1y
+}
+
+EntityColoring(elm)
+!define elm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, elm, elm)
+!define elm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, elm, elm)
+!define elmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, elm, elm)
+!define elmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, elm, elm)

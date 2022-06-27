@@ -1,0 +1,15 @@
+sprite $fedora [64x64/16z] {
+fPU7ylGW2CJj0klxl-vNl9WXGqYPxBH_yGSBUkW5Hp6tpW80mjHA2c-KAWD32U2Mdz95mpf4ZG_eAXYEW7ON8I_QaTGhEdQC6u7JHV8B3YiqF0iLBYj4dNYh
+3VqKRt1ehijofjyQYXPtIeUKmwgV1uwFibklYHdJmKtjRg-8MMpS_1IFp5k0flygvtYpUyHxWAowCax5EaMC8SJ2KxC74fQAupxlS6C08fEr5JZ7Zio70iBA
+0D9rxyk9FL461bscbxYPnr0IOw30jsyF9XG_vY7WuM-UtLle0X13I1WNPyV-NpHVJFSCdnr-rSZZ0uyOyOdF-HMl-p_LsajUZZpJUC7hxLlXxdc3Atx8FV_J
+uUF3s9UPCI_Kf_AQZFCt4bdqIczuY31xLrni6ZTQxcZXLcJTszQquAfQtEvhzVcocR_2kVjyzt7mhkBX-Op6XYkrF9KMbwPoOn6Ot7nqpy30fdmuFmhLwiTJ
+2UVyUa8nG_aTdrHwmMkUWna9RtZKZtmAUgAzvYbyuf6l-69lJ_i-qFKF9NCxE-dz_eczFctrY_UFJs0FbxJnGwm1q8PVtK-BXvsg5Fs7uKfWUHPCgLU-UBsF
+YrS1gEHIMyttZsfP_lJuwcRs9hYzswHdTpOpNrnSyIk06VsHJscmMWWL81tnvE27CbcDyFhaII_kAhrjiSef3aeNBOBqabCkZN1EcnQRzyNKEGpQQQqYurxO
+luLPfOuRc7k93lmN
+}
+
+EntityColoring(fedora)
+!define fedora(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, fedora, fedora)
+!define fedora(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, fedora, fedora)
+!define fedoraParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, fedora, fedora)
+!define fedoraParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, fedora, fedora)

@@ -1,0 +1,15 @@
+sprite $electron [59x64/16z] {
+dPO7qiCg38IzQhltl_0hZ2TW8F5lCoNrKqLh7T-FKupZpGc9KhqW8Tc1ahzn6ir0lK6RFyaUezRyXQJdfIfLfEHKFaLHajXAbSzZDcklx36_wjFBu-BnzfJy
+BOgVRc6HLLMPiKaivGUoCWnBCKlzC2y_9Gc8XrEIL3wtaEc6_u_vuDQRIU8esG6O9oLQjqkLxVgQQYRHYfpzsq_Hq5k-v90VaqEX_CFMZdHEMPM6CCNpjNOU
+vnnyT92AzhAq6olOXdxfSmchA6sgHeqV6aGjBhU3akCCr0PrgV1DSLOKesdvLyN92Hq30SN5vRPEuhNgzbk6n4dp-a3vZVXHuo2DzyHrCyz35ydkVIJlqVWa
+LhJ3DYJSjes5FaQG1xYIGIbtQFQQxAKMaYwXX6oZZxdfYZUqbki4ocvqrXeQYrTEuTfXM2ig4NEkpfp21RcmaO6rJBReSuhuQrzNjI2UeZoH5Et-3k_dC4J_
+XN8__VUp0_5N2aOLRbLYdmBgwm2vOaN3hb9Qk554-FaSabItQZecbfAKhJ9UgcjekrABlH4HL59sQinma2jiol4UG19xWsPuki5-4TKIknQliB9_NRpsbqeL
+ndb5NxmHb9Xs-cul9mI4UDHLHo3EAu4g77tFeQHpagEOM9_UdQOaYQmYrR98Ch3TWrTHZPCYqnVcgZRR0zplahL-vsztIP1_Ndyn6VlpBXtYD3Dro-p_6oAU
+hCxztxcGTtwLQ2tb0xBlY2GbvHEiNtunlxly5m
+}
+
+EntityColoring(electron)
+!define electron(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, electron, electron)
+!define electron(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, electron, electron)
+!define electronParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, electron, electron)
+!define electronParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, electron, electron)

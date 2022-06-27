@@ -1,0 +1,14 @@
+sprite $game_analytics_icon [64x64/16z] {
+fPU7miCg28K1PnJX_P_sZWvRYMbY_g_RrdKy40e7eC-bDVqFQJK7WXLSgg8Zd1rS9B9EuOHNUZSzHFBP2C7qjaY27s3HK_XO1ozwXGHpabvaWnbPBrCHTcow
+0EFYx9QwkdTB6PNNPJ9yGD5rF7IAtg1r3OCQ5dVGz1xEQBzACTFVMq1KYzGKl0-PjTEO-I0GR7kBNLXwcphCJI88u7HaJ36E7qF20rPBjEf9cCL51fZljDf1
+NztHUUy-ujAHJGN7jlJQzgEnPNpkkHxxD0oYy7EPqZ_JrXU5KmLpDY4n2Y9lbI6cgLMusEdzmIctQPQHPWE2fowZ_c9ePlbEBQ-9hTds27vsBnzQYGJjBSDP
+__BAhryGeNyV0ygb_XL6Ic_SJlhdVVy-AqsEHupGuMMSpfVnix60rJ-Q3TepRPDiLUr59UttHDy7J39M5BjyL7Vns7zJTjzpq2-AAI8aZc4hQBFzHllmxoLG
+TJPg7-F981aFso5uuDEM8-tJEriBa0cfHh-h4ZU625j3s0I8nc_60ccI4uepvPm9Hb-rGzFBLqsU42dafZiA6yFCGqf4BfS0MM_29gslukqHtQt1M6yW16-S
+tY0QaorIzWdkBnLirHNsSOAi2uW32zQRtTSrOFhJ7v22S81lUef4E0RpwUG4Ft4_LM0FfxXDT4xrS0cCLTJ2YU0w639BbuotUDJvNm
+}
+
+EntityColoring(game_analytics_icon)
+!define game_analytics_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, game_analytics_icon, game_analytics_icon)
+!define game_analytics_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, game_analytics_icon, game_analytics_icon)
+!define game_analytics_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, game_analytics_icon, game_analytics_icon)
+!define game_analytics_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, game_analytics_icon, game_analytics_icon)

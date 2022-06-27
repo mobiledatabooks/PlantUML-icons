@@ -1,0 +1,12 @@
+sprite $flattr [64x64/16z] {
+xSvRSiCm28LXG81piUNzxxQv9phoI0wQFhN_CzySg4piS5xokYiZnDEyxiz1frDUuvoFFT1yFir3N7EGfq6kT4dY_ERFSNxr7kTNpqkSN_qKvNQDQ1xXHcc8
+6ntMpVAZ3hUjz-T9XUcMv4rkhwJIYz8xpcrkXdnc0j_a1-1P27oJsmdyHE3Rt6QOP_J0IKk_bFvCw86Zp_W-Uk3erpAjFF2EJvK7tl52q9ADzljSUKaquh5_
+Rt_U-sU_xBdslj-psOXdS-Eml_BQysxFvYEUpRTyQlfLS0UzbjnAlZ1mz6mjdrDrnirvrpP7dnnABOwUrJ5fyDAprDgDEjpjcM-brEBzX8Qu4mrn9HhXpaGZ
+N2-auFvLTZLnxdn5SIut5UOF9n4-kJ_TYqzVvCfnxcv2KUuEsy3RrZGX_W4
+}
+
+EntityColoring(flattr)
+!define flattr(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flattr, flattr)
+!define flattr(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flattr, flattr)
+!define flattrParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flattr, flattr)
+!define flattrParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flattr, flattr)

@@ -1,0 +1,12 @@
+sprite $eventsentry [64x64/16z] {
+tTL9ciD024DXX5JtltBhopoHu6BN__wHsAuXlaWj4n4DHNt2E8xh4U8WhMSOvOPHRZdABKUvvIYt7EMMirmvoXc3N1c3N9DNfqHqg1VtSt5xqOhbxu92dSib
+yEDOKRn2PiBTLt1ifZWAoVL0nrAjL-gM3sbt0525zG1O9azPan1sAhHsq3dM9X5XsciJSO8ZrP93bu-0JEE9Nf6M1Y3-Brpa6vn4YLhgldln_MZ8qTUtuVAB
+NFlOMC2D3KXfRmyYdXqy0X2rqoIfdzTpg2hl0waYxmDLvmyBlZ43yGhhf7C99X7lK2pqDXIBD34QO4gC1fXoDi28qG0ZHWDiE23ZDunomoWtZ7B3A3UCSiCe
+DsYK6v_E-GrWO-ly0G
+}
+
+EntityColoring(eventsentry)
+!define eventsentry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, eventsentry, eventsentry)
+!define eventsentry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, eventsentry, eventsentry)
+!define eventsentryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, eventsentry, eventsentry)
+!define eventsentryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, eventsentry, eventsentry)

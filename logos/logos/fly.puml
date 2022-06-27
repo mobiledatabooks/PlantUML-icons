@@ -1,0 +1,13 @@
+sprite $fly [41x64/16z] {
+pPPdekCW38IHhERxNtWVY2XC6jx-vXSedqSjhO5Op3qYt4sulHEhnofNVebPFCkFHupkc4eo6J5qFRmmQfGd8HbHMRb9PPJgd0RoWjDHnhHtpfAAvChhRGN3
+-aqZOhPKN1m81a_IgHyaq73MM9RDya0E5G8OTBlpQXXS8DQYmyCnCu9Q0U8eMO4GoYeFWSSBn2HVa5gKP06XcyOHxb3vCrYH3SYr4mZ-IN2V-d8p-d6EKMzO
+-xmPhyt8MkV7NLzuztJ482m5OY_JGw580Frcw2yD25FGyWR6aWYBjXUf3Ey-PrZBFJ0tGMQlJQGx57NU7xEQ-lhIwUlDHhAp4hUy3yMHO5S7ECvCND99-W3h
+w6TOG_bz8bJrMXOAeadQxUXZ9L0WpeWcA2CYxLcIe2ReZSVbbNHQqZ3ik3KKpbqxwEoZp8zahyqwHs-mwdVWWzkGDT4jMToUzE8sP74RChajgTo-kzZb2bPl
+mvqOldttE-GTg96odU6rDm_-NzctSgaTlu6qdyuPvwNvs1Tdpwty
+}
+
+EntityColoring(fly)
+!define fly(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, fly, fly)
+!define fly(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, fly, fly)
+!define flyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, fly, fly)
+!define flyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, fly, fly)

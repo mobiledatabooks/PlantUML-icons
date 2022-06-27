@@ -1,0 +1,12 @@
+sprite $dropmark [47x64/16z] {
+jTK7hWD120FG0FRzZ_nx7NkyHGhgqOl5CkrXgwOUvwj0z6dT88avgGUa-AYjpve4hkYtmYMjFci25tJ-tXQTV86kq56hByT5n_4Cc7rk9RSlEhO_OFQvbToE
+w1ZV9_X8UFPbm_6tR3os6wgXyNsIZuGhb-5Kv3BxoNoD1q_pMdenVEbcCbzt0lWyNdM9Tr_XdE4L3ZoJSzdgmW7Gr_HRrJzU_LQpuSVNkFQTDQBNNHRlGjsm
+5B_NX6oYf3a51W-vAMNTyYlRUpymAoDyjXkcN0R6Qy8_1UZTptvFe8pcoBXqENJ4Biabt7fijFsirMUj_QZMZOqTHljJ1XzT3rkbVu1WkLX-hM2jwW4-Srlj
+Am
+}
+
+EntityColoring(dropmark)
+!define dropmark(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dropmark, dropmark)
+!define dropmark(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dropmark, dropmark)
+!define dropmarkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dropmark, dropmark)
+!define dropmarkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dropmark, dropmark)

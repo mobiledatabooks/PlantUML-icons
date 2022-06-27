@@ -1,0 +1,13 @@
+sprite $dyndns [64x64/16z] {
+xTDLWc9144JHI2s5tlzk1oUVGTNVsEd6kO7Z0AddsdhlhTRiGfZ1Nll5wVGwRiKPOyZgfTdgLKTg3_5QCtnXeTxJ11-GvMyIuH3xTqa91yJJ22R27arZZ7O7
+B8rY8jh9SyxfmirKrSpJHTvZn9i1lUKcX3TYzRs5nBmUaElLZYtIdGLP3z2rTiKkzbLU52kU_89nW5CkaUz-RunmI1S36KjcjnuVK2e18MAxKNnaeMT4QZU2
+pxJK9zdxoMOC3oY2_dDNy8q-UyERd1zznkX0Cz0DBjBFU0zlDx5lF-UxWW5vqHD0f_D3nG2kxKBf2NgUwc6Nl8S-lVgE8RNtnk--d9uwOOJsNWalxVIY659F
+1RkzOuWkxjZVVSMO9h4F24EC3dh3l1RwWdcrjwVU14Fe3QK5QRxFiQyycHEyHNco1wGko5HE09KQ5Hge0o3N1P_jRVK4TAO7m6M51-hG8wtwp0DvwBLi1yRp
+YrnoT3X01xtcjIJ7-RP7sWxefZxE8Ji3pklyk0TxocbDATQy5dA0nDE6AuLwZH0HY_bsmIZM4Qtw2nOrNzGgT0ZxY4L4HOI9y6VwZtPXmcozHi2o9SmB_Q5V
+}
+
+EntityColoring(dyndns)
+!define dyndns(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dyndns, dyndns)
+!define dyndns(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dyndns, dyndns)
+!define dyndnsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dyndns, dyndns)
+!define dyndnsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dyndns, dyndns)

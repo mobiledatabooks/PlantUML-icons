@@ -1,0 +1,12 @@
+sprite $flight [46x64/16z] {
+ZPPPTiCm30ChqUBe_XVkNcI3Qymt7ZC6pJo_vLIFE3iNL9WT1snMA07x4oA9XXscnuBzosNuIrX4mY8H5YJ2eWDXmN4keQnWNai8-dpDhr11QsQqQSrPUs7h
+OIKyBDUQ1muduQ4hb-1mUxR06i_XTIun_wxuCWobXwAaSIOyvAaE2vkLH3MtpG_mhTcBNrY9b_UHBwt9UMlQWjBDQtW-IIWzt4MvLm5yUqotNTgAV3TRxIv-
+uAi6zul5ThYBzsLxAADjqTxZqJDAgv0ahKxZD3fCah0ktdVYhzZqxGv870GIOf8ydO10s8Yx0tgcy64qE50nazMAV-NYuMekClVMsdwU7k3JdWckabYT8_t6
+qTzOBiDAFisyYxVXOVgu_Fna2rXLzU_y1XI7ll0PjPg_qS-jVm
+}
+
+EntityColoring(flight)
+!define flight(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flight, flight)
+!define flight(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flight, flight)
+!define flightParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flight, flight)
+!define flightParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flight, flight)

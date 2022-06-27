@@ -1,0 +1,12 @@
+sprite $django_icon [64x64/16z] {
+xTDbOWGX68FXu0mVoVrlMvbILwYjFNzMtzK0m6NZ0YiUju9HN23sV9jJN2HcE1E_8MH-Xvg91-f2mzEhCshPDL5MTnjdUEoAg8oT_sOVrlfBNxxNimypstlQ
+Q_XoUskj5rkEtZiVtUXdzYjMZqUp-rKFU3Jz_wbxVACNFRxLvyVAkUbUXi5NwxsvsJwFF5AIvlSVi7DTA-T77NUokDItqM_VxDi_zzjYRz_y_UY-zVzH4NTY
+rwtfViFWIhCsizyXu9FpfqyEa7kdJr_ggURUxkFNUih2c_suDugV4BU0PrpLmp-Rn4z9VSift8WfrsPFbrN4Bz1pfChZikSz3XEsrkUHXwLQ1KFLGis4mLFJ
+EQi3rdyzzVXqH_CaYujVVf0i0T74LP8rYj-WTsiJlwNoEsI-Yz-Ga2akgy3w2sZFWT2un1A0Qm
+}
+
+EntityColoring(django_icon)
+!define django_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, django_icon, django_icon)
+!define django_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, django_icon, django_icon)
+!define django_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, django_icon, django_icon)
+!define django_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, django_icon, django_icon)

@@ -1,0 +1,11 @@
+sprite $dockbit [57x64/16z] {
+xTS5beH030JGj2V5_S-xrcy3erHOb_zaD8Qtt9A7mKQHeDGnZImHpU1w4bOnR5aLIXuufuKUph6ZLiC5OjIYkCqgsUKbpRTsmHwxqczLCAnTx0AMbkrmXe2H
+BtO1oRey6uZJ9D9nX4h6CMtW63EuV__-BISVUFxl65ZDxK3el7Ua7enSBubPGzCLMTL0P9EjpXUiijNuaZytS7dFG7vtKFqYowhC42KFkIHJ6ZCETU5Wjki7
+-H1TI5PJDS-J9Dd2mlgkUDSXhuzOnOk6Z_cAuAN0fOvObwkiH9WLkQ8QiI-lQt3KCpBpE6XxJ-LPSOqF5tkUjnPVv_XmyJMB5Wae6baVNOvgjxjy1
+}
+
+EntityColoring(dockbit)
+!define dockbit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dockbit, dockbit)
+!define dockbit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dockbit, dockbit)
+!define dockbitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dockbit, dockbit)
+!define dockbitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dockbit, dockbit)

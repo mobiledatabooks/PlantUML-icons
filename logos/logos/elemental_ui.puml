@@ -1,0 +1,10 @@
+sprite $elemental_ui [64x57/16z] {
+xPL50i9G34I9t__4w41m65p-Mq7Rk4r-Zy5W8AADqE9UEmGfhhM7SV9P-yWTthCHo8vvFeAe9GdmZqrU240qpYMllpSuS6KAhJRoeWk2Ig5ao_jk8fKm3_a5
+L0qbMnv3q0gKwLm_R4PdxUiSe-ntxnxcB-xDFrj_jGMxzUVxJvFel_u-11ZqiVEtIxvW_edzm-u_lM__-clt_tfrcE7-_1w3mM06
+}
+
+EntityColoring(elemental_ui)
+!define elemental_ui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, elemental_ui, elemental_ui)
+!define elemental_ui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, elemental_ui, elemental_ui)
+!define elemental_uiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, elemental_ui, elemental_ui)
+!define elemental_uiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, elemental_ui, elemental_ui)

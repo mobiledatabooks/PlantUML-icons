@@ -1,0 +1,13 @@
+sprite $ethereum_color [38x64/16z] {
+ZPIDhYOX24CjwBp_8wzmQqD2NB_ktl-Jqm7DZ1wC7mB_ZR8V89lp3GNbRzMc9bwgfFofilcIuL3-KYKrxNyGG6hUeSoctDbvKPrztGS082e_NLNQlLy6050e
+xCuh94gotbSfS82kgfG6wAfAZIu3qAWkewfIVO1ZgbJR1XebcRU-7TuSnz00JMNkIOcZjwhWJYfZx4HLmHC2B8Z3GRA0OCaCFVqV1sq31ZAeCy83yw3_VfsC
+jzrZCZu6eROlZhYoE5JcTdjFSE1inBXHSEukT42df68HiKP9D52vIbMHmI4CbO9UAjYe1IwTADVxoRzP3XGCp_68rhVE9NBfT2USekypFkNYKmAapbEl3KrT
+tBMaAtTrRYRwc4s5ZfnJz6KW2e4j6c38N_r1JeITHSUdLb_jd7bDmF63K5_fd3XRIj74Kf_YUOiyT2iyDgRwIc97kJlkoDJNEZUSr1Z8fVTOT8fQMdhlz4Dv
+eaplzAHkVJhsf6vzx5mxNFer87NlOoUfQv-ElVNr9DMNtZjvo8zEzZqwsVVezD7o3m
+}
+
+EntityColoring(ethereum_color)
+!define ethereum_color(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ethereum_color, ethereum_color)
+!define ethereum_color(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ethereum_color, ethereum_color)
+!define ethereum_colorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ethereum_color, ethereum_color)
+!define ethereum_colorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ethereum_color, ethereum_color)

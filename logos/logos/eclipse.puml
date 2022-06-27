@@ -1,0 +1,12 @@
+sprite $eclipse [64x15/16z] {
+bPC5eXWn20KXM09lxt_TblNAjrcNYG7KC8_1z05SHYRqCKDd0LZwWGyZ7H_huhKTp0_zJn13k-y6P5Lwcv6rjFteNRCc4rbMpa7aMKk8BRSRQEkATCSYBeJD
+sJw22kME8iCqNqeBOGkgwl6m-xLw3930kCPVGTbF0fj9ZUqVLvc6tuJlfijl4DtEurSURJlyC8U8n6QYRthu6we9n1_-fDQI0a0FfvhkF_xk_mmavji_HfD9
+n19Rz4sZwY-_JJuzck2Nd_t4vvWo7QDlzlN7oRd-XgbYImPAnQ9zj9-g2PuXudiyJ3JM4NyqT_mrWGxrM40vTR2yLwwGGbv01H5F0Ed_pp_cwuPEzlNZlpxo
+E_zJwIDE_mF-gR-V-By
+}
+
+EntityColoring(eclipse)
+!define eclipse(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, eclipse, eclipse)
+!define eclipse(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, eclipse, eclipse)
+!define eclipseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, eclipse, eclipse)
+!define eclipseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, eclipse, eclipse)

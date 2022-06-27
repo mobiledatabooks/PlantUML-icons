@@ -1,0 +1,14 @@
+sprite $docusaurus [64x55/16z] {
+fTO7akiW40JGITq82Lltl-st-6jAwpZKlisXcH6fB8EvI8Gun49b7XXEEXaWP9AxymoVXJqLdnI9V7e0TSxp-UfBvKsvz2-GmNbNbiBthdivHhckFAWCyPDk
+-xwtygK-2pjzZFEoNzjrlnIcZBo2NUtHjg-JUJ7mqFPwDBbVc86d_7ejVNetlWAG02B2tSnKvTJ_9_V_Ltad4cq-KKrj89CRBt4aQZKHuLP5n3RFz8y-V2iD
+8bj14_6cjOYia6HUIpEnXgMAB5LRY3RrJIGrW8dsbVQZg4ZTs1jg_gVvCnMPNJzvoy0443SH_d-yH3wvVtK-_dn-vwKF0C9UoSP3NqlcNTz8Nl_XXtZkmi9c
+vkzfW21iPltiAKzCx1zm6N3FwqGUPJZbq_r3t_Rlp40C_ZyF_Ru1_0Qb4Ej9qOFRzpZqBHd-cXTyphCzAB_pyQs-FKYUdv5tk3wHp00m2mH904lziN9CV-VC
+0SvdAJ1v_uNhMS1rhZxnuxx_e6PJ5t1TEuxp4z29k3-Sdn2Gfi4ak7NtF7eIIEVBQV_5YEOzrGzEWEa921Fb1DSJ9-DvxVCtE0WTXsywRY1iwjN3x-Q1wDN_
+0G
+}
+
+EntityColoring(docusaurus)
+!define docusaurus(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, docusaurus, docusaurus)
+!define docusaurus(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, docusaurus, docusaurus)
+!define docusaurusParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, docusaurus, docusaurus)
+!define docusaurusParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, docusaurus, docusaurus)

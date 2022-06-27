@@ -1,0 +1,12 @@
+sprite $framework7 [64x34/16z] {
+lTK5ecKn20FGX488-r_mw7Flo3_NfMxu55FsZ5kBsBOqPrPWI_JS4F6vjCTpnLxu61_2rqZr4y87rZoL-83d6G4BxzGyOs1v_Ndo0Nfwj_IUWm8qCv5L5NX6
+SwtfmmsGyqEDk-FZxFVXZOduTTUp0911nEAlEp28msd6l_Rk6TlTyFJlfkj3UReAidEv7RJ7RIDiBz05YrvaMEHgEfP75mtJ4jK0CoqwmekExf212cQKO4SA
+daQ4nxoes0L00jHbqQG9Xos9G3JeeYT3F5RR0dqLlWLOSGWVS9Ip5e9ov1XPqE_mGjLbkoW0P0BHggG04IAgEq1vsZCTeUcSyPeE8ETak_ivBdFVU4bpxTnq
+1xKxUdKzfc9p_9Y8EUlTyRi0Nps-GS-bkgwItfo_-kOvy9vkvepT2H1wqdHJm5O43UHUy8Dwq7JEtVLpNUPUWIsh1THLw5s76SzAukmx
+}
+
+EntityColoring(framework7)
+!define framework7(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, framework7, framework7)
+!define framework7(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, framework7, framework7)
+!define framework7Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, framework7, framework7)
+!define framework7Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, framework7, framework7)

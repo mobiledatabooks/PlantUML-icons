@@ -1,0 +1,14 @@
+sprite $drupal_icon [64x64/16z] {
+bLTN0kiW3AkdkF-5ttvEIcNYwgU3I9u4yseWwW6iNm3IJLxVG2pNXdITieky0IuJDWXrhA1OHy2ESSTwHChSE8VD8-S8IlSrHX9wS5F91QRMHMSUM1jfD2kJ
+pEFtMfDLlz6beSkfglgKE-WnDXHT7_h47Y90HpyBG4whzboUAFCjtVqa8BNKqUkRjGvaJxUxL5C2wJDhco_KZlUzcU_U1Dq6sU-DtC99Ka81A-kMCsZNvggd
+mlkbsHJ1dNilq7U19e8ClgsmDe7aEmMWvgEKIi2v0s3c1Uj30BHP-QQEEyNVkW9dVfJvYgNKI02ySwte9R27Ks3XnyrxkVvmbW0GVbxqmAKOf88jltYG_tyb
+usVZlrMmVmG4ZNqdV5lBYrvsQVmmady1wj4AtC7o7y9U7Qf_L3QlMFrjQoZG4pclVx6_WLa2Tale3eByI6YU-VcPBZGE1E4hEK2ySS38i93aMS7JiGffXXnb
+_qAtgG9Q7b5N1Pr0O2saDC5Nghn_XQiA7IzvgGe-68qXrs8_P_UphPtd2tYbGGDF0s0iXio8J4m6q5nZLF1SO4xl1URqFWVVNs5yHe_n1UZx6vZZoJZnVNw5
+IsrelKBFxc6avzBbDOUetpGGrf5_0W
+}
+
+EntityColoring(drupal_icon)
+!define drupal_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, drupal_icon, drupal_icon)
+!define drupal_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, drupal_icon, drupal_icon)
+!define drupal_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, drupal_icon, drupal_icon)
+!define drupal_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, drupal_icon, drupal_icon)

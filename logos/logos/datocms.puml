@@ -1,0 +1,12 @@
+sprite $datocms [64x20/16z] {
+bP45Okn05CFyGDxxd_Y3apHRRXKSa8Vy0jkwwGNOKfZyrH8sxJOZFPvntxuF9YNoq_X06eUD_yG--TE3gJCCgMRMdXaLfcljURnXRx-aEYQm7bnPY3a-AM8U
+RvbdNtYIKkiv_KhW5NDfveggDtuajVd2pyOLzmfkV_Egb3_rIu5alLr_sSRsdFwz_er_RrfTOV6x6bCQ6x2v_S9RDVR6Q9qufTCtc6FwgQ1FFpc1-jG7O5ig
+I0rCgXK6mvRUpZ_-ZwXC98PBOLFIRtW4wjPHwDsM9fjUqknyvWTcNvtbiD22qZ1QXlt2lra5LjeH7k7aTF_4HmTCFfY5KGC_yT49AqqhDgEgMkextwEBfOSH
+Mrtak-XBtqpTzGNiCOsYrVZZ-Vy5
+}
+
+EntityColoring(datocms)
+!define datocms(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, datocms, datocms)
+!define datocms(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, datocms, datocms)
+!define datocmsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, datocms, datocms)
+!define datocmsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, datocms, datocms)

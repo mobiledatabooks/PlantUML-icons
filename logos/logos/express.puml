@@ -1,0 +1,11 @@
+sprite $express [64x19/16z] {
+pL87ikmm31AWikN-z_s9MzQpq_xhJ0FBo0p98oViGxXiVykFYs7JsDdbZpwGI6H6AuGwgAphSyuviSW3_k9djQLbxiM3wT1iBXJ7d8Kn2M_flJ1Wvd6Um7Hd
+JnB6HykuT7IMdE_MFGTebhAGcTzMDpmfScbN8uILDNXkPRO8xgiHdbfQ6kNeNCNt_lLiEzTzDhzNTjnuY4nlJiR1iFipOlEZ-nqTri4S9gYs_25BzHv7jfxV
+XnRKIJZOMRtu5US1LdyO_jLVpTOGZBs_TOrbAfzVYT68ngiMdRdcfhffeZ1II144qstuhPgEoIBDL0AKVe7MGPSnmbz_UnsQa_KGy7xd7Ixx07x9_my
+}
+
+EntityColoring(express)
+!define express(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, express, express)
+!define express(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, express, express)
+!define expressParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, express, express)
+!define expressParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, express, express)

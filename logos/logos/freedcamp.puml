@@ -1,0 +1,11 @@
+sprite $freedcamp [64x12/16z] {
+bO-5aI1130DbjhJvv_jBptJNmz2bCauwEyRnOfJX5uo6lnELcOQNbEDN_FYRVsLVhRBE7KwA-8GVUM9XKPbXE5bDL4pPiE3BlARJRmvosT6rTNRqJ0Bel5jq
+ucQETKcxcqfropKbMnPBDGnn3evYrHh3avtcPc_zTBMbgjJAOHEkKC0uI9e2T-z5wSsEgk_rzofXudYUGJQBqvO3QjJZ--EdF4_Wk5R7uuUK01b9JPIEfbRC
+bbh7llcaIlkjVk_4Lv_jW0qtOpdHhDgOSxVCtZQq8vUwjh0ts_3Ldy57wCMBJU0RATgdVSStaeuFKGNW2m
+}
+
+EntityColoring(freedcamp)
+!define freedcamp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, freedcamp, freedcamp)
+!define freedcamp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, freedcamp, freedcamp)
+!define freedcampParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, freedcamp, freedcamp)
+!define freedcampParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, freedcamp, freedcamp)

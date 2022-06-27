@@ -1,0 +1,12 @@
+sprite $flat_ui [64x49/16z] {
+dTC9RiKW40HHRA29xt_WR2s5J66F9LhxIA_-wXBNzB9wG80FXVMkiDPgpiU8lFV86I0FWVwxm140zoRt0aS0t9lS2nm1SCzyBd04m3tpENC4m8FlMEGCL7AH
+roMGSodokWPoBWMU1CY7kHIv0nM1X0kyrX-2GCAbo7zs50JQspTFZi30XFKsTnRlR7FZ8mwvS50rx_zsf04UsZUlWHS4u7cfWRUZb2omNle9lWO2znuUA_F7
+m4sI_3OmEKy2VmwOCm3-531V0m9F0j0EzBdJ2e5qG-3O-HUuhjIJCt3TUqdWQy3yDZ3a03a3ruFNxy3NWFaQ6FB86S0_3lzyyEHBf9zVtLP0u6y1-ict0W9_
+2z1FlXKG-NiW-Cct0dhWsUgOtdmx8FEDWBtvTa3cMu6VcUy5m7S2jQJx0W
+}
+
+EntityColoring(flat_ui)
+!define flat_ui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flat_ui, flat_ui)
+!define flat_ui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flat_ui, flat_ui)
+!define flat_uiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flat_ui, flat_ui)
+!define flat_uiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flat_ui, flat_ui)

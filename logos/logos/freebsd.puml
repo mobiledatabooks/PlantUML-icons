@@ -1,0 +1,13 @@
+sprite $freebsd [64x63/16z] {
+fTPNjgGm40DGEPTBslzwvm0TuJ7WzlsNxGeTaCnxom73GYeb8b4BjeI34DCg1ko5R5nYrVJ0Nl0XbkQaLgIt4l4M6xMXwyqBDh5sQeUzXbrwqVN9Cu1ar9ze
+2GYD-j3qYHdHg5Cj5Eu2-c01zJHDxocvlbcWNYfYrva6XEFX6Uy156Jg387escD0UfTUTSu1__DHy3jn4L47Z02A5cMBdqk1sZCiV7r8qV_PyVrCM1J9aNYH
+Pwp78pVE2DSL2pnMloeDfciv7vh_bAbh36qt-nVN7JsOtah2Kv663-Y1PUpwDLIf5MEJOvDrcyVaQxoWInchhlkOaSsz02PrB28reWMix3c2eZ6i4TWMjcm7
+ZQ9Rvsk3gP_veVmnZ43MX0nKJQX0quG6c2Pqe6k2J-RxVDuqmMRxFpl_sVsRtt_urFYd1j0084-L3mJgHmoOAi2mIjHFcB3fFo__9azqRzMdhlzj1ndnLZMi
+ubEVUFqYSkBruql0XBtCWNZ6KU5K7CYSYWFHTOD7d0cDj_w_dCj-SNd6XKgTOiMrKFpaxX9mJshEtStU4aQaOlxAMZaB_mC
+}
+
+EntityColoring(freebsd)
+!define freebsd(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, freebsd, freebsd)
+!define freebsd(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, freebsd, freebsd)
+!define freebsdParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, freebsd, freebsd)
+!define freebsdParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, freebsd, freebsd)

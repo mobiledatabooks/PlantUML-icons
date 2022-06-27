@@ -1,0 +1,12 @@
+sprite $doctrine [48x64/16z] {
+xPP7bkGm34C5WjJzRppJ6UfwA1UyR-vi_g-SrXbWDx7Iu7m4x-4x530_mRpuN6ZXEn64PpNqJQ7627a5EnKKVuAVXbo0IWy4qP4WEX5gBe8UpmKgrN1wF-3x
+8G4ZsCPW7O9l4amnHYWta5nMEAkcQQOLslrTNb05l1Xfc0fcSW4QoqYW1YSJz9a9LNDB8DLv7h6U2DrQbS5LicUsfYaGllcABXy5Rfuo-MMuu_9FdkafsJD1
+XwbBvriaaj7f6Xlm-71bk1Bz2g_PvxZNA_nntMQuKipnDW-DUeuFpCyBdEOyx61Hml06BvjvYjFFIGNuhomkS2iGg3PuSbbVxGvcbwa2rcY8yCO-TZPFsYlQ
+smR-3m
+}
+
+EntityColoring(doctrine)
+!define doctrine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, doctrine, doctrine)
+!define doctrine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, doctrine, doctrine)
+!define doctrineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, doctrine, doctrine)
+!define doctrineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, doctrine, doctrine)

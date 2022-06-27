@@ -1,0 +1,16 @@
+sprite $drizzle [48x64/16z] {
+xPPRSYiv34D1KXG9UF_x7OVLrHhVwsJY_pbvMdt4WY6_y1rc-1KEo-M0xwxb-1bBoeDaRuTjYMduZX4UAYHPP2zOITg6z-JJVg94CIoR7GXAohUv-saF2cC3
+MCqob1ui_qjV6dqW5XDfI78XfTh-bxzvRz164wc4DpT2scb_rOXr4dam8RLZin1YvilmS7OQWXfVXUwlv5h8sT2PH_S9G6wxEx953qrPoSBIAh_zbcnnRp9X
+4qhBk37_RIGtggDFxr-hB7Yn7VcbDRhHrt5iBZ0wCDYCmQO1GIRMLmuaBJKR5feMAyjineyVpeWogobm6lBGrPQpu44BFE4iDZf3ZAj0BUVogryYkU3qDE0U
+idVez976jCjNeXlEM0keoyzLeTD7WLFG80kk2Jnn1aQjkRQdZtpnDxeNmmcxrzREnzs7msx_Eh-cBrdSQvdrE7tyuIUQn9QlUwsIZzD7tFTtuFH6nV6PEjDO
+mV3Zp_cOjFBuTQuYMVIPTL4mb9J7buw_ZAHjFGwTfOToFzxHA3RwPMqsxtgdJtzvwZdKD_woidZdz-CjD1ZV1Ht_3MgzdSF7H-XJNu_F-DJ_D8zJd-W1A-cN
+iihnn3Ub_vR7leXDIJ-ut65umIABqiL86bWvxblCO-NUzMJlN2lSWC_v7r-dKhoo_8sVCc0e6LxG_j6tmE1ft_bkbty-LQsM_D---Ns9KfSCsKko991KSUFu
+rlVdcb17b6JOud9imJejQ3X-qoqrdJJnP8zlyn_6MZX-JBRD4o_7n-rNNq-bzIMakhie-yuF6H0joJ5-xIVvHvxZSrbIvPrNdW0kGXM-zU9ljPY6nIi0jJns
+dZxtj0ZCRvCw0DYCPLvzSftpWc5-vhUbuuikd5Lt_CoaYS1lCMPI2x_bV7p-7Ueti_y1
+}
+
+EntityColoring(drizzle)
+!define drizzle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, drizzle, drizzle)
+!define drizzle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, drizzle, drizzle)
+!define drizzleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, drizzle, drizzle)
+!define drizzleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, drizzle, drizzle)

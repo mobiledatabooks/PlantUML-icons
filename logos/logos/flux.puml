@@ -1,0 +1,12 @@
+sprite $flux [64x26/16z] {
+XLG7aiD023DD-V-FpvXCb29yf2y8YP8zdcPHU3nGOSUTUNOKqZ-FhS5Zo3r3TDHOlMT8N4XWFbsZhJwYwkMewwVROLD5xEI83lEB44OuHJiWuOb6VsIR13dd
+D5FQcx3QGvxpO3nIi7zhHtu53B0wZI8iigNiQfo7JGybk8YmelOFQm6XwAbOQwU0EdEBSPELsdLJALzFZ7qNDekqB_kiQwm1TOythlEAftwziFtAOzSFcPz3
+v_0qFfVqn2Ms6lnqsFdQny_lI_dHRxbePnyHUZomwzt_-xF5CftafjD2z5mt2AyfaE2cNr56yLSKvI8kdoMr2y7FYzUy2EV5MC2LAc_M6Ht6lMJ9-cRMjxmW
+YPhZ7StofjgnFm
+}
+
+EntityColoring(flux)
+!define flux(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, flux, flux)
+!define flux(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, flux, flux)
+!define fluxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, flux, flux)
+!define fluxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, flux, flux)

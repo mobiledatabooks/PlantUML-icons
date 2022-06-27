@@ -1,0 +1,15 @@
+sprite $erlang [64x56/16z] {
+vTS7khKe30PWUWic-z_jAE7aGU7q-VjtU-Ib66zJtqOxZdq7cOwqKWxg4V3hSS4PDSTsvCGdDSUNungKnTJXua7F1ykr1z9yiPozNuwGnFK6n1Sr9TKXOAVf
+OVJ-pXsIfDNyuijy-bXFWMc06tnKKyh5c_a0ui7EteTpzBo2-A8-IHAVFl91lF_8--xv-E_7mSsRZxmLhx_pHVrQdzKSdv-cr0S-rXVoOF_Xf_br_noyuSti
+xJlUpbw_xg46DQUyuTDR3GIu-hBmxgwFEi39ltK3sc8yW_WQNpy0Dujd45_KQnjWeMI6rUyFILZnS7v6Lh-_9EanLsdz-rEYyshp4WU3Brej4c7asLn_Fuld
+5ionMLgTtVtVd_pfCiR7b7FqPlxft_tGs5SZg-xUbfxq1jUPZLN_VBJVqvhdze-wDyt8vHJu4vTq6-su75AqNASzczfJYGZRvKJIZ438SsQ2_RtbBpqUAhFV
+Gl3iOw5jz3nfK5oZr7oRXR8DIBvvaA568Uh1j_44Dq-k-zAMTe7Nnvm3U-UlwsUAI8PhWAZP8_7PvVp0VayuUoITAN8jUeBczR5BYuXL7xuQQxhlJhodpIMg
+jrgcAklRkX5Upfy9TL-BIq0jblqnP3X_8E3pnnZOsqA5VOrndyaGUkU0yiqRRDuYPHU9tAN_ThyU-hr6StpCqdC-an_wpvlKyi-JTLhPzgbf9Qwq3wtMRbA8
+u_FtVVu3
+}
+
+EntityColoring(erlang)
+!define erlang(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, erlang, erlang)
+!define erlang(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, erlang, erlang)
+!define erlangParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, erlang, erlang)
+!define erlangParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, erlang, erlang)

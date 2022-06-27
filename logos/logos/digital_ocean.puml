@@ -1,0 +1,14 @@
+sprite $digital_ocean [64x48/16z] {
+xTHdbY8n40DWLPJg_XTUsZsPwOTX_kv7na_EDgvvaf9OONXUSZwe3Cy9pV9Y3JrtvDXbdBcdU3s-o9_jF2kpg7aZmuRyEMMMcbFZCTDzRwtdv7YeVkrhpq8y
+fD_dIhCO7eXPwkB_n0DrDTFQcq7EWPSLxmq_hmOcsyahSCVtyhxWAZ-6RVljxszhOPilTmkpo_Lj7_eiXKViPdr-Fp7SFK2Kv7VvUkhytELhJl5qtW1uptRp
+eAGmCzSI7gsdBa0pqy4MpQV0fYEazwyV4d_9A_2NF1txccH_pJFm8erOZfUv6wxzbpT-V3fEaVYm_hMiD5oPaTGmDKuKed0o5Lo7lCmJLjC81ynXy41f_J2O
+4fB3gRFunWrd8UnudrvjcWebITwC6KLA2bFcEB2wT_x3KRrzbQHS-HfNkTevJbahh2f4KvPm87tQErhHykoWREYSbM-PAcK8EOKZ4zJ8b2d3ZRhM5uqqwPJa
+ayYLZsceOW8rxtanTEHDDA0cKWupAI9T3BxdXn8DAd0qAvzpX6lMhEI8ceP9hQxfbaib-Ho593i1TCApUhmQA7gGtTO1U9E1zTc691CVXK5yM5CWlAvcv7ZI
+Fm
+}
+
+EntityColoring(digital_ocean)
+!define digital_ocean(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, digital_ocean, digital_ocean)
+!define digital_ocean(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, digital_ocean, digital_ocean)
+!define digital_oceanParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, digital_ocean, digital_ocean)
+!define digital_oceanParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, digital_ocean, digital_ocean)

@@ -1,0 +1,12 @@
+sprite $django [64x22/16z] {
+fPG5aaCn34EL6C9x_-FkQE8ojohvrteE1rk-rieOQpLyfU3_Ll-5d-jRtiYZjEQ_y5yfUHzZdhMVInzZr0o8DuPDjrChdpezsiOSLG38MA4OlyJZG6BLFyQ5
+zD7OK2FXsxFu5VDFVWvw1PEfoEdHDxCVOsMbcixNBvSC45LCvb9P4KzBnhfiS-oAWo40krX_SPOrCWKGyiglxKl2980UmxdQFywUNVE5OF3y4W3bBiz_PvzN
+VDsydlELJix7iVyijg5-nRC1stoMM971NzPmQnUy8LtpUT4SlibYmkOh6pfV_uOUYtR16zgPprPe9gHwnGjPoh3EU9nynoaUN6aaTNVJZ1XNibAAcoIeMMRU
+D078vkQSFp9UQr5SgkqrVY8kpdoSUv8Kpmd9riCRAZMU27romES-2lBm78yXUCYpEcNuIhaJdYtZKly
+}
+
+EntityColoring(django)
+!define django(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, django, django)
+!define django(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, django, django)
+!define djangoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, django, django)
+!define djangoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, django, django)

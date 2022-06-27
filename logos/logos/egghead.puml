@@ -1,0 +1,16 @@
+sprite $egghead [62x64/16z] {
+pPVdWfWW3CTB65de-pzkmMZKriLzkd_7IVGN4eum_lnM1O3mGnGAYmXJ3kDim8uoYmhdKJYo2CRGl2GImR7kioZ1raWi34Emb6CMf0Du4l5K7VyQFB0wlEFq
+3GwiU66Kyeb6kOeIHD87E8h0vKX-Iftr9aJw47lsk2zYXzSXkq-lABxGHUZ9S_J6-0TPwILh6lVjUdcT1HzyPrKY4MsItDenfTX-e7Q945TDuOgCXRLEqpGt
+JSjFfZgrPoNj5dzJbKiC9vHqMZMlwa-hvMGrLKxxO4okoaobYQQZAYusbeEDLzg-LCfHPmohS9vsfStAiyHCTJ6YTMsDMW0EtyN5FqHjONFOLEOQ00rGIzgx
+KELzLjVci0rEQZIvDMYr4RgYZmkIpCjxQ7GvpkHwfc5l7-SAEpsbO_Lxt-9vcqx5INEBtEY3po0-xcGMRLo8gV1faikfRnS9bGIvMTTychTgzUi9MhvYaSrq
+Ak7kgzFP3DWUeRlLkEUdZSOr_mdtZ99qAta-xeW5jjsp9pVNfPcMHzgg0uGjsRePRDu5vjv8ADCyTyBI3MYJlNAE7M0sGhTe-g1ZeQeiFU3PUeEmrMrTQwpN
+5wdY4feFXbV9NbOSGzZe4Cdu_GlBrHDtMP0fEDpn04KDT5NmWHJtRBNcx86FXPi7Tu67jrnjrS0SmT6JWdaWgLRmfvS0NjiFwruNoCpmtqTqsBJ7DxeYvICj
+QMmZUDyCeqZuGYVbwmD7-aANw_q4tJomHG-67kzE1tJ-LOoSFxppyJEHT_wQ-SEn3VZjJ5QUZbrP15uEi77qd7XCEhyCASDzps-b44WulHxQxuNN5ub8AbzA
+EBDAWNzO5A7uhGPHL33vYXmBoSZ52D2kOeH8B4qyTYaB2LbCJ1b-T8-CJKx-Dlq5
+}
+
+EntityColoring(egghead)
+!define egghead(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, egghead, egghead)
+!define egghead(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, egghead, egghead)
+!define eggheadParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, egghead, egghead)
+!define eggheadParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, egghead, egghead)

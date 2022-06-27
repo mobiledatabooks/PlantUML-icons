@@ -1,0 +1,12 @@
+sprite $dbt [64x25/16z] {
+lPG7SiKW30NrH0Vf_jTDW5Y1ZzFBJdDRgmx48JhQG8YUFWl7Pm8lJznuyba_JZpiVnF-YjznC_NbzbFuInX5iDs1Lk1pxNylvJu1AyBVXq-gZQYergrr6ErQ
+S8WJ-j3dgZAQ5EB2omr_x7jLPUluJbXTOFS1R3xvnJp2noPIdVc5YuXaJB_LsWCywfwCeXrfbzz4EmtTxomTS7HK7xgSY-hbgzRSL3NF-ArP0RreFCw-nsKY
+B-R7cPJWjNuBUyHdcGALon_ndAfwP_vz_TU7xfmVH3MuT_gFh_YucVzNyW_nX9V-WSZTzC-D6ri_Z-q_o_nQphBChwGwveV-i5OB3tABxxRzqJRykkuFHUsu
+fMRuiuL9H9eF8fKejvQvY4h6jTgo3utFymVCj066xGVZYcuZimx-p_bBV1nMy5yu_vy
+}
+
+EntityColoring(dbt)
+!define dbt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dbt, dbt)
+!define dbt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dbt, dbt)
+!define dbtParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dbt, dbt)
+!define dbtParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dbt, dbt)

@@ -1,0 +1,12 @@
+sprite $discover [64x11/16z] {
+PP85WXqn34FbC5cw_sqRpuUsksyW-8BUv-nP0FHJaPRxJ03A8azzQiLTONidFCLMpsMdI5O5A5ucCDLmH8zyPsJsrVGmiEu7c3Ft43v91rbISytm2u-X9bIo
+cvMmthHC1r2rqRbIIkWQrkX69g2GQQeMdOJBKKTGz85sM86jTls1Iuy-Lml_QHXgvkBCIAGX6FgIcnOotQxeSqvxvfVZvK_rwoClYYthu67fIp7IXWRG6LoV
+JjQtlzJ21z8K2_tt_9WQ7dsxLixv9bVFUFdvsNz3QAvor7xj7uNK1lxP_zJ4v_m7hjzEZcvMoNQ5WQqt7S0HwoDECmlVd1KKgVVzTzAf2Opt_QUZXubBa-Fo
+lV-1UjCTSVI9l-RYmALkoXjWWz9f2EpTT89KetQU-GS
+}
+
+EntityColoring(discover)
+!define discover(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, discover, discover)
+!define discover(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, discover, discover)
+!define discoverParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, discover, discover)
+!define discoverParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, discover, discover)

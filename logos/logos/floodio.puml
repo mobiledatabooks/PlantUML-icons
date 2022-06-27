@@ -1,0 +1,15 @@
+sprite $floodio [64x64/16z] {
+bLU9qhGm25lE-Ful_9zcYejMFkROmoQ4W9tsyn2Y7WaSnu4CD_dy9CGInoMGhbDq0vDYfC90T0_u6uFciGtOjkx0TVM_k3AaF2S75z5s_Hlc2Gma6DQQ-F9A
+epwyXJlsDjcoveuW5lhpAZ1xTZuAvjvgp4RTpDbR7BT_utL89M-gb0cSaNrjpE6B8AlwENofzIz2dy5NFZczfvvn-AK7YsqSMI26fdvQGHIkrqqfetKCoqqV
+J0tYMu3HYvVgiqrjqlCi3rvVF8u8cmRAjr7wrMJYL2d_rMrmOULq7ynE_A_GwNFfGCQWV9o9mJuN0_AkUweNzwWmwM1z2Tgk8m6WRg7935PJISNhPYkIKpw_
+rQfQMmaledmPd6Hwn4l_5vmF5h31ysKghxJn6zcJ-5O_1pL5Lbl1Bwk0gZGluyiPutYuHEMl8rJnvA-Ba_BeUUd5aeeolthcx4vQcGMkFe7619AdeDx9_9wE
+LEeBeO5nqFErjlr5Nq3xZJoiLx-FCqZfUm54QRMVXCgrDSJwiUylQQxzIob4p7IsURlLNPTCFufOpZXxD0-cp_8TFqrFiod0vt1ZUeeXsoGwmEgSp0yWqKya
+e-YJAbW4OxXrGuwK4Ppg-x_GqV6lIqqI-EZu2UccabatruiExmG8lKKxqG-T3cokMiQd6vSTbmkVwRzr8dgvm22cjoymHZSmIjW6ecbl7c_GhJTJ1lPb5jOf
+a2wVUVppV673di2_0G
+}
+
+EntityColoring(floodio)
+!define floodio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, floodio, floodio)
+!define floodio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, floodio, floodio)
+!define floodioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, floodio, floodio)
+!define floodioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, floodio, floodio)
