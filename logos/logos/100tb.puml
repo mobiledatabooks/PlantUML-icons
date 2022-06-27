@@ -1,0 +1,12 @@
+sprite $100tb [64x24/16z] {
+XPHjbjqm24CDw9BzxxWvp0bsGjlHBvuU5ujyhP9Awv650BcjbypB3biVGTxYQHDP0bLhs-IFojvIvi47kKMKDsnV4U5HKSJ92u3TAUjCMvZbXQxCmWzUADnT
+i7jll7zrgrqhChFmpOVCuvQRGmyeVF9ANU9bni_9W1_1lAiagP75NtdvYtUdIiBEIwQsrx9oxoBkCcmPXFfyUkLRdO08sguc_7WgLlDHnVvJlO4ozRXEHMbj
+dgUO0pXS-k5wyvObhQrz4-PvWtS6txTEar-3d_dbP0bzGyNCppSOXEStGOr4_kLxMnhF94Q2mcMimKTcty7UnkDr4HqIkHEJj-u4DXLTogtaIcpogpfR7Ljj
+aqWaIVprVZ3nwXX-sPCtSk9p0Ap9T-VltoyrsqYFt5-Ep_UpRNoz50AqPxheZy0XYx9rqdy
+}
+
+EntityColoring(100tb)
+!define 100tb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 100tb, 100tb)
+!define 100tb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 100tb, 100tb)
+!define 100tbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 100tb, 100tb)
+!define 100tbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 100tb, 100tb)

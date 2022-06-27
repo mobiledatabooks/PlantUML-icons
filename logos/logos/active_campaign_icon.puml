@@ -1,0 +1,11 @@
+sprite $active_campaign_icon [42x64/16z] {
+lPL7ZaH124Ch9-v_traDSeaMfgFN_fRhWVYpfA3swL6doCfHfvmMTOhC77NAhb6ddC6SK_wr2QzorCfubIsgvSTcBS1vDMr0UUK5iOHNXzWHVHWVmv0mhqfu
+bGgylDWEOqHUTcqFV8-yx1YW5Xc3hLNMOrvG2xkBNLjJouoXEBNC6BobkyUGdLYJuBtsJl2NBcD2Tbvx9qooT53iNZeRaBfrfZo0W4LWTldUeNgqKhgK-rhz
+2bJrP4IRMmroicBtAdugoDxJanOyanyFRE7Rz5FOq30E-mFJo-l7iCd5VkVdKiD_uibWgvQ1JPmZKIs0JPm0cpW1Dd4gRAPMKb1_
+}
+
+EntityColoring(active_campaign_icon)
+!define active_campaign_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, active_campaign_icon, active_campaign_icon)
+!define active_campaign_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, active_campaign_icon, active_campaign_icon)
+!define active_campaign_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, active_campaign_icon, active_campaign_icon)
+!define active_campaign_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, active_campaign_icon, active_campaign_icon)

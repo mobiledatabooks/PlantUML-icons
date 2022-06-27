@@ -1,0 +1,10 @@
+sprite $airbrake [64x11/16z] {
+TP45WaKn30A1JEz_v9NmNNXQqg6c1u5KpOpregy56rxvmnV-a5SlWLUJBxpun0VwxIiZI2RUjjUV_PPFB7csWvnqEC1Y9Su0sDTsvUK79DgXOSD81ikSPbdh
+6iOAgAzcMY6gaoogGdtr7MYb-Ie_a7MIS9HCOiYDrvKtTpulFETFW399FAtfpkVR-9r_dUwUfFKuS-CFFTRovanIFfhcJZ9EV3jNuCOpm6rd5E36Ysuia5y
+}
+
+EntityColoring(airbrake)
+!define airbrake(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, airbrake, airbrake)
+!define airbrake(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, airbrake, airbrake)
+!define airbrakeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, airbrake, airbrake)
+!define airbrakeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, airbrake, airbrake)

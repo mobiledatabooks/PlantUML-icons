@@ -1,0 +1,15 @@
+sprite $altair [57x64/16z] {
+lPQ9hgOm28LB2mMNUV_NdS5UfBadnh-pVTdGz5ZW44DvWaHDfPPLgfgZRL57GxUk50jqJQWfhAkP1krtXKitiYMoO8MTkmNRkNsOBFNZF4yB_E6ZTCLF7j9j
+eBBxSt-JjSsFALKpPUPknkDJExyKzvMO3Xj8JQcG-ciijJRcHb7SpgEhFIP8_CZcKYKFcNcKp7BH-2f6XestVH7nABNA1PFh-eLiLt5vpw35tSNpsQKFf5Jf
+mH5LLFFAlkZtq96TUWivTSBJMO_nAsqwFOKjizEIJ7cJz1iK3Yk2iEIYJa9EeNSlhN3o1Tme-H612mAzVo0icLx4Kg6a0aMJJ8riuhWEhC0sarpmU8ZtQLk2
+baondYTO4Q0bvu-ze53nh_PjUEauDnGoT0OjGM5QWUHKe73k7jBKz55OeJDe2Gep7IJBG24CwPCbA2Iq0Yr18Gmfqimw2d584Hz74A8LI5LJ488L3_tXRq86
+AvuiQIaatNS5Avv6LlVTQ3oeEKgVxmOghbjP4aXjq4krG9Us6EwMSNsZsOsg9Vg6_Grq2kKDjOGpFDuSaMEpe9SUuVwoNB0VkBEZGaEfaXi0a5i0wsHww-gh
+S2mNjI2vTv2eTYRSSdu1fNwowSJguL2jqxl-qZcAKfiuBPOca27ZP9VkY1ovL25OwYPz8EQPVupuXG6L1L8dd-fmlIZ_uyR2ynQpdEjwfhbzIIkha6VBp_Vz
+1
+}
+
+EntityColoring(altair)
+!define altair(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, altair, altair)
+!define altair(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, altair, altair)
+!define altairParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, altair, altair)
+!define altairParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, altair, altair)

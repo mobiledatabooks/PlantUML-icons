@@ -1,0 +1,16 @@
+sprite $alfresco [64x64/16z] {
+dTRNOlCw30DWW5D-_nS-nt-PaehjBbnrv8FegU2BY4Tck19_YKPMmd_VmCYHq5zoYTmIzYjEp_VOJobVfsvF201-OzKZCYBiUWGhINCtvQEs5pcEPO1FVXo7
+m_oCoJUdR1t_9mdFxIyBuXzHNACnrwg2vcT8hzZZwksF16FoGs7-D47ay1M7RRzRUvUTMzxuHKGjNzxzuGXYzvM0zw-z_dK0pLk_86FvG-4F0_ZGKmXZj95F
+FXwyOVY4-WWlFh9oxnKslKmVRY8KCT_Ek0-V47_oIW0aNq_1ZL_oMjxiCZzekOvrh3I2dddr1Zsjoh-esVHsT1pGKiCRnDnaf3NhGpsfHhOlxgwJ4snUlhBq
+B9ZUm3SkWEadVoeeV-Kar5txtbjt1UMRp-dh6aZaSy7f9v_Jdzvg-QS2G-JjwgzRcInzNw08lN0sTzKSMMy5fX28cR0Z1635mptth4uA242chdsvSzbcHfou
+XABkJpvSXJD03VkSzqtwma6F4TzZSuUcnJQDdLp1RSXP4IvHVnNGz_tov4hOMy7AKM285zUfQtLpmhqBBWt5Gc-vXvCPNnJKkzCXTpppzBS5_GwKo21opmTV
+SVhRWkWzGCDWsp-Bb--2cUWjHCcxuTjtmHp0RlU_zUB3Ly4sPGWw5X-FJjqUXEVqDHJx1WiZfdSVjwV2ilquO0L0KHK2c_SjaBpwbUEx5yLCdhmWsfIl0MOU
+FJXEiY2xR0lHCUyOR2ofYFxjqOjtTc7m1uyHUaU6xvDvyOePs_ngCC_cveaPJf-hbtU3t7d57hcPF-ftkyvlU8zsS-mV9_pYYSS2W-tlA0DyzqRSHEpp_bdl
+m-hfjsD_Rb1uwJcknaiJNuJrtQ1JgFutyNF4Br7y9lhE3R-B_9bNQEvZc_b3gBNsL_e_
+}
+
+EntityColoring(alfresco)
+!define alfresco(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, alfresco, alfresco)
+!define alfresco(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, alfresco, alfresco)
+!define alfrescoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, alfresco, alfresco)
+!define alfrescoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, alfresco, alfresco)

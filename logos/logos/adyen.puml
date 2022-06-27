@@ -1,0 +1,11 @@
+sprite $adyen [64x21/16z] {
+rSq7aiGm24JHHZ9qt__4MvX1dXmhxP-W-6pSDYHnmtlzTs-hNiBAMuOrT5U8AmSiIBPtagmBWSdLmE1gKXq7dDBXSp3aXVJg0eC7yYoTE15wwYDsKfux4lOc
+t_0SOFk-87FIt_PnuoD_dxoVSU7raGyox0TVBTzvQ7cv7rxXQf-BR5vugkFi9vRVgAfznRZmanIhYN4iDbZaukIHYoezcJu7sEWCbmlaE5aUOrLpgyjuc8qB
+_t4Rz_IjdzGfRh_vC3pi3m
+}
+
+EntityColoring(adyen)
+!define adyen(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, adyen, adyen)
+!define adyen(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, adyen, adyen)
+!define adyenParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, adyen, adyen)
+!define adyenParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, adyen, adyen)

@@ -1,0 +1,11 @@
+sprite $algolia [64x16/16z] {
+bP45ekCm34I5exd_YLUEtDJPpw-G29xHYWUbSk3byW6hECFY0yX1y1FVsJxklZslMyxBxtnI3xy8i_YBhtRC7mfNDRnzJy1VldKGDa_VVcI_OCKa4HsuIjn-
+iidnWwmLsFMCyOigkF9iL8jcBdMiNydBDvQAjryTQ7ktFqqD1AGe96vVtOgw_6XLZAciEP6tR-ur2rr_fDdB1nVRzyitOWvl-wB53MHUrRVlXEezVnppvpt_
+B6n4CJOX67zAM7u-zs-a6d7voTZ-wifqSMxVrWkfkafujR0P1yitle5Uiuw_hnpTgjb_dfdC3W9fCid4D6Lmg2At_v4vXC_X4tneS2H8_SftdfHzQCWp_P5_
+}
+
+EntityColoring(algolia)
+!define algolia(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, algolia, algolia)
+!define algolia(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, algolia, algolia)
+!define algoliaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, algolia, algolia)
+!define algoliaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, algolia, algolia)

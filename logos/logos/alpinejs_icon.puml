@@ -1,0 +1,10 @@
+sprite $alpinejs_icon [64x30/16z] {
+ZT9L0eGm00FHAixzZxkQ5MHeyZyFQSF_yXX3Qpa5MfgNiPMdKXBdom-WlDQICDy0a0k0N03dpvM8kG3E1M0kW7C1a0k0780qBTiDa6y0p0LmBe1p0TiSWAWS
+0UK0A6T0EG1wUGQK4p2kImk8pvo0D5q0FJoVFe01pBTtZm7ARG1o7u3S1o3t0SYRG7S4IjhaBW2v3q3-NBO0o5qW5yXz078RUEO8B1UhPyKT
+}
+
+EntityColoring(alpinejs_icon)
+!define alpinejs_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, alpinejs_icon, alpinejs_icon)
+!define alpinejs_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, alpinejs_icon, alpinejs_icon)
+!define alpinejs_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, alpinejs_icon, alpinejs_icon)
+!define alpinejs_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, alpinejs_icon, alpinejs_icon)

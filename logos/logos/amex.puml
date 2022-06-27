@@ -1,0 +1,12 @@
+sprite $amex [64x64/16z] {
+xCz7bWKn349HG4BU_uuRkqxd_CVr73Iw5VHWTtTtTtTyJUA_EXwlaVXNqI4g0TVDZ29h9rGduViO3zekm6FXZDBQ3TTfG05Cr_LyF_kox0qdjpBYpTqPinX_
+o7lFumEDiZBwkhUVgb8y48zu4UcmrtsyNA0xKkxisdxDZBbEXMVFhxp7zenizDWinni4uhjxpQjFpp8TJxkgUZfUdaRvzVidwFd_B_4iyUpR0a0dmDRniv9V
+_LFxv9K3GGp2KDdtl_CM14Pc-dp7Mq9xwOa1kSj7WuhcJnErEpMTu2Fu_nTjWe4r1xaaaF-tD2fvB3pF02zUqkG1eP2jc5fLE9z-tP0oCqQeIBMJhs7w_Bgb
+ijrCtf_Ov3jPpUGPqQpGKh9M7R2QW_bhVCqKch-lOJj_mRxRjFbdBSNxLWULjSdRnlSg1h-zzxXzV-nofwtWaGvutkJvLajBIqjV
+}
+
+EntityColoring(amex)
+!define amex(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, amex, amex)
+!define amex(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, amex, amex)
+!define amexParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, amex, amex)
+!define amexParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, amex, amex)

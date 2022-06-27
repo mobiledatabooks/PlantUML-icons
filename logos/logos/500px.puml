@@ -1,0 +1,12 @@
+sprite $500px [64x16/16z] {
+TPC7ZWKX34DDQ0CfllzjLz68_VsffXYC9QR7pGIIjeFq9JZ8SZ9sE-KcjGAM-nYgj9kHTLaatKbUk9cdiKkMDMZEg30EeDCr2d0eHky5a1dSI3PZ252wqtBH
+sO11ozNUQUL5lxcFJMCwcAawCmNgxMjJK9Gvr01g4oIDXeC41SAdquqTFLq35skwo4BZ2fBM06Ys3vCNhjmuDEhHUwJSZGrAnhesEO5mF10QZ0KFd6WSaAQS
+wFIIbfGhTwgp5cuy4L7SyOHI6Zk2d2Xq0JB42qWgjxpg_Ls_Kp_GXm2u8oiT1mi9muD2V_MVLUf_i5cKygW75oxsrq3wXxutdFlHdn_Wh13wymK3-VvN8WgI
+nWLai6SxQwp7YPC6GF36e6MlHWWWpfqLcj7AdRarf6up5xumILtAkDUKjAr-laiweEisKWNVQKfodsatajJsEgRzolqF
+}
+
+EntityColoring(500px)
+!define 500px(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 500px, 500px)
+!define 500px(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 500px, 500px)
+!define 500pxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 500px, 500px)
+!define 500pxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 500px, 500px)
