@@ -1,0 +1,11 @@
+sprite $axios [64x9/16z] {
+RL67WeKm28CEIiB__-yzUc9x0xTccOf88wHcS7tE2hHwCUfJTn93QfgJj8HPH9UQnIdYd4MtOamI8ErvL0ISYLEIBk-0mxWUaAFudVoOD71KKEHPHOnZiUB-
+acjku-JQD2-zM6Ep26bbk25nrFJbUzhVNKscKKiuS5D0hei_zRT_VUk6e200CAgNx6xH3f_zt__Nr6sC4TYngB9dTtTGFjhLlv_-BH_t6emJBsqyvG3zvjlL
+2-xrLqC4btu1
+}
+
+EntityColoring(axios)
+!define axios(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, axios, axios)
+!define axios(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, axios, axios)
+!define axiosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, axios, axios)
+!define axiosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, axios, axios)

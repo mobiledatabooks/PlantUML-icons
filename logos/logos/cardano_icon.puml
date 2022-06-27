@@ -1,0 +1,15 @@
+sprite $cardano_icon [64x59/16z] {
+pPQ7alCW48Etq5Uy_-F-nJ1h3_4nPEfzLvCWDoG1RT5cWRv2c1xKtXizOAKz2SPqKu1A3neARIc0q0td8dJ3rYjjuHnfWoQXtmzltZwWsDkagw4o7H3GkxbA
+Roi0YGw8WEihqEP9swcUcm-C093f8XYQq14gxaR07IVAz2M23WHwWNbvkEyv2xL6cYpZ4predhCp2lgQi_9XzQGq_yjXZUcIIqw9rpC0mp0PmCUZ3v7f3SbP
+NGxKAKTluzCIQ8SO02KIJ8Iiuo8GiLr_DwHfc81944poi5El9tfrFMEIvb6tUZR0v2eg0DSaDGnqnC6KTd0S3HNHvqaLk5CGej0PeG4Mnne0MA9pEDMQY6IU
+QlmNQojA9uYz6AO203RT7DoZpQrpCqq4cODBeaaS0Gj-TBsjuxY9Xaojeuo7L6rqLN5dH4m2EMmO57U9pKuiOsRIFKMOw5FVdxEekCzFF9tNie_rm3XblV_C
+c_v6xp1TE_MqVqcBMP5dnJ5HQgqgdIFLR0YacBL8XwYEFq3lGBpirEyd5vXs-8BJF7_rCHtbIkU6-9d_XtNqh3_AmmIHCPcjjEzv1Jh2e__KhHkd3IFj2BN5
+Esze7XtZQohg3t8DwoBi8Iu0OBhj_-JBj1DBcMD2BeaN-PBlsc7q1NbP_oAGtwrSv7tzNSQBlW_xoJ0i9tleF8tZaYCoB7xgvNJ_e-ZTsAkuiJzYb3CzEgQ8
+OsJwKa_rjMZqs_tR2YlJxoSgRP0aj2K2kjcN6TfN-dLVs51fJz3TlfG3qpS48D2Mlm
+}
+
+EntityColoring(cardano_icon)
+!define cardano_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cardano_icon, cardano_icon)
+!define cardano_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cardano_icon, cardano_icon)
+!define cardano_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cardano_icon, cardano_icon)
+!define cardano_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cardano_icon, cardano_icon)

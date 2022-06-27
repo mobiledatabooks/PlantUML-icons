@@ -1,0 +1,13 @@
+sprite $blender [64x52/16z] {
+fLVN0eCm21G2XyR__zxkOX8ZhdlgEkJO7MAm0aB3LIJO2-2hVDW7IFVu1hd6PzWFUYq81BDR6aZjfWQvgo4j6lXc527tWX1hODc2mdOrC617W1I8F09eZwzs
+7A20Vr53mYa3qXiL9Qn4vqCzMhK6o3Tdn5AOq6C50-KDcH8Kx7QaI7SxEdMgZPYfbGQAfJkTTCelJ3-2H24WNQLPyln3rgfMm87lRb_pxCYeffhsVNVp_dH7
+bb81gEEx0vyFfxb2fZ91AMf1-GZonvSEk80jtzquvWPMHN3BTvTlBNyi-RRbk_FZvridRQYohxdXQuTVpaTXbF6ZDdvVhqe-eIevHXKSr0OQHkixUoYyEiQI
+Fb7L0LQdJScDBzcbSQd_aORAVRZqeXfM-qwcdD_iIN_ldI49wvaewq7D2cZgBDJUf2a_f7Ww3TszLWKqwl0qeBTN4pOdFPNnWbzu4YmZo384dUsA4m3bxjda
+05H5L55_hD7DScMBHiEWsvuN3JZzkW6dNue1b0wTNJYw_S_SLAV-K72JT9nX-zNWigKDsnC
+}
+
+EntityColoring(blender)
+!define blender(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, blender, blender)
+!define blender(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, blender, blender)
+!define blenderParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, blender, blender)
+!define blenderParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, blender, blender)

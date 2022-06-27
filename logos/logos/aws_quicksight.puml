@@ -1,0 +1,12 @@
+sprite $aws_quicksight [64x64/16z] {
+xT9N5Xmn24JH0Y5HjFU_N-je79Y0ZNDylt0xwirVql_-TpMh-40hYUBkW3O2U2MLWbwDtAAOz7oKWuvtXVhNUm82-5VxWHMEyTLU4SLUpnlC3TRruHvNoWKx
+YQQd05Y90slPtBpbGs46CFDp04f_Fo8qOc8b7bTC-9Tum_h0vvw7mQFbOm8w8BnnERpsyU3380g87yN3dtsajl_GuGm5OtVZf-DJXR_nxHFl-SotvmElFO_F
+_FZ4MpxpupUtwFlCjq-ywVcHks0btl8S7_W2TiQkbtjEmLm2ZmU_2g_ZZeTZa1CpSYnza8p4Wn1oO3KzJKVciQq8X4-UBxbY9sJU5GoFbkV4y0LbfCZT9pq_
+P5YaW5LvxrMt-yjNUmfsy-kzc-XYq_VhUntVv1tIyGErzyzpjzfZD9BI2rfLdhvwiSfRyNVA_-Z-ns_iBG
+}
+
+EntityColoring(aws_quicksight)
+!define aws_quicksight(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_quicksight, aws_quicksight)
+!define aws_quicksight(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_quicksight, aws_quicksight)
+!define aws_quicksightParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_quicksight, aws_quicksight)
+!define aws_quicksightParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_quicksight, aws_quicksight)

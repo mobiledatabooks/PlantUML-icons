@@ -1,0 +1,12 @@
+sprite $blogger [64x64/16z] {
+pTS5Ukj0301XuUZ-9oviIa6jemVzmp3-p22BPtAcRkDBkiedXpeCN4w2UWevo9TS8rzF8qIe0TIfYSmQWPhvdJt0UbaEzf3kPlh6tdX07O2hN33OhaFbXc0p
+TxdDsSqd0mYvBwWEyaWEnlwTqVKgen58USpP7ttz9Dzilmy-XNpHfhTR_yJc_QVjNf9FATyS2dPwKJjHEQDgJjDtd5clmrv-Qw-pllvppn_iFJddJTzjQTYH
+tgvxFxJ-9NK6jEzTlhd7YI-cqlOLiiMesv0jKRCT0Cq1e17KP0IKxWWsEOYXa_mDTcpasJi1MZIejYy8qpVdgQe7LDiltFHBptzdiaQ86acb1Z296iXsZUwt
+5ir1FhY29LK-M7AyjfM-0W
+}
+
+EntityColoring(blogger)
+!define blogger(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, blogger, blogger)
+!define blogger(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, blogger, blogger)
+!define bloggerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, blogger, blogger)
+!define bloggerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, blogger, blogger)

@@ -1,0 +1,12 @@
+sprite $bourbon [64x63/16z] {
+vTS7SiGW38LXdcZY_WVUmXADv18pA3r_UjQV3QwpGS8pkWpFWWcq5BIsgptFZlFnPr_FKi-r15YEg_OJNzi3hpM9XyFRfeSltf7VW_1z_e6zFlXy29uTIF_T
+8mJ70SHFyC7ZnqvSZFw41tbE7yS1n4_mCWrw56bpguUA8ab3gDsO-56hKUghYgh4AjhwqlXHDTpwM5bgQUjpzomBlurPnU_vzFBft1TMnU7a18fNFhEEPFUF
+NuXxMStV-CGc7FjMeaJ6Mrvt7kE5Q5SW-xvftcfdvZhO-qYo_TBO-A9st_XjR47xb9FiE-lptezDbATBkPJwN8wpsdSdXz-UGAr_wydwQjlwADwSGCEQHRds
+TLfFvhuDyIQxljFJP_mQ6y_M67jFJWzkqxvkRjjkJzrFLmvyg4vVvdqwylCJaAlNFiYHybG9uT3Fj_TOUFQQlxmUQyENFsc9IvWRmVdIM7ZlQyEIlWC
+}
+
+EntityColoring(bourbon)
+!define bourbon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bourbon, bourbon)
+!define bourbon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bourbon, bourbon)
+!define bourbonParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bourbon, bourbon)
+!define bourbonParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bourbon, bourbon)

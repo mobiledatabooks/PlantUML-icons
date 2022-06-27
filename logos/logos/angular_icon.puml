@@ -1,0 +1,14 @@
+sprite $angular_icon [60x64/16z] {
+ZPE7SaKX24GNiS3z__zD8SxS4TrdphIq4nxh0exKqGiu7Etcp_DO4n08fPd_y0HM_wzBYE5EFEbyoJ2d-p8kkcWFCRjtVOh43Noeq7I8lEfvIJzHx3dXNRau
+6QXFGFHOag20FnGFas007noRSxS27mTR_pWMQDmTZRejNE63UwLZ1K6dRbNcTY0Gwgemjs0oc5l4M2ymAKHrWT5UN0ORCFZOIQ5kvxt0F3WxkXrel1Um-I-E
+RWCg7rlSm0TNG7alkZyAi8jGeF0wMWH2Bi8546EzQ3y67HmkZDNHVbm-sEDFo5Zr49ISeaLjI2_6dpl8AVP8yrZ7oF2lykTJZ3pRkHSzN3wuHeR7NeZxvy4Q
+cHnxeUC72zhn8ahyq58l26D_NeWl20XbTH7Otelxu75m2oXwS4Vg1SNoym9zwuNKjbAsmHL83spf9tcxrosRMzS4yf_MpIrvhFhczdIABjdD0UGgeANdXPXF
+97s_PIF-Nk-wNi_xvrD_1tTCnjeBoswWo-06BFkDlBuVYjJV5OBcGIt1sDr0vHTzFyLSaF0ikASd2feHbp0ANgJR_rrJh9JnJzShTdIt3sOJ7AbsSxk08Iaq
+4X6pEtLDiSD3kqJqCRHxH3oqUqGyD1xHFJGUqJqq6j4TjS-BVWC
+}
+
+EntityColoring(angular_icon)
+!define angular_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, angular_icon, angular_icon)
+!define angular_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, angular_icon, angular_icon)
+!define angular_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, angular_icon, angular_icon)
+!define angular_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, angular_icon, angular_icon)

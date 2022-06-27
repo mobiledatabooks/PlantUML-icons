@@ -1,0 +1,12 @@
+sprite $box [64x64/16z] {
+xPO55ZGn28D3WN3_4_yoyCgw--xtP3I1AiM2gCTPq0IDnGMu8176PMZA8xdKW74v0bXS0I5n5KFZAiZu17xyyBWAWV2Qw03ykVgVFgkI62Fn8REsgMWKVRkk
+7-i5ZO9YC0o0TjMmNNeqklv6QDFMS4Wl8xCmeXubYzposkl74RlroeYWBWe0uZEWnlA2JBVTUer4Ps7kRv5AsLCoVSrMKDcsdwTDlj-jrsZ1cXtpOwLbn-VF
+PYVLqyZN-_HjR1kzbF5vuBZ2DUSSmqrpmTu3Itvaco53jXtJT6yBh5EZ8B7kJSdUCqlZFGb0oPe-kaHoradFlOIwRmI9fj9jb3FnaP_t7mXhuguQQBQ1itMw
+vpoNQDfR6OvQDZo-rRYg-igZgLhAw2NFsrVWnm_6TTYLuIMkGk5NXGVakl20niKOS8s1zMvt0HoOZBCTgAdy2m
+}
+
+EntityColoring(box)
+!define box(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, box, box)
+!define box(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, box, box)
+!define boxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, box, box)
+!define boxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, box, box)

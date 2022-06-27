@@ -1,0 +1,12 @@
+sprite $broccoli [62x64/16z] {
+tPRNUZ0X24Inm0pl_y1_IKoNJrRkSgxth0fZaGJ3G2UqIvusr62pA-clq5hMNT9I5vmfUP2-WvQGbHvnrcSihyd7jGAM7EYXEa7w0Owup6VsdP_qDCG8odnW
+cnoZFmGVklfp4AmvYQvgqszWN_E-0uMXL-m6_PB_jdd5ngtCaesApL6n8OMgiRsq6-xNGUtqEx3a-wB1hp6PlBTP6ThPMR57pQxDN7qFC_RsN86PpScZh2AJ
+mKdBLCwLsvDIB7SRJcvjFSXpVtcYINnMykLJ4ltR-uZags2nRV-_DDi_lXe-zCx3eoNMstPio84r8iV6HfCJIoAuwU-PoRY_zqyzanmMv389WcZbw46pakZb
+qC53Xl842mf-j_8fZs2Gb9kciJ-pzRVOGoeDrqhDtQGI5yf37VnmqUKfm_YgQkZ-1G
+}
+
+EntityColoring(broccoli)
+!define broccoli(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, broccoli, broccoli)
+!define broccoli(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, broccoli, broccoli)
+!define broccoliParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, broccoli, broccoli)
+!define broccoliParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, broccoli, broccoli)

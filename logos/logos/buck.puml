@@ -1,0 +1,12 @@
+sprite $buck [64x56/16z] {
+xP87ZiCm30INgkJ_FtnnMzY2Zg5nlGnQsemsjks12ZRAyYxX3h_Sb_I0xz92rESdcewOBkzk--Rx_xwbyw_hRPztg1e3KL_FWQGCHFrq2MG673yS6Fraz2C1
+-ft7qvy5P0ZGjqwTiUa2MQZ60AK626TE0oDZ83bw9E3eeG3rDmIepqXTbNIT1GhYr4b0qri3yjqNI2xve6oAjRomrxJa2nXeTW-yCO0t1l3602PqM-dDH-dF
+0mq-dNum4FVb4aXb8UD2xaRV2V2DfiltZTSlig0F3sxHNUzu3T7pWYRZz0NDm9C11MIShXLuTdm66QUtvEbzqFtf_dX_UbnFplIGpkc-hfwkLV26qtl2M_I6
+3zRr9vxkwt9Z_DlrEjSxvhm
+}
+
+EntityColoring(buck)
+!define buck(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, buck, buck)
+!define buck(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, buck, buck)
+!define buckParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, buck, buck)
+!define buckParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, buck, buck)

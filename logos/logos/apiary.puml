@@ -1,0 +1,12 @@
+sprite $apiary [63x64/16z] {
+xTP7aeKm48DXfvRC_GyyiLz0PRJ0ovb_s_M1oPHJTOpYwgEwQG3HBiVjUzolfu7lOhs7cjFr1ke8P37gOepdE9h1m6A97Tbo-pq2vwB9GSkuwq5heygwCpa2
+MRViGTQjHr2xODb0S-DHuGlOY8quZorytEVV-3RdyTlTTM_mn9vxxBbVj-SUEqvwh0d-pXoqutnchhGaE5kjst9A5Yld8d_GMMBZUPXIhyjrcm8qWOUDfPaD
+o65hi-UhzFBOQN3KrujyWIsVgAVFdshFsSkf1WWsV2x-0ZeWMBWSj5O7KblEPduV25W-Up5rU1x5LZsV_K_mVpwtE7SukS797SuTJcvmSeTpXvCxd9Qtuci1
+vVfszpK8NxpTRGFAzUtkgm7XvktkZc2QCsxhUF8PnNVvpPhvARvJ3Smyw7irZcBx1
+}
+
+EntityColoring(apiary)
+!define apiary(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, apiary, apiary)
+!define apiary(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, apiary, apiary)
+!define apiaryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, apiary, apiary)
+!define apiaryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, apiary, apiary)

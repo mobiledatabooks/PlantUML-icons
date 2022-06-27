@@ -1,0 +1,11 @@
+sprite $cachet [64x16/16z] {
+dP85iYfH30NxnDd_Wh_a2KFXzBZqhHY0F3B31OZtiLNb8Inu6m-TLn8Fq6sTAprd9hbYZ0jKeDILFYMi-gbl0-v7NGvK0H0RdF-KQ7r5mE_x7BUmWuu2T18i
+wemDepjhZCxE7b1NL4jroYtw8VZSg8wqayq6EWsCqm54xvyXFBxrQz_3Ax_pNXKgT399DlhsyVZHD_uHBDRXqSdeNB_rQrdV_JW25eVwgHt8PFp2PtIklv83
+8O0keHfgiqby32f__MpsQYFXSJrBt_EZxifeyEafwFKTigiJw6a8vteKnI9nSNFrdTLC80ldCnJvZn0Vy1S
+}
+
+EntityColoring(cachet)
+!define cachet(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cachet, cachet)
+!define cachet(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cachet, cachet)
+!define cachetParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cachet, cachet)
+!define cachetParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cachet, cachet)

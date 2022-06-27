@@ -1,0 +1,16 @@
+sprite $aws_route53 [64x64/16z] {
+xP07kXin28I73ihzxnkBJ-jTvwtIU_A_OYCO1dZtFVdFVyPBLBb9xYZoSOqG5tMIVygT01j7K0mWdw7FwEDoWJ8unqCpHX0iPh-EIW45rSVa1Xb303PtuvO6
+WTJTvcjsmQlaIe1gVWWQoMbSIfYmpnA1ZXqvbsqgtAFEn1aLmJVobOgwFAdaTRvQ9hS8hF-JheBKtc8rB2DGhILlq7cxOM02Y4NwquC1h0XybDphkUP_AvU-
+68dtDNL5Lj5AlTMlqnRrTFLWBCw84MCug7RtYpcTZmq9hbcLcto0Lz4ztTfWOqCnSlQlJwVt1YMx-Veq2Tdh0rfbYCrzm5K1s-lpeg_9yLd7-ShXMtrT_9Cd
+MgKyiHfLhV_0lwuOh4eHLIF08Z934I7eJ8Eg4b9R65b5g0U1g8E0NDDP6m8y3VXLto-DmkUCkhUFMMJrm25gqN92NFjl1p38D4EsdeW0wsU0ypImpGMwSTit
+MHNzaXa6FWSeGjpRwwoWotIwAfFNp0BlrRR7xuA3bDQVEw_sjnT8y1gmKNDNSAQOkop7jPwU9YSEpJBOq_g1P2MlBvCswD8xlQs1cqptDRnxvdbaoehLxqgU
+-ZqVrskcGVEZSWTd-brLdpPfTgaDKmdF5FYvqAAIuLt0bXjS0CiCu3OBoimG0Ap-9cj20CztWUOT0ivs8NIFo0DZJAIxAYZlON1hCjgitTP49EQ72qLk4E3f
+6jhpJZMrSMEqbQyqs8u2xx7fYCC5RR1bkOAE0pgJNJU2H7uAL-uUR-v7uf6VHRZoSzGmcjqyFbFykcohDyOV9q81bgzJD-4CKAk_aZ2Do6_Wa-hue_bFVYFl
+0G
+}
+
+EntityColoring(aws_route53)
+!define aws_route53(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_route53, aws_route53)
+!define aws_route53(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_route53, aws_route53)
+!define aws_route53Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_route53, aws_route53)
+!define aws_route53Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_route53, aws_route53)

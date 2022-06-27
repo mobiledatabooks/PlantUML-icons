@@ -1,0 +1,11 @@
+sprite $browserify [64x19/16z] {
+hSu54Y0u48LGFlJzhxoMzN6XBFQw0Z3v-WRp7z1MtyB3xX-Ikts3Fp68lxDly3CQo6l0jtWSZJrZFVzs35xxg1mG63DW1L3MrbKZOP4B2a5XTrSOx83d0PPW
+5cLEbxd3Acgv2_DkB7b8WDtVdXai8ucJlQDxm6jQUzC1u1yF2ej8RjTbLYq12cX09K0xeVQtzmZbjf49m3z-yVSei6H9_iyte0KODtWe0HQyod-EQydKL0d5
+8W0krW3Q_l63jmKR4CWem6xJ0HCQ3_7bDW07hy40MF8Z-MES7-GRF-dxlm8
+}
+
+EntityColoring(browserify)
+!define browserify(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, browserify, browserify)
+!define browserify(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, browserify, browserify)
+!define browserifyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, browserify, browserify)
+!define browserifyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, browserify, browserify)

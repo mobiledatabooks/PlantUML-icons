@@ -1,0 +1,11 @@
+sprite $cakephp [64x13/16z] {
+dP85bWCn3CM-MRx_XVTbbhcj1WCAsP9dm-uo7QPxyTaFKBeJzXEalc2clzWlN7uCRmFH7zOAxUgMSkGpj7trw-XC3IPtktnpoSz35sX6obNGjV3grRojVv1a
+2Y151Qc1aUDARCQiZc-gzTu3BbdKvCSbHym8A2KUX5Cng1SM1PbmQJqJUeVHeHZGBANUcKbdTrn3HAzYJ-dLw-VesoadxJcshK5quKbuoWb9x_i_fRqqwThz
+D7KA1RIAOKGTeL_s_-QZk4f7OxgguJt-vlOS-dFfFERd-vuHzbAAUJi_pwPrDr73RkWndW
+}
+
+EntityColoring(cakephp)
+!define cakephp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cakephp, cakephp)
+!define cakephp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cakephp, cakephp)
+!define cakephpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cakephp, cakephp)
+!define cakephpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cakephp, cakephp)

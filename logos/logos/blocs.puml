@@ -1,0 +1,12 @@
+sprite $blocs [58x64/16z] {
+tLQ7biCm23FBqFx_1zypjuUUujokkeUC14ciWI0-ip9q061UFM3kSIsRbVqKSfYdSn6cgLeiSlf1eT4Y7mjvSutp7lwfBrVA8tRj8tMjlaAemH2q836en0Jw
+pSYwM0_rue9wmFjds226-CE4m4hqECbu80A30Dfb7zwaZ1siiZ7614H6LUtvxYAh8bhpBcnPhR9zfgpc0B44ivdoZvc2m9XwkNwCYnEcNH62gJK4GKoEcs9A
+J03xjgbe8VWDJkNspp8vV9RDant2Lsg-FPpV7T2EnCMEF57KLya-EQPi4sEz9aW903BhKQRpHFWkFmfEGpmHuGI6KnX8VJGA2J00x89su7IB3VB0URY7Nekh
+O180y5zUG2YsYnqGkogYZhk69z1N6XAPOTu71WdqlbMOTmS
+}
+
+EntityColoring(blocs)
+!define blocs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, blocs, blocs)
+!define blocs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, blocs, blocs)
+!define blocsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, blocs, blocs)
+!define blocsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, blocs, blocs)

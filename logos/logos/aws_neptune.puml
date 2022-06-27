@@ -1,0 +1,14 @@
+sprite $aws_neptune [64x64/16z] {
+xTK5UkH844JXI8uix_tFkwfM6uMBW_-CCVM-0jCVFxJVNdu-WvKn9NlyrRPSy946xzVj0CGYYrEbAm39SIzFG8BZwuO0uPqy3bPg1tYT4ze7euAE6ylNqMWu
+-X_r1jxeXGTvuheV0I1wR3u_QBZNkm1MFHOlpvV1LC0C70VPcm172W0nZwpA35S1OFMONLcVOSpcZLZsdDtkf-PSFQlOOxhTtvgnnov7ZUbybWB4t-yBC47k
+FyFhti11wFupkHyt--tyYXvzrEyV803h7gk4XY8EUjZsSWdv4BG0iDxlGm6DwXuzpJV5GXJyVJEMDVQqepeD2r4pTpCLG8aFAnBeCOxxqPq-ivMePvUfm9Ui
+kmrnsi-t4yaYktlDg72cHq1xNFHJz_lhgQbOLN_Dtip-K05UAOW-Sjx7ewJWh_RfmUvMi1U6EkczDmo0P3hkzF3Dwj3PJdDMa3xh8S7DcQZmB8650t7MFvRI
+I9Az83lW98JTLE0qdsknN329g8g05CYZOdV9UlWopOFr7-FqfSL2jBeK4doU0-nkOf6zmTcls9oUX-1pnlNo4vumdlNxC_hicH15x3_3avwbiA9ZeVoBlQ4I
+aq2YYht5X1Ht9tD4GLG0LYG_3jyv9BYZ3CY2aZGKZpaWbb_YK42IQwzd_RhIy-_t8jnL08ZpaNewX1V211-f9nzIi4XUgxdq55byLsvU_3VzzjkV
+}
+
+EntityColoring(aws_neptune)
+!define aws_neptune(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_neptune, aws_neptune)
+!define aws_neptune(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_neptune, aws_neptune)
+!define aws_neptuneParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_neptune, aws_neptune)
+!define aws_neptuneParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_neptune, aws_neptune)

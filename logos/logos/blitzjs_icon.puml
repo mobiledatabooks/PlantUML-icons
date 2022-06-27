@@ -1,0 +1,11 @@
+sprite $blitzjs_icon [42x64/16z] {
+rPHNReP120FPlfJxNpUzMWgVa_nrdf4r80i1fbUXA1ug53CY5Xdvn91ZLZn3g5QF5wnmaKziBf9GtV61Do8ILVF8NBN5T-R1uengSnpzKNK4eCbAjAe5q8cB
+db1r1R1EhPhNkWTWfr3L0COfL9rMdG7iP2jMLOQpjPQw_Rjg-GhCJlKlqxhy4zi3xb4-gL09trNOE_iGkXBhifKe_sbluIl1gqv2bVbqfrVTlAhTpLCk__Xq
+Agpg4BBM9Wb6HQAgIKh7pGbLbICqYyHQOsJ-b9iGJ8XCK6Xdfhe5U0G
+}
+
+EntityColoring(blitzjs_icon)
+!define blitzjs_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, blitzjs_icon, blitzjs_icon)
+!define blitzjs_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, blitzjs_icon, blitzjs_icon)
+!define blitzjs_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, blitzjs_icon, blitzjs_icon)
+!define blitzjs_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, blitzjs_icon, blitzjs_icon)

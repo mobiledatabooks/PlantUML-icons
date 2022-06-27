@@ -1,0 +1,14 @@
+sprite $aws_lake_formation [64x64/16z] {
+xP05qlOu38Dbjhltl-ysANwGzeM5dvwPgcGfIlxwqVZ37oOpopVy0O2d5zUU2SYh_YaZyedrfqyK02fJZUab4apOibIOMIsUyizCJY2V4XloU8GmwwGWw1nM
+CnbA03-Ma6xAh0g6XkV-MG2fMtS9Ec80J06AKmBTLWW0R1wPRjPhw_7J0BzRd_69_9ZkzmNCL6L6pHds-M_S551OJJKpQu3hSppLJG0XpuzjV9NgyLgNzhxe
+KIN5sz5RTLapnvHh2jhWqZu5Y2wbJUO1I5stJo3R4H2Y20HW5wy-KHyiPm9IPRCiEotHScRDLQBQNwiX2f-LuRtzjoIuXZ2ogdiPCPWXP8qWQfg04cg0jEJh
+RWoCMnfyx9TbH5rj-vOdQNhX3yXQ8nbv7Cbo6hA8mYxzmGnA1dDKfGBicv0Ro62N-my0qdojfu8OE0dySl-KtPEL36sDBClLCZU9l3f_Hiuga7xjdy-IX1pw
+5Rx4C6Wm5U2i4R6i6WGQb4o3Zlr9YDOnsFDouY3FzFHB79nNjFYDEEJJ_p5sv0kiYQxIKKXUm-ji201j8btMzXHvJH1i7LNWaEZVu7c7epS8RzSYCSlon_8U
+1-IxbhO4t-C4ylo4ysEhRsV75cTt--BvAE4Ca9X7muG0ido6SC51R_Ca4QR2HCHY4P7F4plvxn4_DN_8D_aR
+}
+
+EntityColoring(aws_lake_formation)
+!define aws_lake_formation(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_lake_formation, aws_lake_formation)
+!define aws_lake_formation(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_lake_formation, aws_lake_formation)
+!define aws_lake_formationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_lake_formation, aws_lake_formation)
+!define aws_lake_formationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_lake_formation, aws_lake_formation)

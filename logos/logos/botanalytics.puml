@@ -1,0 +1,13 @@
+sprite $botanalytics [55x64/16z] {
+tPPNakCm30KH6F3kVs17GIPAnbhOFDE_h2QY0fsXDw8w0cEgCu51PHGtbAeOW7gQ3G-AQR81-9occCJcOyC-j6t6O70wvGZY-S0B-U6CO19k0OP-IFDvFiCj
+CDug79m6Uz32BTs71zYJUGos3jVst0I1mqAimsrBw95h3JkwDzyJiapp4y-iX-sGS7fO26rR7zYxwl3ESI6cjrD7FkDZC8bT6-TMVRmkI1upLbMXdJKdozRN
+pyXXpocCdL8jRbzS_9PfCkO3yvnYLpDjOC4uBeoSqth-Siors6qnIAxrnOeDQ9roZNH7w42k1VwqndVgcjs0rZIdVMEjVq_DQfzpVnicxz2Sfx1z9xNsks7-
+8Pozzx6Xv70VSwoODuCDZcDkgU4zJ2IMQGsHs7cPxxM1XEdNsb7ZYOH1EwBjmNHDB96iPSEq9Nvl0HMYNEj-jLHMnxnsfe8M-bpLJAceULbrRJ3LDNGg8Q6i
+ccP2HSJBAckTwiZ9igu
+}
+
+EntityColoring(botanalytics)
+!define botanalytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, botanalytics, botanalytics)
+!define botanalytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, botanalytics, botanalytics)
+!define botanalyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, botanalytics, botanalytics)
+!define botanalyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, botanalytics, botanalytics)

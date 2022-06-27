@@ -1,0 +1,14 @@
+sprite $aws_timestream [64x64/16z] {
+xTK7gkn838NXewnJR_Q_tgdR1ZfPjE_ay7uealYSmo__wdxsuv_OOdTLTtDzsp9DS4yzUHsl_BAY7hcBS1K0MXTv2M35vrD90xIly03Yx8JfG7xc1PrEjG5-
+z0REsqPyz8erplgIjsa3r4iUscTRM2L0hC_U04skjUvqhOwjxRDVYjK6G2ogRrM6RGndJtxTstwjbySN44kk7mrVOtT_nCe8Tu_8vjfTzcFNFFzvlhr_boy4
+Tnsz-3LELOtlUS7EQO2j5G1iyiOpRweg48Z05nKm3XvQVFThHzjgsp0eTF86Q3GVnhpv7ODhqGJ6hF7ywtZ-FQkgzyh8mszx70M2pT4lTgZWeTY0MrRk32Rm
+uVnvN7-INU6t8YlX6gJZbh45c3sF8-MzX05PaDWbcI-UzxP_Bn45H3IF0b_-fDcpW2IPnPqxXoOVca0o84LI4AFlCw-GBi2mKrK1Ol9-viERB00LEBB9m_h4
+ywkI8didcqzU0AipVw_DEFeEmV7uzb5bGlGr7ptxzVETWhUiHqzsLxhfaKKVvKRtEFgZxjwBjtLKy1Sr-A4BlcVFpWlUOSEfTGbo63saaEYpGc1z8GV4ivzB
+5y3xKcNOgKLcrbxXkZ6i-ceLh_z_ZK6FLOQxcRb7Llzv_Undlm8
+}
+
+EntityColoring(aws_timestream)
+!define aws_timestream(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_timestream, aws_timestream)
+!define aws_timestream(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_timestream, aws_timestream)
+!define aws_timestreamParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_timestream, aws_timestream)
+!define aws_timestreamParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_timestream, aws_timestream)

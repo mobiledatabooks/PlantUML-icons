@@ -1,0 +1,12 @@
+sprite $basekit [64x54/16z] {
+xPM5SiGm44CRCg_q_rzRYBfbMD_SSDwXuIKZnu1xSN5nmSybVY-H-9sIXCXrW70uL6l4hsmFNpYChjkc6WHziGnAHphBgn51NsnGxAfY9_xrbnE_GEKPNkL2
+_Ejd4trNO024Xm_uXHIsAW0G2l_kU_5uAUvVmeTzuWoGuE4pCEEZwQOUVWT3_fw5XYzv-CM8aE_uY3VzQyIqlpRGLd-CKxvOCf1z8i_xkkyU7JxvQOYUD7_f
+SnSYFFyqy6jy-hWFmN5gWpXyATxYTz9y0ixDtoAVO0iba9yXh4WQZEq-xY-lo5PgdqLfzldxl6NtqgIV8CEdeN76NwlheLLSqYToC_Bh-J68CBAzu3_tuUBY
+uWa
+}
+
+EntityColoring(basekit)
+!define basekit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, basekit, basekit)
+!define basekit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, basekit, basekit)
+!define basekitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, basekit, basekit)
+!define basekitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, basekit, basekit)

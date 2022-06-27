@@ -1,0 +1,11 @@
+sprite $backbone [64x12/16z] {
+dT47hXmn30DGgb2oDUFS_xYHd1xKlrp0XSBRDbjnGyD7EITwjLKV-_DuL5qlAlWLLKnaolz6ScS_ohFzUTwqtLwMHm2UVKpIpU1koVJk60xELBkX01GFvwbL
+TSwkyGHI4Et309XPz39bObPV2cetaxZbKzjXpxVZxTCO49eXCJwpb-YN4O2RMuuFj-iz5FMytl2zVerdSFto8UqzMlxmQkv_F3IYwkqlN_jwTgjfbf8otYH_
+V7-D0UgAo3_VlvUiy7hEzkjxbiw6r5GLSpZxx87mMQcGKWjL62YgkgfgHvqp7ax_yPmKIghqqOIyerbdrYt9zY56IbLqoRVzryB0P1acih_g1JVV0G
+}
+
+EntityColoring(backbone)
+!define backbone(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, backbone, backbone)
+!define backbone(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, backbone, backbone)
+!define backboneParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, backbone, backbone)
+!define backboneParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, backbone, backbone)

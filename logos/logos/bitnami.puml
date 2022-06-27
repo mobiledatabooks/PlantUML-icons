@@ -1,0 +1,12 @@
+sprite $bitnami [57x64/16z] {
+xTO5bYGn30FGI2v8dBh_URSPhMIzy70q3BzVL7P3KO6HD9PaGDmuKevyVfkXXBYLAHG7IC5KLKQjaONpyng6i22ch9q13ARx5kp7SK11VTwrdrmNK5Fp4miW
+nkT5FQ40WkI8MZz2I0u6Vv8ykG2Iu-aHzOYWOJ9uste0fulAtVrGK0yUgxk6UdfBSmtrebfrbr1NnUukeGutTm4dQRy7pGmb3sctJodus1qOCn36Q6_ca7Zh
+ce3lK_WFy0TQPW4GB41gvGgPNdBUV1OMs8rbe7ZkKD3AE53GDupSsZo2tKzfYsHM_IqFTakra77tZ_GRUsRd5yFcNscVxfJrmotDlxFsJ_PPrQe7gQLwbCeR
+m-vXM13BssXMZsFbbCtZh7Wh5rm_xfv9i_A8DTVHrroKKTNra7MgUFquONgJbpOf9mDTTKVHqQEfLgQncYWdgeeHw60Rt3-dLRikDw_Qz0X-0G
+}
+
+EntityColoring(bitnami)
+!define bitnami(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bitnami, bitnami)
+!define bitnami(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bitnami, bitnami)
+!define bitnamiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bitnami, bitnami)
+!define bitnamiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bitnami, bitnami)

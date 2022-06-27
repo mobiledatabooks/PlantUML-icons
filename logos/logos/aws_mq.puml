@@ -1,0 +1,14 @@
+sprite $aws_mq [64x64/16z] {
+xT87ckem30JWKH-nzx_lYqFYRminh_T_AuD70fANX_xxxx_RosstFBF2sh1lNuEXEAZpzldIDFfMUoyomnL0dFbJXesmBUVXBcCV-RDwmDW1NUGhBHXh5Lpa
+2mqTvnnSv2iApcqN-L918XI-o9SwiV6FQsBcAoN5pF5INv_S7usSJsw1DjJz7xLN4pgE2q_8iazeduCa-r2Aez-EN0pec4zJ09X7X8t_wXXxBfZwZV8-9KIm
+4u7DEBAlkOZEvo7DoYoseUPK5V6-e800CRPuju57BkYcriZt4zeF1OnTCceAfvzREGev1XEefY4krdEV8ge2H23FleKg04luCM_LlxFNVSUWYLZq7SwceaY5
+qZ7xIYPW98HZW_SZ5AZjrugchpvrYdJVLpl4560_L0h0kNT6YmT3ZMHm0RJw0ilvwlun0R1ld37t6-BAyPu7AZQwsOVK6KFPrnB6Sn8ikIl7sMB0LtqAwlX7
+aZCjdJ6A_HfVky-l8dlyz8nPvCWBnkPAfW8I_E2U5vyeG1M8HRwauqX25lbAtKyOSfa_xzSYNp4u6P2hlBXM0X4WwFKgz9hvCwM0PWKW5ha9Ly2Ed9-XgiWA
+nIHUP_xvgj9jux7ehTMElxFw1l_zns_q2G
+}
+
+EntityColoring(aws_mq)
+!define aws_mq(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_mq, aws_mq)
+!define aws_mq(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_mq, aws_mq)
+!define aws_mqParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_mq, aws_mq)
+!define aws_mqParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_mq, aws_mq)

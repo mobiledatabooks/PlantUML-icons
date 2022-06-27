@@ -1,0 +1,12 @@
+sprite $brandfolder [64x15/16z] {
+dSy50gDG30JGk92v_tat_DgwJGlCbuT4-3FXJF-US7l6_ykxlPh-hzU-EfdCbRwFjkunHdUuuroZ-HllwCH5_2CdWz5CoCEZphNmZJ-RTew5bIsSwMvw0qsu
+eeL9ZPzUjB7TbCw-uqEkfiB008pS3K6EJMozbW1sV673Di2A6Ho_SIgqChF34wbp2PeTfYZEnTV8-a1mGQPNUQ6UpzU29OGuhq4ac7e2vzCOITVGIblVOAfj
+quqiyElx1NMhXDelV7xZsyFrxMFhAg66wCihBetZrxhCC2u9f3HaBc6bVlbDqQrqjlh3aszVFqdSm2ZbdWfRMUS-rnnF8i94lCTsvTFEyPa_RIUsgRmcU4ku
+lRBotnFXx_oF_m8
+}
+
+EntityColoring(brandfolder)
+!define brandfolder(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, brandfolder, brandfolder)
+!define brandfolder(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, brandfolder, brandfolder)
+!define brandfolderParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, brandfolder, brandfolder)
+!define brandfolderParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, brandfolder, brandfolder)

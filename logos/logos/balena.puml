@@ -1,0 +1,13 @@
+sprite $balena [58x64/16z] {
+xTPNSWCX60FW_Ik-_uLT81hmB0gGvoYzV8FaVh68nJicrs748xA--vcr66BxJc4GtIvwY-k6ivXbFTU2ndO7PfPtCibSFZ3BewRakh9Dt8xLcoFMVYiAGQmk
+1YAyCY-wh6pSSUkG2uXaTecPn95ZNSUh16x3QaFjY-NIW5e58gegzRieMowrkG-4rIm71oAcjN9PEAzC1wYUBlLIhfQuQDNC1gYH6RM8PE43cxj9MCj21uhP
+L6QsQyeB6sXKPhZW6feDv1ALSGsDro0ObQXiPJAGIj3QJl83Kp1mHs9kF1w1WPiIbJDHT5U2YW2Uo6nNnMNdCll6OoauybIcOUMnz5xsN_gVfPr8XMHrkVoA
+4ScX2A5Kglp0Iq5ZIsf_GX4bjahYLDxocbmvHEet74zLSoxX045xPI871qWi975pwrsIefIQVqdYM6L8MfHNZYfL5mxHCNWDGehoO-KZsO7SGZB7BIHnDACa
+ZaKWkUEsIGvV
+}
+
+EntityColoring(balena)
+!define balena(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, balena, balena)
+!define balena(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, balena, balena)
+!define balenaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, balena, balena)
+!define balenaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, balena, balena)

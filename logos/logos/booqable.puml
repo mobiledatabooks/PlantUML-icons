@@ -1,0 +1,11 @@
+sprite $booqable [64x10/16z] {
+ZL1LTk0m33I9mVU_xKfPAhVp8V3BG3GUR56Uuy-iDNq1WQwOBvv8OQF1U73oQtxG6_vIVj6AZogxlh2keFfK0HfB36cxi67pU-syVuq7FydFJR5SVBjIrRln
+gjvSuH8NxAfSmbYf539Ek1PeTIYRpIz3jonLiom7zOxCmL4XBxXsUWfE0BdRUSzZIiy1GPjVWtchIEHfPcjXY9T5WdF_8uTSCrKxVRugWtfaBBvLO30_LJKE
+N9Ig6UVorl9FE6vOAov2Ns3qzuwoGSPspQGnxQarbvzcM5I4L3-YaJR1UdL0vJN-0aJt-8VvgaB-NRhzxJy7veVFlm
+}
+
+EntityColoring(booqable)
+!define booqable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, booqable, booqable)
+!define booqable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, booqable, booqable)
+!define booqableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, booqable, booqable)
+!define booqableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, booqable, booqable)

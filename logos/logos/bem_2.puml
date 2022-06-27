@@ -1,0 +1,10 @@
+sprite $bem_2 [64x55/16z] {
+xSv55i9G04FHVgitsVzgSQXhS7ZpUnBmN6MYJLqz4z73Q9w9w64qprJqC9fdAdeOpJCLFQpccOcULlIPw64rpoAk2tQjxrOcHl9avJHFUCqJHlFCH0-hUSQY
+pqHVlC3Zr7QVEckCAON_PP7d47pTgtsvqgDJlj877wvvtmMBV9txBV_tVu_WQdxoPZph-fdEHi1uqO82ntkj__iz
+}
+
+EntityColoring(bem_2)
+!define bem_2(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bem_2, bem_2)
+!define bem_2(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bem_2, bem_2)
+!define bem_2Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bem_2, bem_2)
+!define bem_2Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bem_2, bem_2)

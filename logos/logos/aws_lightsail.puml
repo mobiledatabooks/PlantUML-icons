@@ -1,0 +1,14 @@
+sprite $aws_lightsail [64x55/16z] {
+dLS7ZkGm38iAgV-_-9e1mQ4BSklfYGgfPizpM-O9igf8fDlpNyi2hDT2s7VjhCqY_9isXZWptFukZ-IuX0yOOaY6xGWnFpc77Ldn2i4fsgjnnWKxD_TD12gE
+wbjyzDcO653miCKhosSfg87PDFfNJleK0tAXvOeJbfol-ogeAwkgmSUK1dPK5AYIZ-bNvy6gIkIzgfG1H8RHIQcaX0mB0zVCnIHhnfL1gFj3QVElgvJRAG3i
+MDWnD5bbaWD_syFHlRKPLTYR4xbi6XAl2RxSrR0EGt4a40f_ZRErY01JuwT24uWn4q3H3_qu-p39s3IQOZziy78OWkqsoA3JqjS01lbN94cOWKJy--vZ30ed
+gqhH7vqvPcOCZN_l3xJbzlev_8Ea6qZ6CzxZc__R_hVZd-FBHZ_y47zRuuTLFuls8Vy-FdFGcVHnhR-M6JQhw59_j_hF_ee1gkXQ_zf_hnlsBZ-ZIVzj-r-H
+iKCKEh1qdFXc_lZQlZYDN_YQTgvxaFxEXepT_8Lsl_BiG7NPT6qiuxddaW9mZD8FcmbW4jVnhtkQY__T_jVkPK-pOG2AR4MFIx72LLzF8FTsaKfQDzz3iKNp
+57rHFnwWSdluOyXKa9rQ3D0Lbd1SrFLyc7OxbtC5hmxs5Yoey7PIs9_rFIadwpk48iA7i7c09HFzjXoiiKYolr-PQwHOxyNq7_-58c9B-pS
+}
+
+EntityColoring(aws_lightsail)
+!define aws_lightsail(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_lightsail, aws_lightsail)
+!define aws_lightsail(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_lightsail, aws_lightsail)
+!define aws_lightsailParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_lightsail, aws_lightsail)
+!define aws_lightsailParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_lightsail, aws_lightsail)

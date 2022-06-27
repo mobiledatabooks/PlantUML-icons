@@ -1,0 +1,13 @@
+sprite $buffer [63x64/16z] {
+fPPNWeGm34CnSQeJv_wdtTvN137eQnfDyfDdMsYlFjrqUqYX-NoJnUi7gyrlzNJjuDZdRuqixB6InlmlBpjrS1uJo-lf2VRYSw4MbcPNdoSoNPZDgCCSeqrM
+FVsD8VLvHPu5ces5SqHcy_8Qth5uM4t7lALyvtYlQC9vzp1VM9X1Vk0M3H3Q98NxXu-mAKah7XQoAxZA8U71XSTpFnBRbjgOak1hYrmrE8OMpgxLtPA0660z
+HnlZEtnjXyPgLC7HVBgX1cBb1cCawNYeoB5q0uk0No9ZK-Co3aUp49fZdDTBn1Io2cA8_MHPIdP05wGG6om9_4ftBVYyFAiyjMfNAfB8Xw2Mh4nJdbN2R88C
+YYKS0r-HMce6hN3mJqPIhL6-t_M3JWh5gc9dFfz7yW3U4i6-rLXna2mzLitPRO310naxD5eIedR5whSmjViXgxC6C8Ru2lYnJ8akMh5gKJP1wpAHhFfmS5AA
+LQocDAiKjSk8U6fn33IrE0PiDa4M2T8w1cmsNvbjQVOp
+}
+
+EntityColoring(buffer)
+!define buffer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, buffer, buffer)
+!define buffer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, buffer, buffer)
+!define bufferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, buffer, buffer)
+!define bufferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, buffer, buffer)

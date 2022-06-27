@@ -1,0 +1,10 @@
+sprite $campaignmonitor [64x6/16z] {
+VSn5WWDG20FGu0b_Ul_ZrhiPUnkSm9qx47i6Fz3mbWJMtyN4PvTjI2Rif7c9FTGeI5g9DO-igK1TYfSOLLBPyrKbEaLMambV0CT66-hMyTerKbj-r2KKLzBO
+Qc9LycEFDGxl4jZEEa6jCKiddv_kEeyoX1w3I5-rxzR6EYLaFJXWmmnsDzAzpWoULN1EkHSYWV9YHbYLJGNR2h-pnLj8Wt_S
+}
+
+EntityColoring(campaignmonitor)
+!define campaignmonitor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, campaignmonitor, campaignmonitor)
+!define campaignmonitor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, campaignmonitor, campaignmonitor)
+!define campaignmonitorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, campaignmonitor, campaignmonitor)
+!define campaignmonitorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, campaignmonitor, campaignmonitor)

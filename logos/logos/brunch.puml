@@ -1,0 +1,13 @@
+sprite $brunch [33x64/16z] {
+lSy9RbWX38HXOCR6ll-5oxDZ5L4Hj7Qov__UGZl6tduTHNuL8bhYrZN4lPUuTjn5_phRk8Ze7sZSnDa3n2rKGvmzG1SzHVO2BMc9wha28gnxL6SiGRrAY3eV
+G181ADBMaABEDq1m_80H5ug6YBu00VOVq69CKQV-5o1J_f163BO4J32-CXsG16EWwGccEq98Y-dnYDKT8VB4zGvvVChN3I44UKq2XCwU075LbmJ1gpjAj2O5
+L4QhNW3iOmL6Lq6lxgW5aDRZrAH5Jr1RGUBqSNwVvWUWQeBg9m03RFq4O83LpQeNg2qGrxjVG4TSxrS0zGNy3kh-5t3SF_RgVlRfnwxNrwxNrwxNrrwzW4M_
+0jwxlxg_kh-wZqVtL_TNTtjqjqVtQVu0js3xJo7rxDm1pM1cst_CQ3iGeO4wNIP9cwI2d7-1Vi1KZHEkIdE3gUoFeF83cFIbtOqsDx1cz0d155TLKiKt42ze
+yRF-iHtpjly7_W
+}
+
+EntityColoring(brunch)
+!define brunch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, brunch, brunch)
+!define brunch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, brunch, brunch)
+!define brunchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, brunch, brunch)
+!define brunchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, brunch, brunch)

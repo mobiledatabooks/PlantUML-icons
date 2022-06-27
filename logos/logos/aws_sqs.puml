@@ -1,0 +1,14 @@
+sprite $aws_sqs [64x64/16z] {
+xTO7UkiW40JWsG8xczp_l4cCKFjKBBrU_ASlCu3JttUzlBoylRyrfvaJoVZ2VFiMB8fEdNVReQrNQYtUtgstpZR0wdJl30EKb-iLC6vtB1Vh1TYvRGZyObsu
+Dq-5NRbyhs-bNdW817Yqbe9uKaz5FTjSyhmVi26Hws0V5dW-EPx3EsOv9xDe7mjuxNY3rEp205wvG8P5NwO0OktxLm2CuzIQkQeiHJ175I8O22n773DR1Lyy
+Hv1ar1f1HwmoTbHtxqSLppGm1u9CQhICkElk1eGyyefehtq-bT3C2fGvKtEZ3bSFkAiAKCgO8gog0h0vizSlVStmOCk-uq7dJ6u4DByu2ac5Sj7NP0MCd3Av
+PT1QRNY4faoR7hy8CwIiCbjKV95M8blhIv1iExKARSviLVVAnVUFIKkhmiSnUsOVMM9v6r4pRPjCunBCOnN68UU01PjmWVPn2noZ83Yy8y6U96dZM8TtPbnA
+5XYJ75vo6ZEoBolF2IeFXI1uha9uIE5yng1tbhOK6WTr2LwWaCgDq8jrqW0FhXL0WnSLWInt21V0ULqO-g_VyHy82zuIhTM9H_2kYEBsnKiltnSD_sJn7LvU
+-9q-0G
+}
+
+EntityColoring(aws_sqs)
+!define aws_sqs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_sqs, aws_sqs)
+!define aws_sqs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_sqs, aws_sqs)
+!define aws_sqsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_sqs, aws_sqs)
+!define aws_sqsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_sqs, aws_sqs)

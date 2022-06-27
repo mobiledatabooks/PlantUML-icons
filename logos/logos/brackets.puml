@@ -1,0 +1,11 @@
+sprite $brackets [64x64/16z] {
+xTG5ZiGm38NX5pRS_xoB7YXe5BlBss-maVvo0vFR89urUi52xkmq2cuQ1unaTHeSGXbl1WTHifsF6W0o7r3lzdxKFAbqDfJovL-5GoRBQhljIMG5D6pduNJP
+BaKslptj6LwqrzUsb02qbKSzwu8K8CbgBBdwisT_JyEy3WzR8fdjfM17-b7zsSlPlv0teTxybXxJlOwz-RjFz8xvYp-XFtjPUEjNOm_xKXTAsXd3Vk-ptgqA
+fxpi2KvTbXfS2bkdeHLKbbjlkDT9ZMwvgjpm5BcZjWD1ggnw9DUkgWToBg_VuLoxFNAnMYMXgd75fWCW3UC48B46IR57APXNl4iKthffugvxmftKI1tuMZy3
+}
+
+EntityColoring(brackets)
+!define brackets(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, brackets, brackets)
+!define brackets(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, brackets, brackets)
+!define bracketsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, brackets, brackets)
+!define bracketsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, brackets, brackets)

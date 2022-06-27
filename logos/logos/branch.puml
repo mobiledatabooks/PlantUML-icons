@@ -1,0 +1,17 @@
+sprite $branch [64x64/16z] {
+bPS9akiW34G7YqtgllzvVmKoNIR6pdpLvc0_Q2q8ydDZoMht08c8NlFnypzs50TuCi2h_PNE3c40z2DA-WDT0XFrLhEPMIxDvnXHlyrWCPUgbYuUZJVbYKuD
+9D5j6vJnaduyBuv--q6gU99GGDBjKM07YRPzLqU0lYO79FlcHNlXzba7hNqcxN2IddQhnt69vixVlb5GDfFw2mR9jf6wZXd8I1T5yDuTHBueM5Mb8F6HjWIY
+3mFzqrjVOzNrSv7aamz2qauBngB-ahZ2Nzv9QTiYGVekqU9nRDAjqIBrIvx1c3maTV50ITJJ9SXZWf3I8zUSvD-lW8pvi150HE3NENEGG4_ocksTYtw_7LLN
+1PmM9W58OndOtMuZVyNdgIQWGaiWyvWcRdiP5TeWuJEQR0fG7_Bh7L_5cwfHwHY1Iqdo7_bAHbSv7ghmR23I8vz7kIoyQHVKgjhRM1D_NNyEUZzlvPHRgxRo
+B2FtNFnN0E8SlehP_3N3p9yQKLVyJrs3oFhwRIWBdsSThVbNXH8ciGpt03NaWyAaLN-7t0MLe95XVmU8BbwQgZb0eAMVAxzcQ6eIhqFfoCNUj7Xz6mgmTgpu
+oFlzSOfVmi8tyJgrxtYMs_LZYTUsGwX-Ekdodvx4gpo7_nyj4ghV3CLVDR3mHmU9SoXUR0P3oO9xzm7DYm8cBx5SZ-YNzcDsFtq0oj3EV8pgyfal3UNNikMz
+WkFDlK1PBCU1GmxPMFgyWNCFH3ErpXFVYC_Jh0tIzksxIWAchrT-fbvzNBPwCpzFll8wDzJ7hrOWVZok_klSIBZhmFRcpSV36d_JKxqJO1XyNw_ILSkxjW7x
+BI-kTO28l1pQUivVUBTN_MSxRvtbEdCyyEg82v6MZUZt_FLAt3wcBDiGP5oxZpvlNww4uc4xtFzuAHM_ud59-EPQN4bUKzDU-B6_R8HTUPRBzLluPMAqzCWN
+N6MkBwDyybK3vgCGl_pxYfAsV7PSmh5l6sYMPbB5Mur1z_I4wryQu3NtoVTSUynHjsTQCoojM6Ki-jbIxW1NWy-e_D6ILG-ARVaE_WS
+}
+
+EntityColoring(branch)
+!define branch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, branch, branch)
+!define branch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, branch, branch)
+!define branchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, branch, branch)
+!define branchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, branch, branch)

@@ -1,0 +1,11 @@
+sprite $bootstrap [64x64/16z] {
+xTP7TWGn24LH543msVzwdP6pBODFZ-hDRqKbUgYnmlyOJ3ezDyrJWUanXcTRZtU7vnDgveKms4kfrZpW_zeLT7rE3JZrz7LzAevye-yQclNHAdhIek-eUT9Z
+tpYQdNPyx8Vle2tyEFRTtwJXUyvZx0-OyZwBzmy_axx72Cpv5JyLntuWSiZv1DY-pPT6Ry6bD7_Qyf8Nr3prylndf7nc_lMraq4xJSnVXutm0wdvimSmMShx
+2YyvR-4vv_7f0zpMQ_YPyXZXEV7_7KoH7lgkkyLjyuRI-2Vnakye-MPUyTsyuXdvynDrCJy8_5MYN-8h5BqLlHHltr7oawJ2DOuKkQp5jfugJgL3aRdvVBJt
+}
+
+EntityColoring(bootstrap)
+!define bootstrap(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bootstrap, bootstrap)
+!define bootstrap(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bootstrap, bootstrap)
+!define bootstrapParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bootstrap, bootstrap)
+!define bootstrapParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bootstrap, bootstrap)

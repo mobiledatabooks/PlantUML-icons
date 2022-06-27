@@ -1,0 +1,14 @@
+sprite $aws_sns [64x64/16z] {
+xP87sgD834HBMMBlVz-buSV0DmWyEJwd3dhLmVpto_AFVqpJ-7oXEeMfC8j5jHcz7O8TzYvXkiO988sigIgC0RBfVO81pMcdZ43-hcw0rdIc37Wle0GK5-Ev
+PcOzw0pfIu80lTVlvXCGkWrGIACACnEyYb2jxk3gPXPYklCJo3RPgW9a0caFhx1-Pxx-Y-3ibwUwysVIeswMzwqvapCri_iF56tBfp9MYAsMkN7-1psWQsqI
+m2ogmgDLDtuTK4GjEA2HDPEXM4U7_m1lVX4ES9typ4Pt0BhjX8KN18YJhm1vNV3nR7-qEMiXm7Nq3VIAFAEmIWBFQ0bYFnCF2CGpe2o7Nlg-7PpB8Q_bax0p
+_BZojsSx1oCeNrUQ0uFbZ42Cu7M10gzZby6MGtFLwVp90BIkI8BdgmFAKHmdV-0MTKaA3ZC2hm3doR_7e5c7-hJXlEydQD__y1rswZ_vl5z0skgV-bVE4GVd
+ngWNsAcVbHcPLTd0yBsU2HHdFvq0oHO7xKr08iz-OAHgjiYURXPvm43CD488sH84wxQsuBlVbLcN7U4W5N0-1RGe08fy293BYh0nQvOFE87iqmG3FDyY160x
+7zq8qCZt26U0n29Yk642GBpHkuG1CHDcgB5xngeVBgj7Q_V4WRxeXdMwh_h7F_8h-Hy
+}
+
+EntityColoring(aws_sns)
+!define aws_sns(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_sns, aws_sns)
+!define aws_sns(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_sns, aws_sns)
+!define aws_snsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_sns, aws_sns)
+!define aws_snsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_sns, aws_sns)

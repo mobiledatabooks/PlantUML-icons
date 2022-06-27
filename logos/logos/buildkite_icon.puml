@@ -1,0 +1,11 @@
+sprite $buildkite_icon [64x43/16z] {
+fTC53iD034JH1SFzJroqw6i2RYsEvls8TiznxvQRchhTAaoFb5DtkowibywiARqkKB-zrHGU1QNBOrgU1QtBrnI-la-buL5mHm6QdWLt55RfNHgU1NTPs56Q
+dWKN0IkjFASkpgYrV-78t_rRPyzJjprrtvUE_DcRry_x7hhjeVkUEjCQ_gFfpUxv25aTSvifJxsczWC5vSFNQtVaFmLwwXDV1NZeKry5eozzxb4e3ttgMR2W
+FlSiV7pu7AFhgn0P1dtgMN2XjOznxxIFsFzuwAOFws3wi3dwdhhlgVi-7BhXePiUJwBj_z9ZIlq4
+}
+
+EntityColoring(buildkite_icon)
+!define buildkite_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, buildkite_icon, buildkite_icon)
+!define buildkite_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, buildkite_icon, buildkite_icon)
+!define buildkite_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, buildkite_icon, buildkite_icon)
+!define buildkite_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, buildkite_icon, buildkite_icon)

@@ -1,0 +1,11 @@
+sprite $cardano [64x13/16z] {
+dS-tOGH1302nuTAR_kkLqayF7G1GK0Fb8ta0J_WgSIVvnWNKJ44SGBBh0Pu2cbKXM5Og86b0AiI3w7Q0qfivBG1as-i4zXno8wQfZJg7s0Mv5TQezTW4dfTP
+-GF05cZ59WUYmPSgY8M9DMIlM9DxOAVgSWLrugOG0m0TSe-uxWsgG0zTgf7ryp4zWNU0HAbc202-G3ovwKjYBK-e0b_gUaxOvtVsxe4UKFRpJurxCUwvvC0a
+DUONik6-mJxwZ6crQUo1_GDn0ErfempePmbMU7SxMe0dzP1Mf6OIWC2Tu3C5KBuoK0NZYpy
+}
+
+EntityColoring(cardano)
+!define cardano(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cardano, cardano)
+!define cardano(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cardano, cardano)
+!define cardanoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cardano, cardano)
+!define cardanoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cardano, cardano)

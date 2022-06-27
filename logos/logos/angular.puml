@@ -1,0 +1,11 @@
+sprite $angular [64x17/16z] {
+dSu7ak0m20310KJI_nzyekJBQTVZ79eIawpiK5vcKTrxxt9zXqyPUoeNFjVHayc-hLU-8AvN4E0vgyfFppSpJdA2w6c1NY_8F649gp9pKShSuy6jSdXNLgaF
+BzJ9uGtQhOotLgP-V3pU3XilaBd6Ex55nnTehPRnjVYZJrln-78RBrJV1UHu8XclV_HQq3BUqz730oOzFkxtyl46kF_gmrUq7qyKoF7AEYcrjryldKaa3Bfp
+yl7IehPwFELG7LZttetjRQ0DM2TIQPh1QjDp4AcguicfbhIWRUGSu_UYje8uf-LpoWm5UowHcUxAoLm2M85LJ_lK7Nm-yQy-5NWvuRsUDDjurHS
+}
+
+EntityColoring(angular)
+!define angular(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, angular, angular)
+!define angular(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, angular, angular)
+!define angularParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, angular, angular)
+!define angularParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, angular, angular)

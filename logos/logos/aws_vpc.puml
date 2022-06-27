@@ -1,0 +1,13 @@
+sprite $aws_vpc [64x64/16z] {
+xT45OlHO30DW6PubP-z_tqrVkGt-JDzWG8QP_tuz__opDCUAlNnHce4dmViLsW4Vb3WSY9ipB0H2onCvJ0S5bay4rCl1Udq0Mgvh0vTt2jRNyu6nV53mjIvv
+fOhWcpKJgpYlaE36JW1yf9ylqcO7ImtuwVYnMPRFTNYS9yPv-NrT62VhwQXyOERtEU2xAnHWetTxztf9m_V-nXv0TU-5cURLApfSMyC3t4sNOqfrTzX6lWFL
+Uwq1UBNIvkVgzUeBM6yg1oprSZ27-8p8tg2NbipvCOSO6sqmUWFXV4ZDnaZsQY1kvFFv1u0zpIB4vVc9Q06M8d9EaSsjl61xUIBKJwb2REVRKRlvxESyT_E4
+SRV_XNmFMEahyah0Hx7uh3XtVzbV_NgyGNIy5xgSdyIHRzMT_fFUEycVEith1E7pVhrvBwGkWudmv_pC3WnTvg0CVCudXWAbgsOW4KzvOfRJTGMN344YM8QX
+GkW6Hua66Co0a0ob6mf6CGqh7rB2TKl2A8b5lXpTmG2I8YaEXvLkOW8mZt00Jjr6fkE1HL5VWcHLaTGlXh-rV_IL_WS
+}
+
+EntityColoring(aws_vpc)
+!define aws_vpc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_vpc, aws_vpc)
+!define aws_vpc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_vpc, aws_vpc)
+!define aws_vpcParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_vpc, aws_vpc)
+!define aws_vpcParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_vpc, aws_vpc)

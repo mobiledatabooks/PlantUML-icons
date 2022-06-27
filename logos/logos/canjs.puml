@@ -1,0 +1,13 @@
+sprite $canjs [64x26/16z] {
+dPC7TiGW30LL44R0r_sF6mDUb_HajXYLSH7Fz4TIRKQVmFn5yCmf8c3qH7BjEtKJOYkrOG_Q7X1vhTMLAFbCCNdiD7gG4GVG7YV8nBFYscBHFlDBN2J41HBr
+URoIsspOw8R5LtuqHZpfPAqzz7M9W9TIWGJqvkv7Kbu-EewCg0gFcIKpvTVbeRJ3IKnem3q6QHrgOX8S0m9W98uHmTLZKEWTxUQ3pmnqUCRdcEsuq2boBhw3
+R_ropGCpBNIm8HRV-cFjPblB56V7Soz_zfU3kwyhycpzMzzNcn8zxzzZa7-Stx6lS3uQxJPro8y-9SIayRga_z4dBeX1jPWK5JLPbltixt2UHUenGI2ohwLN
+gz_wBEURi_uNVgw_ycFv6veN7qMSU_vu_JV_ulfoxd-SWxEEfIFB4bhIaKFgsEdBnqxMEQnJhqm3pNdB9ap4jfMiHCIQKcBH0Gt6addUi-I6GSlqDmolUsPL
+5VehFlJEz5_6zAhG__6UwSaR
+}
+
+EntityColoring(canjs)
+!define canjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, canjs, canjs)
+!define canjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, canjs, canjs)
+!define canjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, canjs, canjs)
+!define canjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, canjs, canjs)

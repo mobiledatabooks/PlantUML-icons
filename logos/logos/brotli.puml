@@ -1,0 +1,13 @@
+sprite $brotli [64x64/16z] {
+dPTPeiKW24DDqlrl-Sq3r6ZgvRDw804xZLM0kdv2n3YBV_Q57D1bGtn4NvlWKUtp3BfY257wYnAu9gXrWen_hdOFHxXPrW4Erni5V3PxsGIvywFplebh7CkZ
+WIV7HfizA_KoHHnFluHYHrkDjlUiUxdbvPhNzeOMOtRFoZFmceKrhN74qm8hhtZ2SEzUguN8woPVZNzmWzpae_AoJpQqLEYwcbOudhrZf97FMVweEohX7coQ
+vQCQR2MNzcbusQFWxRld4poVxQjS2xoPNhU4cJJBCFQnvp5B7SOIz_pLU3DHRNaw-sQyPlvrbKw-iL_De9Y3aM_i2vKluenyPr-Zpq-EHxDqQvbiCpJ9zzDV
+JLFcthNo1-8t3Xi_RPFZKUKNtZnk6NYqbXgNWUUw62P9PdpvCspBirQJ5SaTNyf11zycFhUlWVLQ_0psLN9vZHhoyyCMho4hJjcyJw3uKHmIH3ma4A2dtbEp
+FPx_lhBsSmaQ8NJyyvOrP3htGHmd0Qgmwyhl
+}
+
+EntityColoring(brotli)
+!define brotli(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, brotli, brotli)
+!define brotli(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, brotli, brotli)
+!define brotliParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, brotli, brotli)
+!define brotliParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, brotli, brotli)

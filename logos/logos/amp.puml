@@ -1,0 +1,12 @@
+sprite $amp [64x21/16z] {
+dP87ZcGn20M9ne_x7tW5mhEM5VlNX2Pq2ITgP6qajZDzGI87-0TTaVy9_gut-qUTSKIR5T25k7i7vcuTiBipcHTAH963wWakFv1eRsU2A_2k80i4Imv1Vg9d
+SJ5-rahQr4hHlJKIP5RISmxsb-yv6Zq-fECzqYBQmBk1I4IcZGybMdbyxhNWdgdP-BNya9xR2yvLbUCh-z5hH16FxzNefTR_I90bujw_uxfqpSVlAQiA9LYc
+HSOQFnFm2ZhSHYTE6rqmKtRtPDTozVYcmdKUWvAVKFwMFq3wmBn26dzkIN9Wnlk2KKEq1guI-Xln-EVCCC5rVOhSimtGdaKOBVJxExxWlFxt-OcPT61ch6PT
+wNzCbGw6lDbCFsBuhZUoSy2YJsZqDRlyRFu3
+}
+
+EntityColoring(amp)
+!define amp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, amp, amp)
+!define amp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, amp, amp)
+!define ampParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, amp, amp)
+!define ampParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, amp, amp)

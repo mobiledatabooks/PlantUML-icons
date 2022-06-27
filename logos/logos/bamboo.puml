@@ -1,0 +1,13 @@
+sprite $bamboo [55x64/16z] {
+dTPNOiOW30FW66mykFzvE_v9a3Frt2-02sgNdJJbvNggcSbrnWRkDBD6jvWftMAcvHOpg_UOyGrsTg1Lp6dDh1qPZUYzyyJs1yeU_P4siRs1rWTwn81j3PGq
+-YT1o8pJfVgGAC3IWNBq5HDWsK0b-ZeA36ysgkx0S3sE7klqe9pPLnLGVwaJmsbw996KrQzgaKKJfcNSOXeNLECODVAqPFYm66R_YkW6KjrJb1gUdYbSOmcC
+G2d0ep50Ng5Bu8cI0wjGGLW8DTdXpDe24TWY59wWml7Bp1WHJiJBnFBUSTpZoB3bSZQ-GjtkL9PNc5b4tPR1LVonPxvVe_A7elkIHMmTVNwM_qGyYovbQbEe
+YaN4MAiOcfNgWmnf2MDWK9119_Oe5RfEZnUpIZwpu4bLWn1UoXuC2kVFWHahYlDc9eyCblSlr9BGPYU7cwfQchRNazssKeO_0PYTnOOMWhIsizXVU8DngkIW
+prlDb4vbYOmc0PLPF6DmXQ5RQieQi8h_RY7Z2UcV0eUim5eOKc04qyWYFh7LJ7ZPIb5VC_cWDeuGOVEHrGJb8J7_C7eOXaFbaflvWorDQcf-0G
+}
+
+EntityColoring(bamboo)
+!define bamboo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bamboo, bamboo)
+!define bamboo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bamboo, bamboo)
+!define bambooParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bamboo, bamboo)
+!define bambooParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bamboo, bamboo)

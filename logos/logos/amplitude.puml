@@ -1,0 +1,12 @@
+sprite $amplitude [64x13/16z] {
+dOu7abqn20H7W3B3_OzhUB-2xStRog5h0A2RmJlmIoRZuShlz0ZQZCGR2crl_iXejl0lGr4e8yOoZsGZwTnlVAEC2_sdGWuKf-9ZpKXOxvUrg7PfNL-Ryfks
+oQ6jhWJDB7t93uoxkczr9wDNbFb2uuiXfBChPT8OF3q4N5AVX_5o1RjexytwE360uxAP_cmyUL1sRBVoOLIKxtDx4uxhgJ2YUyJOaNE7H5GTBRMxCTCtBFR7
+r_9P-UUYbJ_dEX4xSenSADXKrUl20JzfQlZXhFn8nRVGRopZlJ46zpqM3zHvOWF30CZ8XcxGeLoheusc0z0rQmpDUUHiUpQiU3WhNF26glaBLhouYhV85do5
+7KRuRFWDVm
+}
+
+EntityColoring(amplitude)
+!define amplitude(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, amplitude, amplitude)
+!define amplitude(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, amplitude, amplitude)
+!define amplitudeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, amplitude, amplitude)
+!define amplitudeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, amplitude, amplitude)

@@ -1,0 +1,17 @@
+sprite $braze [64x64/16z] {
+bLS9WkGW21nl4UJ_pzrjMj8nu1orEvTI0WMXpTS18LT0clz122t7hxyWrl6YCh_uB3-mfT-oovYJvmPPm1f-myQBp2mXN7zEQZ-Ta1TRY4I4Y4JorpgXViSE
+y6Q_k51J2B8OKkauTMUaitDQDjIDKMoe9vn2g9FVx8DEUIo3xcwtjTl2TzeAm37fKp3YjmBrjvCHhFUtysMdE6Z4m-GkzBp-8eLDDQB82Fkfhx2OLFN12aVi
+829i6u6apQwYqLJmS4HuHt0hCSX2lXqdM7o3AExm5lqBxNRUU47Yj09O0hBhg6nfscfH_6ZF57sZxB3L9UZlM_IxAj7dfpbriuZxuFfW-Ze0Bd46spIrgAgA
+HLAlyUG-gGS7whQ8UjRCokzlmpeddMgKOWKaX1BSz2W4cggI9__GAKh5tSzvQY4T-NNswjYo2RIcMJhnANLDt-9KOC0yf9yknpXeictHT-R8siWsF054dJeC
+Je9l5K_oQshQhwO310VvjsVKqGaqG_JbttOYcMUy6xwHFs_HIgAMF_7qVE3JEXe-iURlTOTfPwCVMltzuTFOvO_3a37hrh_qZomNHxxdL83dGXI5il_uLpDL
+p3Ghmen-0OWV_6W-J3fBvAXrDkfj-LVJVqACOih35l-X2ucrUNpLjfZFjtskM2yWOriRVMPpHVZKIvtapSTAKAyEFQwDTKKX-PRqHAEUnBSDgj5gxNfBepXO
+Ziqnmne_nds-Yxs8wv6CImLTurqYq82sINdPGz2e_V5RDZsgpjdr7PUhH1hEf6ml8F2OP4Jo7JwceScIkNUFXnv9_62CAUcY8fLMf0Xcy5Lp_HlgnSBEBN3M
+CFxC3Y2-C3ZpWbMcC-AOxdKf3DOBy7SenDgNve0f6EaRvp2LVjI59wG3kqt-LgQgBJoAhKI2hJbT9DGJ24hycCNIhrQaybrnsltr3GVqtiUuly21YTr8D7cx
+ToXN4ZFrjOYTX69VOC6mVOG26lB5dQFQoCy8kGrIEc4l9_8_
+}
+
+EntityColoring(braze)
+!define braze(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, braze, braze)
+!define braze(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, braze, braze)
+!define brazeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, braze, braze)
+!define brazeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, braze, braze)

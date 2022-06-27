@@ -1,0 +1,13 @@
+sprite $aws_xray [64x64/16z] {
+xP87bjim34G7VS3D_S-RbRVHCgr8-rhQTwE9zuSmw1z_DFzvMV6VmJ1Lp_wU7O9tbDTr2YJOOtGPuEEYNa1yEbJejG02Tpt7jO0XgDqmO1VyG8nTeg56-hdB
+628FtH8YsCWpmui7VnWGtGdKBuztS35IhV5Q8-GnUuUYnvwNjzSMNjlY2CL1aV1ZknteWpAWUL0FG0vFI0KadrLzLrlH0SIwL91zRrslx3Ofg6MoW6E6BhWX
+SLSWP3rSk_jgW5X4k07mkGbRDX38ULA0VdJUgP19ASHoUZM78NTJo-NVOEqdfFR3HItyTVy4U70x1U_L_FJZznhohh8DekF3wkcaYJP4tnO5xRdWg9xkTrki
+V0BPVGkgJx-__BZbT_lSVayKOEpH8ZrpyryXT7itI3-X5F0ch3z8vAVVYau5bFsKLE-4Jtvy-GOwD7hDlTDDovtlABBxf5-mHxzFKF2rRs2VWD2rBy8-Wu0h
+VziuXMyI4rOCECkGl6rddu8Gjc96kml2axx3w3RZJKNqIIW8xd0e-om5EET06eHz6gP0YsIJcvqAgQNF9vG2bc_BsDQyIWW0KHK0clm6QMyHdlmh-Sz_VW8
+}
+
+EntityColoring(aws_xray)
+!define aws_xray(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_xray, aws_xray)
+!define aws_xray(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_xray, aws_xray)
+!define aws_xrayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_xray, aws_xray)
+!define aws_xrayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_xray, aws_xray)

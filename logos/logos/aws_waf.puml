@@ -1,0 +1,15 @@
+sprite $aws_waf [64x64/16z] {
+xP67Ujus34KlDi2-__ks-gbFi19gTA-Sn3RNFG2fd_uyVl23ZDT7NSRtYupnCZu4Py4ObK7mg35U2peSGi2EUFLEFGj6AG4avWItRGp9VSkGJu9X05cENs1i
+lyiPq9fRbEDhveH0Fh_9noIE0ODgRF4QQreGkZfZDcRryIXOq_5t0lDQnTyA2e2S3FgYUhJ00S365sgat2eCEaR9NbV009zQSF1DlERNAPaD1DI1SzE2kCuh
+VEzpXESeS7tRGOBloq-A02kcCX1qD7NJWCEwJm1AL04bv6ZY_57EwcmNzDDwGXrM7IcYStwzaz04TCiNc2bFLPOaf4uJGrJ0YW3qonYyEbHDm8xn9rzPfV1Y
+0BqNq5hYyA-J6I3abZTGxMpc1S44uiF0YAcHRSp5o9bc1jXMrRlBJwurX2X5xDq3MDuW3PQr8_DuV3GHTUGh0v8Nz--sY6f3uIryUh_eXqdmtdvMzQZBh4Zq
+6nDbhvn6VPFcNAFRJV3fFOylkiPWrUVpIpwvhtyuczxAEWAQHpxrUFFKnVKxv8UB896WhCfWKDOKpAKBl1keO409cIu0HxhaBAzPDmtOiPj608W0igoKZzll
+obS6QURn1Xy3YMLEDsSwBC-Hxr3D9gB7c-0P1KMkQS7x-7j1nyDpWNiBxgip9BwzVoWGBRXjtXaGtpkUjHKWUxf2p7WU7yw3u6v203IUty2yXmmqR74KON3a
+Cn6kmW2BMdIW1QySXCwsW29VeX8hRRub8l_PnE_Y1_ax-Ha
+}
+
+EntityColoring(aws_waf)
+!define aws_waf(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, aws_waf, aws_waf)
+!define aws_waf(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, aws_waf, aws_waf)
+!define aws_wafParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, aws_waf, aws_waf)
+!define aws_wafParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, aws_waf, aws_waf)

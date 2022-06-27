@@ -1,0 +1,11 @@
+sprite $android [64x14/16z] {
+bP47aiLW28A3xVv7NY4_sTvy9HQ-aJ7NZm5yxcNdk_bFqHrVzDffTF-VrtxpGnCHi1C4dc50l9gMoJEi55-zKL92gSRfhjAySCjsKlp7eOOuOpg8At2zwHBV
+_pCgyOzo9hGGeYX4jERgQh_IpV8u8SzIzkTS4yk3QedumzqDC8LmsHBF7PAEClE2eXlKdFk7UFwzphH9vTSyzxpZ3UJ3v-7Bq3i-RptCst0__lluZqqpDdd7
+mrtpsLqHlATubpDC6Uzuy4zTytwXoQnSah-b-Su__slXzFrzwxZ4dx9s_W8
+}
+
+EntityColoring(android)
+!define android(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, android, android)
+!define android(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, android, android)
+!define androidParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, android, android)
+!define androidParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, android, android)

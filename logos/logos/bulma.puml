@@ -1,0 +1,10 @@
+sprite $bulma [44x64/16z] {
+tTCvaWCn3CLGQgFlV-EPw2Se5wJKZ5-XMrjnrgxRMTthaix-V2xn-gV1JeET1Zi5LafC2goKc1Hu6oKcDKnAJ2gOr76eun7hUCOwNh6EzuCzVKshssdiFHsj
+55iczFc4Tr_JEkqKM-Qqd7BBdDPyi2lMyOvrVDwsz_SVfkFZDBXT1gzVnTshBd6VKHNiqM2D0bkKc55WYn8pgfXHOaOTCqgCgE547IVgED4B_2tw1m
+}
+
+EntityColoring(bulma)
+!define bulma(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bulma, bulma)
+!define bulma(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bulma, bulma)
+!define bulmaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bulma, bulma)
+!define bulmaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bulma, bulma)
