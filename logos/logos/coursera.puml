@@ -1,0 +1,11 @@
+sprite $coursera [64x9/16z] {
+PL65bM1120imMD9_l_U-dMr6SGDooJBSdqt0Tmo8RT_9BJHriH53jWEzsGlKSc8MhGjh65qOk6Z0qOOaHaiK4uUwQQp4URMbb2gIOoLc55M_xLqQDwgGPKQr
+Usinuh5wp2Ig01X09O0Kuozx1rQik6ZcEId5g3xj8qc12yPB6IwUF_RN9rRIHaeaAPvHVjh6l-EVl-FdPm-BMcsAVWEZ_2j-IUM7uoMc9rL6jSM-zbORAD6f
+TiksnxvVRVti_yMXzDdpflhhVs8lUriz07BrpBye5W2qDBdZkmPul-mOQW_GrmNhYzhz1G
+}
+
+EntityColoring(coursera)
+!define coursera(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, coursera, coursera)
+!define coursera(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, coursera, coursera)
+!define courseraParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, coursera, coursera)
+!define courseraParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, coursera, coursera)

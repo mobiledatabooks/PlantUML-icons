@@ -1,0 +1,13 @@
+sprite $codrops [64x64/16z] {
+dPT9eeCX28C14SBz3_nUk-g8uU-tZyQ0apIeUIHGLSZOI-KAwebw9RV9a9MeRwIhS1pLWgrqxZe2bmCQHSa-1qCDW9ELKxPyOzUO879A4ldb0Rmk4YHvYii3
+HLq6zj177U0HhEhPWpR8Qec3DoZD7YfAQu1po9j4kAe5f3YRh7wHzK7RuP5LIVDTxUWPAAFrZMvmn0sX1OOszkF66ZJOiiRzZItSmFPc-g61Z6RweG5aC_tK
+0Bw7_s405_GHdmQynk2XtxySKHaFlVvmHiK3dY28dYMOHCzQ8Cvw8pSKDillNC5Sn_evko53MV-T2xY-neBOTnxXTVb1crZqXZpe6Z15h3zv-Gtl3r_iWO7k
+1lFsQg3fnM5d-U1vOwUdJpm2jAXl9DdQuQQgvb7ViS7PWceXzmi3IfvV12VDGGXI7qAI_fWkdcH87ezy02w_leHKyW5XoNTOphu_FHj47If7D40-RmphF21C
+HkZwD85qbJcwTkAXxJ_m_m
+}
+
+EntityColoring(codrops)
+!define codrops(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codrops, codrops)
+!define codrops(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codrops, codrops)
+!define codropsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codrops, codrops)
+!define codropsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codrops, codrops)

@@ -1,0 +1,12 @@
+sprite $conan_io [60x64/16z] {
+xT27RiD030FG6oAT_lyF5mUNSDYXd8BLHQmsoJDbjYHzz5QDv9XJkYnNXdHPIjTbNKkwhahNHHahUthSom1vh928HzegutIA-EWbgI0qUVgQe8vT8TKzJPjK
+gABhrTzqIBjqgjyfOHzAXwG2fyB7cPXt-lslmdvZZrp1d9U-_hVQ-JxX4sW5guOztcRm2w_zuv6D3_AqzclgPe_906LLdRwmIrdNmeXSoWf3U8KaLkAzD6lL
+mlQ9f9HRsopeKlHs8BC7STtc4aYjbxaaSIHMmMSojrxjCh6P1bcmsaooPbKTOD4g09MofI9xArZyMFjlbUTj1v-rQ6toEOjehGroq_Aom6WhFLYmAbKcz-oB
+bvxfuBx5R9xWbbMfPt37malzxjm2tP5DbkzifKcrMSsR9MZMP5AgoUXMD7gYx6xPf3IVZAYK-jr4jb4-6Q7IKYQvRANK9oDKMarKItsolFGL
+}
+
+EntityColoring(conan_io)
+!define conan_io(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, conan_io, conan_io)
+!define conan_io(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, conan_io, conan_io)
+!define conan_ioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, conan_io, conan_io)
+!define conan_ioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, conan_io, conan_io)

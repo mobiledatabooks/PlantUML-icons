@@ -1,0 +1,11 @@
+sprite $cinder [64x20/16z] {
+fT1LWeL044FHfBHJ-r_meCy-XuFBHHetuX6wuP7WWzWUrG03vdY0y7gIL_7H_wycdZ033GyKSk7VsaXDu4GpusltEhR3iVznUCffz8nmCEqCC2AbG4WhDTfu
+wX3duI8sr4pF9h5R8cqMFS9G8o14b8nSGeimEIU1K63JSn6FVW6ef6SuIfC80Ia0BTI-DHoz7NtCIztzeHoeLRfwdlsuEy4fCkK0DM_ssUVUYoh_wYK5E2DD
+7r__eU-U13ls7Z7rsUzRlDyVyyMkVhNtgB2dQtx_Ftd_FpLV5j0AZsdch63Bu2Fm-6yjzhYvtAS8K_Ryy7D05e59v8o0fMrd9wivX6OArFm1
+}
+
+EntityColoring(cinder)
+!define cinder(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cinder, cinder)
+!define cinder(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cinder, cinder)
+!define cinderParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cinder, cinder)
+!define cinderParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cinder, cinder)

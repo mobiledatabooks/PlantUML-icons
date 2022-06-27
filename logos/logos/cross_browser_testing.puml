@@ -1,0 +1,13 @@
+sprite $cross_browser_testing [64x64/16z] {
+tTVPrkem20NWCmG8ONZ_jprZ5x-o2jPufVlQhmaxQbj__oXlHlvx_ZcsyfCEFpRpyPwLST-Jkhi9xNbOVaHfmvEvHvIUzUptMV2C1_4Se-iUr4-oUjzp4wRQ
+zzoK2Qxtn_TsVLcSUC5ZO5stWDMYnSw3_H_ui95_Onds_YyI4qOelXA6dKUVOm1qtpQ5ngklfF9Sxb9xTjTHHZnzFdiqTyVIJpz2XPVSPd6m2gUUOhmYwXuY
+-vZFeFJBZnYUU4pJDGMu91zNxmkms00a7yVR5r2i7vkxMi1CFjeh2mWGIoGVrsw_mY7g-LqV5M1uuWUdqpqB7njCFhKx-m8CpZtQbGBgtrzCqF-65IeVPzWM
+GAFqe8yAG5-Zz561dCafCWO8r3ukO93jqZZOsiTzNt54W9PQFjZQ3vA9NvR3fhbA7nPPmbvTF-nCDd-mznoaMhttOrhr0DFx24hYYgFtELDlkS3Jpv_0COJD
+hUTVEFOWkFtyJSkKNdf-Xmz__tZz_KreC-pldzy
+}
+
+EntityColoring(cross_browser_testing)
+!define cross_browser_testing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cross_browser_testing, cross_browser_testing)
+!define cross_browser_testing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cross_browser_testing, cross_browser_testing)
+!define cross_browser_testingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cross_browser_testing, cross_browser_testing)
+!define cross_browser_testingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cross_browser_testing, cross_browser_testing)

@@ -1,0 +1,12 @@
+sprite $curl [64x19/16z] {
+dP87qfum34JLt2Jj_QyRRCCVywNdJLdQOuSTwB_eqLPue_z11xaGMQFnvsVDZEbDYUfyXTS_-YK1EBq9J9qz1_-ntZqGT65ADnKfCpB-g2zn-Rsxqa8IRKPa
+fR_tdMgZnS3gxUcqg94NKJZk1tgmXP5wPjJ7h-v24mNA5HPXTC43cwg8Pnxjw2NtvTidfet3LsIV8G4qdT3RJy3johZzOppTuyb-Mnfj57duGD_NRf-hqOn4
+FyTB67tt-UYl--lQxOywvfCT-HeFqCUNbzy_z-TMYJJNU1fXF_fv-kt3D-zyZ3VeyUtmPIR_r5-KNLVMU0j7A6ru-nPu-_hbQ-vH8zjNQI2hJEQqJNG0Bv-b
+84IMxdqsw6ZEz20EvAHI1n90ZyEtJ5oikMkb5OK77VJdH-FP7KOZfMHvV2nyLKMTCKQXXsy
+}
+
+EntityColoring(curl)
+!define curl(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, curl, curl)
+!define curl(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, curl, curl)
+!define curlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, curl, curl)
+!define curlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, curl, curl)

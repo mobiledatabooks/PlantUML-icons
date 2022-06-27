@@ -1,0 +1,13 @@
+sprite $cssnext [53x64/16z] {
+dPS7hh0m38F9DFU_y3yQ28_e5LAYMIcMyKVdLel40G2ozKknHt5Vu_jPz463jiQYNqM4kneP6j-M2iE7bZGyZ7JDI5UD4Xss3v5iJKCZacnPqY0lPVOGzXrl
+nbOYoMLCzCZ1xp23fGFQvE1fZDEHQqIk770Q4tQCRW4Q7C9OJaVR_OK3fx6TKJtccDWzKkN0HpWxMiROa5_ppe4HC64h77R4MCeKRt3WgylR71JPKoA5S-KW
+O-nt8xx_0L1oY0-EiKwsbE20CzoT0-V7NHYQ72Gqibt5UEH0uiSMMMSYvXo6I_eySK1o88GDrHLvSK3XaDmIzfI3_k1WUoQg72BtRnpKaPbQ76B4XwhFuLA1
+cnoofHuNKmwIqqP3L3cK-M3tTI4fwd98aRGurANUvr2tlEJWltEORdcK77JAWR388G7ZZGClS-1Zx9GzFGxFfnbDvaFKZ0FEYCb1bUyYGSAgX-tyWZddi35p
+QNxci7Yx8VjNyYX93aibGoIhjxpF8lqYiY-PeFIlsY8wZmq0Yw-BvHkvXMgH1dkU0Rtw2m
+}
+
+EntityColoring(cssnext)
+!define cssnext(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cssnext, cssnext)
+!define cssnext(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cssnext, cssnext)
+!define cssnextParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cssnext, cssnext)
+!define cssnextParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cssnext, cssnext)

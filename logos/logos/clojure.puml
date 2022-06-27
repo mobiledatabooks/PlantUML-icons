@@ -1,0 +1,15 @@
+sprite $clojure [64x64/16z] {
+tLPP0kCg3AkyvludVY5DOr0NoDUR6NssIDvamkEVXQXvx70pmKqkD7B7TY1tXCawkv4tGfF08hl89B6W8CGc1PtGZTYCz5yf87AR8UK7VLl0rng4WjyKG6vv
+Ob60QtSL0A8McI_Vb8ycFV1UL3mpzBGjr5aYCVK1VfegLXS1by8WaBR0LJjmre78IGLYqM0llbtGuxHdntTcQqGs11gN14n9W6S0poowgXoIrW5DO2iuhTr9
+bvEdbK098Aa3J4-xmWedOELn6W4kUhGpNRo1hsC5qMrz7xu_RWDaJ01lsGVwd56vL0NnlaQUB_WGKha0azw7QM_LwnWHfLQAoGrGIhyWam8u_U2ElHM09VxF
+2NWE0w3sWIshpBS9dtP6rlcSFuvRw3w_mgkyBw5p_oo_sGzDGsRzr-Bt0zT3YoOm-CVP_daClCAJXMY1Kjc_6JMmbZbRWCi_4KC16BrVYcJ_j5h_OG5rs3tf
+4ZZE3jl33OXNljSaj1sW2v2llyXXX7Yob4mitGtUpXKinmgWNTPwtkHI7x6isda2px_m60Qv0oYdq4kE4eXJ6re9d93w6ev0V12u-BBsv2p4oO3im8nBI_Yn
+Gf0CFbTG25UC7tOt5G54r3pqqyDrn9EYvXvHFpLasgG54_YqX-lq-mBsw_4-HGnq0Zncz8cPB7wo7KouaKAqu7D8AP2Z7ek0UWI5DddS0SGyJhYLb-y1Env_
+DFu3
+}
+
+EntityColoring(clojure)
+!define clojure(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, clojure, clojure)
+!define clojure(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, clojure, clojure)
+!define clojureParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, clojure, clojure)
+!define clojureParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, clojure, clojure)

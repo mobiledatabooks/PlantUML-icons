@@ -1,0 +1,14 @@
+sprite $codeigniter [54x64/16z] {
+rPG7iguw38FT97d_AtwJKyc3m0bJh_yQcmyYsHDRHjgR0DvGsM-mwivzYjtjkv1tz_uUqICseHZChZBN9uLjAqPm3zgd_0TgR6hQT2CEKFkUvP-XFy_iCUeD
+rF46Qdy3jUyPCHkF-bkVvj5WSwdm0CqcresTEFRfPy6gq_YlH4NqEV2mFwwtEqTDvTcQTTCrLwyntVOt9tlMU-HLcqBt3_F59DN5iAm7aDDXi78VwzxaUejS
+w3whyuNlfxBhcMAUJ7OzKRGuwuu7IcP-uJ7ktOZl9l6odtEwfcG0kJZuftmydMGrovg5-SFfXQjxoPRKTLqFrBM0kAUmEARgrWqDQ7Kxt5XOwrAiZdAbBIBK
+Ma1mMqUrpkKKmsx32_7_JBazX_kyj7yp76GSLlxvEwiBk24Ea5JGmUNFgpct8ELnJA3TZ0495fJaaCgYmqOE1Ia323RBAOM14Z-x6zdPSAawIvuzSjMbJYea
+LrTAGKOZFuTID6-scwW6vTK6ETfL1Xbfb7aBKhPPmon2i6ngBAK2Z3AqbDuv466yem5azP0DgAWIimkTL18cciGqLtmWPStAHYcW8OcZ2DR7NuM3C4XKbfZo
+WL2MXCUuLZXtpxxRHRbBvfyv_-DWkheLY-9_
+}
+
+EntityColoring(codeigniter)
+!define codeigniter(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codeigniter, codeigniter)
+!define codeigniter(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codeigniter, codeigniter)
+!define codeigniterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codeigniter, codeigniter)
+!define codeigniterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codeigniter, codeigniter)

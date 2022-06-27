@@ -1,0 +1,13 @@
+sprite $css_3 [45x64/16z] {
+pTH7Ukim34NX2x2JBllVxLC8iIXGVQFSYTiVgvnyHf_xraMMnqAV-lZ1cCBfDlvyFlMRIocHFlKn7-5CH33oHua-zV5rX1EMcNOQt_FJACOOvl9wlPRdaCUB
+2rpCUyNlItpdD4ofy_okItZLnu8_D_jaAJzOV8B30vly0npTmPUe_Po5FSBQPcyUOCTvNPctZotrxzfySPpNi251nTDcsyehPZGCHHKcHC61Zh4Jd3gEDp0G
+1ASJx0N7vPdWRARnEX8SEdPdKKp5KR07x1dcXhDWSucfrGRu3DECBK1d_nlu6RVQ7PVevbbPnQRNnkYjfcft7A2YQBpN-wWs4Awm7xZrJeTur1wzuxGWuxbs
+04RldVjiVjKUlIlepqTjZDgzTx6qZ7CPMDMUC6XPKdYgFNgxYkE4eweDhDZVmTlUDkPsDu9LjV7xnu1jI3bwGz2rTM-0MDTkMFK-g2sz1JEWyQZTi2m5ouGD
+9kF4IktHkzw5w4stRCFyIzxmsE9JS0moFYvAO-vq722DZThIM-z_SPOnPEaGvp72L4NZxHjeOnVpsQ9Zp2FZarQIYg0c5VHNdipusBxI6yBbsCQ3h_m7
+}
+
+EntityColoring(css_3)
+!define css_3(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, css_3, css_3)
+!define css_3(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, css_3, css_3)
+!define css_3Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, css_3, css_3)
+!define css_3Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, css_3, css_3)

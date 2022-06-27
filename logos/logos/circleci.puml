@@ -1,0 +1,13 @@
+sprite $circleci [63x64/16z] {
+jPS7SiGW34LD1qdtlsvwSSB3YqUpR-gMRncXUZ0XrIwYPgRIMux73K8PQd-HcZR5UHWY9Mo8nPPeVV20DEmIBLVgQWyPIoz6iGqqipghxT58NTHswQ2s6tHG
+E_H93TWzVr2xozd_mswZaGw-ptZmwjfhVgDsDQHyoRi1FPqSsmpGp_o99FuNsO5CL3JEUPKLpADnJPnGQBx2bI1XqilRjzENQPdGElyreKEOF8TkWnTQqgS_
+ZujOZgMrKu46DySaUgRDToq9p8EnfQFAylHjfGv2He92tX3DJYYaDZkQpMHuwjTpaKIr3MBqOChYZEK9SiVBErtdlpWslnSs8Pwv6xH5qSMSCdD-2bTlJjWq
+9Mo5yWcmSJaYzawcm7y5cW-Je5J2D9Lt2wrmWynxjgqkEcJZSwENeyr8tfWsAwN15rBZQS3c1dqzsKXljROknXJtSF95Tun6Zi7CEHPI8Zz_gEsESHxKjyxV
+tCk8VnNoBsB-DT2_XFfNO5x0rTvG6HSB-2i
+}
+
+EntityColoring(circleci)
+!define circleci(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, circleci, circleci)
+!define circleci(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, circleci, circleci)
+!define circleciParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, circleci, circleci)
+!define circleciParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, circleci, circleci)

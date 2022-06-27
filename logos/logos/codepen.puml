@@ -1,0 +1,10 @@
+sprite $codepen [64x12/16z] {
+fPA50SCm3C0ivV-RHuOnjM5IZ75N97OKLF-c1j8GvF4qLwXSvbp0vVQYSfwJ-jThm3IfNWhM7Fq-MafYN0OuhwA6kQTx6zl2-buTxKfsoylP1_a-y_61jsUJ
+FyDBchVUu5lzR-UKljxwBq-UEHr-XCfZ_F1MNw_yeuTsvSzZuN_y2
+}
+
+EntityColoring(codepen)
+!define codepen(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codepen, codepen)
+!define codepen(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codepen, codepen)
+!define codepenParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codepen, codepen)
+!define codepenParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codepen, codepen)

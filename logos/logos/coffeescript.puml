@@ -1,0 +1,14 @@
+sprite $coffeescript [64x52/16z] {
+dPQ7WeCm28Q1B9Rl_xhNAAdDBQDVX_Cdm8ztXIimDr5pTvLAi41geYeLePEuIxV-wLzy7O7TtSozThNumCpsJRgGPxU40DY_QaYb9494gkQky3lurilOqqDT
+yIEuU_frrOOZZZddb4gpK0CWMuZgh2UAhNoSJUOxstljvfkrd79Lzpb_RRlSfgXOTPID8-8sGZ9EUczxV7UPpYEbHESPgcBkDWz0bFFQ57-X-MAC464cSTU5
+vIyqeYz1HRnph5gYPzeA8Lo0L9hwZgHnhgW7fjnAffzn42cLoch37OcIpoR5cCV0gehmZeYgcP_6kd71Cw6napx2RtkahHCx4TkK2q7GTr3pL5ukZKKj5WpC
+JALNDXMMhN_BQCGCqidftkoWzcqxtRlh8CTZrL4EznOSPFNJV_I3S2-dly8WfXmj3YYUWs1kLckrbXUrldOvF9nGs6d-WstfL8r6-aE6RUQFYFIH_HdjaAi_
+X8PSzNdwt0DbVq0PlMyn0lSmx7evwYX-ap0_HHre3vQFqPE-Knuj3xg5_cO7DdrFtdRewT7ezbs3dNftz3enHpjoTtIY_l4OajsOtA0DAsvvK610KpNiImYS
+y6dcwXH5kfEatVXBb4CwTKrejGA66T8udmc1rYPdffftZ1E0B5e_aqef6PSyRF0lQBVJdv5jtRoPbIcs15SaUoo_-d_224jGLV-1De9rulTOO59_p_mB
+}
+
+EntityColoring(coffeescript)
+!define coffeescript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, coffeescript, coffeescript)
+!define coffeescript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, coffeescript, coffeescript)
+!define coffeescriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, coffeescript, coffeescript)
+!define coffeescriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, coffeescript, coffeescript)

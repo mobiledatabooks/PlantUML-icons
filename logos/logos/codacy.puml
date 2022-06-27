@@ -1,0 +1,14 @@
+sprite $codacy [64x64/16z] {
+pTQ5iYCX48NXqzW8qEVzttOhqXMe9OJCwbTwvHzXhF66Y_jPA-bnYLC-M7_i0T-eVIzArasmxEpxm1lT1NFHZZBr_Su7tJ0X9uijGDyNckBnJb2I2LOqlMCZ
+OMpZZSfpmTi-idLWvEZ_6jh-O2VB-zmIKQgMud2Zx1KPv2RZBWKdi7LLzlBet4t4JoGLTawq0bi58x6ojU55b8tJOMndA_Gtgz64-GrYgk0fjdd0XAkZsw0s
+kSUK59eQ1siVO6P7q3-AjLlKJuAjiKcaER5W8ql0Iw5HXnLdGiEtHt_1JgE22qwQ7LU8txBonk4xBXuru4R2NbYmo8h-c9t3CfVrzQXUu6WKbrGQN99_iJze
+HCp5cyxaI_rBkTOhd-grcxvUUdeAJQO9MASqEqt2CazJ8syqRnxh99rgtnfbsOEWi_W0AfaG7AvoyN3uVxX3i68yYSfE7bYGoC5ffsgJnmTE1sDaA9y-lqRA
+w-jhtBd-2SiqsUCfTPFTZEJX65aMSrTekWVMwLAUzDsKbxgXq4SC-3mPWeycHs69WbuuvmFeoTmTZ1xHmSXUsQi2z3RxZLG-rP8FP_DbfxhLTxF7JLxFdGxw
+RJR-zquEUj-l_4JWg4UbqOYPFEvFFXs2ANUCUdj4Je-FtAvzRnE77XvB99wLVO-SatmtrPtL-faV
+}
+
+EntityColoring(codacy)
+!define codacy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codacy, codacy)
+!define codacy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codacy, codacy)
+!define codacyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codacy, codacy)
+!define codacyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codacy, codacy)

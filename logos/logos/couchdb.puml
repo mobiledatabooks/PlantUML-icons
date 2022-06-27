@@ -1,0 +1,12 @@
+sprite $couchdb [64x17/16z] {
+dSu5RaGn30RXCTlf_U_Rv6sPknCGVj8FtkkvTlwTpdfjvF--rskjNAd-cMVCAuyyK6SdVAgCdSnqE_Xq9pDLBxvg2bW1mkV6sUbIiULaYtPkxpstscersEBA
+EmKB24EoWivCtHw88GgorvH6v2b2Bk_3ASPoY849fipfYPpj1MmHup6wVSth_kDZNjOkzOPsMUp6aILol1uVsJ5JLi-zsx_il9lNZzvk-_LXUt_Zfq6EX0vO
+udFyCQyUgBgyFEJP_rpL110hiyHMTcsGkPpgI2PkFgD7Y8cDSL5_JjGuMOI1XdD-Km4FmnKS8i85D2ACUpEvdwgON5iLvTz9I9YxY9cwt-6TLF5jdPAxl9ku
+XVl-7W4
+}
+
+EntityColoring(couchdb)
+!define couchdb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, couchdb, couchdb)
+!define couchdb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, couchdb, couchdb)
+!define couchdbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, couchdb, couchdb)
+!define couchdbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, couchdb, couchdb)

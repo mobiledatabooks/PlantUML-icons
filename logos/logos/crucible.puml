@@ -1,0 +1,13 @@
+sprite $crucible [62x64/16z] {
+fTTNOZCX30HW2RK1xd_UlwGhHclCVg_ie9AuqIDkekOH-10HPjAOdceMVOovCdgOC5LO8mLN1enfGI8bQmDAlsWVSzz83KYVBnhVzNtCru7fFyOyCkH_kCz3
+en75FDPPnppdc3UCCU-ub-vpt13ZtEmwRl26SQmhHpyEer5W6UyTY7VeVHq6am4vZp1f_FXMv-WvZ21I_8Z3X9--wtra0ITgUDFxY9IiDE-ZuuqISU23xwKD
+duI80j_iMLu3tvY873z4emkSdtsx3Zy5Kos5uM-380ag6H9xQmUPKK6G2VqNo8hHY-SScTEIOZcYOQjuh8i8TeehrljX_CORfI7LWTA3Xce-nseXcPSD6XPT
+POooWg3QMxqps6AcQc-1SZUCygo-lrtS79JuLNU6wxqnhgxNwhI-tI_7WcuVCnu5fwcBfPNdlkXx_ITLB3ZNOSzBNJ9L2wn8yGVT4fGql4GfyxFIzUGrgT-t
+idBXfxq7qoEExRvNslQ-p-DAbHRxuOFPG-YIuO8pBUnr7qeR9DPPfZtD0faBlQAPuyF5Jz-_
+}
+
+EntityColoring(crucible)
+!define crucible(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, crucible, crucible)
+!define crucible(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, crucible, crucible)
+!define crucibleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, crucible, crucible)
+!define crucibleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, crucible, crucible)

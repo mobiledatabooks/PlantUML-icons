@@ -1,0 +1,14 @@
+sprite $codebeat [64x64/16z] {
+fLU9UeOm29ChVVydtlcB5arhFxExAoHa37ut1ZK7sW-0S9Lj1MBH2k2FKsYWtG2m9z66HW6VSgCDCT7WQ3E4B99p2RpoCVnUEnDySxGIBdU7FBn2jtYGmAXR
+swRSWxdplsQ3_I91mq5hWzRYgKm1IJrLZ_zcYt4RODOfIfAdzmmoP8WPVOmDWXHn5McnW9MNvd27-IMKrBn5bDmexe7GKmUBCiNrZoSZ1_l4Vhw6Js2C75Hj
+NSJfsXutxa4hWbC0T0-BWOCH7NtgxAAKEmWKlrAd7J_5eCtHqwS0d4KhTR1MdmBih3cuWnsz_NwI57D8LkfWxFWVTBi0xosBykE1CeJnuP7IStgMmxOmFdL7
+YseOpjOAsN_xHOLU_BBZfDCica0gzRIh5w19dq6EQYWP6RPN6ETL3MKpK--6aNq49gaBoCpEyo80NIjhlPUjGrPPMOZoSqA8RiyLNMcHowiGEHl7cixoxQoR
+uD4sWznM6eDntz476IpE_yMxWfMCPWR8XPvupGK8Bgz0R450eI-EJE62hXYodZcYRpDImVABO5-CpkBNBI0pB5R3A-95-9e78QyUGFpL0n3ipGCOKZk133E4
+qi1v1fHe3WjSgKss1QWVEG3-0FyD
+}
+
+EntityColoring(codebeat)
+!define codebeat(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codebeat, codebeat)
+!define codebeat(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codebeat, codebeat)
+!define codebeatParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codebeat, codebeat)
+!define codebeatParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codebeat, codebeat)

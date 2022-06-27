@@ -1,0 +1,11 @@
+sprite $ceylon [64x22/16z] {
+fPA73iD024DvaFN_NroTS7KdH3hT6H8FubW7x3_upmA00_urpLVmLG2y0k3pPHjOBy0xT_GxLDir-S1UQBq-umiqMMdk_3q-u5kbh9g6WxEC8UjrGmaxoqL8
+OjniMiTR3DwYysp8g1IpXdziaozAgHVDMUL3rSUr5pu3QS8z_rI-xJgU-mEpGxI2SbV-TcbwN6Tj5NGfXYOBFytEAv9_NkVSd94Rc5O3MI6C8TaI4Vd7F08b
+1lHRdXpDTUuJfFqVa7s3V-qV
+}
+
+EntityColoring(ceylon)
+!define ceylon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ceylon, ceylon)
+!define ceylon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ceylon, ceylon)
+!define ceylonParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ceylon, ceylon)
+!define ceylonParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ceylon, ceylon)

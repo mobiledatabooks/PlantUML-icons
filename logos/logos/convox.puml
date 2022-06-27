@@ -1,0 +1,14 @@
+sprite $convox [64x64/16z] {
+pPS5cciX34QBnVQ_tv4mGhyU7htFpqZrZs7XjgFKrljue_VMoWtPQrEvqklJDjx5GE_rabfKBL4L6PEZXJBLekOUNxYRJXE765hAnJp2L_ArJWlbu5pTmubm
+NPFWpCLMCLje-zXryOtOpa0RRwpEcN1vBmBA1Pm30X7KZd967mmKa1yCr5N_NZgMCt8_3ngKxcpWBdgz90zRIv39NoFqEuCAqP-Hhm3sqKUopM06K3UrZt0p
+rLp9sm3ssOVfIEPwvW3UYu_PX-jOmBar9r4bzs6oojc5PW9KlR3nWE6NRZUqBOCCG0BbFNrO7u3W243wOGFHW3dOy7s0_NGgtzXWyHXdfxSPTdH1By_fTQlt
+_qt_w_NxXV5ps-XbCBY9_kByhRmm2Dx18AzmpXxqzUdzGvttZyRx5yaX_NbuUPmsGECDl6wFZt2LnVb-_vxd1n2UdQEeRS-F_kFpAoBot_O4Bb-dlnzXzry1
+-04-Fd_-0C_-0TgVgz4d1JQ7ImrOxLSCn6C3s72ACc7GmLumeDW0z-SQu9ZomWsuM9paml8qi2uLLjl8u9cwD4kibkNs01IyFYNngUxrYTkVshBmrWjSNvmZ
+fVMHY9fvOgQIOYWSMXXCRw16AfY0l0zvzCNpLlmA
+}
+
+EntityColoring(convox)
+!define convox(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, convox, convox)
+!define convox(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, convox, convox)
+!define convoxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, convox, convox)
+!define convoxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, convox, convox)

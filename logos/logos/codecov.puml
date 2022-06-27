@@ -1,0 +1,13 @@
+sprite $codecov [58x64/16z] {
+lPQ7SiGW34GbeRBu__ytvSfUmnv3PlAIw-oeuJKon3mB_GSWtLHEql8YsYvFb-Vo4s9rz15fSanqCgLjw4U4x96TL3JJ7wnvul7jEAo1UJMLPopuau-4p4db
+4_OjTajCbJ6n8pLi_PSckrXH-baZL8x8GQrNOScPQM_TXEGf8Oi5FpT-FeOnyZLNbJDK_yMUKsXo2dqgJC44pk2FECvSpr4CEXMI_JGHcmh9K24I33vLAKJm
+rDYPzjfiikoH-zDuL8zZ_S8Da9VdK4_WRgyomABGVq65_NPtmoKo-ZDmFN1IBiVMFu6Fd8HGCWBsP0LKR7iQe3zet344m40KfYAYvlSGogbVA7zUC7PW3OQa
+C3yMN43xTBbwzc3Onu9TXutsk79x3HRu8A2SCpOhbLsCmYaOqcGQ7TmBfYxW1MerfAvMASPabyhCPMN80l4tfQzd-xyTMf-AqbEcgVNc_Z5TNquNAvMkkmcF
+JVCebgMDju1fdEVibQ7oR3yTbQ1gIjtGIQvc39b50vV3GPC5Mk9zDtq3
+}
+
+EntityColoring(codecov)
+!define codecov(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codecov, codecov)
+!define codecov(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codecov, codecov)
+!define codecovParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codecov, codecov)
+!define codecovParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codecov, codecov)

@@ -1,0 +1,14 @@
+sprite $create_react_app [64x59/16z] {
+nPO7ZbuX38Hn6T__o176sdaryCXAcQs_uSE5sbA8NVqM3zkGa_Us8Obeel_4IzWZhsPwwMncSkFZaPTHK6T_6nPRun41L2F7wxzqXRVi9zuP6Py3ciDWplDZ
+ZY3DV_ngX2pm35D7sCuMc_D2B-moX6MU1ADXnsNUeqk-yigPS8t0f_XP9Otm-hrOFtgfTbDJ10swm7j03OYpu6eHRSuBoPlc_grezrozAR7k7jKWV-4jgbDE
+dJ2bFfO6HxZoZDorz-wDTWhL--0YNj03hpds-4SHg2q4pS26gMBq1rvO7WJoVq6mJpKFgzrvCE7S-WNL0ixa6zlbmZDXXY89Cm0_BT4JVzzsZNo2Vjc8j_Zl
+_jkRVtdmJmVCtvc_rT-t_5dMz8jgILnfUgr_sQ5rJdfDDk0oF9P9hAWRNqUsIQq_Fw-_75Qz0hhnASLFmUrSRxJ9-YzfrGoPZAJIXhARJC-FxVtFpQhcE85m
+qxNxXwSi8apaDA_wvVoLgBBvf_ldTF-X_spVFvQfonQ_V_-Ho2NZopphn_1vZg_VNwXzbgXLh-NtXwPLF8BdCaoMtpyDbzKgJiECvmw0qI1U-8pdQrDkJrBI
+4twct-V3TqH-KyKRTZNuVVr_tdLNoMyBji_p2VK7
+}
+
+EntityColoring(create_react_app)
+!define create_react_app(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, create_react_app, create_react_app)
+!define create_react_app(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, create_react_app, create_react_app)
+!define create_react_appParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, create_react_app, create_react_app)
+!define create_react_appParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, create_react_app, create_react_app)

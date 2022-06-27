@@ -1,0 +1,11 @@
+sprite $cpanel [64x14/16z] {
+ZL474iH028goxF-VV57OCZSjN3KWjkU0iy1ylY9V-HqPusi-bMzWBk1Zlci52i7An9XbcXW58CjOl7823jNmou_PIBjL67C3UovwI2EbV6XMRdQT1_AtWOmT
+iRwmqaksbnBgd_-zb8WlCKsWvU5bC4WT8BBGyjH2OvSiacuul4Fny2o1QoLesTaBJ48DhyLWZyrmowFYUowsY29TkIB2owoJfRoG6UCwIylxWH1nvhfbxiMu
+p-9UZ07tbPVCk5U-nczvNWHNGb1kTBOVUSeXmh-O1cEop_O3
+}
+
+EntityColoring(cpanel)
+!define cpanel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cpanel, cpanel)
+!define cpanel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cpanel, cpanel)
+!define cpanelParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cpanel, cpanel)
+!define cpanelParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cpanel, cpanel)

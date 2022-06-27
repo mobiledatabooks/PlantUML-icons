@@ -1,0 +1,13 @@
+sprite $chargebee_icon [57x64/16z] {
+jPPNaZGX38CjoUR-Dzx4r0J6gFd3whNhQu4SYjY9oghnhKeHSIIengBIDSk5EcHLOw-4SVDIp-MuLE70xj1Kur1fEA_od2SzvqdF-OJG_pRrhMp3dc3pIV25
+wkjUZ4N81gGlSU_Q7HJHAvTOvPknhpMdOLCXJ-hzXZWOykBx3HaN0ecczcaGEqnnhZ85jBA6b8IUenjjLrXj8qNPg7Dxql95ggDLKXxCFhJUSbSCceremNLa
+VXyyFweFH-VbIDEBjW7Wgn7QJZ_zq71_4rI_PAVWGeUoaYU3p3YNZAKLJBsyognLAvccz1hdcvM9RwjIO-b8_eJ0-usQjrChJG9ta7V6bZD__WcHoJROliiG
+FxVWI_AuUfmono0PeUL0tBnM292gUuNJR57pn6NTKcV9lbJhVcp6n6xSjwiZ5G7WzSNDMJw49JcZe-hvm9ZzOyYkIAYcdNKPJwWVFTJEAncnLD6RLgP8p0Lq
+z-s4R3S2L4t_6xH82L7tMtfn2VWRJCQHg0USWNVg4m
+}
+
+EntityColoring(chargebee_icon)
+!define chargebee_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chargebee_icon, chargebee_icon)
+!define chargebee_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chargebee_icon, chargebee_icon)
+!define chargebee_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chargebee_icon, chargebee_icon)
+!define chargebee_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chargebee_icon, chargebee_icon)

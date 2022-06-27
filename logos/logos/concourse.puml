@@ -1,0 +1,15 @@
+sprite $concourse [64x64/16z] {
+fPRPckim28Cja7Z_DpuRAPzpWbjcHZVDzhCPKw-loaDOtnSZGZ_38xwDU_o8jyI_7R-IvneAPWPioQTynBheXdlqAHiKIYAUqQScPVPkwMRnM_dUXS8_591z
+WenDvnQ6-fU8c1Z0_HNmT4-U3K1RSvblwnSbB5CPE0Vljo9wuShlsYvMbSuaj6j_VS5k6LdFA9whLmRms5rwfU7DlYtP5P6Qw0ll5r_-AXtIqCs7BfphrFhu
+nwd2lN_Z-QjZytZQhnBWlZklCEmmTqBLOzSlR-wvlMpBXpBd6O1k8Tffzx2YJx42iDq5odrRFkxEaCzz_oJDi9j6YPUOe8SsNlbZXvboNn3cJspfCt-m1fBo
+vyLRylwSZc24x9dHbSTMFjg_F2NHpN3XQaUc2ObLGHuI3Mkfd_b8tlxoC4OlBfn6Rl5W7EN5FxhYrShMO0F_nR-LZlalljhY7UvheNSFltWS3T1UwoyzHkMr
+lCwrZ6eyFxfGlF7vm-iNvbIARkZw_xy_fel_sha9RHNclAofmaJeZow-fb9d0FZgmR4fuZo17nqUUJpyp0EO7n_jNG21ivTpOo1A-kmOj3S1-9b76I3EPuXr
+b1VbsdOXN16Z4XB5K14YoM870K2sUg_oKG3G_X96IY8DQzce2o7XOnVQUYEAw0mpXbriqgC1ZB4Bd_TBZKAO5wpXBW0Bs4Gi3X9e8mvcF_by3jHWPx8fw_cv
+e5h0tm
+}
+
+EntityColoring(concourse)
+!define concourse(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, concourse, concourse)
+!define concourse(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, concourse, concourse)
+!define concourseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, concourse, concourse)
+!define concourseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, concourse, concourse)

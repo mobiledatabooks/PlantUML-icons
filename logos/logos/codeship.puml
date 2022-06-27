@@ -1,0 +1,17 @@
+sprite $codeship [64x64/16z] {
+bLS9Ojim30j5yUp__xlO4aEvL5mFMziS10H2X-tN5m2IcFaRPa88h_y1aFhF1QxKdh9na0kCdhZe5lNkfc-OV-JyJmMqyCi8InPXoVjjtpAgj8u3A4D2l-VG
+nk3ofGBORotqeWyDiK7nnriwZOGMEwmd17_d8niwdrEqMXSD50jQHw-wbLyh0xr-kEVlQvjN-fQV0lHQO8DU-1BysgotfVA8haGofmvQLku967BF48PvVKDr
+DPAelQ5r-u_072AECg7GhtlOZLjTBfB3jw8UpCyBlWfuzDnhzZWvHWt8ZbVL8aK2EeQlVCNfHe9V31ojUfqxZ7q8dSu_FFWbWJvyzC8tF0Vseub-lYo3jD6t
+vaGadyzZD8-z8oRPh047yE9iRTfj1Dc_x7Z4_Nb24Jh72oWr9_KenDr1E40OhxnOEAtBflsUomSXN_Cc03j2A7q53ccBrpMd8-13uuO_Yf9VTl4kVjdp3Sf0
+UtvwzlLrsqpIde-LN-Eh_8GatyDzhUB8hw1b_i7lnxAcjk7d_07stX5UcLeBlarJrg_pjwmVPD43mXW9vFgXZwJXke4-wnTO4zniqbg4lwu3oFMBy-n5qHKo
+-JoDs4aFE4L87FjtqXF3jz3F5lgAayT60E4-ORb_AnpYvE4H0CxxB7TRBRZj-JBRFxeORh8m5SpTz_msx5CSO-VRX6bAxDiFNbu8heNkziRDy1YN7V0Xr7yU
+GsQ_UBaKobDwZAPn3Wufy8TqJCw9FW-Nzao0fbV9ZJJVuHC1ZfC3hjTxUYIGPVtt7LaFfHiuxU_sE0H0x-Y6GQzdUTn4qNSB364-p_BCC4o1x1MqXNpGgmDh
+-QHmWGiExQpQ2ZWFQMJpXTnXkR8gL79sxfHF7_H6HxW-NCbV3q3E6tz0zk09BC8tHbYuZM9Q1UxeQ_XkAap4h9c4OY4Kj0Y_G2fxZovr_fJW8JiUMIsvaKR5
+Fm
+}
+
+EntityColoring(codeship)
+!define codeship(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codeship, codeship)
+!define codeship(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codeship, codeship)
+!define codeshipParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codeship, codeship)
+!define codeshipParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codeship, codeship)

@@ -1,0 +1,14 @@
+sprite $consul [64x64/16z] {
+fLS7ea8X38FkSl_x_XadWWBvKttfedIK0IghHsHh6U7AjQo0D3BR7J93wKDobSZs0XdoYHMQTvG_tBtMTso9cyMcmZyGjPitmLFJFK4she_HD8X87pl1YKTU
+Ac48JvfwdZuCDFrBYF8Iza-VEYZv-qWTqU7TF49fOxgMjo0Q-fvSDi5dz7f6BmxV5r2fFfwABz4bCwW0WKDTT3ZmGd_fKbP0Vm73YsNhOJ8uChiJawjWjHEr
+0yg3eqVqOfSCyssVNjVDhu92JCA5Sv8xOk56p_J85lK_RTCcxdFyLoIhNS2Q8c-Qm_rXDUtasmC_yA93ZNQ5TGTEA5aUezoN6nq14jE_lsH61M-KOVZzdY-u
+vNsU3fF_PZuyZFxHS_wQ_TdRFuvVFiUF50yo55QcWlEREw1F-PUE14aTvmzb0xpFFu62dEGl1VAtJF9lUdzOpPHUv7KI1CN6_MN7WA5XzQ1-7DQly_fvMh-F
+-aVOVI_qxQgD_idR_HFDUBj_erJPwloG_7ZNPNT-EP-VYfmAq7Oem53dte87IXorOdD-XWKj5kVtVW6mT_j3JgL3mdn_cIje_RP86eFzQT0rCbs5wGSivjt-
+DaGzsHyXONz_1SWWOcD_1aWi0dhTUAZv6m
+}
+
+EntityColoring(consul)
+!define consul(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, consul, consul)
+!define consul(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, consul, consul)
+!define consulParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, consul, consul)
+!define consulParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, consul, consul)

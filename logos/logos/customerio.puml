@@ -1,0 +1,11 @@
+sprite $customerio [64x12/16z] {
+dSy7OcGn20DGKGI2kVzzr_xRUvBdtWqU5k663xEuy3uqV1KFnnz5ue_AFn_r7yv71gvKMzl9BVB5qoHSmvQ3Ag0RPI45IOT_ESygueWD-hflRdYEgM9TbQyi
+nUQGuvZSE3DaVek_kWC71M3DrqfDOHswHnOntAeKWU42BsVHOHuEP7SP3jiUrqn7z-IofjVMxPwtxJQnEI5fG5A9gzHDF2m3oBp5486u3KwsUDRStB_iS6fN
+p9hJbE7TSh-Pm0Vax6SAV8XHztJY0pu1
+}
+
+EntityColoring(customerio)
+!define customerio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, customerio, customerio)
+!define customerio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, customerio, customerio)
+!define customerioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, customerio, customerio)
+!define customerioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, customerio, customerio)

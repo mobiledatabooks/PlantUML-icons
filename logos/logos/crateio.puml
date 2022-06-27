@@ -1,0 +1,7 @@
+sprite $crateio [64x48/16z] xTId0S0030D15td_bKDZajxppmzADbEgnYdcm6Cy7e_NZDTSrTFAwhI8QEzUhUSw-6_yiHwFnmy
+
+EntityColoring(crateio)
+!define crateio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, crateio, crateio)
+!define crateio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, crateio, crateio)
+!define crateioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, crateio, crateio)
+!define crateioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, crateio, crateio)

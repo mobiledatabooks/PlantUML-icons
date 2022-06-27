@@ -1,0 +1,14 @@
+sprite $chai [55x64/16z] {
+dPO9ZYuX28H5t2dkVzsNzcsZ_0xsc7IszbEgq5ZXEBZdy7fGXQBpIwe8q0Iez09A0-ZnsH5oNMdiq97-w0D6kXG5AVH_OqMBBfK5wpGgop87qw76ljWsYVQ_
+VlpF0yTcKFd6y2oAIWVJMtIS-YJASTesWwhlbcr6jg9S-TOcEsmpfka7KSIbzLRJ9b7H6K2XOqNw30ms1maur5UWmFoW4jS57ov-r33GKenSCRc-_Xq7BFqh
+Z0NO9z41o-Z_RyxSBbrW6VB5fNw9fTMch01yB8gsPPKxRLtNdl1qqiEoRfEoGhE7aUoJgke87bPr5o80MynE6hIjauE7PTtq9w045-k0rhNpARXOn8ebr1Xy
+B6qOJPakLdHYPZXOVR3-8mn2FyB0Rx6iiE9yZ05RfO-H083cbrXeQhOxOgPARUkDImusxpRCkSmknlYp7_rxBBIwHSxpDJafJ4HSHSyNnxe2A4G4ooMrcEKc
+gZq6Enwiiuq5gXF2I8UdqQIUPr3kGqQlV7Zsf9wUUo9odlremeKNCjRyw0sRBm_1oGrGP6AQ5RMOlkGdFkUHASgFeFTHbAhCtrQKMSucqP6iwNmLvlaoyTfc
+-8dMIfpDcAQxny26sOFfZaGruVYgqkzC_mK
+}
+
+EntityColoring(chai)
+!define chai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chai, chai)
+!define chai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chai, chai)
+!define chaiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chai, chai)
+!define chaiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chai, chai)

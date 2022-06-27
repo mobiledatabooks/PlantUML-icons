@@ -1,0 +1,11 @@
+sprite $cloudflare [64x29/16z] {
+dT1N5W9H20DG86N_ExPtrE7D_IV98VugohQ8Z7L9-O4LYo2_4ZCMfFn9jNJUgTREzmVGtobZ0lw5CI5xrm3eX0d_nksdoN_et_b4BVsygmGgTzShm9CU0Oym
+U8NQCr-Pv0rstFCwlmLaSLOVO0-0v0bLHF55BdpUKaP46r0_plM15LU54rvbQsVbK_oKUHl0rjjG95_h-PJoa1Wd2RxppV3xd-Vo7FevlQ22ZUUKnKOBztq-
+wWW
+}
+
+EntityColoring(cloudflare)
+!define cloudflare(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cloudflare, cloudflare)
+!define cloudflare(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cloudflare, cloudflare)
+!define cloudflareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cloudflare, cloudflare)
+!define cloudflareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cloudflare, cloudflare)

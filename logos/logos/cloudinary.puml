@@ -1,0 +1,13 @@
+sprite $cloudinary [64x42/16z] {
+bPG7OaGX24INgdZ_0oV-ulYxJihM1uCWlqU9fHobH7QbtwpOeq2HT8vE6ms5ZUCMZQeggx8C9iyRwyf4n68f9Ynmh1NtsMXpvACul2B2K01w_9eC1SZFTTBo
+cRxYLdC0lmj0N-xJ-zcajx7vIA3rStxuBAsJeb_7asxfN5RbtviaRWrIAhlqkpzwFpCbSd9x9D6WH7Tu68zETqGswjjw24gl0QAi2j-_vuUP8RNF3gmAWIDl
+_ipTtohnY1mLsMSvzKrJNoMFFD5YCkyEAEeZacyomjTlfR7EgY8zcKEsHbJbbr4gljYtWtqKGAB_4dgx3BKGlkTPD_5pAnm3VU99j4am6cS3vOdddbyTC3ET
+jyLJ_lggQVqwLz6fWFed8pplEl8u_rUU6AAUH_zdUDI__9DF7W6GNkhnBTSlp_BeFvRo78zbRAN6cU8n_sqbP9xZ3PD7wsNs2Hxt7m6A3lCP-sSHUNLZepp7
+bXsI78b6UOgsVo6gKHfl1vvwdkkcKj2zj5-0X01y2W3z0G
+}
+
+EntityColoring(cloudinary)
+!define cloudinary(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cloudinary, cloudinary)
+!define cloudinary(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cloudinary, cloudinary)
+!define cloudinaryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cloudinary, cloudinary)
+!define cloudinaryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cloudinary, cloudinary)

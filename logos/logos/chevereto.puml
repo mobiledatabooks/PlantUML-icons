@@ -1,0 +1,11 @@
+sprite $chevereto [64x10/16z] {
+ZP45WaG124AnyFutNcIxfqKU_CBBgvbuz1NnRPNS-YCm7ytcVAjBCbrhAPs0fN-72IjxNEgtl7AIfT-TvOYOaq5grQBaXbIJekKrUbU_6aUWoI5AI_UU7FHn
+77U8udaXBefAh8-N8zxtpNKEw5jXMUwW4W8QvRAHWUJ5p5i40hbCUQbkcfGKFYifq1v6GZIt4Rv8JRNQeBWsahi9v0nR-RAB7fpNmdr_b39Gd9H1gLmYFFA-
+SREYSgUcOQ-Bx6QMB0CcVBy5jf-IfKOq9O2atVFAoma4Mxdo33m1
+}
+
+EntityColoring(chevereto)
+!define chevereto(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chevereto, chevereto)
+!define chevereto(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chevereto, chevereto)
+!define cheveretoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chevereto, chevereto)
+!define cheveretoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chevereto, chevereto)

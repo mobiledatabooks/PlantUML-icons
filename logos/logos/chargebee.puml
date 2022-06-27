@@ -1,0 +1,12 @@
+sprite $chargebee [64x20/16z] {
+dSu5TYGv403H44DcpFsFkw-wbuTi_q99IJngvKEMb-_rq4E9pczqhzy7JMDiQ_Et-JVgzq7T3TFIhVnBvJl5EIpyJoIGmPH_sNu_JRF7_RxzW78REySv1Sgw
+kt2_vMv0Ep61VazbkXsh0VEkL-24O-7bgavAU5nqmomqyzfUgylICyt2DkpSrpk3jt0q1-i9htJhiX9Hw92tv6L_imvjpL4Tu_dfU7XfRhgDF70cKvQbEgXH
+kttRk4vAsa_MQurRCylV-TV1j9GdniKDRZAippCD9zC4jcdg82EpyTVyInjBgfFXm4d4A_zOjZaOQeN8exjIqriOiHolzBIo7TVewJvPo1pfdZu9fnzFy_PZ
+PpdRKcVRHWdlITVAGlSTVBN3qXi-vbON37K2HptjUUz2sH6dKIfGMw4rQ0Lu_osplm-0qYgyu_vw_yRGnTTrmywNbJpJofSDwms-RhaTV5tNpQ_z0G
+}
+
+EntityColoring(chargebee)
+!define chargebee(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chargebee, chargebee)
+!define chargebee(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chargebee, chargebee)
+!define chargebeeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chargebee, chargebee)
+!define chargebeeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chargebee, chargebee)

@@ -1,0 +1,11 @@
+sprite $codecademy [64x14/16z] {
+fOi7hc0n20DD3U1t__CksTv_6qM0hSppJmQlWHL_fr_fE_vE_kxBt_tuhPZyko-q3_h-3z-x7TfNZ8bTqMtNjvxOC0Su4xIT9QYTgnZAO4LNLXrC7yQUDcdC
+GyaHzcba1DrvZ9QCRk4adzEKATJGWm2CYYxVSp97Lybn2XRJoJCG-XmxZp9MMq62miyVF_k2wlZiduug--hBJFHMN_nJfNHKhw32mssTgYOCcMCqPGPL73b6
+bysAoQGuhLhKvBkFUWeCD5auv2Y6PDvY90Trzt0OoiNkh9zystCVJ06e0VUKE_VE-TA9wNPttdkBc_RUvmHO_dTwv2xycs02ppzfu_CG_qPznoS
+}
+
+EntityColoring(codecademy)
+!define codecademy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codecademy, codecademy)
+!define codecademy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codecademy, codecademy)
+!define codecademyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codecademy, codecademy)
+!define codecademyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codecademy, codecademy)

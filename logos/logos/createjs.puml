@@ -1,0 +1,12 @@
+sprite $createjs [56x64/16z] {
+xPO7hiGW44Cda8Qv_tb_ZSFA4axvHIrlQu0XyxOwkkI2AIwJ5jIADSSbXXdr2omfpZEMkeDvY7Fa5VMLCfuL-mJWdMXQCSofr8eyOTCS3iIs4wG8r8hKDfeE
+nL1o1EiY4aSxciFITcvrxAAdEKmK6oZwejKqZHYFUN9fHiMeq8xRc6hgNksOQ0yyrjvvJEYihq7UHCgsAOztf1KUSvLeD4II8pqDekA263exgm7VXW9z1-Mu
+JziVdoqQCQ8-PVzSgvZNn5PdnLGpiowfs95c_gmRPzIBW7V_oyF3mmDkbkLogsnY8Be2biGaTnA9FxdOIfCg9wjfKgne6Z71QxQSA1nhmiJb2QV5ZARywtlI
+2YlcGpOnqTfe6Z6ZQSMyfcRuavfpT7a7
+}
+
+EntityColoring(createjs)
+!define createjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, createjs, createjs)
+!define createjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, createjs, createjs)
+!define createjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, createjs, createjs)
+!define createjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, createjs, createjs)

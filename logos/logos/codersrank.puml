@@ -1,0 +1,12 @@
+sprite $codersrank [64x41/16z] {
+fPK75iCm24FZ0Pda_hVjhd4LA-FrlzN5a22qEo8CVVS7URRakQv6nz7MoTz9lfP1bzLCobjHrNG-EatsO2abWpwHU2uwzBO-uzszh6zoEEVRc-Zb2-buQE_Y
+jNj9dGCHijYNNBddx8g8anLc_rG19kBfMw77ybo4--OiiL7VoSItmlYJMZT8OBwvUquGtV2xxC2qiNOdNg7uQhrtHqLKomvCxG611l2ji4Y7yFYyQNq8PBVG
+mhTlK7o6rla0yjCtR5tPGT363e_O-XX9wytj6GnQp_l2yG62y9u8psptGJeHJXSVwylfrjlnxXviBBizYm6uEc7_RAW1EFzqSBOKbW-7sB8TpoLcM2rHwmE_
+USxCpoPCg7qx59QM6C0EvnBOy5m1aYeR1XWUKG18iI51UGc1At12Z_-P-YB278Y2Seh4X-SJ5we0RN3tf7hGG057SZMyIEvFTuQS0taGtO4x
+}
+
+EntityColoring(codersrank)
+!define codersrank(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, codersrank, codersrank)
+!define codersrank(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, codersrank, codersrank)
+!define codersrankParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, codersrank, codersrank)
+!define codersrankParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, codersrank, codersrank)

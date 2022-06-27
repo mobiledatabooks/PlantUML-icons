@@ -1,0 +1,12 @@
+sprite $coderwall [64x64/16z] {
+xTU74lCm20DW0GRb_L-ukpKPvFZt_6uwSlR5Qd4Z8y8DU-fdWU9fSBdZTgBu8s3eTkzu1YwuYUM50vdCG94fFu40lYp7yo85WaauWxYFyd2o73YciKoqETgS
+nrS19kOW8ezeQLfnO5a7pVqrxvz5CGtHEx-rxZymnJge7hEcW5Qy66eUKf2C6GIoc3judaV5Yhy2XY2JODeTqE2T2pRi6Gni3TxDkn8r5HmGCyKHJS7lwR__
+BCWOWYqPzy1mJgCe5djjfvxkpg9OR0QA6ejYaHoWKlU7Byb09LhzGHIQ_R4qzzVs_kVzqR_-qUeFHqMg_j0SIES5qf4vyt5hDckYA9Q1K-gy2KMI6iTJK16L
+Slilyzz_8kYfFmmNV9t1zFcsrDz_Kxt-zDJhNq-ZFnhQwtz__vzx_NN_zibNlB_Exuy-uzVkdl-PSmY0Am
+}
+
+EntityColoring(coderwall)
+!define coderwall(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, coderwall, coderwall)
+!define coderwall(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, coderwall, coderwall)
+!define coderwallParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, coderwall, coderwall)
+!define coderwallParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, coderwall, coderwall)

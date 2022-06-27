@@ -1,0 +1,13 @@
+sprite $chalk [64x30/16z] {
+dPDj4kCW34FHath_A-y4JBn3sK_zGUxuLNOInYFPHaF0B94qfjhOfcorOQF7s4xY8Omc10jhXp_nubbjEER57OQyUN_nyYSxV_8YGG-UAQjvkF6T3nslV3u9
+zcYUpjUDDqDEcDN3xy7GXTTqQTu6r_J3-KHVlDMuZlqni5-7d7WKhoD_uL_vZrmLjSTrVl7oD2zifpQqQ_mxBy4vlrJJ7-jF3adG_5JlkNZR59HyF9gtGVlz
+Q_F7_3AuU2TVF9j_ZZU_UG1J-GVFLFCI56-Qjw5uDx_JcqVREyq_yeN7g4-99UtRrhpxxiPwUQuykkMl4fUvvCzewUJ1Vb-Xal2B_7wAn_k78M7g1Jv61Tnv
+pNp_7BDV0Ocd5jVthp_TpIzj7jS0JepDoGCxR_D9KBNXwdvun_xcrJnPiYLlVcqaJwbvkJ_SiOmywTXlC9Zkg7FqMKKvjjus2MaMwsWpjf7wbyCKY6rZupB-
+hU4qfUG_3VwrSfYqsQB_BQV9nPoz_W4
+}
+
+EntityColoring(chalk)
+!define chalk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chalk, chalk)
+!define chalk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chalk, chalk)
+!define chalkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chalk, chalk)
+!define chalkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chalk, chalk)

@@ -1,0 +1,13 @@
+sprite $cirrus_ci [64x64/16z] {
+fTS5qlGW30RW19UGtF-qltx-GXVQPtGLY0sb1GwvZM5_wEWbEZhXSbVxJegdJR7Rb6IcrzAm9IrCr-AmIvhf0ZTxIJojX64xCirbsrHffjYspWIg7H36rOzq
+EFkXzZtoTgpG9rOx5-X3ini6qvjeuEW4m-xn1x7NBgiSZCsrN9rk8Da6vRUTOYE8xUZ9OQAKYPpjIaGUtygsInaAhSFshtY8jJBha_Kj1jkbST9d1VfUubnm
+HDJXsmqFkPPnKmEpjEODOF5Adyl7KmxRnTaJxhpLiNxkazcWL4p9GdUpNeSD5LuW8iRjTmpIMi7DmblLpStNbsYxn1D5NCssZKdyqxFvOOxAa_eJxAcrYlMV
+2KTQRtDfaa27Go7IMfZTGbXtvqzIl0B0faPUA39fADZ0YG1ZyUOTJEm6TJ1NZoGOx0ykWCt0sGsssv7Xw3iMEw1OPTmV_Fmi1k8UFO0qVl80f8dMkAXTwuuk
+-MON9D1BlghDzK1RE7N5fREZVHoBgBrHgSdHt6y
+}
+
+EntityColoring(cirrus_ci)
+!define cirrus_ci(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, cirrus_ci, cirrus_ci)
+!define cirrus_ci(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, cirrus_ci, cirrus_ci)
+!define cirrus_ciParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, cirrus_ci, cirrus_ci)
+!define cirrus_ciParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, cirrus_ci, cirrus_ci)

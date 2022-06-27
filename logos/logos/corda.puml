@@ -1,0 +1,12 @@
+sprite $corda [64x20/16z] {
+xPA7TGCn34DFZGNQVz_ey6W7wHd0J5mayBFWVFq_VEyTNwzVV1jhpQOt_KIx-boZpilMY7U-JNEt4XTm5BXKk5FTS6wP7TYCuaUT4JVY9VdraMTEtisBVl0D
+UZHHX9UYkJ_mH81abJNu0Q0JRCfdn3phCM5D0tdATh8RX-JqrXgzw8diJzwOo_QihlxtCISdhwAIsehFiXfLIlYPs1AhS1g5KNp8vVp0kz1LNVXUlF_4qx9q
+3tfK2CEmSJ3XTVuaBtKu-wQB5dH-6ZifJmoFvn0YqZ_AQi8NVb9EREMnXe4yjw5lt_DVVpzhIvmrIaSJNfzgI-gWRLGB87_qbRS5NVfRPjZpr0mRqMTaUlby
+0Eldd6y
+}
+
+EntityColoring(corda)
+!define corda(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, corda, corda)
+!define corda(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, corda, corda)
+!define cordaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, corda, corda)
+!define cordaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, corda, corda)

@@ -1,0 +1,11 @@
+sprite $dashlane_icon [47x64/16z] {
+xTQ7hiCm28NXOBmvlF_ZTY1njrDybrR_xlRhZaM8q-5bGUVZj0cCGeVLLHMpfXEkzz3p_NfJ2oEVSIDIdTz2NdEFNhcMXnp_ojkeASuPgfY5mjn_uZ2tqBUu
+pZL_yYgpfZWNjLL0xtbVSmkTt_8qiEAEtlBZI7LYoJtd5dTHy8hZ7RU8qn5xTM-Rfo3tya2CUrGcOjnBJQG4kVUV_CafxN0IIECmP_WON7EYjzp2u1NFmCWK
+NXxzVYcDWzp7yAnXRg5iSVqP7zZWliwZtDTvbFiw7tLtUZmvJMnmcpg8ytjK1bJ7YlTtt4grqblUiBEdv-zed9hW4VVXA-GJoVb9N9A_MxKnlEWA
+}
+
+EntityColoring(dashlane_icon)
+!define dashlane_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, dashlane_icon, dashlane_icon)
+!define dashlane_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, dashlane_icon, dashlane_icon)
+!define dashlane_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, dashlane_icon, dashlane_icon)
+!define dashlane_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, dashlane_icon, dashlane_icon)
