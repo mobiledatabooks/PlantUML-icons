@@ -2,7 +2,8 @@
 ' Colors
 ' ##################################
     '# GCPBlue: "#4285f4" color from svgs but looks anemic in rendered puml
-    'GCPBlue: "#036ffc"   
+    'GCPBlue: "#036ffc"  
+!define GCPBlue #0384fc 
 !define GCP_COLOR #0384fc
 !define GCP_BG_COLOR #FFFFFF
 !define GCP_BORDER_COLOR #FF9900
