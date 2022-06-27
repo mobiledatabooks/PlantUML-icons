@@ -1,0 +1,13 @@
+sprite $rollbar_icon [64x54/16z] {
+dTQ7akim28LXa0pyVly7latAd5dVXioqtIIVESXDzh9yN555lh8p2e0RtbdL8Kx9OozCHHxw4RB3xG98uB1rNcvc5W2ND_siXMjXimIOrlDZwnYsoWkeOItl
+iLhFhyShjvQVzT0s0TAivLTpQLiB7zRp2H3-FE1bBU_rREvxuJj-yNHJZRtmBR_uvvyn8ujrm9vF89vt76dMym74jggoffzmrqnK6SMTJU-0gcAwcKNVvzFQ
+YH-BwuPhUcdXK-zRvp1LtrywpyTUpM6-yHE0I2WxyyfUmmgk5pvOL_m0_CYBpnMZhE_5xnhxseiJh_jbfIwOftu0cpimJdq9QVdwFb3c2TYP7q3eAe3XVwhy
+coyea_zh_SLFfL__DBtNyWMfxYsljy7gEBwydiQVAv5VZ7IpL7kzdlwt_dgF-YRQ5pIytgEwNKRTK6uDxmgwusjVqF0AkkDhdexN1aQN-vwdunNqCxxcQVX7
+q83ypDFnpw05jQ-4XgzdKAkR7QZXWMVGTLtNQ5IYeFBzKj3t_lhBK6-vVGS
+}
+
+EntityColoring(rollbar_icon)
+!define rollbar_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rollbar_icon, rollbar_icon)
+!define rollbar_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rollbar_icon, rollbar_icon)
+!define rollbar_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rollbar_icon, rollbar_icon)
+!define rollbar_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rollbar_icon, rollbar_icon)

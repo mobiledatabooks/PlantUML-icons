@@ -1,0 +1,14 @@
+sprite $redwoodjs [59x64/16z] {
+tPQ9ijuW24Q3Yd3V_uLR6-PCVaQQsbcwV7U_UcGDyVgF9Egp_IRuzLt0f-0vB1eOy15u2kDgblyA39ZXLrP0i_ghrL6mytfNsyRwQhF_sA70c9GLoy_m6Plw
+9-iZ8Z4fG35Sa_aWhR6uJJEcC9nCybUPsMpOMd92Ts4kiHw6-GKHy3DCXB61oRglM4K-wZ9xGgjrBPTmE4jJuWk7OPE_JTOtsv6bptOpSOBM2Sv10UJ-o2HL
+61JcuMPgp1cxaTqRXeT9Zic6zQwM2qRNVyUzJgyZ3BDd_RA42UMH7BwjL6kiCJAM3OuYBaJyz1OUYtCqcKMmqI2VCswGZHUKuOF7CHnedvanUkIYQixGTet_
+UiDk9cMLaAwMc0-thuhriPd1OaGbwhePJL6yN1eUsq-82DZ9GNHqzsgQgnTMaXVK0fMnrR635Xdz8kCbAhvXLu6jRUlSTeyvSdh0gix2RELKVtj9puCvxAck
+zQsZAJ3LGZaYLmcen-Yod8MdEYkJ_SzJfjUlEay6VNjKdk2qXVNutLBAC1sPpwoswhf6scIe7DnzADQRo5UMraZT7JJrkuOVsqHY1xVIh96dme6QfLbq8Zqt
+YRfJpcF9T2C_n_3rz-aR
+}
+
+EntityColoring(redwoodjs)
+!define redwoodjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, redwoodjs, redwoodjs)
+!define redwoodjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, redwoodjs, redwoodjs)
+!define redwoodjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, redwoodjs, redwoodjs)
+!define redwoodjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, redwoodjs, redwoodjs)

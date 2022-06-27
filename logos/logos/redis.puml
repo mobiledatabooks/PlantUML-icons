@@ -1,0 +1,13 @@
+sprite $redis [64x55/16z] {
+jLO7Zk1029i-EEN_txqq8dA8CBdRzVP5DWOiQS8ROcv4lQRmJyWDc7Q0IlnAJfLsCWCzVs6NlfFxsV_wJdNGH6BVDHO2MYuODx5JRjDRmtrtVM80DGsrbeRZ
+NvieLckvChGiPHyAQ4cpSySa0EgzrUDkCUKY1CH5rRK04160UsCXR5GmUvwL2T4QBLyJtzT7ZfXkyhoiop8_5vGggxU7fUjer6xsoLzNLZWwrbkUmXEL2qo-
+-cyAgr2OFlBNOuGR_Alb_od1xkK_-NUrFuPSe6BFGaBSZ_y2jPeJ2P9cImMPdrOkEmKEModGpcGaU6Gj8IDEBsnqKu4ZNc6ozvCLQ1CouWcsSThhVNePenSo
+sKUzxV9l2WRREyXWLVngAzWL_QU4PznlPKV4L_NPtoG-vNUqHdN8eILSGyZs9lobzPGwtg9Z6hyAW9i-9lzIVkS11QlWnS9dEmeA8m7v7jz_BqyOL31ocMCt
+k_Zi6ZQaxcJTOED-3wQcRkG6aChprOSlyPnwqkylSmmzTZJUVteCpKO9DZ8fXVc1djp7yql-MhI9zYvzu_Ok6HDbdwPtQT_BHo5Zx6zZeBwo_m
+}
+
+EntityColoring(redis)
+!define redis(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, redis, redis)
+!define redis(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, redis, redis)
+!define redisParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, redis, redis)
+!define redisParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, redis, redis)

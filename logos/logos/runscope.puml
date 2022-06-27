@@ -1,0 +1,15 @@
+sprite $runscope [61x64/16z] {
+lLO7bkWg28rTBBZ_tVwJmXWvgFcltUcZbmvop17BYQIENu36Ti7z2ja-vF2PePocNrsx0VrixO4hhTAD-90p7QPM_PngCbrM9gJwa345UmeCvn_5JhZXSJ9Q
+gDW6O78Exzz09fUs0j9F9MjkNv0daSOrRPrsO8PUO1BBCK5-4NDqHfqmBcHyaPLiTUSMhrdfT7xL4fU2BUVI99aTWkespwl8rJVR1QfXX1_1MS_h7iWqxSlT
+CEeIYAmB5ZL8jr7t-l_KVXvRHphC-yzuxE27Uic3g3tYq2xh_AyhgOj2-tcqzSHuv85U8xmJOx1Hv1cKCKP8UtsrLvGLAnVXHFISxr-DNKN55Y3T071CxCDG
+P3KV40vI1mInxzsF4K7a4iPJ-vGKYK4pf8Dn4pXXNcMQcNNCHkA0eO0AEGtr1735IzNXukJB2gM4Q374CU2CmwsMxTuZ_d6o_XUQ_JPW19zE3FFMS3A_uAZi
+f2A9QvSx9mbDPO6JWrYUD1ZyCjEWvCOmA4nE5RdHSalAmq05wDGud0qCa1yB4m4Id73inD4OwXvKTJ1evuDtPhRu-6x5zpNH3LjHQCph9TIZ2yO_yoSoC5L1
+V63NpoJm4A3xl4TNnVwrV-lwQ-wv8tlTbhX9N5enhfSAiIPqRRjrI2UwWaRmXfGhARsXNx2oFqGtN6iWooPnCVsyOGbMaKvBc-ig8pgtDx3cd7Akuz9Sp7Jc
+OjjWDO5jMLAhszHkdLE3shQSBvBnM8YwWOcCZnNiyHt6GwbuyGhuMOJ_0m
+}
+
+EntityColoring(runscope)
+!define runscope(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, runscope, runscope)
+!define runscope(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, runscope, runscope)
+!define runscopeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, runscope, runscope)
+!define runscopeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, runscope, runscope)

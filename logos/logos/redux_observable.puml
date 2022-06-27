@@ -1,0 +1,15 @@
+sprite $redux_observable [64x63/16z] {
+dPS9agqm2013LcZkVzzVrZEKtztfsJLDLj195qWT1kwOZPObVQCe7W1eo-zjsTbc05hbdPujtC0CT_fTXAhhVTl94U0smbWSoodri7Vy8jIBtlsd3INq0xyM
+ftvtS0-kz0ML4xzvptuVm2Ts4g0uwZlsQg1dcmR-cdxi7su2x6zHZjk70wELglWMh9USI_lliktq1hZLTIosbUFWoyoAOUncK5bqYPRT048EYWAKb7KE83f4
+5pt8fPnchPJMo_9pUorrwEaBLKkQT4j9v9DUDlq9bhuoSDsS_FpPTwOaE5NADx-3ZqXSLzDlVW7uRQwwkqFvv8ivWDMKyGLw-eInuFGM1_eJ2gvYpfY-VD45
+TySMR_Nvv5UVy2TVfsu-AH_qpCpkl2j9dnvGImw5hszjwVoCjlo5ysq1sjf-pHfpW0ZtIF_98QXZmDiJLDdLqEwmy6u0mhw8Lx0r0FNzwAF3Z4t_HG2c3Uw_
+2h3e4Q0zfNteuIiHuF4KzT1XDcu4yN2_FVQx1SzO-4y1RAlFigi43mTP27rpO9g7_v19PUj7Es4NW7pXjz1XqwnlhowC2r_3PzjAYCktgIWSkuzjtGQWN1Iz
+hTztw_heYuKERll8VkV7x8DoVFczz_j6Ds-7iIs4Vwg7RuoJoMsefs_duQFfWAZxvGjkiT3DZFDdNSS3lIYvXX7wdjoDsNBizF2vpt2f-08ZRx8c828_rOZu
+bqqi_AXmpxw1mv2Kf9W7Lj8JjlgnKLcdJK_FuEwrpoIJb9dsa0Sr-k_grbeRsFgm1MrXtrCtPLXowggZrHBokm3ZTVj_
+}
+
+EntityColoring(redux_observable)
+!define redux_observable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, redux_observable, redux_observable)
+!define redux_observable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, redux_observable, redux_observable)
+!define redux_observableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, redux_observable, redux_observable)
+!define redux_observableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, redux_observable, redux_observable)

@@ -1,0 +1,11 @@
+sprite $section_icon [38x64/16z] {
+xTK5ii9W30JWFxvm__iYcKn95HjxiZXyG3KxTi9cuqb87V1Z8pU2qw5YkvDRzXLh93bGLEH0rS9a06mgjav20wKwYHcXCMocM5qxSRcHqHM98rC29YaUYjG3
+ROKGngDIwfRp-LGaWoIFSA1KHz44rIRPLoGMHKhLgwR4QrqcTGeJnLpv991taPk5jnJkyNZi8TbG29FQzhkgFlb5wb_zgt_rV08ydoRF9zFRKov3_7nYbXJR
+cRwW9vEyNEXnAqmD4yRx3JEr5RRRIdFDbytdMyqN6qKRwatrq1n-q-wzd9-fX0xWYMgB-4JL8ZvJjOXTNG4
+}
+
+EntityColoring(section_icon)
+!define section_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, section_icon, section_icon)
+!define section_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, section_icon, section_icon)
+!define section_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, section_icon, section_icon)
+!define section_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, section_icon, section_icon)

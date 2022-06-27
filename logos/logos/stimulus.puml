@@ -1,0 +1,12 @@
+sprite $stimulus [64x64/16z] {
+xTK5biCm40DGCpIJcVkVTfaqfUZvmT8_G2CtYbntMw13xI_xDz59x2QP0mKlTRt-i1GEI2UxQClXe29sPg-1qDJGY84IftrnIe6MFmuXDw97W3zWBxI76nJi
+ixZd-tUMse32s0SyQXolqOjxjNfWasA8h_-_jW2wsX4g-XeT_mzoAhViMqdmTOk3tEMLwBvkUJE651TTZU3hrgZeEide3PJeFq9F7Me4jEVe42D4RKYQvFoX
+hYlpL-H67wdzvkSltOaUKtwItjszlx2FvVu0-UXuCeuKThum-i86kENEsq9qThxySZSwUboAdiytG6hAyzXoGtIuY8gGort47QU9VnfSlp8krMt0zr50k3f6
+yQDkaWAlxb14adzdGimFr8tV4AmRFxz5RZS3LTI6tEpMR1NPZ_PFRSsm9TiZ
+}
+
+EntityColoring(stimulus)
+!define stimulus(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stimulus, stimulus)
+!define stimulus(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stimulus, stimulus)
+!define stimulusParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stimulus, stimulus)
+!define stimulusParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stimulus, stimulus)

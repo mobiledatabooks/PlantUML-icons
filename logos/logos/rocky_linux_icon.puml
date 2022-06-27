@@ -1,0 +1,12 @@
+sprite $rocky_linux_icon [64x64/16z] {
+fTS5GWD044FHtR7a_YU6kgKmqmQNz-kstcoRPnKEgmpRQxBjUO0apv-02kjgEs3YOJmaV3Uq5q28aK3yLx2I-7Oi_4-UB_gbK7jmu7A-zBobGOJaeRWEv83B
+bUI3PUEq3m8c-EHCB68umcuyCHzB7FlHGXpxmOXzueuFb-BWvqV01qGTWVgO4xzyTszrQjuz-aIKFW7Luwx-av17N_ErnK6PeSbr8ABBTQ2ooNM0A3Qv3cYl
+kGvmm5LWm4LWmdM00wu2770HA3Qv3Z2RN0U8Q78TO5cNXwb0Rh354r01NzNbCh1Nz3XbeDI35pLNWSFFnHQNWSDym6K0x78TY05NWGqEk0ZuWCj03RWAR730
+HS310HU1770T676-lWeOSRpmDU2eRpY_vRa-vmIyoRNEtUDQboaWRiyK62cqdET1y6flhtxRiwWhHyLR_0C
+}
+
+EntityColoring(rocky_linux_icon)
+!define rocky_linux_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rocky_linux_icon, rocky_linux_icon)
+!define rocky_linux_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rocky_linux_icon, rocky_linux_icon)
+!define rocky_linux_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rocky_linux_icon, rocky_linux_icon)
+!define rocky_linux_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rocky_linux_icon, rocky_linux_icon)

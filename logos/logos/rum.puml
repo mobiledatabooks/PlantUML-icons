@@ -1,0 +1,12 @@
+sprite $rum [64x25/16z] {
+fSy5abin44317j9kxd_We2jIVONpp9vg0SxUmgzRvHTD-Ksn_cfuLusxJ4n2T7T192JA_hqGzUGhY0MgCsiX1oPu3-W5rLZruD05gb1DjfV_KB06B5XrSMFx
+cDE_3RmFcDWBd3nEx_JMGgu-vbPnSjbmUqmdNGsYxGKsL_bpd_rwE-vf9M85eEDO9zlfZUXuU2lb16u_mUaxAYzlSgNBJyzAH4DZPBNRnrlCxKkCXpUtPrBC
+vPE9ozVj9zaBLExFB4GTFdptVVAzGDRsvlGl4VjZysE1Fdm7jzzp-iMHS_fCPBbzWOu79nigjpSl5hU_EDdGX-yWExFZuIjlJWGgS1QPdZKYSHVjj-McTvL-
+L__7r7t5Jm
+}
+
+EntityColoring(rum)
+!define rum(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rum, rum)
+!define rum(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rum, rum)
+!define rumParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rum, rum)
+!define rumParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rum, rum)

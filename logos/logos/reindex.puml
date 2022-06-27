@@ -1,0 +1,13 @@
+sprite $reindex [62x64/16z] {
+lPG7WYiX34EHPEv_v6r3-hoONxqr2MByiCHuLwho-CroVTTlwUMwLlIBsbna1dshzG880J1k_BgRjbjktcwqt18K0DBd_TvzRxQWPRP1DFIZgsjPspDPjLWG
+nsA0M_6Yz7h30Zp91NnGOBumPqTVGtbjxXODTf0htXcgkfnrYK20pLKAwhb39lhr49viBt5-f0RjMnPmHSqvZJqkCRLSyxlUCR9sQFwKwG2YmOFqHBKkQfz7
+J3caJUV39u_sGPoQLUfkjrFjrkq7BLUR7zP6e6rQHgthZt7r7t5T5SfFpPbxtDERZt0Fp34Ojy_06El1g3PFPnBqJVsglSy07xY-nORfVFy8Xaqtasw6idkZ
+zORgJGvylA3VccVXxVpmmVIuIWK0TF_Y90C-B5TWYFAjaRC5MPXinZahvFDL9JW0cb2Mxgq-SCFDLGkC7e8jBM0b4SwJpUf4uANEYx_lu-WtCiHmlARVbstA
+RzqARGgfsPrBuBBVzmJZzWV0k7sbm_q4
+}
+
+EntityColoring(reindex)
+!define reindex(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, reindex, reindex)
+!define reindex(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, reindex, reindex)
+!define reindexParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, reindex, reindex)
+!define reindexParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, reindex, reindex)

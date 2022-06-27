@@ -1,0 +1,12 @@
+sprite $segment_icon [62x64/16z] {
+xPTNOWDH20EHGDp_nYdkDWylwNN-4diCWgss1lHGFYE5msmEN7b3SEXIkK8JrxDZLBV3D_D6zc1Uk8_joi1cOZc1YztHTkow4-xA8cuo7MJcZhWZ1xOsebOM
+6xEtELmCSWVBFyl_bt1HGMMfFRoTQ5Hv3fgsPwWER0uFSjXRIhzAHjCtVHjQh0--o0dMp5ivWKtgcQqoy5VOU9rDrSRdKzlj9cW57q3x6_o322S0-YP4ToWg
+1wYv80qfThx5ngpn0ytTC7944vklid7yDtm0r_kADzq2-2exIfvNtFZyyszyyPRIVf3rbj39suVKc5VEg3-fiQpL734PMFrY3TD7hj_JfasLzuHrRZXBO6Kh
+7-OHE3MYu34QU5Rx1e7op2j9UOCmM4j7s0RP8uwFnOfFhnmLTMvTJo5WSnZA8mhlr4S
+}
+
+EntityColoring(segment_icon)
+!define segment_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, segment_icon, segment_icon)
+!define segment_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, segment_icon, segment_icon)
+!define segment_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, segment_icon, segment_icon)
+!define segment_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, segment_icon, segment_icon)

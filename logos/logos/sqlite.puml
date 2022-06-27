@@ -1,0 +1,12 @@
+sprite $sqlite [64x29/16z] {
+dT45hkKm38NX4p3R-z_k99TfzAh-ejBN47uqFHL78_vCiwha81Vxp9VEodRC_-InV3_fiogjJllOQyywFVz5rQhASCf7LL8kJ-VyecnrVFhusloOjLASyd4V
+lf_pMJdpDlm9xrKYjzMVypal9u1pFigfqYOwCrF3Qjwlo6p-vRD4CwDtRUYnL3DfmF0jFV27zopAAWOBWBcaAtOZ9s2EIzB_wokeoW29XXtTpz7YwMa_wx-z
+QzcY8ttWTSgKO_j79DYrzh5-TSAECmL06gxDfBkVPfZXqj34OhxvKBg1uRLi-hS7Ew02G0UItxmJ7cdIw_mxp6xNDz-z4UFT3m3ttN75VEoVuykFc1qVlj-c
+sBRXXndPxzVjxjl81aoorsvUjM5OsrVIWMbZmSZHkypBuQhlgJkfOindVFDZ476xNh87Now8QJzjSmxi_m2iXBTwntUSXeErWHz9MiEnEdv5uJBnkty
+}
+
+EntityColoring(sqlite)
+!define sqlite(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sqlite, sqlite)
+!define sqlite(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sqlite, sqlite)
+!define sqliteParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sqlite, sqlite)
+!define sqliteParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sqlite, sqlite)

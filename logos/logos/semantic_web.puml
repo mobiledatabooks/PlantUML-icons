@@ -1,0 +1,12 @@
+sprite $semantic_web [64x20/16z] {
+fPC7kjuW40Er3LZf_lSDFtQIr-kuwhE73bvW-1N-Cz-oqWqMUM9Ku3FS_x_MEDGemsP87FW0As2j-prg_2FnW8ei8ChXwHc8D5Zc7O7kjEkFi7gY5mwjQS0K
+wILAYrf6YdPY3adHnEDvjVx6S72AuPhxBCtSeUbfKtxYT2q3szKHQVzAA0Dit2FG8JQt7z34acNpuRjfxXDWn-CnnjyI0h0Y3LXLQj-dn_Rj-A5HkgEfqxjD
+pErT9JpEQbw-fBnceNZv3BBLuuvYDb6InY407FluyF3xRWwumNmd2xyZOcS_V_mR-S4BWyNvz6IDXE4ztl2T19gEuhXqrdTyBBbB0wspOX2QwT_mKwDqPW13
+PBWszJM_3J1kbbfbMiRbcaw-j_EU-TEnMTg697EnkKA5bhsxcVxvAt18AT1QiBE8GZD8l8lNyJk16pPGJ9p-pxl_7n29CUn93i3o-fAmy8ntp3y
+}
+
+EntityColoring(semantic_web)
+!define semantic_web(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, semantic_web, semantic_web)
+!define semantic_web(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, semantic_web, semantic_web)
+!define semantic_webParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, semantic_web, semantic_web)
+!define semantic_webParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, semantic_web, semantic_web)

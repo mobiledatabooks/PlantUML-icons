@@ -1,0 +1,12 @@
+sprite $sensu [64x22/16z] {
+fPDNOYGX34ILG0ZL_S-xOfZ4pzhkhixXFJ9TY2ZT2RUcj_2AtYfTwhXL-IMuWLyM56uYgi9wHS3jY5x2pLJLBWXumSAlfwNGF-9olB0jOE5VyaP7PBtH033j
+P_uzPbBXrxCMdNMqNmfMfLTCjcu0Gjmdrod2XSHTF9o9R4IqnpEP-ovnnRwxFm1NhXkUg2JRha-GFsw60aeTO7eAc5PqusGFAfGSAPBeMgm6ikw3sUNWbq3F
+DQmZKLc8Up7s-Z-078qEVWkEiM0YSS03c7D6V_FiI-mdlmMVqgbd5owcEvAfDtxpegmJi_ZE0GXz19_IAR1Ih2GoYtsL9yK6u8oTRCUqUQVD0eSGQG2paSuf
+r7BoUaxdkaT88FMDo1V-3m
+}
+
+EntityColoring(sensu)
+!define sensu(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sensu, sensu)
+!define sensu(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sensu, sensu)
+!define sensuParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sensu, sensu)
+!define sensuParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sensu, sensu)

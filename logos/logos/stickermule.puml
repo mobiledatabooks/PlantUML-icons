@@ -1,0 +1,13 @@
+sprite $stickermule [64x37/16z] {
+lTE7qgKW30NW14W2oSdxl-wYrxrzvXUtdB7h9vrEft6XowbgRkEgBWEPYNQHjyWjADUu8c-nAxfqv14_ISJ3XpNUj27lGJt5Zm81TyS38xEVuPhVujmYmITy
+FD1hrIlYgeVIJ3lLVl_YLsPU_-J12zwEtZwoF75r8rOToxL_-9Xd6J4p8Y5BlY5J7xTZTTqKPF2p3rhr_MKunvfdeBrC9wMr-Aj7MVJZkKH6yBBtnqr5qBA7
+tMy4g8k-H3fV7h-PsXwSr9N-IueU3HMXdyArlDuFenP7HG7-kQpsXES69ofykmbivsD_d5wytRq5GYqnjl8ru6tw5eCjOd093tHHDQrpPrAXkU--cGa9Xewc
+G9VKXXXH8og25QFdA8dXJRgAsToLJMdkqqykOgBPMo4EfmOT-rmF12evQWcqVIwgyR7V_5w-Mc4rTW2TiNi7Rpvp-W0248mFJpTlPcf6p3LGyLA-8TXHkPJw
+nVDlpnDhc25ucaVxGJrDqysjl7ircHkRrcRIj4baHYC9J4-6UJCz0xKZGzuz5JCrfJPtCRFw2m
+}
+
+EntityColoring(stickermule)
+!define stickermule(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stickermule, stickermule)
+!define stickermule(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stickermule, stickermule)
+!define stickermuleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stickermule, stickermule)
+!define stickermuleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stickermule, stickermule)

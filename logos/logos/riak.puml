@@ -1,0 +1,15 @@
+sprite $riak [64x64/16z] {
+rLVPekmW22iM5DB__zyxRPb5r6xdwURiIsX42Cnq237JUNeAqkK5o5D-MJRWeGB2igCyuyzmlZtZ9pXVfsSmv-U7VCOkdoxcYte1e1IEDQTkjkI554FEyP-J
+0R2vrIhv1KdNSehcGP8toBMIMhHHdnryA07E1mL-Tc21bM4CYloeF_kVBSzqL1BMv6-ds_81bDiGud-KpWMyCElo2wZ446LOqPIIjxoJ-ofOJNaQunF0Ydg8
+SiS0o5RAoZHEOjZJANIhRI6RZ49JoeQR8XXhWWGhYzVQA7k4oqwQjmjAkZrsEnFR5ituid6i7P9Naksrw2AChpfVMR_QZ_sc6n6oqwZu0FYDS24F12_nBOt8
+KnK19GL3wjOv-rcg2P0KBibff5XWSoU5vWpp08wzHynfPFqPnVWq6McOGRnod1OCAGXmb3Z414up_wPrHFOCV0Ba43qWZGLuLtB71nTh3St1lraXSucnosKy
+er7T6ohJum-jO3JZSgMAguVyq5ZDP6G4yiEeRZdGkj3gMibSvcL8dLQ-kmeGwaihRPcS7g24U7hp01QDZUzjKA2c9cy0eJ7vfW3r2dWg8CV2PbTqVPHeMrFK
+Dsqr4seJsDe2D7Mazlg8uWMutLaQBCjHheMAAwDsBtqVqv0kZEp6FeuQ-NouVqL3GegofFkOqM9bqo5VmaeV8uD7V8UEzYygG5mGKa6JQZ44tnhEqOHdBvzY
+Jlclhv_-yzTlFFr9W4vFaTINfp7-0G
+}
+
+EntityColoring(riak)
+!define riak(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, riak, riak)
+!define riak(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, riak, riak)
+!define riakParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, riak, riak)
+!define riakParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, riak, riak)

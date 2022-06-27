@@ -1,0 +1,11 @@
+sprite $retool [64x14/16z] {
+dP85aWCn30H7XiY2-VztBtAOZhfWmUuI6eli-2VaHd55l31jk24YUCDqZznCN6d9bvo22szG4YyqCbIDT5p9z_w1xEEEYr_L65FGBKBhdMaDiYAiLpaQOQFy
+HzQZZy72PLVK9LWCd5_cY--t_9qq9AqDSiwaJrdaOGGJUddvv6z2EccgLVlkNzA0IVQeYuFiptvSublfc2moRVkILLSdPtBjQ-FehxpZLl-gEWSvH7eNv7ty
+4RHhV42EFCrl1qkHfFSHEP6CNV-yrj_FzMCZOzEkFYgrIm4Dpaebd_kl5z_k-YTc4y0o4moBM0AqvTvVvp_DhejKAFxC5m
+}
+
+EntityColoring(retool)
+!define retool(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, retool, retool)
+!define retool(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, retool, retool)
+!define retoolParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, retool, retool)
+!define retoolParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, retool, retool)

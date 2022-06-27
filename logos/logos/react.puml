@@ -1,0 +1,15 @@
+sprite $react [64x57/16z] {
+dLO9ikiW37jUnFsF_3-r4OqcPJBHMniGHhPH-1Du0WZZPy82Oo3-paYC2S1rMOmQiIDzKW782fRO0mUwOqoQVQ8Xr-EezUp_28uIyaFV4OsQ-1od3NmFUhFi
+chOyPC0myblq91g3KqiSvFSOvywCfMcC7uWTQIUEqr_mj_QDPtpIgVu5VseF3AZ-K_wa6UktlU6loCaKSiwX_jhB9IDKuxd_cFeFaZayz1y7pICJmBW2o0mt
+XZWStyrfyC7n05lqn6PaX7yG4Nmy8VQa1XDkA-T4e9Nrd5Hx0Ze2h7DlgYow5Z_jAMnLbwKZh5RqMM7pMi4Ol7P4UuczUwj9zQmDYX7ZOZJRmRZx080-_kYH
+xw3HMYzTbmmFqB9h7aScehnK71MRaIpx6jbfPOTpoQspKsqWFzQE1xIgMYcZRySWajsfNi8bYTpJ2N2_EfUI27Pu2Fy-_asdjduN_GOrOvzIR_E_1KWvnChW
+LTUB1QKK0AxrPmTbLo7jg_-CESdx_cC79oKZw63I_xPhNSiBXvqHwtpf-MFuahUS1YvP1wBMlwzqBYykhqWJymBDYNPHeA6OHq-wip2k0DIDmuXo201qBmLl
+3EAsmDWENAD7_n_kaS2T_mCPRddYCsrhouLFLapUNq_UVyRS7z-VEaOnw7E8j-__R9TwVlyHAqeUBydHq_iFAFuHtrHGqL_4fmF4Qxw3xlic_z7tjv7s-Fw4
+wqivvVL81xa5VOC6moga7UHhpwh195TWBvykK8doCqaaa7a-lhJi3YUvf9cV4FHIWUUafmxy0m
+}
+
+EntityColoring(react)
+!define react(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, react, react)
+!define react(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, react, react)
+!define reactParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, react, react)
+!define reactParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, react, react)

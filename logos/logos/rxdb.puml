@@ -1,0 +1,12 @@
+sprite $rxdb [64x47/16z] {
+xT97Wjn034DHL2G9wFxdDIKvhHITFRyJQl4w8niCFEsjDslfQLOmhUDsP4-V5JZd4s_3l_ao-bsVVVEDKPxvLfrMnpg-LSxzKJ7UUVxh_iFFmnf-TlsmYjgo
+YgzjvmAKjWyTDZ18aVxL-tQUQDpgfruYru4zsyxibOh8sxbdAI5lxdMzcG9rFPCLKxpWWP3dBPWFgrzTa-O8-GLlBaqqIgox7sANH6cS-pKlWAt7tS_DsmZn
+tDEe2I0attq9HHChkdJ1fs7Plwk-xiWnAkKMLtoWaRrICsqnPJHKRcEU_lzw1tAqV2pROrQHUnzlcqUDXhDqsFpmXttuzbssiFL4pG_yGLC4g8RvpBSnKBxw
+EPd-RkaxR5b4WCi3xrunF1OMc7Syh2jzzjFz9m
+}
+
+EntityColoring(rxdb)
+!define rxdb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rxdb, rxdb)
+!define rxdb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rxdb, rxdb)
+!define rxdbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rxdb, rxdb)
+!define rxdbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rxdb, rxdb)

@@ -1,0 +1,12 @@
+sprite $sourcetree [51x64/16z] {
+xTL7WcmX28LXG96ZjV_rlj3vSYpfDAnl_j-eACowHm0JCRofbCm3p-O_04QJenO0tfENgciPi2vREd1Vc30B73N96YgUYevitf8LrJtMZGnvPzWbpEML1jZS
+9Al9Yu5zmYQzI9cibzU9GqADNcwIaxKpw2QK41KnR0NMdeiuM7GJKVEv64JYj9fyCRFpvkYSz5QiMASa74ceN20d6EMsoCaC99OIdRcXH2MX16M2-OsxpAke
+toMhlnWbzN_91HgoSIbyPaFFCwvFqYH0Xhu4wbn0nR7Xfghcc2pIhamcGwSfLZMePtukd8PbrK3l3l7g17HyLiYhG86M-QS_T1CfcdmqEPryLJBaogfakMGQ
+nsGrsV3xoOBAberzicONSeXM2fXwIg99nL92HPtqH_98VdEDyV0SGlu2
+}
+
+EntityColoring(sourcetree)
+!define sourcetree(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sourcetree, sourcetree)
+!define sourcetree(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sourcetree, sourcetree)
+!define sourcetreeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sourcetree, sourcetree)
+!define sourcetreeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sourcetree, sourcetree)

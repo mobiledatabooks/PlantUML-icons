@@ -1,0 +1,13 @@
+sprite $spotify_icon [64x64/16z] {
+dPPNekv028AZWFlVyQr_dKCA-Tvbr11rswD1QVuYecjBA6WMXCiIhR48GRG7KNIkm3b55JnkwSs3kGZFmtC1Je3Cwn5quVS5UWo14JGvPNgN89Dz14ps4ULw
+Bn7TzQGVSyJ1zNcXDqyrDJw1jb_4QxW4vCCzYyHVrQzapYby_ye8uX_Wim0jtQm6zUguvAPtyLt0l40LE1wnonc-0-y9zQC4O1BKIxmu6SAtvsHA1ReU6FUg
+gpK-tXku6feBg0Bp6ZhOoeuAbgk37mOqxZjNO8EdvkDyekIx_wFcay0_V2Gnds0cLEXlCur38W5IqeyEBOhp3T5bHwUdluT_fzQf3MQfEef-XvM9hyQ3haC5
+BDiBrP1stLCoZiUSmtu8ECCdszRzi9ZB2h0Nm5n5VbvWRi4RvuyVDtNxVCahy5xbxUlB2-IZNcdlLXYzRc0GRa7GUKjf3CcMmwKH78mfTt_SLQ29jZJzzHJG
+q382FRy1
+}
+
+EntityColoring(spotify_icon)
+!define spotify_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, spotify_icon, spotify_icon)
+!define spotify_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, spotify_icon, spotify_icon)
+!define spotify_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, spotify_icon, spotify_icon)
+!define spotify_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, spotify_icon, spotify_icon)

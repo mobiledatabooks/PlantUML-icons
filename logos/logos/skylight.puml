@@ -1,0 +1,13 @@
+sprite $skylight [57x64/16z] {
+dTQ7rYCX28PX0R7C_T_l5eVvDvpZlZ7Xb1JdaOzKo_zBJCetfMO65DWg_On9CAJCTdav9LDca1TICcMcftarixGJqFt-YdbfRm5AgvmNs6vTQ3YcyHooVTxi
+SagcwQ7A-QTH558YtQVKT35_blFE_wIwOK_9KFN7PLYeuOBwEAzvYQ1eIFLleDxEcviG369MQxK5xNRpcdEE9jpn3tFtMrgulpKTEeRqHzgBg-zdr2NT5amE
+O9QsSGIBX3GVjxFZjyDNrOrZMFjODU_oK-ZX7ZZR6VJnrBn2zWCeRRp07odle4RCr34aGUr_Ai773k6EebOzQ1kXHgl67QDiEIyo_gWhUfr0lLrPyXhb6Chj
+GlQFe3zt-sm89QrsVzaaGpuRMFgkyEb22nGuaFi15IYsoyCACSrNYY4zFmGfiNoHA50uXy827KlsL8LIHl6w8DkEQYeAdsZ8-ybdIyyPKpuyyQXvEAQKaakH
+CUNXc3Bx3G
+}
+
+EntityColoring(skylight)
+!define skylight(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, skylight, skylight)
+!define skylight(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, skylight, skylight)
+!define skylightParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, skylight, skylight)
+!define skylightParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, skylight, skylight)

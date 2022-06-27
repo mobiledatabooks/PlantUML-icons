@@ -1,0 +1,12 @@
+sprite $sameroom [64x64/16z] {
+xPG5miCm24ORWbLt_zFEAZ0X_LtpvWkFZse3h6z6SWEYxm5PlvLAfL8Hpf0IaEWUZ9T2l2raQ6OIojuTSm6ztXYvg2Sh1BdJqxo8PTqAOVqRhfgicy6XdxV2
+wpToyMoR1s6ya_0oXsnToKyeWKz-zy0MwfIv6HV65zyCryXqaq613zxdrTSR7uFyoB__6me-scn-hw7RvsoxrU4N_R4G-vhdYl89bBRJZfCx5ZYV-OJGHF6s
+SyyQORvy-eFcO8t1nh1TuHiarXBeTGV3YovVAyptXS94vMnVAFevLBfnx3HWiAM8zd2cVzvvEYzrU_672qzosl6wCkpdF-lGpNQSxwUScOQklNPi-t7-Bzoo
+-q6DwMmQOxklsmZtJ9s-bDvry3lavNJ3vEM-rLVJTlrmfkyYjrAHT_hvVJer-3xz1
+}
+
+EntityColoring(sameroom)
+!define sameroom(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sameroom, sameroom)
+!define sameroom(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sameroom, sameroom)
+!define sameroomParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sameroom, sameroom)
+!define sameroomParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sameroom, sameroom)

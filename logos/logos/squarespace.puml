@@ -1,0 +1,13 @@
+sprite $squarespace [64x51/16z] {
+fTO7aWGX20LGC2lW_M-xa_xagLgn_qQiVfrnf1yfOYQ5aDZ4fcdFJ4i9Cg-HSAdI6IDQbxXEU2RY3esXwEGotsDfboF6knp9VcvISxdVYEJcUYDXN0jsyq18
+DPEunKjlbp_CjCFvSkOM2DdWb_HZVCenZkE7t4LarEJZkFxmR0SjFXwl3_2zcPoy_suctkGOfh79yJPd9zTMwp0KZKXSt0gQ2ML848iy4OAHrh7HEa-rXCTT
+rniQwxnXj69iNb9Hht0SBtxCQiF1fn85Upb-mV5NE9ensWtScujraQCeQCj7TuKsAg_nJFVtHlFRxB3EKJH2zuo03yyrNXzRbVjmBwbqS_7PSI7FU3Wc9TlZ
+AF0aNwEBl7oiE109wnmf-Znu8Gz7E7SnC-dfMcONHvYPaERcxod7EB7kSYHqwN6BLtsk4zqS0it4tSqPir9BCJLry_TcS754Zd6AjikHA6zSqvKZ__FtPOOr
+naNXw4lXCkosxWsFb-9SZaZVEG4
+}
+
+EntityColoring(squarespace)
+!define squarespace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, squarespace, squarespace)
+!define squarespace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, squarespace, squarespace)
+!define squarespaceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, squarespace, squarespace)
+!define squarespaceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, squarespace, squarespace)

@@ -1,0 +1,12 @@
+sprite $section [64x21/16z] {
+fTI5Oi0W30JGWq0IBFV_VplQkM_jrULLC9n9HN4vITJTh-eJryEdT86xMyc0ULNNArxFl_VM_AelVaJoiq_g9lWoHTDdNpt17Ed9bs2Gzf7cwK2dVENnrayA
+yegFBn8s81VywkEWUIzrnd80kcBPzZ6JZemo8dg6JfqnosVVkPhcpJcgiy4uRT3otgJ6B5pcN716QupFFhKWsJ6PSQnY0HXDwC3sWm8erQZ0u6U_a-kY1YE2
+LFRN_s-K5Oy7nWBqBxmP0AMla3EdB_Nf_J8FN-ZV-HGiAG-MnWhqcIO5mY7iQVliDAH1UUlpX_hVSMouWWPP3AwCHKgZO3ms3t_sdzjVDHNiL3DvEavxevQa
+9g2Sf_EnA_L0IMwqVxTwf_yXgxll1K2wCuHSj7V7lmS
+}
+
+EntityColoring(section)
+!define section(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, section, section)
+!define section(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, section, section)
+!define sectionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, section, section)
+!define sectionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, section, section)

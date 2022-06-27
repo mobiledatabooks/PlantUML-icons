@@ -1,0 +1,11 @@
+sprite $segment [64x13/16z] {
+dOq7ZY0n40AheU7_JpvvV7dprWHaHCc0qjPybstirInVPdHqST0t_0sk-8VPDQ3TUS8IFYVzwWL-mgqRe9S09DlW9XssQPUUQ1fqUjrYjgq6a1y4JCnekdE-
+YZc-KOLBCvFGPMesl61xDZsi2cIfc0pgxKCDryzbZxa0Cqgd1klU_u-_W_sNlnV3Kw9uKhRs6JJzuxkuLlUtN_ERxPnmcZcd6YGhIwwlWDlb5BViKrxF_8_E
+fkOzngpbl3hRjk4ZSbRYDMJnBZy
+}
+
+EntityColoring(segment)
+!define segment(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, segment, segment)
+!define segment(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, segment, segment)
+!define segmentParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, segment, segment)
+!define segmentParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, segment, segment)

@@ -1,0 +1,11 @@
+sprite $semaphoreci [64x40/16z] {
+dTC7hiD028JXBS3W-n_uLQJiZbRnEAYcVByRRlSpB93NbV3Hde_zsfg4zMTwvhLFsWFTe_Www2eVk4wJG-HvdIUdpZy-WrvS2CXS3tJiVmUG5D0vPl_R1L10
+vFxQnTm20gU5cnHGkNu6VFB5zS3vslK0yvj0lMV6Qyly74Zxvm05Y7SF7rk0E32N0FCH0689CDy3Cmzy3oHnEWDa6dCEC4Uy0gqtvXoe0pYMMGBCAx1yNmUA
+zu6-yT5k_Z3lVbK2EZ__IUVlxy5WhWLgKxinLmCHRXu0SIrm7k9gWBaUu9CN0phN0yM5W9EidTTd1cllgZqjZO_sU8P5uIaS-ni
+}
+
+EntityColoring(semaphoreci)
+!define semaphoreci(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, semaphoreci, semaphoreci)
+!define semaphoreci(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, semaphoreci, semaphoreci)
+!define semaphoreciParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, semaphoreci, semaphoreci)
+!define semaphoreciParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, semaphoreci, semaphoreci)

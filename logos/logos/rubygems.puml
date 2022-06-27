@@ -1,0 +1,12 @@
+sprite $rubygems [56x64/16z] {
+dTO5RYim401HCzp_m8NGAXfv0lj_kI_obBpfFAsdBwRClMVzLEMnzj-iKJvY_Q8kikUtLRseXsplXbrO338bxD9sEIqoFMpDab8P2vaM5b5rBcIUmrQFzxOu
+GNqLbfy-WCnZsDCWKy8O7faCu-CXCxwR4IRV9dvQvWCb3eybOVhzNHecN_RBSuHPPhYUFfWMxf0caN1rpCaPNLoyaxEwE310EZ92EZ21S620TC4SqhLW0kdc
+vX1ck832Ie8Bw8oEa8oEa8mke34wGZ9pQGWpbwOmSsaOeoCaemC4CqT8HaT8HaT8HaT8HZSBuGY6lUtYuae738RBNjQC4OotRfThCvylpY7Nj5tKiXOWZ0Th
+Sblhef8bqq_4J7w8krIiVdnGMrIOQM7-HREDphT92TElNHmHOPOfOPh9xPV33LV2REgqxvXdsjxs2m
+}
+
+EntityColoring(rubygems)
+!define rubygems(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rubygems, rubygems)
+!define rubygems(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rubygems, rubygems)
+!define rubygemsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rubygems, rubygems)
+!define rubygemsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rubygems, rubygems)

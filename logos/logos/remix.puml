@@ -1,0 +1,12 @@
+sprite $remix [64x16/16z] {
+bPC7SWCW30GFqVl_VniEaSIzR8feYq_CU13Iak0jeRMMSCduftky8wvZvPa_XtplEyNdiOXuWw-r9ZoadAj3QQq40COwAt0niYqRKp1SirR4Bd0cDz6ahZxc
+64rqOSUg9h5qYx1AjfnucBQAmy7KdR_DeTJbaprlkyn6V-QzqqtUGjdaqjTEDzp98fKt1ogzwYMriKhWllRQjT_nJxNOaMGVI_pN1PvR0ORdhVgSa6Qk_0Wp
+3dFE4lG3X7C3Q2RruGQnV7PbnqpRRqewP-dtMnzDL__HjCmblDzR4r_uQP22VtPCuPjM9rH3UExxluwH5qbmtaV6ONRpt6VC7lG5vc84-giwkBN5bUxmF3-R
+zxk7PZgXtrQrWAIct-Ld_infR-XA-G4
+}
+
+EntityColoring(remix)
+!define remix(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, remix, remix)
+!define remix(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, remix, remix)
+!define remixParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, remix, remix)
+!define remixParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, remix, remix)

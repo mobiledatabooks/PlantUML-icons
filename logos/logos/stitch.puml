@@ -1,0 +1,10 @@
+sprite $stitch [64x64/16z] {
+xTP50W9130J0bl-_6RdW4kZrJTt79-8DQmB0O3pE52qFC1qVx_z_38QlbJvm0V6U2nIEDzwIAvWjtrJtSZZg5ZcUTVrL5FqM_88h7oyNj3JQmWSGtk8KzRFJ
+pLLuP2wX_qMwVdX-9oGlM3i2
+}
+
+EntityColoring(stitch)
+!define stitch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stitch, stitch)
+!define stitch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stitch, stitch)
+!define stitchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stitch, stitch)
+!define stitchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stitch, stitch)

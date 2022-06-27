@@ -1,0 +1,12 @@
+sprite $stackshare [64x57/16z] {
+xTT7RY0n30J0Pkxv_uETRUq46988xCbrfq1b4e0cjvJXNP07Dnm7Ku0OqUiAnfP8TXpaqHpWF_eJ2eXpb-A3L2DyTG3NRm908XM0SvRXN_ALXd1IuSH9CW5m
+KZJZ5ITIQ_aNtbbyS01YBW1yAVswhgKkfQ_NpT3YemephrlwmHzf8Xg_hxNTqb_SAhkalx3K-X4HzIc1-RLs04cMuAAcbzfEqrZSAnsdyyJcusNiyI0BHyso
+79lpvrYut5d_iV9n7bBNwW7Dyvu2nMcLnT_Flwe5sRv_anplk7t_2-zyl3_uV7zYy_t3ulj7nuajlB-Dzx___mpM-F_Q_-zPwLTuSbF8gVxe-jEklxlrlx4b
+clrFe__YP_y5M79BEO1N
+}
+
+EntityColoring(stackshare)
+!define stackshare(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stackshare, stackshare)
+!define stackshare(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stackshare, stackshare)
+!define stackshareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stackshare, stackshare)
+!define stackshareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stackshare, stackshare)

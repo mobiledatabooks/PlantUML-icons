@@ -1,0 +1,11 @@
+sprite $scribd [64x14/16z] {
+dP5L0WCX34H3VA3tFo_IKFdTMK5Vb8WTG5gZPvB5gZfI7-4DKMC-T2zdv3MMeiFVHnssHYpvEU3r0OYTgvx9UpW1N3oJUT_KeKsWr8Q89DP95wAXBB4NaI8-
+P3ifrwLUXHXS6VRz6yLt9kAnUQVjeoK09dRducMSPaYduaThBN3vz1XsUNejClIT8r_0SiWF_-hz5UtoOPxuyhSB_TJgob7nL-WPT7ck5CDE_CHoWAhn4fmP
+Vkh70gtKxLi_ji6V-d5XZQz_3lprhstVd3_zI_xsBr3bDZ0zK7EaYMZ0w9aui9JoZ9u
+}
+
+EntityColoring(scribd)
+!define scribd(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, scribd, scribd)
+!define scribd(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, scribd, scribd)
+!define scribdParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, scribd, scribd)
+!define scribdParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, scribd, scribd)

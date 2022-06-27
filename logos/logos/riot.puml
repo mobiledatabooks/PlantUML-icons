@@ -1,0 +1,11 @@
+sprite $riot [64x62/16z] {
+xTTLTWGn34HH6IIhjF_zXibzCgvs54xU_wt1fX7dWxkr8bEn6J0QyInu9vw5KObdeHFF1t8-e3aVw3aVg3aVdlJGd0-Kd0yzU92EtcUFAgjADSG17EPOzJ2W
+nBC1t_MYay2sBpFPzZA-s5lMV_NxnzIsB_r5BOXdNVIblrwhvPGVk9XhEU5Z4Qmmh-piJNm56R2r5m-IhRqo3rtwudIWhRmq1CcNNemEwDBp0LzxKJ80Tlmq
+NoyCuaNQ032ZpVDtgLsVEspzlFE__ViN8UazwItdlI7bJJpZKQKZuOU8-BQVxpShjlty2DBnDWyJcGRsF6mwq-zwT7ckwDq2Jfy_O5McIX-8SSPhmFL9NmC
+}
+
+EntityColoring(riot)
+!define riot(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, riot, riot)
+!define riot(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, riot, riot)
+!define riotParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, riot, riot)
+!define riotParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, riot, riot)

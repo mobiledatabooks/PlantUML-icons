@@ -1,0 +1,17 @@
+sprite $sass_doc [64x54/16z] {
+fD053XX134FH7oUnxt_ZAaLnHzetp03_Z435gGMQHzMSBEtco69Tl5aNvRKL0xGtCsdUL0nCJajGUrMNYXU_J-eSku3zNUU5Kz3EiOfRVQPueInWtofdeBs-
+giMBZNwNZiOBrAqlMy-_1yegWnhOQ5DqyN-TuOmB6quMkNd-lLE2QZW2LBoeB5zCcYzilb26BpO2JZlPveyVtLJPWYGX21iFZiJ__z_j4cdjTS_NoPn0GbEc
+i8gPzl8HjhkOunSd0T9hX1OXbYJ365PN92_YwkXysfKEF9aAoXCAMKC-jwevsvJR91dVpzueQmw9QMg4dVemQOitg_2CIkfbDhvHwDdzoDsMzVY46rDVwUNK
+8wCDf_Spsmo4rj1_6I5rUqQkQACeIRmTCb957GfF2M5P5P3y-NeftTx-2MEfgjFFAh93q-tcWMhnR43PvxUhIkRSOUxzxWfb-xMyscYx4CTw6qRzq1-Kkvsp
+fAnbJ-gS_rEVrKBVqKbJIgv1dQ56Q5FGgMNPqkT3b4EKEgY8SgMCBgqRZ8WsD145BNGhEX-cEm5Qon0lUFioNQyJ0NfFcsOreerIhkZtrGY_3Uh2jLTDH7gz
+azBAcG4NFewrwCgVoMOCM3dqW-GO76FGQpB1o3p996lI1j5E_S9JQ26V_nDuajd0E9a8OjtwWVP2joUFideEIYsbJP7bHKBqCjTt36mzaJlAu1evK7EjOwgI
+ZUAIztRfPuF14jIeHpDQz47cMbPJl-1yRfPE3j_-Xj37TUdSUY6fw_SRu7DvOP3bR_e-PrMIiXa-GX_Z_xyUJ7tvcpwKGj8s8GuLWwn_qPU7rAQFACTC0s63
+_aLlooECpIqhwEGUGAtU-ceaASk6VQroi4JJWRPi6hIplxtWV12-Jn6qToKvA7idNBeu1qzzRWz7BcRnILuxfNaGnwRPFjwnG4Bs-ZFrw9ciph6MNVVvEG9k
+GKnoh2laDBtFkUAk_m4
+}
+
+EntityColoring(sass_doc)
+!define sass_doc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sass_doc, sass_doc)
+!define sass_doc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sass_doc, sass_doc)
+!define sass_docParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sass_doc, sass_doc)
+!define sass_docParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sass_doc, sass_doc)

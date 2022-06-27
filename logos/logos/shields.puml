@@ -1,0 +1,12 @@
+sprite $shields [64x19/16z] {
+hT85ZaCn38JXCOLin_U_xMQPgUqlPOHV-mYyTbrQA3ZhYhQjC_7NllY1NPlnrxo-A70JpmmOuqI4nzh36h_pkqwP7xn4n40gJdtW8Gh2AUoj7nGL0j1yvxs3
+2A4YZrV2Gg0yHzZjh3pxVeRH9yFV-ZLnYbmnC0PQhE3ZEPPllLzxyU5eLGvxwpcY0T71YJ6HWZafpm2fpG6y-ebPjI5lFQ2n40eAZC7RFHObXG7dhEXl_7hq
+-jw3DprxIYQ04juUFDZ7gq_8he7-rZVJwRZt3zVlKqmfqKBQLZ6UyytpQo06xxU-km_2OD20jRDh2GRGVNIHjGOz-MLPDLLxtkhxI_ov-AoZokVV6b_zlUww
+fWxRL_4x
+}
+
+EntityColoring(shields)
+!define shields(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, shields, shields)
+!define shields(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, shields, shields)
+!define shieldsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, shields, shields)
+!define shieldsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, shields, shields)

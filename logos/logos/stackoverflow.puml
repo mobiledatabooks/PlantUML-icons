@@ -1,0 +1,11 @@
+sprite $stackoverflow [64x14/16z] {
+fT65bS0W40JGMP_5qd-tzyxTVu8xu9uR_iLIy7UkYC3VQIZI_ZpQ866QVryzLS84VoJGU3lyypU937-pVBWzzLNYKINUirEBU1O2KOiG5qWnShcHYcHaeCH7
+MSDetUBTrLTD8aTaWQfTwfaP8QLWYjg0gOtaRJr3J-y-FkRgCNaOTNnM79wnxQhQL7MFS2c1DqDl5-De1N8j-05dpvtdTee9-COiJgpUOwrLbAYgpDlnWCne
+JD511v91EpRRpf9JxboudN2ojkuSbw-ZDBbNWcnIHf0zTB0oqDvx6LQXzggwNNyXTyuzaGirGHRl2I1w_vmYWEAUF0Pvoh_CtG
+}
+
+EntityColoring(stackoverflow)
+!define stackoverflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stackoverflow, stackoverflow)
+!define stackoverflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stackoverflow, stackoverflow)
+!define stackoverflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stackoverflow, stackoverflow)
+!define stackoverflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stackoverflow, stackoverflow)

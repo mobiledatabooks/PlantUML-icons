@@ -1,0 +1,13 @@
+sprite $salesforce [64x45/16z] {
+fTQ5bUmm50DGFPBKVyCVGcTfO9qx46F8Y0-YAKjJWGKnya4TE6HrltM-bZzGVJobr7XX_9dwyobLRrQ_zFYJncFbrzHu9EGtA95DajyQgFqMwGgny87yUmoS
+qYjKE9JldQ2zHdar_XfTrr_KD-iB_-M3TZvnv0Vgf_Qly4S3q0yGm9cjyzeL7sEEqX7zKEp30mItK4MqCg9TOMQat16bH0mZKihy7q9g8jgxQ_0qPaOz3LO8
+EP74JAimWvf88Ph8cK7FsUZNimsIzcHYAecg095ZDpIG6iIe8RjGXV86xSCaQj2DgHnKLOk9LAKRze2Wh_ezteIy8rLH8M4gX9OaQg0e4wCCWLj83LvDN3uq
+0ir0W9rg03K0KfYzcIbm2uNgQZFI9v7RdooT0L84jqpPyXaYvKtBptM67rFuEMNIZmta6nJtwXSmNjS0qglK-8--DtkMl40JmChigVzO0M3X14f4FDmwl5Ru
+KL9-WmgFH3Md_HGJBxH_a4L9dCHB8Nyp-8NIWoLkzGGAt3a1uzOsjB0YchB5mXl-0W
+}
+
+EntityColoring(salesforce)
+!define salesforce(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, salesforce, salesforce)
+!define salesforce(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, salesforce, salesforce)
+!define salesforceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, salesforce, salesforce)
+!define salesforceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, salesforce, salesforce)

@@ -1,0 +1,14 @@
+sprite $rollupjs [49x64/16z] {
+bPHNikGm30Dj4WpG_G-ypwK9aZWEsz_eWY27ROyy9nooBKZU4BONuGwN_n58PjepWSpCY4mozWS2qm7z0-QPSYyu580T01vo9q0LyEH1Xi7bMe0eBFaX3PU2
+QSyFX9uBT5Mpu4pAcS20cbbo8KuR-lrm9VMtG9D167lyfy0u1jj768pSkr0FP0TP3LGXwJrl5ZsUmGzU1QOgEjRpz6z5Le7s4H3icvmVkb0MTs39FB0y5PYc
+i2_TiE0xK8IOydtuHGCJYXcBCB2zMGLNHINQcP1zyGHio7CMs1SlPFiIay10pJk7F6rkG1rWR0EKKM3KnSx6WPnVRwmBrZpHXTCh3SxaDZNWBa-C0dqvKCt7
+_9k1saHmHGQX5jJyzETZBekDAxPDWjtbiOq2OtdhikPdmHHN0qAsIM3KV3t-A42l1kG-2VMjAmDy5Q0eJ_YiGie2PyL7WJGjDtfU8Uk2u2zy54ph3PrNI8Pg
+FT1vXSm_q-09AHy1g3TKINyBBlYIp5Fa9M2ON0lgYlsx0CPs0QKtQFc9di3O3eOhybQf5VATmCPheazu4urto301ndjYd92DzyXN2F9HXNmMFqFVbnHyHlGp
+mVcKlzbcflOK_0C
+}
+
+EntityColoring(rollupjs)
+!define rollupjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rollupjs, rollupjs)
+!define rollupjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rollupjs, rollupjs)
+!define rollupjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rollupjs, rollupjs)
+!define rollupjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rollupjs, rollupjs)

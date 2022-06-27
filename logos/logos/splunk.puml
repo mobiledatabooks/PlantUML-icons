@@ -1,0 +1,12 @@
+sprite $splunk [64x19/16z] {
+rP454iD030Drd0Fx_y-jx9IvmrKX6bkh41urTUAvkah0W_wR3ssC5b1ReklboEVMw3Wjj1MbM-R8rynDFE5BPKc5w5mYgiFvOvBJONOgjS8-hIe963F3L5KJ
+omBH3MYgxPRlj3fJv7-rAR8Pe8XwGt7E-0LgyV38HmkubIo66r6z8KpL4MnjDHv-uCqUUTrpnuR5PE1mHIRRDxmiUmudLTNzV_YQ6WnV-F389z5nf0kxgfd9
+Jl7UQ2dZDtkioFh0dnuOAka2R2DbyVFhI6cgHECjjMgJHpvOTGMjqNQaPWJNKmbb67-Si-2Hnz81DADDiPJawuPSiqzYv7yg9IAcYC2VJyDnmxy7-VlxNV_F
+7m
+}
+
+EntityColoring(splunk)
+!define splunk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, splunk, splunk)
+!define splunk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, splunk, splunk)
+!define splunkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, splunk, splunk)
+!define splunkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, splunk, splunk)

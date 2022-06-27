@@ -1,0 +1,14 @@
+sprite $sourcetrail [64x62/16z] {
+fPS9SWGX24L55FZU_y2fjfZIrimY_RF7UMpQoAGkLZGefw0osYLeZl6rkH0BeQ2vG2aY1O1kG8CLe9Jbie2SmjABBt6Uhm0a2FisuW5VB__raVi6ZYRVozyi
+HXVhTB3yMT6weC5zSroUuB1Gy0JtdSEdzj6-eJrwRBJZzLdh0XqnPMrTUfQnhk7B4JuVSckNv6YxPnxjtLD3kPGg8hKmBVNMbGSjR173BArvghTiVBt12hH5
+W5NoUeFd_9S0g3gy2P3SNs-KcJFThXwTUjXxGT4DTIbxFbrwsMD3-rtWde3BECaHRRpSVVWL7-Nq00wbp3IVnnFjNRO-DI010_p0mDwmx01qNqO3B_YP5dwL
+IvOE_fDaU1ibaBEwvrS6euK6_BinxoXd-Rjik3-k_mX0Mb0U0E8yiZy-KSa8Fvg0RK5zHd1Fu5vzG4NKtdTWkzR7Cifyz56zhH0hTXhAhqj4NiiYOrae2oKN
+svOhfrgIYzo2wNGO2ihRfW1DPBQzvu3DEEXjLxdmONuou7XDZ7MCq6MZGFkuZM5-6rupfeDMiTtorcxh-mmtojnxZFupki7T9-jMjW26-PtlZ1UFCVWXcxBV
+-PwJsvT_Pz0wXxzFEQIYFZtqdpKjAdDuQ_r7xuH7Qc-6MtO-x_mV
+}
+
+EntityColoring(sourcetrail)
+!define sourcetrail(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sourcetrail, sourcetrail)
+!define sourcetrail(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sourcetrail, sourcetrail)
+!define sourcetrailParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sourcetrail, sourcetrail)
+!define sourcetrailParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sourcetrail, sourcetrail)

@@ -1,0 +1,12 @@
+sprite $stripe [64x27/16z] {
+lPG5eiGW34IZCzp_mbz2g7wNdRLauH5hAnzABP3oSu5ZGBuiyumpFxx3WsJU_eclmHtjpBlh5pWrCxtpgjTTUl9M39PWnGyIaYGzINqrijm87gehPrQM72M6
+e2t9r--NZyx-BNTh9dOlE5eNVfpvfLmXERqoaM379xa1FF84wiV4NXbubhVE5BUzVxKKghBpL96epUL2fZjJySlyrexcBowRi5TZviQqJtXAHwHnLZFhqUub
+ymkyiqlULRFi0tx6Ypgwsr_ANwlzqL9P2yC_xL-HzHtIGdNEkNYgw5iyJJH7aRcDJ5qnkAwCkKxopi-5qUTF0o2hvbQAiunt-3Mc_PhlyPK8NVSINtzvvJke
+oF40gWP84hxVboa18Ci7i0f6xPgoB2Zi-g3OxLrTpdL9vQlg-L_rI9xu3O-mzwfz1W
+}
+
+EntityColoring(stripe)
+!define stripe(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stripe, stripe)
+!define stripe(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stripe, stripe)
+!define stripeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stripe, stripe)
+!define stripeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stripe, stripe)

@@ -1,0 +1,12 @@
+sprite $sparkpost [64x17/16z] {
+fP47Ri0m30EfHKdy_uDR8S4iLX5cU1vyjl6_EBub4f_YnASK7HzYtP_uwhOFU7JpYpsxA_-SQ9SXIIQk5G2Yo7AW2aWQwZVNx6xIWRncrIMarM0aQO2-7wXB
+GeDKmsdcT3kwky20bvbbcL61S8piggPL05VpNTi93U1ryXMTW95EF8a0IdDg8o0LfL0Vxy3nksClxrN4bVHAU_XyNOaHM_8Tj0pKpAgmKZ-81urvaD6HPBxy
+5IDlQST3bmArAm8xhGAyCq-rtlMlg7Zuch0-_fHcIUwUl-qSZr4y_k_T66c6OrzUhpy05t4zGJbIX0Q-yfS_xMeQcBUTrz_ExQdwSoxf_kukuZeTZYT1rhDu
+Nd4YFm
+}
+
+EntityColoring(sparkpost)
+!define sparkpost(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sparkpost, sparkpost)
+!define sparkpost(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sparkpost, sparkpost)
+!define sparkpostParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sparkpost, sparkpost)
+!define sparkpostParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sparkpost, sparkpost)

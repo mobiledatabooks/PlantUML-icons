@@ -1,0 +1,13 @@
+sprite $struts [56x64/16z] {
+bTQ7RiKW38LXoFJY_L-t2ZUgrNDFA767vYV-E1sKvrcEhRoVkel8iRnbsobztXsvTDNdNDubvknrCb5WpdKs4UTOPXDnzlb4Z9rEL9dPJpr0UGkGsqIYjMly
+d_si9wXeBVpwPhYVSMABSFTBkfBzq4Hlrs5zs9577IJcH2Fx6IGc3DYFMYtwcFXqf7fuBMQAYMHoFseH7vTI0nBXIEigNHvfZAHqZtIpyZQt4mEf8vckR0X5
+1ofTCJSUYmfT2-UnoD2r5iFOLEXQq5XKw412R8mSZmL57O-D2KTZVUmUObKL9BWSjvJw6VEXmzXkG883cH1akiqR6GTtqtIdM30OdWvaTwQYtgXC1h8xksHG
+wKh7y-_BSooLjXIx8PCHyI3bo9UiJjoZD0E93YMw7gk13YawV4nqAkXGEd4c0cuLa2Bgu4nHoLRAdWOUypSHb1xrSstvbXQty-z4MSiz9FQIzC7-tYXs_Ovr
+beZNqKfYLTW-S32MRF6eO7Wi9gx4qDX1uZ1si8zXBBooyTG3tUIDFcD9ubGixcCkjZjuPNEni8_PsD5XFm
+}
+
+EntityColoring(struts)
+!define struts(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, struts, struts)
+!define struts(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, struts, struts)
+!define strutsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, struts, struts)
+!define strutsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, struts, struts)

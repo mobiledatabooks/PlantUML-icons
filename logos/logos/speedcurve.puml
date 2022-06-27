@@ -1,0 +1,13 @@
+sprite $speedcurve [64x64/16z] {
+lTO7TWCX30HGrBd_XTCMFosUyB18KNgotzGXj7MnHOGhjQCYY-XVxth2ERASobpYNbxdFUvbPwqhirtVKONhu9ol9LMUi-OHfJMmvEdjc5Da-mMUlwYCd_pY
+DlCUvnoRhtChSJtaySJ9Avn_XmkCfi3xXhEecIdJbdF0mf7Uyimpl-BkZ7m-phASyRHWx4u-0gLBBj2wHc3PlEu4huVSL4HjVW7Fl6Rh4ty0VJmZjyMH9wuh
+xeHd53-QPpoyrY78vtnCjGBVxkBHharpPo_pqR1vlvrMlE7GWPxpU1_KEWIYWdiYzDw-RIAT3uDlugwRIFUO_kmTXWSyVu7-cd70kqZdFyQv3SZaaZUxEXDz
+Mh5L2DY_xOurXGL6Zjt9VJ_YQv0Ev1WgWzDYTFN5IDDyEWYpwD2lH5eNfnFmJQG5kRKrnr2npzgbjLgasL4ZnqncaQYxkyfu54QAl7wXeFWHvnEkmENVUOQW
+xpZUt313-sBaKU1mRTKI7tlS6uQWuXNvaRSQJq9dFAyLdCcqLghCC_3A1kZzWEEXfgrUuj4XCPKYzRotBUeT
+}
+
+EntityColoring(speedcurve)
+!define speedcurve(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, speedcurve, speedcurve)
+!define speedcurve(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, speedcurve, speedcurve)
+!define speedcurveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, speedcurve, speedcurve)
+!define speedcurveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, speedcurve, speedcurve)

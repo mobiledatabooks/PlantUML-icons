@@ -1,0 +1,13 @@
+sprite $spinnaker [55x64/16z] {
+lTI7aXmn20HGGKEt_l-BNMWkfnsmVLoO-AebgDtLAFCrASI8aHFbCvQYzvLHGf-5fEWpIc9RGIF6mwmRTZ4CmhezYULFB5jHdfAwFO6e0SkBD5lfVCDy4YPY
+4YR58ApO8AmnE6h2e0apVc1izAFBm0apIeEzfIOC_CoYE-XJzCR6EXsX9c7vxnJ-IvPzgMpGGyPaoiJ31V8pIdk0uWlqkE_k3dvGw7_ba76jhxD84jRzD9Ff
+wnxY6tClo5uGRniFFbV6FL99ZYft-qhCoxwASdiv_wPvog--v5_kkk8USuKPk5xg7ejjrqeNmjU2kPqpzpgS9eSVPhYU6EgWlBGemOHKdNcAbB0eIkSbqYMg
+XBH22bkniLRAYtajAdOTk2gGPAwKCS-cDi_kKaAepZOsiix8SpZ_31GpP2QlRNBxSzktL4V59mQ9gjh0LXNrCY_jA-qZuvb85Wf19mR5W8hPXwLS7rZKWH9h
+TLVtl5YA4L9k8WLxpoXNWbkd6UKGF6cd8scX477cLl7krm4B93nGomES8WnlfgurgDzYVm
+}
+
+EntityColoring(spinnaker)
+!define spinnaker(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, spinnaker, spinnaker)
+!define spinnaker(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, spinnaker, spinnaker)
+!define spinnakerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, spinnaker, spinnaker)
+!define spinnakerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, spinnaker, spinnaker)

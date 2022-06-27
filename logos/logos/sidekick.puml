@@ -1,0 +1,13 @@
+sprite $sidekick [64x64/16z] {
+dPS9qhGm24G3T7F_6_-BPIY3es1UBT_w8aqaZgD23QJ_WuJA-8GOVOKcRNlA2KX75eImiuBGtz3IztVinJsgex-3Hnti-8x7u8SFzvq8IdV_7y0yqMgYnH-a
+zZaok5H6Bq7MO-5U04hI9v83qEbyBI24782mS-n4aTUGkny1zFXEy_uyxo5JCFBNeEZZ5Z054wr7Iv8_6M_m5i0qtRBM76wSlx2K3ECDvTe07FylJNqfzMmf
+brmsAdZrvymXNRrJmCojyvkMFkJYCoH6IqeOldXOo4DL1vZVnQ5XeuM5pqjgEaSFdRukCqTj-Z9zBCUXZMy-HxeLF_eG3tJ3Dys7mRV-YVbU0Hhnzmh0OM3n
+7NsVPyM-vSTDl_hsCRxj-J6fadpjwX9nkUKZ3d_kr2-CRcF7nqoV7lFysFpulk-dOxBOWA9vjmQWhTllvxcKkgKB5HDKwWDVEe1xduNj119wAgctW3Bq1ROM
+43orI5X_iXPxwR3w2ZNROFfBRa62q70LB9jZVeCdlVbKUWLayuqj9wypP1ZspXih8QE9WWyxqKOCP7frUEOl
+}
+
+EntityColoring(sidekick)
+!define sidekick(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sidekick, sidekick)
+!define sidekick(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sidekick, sidekick)
+!define sidekickParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sidekick, sidekick)
+!define sidekickParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sidekick, sidekick)

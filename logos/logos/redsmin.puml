@@ -1,0 +1,13 @@
+sprite $redsmin [48x64/16z] {
+ZPG7iiCW34H5bu3S_xhVaqrXVmRXDnq_ZLUY2612iTw2t2LR7tEESi-EsiVbN_HyjaFj5_3dj7WZ2lmNRXj9OSC7esw3DzZaxzieVT7xNB6q3GwxbymLBVpE
+yAlN828LcQWDck7RrlXQrezDRHIAOajtoNxRICh1EUZ_DYHHy1Q5-6cZwgLzWYSeJ6Xh4sPsgS_WHJP4cs3qOIZ033UWZSkvi2UOeKTxfJQGEK1LhL7u3-GN
+kW9Og-6MdzNUvBCVcYsqSFBLY7Rm4vO-QFHzN9gFhPfFFiu7x5i-Ac3VzFkOm-xx0uVBxla3-dpCRaS_TzZl2as-7yPZBZow-BxaIMJFvyk4v_dWunCzEAuF
+wi23jlUpC34A4V6Ex7p0Dmu5htFe-iKkK36WUtvIiqz1VzgE7vkj90Lv6tobHN7zJFPJSloaf9SWv1-ZYEE7GZQEzTvFZQE8k7xHYuzTW_X-Ka1H7B_g6pfO
+9vy_dFE0TiuZLJSL-tbIHOsE3x8IDHny2KM94lO-25M9xFWWSaMB6t_RUF1yaDUASlHvL5LGJOVA6LMHzAeZTestWCDIWvo83VFv0m
+}
+
+EntityColoring(redsmin)
+!define redsmin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, redsmin, redsmin)
+!define redsmin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, redsmin, redsmin)
+!define redsminParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, redsmin, redsmin)
+!define redsminParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, redsmin, redsmin)

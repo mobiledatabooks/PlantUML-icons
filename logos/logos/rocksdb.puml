@@ -1,0 +1,15 @@
+sprite $rocksdb [64x53/16z] {
+rPI7ZgjG34IZpB5zE___jq-fR81TK51xeqOxk8tlvPBwzAL6kLukTJgXVatJARKn_LSgaNl_EkVcYWJs9Hx0ZUUx139FnPyZBTj_xouU-jinfittpGJP46Md
+mvju0SEgA-_MFY9lu8h6JMtQKz8gmmfO7EJ7oX-FoCBB4NugiKe-Pm3BBtxKyBPDLrFwk7U1kr81SQ-j9IJ5BmwLZOzx7lA0o8fR07cajaK7alNPCu4vM3KG
+Dnv6aPLjXoKaylYuJ_LHjoKUYlvBuGM9zAP7HW3sn2e80PPhhQqlyImHVVwRwL6pF7ENhBJY0jt4miSThFqSWXb40RnWrP7VKojkPXx5yKLu-aVJIsPMDiNA
+PX-t8P-RBi1VXGE8l7SuYF5gEk7mo1nl1l9TspQ8yMfwJi1pPiRslCTYpqEO8s4FjXgIX4LTmpqxZCNQInBUiXwn3S-bzdNWbWo1FVXPDKLkjqvu0WHZWorn
+XvdvfQgYG1Y-UfLui7_omm1gAArU6R3BJqcFjjVrZ0xobZRV9ntXk-45L3RIt-T7SDVRxwEybDZbwnIwqwJPs6_jyYaUELgqhQJt-53gGBGVRpg7-P1AOs6R
+eaFyoDKb7qNK3zuvmdUJv7K-HkRqZ_3Dn8sU1hIVovBi4D_hSq_ZFVOQ1X87-5aX-ikgOaUsiNdAQwSVvxkUESK1N7aTlpoopzYklCpS6OsJV3aP_jfFyNQv
+jXFHxV8F
+}
+
+EntityColoring(rocksdb)
+!define rocksdb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rocksdb, rocksdb)
+!define rocksdb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rocksdb, rocksdb)
+!define rocksdbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rocksdb, rocksdb)
+!define rocksdbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rocksdb, rocksdb)

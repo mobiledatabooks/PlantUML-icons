@@ -1,0 +1,12 @@
+sprite $skaffolder [64x10/16z] {
+RP07jjWW40C5RA6kxd_RB7QINyTTyZmAQfzUKBNXCtOMuB7m8efBbOflr4Do5sF79rfmtTl4o-4Z6XtV6Dn-ekbNtxagUjv-ymi-CJbGA-xuLGMsTv-k96VU
+OcPmHi5cGTzhqg4xZaAd3nKfa62CzlXcnNYPDvnwcoVOrn-yU6EiYEOajPa2iiWGPM_MSAXbSC8vWCwE4r8NSqn9ATzyS4XUnl0AJQNX6fgHeSG1skDtvCrn
+0wFlCAxdxOv6pdU_YzdYa7w_t_53qF_vdPw1rlsEVsfPz6p5h3eTW5XpNaHJK2jE1ha-V6EoS5W78qYlXy5u_MO2w3fBeTjGLD4ZvXcmuyYR0U_-prtAP5Q6
+Di_Mspt_umy
+}
+
+EntityColoring(skaffolder)
+!define skaffolder(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, skaffolder, skaffolder)
+!define skaffolder(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, skaffolder, skaffolder)
+!define skaffolderParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, skaffolder, skaffolder)
+!define skaffolderParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, skaffolder, skaffolder)

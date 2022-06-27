@@ -1,0 +1,14 @@
+sprite $rest_li [64x28/16z] {
+fPC5kkmW38K3HMBax7-txoFjlDwvBlzeumA3_iI8W_v03Qn2lwOu35v-xMvO1-3rbyKxC8Y1-DKGUm1AXHM0_hY48W1SAfa9Vbx2202cHjIW0W3UwDiS1W2g
+w4HaS0vys4HvExVC5spmnnbWmuPlupadZrgwlGvQPYQpkH37Vu5Au366COx1Rkgn9UsvWB7IJWI0rFJFyXybUAS6EMBsUaqfv8xG71lbjUL-AXZgkOnJQOSM
+HYr4hHG3u5nVZWt6APLGIah0BHLd19q3VjfFKW1OEqALspk7Zqed0mXBLz-LCAzvv6ZgKZ8WrtIDJUvCWnumWFM8eDDvNgqT6BG0f-ftWP5P87J3MQNdnDTO
+NJfHdYS9wW1iAznMviaVCBsaBPmX5i0-TkhSRiKanoRM6IDp8FgR-n2NsU8rYOPXRda43Lp4BZ3HyiwPVYX5jxjehcUX5zm5d66iqrlQMgT5BqGc43lzdGmt
+ky0FBckz6frzDlKiWyfYr84d_A0FE7Si9Yg0Sjur2Yc1cvZq8MNQxi55hpD7no16cNvs5Ywzq6UqAUPkCjj8mrAfBAC-U-jZil11tuFRYxbCebhE_wFHTtWs
+gtIJWMx-0G
+}
+
+EntityColoring(rest_li)
+!define rest_li(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rest_li, rest_li)
+!define rest_li(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rest_li, rest_li)
+!define rest_liParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rest_li, rest_li)
+!define rest_liParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rest_li, rest_li)

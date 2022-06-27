@@ -1,0 +1,12 @@
+sprite $stackoverflow_icon [54x64/16z] {
+vTI7ZiGm20HG0pFy_nzlZp0d6uMeN1krA_ky6KWoJiHiz0EdT8tItTb7pw1zVQzeJmbVYjA_nWlLp2zL-tpPgMec5wgPKnhLueFKHhKudTQhHdy7hMfoC4gh
+6eBDlzkeO_mmRLGBvjRQcXuCHRLo9aMrOYPQLnFeifoMrH27fNAqgbhSIgkPODtCZY8covbmUO7q8uGiPYB4QcZqXJC6M-_8ajDKhhgXagFE3AVkfJXV6AXm
+7nYBGEofS4XEugrLH-1JigaTWt6iGq9bkmWj7YVwLseilqgdBS4cgYmUHlESYIfPlpepVDANb9qoSeAPQhbQmqRcyr_9evneLcBFo1Xu9jHCwHF5Mm4mtQYW
+EAfgePRKGASqLD2nKr9ahy0YMsM-pyzGkAJKYknKdN-aO2U3K8tyTNK7
+}
+
+EntityColoring(stackoverflow_icon)
+!define stackoverflow_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stackoverflow_icon, stackoverflow_icon)
+!define stackoverflow_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stackoverflow_icon, stackoverflow_icon)
+!define stackoverflow_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stackoverflow_icon, stackoverflow_icon)
+!define stackoverflow_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stackoverflow_icon, stackoverflow_icon)

@@ -1,0 +1,12 @@
+sprite $styleci [64x64/16z] {
+xTPLGWH134NHU1xxNp0kcPQQ4XpktyXfb-0dzT_DQsYNOIh28g8M-VRjQqriJ5HZIpnKlevJxKBxlDT7qQNiz5PC3NrUJhWqV0SdQ_WEJj7ZbKxB3czRnAAg
+yc0OrtrkjCNB3oxQuOLgcjZLzB6xtCQyD7Y7pyeDmzuAPunxBjx7VJPMt-EZU9tmLhnFU2a-9tpvWR7cPSRJciyVxh7iby_VMrYy_cB2Q_4suRruMRn_AHQV
+FpBXbKenxeDgEUp1rNCEUoUgUQ-llzNaRGdfqU6TjecQcGeJISFtZ0_Suy5hymUIrkOV19zvx_98EV66jVbJi3R_ShS7Kdd7TUSTZSAK-PcAMk0vjzSILyjC
+VE_-kmC
+}
+
+EntityColoring(styleci)
+!define styleci(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, styleci, styleci)
+!define styleci(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, styleci, styleci)
+!define styleciParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, styleci, styleci)
+!define styleciParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, styleci, styleci)

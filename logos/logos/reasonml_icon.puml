@@ -1,0 +1,11 @@
+sprite $reasonml_icon [64x64/16z] {
+xT95eiCm34LHGGJxt_27XbuuhgSwiy8rPwTIIYcb54UHg_23o2FQOFMS21t8LOyaBdkzx15xNqySVJqDpRt6FzVn4w-z1CZBViZHC7wCjK_mtCVuqR_kkREd
+NSywBFovDzp_djtqaV-SuVnRUjP_3FVVq1z4Nsy9lSnK_A67lF7-a6TBZ-T7Oz7Ku_tPsVgZuVrDjn_G4mDvw6tyeD1lnNKF2o2_wlEXz_4JVzL3fEjQddhx
+Y1o5ZJBJxIXxbLy
+}
+
+EntityColoring(reasonml_icon)
+!define reasonml_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, reasonml_icon, reasonml_icon)
+!define reasonml_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, reasonml_icon, reasonml_icon)
+!define reasonml_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, reasonml_icon, reasonml_icon)
+!define reasonml_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, reasonml_icon, reasonml_icon)

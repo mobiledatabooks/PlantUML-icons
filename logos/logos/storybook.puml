@@ -1,0 +1,11 @@
+sprite $storybook [64x13/16z] {
+dP05Tk0m34H7x4Xp__FkKxRCxGyQ1fxLt2FIKOg_KFy9A_khFbGiwo5VJV0Xyl5CLTwo_tgvI1RCyHPZl9dniLiVG0B_zKaNJnpAcdsebyUtqrQn-HeF_OiX
+wy9H7xPgdyaEU0Txnc7DDiJm4gTPLrQjn9_xj-b5LrxMxUoGRbnjR6lgj5tZF3QNC-VQV7TxxBzLXYZ2w4W6VOlc-Zc2mO3pK74cI0go0X90tdfpmQ4KHLco
+IGvWE50UERJx7TnIwtCGbV9y_acI2UDOaGmRtzd_KyD2tkk7fFbOiA8gtRmU-elxVjK5kd-wvaK1JCpkbSUUiiiMzOZX4sGAdw8HcRbw_NmFFkSV
+}
+
+EntityColoring(storybook)
+!define storybook(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, storybook, storybook)
+!define storybook(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, storybook, storybook)
+!define storybookParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, storybook, storybook)
+!define storybookParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, storybook, storybook)

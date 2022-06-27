@@ -1,0 +1,13 @@
+sprite $solr [64x33/16z] {
+dTG7ZeKs483XwSMUoVsF6o-izMeMaLyDZ_JH0Uw6OXx6Wl1_Gh9SQMGet8z2V76NN0NTvqcn97l-f7YFOsJWyiudjy2xXtTQyBm7efbsXoD6AYs41vUxjq3H
+apaJTKd-uVTEm1SaISLOdFCexjmzuW0Dq0oYKwlSERwWWoj44CQXsNBV6lmlHRgtM471G4uUGXBvuybdLzVGhruBzoO30eCZnjB8aIi0wqfJyzaJ__0xGd1d
+83_lmE8EPr8JB_rA6D3oJAa3TfnqxLUeaH5kAWnQ7-RAemWX0fAOW1TynZ5cwektjIHpWjL1FJ83mGe_U7IDd3tvoSzSuwvZn1QnVm3Kzix7EU9Pyl1Zh371
+3bdT4LPHydxqFHY53z_DsugPCi9lsTE5cSx1ymbXnSF_em0xUlOWerPTyu3nT4DzsUqB_eY8n4PF0gXy6fSytR_Bk2PW6UoEnGqFt0gltczvc04Lprvl-eIS
+ZwKsNNaYU3rVQO7T773by_dryQRphTbBllIO7NHkKhOT3stIBtS0aA9d_vbLpt2FsQN7W6U7Yissyvg6XVpX0MrKTmt3FV2rxi7xjzJbaF4T_mi
+}
+
+EntityColoring(solr)
+!define solr(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, solr, solr)
+!define solr(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, solr, solr)
+!define solrParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, solr, solr)
+!define solrParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, solr, solr)

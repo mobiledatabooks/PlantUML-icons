@@ -1,0 +1,11 @@
+sprite $rescript [64x15/16z] {
+bP85kgr03CR-ohHX_mk-WiiJJl12g7oZOjgWJ9zIqvb-OTXm7N3nUL50CBIIeJbhrO_QlFErfpU6rgIqAPZmvKL3AQ5CqNH80yhck7Lu5wHwWbzVqbpJuKED
+P0Hjb0zia4dFSIC2il6WOi-lStvIAim6JhcPKLBa79_zc8idjVbh_uS_LmSUG2xrwV1TeYx-p2s_x7Vt8kRySSl_RpyOKRNqxql_XqyqBiXVIG-_Kr92kw8X
+z_d_-Xt14ipcLqhFmtz37D_DFu1Z_RtrFr__1-R7RPrrrwTy0m
+}
+
+EntityColoring(rescript)
+!define rescript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rescript, rescript)
+!define rescript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rescript, rescript)
+!define rescriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rescript, rescript)
+!define rescriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rescript, rescript)

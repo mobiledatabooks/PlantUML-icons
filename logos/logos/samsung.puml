@@ -1,0 +1,12 @@
+sprite $samsung [64x10/16z] {
+LP27bG0W24E3bHBsN_V0wtP3lWyK9UC066QcjS_QrzTQ8kaJM1MQ7Tvj4hDHcfCwB5cZh9lLnkT-SKaUm3CYAJWP7P3IarF8YS4CfZCllAqtFTux9HkCaQSy
+pppmorVqF6dpIP6nHG1OtXeegtiWt8eNfi-A_kKj_ET9h3KZsTKWk2lOLbCEQlF59FKVJrNEJzx7lHUYNT9BTJCUlxbvEfdtWUdoZryyySK7S-yn8nMBb9xD
+JnfdyxAtR7Ar-PiteSTN_fD9AYmDXtmvT8L2KYorXTM5FVDXe7aOl_vFDjEIpd9OEeGypIFAtdmVFCiycS4MBXtxg-1arsPCtWhO0TGsTXsEtPhxbSzO07Rm
+VUJI0xbwwpWjuie7
+}
+
+EntityColoring(samsung)
+!define samsung(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, samsung, samsung)
+!define samsung(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, samsung, samsung)
+!define samsungParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, samsung, samsung)
+!define samsungParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, samsung, samsung)

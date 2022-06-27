@@ -1,0 +1,13 @@
+sprite $redux_saga [64x39/16z] {
+dLK9beKm23C9_FiVUQQuOAMkcVNt4PP8utG4vB-V2zCtD7R0lh0HR9z_unFTsVwZVqdWkxRjFy7RsRkfxQq6yBwYlveW2dB_cTd0Y_AV6r2MpmRqHdo_FW98
+0kTygueuWWZA4iFbfhTc8Q75hylSjabMmS7updb_FH1LO9fe0Ob0TY9MFjeZJBX7JF0x7S715BRnNP8jToX66apCJ93yvG9X3ObXs3IfuuOg-Gd1N_JhpC2p
+zP90-NzR7vGOc9yliKpODXyQBolF4q3QNNN6-bOW4vn0eHdA_grYd2O0CNVegFkV3mC-Rarcfk0nbtq7hJQCiPLPGujItjOXFsCgFzikTe4qyJMezj-g5llC
+pvYGtb9Nc3dr8hGEVaOPud-hTA7lZ75bTdQgjKfpWjfyQwcJThamdVrpiGkK2ypfWgzDEon-iIHO7KG3PUbhEclq7BL07BesfTrxD07rRFGg7w3oyYKca6eu
+EhWTOX5iExwPD9qXmh49ksgOWbceSWwRFTlCqpJftPbTq2CuuHmUNOCsLpPYFKAUNJ7_
+}
+
+EntityColoring(redux_saga)
+!define redux_saga(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, redux_saga, redux_saga)
+!define redux_saga(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, redux_saga, redux_saga)
+!define redux_sagaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, redux_saga, redux_saga)
+!define redux_sagaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, redux_saga, redux_saga)

@@ -1,0 +1,12 @@
+sprite $sparkcentral [56x64/16z] {
+xTK7pkCW48RXwGE6tF-usv0yBdXjsFgNLos59_LJ0bUHc2d1QEBkoLrncBLiY96loOXJZqQSUOG3pj-G-tJ8J4yThMUfZOFlN9mrtaxOwCwHnjZHVCsuwq95
+9BxD1FiEsVO7rwj12NUEWCJyKJPmP32TOuPpZe5dc0BCG6dpr34Ll-9xQIfCX2rYKVDDrbICABxrSyGQpxKFnPGHhYCr8VWJ4QjvIYcdb4oPy9wWM2vrxLM_
+LxBBpzz1CzqMexwIN6zQ58y8hTG75QUTyb1tfP1MwaYEFnGlTR2Y021r8WCiTIRnEjLINdEmrD_biZ6L6WdtvfSEg4sfr8X-pFrmhb1lHRXrt5kYWkvtq7Sj
+NMzESIrsT-LYnzwkQKh60DSk8al923fTk-W_Tf-ki-l7vM051vo6Ip1I7dgw27FxBre81jEbrk885tq5
+}
+
+EntityColoring(sparkcentral)
+!define sparkcentral(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sparkcentral, sparkcentral)
+!define sparkcentral(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sparkcentral, sparkcentral)
+!define sparkcentralParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sparkcentral, sparkcentral)
+!define sparkcentralParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sparkcentral, sparkcentral)

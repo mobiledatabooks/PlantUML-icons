@@ -1,0 +1,10 @@
+sprite $square [64x64/16z] {
+xTT5Ti0m34NHB_j4Yc3_soqpc5IktpWt4pDkeaCz9dBbWeU8FQPpeJjUB9QoUiiz5lER7rWiPmHm91AGPxoN8rA9vhnv_A3Sj9jvQpuCL2t1MnFMC9Y-xNNx
+-xPdVHRJdETuaGpurYVwLNxxxRUNUD4vvqdqMK9jl_VVxItby_Udi3B4jV6i6SZZ8_EapzxVEUUb9Dyla8m_0R9rxWIW9j-Fg9RY08alw9FmK66RqoO5Drq2
+}
+
+EntityColoring(square)
+!define square(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, square, square)
+!define square(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, square, square)
+!define squareParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, square, square)
+!define squareParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, square, square)

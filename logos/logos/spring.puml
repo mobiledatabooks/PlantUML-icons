@@ -1,0 +1,11 @@
+sprite $spring [64x17/16z] {
+fLC7hiKW3CkmVVyZVsBqTjk_h8uemWCYOb2KnCxu4ymsEYekq3piwW7MLGOe3znbN0IunejxtFW5T4PXYjLAPAsdOpqDf5TmwfP1eatDl8TYKfm2UuyD9MNa
+xj2FVOqxdyh82ch-LFMeJPTY9jKfLIIrvPzXBMnDgXm6BMxLzUp6Pfd_QbukuCFqwaYnrK_y522luujzbYMCRAfk_f_yQTYV3tvFLUdIAPkYzzytVjtugIaW
+jNYVc9cteLBtqsQyyiiJsGWVP84iq-kMdgYWfcZFtm7dMK1v_cXfn7YxEudNMTZj42bsjpJQGH4BdAHl_3Y3yxEjzNJ_td1rczAZ-k_z_m8
+}
+
+EntityColoring(spring)
+!define spring(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, spring, spring)
+!define spring(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, spring, spring)
+!define springParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, spring, spring)
+!define springParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, spring, spring)

@@ -1,0 +1,13 @@
+sprite $solidity [41x64/16z] {
+dTDPegKW38JXC1CCx7-tFNiAKzZJztpkZvONkGKx6458MyQqY1VdcXnKfQIknRzKrIfFQQvlEAWQvU5QYvANVjTaLzPF75HDih7rqwIWQXUewyP1tIOAjcwJ
+WghzCr5VW6cWOckO_k1jeh5sqnsCYV9S3mX2mjOmNV2Ug2mFGSYO1YQ2sqHzCLDMhybQEiX6XXofULcEeZagBxez9I77UzhbLRLTb5VXCcW2fDZ75GJOi5jn
+axY_IszRZqgh7xVEz2ZnlFNWbslOskqM3nFrqsnAgzFpjFCdlQpISn-No3xONxQLHDl-wzTopyJV7wAyk_xZVvGcegt_unwztip_l-jMOs9rCilARB4XJRrX
+StapIkAWSRABKF8oewI5xrluWur_MUMxIa5_kCaFeRiW9Olyb5tG9uVS-Xwav4noI_iqb5I1XeEHnDOG4QHaarr544bi3G5l0XDRGxc3xl1BdD0Ht98pYvSH
+X3M4gHrWwwy
+}
+
+EntityColoring(solidity)
+!define solidity(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, solidity, solidity)
+!define solidity(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, solidity, solidity)
+!define solidityParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, solidity, solidity)
+!define solidityParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, solidity, solidity)

@@ -1,0 +1,14 @@
+sprite $semantic_release [56x64/16z] {
+lPO7ikqW28OZ82BiVxzl4au9QExeQqmvHJ_X5nMEHojDuDYtgcRAPPEYRgOdMNSe43CJA4tDEgvIXS_fT5jWNLWD0VyWCy_Bwom9ot7R87CKPfEbGVDoMPYP
+JePFXtEPBYnmqPsFrPcmH-uzvZA7ZBN4PNVAlcl3Jliu3ReT4uXPmlDxEx-JZq_3x1Xyn8nTaMf9NFVeuocCMiN611PrBEzXky-HSvt8uQYvZiktOLRrfVDI
+EIpE3Za7CESEKWl95OKbxe0U7FHwB70k4k_Fsh7C7UNsjQnosJOv889zZhgQQQTDZirKHCtuaPE9S7fTxQhny1HawLtyWEeOp6TwlHyMQch1XA9F_CxkxyC3
+h3QQgZIkX03bLFULrLm_IQ8opX0vlZXWRY9T7-3-YfU-ZuNSDwO0ri6nDhnTSNmhrVBqP5u9RbX2-XGlJAq-FT4C06NoXWcpcBNDS-QxhhnzhWinKpcsERV_
+mzqBNSLb3dkeHdMLY-zPixR4vOcW9cM18pFEJx_YoF5OVYZDoY1vGIgvIiAa05Aiwha_QfFAINRtw8IVHALxfzAFCNIpNZn7dmY_xI9r3tpSuTFuNTNne_pw
+IM9kEEye5Boqpxgb46RQFvisXjzdhZvnBYmRD2Vbc791M3IKaE6ahzDojxlUyPQmPQaF-vbiGGd8JDYpp0R9_OgHkim5OPDiwfAmKQOtcDk6NNyGzWi
+}
+
+EntityColoring(semantic_release)
+!define semantic_release(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, semantic_release, semantic_release)
+!define semantic_release(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, semantic_release, semantic_release)
+!define semantic_releaseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, semantic_release, semantic_release)
+!define semantic_releaseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, semantic_release, semantic_release)

@@ -1,0 +1,11 @@
+sprite $rsmq [64x44/16z] {
+xTP74WCn24HHKExc_kTrDiBPdgt5xXVr9cYbmVEWY8ZYKaCEaw_LZjKlWNm8TKQVAfB0GEgrUdmOoepRwQBmIBTUmUahxGatei1ZtFesHMs1HsyMiqQVRuXz
+uOsfJ8-uiw-yZSghhzpWEO-Cji57yNz--UMNNtxvvS4jdfsNwNs3Podk5R_x4UylXTzuDdX0evS-ISSBFvAwPv4Rhxv0ra5xuhjA0YUvyLBT5v4sbOiQxw_G
+GvNePKmVLjm3
+}
+
+EntityColoring(rsmq)
+!define rsmq(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rsmq, rsmq)
+!define rsmq(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rsmq, rsmq)
+!define rsmqParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rsmq, rsmq)
+!define rsmqParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rsmq, rsmq)

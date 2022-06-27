@@ -1,0 +1,12 @@
+sprite $reasonml [64x24/16z] {
+xP85bY0n24I120Jg_kTTO6tSVUQtLzuF7R5Re0Vo-VqV_yVVAz5yqTNiziSSrCXSa_-yJUbdD_6S5wk9sgI6An40RMqKcib1SgIZcGM0lpvBfbA-Z35c-GfW
+vNEaOWuZ2S0T22u_-A8_hToyM9FkCU3mz5TtCvYiYqv0oySXkS4dIRQLvWACt-FmBKI17gWXsiU-uFFu-_z5-Ov51wS6qCEUwMzAj7rVWFxp6zRoTvB9_3rg
+IER4ArBwFPn-f5_3-U_BuYpVuoyiInSzrjZ29_q5c4Xggtto2_xKdRVq6zO1x3668L9jj4RU6FtsvP_FFCq6iqvkH3KE9U8-Q9q8xw4lZpYhNwfvUjWjC5s2
+_xsyyFx_1G
+}
+
+EntityColoring(reasonml)
+!define reasonml(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, reasonml, reasonml)
+!define reasonml(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, reasonml, reasonml)
+!define reasonmlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, reasonml, reasonml)
+!define reasonmlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, reasonml, reasonml)

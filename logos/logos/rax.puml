@@ -1,0 +1,11 @@
+sprite $rax [64x64/16z] {
+xPO5SWD140C7jVz_SPYrjayruQGB3zJBa8qZh5jGOKGj0I2T1D0CvIoGG4u5xIIOLQ6M2Ehd2t8gU3CAlKJQPWBaL60p0P84ECN2OjhU4lVuXi9k20IScvSc
+0Mw0H816O5W1qwXXFgTvJFDVs_wUvPt6VrXzpARVAgNoHN54RWbx9Alw1joo2BXZIrAFRUbJFnmJ86maQBE9067d1FLcs8W-_mFomdStMS1VTG77zmBg0_uY
+r211xrK1ZvpKXCJc_gOBq64do8jDeBGeI3T2413VKl0lg7_1l-26MaD1FoJkwGVAxP5h
+}
+
+EntityColoring(rax)
+!define rax(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rax, rax)
+!define rax(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rax, rax)
+!define raxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rax, rax)
+!define raxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rax, rax)

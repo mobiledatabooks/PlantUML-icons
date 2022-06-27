@@ -1,0 +1,12 @@
+sprite $rome [64x16/16z] {
+dP87WkWW24GfAYBC_Q_xXR-zxqxwn4SeePQg2lrLl9PSVi-_uHg0g0p0-Izu0fkPrO6e0DpwCH_8mLK_Bs1VmpBpd3W_A-T2GxJ51aW5G7HQzXF-u70tlrgO
+M1toz3b_KaJ2fF2Q8H_u4pyV-65BgoiwQAp9nBFEvKnRGkxZYPVbziHtBD98SsmIHxWxSiK-Y0kC38iSPlhC3vlDvzxHq-J48Ae0dF3krgpGHfB994XWFVF-
+K7aSL2VwjjvKNwD8xQ8sDXdI_G0VyeSSKUPkGu1n-V786tQLfwLFU0u45__mVNtBLqsbJtZIh7ElxogUU6g-lIl-WD_8QqnK1-sUD5EhVwjD8Ufb1ovYEtC-
+yAAyquazCyFxFmwb6Pak92SpPZqSlKojsuam_WS
+}
+
+EntityColoring(rome)
+!define rome(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, rome, rome)
+!define rome(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, rome, rome)
+!define romeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, rome, rome)
+!define romeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, rome, rome)

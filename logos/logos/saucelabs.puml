@@ -1,0 +1,16 @@
+sprite $saucelabs [64x64/16z] {
+bPVPclKg24JZ19Jl_y3dv4-NR2Bsi2xRlIp4uKjV1qhjOWPCcEbevVeBfIk0kG2We_xMRkgk0rZ_ZTqDyu2LdxDf9-YFUf5Wuo7eelMeLmlBrT7RZNxe5HFz
+e7Uuh7t5LBX-oJqggJwmRFceiL7tkT89PEbIleBR495F_LBsufWEgq-i66wMNWfhoIRerCU_VHY-ZTJ5u_SbLEhzcOoswzOOltxfbA-DGxldKinTlmksS3Yg
+--AwXmGTbMjSMDWYbjHpVSKx6FJDMvBha_41bD1xEnS_XJqA2EFPZthGKVo0R2riVYRreD_nBvqEfJkY8zEVCKdyYOiJCoBLntDl0sl3ExYKWKn_dgrXBnvB
+MJxtDz7HpxSTfO17fo7LfsKwNuBMLlcQwnXbXzLYZ9LXYNw37QkyCofSViLBdsVGsNSpNeMEJC-1h7OPvnk8EdBcgrxm70XSluOSORzAubF_Xl7f4_VrUvif
+ftoCVg8ndNxQFnnfr6F_altBGFtK8SjNlaGLlzDZ7hoVXfrSdrZdrnhu-hITBuLhTtzT5_7xcp2mwLnkuP2neJibq-EpLPYXB-G-B8dEswxlUn1vtinSHwU5
+7jwD9CBrE2PyzBE3muXSH_N3moxbyRa-dZ4Mj_t0dsEqlJoe_qtvzP76vxeLLi_u-1iEDA2dkdTSBw8Szm5BTRrr1PjFAjuDxga-_0cAHxxZ7R_hiFgfI_Qk
+CNviEgm_d-XWYoEApyiLEWy0qhpE_5yHpRwg03CLVijN3GzAMW74zRZ8wckqUdpRKLAzT4Ky115A6AvFg-L_QkrYeCrPKwfPSTqVXVVTE5DTJu6KwoVEEhHT
+FpE0L8OaTaeJ02zPUxb-Jsb3RSacxIJ_1m
+}
+
+EntityColoring(saucelabs)
+!define saucelabs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, saucelabs, saucelabs)
+!define saucelabs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, saucelabs, saucelabs)
+!define saucelabsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, saucelabs, saucelabs)
+!define saucelabsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, saucelabs, saucelabs)

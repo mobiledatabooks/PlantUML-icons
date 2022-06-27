@@ -1,0 +1,12 @@
+sprite $sentry [64x14/16z] {
+fP57ifun20G7a0HYkFzvRVZ-K6_dq0lbBX4mAAdu3oBlnR-pogGsFeXAZmC4ZRotU8zedf41E0Kld6I8iGcXJuAQRCxkCMrDmZ5HIz80EXwC1ZrOLFcDLYt0
+IaHFgSf94GrAPCUj4osSQpR3BfcaY4OPfUs_JawsKYRSuEGSjN7Ay2wXPCKMh0ft5w56GjlV7_zGiFa8Lbu7GMWjFAmWrJu-ClJh5ybS0EuJS1AB2pnmuaEw
+lUDNA2-__vlHCK6WCGQSlHEU-TqLaiUcVkDZrO_uhUpjYqDhWqjes1EHNYRlkt_Zu_17_JpbvGTd4HSyG5uqQjfZ8r0q-Xv4FgiUoirsoQQbGqy9_eweHbTL
+ELWNVyal
+}
+
+EntityColoring(sentry)
+!define sentry(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sentry, sentry)
+!define sentry(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sentry, sentry)
+!define sentryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sentry, sentry)
+!define sentryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sentry, sentry)

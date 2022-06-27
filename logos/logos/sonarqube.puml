@@ -1,0 +1,12 @@
+sprite $sonarqube [64x16/16z] {
+dOu5WaKX30EdWaDx_zlkMtVxWqkJS1DgW0it86uALWnSR_FsueALMnC0MlmQWlyhE6-mWXJ4-JCbFaH07UFF-84F2LoXZAve7nLgyT707m_k3MdN5bSmywEj
+2LYh0e2RE3qZYaT6Jec8pC4vvpfaPEXPOozsXzazLjz7ocbp0o0LbvDLs5baPxts9GEr6ccHm-S0TbjFzGQdxmB70N1LwPdB8uIUuuGGeJCZy-7k653NK_q1
+newzLbG0f00sSqSg8_i9aOYUK_PJlGDjlgcVArnLUQH0hotNp5apB1xgHwxwvD-sOiV7HgDx52ny3LuemixS9ZFpEEV8DMpdsU7N0KQS2FISjRhljQEZ--mb
+FE02gl0qYpmE5UHX0seM7R676qm1p8H_K1S_S0S
+}
+
+EntityColoring(sonarqube)
+!define sonarqube(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sonarqube, sonarqube)
+!define sonarqube(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sonarqube, sonarqube)
+!define sonarqubeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sonarqube, sonarqube)
+!define sonarqubeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sonarqube, sonarqube)

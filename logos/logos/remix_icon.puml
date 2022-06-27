@@ -1,0 +1,12 @@
+sprite $remix_icon [55x64/16z] {
+xTL5jWGX343H10-Ix7-rBKFa57I-ovlVKY2ygzL2mI7qRPa8omENQ6PsWhduYHrHBax1df1mOaUmcfcTEtxTeOQnv2TJ59vCzPYiAUoOoF9sOAzo8LLUGGkx
+B2rWX7r-SbBW8CSZQt0IyTWHCpe6LLGiypTd-dSpyw8yAV8GdIZJP63kGDagqpEgTa24U1cLDYEfgDhTNdK49T2mh9a1J9g9qmAyoEI14iAhh993nJHjv431
+HBW6vH0kvfE7C3vPkuYPPNRqP7YLyRI05lQPkhhTFfpsTaFLl6479nKPM5GTTqAWUihoaMSoDXM3yL1kg9atyc1jgf8PME616P15RN1PkCy0hueRPfTCyeQv
+TsF_x0u
+}
+
+EntityColoring(remix_icon)
+!define remix_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, remix_icon, remix_icon)
+!define remix_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, remix_icon, remix_icon)
+!define remix_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, remix_icon, remix_icon)
+!define remix_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, remix_icon, remix_icon)

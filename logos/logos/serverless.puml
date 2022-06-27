@@ -1,0 +1,7 @@
+sprite $serverless [64x51/16z] xTN70SGm449H90tqN_BUrZbdcrV1Fu4647z9AnJy5QsGy4SDUtY-yzaZClvoS1GsC6DRe1ASvENPBz_vWRz4pO4DpEAl-RfpwOzUdjFpdVy3
+
+EntityColoring(serverless)
+!define serverless(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, serverless, serverless)
+!define serverless(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, serverless, serverless)
+!define serverlessParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, serverless, serverless)
+!define serverlessParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, serverless, serverless)

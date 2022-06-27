@@ -1,0 +1,14 @@
+sprite $stoplight [64x64/16z] {
+lPS7Ujqm38FD2Tp_mXtA9wVMWqUpa1to1odASpkHULQ3987EiEr_PDdWGUZqftJqJWtjVwKzeR4Nz95lvbbuwE0OUUKlWNoBv1LjHP8TEkezedvT70TQESJ5
+of4FfbCob2HnkqdM95i4IXXBfJH8XMi5NWs2P8fk8qqRr39vMTqXzaDKCurlO3UXPq0_p4vb6R1j-3TH4twsSM0cOJh4N7xNRR9aoBaR1ubDAmSkLNi8oo4T
+xogoubt7uH2coYTufb8DD1dhQ9NMeyv8p1y7_fYc0xFm7D57-21xkFW7-3b10x5zZ1-bdMoP5favvkhZ5yKdcKccv46ovuK5adUoYuoFyWPYZa_sxxh_NI11
+cE25D4zY-p3VFye7yiEyLY_p-n3F5nufvFeYgFPV2khwJBmUlzuGKhoJ7Noqt5Hya6KK4PKAUGcEUVtu23zcdsH-Z7UontTyZA-tob0BCCsh6qYA7MZ4BJyv
+4ms0USjFR1ezvnVAGCRATnnK1txfEadOmgzQ-IPR_Z6KyxbzVWTgnaH98vdox9xUYtnPSgZ7ukokyJq5ljvqzOEUbea7q7vku21XOhNCZ-BJeExnrFYyKVgJ
+n_-9oyV59IWoRbw0pXmiHpZkLgVVmBomj2TbRsdiz3tJFEP_NJ7QWK0FOVujQAreS5MdRSzbdkyUw8ep-3S
+}
+
+EntityColoring(stoplight)
+!define stoplight(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stoplight, stoplight)
+!define stoplight(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stoplight, stoplight)
+!define stoplightParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stoplight, stoplight)
+!define stoplightParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stoplight, stoplight)

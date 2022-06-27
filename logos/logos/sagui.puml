@@ -1,0 +1,15 @@
+sprite $sagui [64x55/16z] {
+dLQ9TgqW33GXs-J_F_WTpRLo5OfzqxqmCfCDjpSWiK0cmfMtFqCSUG5AVsD7tW2Zrspo703j9PqZXu2-eoDdq3VY9_It5Y9_0PP1r1arJ2FJ_jEySIsk13Hf
+JJGclcqPmkO0mYo-w7ogountcV_Yjowuu3czOUpzAxhwAlDFzMi3daDuhJuDD8kevkwFDoRsaNiMsWsSTWHPW7Fz8tV8yNld9AxA2DheB05xD9RLxdiaf7Ed
+noxxeIDhu_KllVEzxmi_bi2b5Sf4pV7XwOWF_kPN18xreDDOxMkz_cVmvV1I0gHQaIoCQlTEB24TlnWd3BOlDMH6hUYdDRW4Q9tOk9kUZsgrYbk2pj_f4zko
+MAiJVfTsx5gY91xMe_w-uJcmv3g_75HIwe6M1NWMRDGbY7E5Yx_5vu74wX6kXid0g_n9HRek2kluBKpL79FkgHu7LwJWbVcEFnYVJlVmQTLCxn0_IXLvGxHk
+kfsAE2vz5R-O3w4G9c8nT14b1H8XnUcDIZu10FLBLv3Ct5qQjXX3_J0O5QMihy-SJT_eAitcR4JwZ0zQtvyYa_iBnLzStzWtoen_fcz2hWpvq01rV9tpTSyj
+PkUl-NBq6y_yB_djKDec-UCtvszZlfMxjVyjQjzW9iKo_X1XPCem0QS0dhAHy9Yyn6dv6zSF415mQUOr_IS2qXlTsWzXmdJiQAwRnE5Ffgyk24S_DwZVut9y
+PlghTn_SZ-7OFoN7DKYErTKHlCKHu6q8ra0_AkYE40vknH-3kEsemVx0-SA1RGMA_0M-O2-cOD0_
+}
+
+EntityColoring(sagui)
+!define sagui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sagui, sagui)
+!define sagui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sagui, sagui)
+!define saguiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sagui, sagui)
+!define saguiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sagui, sagui)

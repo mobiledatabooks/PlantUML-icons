@@ -1,0 +1,12 @@
+sprite $stylis [64x25/16z] {
+dP09ZiKm24FD4fn__mjFWpLqzkK_IKWWt1UAuQRstWkVsHU1Nx7zU6p79t8_Dl4xwz8KFiDhdd_GV_FCsFjF-fozl-jjbLZUUwnQmEgAgAg0xukU1P3rodso
+G6ona5qbDbJhesSswsjE5edQmawE1aLQFxFHqQI_UvyFAmTKhvN4cMamljTFpwLFaHoziuFgukBMyTOp_A2zTBUJuwrVEe9azKxvmMwzVZxYv76eqNFqYvj-
+wcPT90xTRpPct3pZqKz4OjNNVPtF6pTI-dKwmCZMTwTPS2WSYWE2hLTkFfEwMmdd46ZYOgalqisKIpDNvAqUy8X8wGxP5AK_b8n2BnwzfU15jfn3ejXOBulI
+WO7ikdXZdw-VtnhVw2b6dpMYlbxFlrZTbFGLfrUbg8L330OBWSOrrShKmV4jleR04-mRn_-nFH3Fi2OV-8qN
+}
+
+EntityColoring(stylis)
+!define stylis(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stylis, stylis)
+!define stylis(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stylis, stylis)
+!define stylisParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stylis, stylis)
+!define stylisParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stylis, stylis)

@@ -1,0 +1,13 @@
+sprite $realm [64x64/16z] {
+fT47TYiX38LX5Teb-z_lywJuUWgWm_jEILn-aCOoecR-mynKOXWV_9STLFTY7k6cmTflqi6JwqQTFfdC36jodLq-ZicYUHhmrUptUBt3gxZ7yGCMoMe5IxHn
+W4Opyl_9yuizBfz_hEg3NfRFTyFuaEJNfRrZIjp0Kjx00RPQ3k3xVGfVNpvaKX6DjFNiVOQlnsVyS4GIsObvWkgihdCbP_EDgwcaNChrARt-MzPSuYSejNsA
+nSIITclQhcctfbamw-aKuwG5CRvgSI3QYwbkvPJhHaqjrOsQUJL-gVy0iAnvlVpyBlqCYDHepIGtT29WdQE9-6FELSPt0oWYYZw1mH4DBnqc8WLz2k0g_F-8
+qEJ5q5TmyLiWow6Y1x3bEogt0O9uFPz0o1T1VYaGJydbZoCSKnKg2CO4-LGHggcRV58W7dDviaXCIQxi-FQgPNvd-0hgBaHQOpbC1d8Fv4N6hArgk4mbJ3VF
+ifJQg4PMYR22XxYwn5bkdMrlPHJ_0m
+}
+
+EntityColoring(realm)
+!define realm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, realm, realm)
+!define realm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, realm, realm)
+!define realmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, realm, realm)
+!define realmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, realm, realm)
