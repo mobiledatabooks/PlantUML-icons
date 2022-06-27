@@ -1,7 +1,0 @@
-sprite $game_analytics [64x8/16z] Oo0PCB9oShCmK00OcPWO6GO760K
-
-EntityColoring(game_analytics)
-!define game_analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, game_analytics, game_analytics)
-!define game_analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, game_analytics, game_analytics)
-!define game_analyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, game_analytics, game_analytics)
-!define game_analyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, game_analytics, game_analytics)

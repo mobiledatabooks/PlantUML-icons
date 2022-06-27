@@ -1,7 +1,0 @@
-sprite $v8_ignition [54x64/16z] xS4n0G000C8W-wUsnIvW2G0000u
-
-EntityColoring(v8_ignition)
-!define v8_ignition(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, v8_ignition, v8_ignition)
-!define v8_ignition(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, v8_ignition, v8_ignition)
-!define v8_ignitionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, v8_ignition, v8_ignition)
-!define v8_ignitionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, v8_ignition, v8_ignition)

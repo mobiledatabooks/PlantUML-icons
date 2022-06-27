@@ -1,7 +1,0 @@
-sprite $visual_studio [64x64/16z] xS413G000C8W-wUsnmSi3m0003W
-
-EntityColoring(visual_studio)
-!define visual_studio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, visual_studio, visual_studio)
-!define visual_studio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, visual_studio, visual_studio)
-!define visual_studioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, visual_studio, visual_studio)
-!define visual_studioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, visual_studio, visual_studio)

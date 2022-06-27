@@ -1,7 +1,0 @@
-sprite $terminal [64x53/16z] xSv56WDH309WHfuBzpzjBLzNTPVXNoT0uaCgISbpvIDc38KFAC1GFnimF1YGWC3xjH4eZxtdnzzpCeMtcUszOA_o9d7CDcCmK-Tn8Y8Y8fBvaBu6
-
-EntityColoring(terminal)
-!define terminal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, terminal, terminal)
-!define terminal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, terminal, terminal)
-!define terminalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, terminal, terminal)
-!define terminalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, terminal, terminal)

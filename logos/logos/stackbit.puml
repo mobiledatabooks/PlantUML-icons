@@ -1,7 +1,0 @@
-sprite $stackbit [64x10/16z] fP795G9G20CXoVp-IvRdpLrnxf2j1e5gJIUIqyjpppN7YbVdUAu7P3RtHtD_1Nfp3_8VzzX472osxHkifByxwEVxgRuZr3q2rx3Hlm
-
-EntityColoring(stackbit)
-!define stackbit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, stackbit, stackbit)
-!define stackbit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, stackbit, stackbit)
-!define stackbitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, stackbit, stackbit)
-!define stackbitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, stackbit, stackbit)

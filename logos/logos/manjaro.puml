@@ -1,7 +1,0 @@
-sprite $manjaro [64x64/16z] xSkt0O10300nP--_CJKvLC2VUlLL8IBPp_7v_7FyskHNVycsJtrRqJlVQYNk_LxwnUVp-Nm-dy_dJm
-
-EntityColoring(manjaro)
-!define manjaro(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, manjaro, manjaro)
-!define manjaro(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, manjaro, manjaro)
-!define manjaroParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, manjaro, manjaro)
-!define manjaroParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, manjaro, manjaro)

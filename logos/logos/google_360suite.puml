@@ -1,7 +1,0 @@
-sprite $google_360suite [61x64/16z] xSv90G0m308my6zwBdOrURT04W00W1xuVNPqSqJVUctpcGK
-
-EntityColoring(google_360suite)
-!define google_360suite(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_360suite, google_360suite)
-!define google_360suite(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_360suite, google_360suite)
-!define google_360suiteParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_360suite, google_360suite)
-!define google_360suiteParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_360suite, google_360suite)

@@ -1,7 +1,0 @@
-sprite $pagekit [51x64/16z] xSsr5S0m40HHCT_rNwvJCxDsyl-6xWpnV7HAMSyNXvyavlFq5G820W820Y9rjxXCF4qqJTmh24W9tMAOYgQAOgft4f06
-
-EntityColoring(pagekit)
-!define pagekit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, pagekit, pagekit)
-!define pagekit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, pagekit, pagekit)
-!define pagekitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, pagekit, pagekit)
-!define pagekitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, pagekit, pagekit)

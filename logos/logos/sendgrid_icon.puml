@@ -1,7 +1,0 @@
-sprite $sendgrid_icon [64x64/16z] xSkv0O0W4011VhZ-6xQ1-qALdNoAPXwDQ6xzV3wVtpJhf7NDPp-Vp-TB-a_DsccYMLrJDFdVVlNvV3x_0G
-
-EntityColoring(sendgrid_icon)
-!define sendgrid_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, sendgrid_icon, sendgrid_icon)
-!define sendgrid_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, sendgrid_icon, sendgrid_icon)
-!define sendgrid_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, sendgrid_icon, sendgrid_icon)
-!define sendgrid_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, sendgrid_icon, sendgrid_icon)
