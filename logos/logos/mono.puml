@@ -1,0 +1,14 @@
+sprite $mono [50x64/16z] {
+rTJNkcCX20LWmAwmtlznPqWvHHCdJZ_hmiyGVpUxKbOSn2fb7AOPla9ij9A_fxGsrB1BhLtDUcHwZyJSnZDMV0LBY346eO-Hr1-1Jhka5LYWRVeY1kqJ5z5e
+7zRJOr33d4JxfEDJ5rj9t1F5IWhln9YMQqiII-BNJjr62VVd8Sv6U17rqyOi2uavH_dO5Vqu8NTL70YFubIKOn7iL90UYtOiyh68nqBiDI5od_6BWZAl5sil
+fF6XeDHF1TNEXuAwoicPUvh5zUhkKwrImXFHUgGroNGy4GN0oBmGhdWiai5ZLNPVweUlZStDzKait--vER59BFlCpLLCOgbEpR5DOdx9bkOg7eXeU1AhoHu8
+KUoo2Xuu5Eq0D0VPNeuMyl3heRyJZaGI0zr7JuXHhfFWF-vbkPO7QZLWXEQZzna706jCn6Qn6z2zB3wpBgI03H_WOoEA1klZeeF1x5OMbzsWea0YDY1xKVsW
+9aGPA1SHYDNB3HOlstM5iI_pKQ7EAf7FXmkVDnYpeTzU2Lzr4NGL4KZNlynrledxHkLTw2Iy4bPHLo66Tds5-qTnwVBQp2oydKJSWFHHU3k5kG1r4QA06Ro9
+ZuBwjTovNlehQ3vUvjmCqEmpjK14wNgPYW5MYRu1
+}
+
+EntityColoring(mono)
+!define mono(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mono, mono)
+!define mono(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mono, mono)
+!define monoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mono, mono)
+!define monoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mono, mono)

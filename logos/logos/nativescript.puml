@@ -1,0 +1,13 @@
+sprite $nativescript [64x64/16z] {
+fTS5riGW30JW8K3a_WV-NPYoMI7pP8NtLQP2Y__8D8-7STFUiALDZwVZAk0CZzSoQUKQByVbdrkSH8YVB-2KXxUlwk8u2g1vdAS3CmenW5VlNuajsPW8dHGD
+GBPF_ZCsI4pUcv_qt0FYwzLm-vGSkUUbByjgMAAvNphZSOhbuz0dVFEQHozwZAA75Zsiw9lNF7hHOnGzjEXXHT_yIM__urEemytF1pEA-eqEdHQvfoq-b3ea
+drp0Wy6a3gzUF3WcO1-TEsIFfhG4dxXwfmwl7iEswPHzS8VykraocIt-sg7Jhprp6-OE5o_P-SEUExG7vu-Jtqjfh_hycj1dVMZHnopww4NlKlFXHHzQz36B
+FdhHXx2VhtfdhydpI-f3itbr-JhOvntAkc0wKyYd7TfYQ8Rjr4_IeImyj3drf9-PJf36r2vRfL680rBn0wK7UAF9xFGLJ0fRNrd0eEdqW5TUG4r04Nj5-y0M
+cNRmzlqE
+}
+
+EntityColoring(nativescript)
+!define nativescript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nativescript, nativescript)
+!define nativescript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nativescript, nativescript)
+!define nativescriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nativescript, nativescript)
+!define nativescriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nativescript, nativescript)

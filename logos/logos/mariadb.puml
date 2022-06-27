@@ -1,0 +1,11 @@
+sprite $mariadb [64x19/16z] {
+dOy7gcGn40FLGUhs_Bt_UHSnZytH1JWNal5heZcVX5kuE-SGbqZpCMS2T_IGr2JkYANrk6zFyZeTjRIFIzBwjHzS6X58-C3ZGzUp8DdXgRzpYxCYpHJ0jkCX
+miCpEWH8UVBjGysEo8TrYW2827OpMra9BpjiLOFnfL7Ca5_HsAz25y7qcedAAi0dDWXH2PXSyLkMzi6WHp-e3bIsstVG9-qB0UPhk7j8h_8xbD8bdV_sgvqV
+xVZuwkjh-XdEQwST2R_emFl_zj7TRFXvmbD5IoFEZ3IpvqCyhwCJm5SYVbu-p9BKr7EhvJPQn3_IgzclhqSx-1-IxA-LzDh6V_4P
+}
+
+EntityColoring(mariadb)
+!define mariadb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mariadb, mariadb)
+!define mariadb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mariadb, mariadb)
+!define mariadbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mariadb, mariadb)
+!define mariadbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mariadb, mariadb)

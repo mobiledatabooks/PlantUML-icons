@@ -1,0 +1,12 @@
+sprite $moltin [64x20/16z] {
+fPI9eaGX18OF4jBxF-zLwiw-_xCvneVM8uL4U7mj630I_40F4RsAt4OvDNjU5vuFmdpzpMvtwCm0ptbjaGEaRDym4CyWccd2CPqOqHcHFBHUmbplyDA18Yhb
+ac-DtPsfkKkuB1uK3klKUXz-b-8YuIq4EbMoJFBWtSqYigaxnPEmTOlwLBsh4Bbo9D888T8K7S3CPVCSJVIehRtKNcVpP8uvXy6Ntd34KL6RKk8XIDxtT5Vd
+yPl6EUyZQGlUbhJMu77nC2kUy_q-Jxj-I4Jebh_gdwxgws1Db-xmO_vgpX_6V3JXuFd4f_OihFKBNXT_Mh_WSIpfNB_L5DH44w_mlt_owyWlF7F0T2uR2KXs
+SK7u_10IGgwX5Y3yxlm2cp7yS0C0udVqh_VN7m
+}
+
+EntityColoring(moltin)
+!define moltin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, moltin, moltin)
+!define moltin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, moltin, moltin)
+!define moltinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, moltin, moltin)
+!define moltinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, moltin, moltin)

@@ -1,0 +1,12 @@
+sprite $mixmax [64x51/16z] {
+ZSr1RiCm44FHOMjPiQIv_tMxPPDyWDmI3_-sZR8DVtxzkNtazP2_NecVc_nAl0xvgnD_D_cLU1toLoT-DlcLU1toLoT-DlcLU1toenC_c_nAl0xvqOcVJNud
+NeVywCJF9hyJhqD-TE9daz-9ro4_El6poU_4wv0VdVZPv7VYTSYFJlniyZlnFuVywCJF1d_jn4_Bz_BdrObVRRjznuuzAE_yaJsFF-CAykTNbAyhoAyIvTrp
+laHvzvmlKTuzvqkKTy_v4kJDSzxyVCkRf_nJvZ_oxZbVehnxpfSexvxp9Sgxvto9ykuvNwAyUywNAE-UyoNAk-TyYVBkEL-Yl7lEboZldlCbohldV6byvCrZ
+tlh_y-1Va2-zvS5loDVFMnxy7m
+}
+
+EntityColoring(mixmax)
+!define mixmax(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mixmax, mixmax)
+!define mixmax(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mixmax, mixmax)
+!define mixmaxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mixmax, mixmax)
+!define mixmaxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mixmax, mixmax)

@@ -1,0 +1,11 @@
+sprite $mattermost [64x11/16z] {
+dOv50Xqm24GVaW33_U_RdzgkEhW3NcF6VoDqZB4q_WkkX9Pb0ypJtV1W0U7y3aaDd9Kn0RORn0fxSrrcIiF3S7iKpeTv2LvmsrKmAwSkcDIqP3sgiwfQPKho
+beuajHGl4QwPt9rjk6ge0jVHdRjcKHkwX0ALJxN2rBxle8gUepIcJ39mO2xuEtHItZDo7K9kqgYwGGTTr9lSrpWsHMtpS1MyzcZBFVAGVxjlAZERd_FVxqCg
+fd7jdCZUXZSFf78aMQbjT8z6yNr-BxefAN8qTYH2-z06MF1DMwH3EFOHpy1VQ3n-2SSo33p0wxt0V-8B
+}
+
+EntityColoring(mattermost)
+!define mattermost(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mattermost, mattermost)
+!define mattermost(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mattermost, mattermost)
+!define mattermostParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mattermost, mattermost)
+!define mattermostParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mattermost, mattermost)

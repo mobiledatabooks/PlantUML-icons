@@ -1,0 +1,12 @@
+sprite $neovim [64x19/16z] {
+dS_LWU0m303H4SjH__sU0yUqc_a9Fji2LBXINgNXN8Mzu_d0IEF_YIbypt8NSldwo08v2T-hpftVlb8-S5w5xtLtxlJsTLu5p0NEYrx43R84oBHGIVDEj3fE
+NxcJxzupFPQYxPO1bHwjDG4sdPCwCyVqiI_LksU2V7mquCNra1e9MDiigB6Oq3c4daPdrbhjMwQItRTtG5fQTn4jx5hNACT1dhuvht1SNiwJvtSVfozTSMRD
+MPbFsEIVF78UtRVl7trnTVisPlNe7_m2hrt_vFk1bB9RGitf_kZ9ow-VV9GW8Te2cM0pVhhKMT_ySHodrzeztlpqUP_AmJ8hu5u4RvVEysfG_NYYkY__oUBn
+dBuJNYmWxEmTXxWzyOv3t5vUyIy
+}
+
+EntityColoring(neovim)
+!define neovim(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, neovim, neovim)
+!define neovim(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, neovim, neovim)
+!define neovimParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, neovim, neovim)
+!define neovimParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, neovim, neovim)

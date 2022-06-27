@@ -1,0 +1,15 @@
+sprite $momentjs [64x64/16z] {
+hPU7SkKW34MlElZ__tUB1QEGiVDWPq_AgqVD3UC54lFM-tLTlOK9uGJIwDTACyOcKl92qvqgDEL7kdsA86tv_itoZk87oEkBpPNfVfF5ee8qnXlIfnntgoIY
+AdA74UzLmeVEdG0sZyA4G3O_TpnXPPF5G7Y6CGPcX7ZGVRGdQIS6I4oSGJ6-HI_P7T0e5E0eZ63ziG9DtS0UptuYSyZ-D7cjQb_yK70VgGgQkiOdFsm4wF9z
+TbRw3txOgBPLzMCa4Zj-A7Jje6KuZZq_175tm5zdB_1TFuXwRKICvnRRlaEhW7nA5Fj-2DhS2UOpE_4Taba1xYFzYH-QQHMmwlx0z-aXCawS-S6KTOy7EVKj
+6n39VSTEVS-TtYsdxwT-K6REzYdE_1h0tGNpkQ-vtzRu3lmQOFhuwhiM_C5FElIBZeLNtn7_pvSeZ1Tqet-IEAFysdudrFQxcn2AOoJt7yipgSSfn7cvhCF_
+35XUh9STw7XycWz2_zW-PHbnF03ek8PndaWvZXXr6p2V-E7qH_d81ZhuB7tSRTV5tquseOzBkDJIfnF5DZ8lsQW2OdyViB7Q4YHQou-JwWEJDXOqjgTJpuun
+c2iYtWdWX3PMMuLU8u1kw_6mUkq2-JGwIhrX9URQd3nUgULdDLypl0c2-FlLn8RE-0v5tHuyHb22jEjPhnda4XwiQmWJWAE_hTuJwpE24K2iPkvcAWIGjlcf
+RznzzMP2691OzBqxi2mXwRsrY9PtiPCW_0XxlzvfWk8qGW_1-Urp3OImppgovlec_mO
+}
+
+EntityColoring(momentjs)
+!define momentjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, momentjs, momentjs)
+!define momentjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, momentjs, momentjs)
+!define momentjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, momentjs, momentjs)
+!define momentjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, momentjs, momentjs)

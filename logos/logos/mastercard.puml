@@ -1,0 +1,13 @@
+sprite $mastercard [64x50/16z] {
+rPO7ZkWg34MDVIccsFlVxHUPcf_7C1Al7fNKGowXqWsEHMjhLJFu_a2062E40wq8SRflr8Bt1uBu3l3Z8aAQyWt5zG28To1F7TD-K9W4yGcOxgHBVr9lsZ92
+RWkzvBGguNjw_aO1gIqeUH8NoEFNFVL70S-V65PwlUIlQX3swNSrM7zUfxaF43UVtmNGBsg_3q2yYRy9m9luEr_A9lx6XtxFJt51FVJR0ZtrVrD-FVHFs--q
+_vprN_3X-3aTlwVpn_dyHK6N0VQVdyZ1_7sqVXolN-VhvtxzndxzdeWUx1zEzo_x_HFUNO1f2ICNhLLBGhYNpOA9SA1_X6rGBb-z8cFdmrxyb4hXg7cUQifC
+KHLSVTx96eboKg6aEL3Kb15oKWv5owlVlPjPTwLgpHp9QbSPtYkrePR8h4gpDb2i3I_ieygmPcz-8pYeTN6G6B8LX2kTU44RmHA92L6mJ6I57PIDARxvIcn2
+sgSI35Iwjyk7zzvqthhUdIVKotov695y-3Bz4QoAEX1PZSGJs0edcHgRIkBUaJrF7rwa_Tydc0z7Dfz1cm-AvXR9GDSPUBZPvLDs7zF_3m
+}
+
+EntityColoring(mastercard)
+!define mastercard(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mastercard, mastercard)
+!define mastercard(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mastercard, mastercard)
+!define mastercardParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mastercard, mastercard)
+!define mastercardParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mastercard, mastercard)

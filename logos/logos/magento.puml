@@ -1,0 +1,16 @@
+sprite $magento [64x64/16z] {
+nPS7kY8v38HRJd9IS__RxcSCxKA8l3DJBn1_9ITvUoJo8QR4p2d5u6dxI2uE4fM2UniE08E55EWJrxdKsbflhPRCKwyjq8NEjSk-9BtcYuMdU4WJ7gnMhzE2
+U-ByJ3UaKLAVXk3EpYlIMbB6LwA9-u7dlZzNpoC4Ue0NiIaTGY8Rtz_HCg1ohyPtOxCCw1gGZRT0HAcR1WBo9juJdULOJkgZV3iFWf6xiAEh_Ds7mm1XybbK
+Y9vGGKNNCOF8pBT9ra1Qgf1rPU1rz3sko7d5aRegGLp54qpy85oM4zJ1OP9zLc1cNw4ogsmi68ukPBa44D5zNU76ZlFWgj1K09GW-wWARWq7GmNyhDxLfZWL
+fpKT0Wn1NE43xzZSVzBY8O4PFl2G-Fc972-RdpmauDmC7_bwkj3HotWuvl-99my9X95-L_mruMtoQ-0LtvWZfezy6qydVtxMWSS2ZAMp6toX6vwgmGipG_cU
+yitWz_mxpx_pzL_wJx_p-LCUnm_cpziypfy0y_TJlZ4dM3zlyxX-OFjvcyVrE_QF_1qlv_q32l0cZyjNRT_nDRz5t3_ryL7yKtuZbqKT8Fvs2J2LnU_QFylT
+-R6fqxUrWtTjFhlo5SvGEGxGO3KFaw9Kutm2f78_Az0D7gNvVhYV5SZgy_gSbumjL3JwbnQ0ZdVXpU9Z-tMVeJVEqjLzUEmUJGEI7PobeARxjoqm6C11ybbs
+hMhqq95X44100ux9eu7sJVkB1kh-HV-EDSYOWnqxHyJrA73fBvm7P7GN_zY2j473k5iAU7qpBd09OZT5OLqVM-yYqdiRxAITJMaBXcpQbe_f7lxi3kv2J8iD
+xX7y7m
+}
+
+EntityColoring(magento)
+!define magento(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, magento, magento)
+!define magento(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, magento, magento)
+!define magentoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, magento, magento)
+!define magentoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, magento, magento)

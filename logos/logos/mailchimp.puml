@@ -1,0 +1,12 @@
+sprite $mailchimp [64x16/16z] {
+fStLeIWw20NHGI84IF_TFhbwNDTlCcmGtgO2IBRo4gjQ84DUU3c0vuyFA_Ra9JsaHQeISEE1d6NCShILqXYy9A0q5gr4jV675kdQ2Zy6f8HNf9TGDfDOy8Cb
+ur1w5g2EnmnWhHVx7J-E637X1vciBQKj_31E2k3-Oby3SYUaWuZ_YFOSOGK_Z3lW1r6Ua6xvTQIKaNcDMEoL_gVVnsj3Ah4jn4CPWwW9o4sWMj32IlmYTx4g
+qUO7loUyyAlqEP5vWgoOrWPw9t0FMB8NkrbtuTUW1e3LlaEASvbvtQvxQ5P03h2h8DV1YhEjUfzPdkt3hOV8AlChqX6zSpHscIV6IVCV-mTW0PoAAlCjh1oM
+H_6i2aKt-CH3RQ4RgwtT9ttoYF2C22-QE_cEyAFVw_DR_UW3y2y
+}
+
+EntityColoring(mailchimp)
+!define mailchimp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mailchimp, mailchimp)
+!define mailchimp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mailchimp, mailchimp)
+!define mailchimpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mailchimp, mailchimp)
+!define mailchimpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mailchimp, mailchimp)

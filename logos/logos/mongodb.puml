@@ -1,0 +1,11 @@
+sprite $mongodb [64x18/16z] {
+fTDL0YKX30NH2f4Rmjl_TaUQSPVwQJsj09ZnFraL_rD9oRyNKYlurqoIMlnhSRtpZzNZk_Z3x7ryNj7ruW-BhaW5k2ggkFpFFUsmb529jN_svilJLYvWPHgu
+UzsjM8R5io5_di8UBwlh2_pidAa-YspNs9fJVOoKpxXjpnDSlxGefShy-W2wy0CJ78TJrF1-TG89DMW--Nl_4lNUowvV0vEy7FOdh-tRwOOuN1-22d2nFes_
+_U7-oMuOHzUlAOCyXWGTz_5HGXLuAG5yUcd2fstjLh3sU4xZhvasjAiWfSmmYFSh_i3WkupFPIu_-VDvRejVTXQqy_ECNrP72dxIMm
+}
+
+EntityColoring(mongodb)
+!define mongodb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mongodb, mongodb)
+!define mongodb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mongodb, mongodb)
+!define mongodbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mongodb, mongodb)
+!define mongodbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mongodb, mongodb)

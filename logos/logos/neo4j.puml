@@ -1,0 +1,12 @@
+sprite $neo4j [64x21/16z] {
+fP87qjqW30P5bq3mtV-saSNysEc9txwwdbcRHXyG6-TF-YR2hyAGelVyhiyJ42AAjQLpCJNX-gMXi72cNnh51QFGaz3XY5jTBdCtRPicsgZ52h58DTDc02gY
+G3TXO7NkbcKpkKm6tBPN6jwVKHI0QPUPCZ22ILIiG0MGozB2l7uhhbI_xpkKd0ancLl2yYUDRHbcb02bd_e99aUW9bCs2vtMMIar2nChFllOMhpwHWv3myBD
+240wQpIexqVUFGjRki2dfmbjNvG0vFlv2TWF6dSl78YvtFs0qi6Vv4HhYnNfGZ6IzyaUmYb6EltP39AfWIfGBma32C-vhRD-XPdhtLC7j5NMFLZhXjbqYrqT
+oyVfgVaaTZzz5pRj7CrZZxquVMBcHavgTLyPEbgaJPPZF_MnrievvK3_HPDzbZABSAGtX3ommjNJAuelIM9Ex_eyHo7w1W
+}
+
+EntityColoring(neo4j)
+!define neo4j(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, neo4j, neo4j)
+!define neo4j(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, neo4j, neo4j)
+!define neo4jParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, neo4j, neo4j)
+!define neo4jParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, neo4j, neo4j)

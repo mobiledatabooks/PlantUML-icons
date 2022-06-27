@@ -1,0 +1,11 @@
+sprite $monday [64x12/16z] {
+fP47ijum28Jf0h7tFs-GVoTvlUuCdSz5eg-fDxsZt_FyErvpZLCQPMKlxwsarIMyipf8gdDutvqxAed7RjqGouDlD32s1TXeFHxQnvTTHIJO4FHVdkMiAXVV
+P5XKI1W55fBMvGLLK7A480hy7vUi75pfvXL1YRoMXwL0ZkV32vqtRvpdkPYpkVdWAggieKzuHoVQBjuRkL7JMZr31vIMMDXQ4IipI5J8muds9ksWrJnGg_Jm
+hTRONRGmOPQnLS8iXb1rrli6vKH-v2VSyPxnepK-u9CQYnAFwBlgPlg5pZyzrHy
+}
+
+EntityColoring(monday)
+!define monday(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, monday, monday)
+!define monday(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, monday, monday)
+!define mondayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, monday, monday)
+!define mondayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, monday, monday)

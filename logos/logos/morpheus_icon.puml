@@ -1,0 +1,14 @@
+sprite $morpheus_icon [64x64/16z] {
+bP9fOkKW38CnNi3l_lUTtQaI3ILy_rgiI9PVMo3gCMT-FZbdk4exeVl8_02Pm_jRjSqI8vdJtgYzn4ocozORrCmcWunIBycnxa51lIPjkVdd5Hd_bGV9bump
+EJFaICwCmzsv0sh-Z7IyEyZp5oiDlgIsYt7xjnYC0RCt2VYp5POWhtyGKnvMKVf9lSxbmWfUdRfFeqH5oieiUKXO7utTUddHIjKJXMtzEJxv9jSKPNtCotro
+yadvsdQloq7lZQRuovAtL9Dsf9Xr5uwM8i_uXVFnE5ggyl65JnYhbt0sSO6Ok9WO7NSEEf6umIyLNzI5ViEJJgGHq22-U2Xr2_fMKw7tdkRrOQS5yjbHZngJ
+lFVg4I6FNoSVt-8N7MrIoZx2dWkC8Yf-ZLqs3WzUJHODAPV04sQllIhPadA9qAz33NYeP4ia8Y3dl8xNyM6DHM1EluxdzQ0lxE64QM2_2o0U5_yQpBizDs1V
+r12CgL_s5svgXTIN2UTQ69UciK2nbhM9l0XWttbuBEXKAyU7RWZRsXlUXX6mNoVSDcYnQSZNxtlxJGERxNS97SovV3hG3avV6nnZ3T4unDiTEvOVVO2x8-nC
+pkXPTKptL-RQLeYzaEFTpoDesw3-NNHfUxgVgHbHFnCpqjNzdzIrByK_0G
+}
+
+EntityColoring(morpheus_icon)
+!define morpheus_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, morpheus_icon, morpheus_icon)
+!define morpheus_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, morpheus_icon, morpheus_icon)
+!define morpheus_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, morpheus_icon, morpheus_icon)
+!define morpheus_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, morpheus_icon, morpheus_icon)

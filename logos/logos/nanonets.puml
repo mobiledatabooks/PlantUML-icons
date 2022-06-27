@@ -1,0 +1,13 @@
+sprite $nanonets [64x52/16z] {
+lLS7bYen37ENxt_XNxR54r2s8phOOxdf1Jd1gniXjz10eroEqEedm6I3ev-GSWBw1L2vmDv-AU78RcA6zKjmzkW5kx3l1GY3TPCmsGEyzjI_Uk3Nucj_AF_V
+glzi08oLfkI0OYJZpLr5ZWt0qxtpPlo0xZ7_X7w9wbCTVEC5bH6QijVNSa6ll7ZacMEiIQYDrn6xLSn6vUW7Hruur_BnUIqE1-8k6tJZpDp3LSHkHZOjt78E
+CzUiL3xCAHm68bbAn8nPxIqAielKgfs9MPqKTo6f6Ec7_8jAZZt6dqgM_bhzUF-IqMTcniGiZblBfpIUVeE_fpaUwLEovc85uxxlDhOo9ubBD6UJBCdpqk_A
+j4kM7RVslbMD7eniA7PbqlKnFopOlalMXzXR0gXXjS8MWFVO1riCV6XaWov6VSJVw6B71qyPJ9dnQSd0uVp4q1_opr-BNn_B_xVgFysIKOF91owGzF-3on5M
+tLttOZYwaIe7_0K
+}
+
+EntityColoring(nanonets)
+!define nanonets(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nanonets, nanonets)
+!define nanonets(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nanonets, nanonets)
+!define nanonetsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nanonets, nanonets)
+!define nanonetsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nanonets, nanonets)

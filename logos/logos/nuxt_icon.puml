@@ -1,0 +1,11 @@
+sprite $nuxt_icon [64x43/16z] {
+fPLN4iGm24E3CFBzJxoTcHIODUJzAtAU2ri8e92j3VGDxiNRAn3eZswzWsxSaPjvjEE1Gf6AlFC2n4X3gNx_0I7d9F6lNfEyyOCLw_q3u0yjnXNxUavABV_j
+Kz8PjRXyvKtIGIulM_tW3gl84vUtGxloN66Ip-BA4wDMpmkI7lnStXuho1C6OBtU6D7TEsSqvINN83tuWmbMEFWXQCfph2ulkmQYzVgzGYmS_82HoyDENWuA
+1p_2kl8SRUxT_YNHf5wvm2WS_10f7Fm8wzOxoFApz0Dr-xu3G9YNjRYc8rzimHws9m
+}
+
+EntityColoring(nuxt_icon)
+!define nuxt_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nuxt_icon, nuxt_icon)
+!define nuxt_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nuxt_icon, nuxt_icon)
+!define nuxt_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nuxt_icon, nuxt_icon)
+!define nuxt_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nuxt_icon, nuxt_icon)

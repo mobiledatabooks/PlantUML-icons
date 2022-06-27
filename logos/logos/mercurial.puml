@@ -1,0 +1,17 @@
+sprite $mercurial [50x64/16z] {
+pPM7rZCh24KF22ZOtlzjxsJYYdU-rDN_dHxT7fYArn2d4oRy0gSaeZT43ek-pnUrZHuI_pn_8PzoEEtvbnp-MLY8o1j1x0tY6I_OmZCIzcjD2vKgpn6V35Eh
+z6iN2wa5L-IBeTeJBkWNmoJYZw5V3DLn3R5G_QoavjUCY6zbvKwNpiiq_LQMue3NYKEbDVbio720aggfC00hq-LB8vMmfaYwXTGlIggTMUy5cZCWFcQ8Vjhj
+Kv8TC4X2pmqyvYYghoKHQLFbbWKW7SQfj3P6BVPAufjXUaQ0SWZMJYab-kYHdoGI6JERg0cnHH1Ek1oEYSPeTbKKedDcpkOvbwW5M70EZvpO-bL9a3odGTgS
+KQe36v93oYc5NDeWYJaCuD9gAFv0wcvLBaMnz5aLxyaHIRV149l31HymJNg9yDcAuAEoZ1KXOtf9JpS0maRIGn2Gb3cAyT-BbIRU1eijb23IZmYbvykXf6se
+BGYiUKxRRV3ELnCiqaw0tYAoycDCxK4EBEGiC_4veSmXhdidxmYnddPHl2QeZcdPqdEBncmZhuY709Ks6xlXkIZ1OVXQzo68-fnS2cz3TeyfBoCzDa4wjvEu
+u87S3Kq44e-yUgD71MCwdNzVC-I-SeJUUrFSJJc42dV2XanKZK4iLdFGMeM9agYKEGCb6Fz7D6TL4IskzmYI9AfgvdrEGwcCA-PZj5h3T9NBaafhVSmvdTaV
+2HkDDcR9NcqLcjCnk_TGWaLXF4DQehen5jdAT01ixeQVACMRHut8Z1z9sIEA4lvLac4H-0shk4C3lx8DOZfV1yIFTs9ic74Vu9jHU-jnl0JmtXl1HtVatYfA
+1YJ0TNGHH-bzDCAO0XiC3-XWj8ofe3G4Z710--r_Ggv83Efw68pKSVkd5g041fyV1r7kHiCvVgFQOQIx4JXy-64aeEPNXfJShqPlhTjfD7jXwCZsnp0cW4xZ
+AMDLNNKRzLnu6U4uSD_66hyQkITMEQkoaKXWdQbi8uBERLKP780M8CReWc2SNojGZpyon76ESn-zCk8_
+}
+
+EntityColoring(mercurial)
+!define mercurial(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mercurial, mercurial)
+!define mercurial(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mercurial, mercurial)
+!define mercurialParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mercurial, mercurial)
+!define mercurialParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mercurial, mercurial)

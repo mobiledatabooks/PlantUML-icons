@@ -1,0 +1,11 @@
+sprite $mint_lang [64x14/16z] {
+XT85eXmX40JG0bg0Gkv_suHf8jzsQrmUZYV5ETVUUqqw8iaD4V42e5BmGvJxRvOWOgH5sMG3q6aVLMuMrz2HcV7FzmG0DNmg-1WZd-9NrFjSLW5IJlSpzIa-
+_9Se-oast8XIJDtD_leEmA-tUigkchrt0o2LL2dji7cxG3ay8tnl5EHpEPvqG1YnltVhyBuZgceckBu96upcZ-_Njvmg-wrVvRSQxVAHrLo1wpiQjJDzzFav
+9zp-hprytxZvvTSBIST7dpvw7xekNnBydqSZysiFSDyqDS57doJZdH-NJx62Z_xaXMS600q-IabuuVdPPvAz0j2nzwg1FoxlY3G5OAsSbmuWFMTe9_qN
+}
+
+EntityColoring(mint_lang)
+!define mint_lang(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mint_lang, mint_lang)
+!define mint_lang(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mint_lang, mint_lang)
+!define mint_langParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mint_lang, mint_lang)
+!define mint_langParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mint_lang, mint_lang)

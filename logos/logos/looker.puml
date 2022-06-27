@@ -1,0 +1,11 @@
+sprite $looker [64x17/16z] {
+fP45TW0W34Fh8VU_y2XqxbkUrDuFKjbAkFn3bbv_XhKGLlxa1PDFLFbH5sNs0d5-oYzyo9kO_uClcEb7lBfFQk7wnBi_DKAxYj2uzIi-kLNj0sx5y4MNwaQA
+CXSfaeQjUCqdsvtOs3BHf3VVU8zEGyaoauAh-XWCtzuTWXQtWTLyupF2qdQNG1u0qE5lk0zYr9Bhf40rwbpO8erD0dDnn4Ty0Z9za6lreogt8lJoTNb5lk2D
+FY7N_8U2fgmPDV7gV7i-VvxNdakCTOpo_5ym7aTv-SG59ixhGXUhI6ja5OZP7wXtjEpoYWF6lCDmbA81f9vMtULKpZCrpqZXZqG1fV97jHtYh_G3
+}
+
+EntityColoring(looker)
+!define looker(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, looker, looker)
+!define looker(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, looker, looker)
+!define lookerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, looker, looker)
+!define lookerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, looker, looker)

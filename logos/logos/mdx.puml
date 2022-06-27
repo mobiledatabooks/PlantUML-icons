@@ -1,0 +1,11 @@
+sprite $mdx [64x27/16z] {
+pTK5TWCn34LHKSca_U-srlYCybtcHc6uBp14HFpb2KpV6lwcf-lmybhqlhTyJUpolEhsrdg3N5g-iRXhShFaPeg-kG7l_f8dcvFS67trOS37xZ6077q6kFlB
+FWF1XPvw7tho5tq6WADV0Mx-bkTfWQCV4PWylJOz_Vq3182ZjpPTNAmTNiViBN_dVWOalBxa9NvvSEg7b_WVPNgvzV39CO3-46wq_0hqvbvsBem1z26CqX-1
+DSY9C80-ta3f8L0sZe7Tnw0d6S1vyGoWRxlFzLz7SY8DdW52Ntg_-D8gfndrnNq5VtJ_8LUm_xfYpzyz_Zm2
+}
+
+EntityColoring(mdx)
+!define mdx(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mdx, mdx)
+!define mdx(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mdx, mdx)
+!define mdxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mdx, mdx)
+!define mdxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mdx, mdx)

@@ -1,0 +1,7 @@
+sprite $npm_icon [64x64/16z] xSkr0S0m00F1CEs_RvZDbUc_bMxQ8wAoi6jG-28vZ--6kzxDYz_mF1wFn-Fn-46IR9yIYMW1
+
+EntityColoring(npm_icon)
+!define npm_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, npm_icon, npm_icon)
+!define npm_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, npm_icon, npm_icon)
+!define npm_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, npm_icon, npm_icon)
+!define npm_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, npm_icon, npm_icon)

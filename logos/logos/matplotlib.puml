@@ -1,0 +1,12 @@
+sprite $matplotlib [64x13/16z] {
+bOy7ibWn20CbYWte_lTDUEdvVQTQcXLZV4GgNWQdo2cyWH_3Ruu2TFiEO5jiCABfJVyg_dwuPHf0M_K9O0RNtJewQgxTgPsUwSGPzSMvqNE0KZ33wKPlJQ5a
+g8jGhNIbbZIZGimz4e_MxwS8T96MOM5WgGijKesGUjIbWrJ1r5XAZXQ1aIDrqKdtE6a0KePVVz-EUyCGIkmaJuzacCSV87GnOMOnOoHZVXIkYwC0vl5JWPqi
+dLXtrTr3wc3s_ZdN0SHJ_F2l71oDk5DFfDa4q1wJmaPENO1qpm2kjcY43afbHxN-Jls8PZH0IsbQBanj9DoPQIMTzLE9tdui0l0a60RcSG-0cNHTFm4WdGQG
+iEGMI8S54SwJn5k43dv18qaZla0eyGUIRzZV
+}
+
+EntityColoring(matplotlib)
+!define matplotlib(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, matplotlib, matplotlib)
+!define matplotlib(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, matplotlib, matplotlib)
+!define matplotlibParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, matplotlib, matplotlib)
+!define matplotlibParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, matplotlib, matplotlib)

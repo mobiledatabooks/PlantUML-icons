@@ -1,0 +1,15 @@
+sprite $metamask_icon [64x60/16z] {
+fPU7aa8X34K3QHJB___jWcO536mzqo7dUfdnDG14-2CH0m24d33ynTQ2qC1IYtByfKoIQsLeI6qa4VfnH42HL9gLeP5h9wi8_-WSo2Bwb4fyr7zGalQ8-6rl
+KL5pAbjzgz2mSnnxzv5KNehLdm9w18PJxyvab6Zrnnaw8aplcDoxJuZMmQYWuj2ETH-KKbVAAK17znctKDBMTzqDgOvyyjDcbggdR0AcxZCQoouWlVlMtS6G
+wuxyxllkzWTETKlHHS-7AG2k1zAabzFCk7uSPVYv7X20OBvddE3u4-Jyt_Kd2FaGhIhV1nG4AWTTtP_7KIH0IFNm5tP_Nkz70Ddgpjy79DW59FL-fxZ1q7mk
+_lBT-vfINeOL6ZhSdAJX_JbIfuWScX_Ivm_xOUztr6gK29sGIquwPhtlrtgDWl04nJZw0naG697TwAzycYRJPbOdahnWC7Zs9tQBElbnhkzdzRXcaAjlmqTV
+5vz7_O5gwkJLpnjTE5fz5r0krxpubql9oJqLQDGVg8Wslqw-bkkbfhwrmbP_W-RPpqawpe-k_kz0L_ztC03_ouzH_WNDlXfoO7iDYGxcFvxdjJsG2AGkODzW
+x0u488eBEBm_ULy88EnzdLMHQNEj3y0wCqRaShqykPglasxr6oXgp3DCTBrz8iYoyxdxOUCp8VBjXI9IJtZJ1Q6p-2AfsmrvwVUC7TOawso03gsBpFX0xo-_
+OCCwJ0WyYFCVYoaY4JRoxMhSBW-RC2BFVqE29_8fKmoFGEe9ITcGJCsc29r8B2P4yrbb_VW9I9vfErAl8M0WM_OWhYuJmafe4dn1e8K8lmQ7ZG5EV
+}
+
+EntityColoring(metamask_icon)
+!define metamask_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, metamask_icon, metamask_icon)
+!define metamask_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, metamask_icon, metamask_icon)
+!define metamask_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, metamask_icon, metamask_icon)
+!define metamask_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, metamask_icon, metamask_icon)

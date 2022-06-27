@@ -1,0 +1,13 @@
+sprite $numpy [60x64/16z] {
+dTO74iCW34HH2o73_I-S_iVUKL3AJatWiUxsLiHwjAr89VTRAbtBIjUoqhNyJ_kU4lPtiN-3xAIpjBhEKtS_hHUjtb3LI8PLgrJjAj4BYPQOhyuOKhKjpfbg
+Zpqdh5mw-ckmnN9Tz78SdKUQQCAuYLRf8MSiZSzGpGY_HSku-Pnd7QuoQJyV_3dHHALgFU7paT4hYLQ9dHEyFDzDfDXHzY9rvKby4vqaOGHBiMgLN0jTBSL9
+g-oHR2gsGuTUbDaIviLmXCZAxg-9VKwqo8Mb68j6LfPYB1fPMDAmpvXCJTR5ndUM2tnAx0kBn9BumYAnKbnRdW_Pze-s7QyAJWyF0IkjNY_OHd5XG-HXDuhN
+rizIx56SRPPgjw3udPLdQxR6Cq0jalHtbk8zr8R3R6rjlBRwRFsGFMnXNyK4Mpnpn5go8akxzMoH7wqDjIApxGERYmsviC_vs6s8PIhHF_fzwJXi_zhomMU1
+fRYooFGUySyMcJC-McIEVx1DfMQKjavRsgXXyNncF-luU6DTv3eMOfEiqtPi8OiDnova5Ok7xMjv1G
+}
+
+EntityColoring(numpy)
+!define numpy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, numpy, numpy)
+!define numpy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, numpy, numpy)
+!define numpyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, numpy, numpy)
+!define numpyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, numpy, numpy)

@@ -1,0 +1,16 @@
+sprite $lua [64x64/16z] {
+fPQ9akmW24KHS5Vy_xzzPQoGCMawNVNERBsTY5Sq0nOEW3q387k2EvnIyWvicHdd9GwS0zWkmat66D83V0JTKZSS7XUQH1aBoV34UR8AmwC8B-D4uiU9so00
+z74X21kCy4OOVqc6RfCslu6DG_OXUDxpo9Q_ZqsnTf55RudTcyyCYWjDneRqX9_cdrMXouvzV40o7cNAk1261zo6GG_t00jeYvua6IPIvkVADVjJqxtWwlXA
+encXwDKMJATkrIwzrYFJpW10gRQM6NPiNUgnVZXtZX2OL4FNBgKsHaVOGNosfjNasCUe-cGFZqKDkyU3Z16tr95UijitURyYm2t1QEYtmBAspRvbN3VyxZO_
+tjeMdJ6yvMzzUwNNnk_rwxdbv_S1QVYl-Ks27bXMUlRwJQgsZj5wTl_ieJWZVRj_zr3ORTCliNpPFzVP86S0lFMkU62nz-ypL4zmuDLVZrx9o-FzhlAxNq2n
+_5Rx4NLjwxIACLMv-spMBxIQ8XvhNd5zlE_rEw_vFNp-umi2vn8TXBqd_BP-jb_NVIFhGWTO_hPxRR_5ScIm_6i7wzvgt_tPGpbwfpx2ti3fPVvndNMdts2n
+1sZx2S3dsbVzLto4u9q6yFJNdp3BFNh_z8Nq1CPp0kelvkEmxf5XRjUwtbv-NOvZK53M1p0iogmnju8mnsVWrgi7m2x7nvxavLyTtN45TAp_gdAcs5Pw2j6V
+0afCYrZ7w94fz3OVZkg9GfFYW-WexXnW4MNSaQ68oFepKznEJtB66MZGtJCzFHpV4JR_vINvGG_mm2CiM7xN6HID4AZ_hDDZ0XFy6c9dDGWCafY35mGBekjX
+aOzsyrUzxfaXWSBFAqZreA1_-h3LXh6Ag2ijRTDb1-yu2Z6NabDWX5UqB9ltmP7Vgtehni7_mHxjiGbitZjBIt-5FD-kQRWc281-IkGzW4Chbdy
+}
+
+EntityColoring(lua)
+!define lua(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lua, lua)
+!define lua(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lua, lua)
+!define luaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lua, lua)
+!define luaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lua, lua)

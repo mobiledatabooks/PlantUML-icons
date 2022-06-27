@@ -1,0 +1,12 @@
+sprite $microsoft_onedrive [64x41/16z] {
+dTG73WCn24HHt323xt_U5D8J7BCUAUhlexIbwL9XWQf2k2OwkimNEyQmbselnxHSiBvsQQ36EL_1ruRs53vk-YUW9SHXsYtK0BVZsu5ar-U1ik1Y7_OyW3Ir
+fNM1slua-kHm0-22q3jeltXC0k8SxwP3XQ7P-z0q7c2FnmhskNv_1NtnWRrZ02ATMtx_w3Goq_BSym-TiAQcOVerJkQRhcUdVzOj86iEmtwWOAcbN-O6c8WN
+sFGqK4dMf_kyq0bHxHSAejWFCCBQBs3wcGKBuTD-WLqT3nHuE5uWyNIyG0tEPnOEC2KufyE5GbHDRywU0DkQ2rt7kxwHBMq6sFJsM-14pnK-hAl1pGAtJD_B
+jN4Gr_H0Pm
+}
+
+EntityColoring(microsoft_onedrive)
+!define microsoft_onedrive(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microsoft_onedrive, microsoft_onedrive)
+!define microsoft_onedrive(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microsoft_onedrive, microsoft_onedrive)
+!define microsoft_onedriveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microsoft_onedrive, microsoft_onedrive)
+!define microsoft_onedriveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microsoft_onedrive, microsoft_onedrive)

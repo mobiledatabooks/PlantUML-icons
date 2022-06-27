@@ -1,0 +1,14 @@
+sprite $mesos [56x64/16z] {
+xPL9kkOW24L54t3_AwwW9EVlvQlHwvZYkP8BcF9ZuYzg4VcGhAyJigiqszvGgaKLajZCxE1Csoj9iuCps-L9ptfthdSZYMJlpdMBUj3h_UGUayqb9-T9wX7N
+WnjakvU4ythgr0iARiXM9E52THClFX9mWECe7CdtzqrptjntA6up2HUNoTv4wyll4s-d6-JzUV1pSszidhdpCxHqraJ__EoetRcfqOp-jLcUSzTHvuQUYqok
+NqSF3f79dKcVpoWQBaeRynbr1KUoY8GUNDJZ-n2ISE6JDphquB0UoS5n8Gs3uy8ohuFZ0uNHWaEo-kV1OQXSEmN7a2jsEaS3JLYTu5WgvsZVmPc6KN0ZEJWl
+18vnwMeCADpmeCdyC3Z6qpQ9XGwEgBNmrC35w64H7F74ONwp_-3sKcbraWlxmw0q5uxgQL26OwUxTdPpoPrpnPpDjLjnoeGgerltpzpEJW-ELLa4FOFpAnSK
+3ODZxj_7i1sE1TI5Bs4xN3n-wpxWZDA5HD_fXFAO9ZXUS-KFaE3uUmYzp77X1at9S3pHN9VXk93tCikv_RoNEOwvOlHI7DFFUvcO5zvJekgIQs_M2swH_kxn
+5_y
+}
+
+EntityColoring(mesos)
+!define mesos(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mesos, mesos)
+!define mesos(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mesos, mesos)
+!define mesosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mesos, mesos)
+!define mesosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mesos, mesos)

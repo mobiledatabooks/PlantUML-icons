@@ -1,0 +1,10 @@
+sprite $lucene [64x10/16z] {
+dSu7SiKm409GLYoWV_yBHxDoshIKvsuLG6sIBSbk_4Vl94xOmZzioKbiUk7lQkNO-zLj_CFByY6znvTDM3XQjizJHvqd9QjmtyHdUeOOZAONPxtQje1kHmIM
+cCo6fNvzhzijOOY6N03RDq8hTitEND5aA6vyeVMiPqkyhPdRzOalCUXmccshy8L9UJIjZctH5_N-53pltV68SPNp2uMLx_W6
+}
+
+EntityColoring(lucene)
+!define lucene(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lucene, lucene)
+!define lucene(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lucene, lucene)
+!define luceneParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lucene, lucene)
+!define luceneParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lucene, lucene)

@@ -1,0 +1,15 @@
+sprite $nestjs [64x64/16z] {
+fPK7bYih34I5GA5g__lz0VoOFk3sOzhtX8cN84go7A09asym84IYoKCAYAf057b60Xe0K1_k7zK1WCyMiAo93lF95R8byS9F7gosPjQQgdJ2y0UY_CMrm8Mm
+AbAllsfop_XF4eFnNPeQfywGMqe0nCBwc_oKK-8T92QyzIk80_9sT-BKB_vqzn40NMDG_5Jl2Mv0kyZLSQgFyWK8dU76eJtZKy6PWm29SxgLd44q_8hUVdwv
+IHB7S0mW0z4n4G5FPG9jP9oNKfw-6pDQxqvSQESBCBsP9x2rWfsVd-jJwMiuFyLaX750aZXdzdADxQH7p11N9A9f-GzjdZYdTLzRfFoWZlDc7hW-QcVcXrbu
+0F5f5Xz0kITmW7mWllHByYjV5FpA5yTtVW6_yiL_dvzIzWgGDtx8GisVKC_vojj-i5K7ILoEOg_XT-FhuYTdKnMHWBUnZM65V7DzlJIrYuBCiStc4qd0tle-
+mgVvvzwnlmFJI9JDdrLn9D4XgWHMlCxgx-LEzykRUV_zGbL0x_92_C0iUmu9KVXHO5D56bPSD8lir5rV9W5VWxkQl463ooVsqiTCi5Ukt4qzSYOaspg8Y0OI
+AdTKJxo8RY-tjxR4VaURcRLQBZr8l0Y97jjpIfANjoozUETe0jbiHi609kVKy5f6heai8dccxtEOFM_sK2UxMF9CtsUIz-SmbTzY811LEaKs3ihlAiyedcbL
+Fl0l
+}
+
+EntityColoring(nestjs)
+!define nestjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nestjs, nestjs)
+!define nestjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nestjs, nestjs)
+!define nestjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nestjs, nestjs)
+!define nestjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nestjs, nestjs)

@@ -1,0 +1,11 @@
+sprite $metamask [64x12/16z] {
+dSw73Xin30DGoZvHwox__xabd7HYDeItzG2v6zunRln_QihtMcjxJNpXUwR3tKE7_CBdAC4OXL1sMoHGtTHPAy0446bzQJzBJ0AN8vXoBTyV3t_5Cy2zbm7h
+TgtpQAaNNmJsKrhkbGlCQFEk39AHrVlu-xbR9cZGje1LUSdFC_8X0vi0mAS14uquapY-9l_sd4xvd2BGTM-f70DFAoHJFabVRs_N24f_V0L7griIDbuXXF7J
+Fvo_SnsVs2qufyUMxxFLXI2kn2hOJ1iOoFA8P2WPyf-OXWBWCt_ddpTR9Az-rQLzuOjiWpdTiFOt_0S
+}
+
+EntityColoring(metamask)
+!define metamask(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, metamask, metamask)
+!define metamask(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, metamask, metamask)
+!define metamaskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, metamask, metamask)
+!define metamaskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, metamask, metamask)

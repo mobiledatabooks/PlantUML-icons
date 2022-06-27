@@ -1,0 +1,14 @@
+sprite $multipass [64x64/16z] {
+dLTP0cCn2Ag9YlU_yAolGyVGJRvBG1BrzVO4jZmIg08oVDdj6zZ-GoM0zFKfUoTA0Bdj4pQL3y3VdR2eBO7zaXweTqXxBaxsnC96VGI4f3lgKuIYrnV86Pt8
+MUr4oEG_1_oHZ_eQMAH7DOZpe2BGxjFTix73lJzjl_EpLzOJHIWT6BCNn_ePzf9tq4uzGuNfe612FfXgJqh_DbKgR0YTDBqQQgoFpPXUrRzuKuTOLeF8FodV
+nMY_fMqutohEHxmWEil3_vPF_Hr1VS9To2yKx39moHiAMnZ8A1r9_9-_emegW9JoTJT0-T86eEKV3UHr5zg0bAS1oci3Mfu6AAyDQ7aQkEGv6l32Fovv6W2I
+5q43afyHbpmDH5poVDoHMKIslPfdA_hHNSOz7Qr57CUhD_JTovBWVKGblRQkfmhFp8Ks8fpvyySyiic4eKqTtbzVJxJF0lOjvOZI-kZwC3vj7aonT_NdFxz-
+JbXGwrd-JYVUwVSdOLb5x4SwZCy3wMj7tvfxHtklwHxW0tjC1wWEuFqdWDSGsQvd-WMoQuHeZ-5pCFnv1TZJpp-w9sAMFH6puecSqOcSqGc-zE5V6CVexmUn
+ylDxdrb0qBk4lKe1URNCw0I4O4li00vfryurR7c2tDZFo3y1
+}
+
+EntityColoring(multipass)
+!define multipass(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, multipass, multipass)
+!define multipass(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, multipass, multipass)
+!define multipassParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, multipass, multipass)
+!define multipassParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, multipass, multipass)

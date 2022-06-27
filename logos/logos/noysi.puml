@@ -1,0 +1,12 @@
+sprite $noysi [64x64/16z] {
+fPS7ZWGX30IT-V-BB_O55aHhJ2bkA8F6WK7-ePur29LXiiNXSYgKs9IORStnaDB_Uetd6D4fBg2dZy8ESZIfBzr7co2xfoXPdf5aUOhgkCBzpgyvUQaJbkkN
+yHBWzNdE-DehHGfY3U3odw3-ydVh-lX_wOKlYG0j7qyiRtn5W9wF077XYo6BFHzbO6qVbZ5_w350AVDpKjOoO3wsU2o3uCVAiGnYj0DyDNFIaIYdCiYZJ08u
+Er1icZShSVQNUREGn9TWMII-v3a9TlInGlKsKEkuM4dcYnwp6DH75ji-ijZtaSM-ZoosVMInxoEBVH_DslUHHURNpWUnpMBkV11hguGUHqYCYVhFxhiQ4sNZ
+YhXzVvIuqKj4Rtn3bfhaCf0wToZj-av6AY7evP7hm1u7A3zq5ITLf7-5JPCDwldyzlqE
+}
+
+EntityColoring(noysi)
+!define noysi(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, noysi, noysi)
+!define noysi(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, noysi, noysi)
+!define noysiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, noysi, noysi)
+!define noysiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, noysi, noysi)

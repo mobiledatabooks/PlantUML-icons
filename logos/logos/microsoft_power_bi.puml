@@ -1,0 +1,10 @@
+sprite $microsoft_power_bi [48x64/16z] {
+xTL50WGn24JH3bIDo_rFs-xkchz-kmHmckFlN-x7PYx_kfez1tfOR_sK__FhzYAQnR1dYpTvhWXIVJLxqOg7tfRrMCgZwgr7eUrzKCdVYzv89MtnKkD5Mxmq
+UePTpNCRRpqlvBatJmxtjx0-7WoA_MDV_jR3jzmNOwGXZH8Ml6Dg4isLzpzw
+}
+
+EntityColoring(microsoft_power_bi)
+!define microsoft_power_bi(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microsoft_power_bi, microsoft_power_bi)
+!define microsoft_power_bi(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microsoft_power_bi, microsoft_power_bi)
+!define microsoft_power_biParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microsoft_power_bi, microsoft_power_bi)
+!define microsoft_power_biParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microsoft_power_bi, microsoft_power_bi)

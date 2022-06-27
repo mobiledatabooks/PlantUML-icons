@@ -1,0 +1,10 @@
+sprite $nodebots [64x64/16z] {
+xTC5Ze0m58JXP9vKX_lVTbrmsdNf5qL-f88pmp0Cmp1eTBo35DBnTaOoVkFxuKpurVtqlbw2eflvFaKBIJmIqI3nMC0bvOaYkE9yK7EPTxa-dbLS2O-10c7-
+sLeQUtykWCn7vVbyUs_paSouOrrzVDfyVAbYLy-eblaicmRszQoSg-pgj_vD7zxPgvyHDF6yaHJjyiGDHpjnDvypDq6NK6UAeLVahAUZb-WSNWst
+}
+
+EntityColoring(nodebots)
+!define nodebots(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nodebots, nodebots)
+!define nodebots(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nodebots, nodebots)
+!define nodebotsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nodebots, nodebots)
+!define nodebotsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nodebots, nodebots)

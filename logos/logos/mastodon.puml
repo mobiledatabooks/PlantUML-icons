@@ -1,0 +1,10 @@
+sprite $mastodon [64x16/16z] {
+nT852aG1549HNwdxN_5qqFo-87r8WHp9jZY95RL_zN9URqhQPYpslAkn2yWL6h0TC16D-rPvqeDHWwer_jxT--vzfHUzmklfcNVizVwTOh6VFpsnxdyLMPM9
+LSaciBwGBGwLM5SqVMzYbRu1
+}
+
+EntityColoring(mastodon)
+!define mastodon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mastodon, mastodon)
+!define mastodon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mastodon, mastodon)
+!define mastodonParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mastodon, mastodon)
+!define mastodonParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mastodon, mastodon)

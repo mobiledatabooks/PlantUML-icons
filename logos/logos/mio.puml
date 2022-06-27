@@ -1,0 +1,12 @@
+sprite $mio [64x29/16z] {
+pT5LUiGm34NXQuZb2FQ_tKeP2Zo4IgSmih_vWy3GQ5t3YUvv8fPLOplXcKLNyJ_sgQRZFXDcjUfSLD9XNtLsW45zjwXfEU73l6RpER4oJdZJYgcivZu6RBtq
+E4Rdi3xE_VDoarZuMIcN_F8LpNay7Cq-Bhn9zedjwKLvqXHdvFhm0qXrHFQz2bfvuuJHdZwfQN2sAQN9AwiNWmhhmZERZMGcuyiB4CVJJkp_wyxp6xEOfuLc
+FZ_VOZVZFO-YpWVC_H3xNXndryUt2MlVWMbb-nxKiVI-p_3AeVDxAv_S-IApMR_YOw72wl_pZkUDLtXTBP82zyjcFlS-l7pjlSHXEZsN8jmImEjayeSRbyK1
+mbyi4JFtZJyHCRTomuEu8UD6HBXL6d2YBm
+}
+
+EntityColoring(mio)
+!define mio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mio, mio)
+!define mio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mio, mio)
+!define mioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mio, mio)
+!define mioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mio, mio)

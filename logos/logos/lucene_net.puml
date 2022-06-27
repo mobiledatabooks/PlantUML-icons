@@ -1,0 +1,14 @@
+sprite $lucene_net [64x37/16z] {
+dPK9hkim24K3dk0Ixt-xF_qs8evggNddZQKw7XZIusUuD5L0jMOwta950Pi0zUKAnMK7-OND2jV-ia36L5IQn5ByerunxvoMrQozqWjvWFmu7d4ebIRw7sab
+KUXeT0JyxG9K1FSa0v32GzTqB8Xzm2tA5Ou5W28s3-hJhu2saXEddAleMcmDVTsVexoLrqwLvIgLljLJ_QMMB_sQ1T4lQ2cMA3QGgUzwENtaFZbDQsAYLE6H
+iIkdUUPScxIQuoBDJ77s6-T5TsniEtud0Gmm0xGcruMEx2i4iRt3WcKqjD1HCHEVvDhqVD1F2RtO5Lc72-Bw1JSxdxHHz_pvvJ4pR2QSYYwslsTsxNu6Pjko
+SsuwujgI7xptGd1NcwYxcySKNTnUeNUhDdJbqJODpnMsIB_GuHjxbF4u0s_qPXyVtemHVW2_xq9IEsz-ypl9KDP3Q4kqsWspjpsflkh8_6Yf6sF0-KCgJMCq
+YX-0wU2vhVYKhYoFcDdNHhYzEy_2uoeDjWLp-xhkipwNikxr6CAAZUv7sEkzZ0-tUwhvKIRONbUVNs0ckHmFg6AhWswVxIAjfeVigw_s6VflP8NBONTzwdl8
+KnIsbUCDL74ETzYLZhTaiIbBZkW_
+}
+
+EntityColoring(lucene_net)
+!define lucene_net(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lucene_net, lucene_net)
+!define lucene_net(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lucene_net, lucene_net)
+!define lucene_netParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lucene_net, lucene_net)
+!define lucene_netParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lucene_net, lucene_net)

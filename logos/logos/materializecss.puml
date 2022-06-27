@@ -1,0 +1,12 @@
+sprite $materializecss [64x33/16z] {
+ZP07iiKm20Efll-DVmtPDvWKJT-HP0jfYbp_IjTY3ZEvbwrIX1zCFvdUvxEi6L6FHMCtqeNt_41ZTtA-6lLPwspK_jNZix05UpE_FZkmv_bHtfszd5zZRMVF
+y_7kdVPcFjx6RWUitVi-twOUNjtPy_dmJftwV3wylZDxFf-NsM9d_dY-iDERi3clXqGubPcN-MIknPoGgPYNcAgwvusyHXwRqaHEZ1UOT9wCqX2HmPltB61_
+CYzChMCbtw4V5-nvdpfXoQH_TQ_HsTZ-VGPmAZfXMgnTZm6SYlp4c4--CBqMdV7FdXTlK_TE7_vfvDlKEnQDrSUOIkSQ651EgGVOwPnOSXBau3KnBTREL3Am
+3omOcerz0m
+}
+
+EntityColoring(materializecss)
+!define materializecss(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, materializecss, materializecss)
+!define materializecss(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, materializecss, materializecss)
+!define materializecssParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, materializecss, materializecss)
+!define materializecssParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, materializecss, materializecss)

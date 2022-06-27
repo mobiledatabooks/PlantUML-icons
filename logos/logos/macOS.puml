@@ -1,0 +1,12 @@
+sprite $macOS [64x15/16z] {
+bPC5sk0W34G7fuNatV-s-mNM_N-rs1JN_zAMWysaGz_Wg-c_URbO_TvxFY2tsVe2YZHXjT8sT0KfVNk7aPD-D1liOmpOacCdwPXPRuOFrOslBAakXzs-ZlB9
+qeAYu5hELb1xWqqm2Iof0GuqQS8DfX1S6WmPpAm3OJQ7LSeAbR6pYc6gi7FgyEHlCtNC3h2VbYHOaXx8Ke6Xrl89k5u8S_gkCB_fNwaRWG_TFqyydTo8KOqv
+3K_6Lf1I-R7zC_Iv79Y_wBiJ7FtI9H7cj_5VqY3uKPzXjvAV7zhNXgp32oNLcgxpYxxtM_d-C7vrM0eQR7sTZlMhli5CQO2V-I-fdmdRi7kf3r0bWrboUM71
+--Fu3Hns12O7orBQNBn9givb9_TeVxY5thqhBx3QJw0Ry6O58sn_YuByElSqVW8
+}
+
+EntityColoring(macOS)
+!define macOS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, macOS, macOS)
+!define macOS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, macOS, macOS)
+!define macOSParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, macOS, macOS)
+!define macOSParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, macOS, macOS)

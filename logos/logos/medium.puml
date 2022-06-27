@@ -1,0 +1,11 @@
+sprite $medium [64x10/16z] {
+TT474kqe30NHIn88X7h_kvrwmVDpErKw9adzvFKggNdJgxhSNj_Xg-XRiJFhTVtPv5KsbIHBtv8E-OANBJrjPYVqHvrFgGcicP8yCQa7BhLU9DNkBDcGgjvF
+BRsfzgBWcnqWDaMQJaXhujfkjsdbs2oBw97LRhH8JzRc5fvs0FTGfTcWrMcuKPJHsPginYr9xOIIEWW5WwTpWNpxfOFFQlZ1x9pDr69LhYwr4QzFv-XWz_7h
+cV_B3t0P7baa7VxjxV5b0RvIBwzBV_cDIVtWceyll_YX_U6c2hGH7x-kNhx3FdEGVNzyOFRuqC6abN2798lvEPlJL4toF6N2aJPtvsvvgu7dRP6ZPHHF_my
+}
+
+EntityColoring(medium)
+!define medium(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, medium, medium)
+!define medium(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, medium, medium)
+!define mediumParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, medium, medium)
+!define mediumParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, medium, medium)

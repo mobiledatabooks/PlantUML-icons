@@ -1,0 +1,12 @@
+sprite $moon [54x64/16z] {
+dPP7aaKX30CVmM3f_lUTF3-2KRdtNOw4QqDfDXqWwgLIpG7-WAOffJjuOsgIWG-WA4w_ENf-PTuaFR_suaWDDF25SPO6Nq5DI9mP2Vqa6HTMqRkd9rZ01QS4
+9nUW9l8ZhXZd2jVxfoy6kCH2gNDDLwlIhOgDrHAz89euONrt2tQM1LRRMaCiIr_vmHsUc1Q9ahAQjeJw8dAFfopKJ8OSAGjI3_LLdCpqmnXXmlRg-r70Y2cq
+Gs-8CGHrTzk4U15IL4lhp6W5Hwri-X7ZLGYc3Q3p24O9swY7gw20zo37oBEokKnZu5OVp4aLm2tG0cvMqJMEJ6qMV4Rb-x_vsRcjiXuEcnkX3WJERSeh3vi1
+bokWzFaY0ZxQTQGqcxW5cVPoB3y1
+}
+
+EntityColoring(moon)
+!define moon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, moon, moon)
+!define moon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, moon, moon)
+!define moonParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, moon, moon)
+!define moonParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, moon, moon)

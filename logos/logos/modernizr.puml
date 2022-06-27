@@ -1,0 +1,10 @@
+sprite $modernizr [64x31/16z] {
+rS_50GLH24DHU0P9__r-TndBQkx-8FQZpdjfDe2CNjqcclGy1sGlspnu2zbSyIJG9KyYg-H939SycLNpHDCyqITz--7d1xHnBt_u-HU27qrvecgUSCqpH8-c
+US8rpo5wkERPHPzczL6kzwY6Hrpl6SQ9vZrSz5NpxA8FqQVekNT_1
+}
+
+EntityColoring(modernizr)
+!define modernizr(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, modernizr, modernizr)
+!define modernizr(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, modernizr, modernizr)
+!define modernizrParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, modernizr, modernizr)
+!define modernizrParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, modernizr, modernizr)

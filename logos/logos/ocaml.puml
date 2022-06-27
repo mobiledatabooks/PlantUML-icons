@@ -1,0 +1,12 @@
+sprite $ocaml [64x18/16z] {
+nSz5OcKn34JH4ikk_U-tPOSv6VNzyF0Ou95l2y4VylnG_CNd9rx-hy_VUd57XlZyxBstNXquMQtsJxsIcWR4-Hre7ey-ULhFP_6LZpdU-Gx7TBsHPK7MmvcN
+0EgkW2Z43J2Nw_5K70VpwuiBG7AZsRWr9qUnvbXDRddZeNfNSVrYFgpFDkFHTpGtHlSQFCUGuz-KMLNNnuFtJST3eabAiH_MtSnxr1SjaNMyZg_tyyScho_e
+79-yPBeA37DozVN9_Mx_nctsqKiS89uXLpzw9TkIJ3XP5ik2I-AT5z8F21shhps2fxwBEALokhwVV66J1-XPX5azDHvQNOwJpPa1tgMHy7H8fY3cnBfhkZBV
+-5_dEJ9ob6U4k-VV_3y
+}
+
+EntityColoring(ocaml)
+!define ocaml(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ocaml, ocaml)
+!define ocaml(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ocaml, ocaml)
+!define ocamlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ocaml, ocaml)
+!define ocamlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ocaml, ocaml)

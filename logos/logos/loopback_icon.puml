@@ -1,0 +1,13 @@
+sprite $loopback_icon [56x64/16z] {
+bPO7TiCm34EZ3Tx_m5qIFFXAmsAt6p3uqFo4LO3osQxSxQTwsbEbPglQZhB2Za9zRN7OhSOhpDJD5J6bHLyQipYLn6JshWGcinVLyuP5XocoZp5LzXhJPwyn
+8p2D6LZKc7Zu7vtiUY7vFlic1eeUMJs5NsBsH8izlHzWvEjh6ti8uG2Mjt7tFD0VmOPDYtu-0a50qzJIZLkt-Nuk81nzVy6eEny3IqTefviSr24rXZkMpWN4
+dpEuV7PloyFIiV5_kjGEcjmvQwYpaIDTC-h-Ok88yCbGkeBBh1ahPwbBWuF6w56rpjgQ95mBgBzzyAJBS1DxjbYZXXBevYl6TMAFnAqy6WUkxnlOwJZvXG6n
+4OEDWdd6SVKd39_xBGD-fTEYU-wtABYbjB9le2RtEUiRBDOP-kgVEZtEJZ2BTAn2cYEJvL3e68GFr-l4lQEPQHshgKqNyTws8j4wZ_bqg5JRBBe9cieZ98Q8
+0LHe-fHhs3Y-rQJGDxHtc2ZYzhbz0sqYUt6xrcj4O0gB0fFPoweGsMjCdxt6ZC0qvbFstm
+}
+
+EntityColoring(loopback_icon)
+!define loopback_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, loopback_icon, loopback_icon)
+!define loopback_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, loopback_icon, loopback_icon)
+!define loopback_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, loopback_icon, loopback_icon)
+!define loopback_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, loopback_icon, loopback_icon)

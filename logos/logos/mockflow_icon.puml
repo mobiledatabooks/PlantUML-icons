@@ -1,0 +1,12 @@
+sprite $mockflow_icon [64x55/16z] {
+fTPNaiH020DGTHiGtF_0cpC5R8_r_rHYeXLprCimREIRjTyn5rZj1J4M24klUFN1rQstqXD0J0N6qkzFtnG8Io_uyk6xMbzwnQTl2eoL9txvyAjON_ZzwPk2
+RQKN_FNXajTNNf5yBf0FRbSAalyioEkfg1E_esdzvCi2uIC-xC_woLS5ndF_uyiWFF2vOFE63swxvOEyvVscvptlfxxdfFsDT9uf-SlVU9yyDnhl7BpszxFt
+lD1wxxqjjDxP-WleFJjl2uDdvmKOl3UU6wDdxHKOFKlF2xCdfF2sC7jVFtzqpxz_0W1B7_LCVnj7tbVwsploWgyiFVV4pyYPpqy_bvrvmPyiFV54ZlpFf_Nf
+XjwdzUc6qHDLPFPvVRwXzu8cIoTFz97Uv_NvXiuBncn1dMS
+}
+
+EntityColoring(mockflow_icon)
+!define mockflow_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mockflow_icon, mockflow_icon)
+!define mockflow_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mockflow_icon, mockflow_icon)
+!define mockflow_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mockflow_icon, mockflow_icon)
+!define mockflow_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mockflow_icon, mockflow_icon)

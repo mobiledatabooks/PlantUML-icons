@@ -1,0 +1,10 @@
+sprite $microsoft_windows [64x64/16z] {
+xTS53i9G383X-dR_2-FmjA71fNy4_P1vuUQGMCnkX6hBeVKsM0f26c3Cumcw-H01f50l_pyIW2v1Ns0fw958n0fqVBJqwTEdJyyXRvSxVGGWQgRpv1IyEL6f
+uYe4mElbzdERJvy-VVfoyNwR7uQ76_mmWzpWXt5DR_ObB3_7wxQnitJ3z7g3TsRPrVFnNxC5
+}
+
+EntityColoring(microsoft_windows)
+!define microsoft_windows(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microsoft_windows, microsoft_windows)
+!define microsoft_windows(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microsoft_windows, microsoft_windows)
+!define microsoft_windowsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microsoft_windows, microsoft_windows)
+!define microsoft_windowsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microsoft_windows, microsoft_windows)

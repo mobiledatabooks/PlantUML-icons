@@ -1,0 +1,12 @@
+sprite $mockflow [64x10/16z] {
+RSy50kKW30JGYG219jFxttRpfUk3owiCl38ZOWcWtQ2AtoBBqT6Es3BybJq0s6hVofa2AJf-nRZHIPBNvFp7xm6Pmwmv9ZamklkVttjEZd_z7kFvhCNxuDnS
+W2XUKNbxaII0zfyJ4NmYxMEjOIO0WaNl5ZrZEZoxPrYczIpdQB_9j2Z7IMXb-zM9WSvXl3Jtv1Ma5Vl9pA8ZMRNQ1qymdKT93yuF__x0rUGkupbKR7O1ZFUz
+q5w0mVaQB-hcHMObzfJnS2HbtrjunHsM74nJOrRPnq-Em-b5KTudRZf207zy5PmEfYR9m2BB6LRbMH-lHN82cwQysg9ZN-yzMWyE6TDU1zF55Ufc3a1SNYVw
+dWBMany
+}
+
+EntityColoring(mockflow)
+!define mockflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mockflow, mockflow)
+!define mockflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mockflow, mockflow)
+!define mockflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mockflow, mockflow)
+!define mockflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mockflow, mockflow)

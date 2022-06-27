@@ -1,0 +1,13 @@
+sprite $mdn [64x57/16z] {
+vTD7UkGW48RXoe7xttTYJO0k8LhUsT_sVru13Z354OAmTBgZnXYPeVHaPy_ne_oPotOFv-xJuw-lGyxs-lIqro6xFMj7YPgMlGv1tUwMOogdmlrc7qkvz5Nt
+-957FFJXIWY0NB-UFFRhtoUocH2ndVcVEWIQjE6T3oTeizhdSYaKBkAV-iQFPBYAEXup3uBBqCVO--48cr1pxFmmX7ralIyEzo7RbLT0KJpuXBO-rDC9Ja9j
+xz--lqyRdmh7SUC5aEdGqwjNr11uxYsI0Gyz-elF85I6mnelaWeVy95-pBdn6GZ2PzwYySBkPvoyyvxnzE-tOXRe8o8ihExH-z10RBNzN4s8a4illZBbzhfP
+HSnwzUr_i4rttFlcU9wvpotUyUPuNuebmuMZJtU-yxv-WE8zxqxBy-DDxuhmBttVkmikpp_tbN8zmnxuodxa4Nl_cNPNGh6dkt7znOdjT_rl7rKQmTzGFAk_
+k-vsPrWYYzCz5A6BVRVN9UhJVQIt-tS
+}
+
+EntityColoring(mdn)
+!define mdn(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mdn, mdn)
+!define mdn(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mdn, mdn)
+!define mdnParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mdn, mdn)
+!define mdnParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mdn, mdn)

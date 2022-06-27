@@ -1,0 +1,12 @@
+sprite $lookback [64x30/16z] {
+bLHd0lKW22jQ1TBxd_VjYd5y8t_UI6J3qP2h-GNNKuuTiZekUCqpTJgkBu2wj20b95vOaltgWR9m09BusN7bve8UGamsIb0RMOaZcXqmbCaHbbhcnWmRoBZM
+m2-7v0F1PGeMS0VnKRYG0F5BUjhUdK-AJgsS7JGVXsH3bu5pmGOBHZ_os4j8oxukMwtWRCQIbtetd4RDcb6i9-8MsFtb32v6eaPw9iJVOSEZajEuUdE4UWmO
+Uefvr_1vhtZZd6Zxs_lalw14akVjUspYpuW_zSAvY__EFmJH8AJVyxa0gRNzhY_rJt_6LRLgh5D0MrVR9F0rOOmXTbFd8otzEN3hfp-D3f2EmhJGDJ0vQ9_g
+MvB2WV7-kj6PWaxd1MQE-9LuMnWed2mZTgxkpaySpxN2g1aCcF0wpN0XUjsiVKl3mLG3Q73p2UUDvAPpd_z78gVYpNWbYYJ5FX8h4TuJ
+}
+
+EntityColoring(lookback)
+!define lookback(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lookback, lookback)
+!define lookback(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lookback, lookback)
+!define lookbackParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lookback, lookback)
+!define lookbackParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lookback, lookback)

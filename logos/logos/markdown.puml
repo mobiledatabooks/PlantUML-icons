@@ -1,0 +1,11 @@
+sprite $markdown [64x40/16z] {
+tTG5RiKm48JXCRFd_hUjDeLz34xv2w_q2q90x5mqCe327Pg9tALsSaGV5lZGk0bOP2U5noBpd_fKHOAALHGTkAA3ixvp4_7ESpEr3nJJtEhfZXxEKUyVwOU1
+NY_qR125gpqpWCZrdW6EU_ePnbglVgelNSEyq2Sx-SO7xMqMZPikokK-GoezaruK7flkMezCKQ6zg3pYSRL7UtkBZtgPge0RlHcS3gUzwPedtEhXPi1P3plq
+1R_Tm-923pUvgRZLgt3v-NSiz3ePPhr7vBIutDSX4fGVekDGzh_g___t-q4sQ-m2OpD9sJYNIDdHkCDqC8NBkiCB
+}
+
+EntityColoring(markdown)
+!define markdown(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, markdown, markdown)
+!define markdown(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, markdown, markdown)
+!define markdownParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, markdown, markdown)
+!define markdownParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, markdown, markdown)

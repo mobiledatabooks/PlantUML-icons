@@ -1,0 +1,11 @@
+sprite $naiveui [53x64/16z] {
+dTPNOiCm38DXQ13K_I_SYKwfeT3_AUkBjqrOJNB2B9XfglPgJDNuPYpLNutKlSclSDUG4JBCZbh3dpNc2NK-EcpzWBHuXe5aNbMxH39laVqAoIZck4CoGcjS
+89alj6QDzFuRMb6Yo0qjLeW7jBAPICf3gdj83HD9UKXD3wamaPI753sas2oaidb8gdj8zGfn7HhZCHezrrxcOuHMgnr9cGYWZQHyXFWFmhIHb8ymFAIwYQJI
+GggbYQGyfEWX5GV42Y4sn5aYp5-80pN2-87OKI2fv7TpXpIsoHHe6n39XckaKLGJpOxgGNb77KKxueI5P6p40HknuxP1owX9tqYn0QuAppm3
+}
+
+EntityColoring(naiveui)
+!define naiveui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, naiveui, naiveui)
+!define naiveui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, naiveui, naiveui)
+!define naiveuiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, naiveui, naiveui)
+!define naiveuiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, naiveui, naiveui)

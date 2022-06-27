@@ -1,0 +1,13 @@
+sprite $logentries [64x64/16z] {
+nTO7hkH020JG8bJD_K_yOqlUHcujtsnuYYC4xim0YoUf5Z8THL0_mW0kHlqO_Hgw7eahVLB0z9ZZ0_KO0OG60g0cu1hnL4LIRSdRK-5KmPG82-t8kXvBgWPI
+yRlTSbpsB-63uKCZVSdRWGKzT2-niP9l4QiATSkmevOm1q9whI66xX15_5hOzFea0rpj_2kGhozAcDhvInZ0rpS2RERd5TloOMojtxOpiUOVvqCGsFWUe3xJ
+2NGNaELSvNSbpsJd0FbMsAwopGFC_PQnyrYpVBw4F1qmjGPmLvgYkTGPGAXYfghp6HXqX75BcZI57EGFlZ-V_tpzp_lVxqn-lYRv5RDehFvDWRJEVoKx_AUY
+xu43FxsVsDXnz8L5CiDHvMdqJQOxH1iFm-_A_vpFsVpjjFsLHOGRgkWrK6CvkukfTO3or1cfapoTSleXeF9h3TLIHThjoyJKZk4Hr0rcHAgWQoIW4KDe805e
+mDQAZhfD3fiTSfOEnEF1BvPgErogeDeOXkKT
+}
+
+EntityColoring(logentries)
+!define logentries(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logentries, logentries)
+!define logentries(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logentries, logentries)
+!define logentriesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logentries, logentries)
+!define logentriesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logentries, logentries)

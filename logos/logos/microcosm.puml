@@ -1,0 +1,14 @@
+sprite $microcosm [64x64/16z] {
+fTTdekCW30JWfKYWuVxdVTKU5wBdY9tV-Q922lwtb5n5LIKluLH4jzI5qgAdbByBbL9BoMdMZ4krWx5MVzuZtRJdImF69K2lgL19_LgTEBuQyINMlm7txlXY
+mmswgjQqhK9V-DGm_effOfiymBcu7vIzadudNIV7U0paL5ukNCWVte3Jvm1deFlo9TeyEoXJ-J9pFp9zUv85EDfqzcq4ql-lUsFtJApxnTsJJzx2mnlImlJa
+VGo9Bv-xQnYZ7nwHuJS-a8Fja-llkZY017dVDh7x7jtTRuod5-9jcvOBI8Yj_lvJbX7ZzDLRly_rFAi4l3No5S-JytoSqsSiSVg4ztZp_ehiFNulmozGN-A3
+lo0IvRVlJy4A7_h6pv_v78M-BV1Xpx-VfWxVscSipf4FNfl_Sw7EwRQ3PzMv0KpSBIylUaGZVopFrytS76vfmxpAsAjpypZghRocWcbp7Ce_EvO_NR_moFk9
+9zv5zBOvdtFuwprIEJeNwdBcV1NIetTxWy-tS6bFeqD9vrjuLOx-S72C7ErdsRchMzeOmrjyshK8F9t9xZwV7mcJ62PiIZrvXYUHfGF0BmMw-w0e5rtFy-LI
+vJjyW7oLJBluF5mMDPFP-Ke-0G
+}
+
+EntityColoring(microcosm)
+!define microcosm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microcosm, microcosm)
+!define microcosm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microcosm, microcosm)
+!define microcosmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microcosm, microcosm)
+!define microcosmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microcosm, microcosm)

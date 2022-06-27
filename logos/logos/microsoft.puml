@@ -1,0 +1,11 @@
+sprite $microsoft [64x14/16z] {
+hSu7ibWn24DHWG0f-zzm1ZlbztvVBsUCJrsz5JxTp_i8_Bbal2Lp-YMVzhBsXEeD7XucN_HxiGU9DqedDDVhaPS1MeCXA4zCYocBIBaHOrNebxNoHBAgoEFf
+X7e6PdgomYvwSfnI4XBRLMvQFBoOj-D34uxZsm32XTeRrvXdS6ZYpgzJFrm_w16qVdGyqTV7UEXOdmzziRO_7ZQlBoTYFUyHADE5TBtbsxWUOslzthWXUL2s
+1wdSksSUSO-8SvSC9CvD0h6dU_xpzPd_PD_rlm4
+}
+
+EntityColoring(microsoft)
+!define microsoft(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microsoft, microsoft)
+!define microsoft(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microsoft, microsoft)
+!define microsoftParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microsoft, microsoft)
+!define microsoftParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microsoft, microsoft)

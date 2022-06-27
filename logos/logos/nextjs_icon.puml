@@ -1,0 +1,13 @@
+sprite $nextjs_icon [64x64/16z] {
+dTU7alCW30JW5PYEqFi_xL_FmoH6WDbfTqa-nkigGubniN0J4MbSaxTu4nkhV8NJjOd9Lnc6ezdGeOcUj5h1iKpJuaoR8ilKI-MkoKw2meDi9jE89zbE9OKV
+BT3v-G91NgPyS2Ul4z5ZchoFwxx8GHhTtCjHqWydbhFOnxu_EGRKv3HsltqEiJu__EkV7nVdmc1dN_A80UnuiyANnz078CeZrtEpUEmhK1LlsuONOqJn23lU
+EzMZRlWKTMytF9UnftuCfbvOyPLwWvblYc-vDvXvqRmu057EVUiDZhpq1cTUV6zmv9kv6-YU9rxAtK3tLVUzmSIdgUyDtDYpr_tTu9zhDFJPphs4kq4Q-W1M
+VM_0_pwr0s-HHXzsB_Lkm6vG7xXqtniavL170Apx_Y_h3v2uyBt18nK0pCfBrEORDnvz8f6N7hK1QzD7-_g42RZq2IJAAXb0qaSebbNye875dMlfcmMSFWQl
+6zJUO3G0PbabVJPW-l1KTtQ1--ZpSe5cWApmhGKgG4tZ09MDNV2l0J_uvb5m_neKEdq1QWR44NeeBLyR2DFOClDii8pDcguEMp6X372qs8_ngNRBsMluDm
+}
+
+EntityColoring(nextjs_icon)
+!define nextjs_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nextjs_icon, nextjs_icon)
+!define nextjs_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nextjs_icon, nextjs_icon)
+!define nextjs_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nextjs_icon, nextjs_icon)
+!define nextjs_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nextjs_icon, nextjs_icon)

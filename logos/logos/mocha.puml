@@ -1,0 +1,15 @@
+sprite $mocha [56x64/16z] {
+xPRfUkCW34MrW7Hu_nUU3zpnKECGT_avjzjbEPO4JI9v9QqGAb-L9wqrojSe2zeGwSyfhT0QG2V37c85ZaWUXwlwl31SpCMEmVioDVvkj82qCxYzBwmHUZYw
+E-VUfNX6cI9tLs-XgPRkJf5-Fj1lKnnKrL7YBCAatD_9DD_ThFDfwvrCUGot2ifw9nPBOPFcCk5mPs7JYTzhkHEzdlqf8hcMUVvVU8m_TuM5ssLgsWWZhCQI
+8kxAJPacbG-l3ZVbHC3joURXKcumjowdBKA3broAbr9SaXkklkRG1D3lSQcqBRVAl1GtOzNCHLsa8gBbPc4VBzNCDD_4kwc-YAhJtjRNtJ6cZS6XRgQbA-U5
+Hd5w85NFRiBKAeJJy1XBpeLJ2KA4XaafgZH2hBX2wRDIEo4IN3bD5O6GW9G2QW0zFY1rEBChvwfQ15nf3JDIFfQhgAhK0QGadxaQ4Y57LWrra48RyQJMAXL2
+pCKlN26eGaln3WUu95auyyJwbSh2CJYgY4WPoOh8T2uXoSXYvYAx2_gmrZmMelQ9Z6CbZzMSkQzevg8yLlsDUBJdUiNzvu8FKxu04fAqnd2UFAHm6Mdcykct
+fQfQq9tHfavdftaNBeC_dhHFblH_BT_dJivPo6r7SJPlQxBx3aQ3UNKjR3pnS9lkRDEwRDhSxkuBgzksUhwJCOet7UXy9yErkUFr9zrrwGxADB7Nr52NCi8-
+wkZdHiziElkDbZkvAsml7yYci5so-xFVtSacnJy
+}
+
+EntityColoring(mocha)
+!define mocha(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mocha, mocha)
+!define mocha(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mocha, mocha)
+!define mochaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mocha, mocha)
+!define mochaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mocha, mocha)

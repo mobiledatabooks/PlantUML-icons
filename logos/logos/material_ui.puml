@@ -1,0 +1,13 @@
+sprite $material_ui [64x51/16z] {
+fTK7plGW38JXCSM6-n_uhqIVygAOBQEwvOaor6vw8-Rb_hb7jDTv6xFWSqHuVKtNc7CMV8w_yNBMvlDl2Zx7_tGxw3xdpL-Vuqex58UVyDamb9WpzIkz9CLp
+lz8CU1LDF88ITSpKnnOlA9xuKHLxkg7ua-_IyaYpDMUPTzEFHxooEFqrK9Te7hVSrMZqqjsRgZ_wRZhv8gd1htYHNlAolljHfLUzLFpkHvCoR_1INVugdle-
+DozhbuyYRHwBc_uQXbLyzrZSy2l5HvSIlnOt_KzCA0e_9Zs3el3pw57q7S-JzmlFNKnlFVCLEghWfU9FlZXtiRHxgJeyYsCnqykQbwmu5pEzP0REL-Uv3hyb
+1ehZIZhw-7c2Fotct4SC5CUS7dq4YcCndtsueVWzFVMyankqcnBFExbcAuBXdSpYd5F6SITlnKrvMjnoBivOXySkFgSuF8gVKnqUnO-njdm-P-TXm2v-9yMN
+R_emDG9pzdQ9f-A_0G
+}
+
+EntityColoring(material_ui)
+!define material_ui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, material_ui, material_ui)
+!define material_ui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, material_ui, material_ui)
+!define material_uiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, material_ui, material_ui)
+!define material_uiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, material_ui, material_ui)

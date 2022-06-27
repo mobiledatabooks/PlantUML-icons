@@ -1,0 +1,13 @@
+sprite $maven [64x17/16z] {
+fL854YjH28CdoEwJ-z_s4-Xqz7igo438fYNgDw04j1Efqzz1iVza-XJLto6N5h9-WK5_Xusbmv6ztunQ7vqpKe6hFGP_Iyw2Rw8H3SHKCbSoUVIa2FeSd_On
+39oZZaAmjKD2ZArxthHFRsIOdQG-iJxS9jcDqJ88kmKCUvH2yrxBfCKOfoz2uehhxiuOv3o7KtTrbjZ7s8p4meV3AuLqF7hRi7AQCR6wTyx5j8lvO2uV7NKB
+qYVE2vTzFErDLvcwMYDHr_oPJm3jNZP5s2swXAyJz2FxSg9SA_EcDe8ZIDvQFtk_96aJ0iukWfvq2tsmmkpyKx6OYDaagaShE8Opg2KLrBuVoz93ehV2L8jN
+rIE2hiNWQbIKDVRUI9Ec8t_7-7He-EFA9VQunOf1xY7Am3LcARQbVNA1S-i6cnju82wXmPbYALqK4O9D0jz51YJ7IU6fGi2exPBoQ7AgTWH1-1rQe_y1yw_t
+Vm
+}
+
+EntityColoring(maven)
+!define maven(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, maven, maven)
+!define maven(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, maven, maven)
+!define mavenParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, maven, maven)
+!define mavenParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, maven, maven)

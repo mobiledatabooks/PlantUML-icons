@@ -1,0 +1,12 @@
+sprite $microsoft_azure [64x61/16z] {
+dPPdTWCX6CG-EjlW_hSDcvuWutdM_-59zZQRILS_Ivg9tXH2wuEI0Ec0hTySj8_AllMRbXFWdizZ_w3IFeZwhmUuMryFO7qzWFNr0DR_2iWJoQdw8u3sGTM_
+0_9CLFNlW2m4WFxh0NllpmAIggy7iFwWqZu8-be0wxyUa7eN0d8GzGSd2gZwUW3h3pOC4FNr0DOVj981n_gqpnYWwlVTOu2gtvDb353rdIKC4FKFCmwGzMqH
+eEZR22WJEKZwkmqyx4jIzGUqpqxK7oJQ1qt_OK3Mz1S1gZu7bAZeYm6iVsvV50mWVMR30DP74nH0VOO3M5yFO7qz0FMPMW17-ioE0Qol1opqjoO4-8VwpK8J
+0bRNVhY4WDMjwoyXO7Nh-bC8MDswxjS15mUidppk-1rG9uhFh0-tvaxxTB0-tDiNx6lfHAHFybQ9nlg_gQjzXNsrltn87kIVRJvWi__arjjHWMHl
+}
+
+EntityColoring(microsoft_azure)
+!define microsoft_azure(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, microsoft_azure, microsoft_azure)
+!define microsoft_azure(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, microsoft_azure, microsoft_azure)
+!define microsoft_azureParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, microsoft_azure, microsoft_azure)
+!define microsoft_azureParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, microsoft_azure, microsoft_azure)

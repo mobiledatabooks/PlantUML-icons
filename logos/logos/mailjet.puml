@@ -1,0 +1,11 @@
+sprite $mailjet [64x25/16z] {
+fP87ZkLG3CCeY_U_yfRyCVAcDwAaqeg5f9s4dvFwdr-C6M_QcV1DuYlQ2K32L-WhVv9Ccs_ki6gcQhwvmyPwCNoBcR3ksjzYgajvHJlKq2zK45wZYH9X2GVz
+q8OEewVKuM3rtAF3HLOPUzxn3N-sYKxLNQkNMuU6j3LJRLdgsl4cqLQzN0s2WIdnHNlTio7Qe1aBO_7oGQOy_79prrPdDtsAtUmeAHqo3NFuNHiqK0lHlPee
+OvbYstbU_mmiUdw4mcRNqc5hDxn1rc1ZgRBrcxX1lCLOo15RdzT_-Gbvswzp-5Jxo0u-vFvdm3PyIZYP7lzZ-3OTVaFBRyZhzBy
+}
+
+EntityColoring(mailjet)
+!define mailjet(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mailjet, mailjet)
+!define mailjet(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mailjet, mailjet)
+!define mailjetParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mailjet, mailjet)
+!define mailjetParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mailjet, mailjet)

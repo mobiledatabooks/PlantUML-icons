@@ -1,0 +1,12 @@
+sprite $nomad [55x64/16z] {
+xTLNRiGm40DGJTVzJnou860mo9ZERvRV-oHoczUlKTVrEc8HuV9I7UY8lO7gyHrZaHm8ekme33Un8PX8Z6gG6zMZN3zkeiPpJBXHyqGXaBU9njHJd3YFmbSg
+da6DqdQw5VCkDEQxygbVO-wszmnlXCpDR1yfXW6wsQvacHimW2Cx4B83FZ10oF12yyxShJ60-AL0PjOODdM5Roh9TXdyBbXM8GkYxWmhRRzvWbMi5eRbls1X
+Vs9PAKqnhChnwMKaspjDy2gUcIBYcPb0FvvXthCFawWziwpEh6e_iELLFvdS9qrCpaR0u9WSq16zpw-u-urCBuHhZejdfh8WuYUe_S00OTEPAG9esbb7FLwT
+zNuz4WMCkQfFJ19XKsGg8u2co00nJPFfrp-Cv14sJUZ7HsEuwWi
+}
+
+EntityColoring(nomad)
+!define nomad(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nomad, nomad)
+!define nomad(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nomad, nomad)
+!define nomadParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nomad, nomad)
+!define nomadParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nomad, nomad)

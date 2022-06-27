@@ -1,0 +1,11 @@
+sprite $meteor [64x16/16z] {
+fP17UkL020P_KYlGtF-w0oYyi1dRgerYrGUD7q5unlC0FsoGWFX9WhGQ_5qWUYr8pUSTwAG2h91JkBxFkTIJpm7uR0Gy3rPWdus1mLO19IQSV_X0H0YmHcHc
+nfiVqRx7wPDKG8oCKv28_cUalqFYz1KN5jw3xc6l0v01hK3vau0bF4hrsoUYsyVXZsDJ9hOE31fSFhgIOesm7NwnVld5XWg8fGqRB6MgwXvRX6I0rtD_Tr--
+_7hNJM4PHm3fDyxfOouuVK5p-b_xatBRDAJyBTECyWMNRvnyxyy9LO0j0vG17FjxIkNZzXjzzpsQ7eBP9Etx_2L2tTjVV02xD_r2VMj_yqRF5NhuX7rlQ_y7
+}
+
+EntityColoring(meteor)
+!define meteor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, meteor, meteor)
+!define meteor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, meteor, meteor)
+!define meteorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, meteor, meteor)
+!define meteorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, meteor, meteor)

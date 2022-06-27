@@ -1,0 +1,12 @@
+sprite $manuscript [52x64/16z] {
+xTO7RlKm30DWUiMMSl_p_kCDWQZZbDsJM5qVIic6yQfRmHEIXs--xzwJAjBc-otUD59jfrXHQksSAAZKOjNqMbnGgJKNb6jnGRqM5nHhzJuNd6iD_gO1cLKx
+gZKAKFP81e1YNF1XBQlu7oTpINCgcACM_UV4PcxlrBqdB0sDHHaPE3IHCbQxNvjOLWmY61hBjmJH0Adx_z7ZvqkJ4dYi4OEiJV6eCgMPbIFJUUHvANrbuexC
+oryRFa8-vBM9kyRx4qoSIvoJO6AiHkBSX28Xc8XetAP7nHunbf0lk-9Ne9-R1k2YUElbt5GWr4K8fiNvRzjDI2Ro8MQylk4tNZJPhUAIQburKsxtkbhyG35n
+pNGJMPbVuyymnPvgl07D_Gdc_bmstLn4H32H5vdcfwRZA6MiZLKiKktOMCD9qf592QUPZPJiUyIhHFYD7raayGbn55t4CxN8Nm
+}
+
+EntityColoring(manuscript)
+!define manuscript(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, manuscript, manuscript)
+!define manuscript(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, manuscript, manuscript)
+!define manuscriptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, manuscript, manuscript)
+!define manuscriptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, manuscript, manuscript)

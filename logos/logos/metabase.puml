@@ -1,0 +1,12 @@
+sprite $metabase [51x64/16z] {
+xLO9ZWCn28iXqF__U4UaY6dMlU_3ksqH2afi76RQ7W1eXt5z2O1BQkvVWi1TwMTD-mf05QSk5PNbf_i2hMm692E-m9hwPe5BDWCZgFO36M8ixRu9sDHo5cxN
+-boou419u8nTTBkBp5p0kBGrbwP4COPKh8VOSh83oTBxGLJbe7T4PJRCu9IXp7u9bw3efs4qAYB4hiWZQTmm8umTgqAsMJ3384FUyZACZSng5-MxhAgBW78k
+FdCPCiW1nIpkLIcsEx4Wmbto7CFqJewZdNW76aijESsSKmd4t-XHAD7BCAW9OzaCCc6CtdraLq-VC7Ae90tJwIvoQCA0Z2otQJmbRJ5tatcyzBnNiuvvM3ha
+JyZU5sgcftjBmp2fJT9AboGcmu0R1i0Krvt-RnZSuP543LCXDGny2TpPSLe-dJBdFcZ3oXf4fGpBC6_u-eJpAtxloRYPOdy
+}
+
+EntityColoring(metabase)
+!define metabase(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, metabase, metabase)
+!define metabase(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, metabase, metabase)
+!define metabaseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, metabase, metabase)
+!define metabaseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, metabase, metabase)

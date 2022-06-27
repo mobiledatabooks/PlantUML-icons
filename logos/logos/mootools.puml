@@ -1,0 +1,11 @@
+sprite $mootools [64x14/16z] {
+fOv9aiKW3CLa6-mNkFzz6pBkVok34a1LvYUi9V-W9pFv7Hqsfh7nh37ISXm9JUCeUsrL7zqWyhJDnO7t7lJvKdLg-6ClwQEytsQixJXtC-VCVJwrcum-NX-u
+56OhQnubtIvMLAHwPAjvm9Xv3jM0MEwNtII3KW0kFRQOmoWre6Rjlkz-i1clu-nTnQPUkqz1I0tqz7xtzjdFzExjwwtjY2u5npLwm--vTRlcm2KmgLsdRnUv
+-llpxeEO2zMOyrZtTkm--owpbvIt7LszIJQlqOEswhaOGPrkG4e5NLhssm5Zzrcb9DEnJCEp4psRmMk82C1R2pvxjS9IIkCdf0ROhly
+}
+
+EntityColoring(mootools)
+!define mootools(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mootools, mootools)
+!define mootools(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mootools, mootools)
+!define mootoolsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mootools, mootools)
+!define mootoolsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mootools, mootools)

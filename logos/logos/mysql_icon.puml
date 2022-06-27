@@ -1,0 +1,14 @@
+sprite $mysql_icon [64x63/16z] {
+fPO7iYGX34DjiYtT_xeRA3R-9Wpz9eTssPAWa6Y0bI2NH90aKIyh6BrKxnLKBW2YY6O3wJSjE59_JKwYrLBYPsrKcdIq3INGiien2fRnDZTp1qXwbcCoaEGF
+6Yj8MFXW0gZyZHQGA1zOQFyFLK4Ujn30CQy66KGZaOubSErlxA-kAyvdiD50w6aQ993ri07QU8E_d8jEjaC544Q8LFuGZWiO7qTL9-lf04y49yhX03DlaMu7
+62uWo9O4bsSAQRB7cQUjiHncS2f1E5r5znC4JBFYHnuaGASUs1iBn8WeEohRNDo363lYOfE5RlNpLMyism3KfJc-6nzPvhIjXRQKE6ujz7L8ZKX7rwlUDO1n
+VQjt3Gpx2tsQ8Tlhf_FzojSXRinz8oNjge7CrgkGYDC6YYuSTkt_QRJfCYRc9prd4WLTWJIR02JQf4AXYOBMtpoZgM5wqbDdYM0LzUbI64SzJvCD36GUEzcS
+Q9CM2aZN_gR9YeBdqqsiunXSDuibxj9SN6NJ0h8io4tM15yNI4McQ8WfLI0kPvoK3yK0W2HitU6JGceWIRYr4bK-Ha6YvY2tb96HQupqAFUeZILqYrQGdkIU
+t4MKboqqbNj21KtaNGzDNX6zoYkqLNb7_Gu
+}
+
+EntityColoring(mysql_icon)
+!define mysql_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mysql_icon, mysql_icon)
+!define mysql_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mysql_icon, mysql_icon)
+!define mysql_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mysql_icon, mysql_icon)
+!define mysql_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mysql_icon, mysql_icon)

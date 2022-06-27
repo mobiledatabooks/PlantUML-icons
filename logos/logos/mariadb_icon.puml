@@ -1,0 +1,13 @@
+sprite $mariadb_icon [64x43/16z] {
+fPM74kCm24GJsmii2_V_VtlDcRI9d9FlfPTdj9e1NSvptLXvqhH8LNNt2Ni99Sa8wemFqV27B8zvtzFWwW2LOCxhWDMFTiyCqpAfRp80GKUGr3QxyNBS2QsN
+ISYxRPdBhBxfeOkJyklgbPTfF1_PwpgjBsLtFts-VF8f_JgjcnxbVNxvQpdkH4w7L-11nd_f4EPqlEfMKzkt9GtFU4sit9AELyX_T14I3U_8lhkhCPNnA3qJ
+Vt4btV2Pg2ysHSEOv66NkkB8XXMESYSDXqGlOnroV44wdkvVYFPnzO5kp-bx6m-upxhdxTM0FF0Z1eblVXf2LYCVn4UikPTl2naqoB-DzexjU_bMEy1yZxsi
+6umttPcICXdXPW2iolRotGBWjRpqPv0HuRxRgRrTpO8fgQfxZwz2TBf1Ubp0Q7XWcQ-Riwpmt9VFFsMjkghq-5Ca7-E1miV1lQyUVxEkmFhQgdNpNLo6fvxt
+eEbk0InKdwTA401xT68eIQPATXsUsQ7EPJWVcHas_Bd8wiJb9EoM7uoxNm
+}
+
+EntityColoring(mariadb_icon)
+!define mariadb_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mariadb_icon, mariadb_icon)
+!define mariadb_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mariadb_icon, mariadb_icon)
+!define mariadb_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mariadb_icon, mariadb_icon)
+!define mariadb_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mariadb_icon, mariadb_icon)

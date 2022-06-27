@@ -1,0 +1,12 @@
+sprite $loom [64x19/16z] {
+fPC5aWKX34IHI6UWv_x7NSZNTUigd8T4obKTNlugyNRXtUfVU8CdBy2TR_RpiohG5xyQUPn9zX_1OcrVB725bwh-Inw0DWzizRwht_7L03XWdettL_VNtczc
+QBrVWBfcMqwqgwa0JHS6vDN_AxWK-mGP9EVQ1WudUJJikgggA92CmaHKsfqVJ8rQX2UvYXUSVDA1hV3aEoAjSEMRasXPbtbEgVqWzxNHPEwwhrgt7lVhqlt-
+mKWBS-ZL6fC6SctmM_tw_pVh9I-JQGxX14VE1e6JzSRRugkc_TtijVsJjtmMftEc6yOhFky7O7V_ool_npdNfZREev6u7Wg-vjK_Yx_MUJ9YdfGIvC31SvGt
+_9VnhqpPsXBP6wt4Q_wp_EkPVyqZlEM4u0ZThTbrEUlBql_olomg-J_GBm
+}
+
+EntityColoring(loom)
+!define loom(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, loom, loom)
+!define loom(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, loom, loom)
+!define loomParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, loom, loom)
+!define loomParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, loom, loom)

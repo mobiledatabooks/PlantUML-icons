@@ -1,0 +1,12 @@
+sprite $nodal [64x64/16z] {
+fPTBZi0m34BR9k3U_yBpjHJH3XbBPckz1ylaq9pZs0OuT-SBmBKvymxw-pa1WDFTvttV4NGJ1dv3NgRyXm-PeEN9S_vPdhnCaF8Ci-9HllZN_K9c2UQxF7cT
+aDCrp0ef5txTfLm4Kyg5pmbQheAiE5Uvy7aV03Q2AULFFWWVnaySd_bV47NU2pnV4KIN3yyN1U7uii3mTK4OlYumV5qGPLu5FcWAK0cxF7iykhmNe2b0Ku2c
+04q1cW8q1UW9-dnJWAO0JG6Q0ZG5Q0hG5A0fU5rO4rW-o1uVKHDulZI1dgzDeEMB4-ZuwWGQlZo1XYzFeE7hWhdb0nFx7DTk_ppoRZBMrqDuUU4FHy_p_G6W
+bEVTbsV6cvT_uB3bcLFvB5-vVBbMKChbxihNBofvfjnEaBjMCC9-aOSjNnEuois4lBkAb9lCv_qJ
+}
+
+EntityColoring(nodal)
+!define nodal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, nodal, nodal)
+!define nodal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, nodal, nodal)
+!define nodalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, nodal, nodal)
+!define nodalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, nodal, nodal)

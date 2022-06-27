@@ -1,0 +1,12 @@
+sprite $mobx [64x64/16z] {
+vTO7SWGX34JHHe1Qzp-nLvISFPIHdFqtXpSv0QAMYze1T4j73WWBd1nQucI1bpnhdZNFccVDi-PPywnvrZmtdl6oiplVi6gyu0AivjkUYAvystkJMstlcwSN
+tkFUZs3Vu5dph7aMlED3Jn6PjeeFXnv0isW2EFJM7-U37MWyz0eWPi1TF_N-AkPn3UhKnmp4v4EF_NHbPei9Zxs_wSvZyazzp01ZwP_xM0EkUiRRckyr64tv
+0I0cF-NzxLXFIIz0c_uvvqsnwbdFjhnclKtdmhIdUyrx6oBT2jvjnNjbRq-zRdoNMtlVv9RkpjzRlp__jmjlx_F6o2wyHiVNJxpegxpzTsz_rDS7q6j-ObQy
+0XXC3s02Tm
+}
+
+EntityColoring(mobx)
+!define mobx(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, mobx, mobx)
+!define mobx(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, mobx, mobx)
+!define mobxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, mobx, mobx)
+!define mobxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, mobx, mobx)
