@@ -1,0 +1,13 @@
+sprite $internetexplorer [64x63/16z] {
+fPTRWgKm24H35SNiVyNpT4pJ8LVKyzFFam2IN1otCBZYDn9jtEMlEn5kxUonu6sRIgAarW86kYGbbpO3miTqOo6L3H7UIdVYbhAAg6seS8iL5DRTUy9nubK1
+41V8PWAhxt4DJj-QUfq3b_efQkhMSrLwFm9v7Rnw2vYGT1wn8JfWKDM3WqMF8L-JrqYwqsoOmGjVWILwJphjOq-dyFzw79RwBC6F_d6SDKE_xEmKVwrdi0-0
+VtKlOzkdC3DK8FqPeqJb3NgqagN8IhX9WCoBOspO963VZgxjVDzUHYZYwYUGsrQsmoDJLxRFZFwT7-zyV-TRlFFrpaSyPhEzkfGNIsZSeGoh3mlVHXyLFliw
+ea2ljjzV8632_hUUsAe0rac4ntQT3Apu7ntV-FLqQYgIF3_CgpafWIf4dCdwvs4FAclCcQjYHOGDCr2R6SXdj-3HqVin7pRxxYcbq-BHX-FqzU0Izr7vGssz
+yFiBCFs_ditFSxzdy_jyPgZRl8RhaLB_zSEj6WY4hsqk3dZBdXKN0L9pBQE-oxWUIV9xiP7wYnDs-QOeXusx_08
+}
+
+EntityColoring(internetexplorer)
+!define internetexplorer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, internetexplorer, internetexplorer)
+!define internetexplorer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, internetexplorer, internetexplorer)
+!define internetexplorerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, internetexplorer, internetexplorer)
+!define internetexplorerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, internetexplorer, internetexplorer)

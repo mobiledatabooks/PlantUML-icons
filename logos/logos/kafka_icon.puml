@@ -1,0 +1,14 @@
+sprite $kafka_icon [40x64/16z] {
+nLNfmjmW20nUKHJV_t7x4JOJzZ2zs_b5t5c40MGpn3Rc72rkjw0s7sXqGmjZ0YEiUNqwzAN7VIg4sTpMLN1o_4fVLbLB5WxJ4R_PJUrySsqqEwgzV-RfPH9S
+3FK7_0dytSPNR-8ZGL3bDTyG0xa05QDMw8UQovo2ejEO3kDqK0L5_rJVk45AW4yYuoH01O-AfDiHIa82OZ6NHz3HDqrtugDrYFtDhxnkHKAQyiw3fkmpkk4r
+dzAPnwvvLEGnvlKt1Yzto9VTRsOdqNDCcvyuibf8-RBpMNuoPq0F1HMJFb1CdYy02v2ilMHcAuVsY3FBHIje5Xqt6pY5w6VaCv2egHhDrmkT7ojtVcZ5w3a8
+1uKz1jmvySSxRq9GDrL2lympjRz_Bx-STzUL7WL2kB4ezX5AQwr4TDf5tErh56Kr-n0EbyCvzfptgsuz9N7bHKGUyjODal0S-4dV1OHXvi3akVRJq8orqqR5
+ALS6d1KdZzdPAKVPteDC7-Qe_-1Srk_m-9w7UuMSlNo7uB3vYiUgUTHuyg8S6fLKh0p9mcboJXt1eKTRxrNssjDoh_hNXEbshoOMFU_vktkLOeh1Jyxa_xnN
+aSZVsAiUVg_skRXsiLTNY8ueSK5QxDK5CekME2y9tm
+}
+
+EntityColoring(kafka_icon)
+!define kafka_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kafka_icon, kafka_icon)
+!define kafka_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kafka_icon, kafka_icon)
+!define kafka_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kafka_icon, kafka_icon)
+!define kafka_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kafka_icon, kafka_icon)

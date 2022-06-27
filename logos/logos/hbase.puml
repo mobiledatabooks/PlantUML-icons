@@ -1,0 +1,14 @@
+sprite $hbase [64x51/16z] {
+fTK7Skim40DGKAnRSV_J_X9h8ZaJzpVL1OBQahWsekC3dHHy84Z7-oh9nFic_zdmDk4__SEyu6sB__Y7UROFyr5mKRP_2fut-2Ncc68HoNyomrOlU4RdBMcZ
+uA76Et8LF51vLuxtyWSjRrt_8IhkS3wK3JS9dz5mm-1jBdCkZNi7s98tvDnmKPLarjSktYxfgQQpzY2Zl7BnXYz5r89q9MalFBgzh8wrvkXxoy99xK19tj01
+R2j2rvnBBOzlToNOeBp10SpqZelIZV_bTXvw7xobebWqd3I_NgMIjE0DWYsi_7QhlN_FJ1flo593y9C8r_Hz73jfoHj6ZOcVLeWeK9qAO33zLdkgDVpKOzjK
+5m2X09t6NxZQV_9bu52p0rMz050srFWjByOJEp_j1Q3kToyT6FaeVfwu6TZgJ34rqou45h_5RFCohRnH3r7Da8asv_9C0d6rkasIkNvEm67IAh2hHlJh6YDp
+nbLymqdnYXE3SfVRPH694VUMt8ApSWoU0YZEaEGX-jDRpW9wNjtwr8v7vBZyAcHwceYggSnMy9ZpMv2iQ9AEv-NHB-G4qBpYUJmJ0Citl9aNeBaKl2BFk_Cc
+tl4QvqutB9zubUxb7TrcmSk4NrgHLV26SMaVsl0U9tsg5BofQBfrlEil
+}
+
+EntityColoring(hbase)
+!define hbase(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hbase, hbase)
+!define hbase(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hbase, hbase)
+!define hbaseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hbase, hbase)
+!define hbaseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hbase, hbase)

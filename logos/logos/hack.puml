@@ -1,0 +1,11 @@
+sprite $hack [43x64/16z] {
+ZTKvaiK024D1UHFtl_7ayvko5Rxg6FAxuuecsUUpdFkp5BKKjHIr5BKKjHIr9BKqjJIrVATd1_HTpfDTpeXQcbgQMffQljF1hi_qZYTvK9wGr_rPFjTdAMfP
+q4M2BX9qaQ2B13rB2Rf8q4M2BX9qaQ3NK88k4dIHe8i4jVo_ct9oN3yxAIUOvVHtPoBv-0eKCfGfP2XJo52caA5C8KEPGeOo_2A-W5McJ9KfKsNAL9aoLQPC
+bIbJPSfKcJ9LfaoLvuaePEveaDie_m
+}
+
+EntityColoring(hack)
+!define hack(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hack, hack)
+!define hack(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hack, hack)
+!define hackParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hack, hack)
+!define hackParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hack, hack)

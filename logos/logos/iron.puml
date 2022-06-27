@@ -1,0 +1,11 @@
+sprite $iron [64x22/16z] {
+lPG5aaGX30K3SSZzpxjaC-xUCzzULUC0HMEJ1Y-3vkv6BzfTlL1ymMxiUwG_gvFv4NnKThzNdlWf2dj6p3j-ALjyOUrPNv4B4b-S-ZgiwUWvIsCOPbvHVgHW
+cp4mrak-Hym818b_5BRH0ZqHGd55OhlYn_HEwUhIfABXCs-5iWkx-nL_PVdU0TgCsJ9IW3uZ3dovxY-nfxAG2CoeGPMS25Esd-MAlsw0sV05HL15vH-E7-br
+lqLuHXhH3_oJ-RlkWqL80uuOSEAxRh5inHK_HskkA_3GrvlhTvOV3HRTOp6mojtuv_kd7VZ4183hLY1psXNLDq2Ja_tx-lbX-FlpgsZouldv1m
+}
+
+EntityColoring(iron)
+!define iron(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, iron, iron)
+!define iron(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, iron, iron)
+!define ironParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, iron, iron)
+!define ironParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, iron, iron)

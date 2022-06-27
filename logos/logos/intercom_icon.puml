@@ -1,0 +1,12 @@
+sprite $intercom_icon [62x64/16z] {
+xTLdsfmW543X0rTHv9RzhpODqtocC9gUx_oLrmu0IBLuCMyplJLErH90YvDPxbS-MIF7XKgzeitYJytqTUEnjy4SFTT1NCZxK07wYx64-0WsO3xg1TX6T0Ec
+eowZMi_eajSnlUR9ZhW2RKGRK8wwlvRdkh-MFqg_wJVzfj-qtjAQo3wYGswjpTOyXdHiUc8t-6qxqJAgOuBjgFjB7Qffz0hTx2_rnRpCEZeqpW_qAPKnloIn
+EBG2kJstAi1yIyEpnxG2jxGB_S23wsktPBlnVkd9gZSlMuNUv76ZbjdBfQh7brot8kpb6dUgcI-bBFEd92U-b5QFktaL7YJTFaWNuMQvQ8najKZYcvBCrUA5
+tBJLzKDrK_FuATablLswj5pH2nSkRf3qB7O1KZlxq7ogw0cx9E0z
+}
+
+EntityColoring(intercom_icon)
+!define intercom_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, intercom_icon, intercom_icon)
+!define intercom_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, intercom_icon, intercom_icon)
+!define intercom_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, intercom_icon, intercom_icon)
+!define intercom_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, intercom_icon, intercom_icon)

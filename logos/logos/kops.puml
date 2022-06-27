@@ -1,0 +1,12 @@
+sprite $kops [64x29/16z] {
+xTD7efin20JW0Odk-vyteDTxyoR9Ow5_N3x65V_Y_0vh7yJqNMynH_ct_VgP1wxbUIq2jhao0DwYAeo9ehBeDUVxmNFsGL4p6xW9fS0-8LxZfVU-PHobsWTr
+2X6luaw-nEGvfeqemwtFg2JmgQOiGSpkSsPxUgbDaVVzjwzmJJFWPRVUEibvS3rOtXkijkcqtVgeakddszRZpoQmU5PDgQh2EizJ5Lgr7Zu_7PjTn3RtHpcp
+JjgBi8_tbflQNqe0xalIlMyHM3KpfN6VRaA0hS4ibCXKS9wxDxSNLu3T5vPdXc1yUlWacRkKpiBi5JQ2PF1PGNXjeXHFPge9QqX639JfhEBF-UrxBcHLbuTl
+X7JZ3MzuVKXR6-FzsRhmrkIb63yOhS3FlF_8dp_O3qQ-q_y7
+}
+
+EntityColoring(kops)
+!define kops(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kops, kops)
+!define kops(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kops, kops)
+!define kopsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kops, kops)
+!define kopsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kops, kops)

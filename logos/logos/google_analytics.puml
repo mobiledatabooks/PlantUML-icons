@@ -1,0 +1,11 @@
+sprite $google_analytics [58x64/16z] {
+xTS5Sa0n20JG00lS_yHroMQ-G3jIoOupUL-ZenS509FHZG3-5C3wD_JNDAcykpO5VABIULQV9UhIu4HR3qlvZNBBBRTKHBX9MshaIm9DQP7lyOhaExu77Jd3
+3ArB9PbUbqXArAKlKdwVt7BBBSMSfjQoD9fQ6n8qjJQavHGqf2nJQrqYAQZBM1hLPNvRSgClFwqT5ba2UR3uI1mK5Gmb3_xAyACYC4iTMAvEDwMYhYSTvpR7
+g_qxvTCAgCUlYoyLrnETFjjmvLFOIn4lHRPlfyX7
+}
+
+EntityColoring(google_analytics)
+!define google_analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_analytics, google_analytics)
+!define google_analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_analytics, google_analytics)
+!define google_analyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_analytics, google_analytics)
+!define google_analyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_analytics, google_analytics)

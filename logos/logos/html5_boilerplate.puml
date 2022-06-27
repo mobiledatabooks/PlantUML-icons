@@ -1,0 +1,12 @@
+sprite $html5_boilerplate [64x64/16z] {
+xPR9hiDG24Dt3CRX_p_tAOCUQeOAqMtEgfEfJRZeBi-ylEGlMWJuImK579ogCyHYhJ3LkqW0yCYXVH5iJEtB5W1W3ktl0H1J-oA-5PZPNz6jWuC0QR8Himxc
+PdyU824xEXo1m_vm19AoKICmj2_36RRIUwmiNu6U42bEt-XThP0kHaRmsZ2J5humLdWP66-eDJRvndNYjUMzvFqCvVs0zqEFdlUIzpCOp-fx2zRttiXGtgFa
+tTalWgNkBCup2BJa6thNF0TwwkHTVcAbV_JFH7-BcDpWzDeY3VlZ01cb2Jy5wEYjUaw6VWPWjfyU5aQGTWhGjA_7nF5_d9jwFzpMcZao85e1zFEqyFz86XjN
+WUJDISy5tG29lN47LLP5qBdBg9x-lBQpxIFutVxZcideFK6M-boRuG3OAi3RgpHRPuZFwtcjyEDzdlNcvUKF
+}
+
+EntityColoring(html5_boilerplate)
+!define html5_boilerplate(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, html5_boilerplate, html5_boilerplate)
+!define html5_boilerplate(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, html5_boilerplate, html5_boilerplate)
+!define html5_boilerplateParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, html5_boilerplate, html5_boilerplate)
+!define html5_boilerplateParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, html5_boilerplate, html5_boilerplate)

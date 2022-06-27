@@ -1,0 +1,10 @@
+sprite $ifttt [64x17/16z] {
+vP750SGm4CJMB7F_rHu4Z_6Nw6FK6BQVGMo_GBlBKP5yEVIgNx99tr_xvN8ONlWnd20e3OmIuCK1ROW2Z0H8ms82hdmhAyDAMuPro9z7ffynfzwLtrjhvGF_
+uhXBVw3krn_gv_xmZGpioJy2
+}
+
+EntityColoring(ifttt)
+!define ifttt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ifttt, ifttt)
+!define ifttt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ifttt, ifttt)
+!define iftttParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ifttt, ifttt)
+!define iftttParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ifttt, ifttt)

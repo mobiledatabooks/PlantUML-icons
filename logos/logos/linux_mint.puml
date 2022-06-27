@@ -1,0 +1,13 @@
+sprite $linux_mint [64x58/16z] {
+pTQ9iYCX28LXE0VC-x_nb574iKotTyzV6xDyDftTZCS1Acj60E1von64V205IUZiUOpp27pEHo3rKpvI4elNABjU0RFNqvO3qkEa-GWGntvkEa2tNcid9v2V
+yta0XaScjQDx0CF3MYHFFA2nG5oVj5w_Dn9NnGAaHChqVPlR1NJoeiEhzUA5daJc1OZP2rS_BQSv0l4chiFaTV6yU0lZEJ7kKNTUPH_6TJbgpCExkr5U5K0O
+Ap5O-dvv6gVtJ1jnv3jtPwXWUkTz-ESqtIm-uPq7FjZEstjuC-lUx0-ytViIllH9l8xfBRpfrfVXI_Vb0xvybo_3bzgtUBKQRtmPG_5QoR5v0A2V-3KtTp_o
+KhPvUd_fjKxsAI_byIXe9pqs5NT3pTmzV8ljibxYlUwzCjSvkBn-utTS_eCesBACdBwa__TeKxn2ChneyKePNyHwuj5zHEHhL3_XmUax5AyzZLiV2y2UGRUU
+PcxSUkqpxIBtE23z-bCMTXjtNeZOn6xRUGNw1DvvIlZrW1XvnI4xBqh8rEslwF0Pg79Q-7M5J_e8X7xEHo2X-YaV0Jp9_W4
+}
+
+EntityColoring(linux_mint)
+!define linux_mint(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, linux_mint, linux_mint)
+!define linux_mint(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, linux_mint, linux_mint)
+!define linux_mintParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, linux_mint, linux_mint)
+!define linux_mintParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, linux_mint, linux_mint)

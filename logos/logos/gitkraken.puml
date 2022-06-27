@@ -1,0 +1,16 @@
+sprite $gitkraken [64x56/16z] {
+bPO7SkL024G5asZkV-0jTIaW9DOszi-y9apSNZOmphSopAQSdrfuNveQt2u0xev-V5mEQp_W7GJEzm3W6BSqvd_nkNl8MGTn4Bg_MbBZ2mmUeYS1DNUJ4dSt
+VU6nX4qMK0bCtDfAF0ZqaECgMdVZOiIZW5u2tqtKv9FCRGlQ_St7Rpi-RCP8yf7zm-5bZdRFq4S5UYGbAVkg0kPAw6ZxeEIeiwS5ZyParVP-2yV3t2IeVzep
+GzdZT4PhMol25osaFoCVKfC5lSBN2TZUZGM8K8HFbtHj_PwhKAREJ3IaFslw6QKJ6tlv0sdgLNPFGlXaslCeN_x4im5yCiVEsFOR_kacUmCFdHKsm1f72xii
+P1j7JmmtlqdPmILRvFNa1SyLlQhc1-keUVbUVrhnp3_Qz39ypZ_thvw3FVDoyM7ywW8qfSZnSxvEGF9cLg-TE7_0-TkJkXY9AdwSltdzq0nTHnHOhHaJUAqV
+hj_KmCvO8-3CYMESr--rVmJrPQc9ZOZbyecEj7zTddhp_LPzxL-Qza_-EXwpcB_nozV-6Tx71B2cFGPlBiG0xFvnP13bXzZ1VFvIFeJNGsGxq7X-yJltW3lL
+d-SNHHZi_DWZpwY-avvMdx8X3LZnE5FwtFoIPWupEBgCy9kOentGrOxrk3-GFvOLrqRQe6SwWnVRCuD0pIy6Q_HzfaG1BVbuVpg0EA1G2g2L_75_MyGnqdPo
+2KofU7hj-6Blev7KuzhNltZPce5XYKlYpznrmM43Btxij3NM4ETo561HdRVk5yyvp7LKtO5PdVBM3sJ-e6MMTt1AExssDf7urOMvCSdAP9rnDj782nCcRLhH
+bmicVIwUiEuDJC4h1OVDhXUlsgQ1mhBzR7sTkmVvQmUnyHlwp9Mx1dbk9JRRzXUJDfQ1lAszcCB-0G
+}
+
+EntityColoring(gitkraken)
+!define gitkraken(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gitkraken, gitkraken)
+!define gitkraken(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gitkraken, gitkraken)
+!define gitkrakenParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gitkraken, gitkraken)
+!define gitkrakenParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gitkraken, gitkraken)

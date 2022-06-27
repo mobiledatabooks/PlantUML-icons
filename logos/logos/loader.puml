@@ -1,0 +1,12 @@
+sprite $loader [64x62/16z] {
+vPI7SW8m34CpxVp_3tUBEmJAS7VxRZ0JoK8cJIZTn_1UKeZSnnjM8iTzNF0QF0xys86DApoTKN0EzxHqHB_OpXOny3fzfkU7v-trUHlFb2yzR_u4plipEVqJ
+caiihSbZGjrgdiRtYgzfXtl7U5GUjA0ycFUmGYNV06TzlRR3PzOc1jhiPyx2W93NpIWh-GB55sx-actHNBl-VX7tB_trcs78m3GVl6uYNocVhr_dpO3BVNcx
+twzrFJfP9GDAlb4QMNvjVd4NKHkj4GrMIRxEObhB--OQDI5lzOAg2HSByanNDUMteC5akKPv27aom6iavA70535j4HCo9j8sCI3ZRC1PNYFQ9XefOGEqaiS6
+6iqYaMj4MIha6Y5yQqVq0GC-taD5534CKSJmZBf5GEWrxluL2xl7miJTnoRWVREe--W4NFWQTGyix1uJnDm_0W
+}
+
+EntityColoring(loader)
+!define loader(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, loader, loader)
+!define loader(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, loader, loader)
+!define loaderParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, loader, loader)
+!define loaderParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, loader, loader)

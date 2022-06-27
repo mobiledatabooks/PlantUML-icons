@@ -1,0 +1,12 @@
+sprite $hostgator [64x12/16z] {
+fP07ZYKn24J1H8Fh_jTT_7jpdfcIcgX7oKqZLwOFI2ny4gyd_2X-XVKNWwNgDjW-GfJG7qwt3vq0zfV3TkmdUrUJo-CppoBNyyuSkRXmTgDvdEGUYpNGwybC
+ClvXQd9vPPuW1-XrutQCugAKJhVBc72a9XftDuWYGzHv-9Vim0DLiDYwKRPX55NRihNW6zlcymC3KBmyGjMlVrST99Ae9vroKZZ5yDSlhFj0VDe-hwVX2Ab7
+fkYtzmVsvLcie8eWHJDn8T5Mb_Uxfa2YQAJfiYRNmrkX6fbj0HESakV_bQBzG7H66xrnzE79JNbIzl3HmWKawG7slNTq0h2P1gcMcpGEIbRdmozN-bxCDox-
+MhEiR_ERxlT5osaflLUV
+}
+
+EntityColoring(hostgator)
+!define hostgator(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hostgator, hostgator)
+!define hostgator(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hostgator, hostgator)
+!define hostgatorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hostgator, hostgator)
+!define hostgatorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hostgator, hostgator)

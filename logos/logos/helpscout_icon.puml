@@ -1,0 +1,11 @@
+sprite $helpscout_icon [53x64/16z] {
+dT55RW0m4CLG1-VV_y9bRYqryNRqWlpPwaXz8QrK4rEPPf9j9jND95rCijLacqcwcLGpasKcwMPIQZBD96gor4HDbfgeoL8JDPbgeYPTJQafDLcVnYOzFsjc
+qjvDsN8xFvkwJvgPxMROsQgfcVTcNfXMvuPrOTg5OLuOzeMXJaq7Jisk3gScAQZp_vdKsJuljNLkClkvoQQEJS8uDu5zR0AjJas0Tce2S6hgmcJprlY_oRWm
+TM4oBio-C7LZ6W2zr2mpk1bgXXhA3ALcgEbgs6POQfeQoWnT3MeOQb33LCCF8pljRuOoGxTzO9kXgM6OWJ93ApDCCx3ClAstcuqcVpNDm4W6VxVDm9f8JSmZ
+}
+
+EntityColoring(helpscout_icon)
+!define helpscout_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, helpscout_icon, helpscout_icon)
+!define helpscout_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, helpscout_icon, helpscout_icon)
+!define helpscout_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, helpscout_icon, helpscout_icon)
+!define helpscout_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, helpscout_icon, helpscout_icon)

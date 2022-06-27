@@ -1,0 +1,12 @@
+sprite $infer [64x64/16z] {
+nTT7jX0n34HHESXIQVyBPiJfNBOHyE_yTMu7-L2QcWCH0JTjHNPKDSILQvL5_OWll9UL6l49MeHh7XIw46N4b5VvqX0BqFcTpmrvex7CNl8H6xpGi-zVGOzD
+Wp_vEPL3GUohqsStB0W_hlxp2h5q1nwlkeW7WNeyUzxpbmZMpo-W1-kfGUv-fKSHgQ0zrqKq4hs9MAP7ASZqqLga-g6vtYtNmtDzu8Vxe7tN4z_khmfoVTs_
+_s4dY1VPzsUv7fhhFVl_9F_VBfxfKKGplOlKJA_vyLlqptkZlyMyRspfC--T_fVplh6rrxmtuGi8AmtyuVzM4M-mFBpqs6PizJhdScL1a9kdpv2lVAwA9VAz
+P-15CZk88L-gBsr_24LmLeIg0tIu5eOV0NRKL7dP0SEroBhIr76qet_5lm
+}
+
+EntityColoring(infer)
+!define infer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, infer, infer)
+!define infer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, infer, infer)
+!define inferParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, infer, infer)
+!define inferParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, infer, infer)

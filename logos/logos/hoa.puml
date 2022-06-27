@@ -1,0 +1,11 @@
+sprite $hoa [64x23/16z] {
+rT45Ri0m38LXmtF1llzzbogk9MVCsoSg_GqT4M6K-8nmeG6sm7plYpE6WvB4ODKtJ4GQJzeVz_QU_lXaxuRfw3rIx_sOpdXQzKf9MWzA-okzFDqhfUtvdl5a
+ZyUznyAHuwDwnhYxUl48hySM0-jg9WELkbD0gIWWzD_nQZvL5Ifot_6AO4rkD7j4W59jEyDU9rd4HgcEdUsDFRTUFzRlRnvV4beVU_BMGn8iAINkVMazKzA_
+q6CM2VVxCnPr_g2RNFa3
+}
+
+EntityColoring(hoa)
+!define hoa(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hoa, hoa)
+!define hoa(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hoa, hoa)
+!define hoaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hoa, hoa)
+!define hoaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hoa, hoa)

@@ -1,0 +1,12 @@
+sprite $ibm [64x26/16z] {
+hTK5bWGX30JG8ZYqtF-sI_Ac7bct-ICHslLs6exRksR2KdOZmEGzpUbKZFELwomwzMuacBOx-AVc99JsJaHqLS3Y6xVJkV_UWUggWcMwHdO4AR-J8AwAMFnK
+M882xIgub5xdflXJWtYhYELqgTk1kS-toSSoERySAc8PUq1Jqn0cyuAdI6FfhAGFhmUePhd-fJeemzHt--yqcCjEfKreV_RVOK9Ke4Y-BPfB9B4qm0JH1cXF
+vTgYqmIE2MjJVhhzJNZJuNHZQIWyo31ppc42LDSqQr25zLEarzVFr58-kduAWWqsrjn_zOFhjm5s2kkkZIZGhiARD3mYTaHUabfH47V5B46O2e0LeWPEz9ld
+HuVjGBNpoPwJK9ZwPjmfaBezmofx-AVtps-Fps-EBprZcUozUtzu_lt1yvM5vzEy
+}
+
+EntityColoring(ibm)
+!define ibm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ibm, ibm)
+!define ibm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ibm, ibm)
+!define ibmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ibm, ibm)
+!define ibmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ibm, ibm)

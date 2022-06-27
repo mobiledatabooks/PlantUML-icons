@@ -1,0 +1,14 @@
+sprite $homebrew [41x64/16z] {
+xTH7Wkiu34NHHn008u3zxxObbUdmfR8zx7Gc3hhA9B6CHlX6yl2ABv1hzKduABacDjlBrl2ETQ9iS-l2EzwedeaaHAACo6_FtOYec_SQZ7Sqb4Z3nGlUQowK
+erV7UyGMIjPcsxypuPhES8zergpAyNqmpcXwLsRj7jt2n_vzH3rtPaA7BABAT2ZHy8TfcIveA5wKOBhKFU6PDxh6hdWYdhDMpNGs9fxqKJmyl3o2N7glJ5HU
+pZqzAe5grDM9nJp-LISyM1JiQd0khJAn3m9IZSAH7vs6h_4pFCoZTKktFIsyhfDtxu8VCrf2qWXTxw59iPdMUCNY_NOAnWDvnSuhbZGo3YvuKWox49pqWYVg
+jxU24walkytrdazXMk5Bq68KJdWXQm_j5eeRzWYVLVAZJclGHpJ2y_9KXaU4pT7gHd5m4tB6SuZ4B5hRcBRnoDXmA31zRbf-X9aeyytq3A0R0wdKpOno2czb
+0cRFM4h8PIZ1WFs4AQNZy9SXsyWQTGlLDvOXSHsgHmncm1ippmu-XOigRs5o1j3cENorXRA7uvyU_X_EByE-mlvhY1vc5kLpcBJMAe1-2XVh0Fh7C4-d3w7Q
+BYRXG-XTDnd02ZcVkpLdDYj4vhESjb3-294elrQKW8lma1BzI0ath-5Ck4OjCXwoUnSwnQJTJV0iwN0_Lj6Y8g9QQv_cFWGdAMiRPXu7jz4q9ppx2m
+}
+
+EntityColoring(homebrew)
+!define homebrew(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, homebrew, homebrew)
+!define homebrew(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, homebrew, homebrew)
+!define homebrewParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, homebrew, homebrew)
+!define homebrewParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, homebrew, homebrew)

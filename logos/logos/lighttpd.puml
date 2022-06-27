@@ -1,0 +1,12 @@
+sprite $lighttpd [64x53/16z] {
+jPS7RiL020KpBCj--_xtJNcoH7fWhOnAwcX0t_Nf7jopkMNR7H-6SSVsVHtCVNjwOCo1iMkRR-i08wQnDJsAXzihRDdOZC6EZl2uT7PicsiQ_Ub1Z5XkWhQj
+U5mwT6N5Oz3CGyQrUYiF6N_JBw1fco-jVa7FLZm6dJo9ULldKtnDepuzd-FBBO6whKzjXLFM-HmFhPvGjXKFhPv0rKPn7JIbFD_5mujwYdcovEevVSLMNBfH
+oVDzVCsIpWzn7JILwR-BVrvTK3fUcxg0Z4lFrMi7BcGy3vfQNYW-b_JmdYv0yLozCRrGF0-QLbv-NAltTM6H1qrtUf5NoNPUpDtbSu77-N1sfXTl_dawzFF2
+upZFqCDTFwy5ZcFgE-Zg8Ww_leFcz69wVW-Ptm9ItmCq_Jx0_x-Ul
+}
+
+EntityColoring(lighttpd)
+!define lighttpd(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lighttpd, lighttpd)
+!define lighttpd(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lighttpd, lighttpd)
+!define lighttpdParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lighttpd, lighttpd)
+!define lighttpdParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lighttpd, lighttpd)

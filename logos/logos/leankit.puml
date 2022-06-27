@@ -1,0 +1,13 @@
+sprite $leankit [64x20/16z] {
+fT87TkCm303HGID1WBd_SLFzBBve-uwjhg_EL-ekdDaOXfJmFUEUUBpdmbMlx9I-UUsVw6z7Q4MstVmzYpEJozlM5biryQmUia1I9vAL4eubvAnQCuxquRlA
+fSLDolt5T6i5OsbJGyQAHMxHNLLTw_3-y2uWBJApXoyeYw9CotREtDfQEKRMPoh-tIiVNdjeFZmTnOUFS6Ujr2fxU13_eT-cUyI7T-OElgu_9l7YTFFqe7xu
+APzZejPq6p0KIP2lvwT82X6d1xtydtPwxB-ydlSVt7gi3JNXxlNs_EvfmsnTZa64njC_zCtBSuHy-Ym1f0NpCU3uVkxUgfQmgfoLLIgz4fY-NieH4SYgDKvk
+bvSsPc9OiwVCbBqTMAxNxVcfmvNB-ywrYbdLqegLjc-7PT9SgTyqj82tcUaerK_lfOrjP_c7lntXqD1p3A-X6L6M--cnxSlfePnfX78sCZCaQy9O4Gn1Wm6u
+X-AfVFO6
+}
+
+EntityColoring(leankit)
+!define leankit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, leankit, leankit)
+!define leankit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, leankit, leankit)
+!define leankitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, leankit, leankit)
+!define leankitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, leankit, leankit)

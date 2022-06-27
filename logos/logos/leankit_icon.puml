@@ -1,0 +1,11 @@
+sprite $leankit_icon [58x64/16z] {
+dTOticKX4CPWQ7Fi_lSxTPsIUKue_mgolyUtpUok62BS8srdDM6DmnedBKvQdBGuQN7IugJ5UPlRldLxcyTrtzUvQzlNemS-Da5pv4NEnl4mMFFfjy7U3oib
+zYehAKOkop6p5kN3Big7hHM9zHAh9KK9EM5OBx5UOht4Uadf9QMM58jo-ZTnlyalOLR_Ai-l7C39QFf9taWSAHdLLkAqn7avSKBYl9pP92HEIxShVaIre-Ds
+ZYgaenZDq1lN-RnglAivdiMsMKSpc_pbvz_3fd36ugJ5IOiJLZYiTTZo3hlWi5KLuzl-0G
+}
+
+EntityColoring(leankit_icon)
+!define leankit_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, leankit_icon, leankit_icon)
+!define leankit_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, leankit_icon, leankit_icon)
+!define leankit_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, leankit_icon, leankit_icon)
+!define leankit_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, leankit_icon, leankit_icon)

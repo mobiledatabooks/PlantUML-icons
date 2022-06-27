@@ -1,0 +1,7 @@
+sprite $lighthouse [64x64/16z] xS413G000C8W-wUsnmSi3m0003W
+
+EntityColoring(lighthouse)
+!define lighthouse(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lighthouse, lighthouse)
+!define lighthouse(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lighthouse, lighthouse)
+!define lighthouseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lighthouse, lighthouse)
+!define lighthouseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lighthouse, lighthouse)

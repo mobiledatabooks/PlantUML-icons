@@ -1,0 +1,12 @@
+sprite $kirby [64x22/16z] {
+dPG5UaGX30RZUFxxtxOVPRtUMPU9FO0kH5RwFpgphkN_jALdOwAIG_-Zrnn26suxpX_njUonZ_8tVRm8lkQz15RTxQcoTxra6CzDuhLboVit0HX98ZKnpbS6
+s9ClBpwdFFiJSAhJR_x7_CP7zO--5g0IHJMAOgKQK5epyb9eFq7F49WeLdxqAzuhN-YKIAJZ7Gj0QM4T7rXr0kk3lz6Blu3P3EY-C1ae0fpyqh0P-gdVRlwu
+z5-HF30AKax_qRSU_j7F1TZLRvVv5u0TI0owr7_8Ztu8CAz-l-SdJW1-_38ExQDlr83ovC-w4rC7aZ-k7tvTFvo0Fle9xFyuzkVvicjjheVrwyv4wYxcIlj1
+x2OHkqGvAp5owkDEhao_mWVoPTTopIxqIoOGTD2HvLHYz6iizEaGY9b1_wUYyt-yDm
+}
+
+EntityColoring(kirby)
+!define kirby(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kirby, kirby)
+!define kirby(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kirby, kirby)
+!define kirbyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kirby, kirby)
+!define kirbyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kirby, kirby)

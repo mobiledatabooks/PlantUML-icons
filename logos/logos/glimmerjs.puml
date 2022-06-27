@@ -1,0 +1,13 @@
+sprite $glimmerjs [64x64/16z] {
+fPU7hWKX24GN6F__ar_TnEEABCcTj5iuE62BrqdceV4dATokXi1gFAImBasOaZVfi-ADDerQNk8nNYKxqfO2RGi-ceg-zrnwntqf9q8l2IAnQ8nE4XIr_pUP
+iLRrm4RESwXg5l8E1V1aYBBrCYD-ro-VeMgj6oFkIt0mDNyr7N2OnP-UJnpnc3Z20xcJdtASuSPyB4avdePhnst7O-8GQctZbEEN4kTVYXYt1Fjgua7JrvNZ
+Nk2imvvJRIBkAGu3ivGxg85pV0cjhF5yCsAff-PLuvGqcdZdYlADm55GYFW0qSJ52gE9Ky27Dt5AFFZVSQNpmCEinCbtJz4mmmZBnOvlEk5E7_ArSGAXqodA
+_MFhkWaGbkCBxzC9-9iuuhDGku8kRI5sNC_joxtavXk1BzaLuicKvZYRP4kiTt4MoPu1BhfrApoUmG7SCzphlKe3RPnU_Sbx2zUrxoexu58w_7wUUcPUY47a
+b5UdA5qnWehT6nYOPF6KDXu8SW6l4eZu20GWVvKWp1pfF0Pb7pq0P1yzGABx-ihb7pt0mgvI5itA-nb8z-HglNvh5m8RH_WR
+}
+
+EntityColoring(glimmerjs)
+!define glimmerjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, glimmerjs, glimmerjs)
+!define glimmerjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, glimmerjs, glimmerjs)
+!define glimmerjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, glimmerjs, glimmerjs)
+!define glimmerjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, glimmerjs, glimmerjs)

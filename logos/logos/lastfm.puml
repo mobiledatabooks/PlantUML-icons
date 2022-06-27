@@ -1,0 +1,11 @@
+sprite $lastfm [64x16/16z] {
+bT47WWKX20DGGL58xd_VbM5_xpq2RveHrhvyoG9Yt1N9-IqFah0Vl8xhiqtITEWFVX5NAsTKUEvLLTfrJ1zoxVqKgo-gPsz10AuxzW20sHHa5kKWlLQcS75m
+zmr0QFb9nd8Icko8LXvnvmb7a5m0o4YVncl6cn5RUCodrvypeVbBQ-9a-ZHQZnYQkK3wziJd5iRHilBdGK5TTip-qfFzyElAP-kyHoEo6lA3Fm_MnUjmSltW
+9v759e9ZgEZPoxGtFhee6Dh48ZTowHQUT993XxH5hbVUcUSsaFdHd2KoZjhp37xjWMjFSOJkieFmRThmrDvRPX3HcuRlaUbpbzGpj-LspFeV
+}
+
+EntityColoring(lastfm)
+!define lastfm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lastfm, lastfm)
+!define lastfm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lastfm, lastfm)
+!define lastfmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lastfm, lastfm)
+!define lastfmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lastfm, lastfm)

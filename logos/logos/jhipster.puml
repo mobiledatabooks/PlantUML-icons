@@ -1,0 +1,12 @@
+sprite $jhipster [64x14/16z] {
+dT25jI0X343Hbm0HalxhtU4Cw_ulxiBlo2xZeSA7P8vI9AecgF6jxVpDQ2KD2ys4t21mMIPVh70Rl6IQctAiWWW4Cf1UM2bNkiCbUSGIKFDuB0xjIGQFcimI
+Xl5IhpBbcddPMNtSlRr61cDPk-qEzO7b10_hzEcfQhwmlE8BWMDt6n9TuUr3MxLiirf7mSgmLRs8lDpZvOE7PE_U0sb3Ux2A5JD7bSw2pDJet3jVCP5rTvWy
+TWtj25OhiyVgipIjnywguLtJEyLNvh64nx2pWq_0Uk05P89sxwZzv3jtvOpoMHMvW7K_7-uExWBiW79WoCacY5UAe088YF0IvVgsMGihuLixWd-MQJtvbbHE
+_fbMJRwtar_u1
+}
+
+EntityColoring(jhipster)
+!define jhipster(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jhipster, jhipster)
+!define jhipster(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jhipster, jhipster)
+!define jhipsterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jhipster, jhipster)
+!define jhipsterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jhipster, jhipster)

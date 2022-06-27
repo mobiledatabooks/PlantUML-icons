@@ -1,0 +1,11 @@
+sprite $handlebars [64x16/16z] {
+ZTC5eeH020RWVs220Uv_tGrivSMteL8sdgYhkQimLZpKtRGJ_g4CyzMa28XlXBA6EZfZqymFnW1T0lrqbACL0Ap-iSM7NnWLyml1eaQwOirRYQZuZKw_cKkb
+hlF7jwYEw2_J_q5ZW4aSk7p_6cYaxJab09t1lgg8lQldyW45vAk93pPFM1wj-yMAlBOcpo9fN3weodF8R6t6Ydfkjd9-HARdh7b663SadXdGf9kGe65-PmLa
+QVU_9XXlxyVcZvUiTFN3fEFzZER1-4CKnr6OHF4R
+}
+
+EntityColoring(handlebars)
+!define handlebars(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, handlebars, handlebars)
+!define handlebars(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, handlebars, handlebars)
+!define handlebarsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, handlebars, handlebars)
+!define handlebarsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, handlebars, handlebars)

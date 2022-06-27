@@ -1,0 +1,14 @@
+sprite $krakenjs [60x64/16z] {
+dTO7heDA34RXtvvYd_ql-1MG4ehXZlBTce4ZUj6RFao_QGdPVwbxiibXFvLrlLvkXlrMhjTMb6krZLEPmT6qvP8mJSwrhvM490rkTL52aKgJedulITCkAEld
+4ZxJBNciRL8O-cWKmYKlIr87ax9kr9eE35WNEXcmhac_BZXrCLasTD5OvhfA_jBxPvNBbHujUPBD4fYwwG3DWXVMWAuR1uQIDqC1hXi3vBmATJ3T9LETLoaZ
+LGYwvb-jwdRY2sq-jFRQPX9IFBJIWAGM7iotjeDFIZQWVrix_GaaXr1G60AQD0cNrDAtD8Sa2r8om1i5jxtjC2NPs9SuN5A3sDkciXNG9OjmNTWCbnpmicqQ
+CFMYGyWeJ2d1zMoRtAcOBCZ7s89iKbAPajgCffBFw2RrEcrQu8ERT2souCArBekxghlhbUqpjDjYFQxlKcPcr_UVx9BTsZW_idri0_dTXS56qcsTsvxUtpro
+kZRpC-VHrenz-PBFX-ENC8ktY32fCn_V0y8bTOQaMHvWTycIcalMJeSthwzjVHlz37y_JKcopfVwiNP9VJIJvECmPZw6NNRXCEbKctRc9a-WRVzg5-Toqpvr
+jcsH2OGrc9gVXVidpMxwQj_nI7RfqEPjcEpQLFL7WtuRlPLrdP1bkLIlbXkFzNAzpgO5Fhc9igphgbolgtAzBilr-hty5m
+}
+
+EntityColoring(krakenjs)
+!define krakenjs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, krakenjs, krakenjs)
+!define krakenjs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, krakenjs, krakenjs)
+!define krakenjsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, krakenjs, krakenjs)
+!define krakenjsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, krakenjs, krakenjs)

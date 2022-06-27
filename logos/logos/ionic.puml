@@ -1,0 +1,12 @@
+sprite $ionic [64x22/16z] {
+dP05egqX60BXAzZ_Xb-ejzCpVvXZW0LhPAiJ3r7oeK7Smh4dWumQbfINkgp08MoRk64ynED-MSGBiWStoEk-EL87m4mc5Zq9i2GLW9h8MLNE48YH9f2UVOh5
+CkSSQ5oW_1yHxKqZB3u9DIu0wGENby_-U88X3zfkikoWpR2BB8ySQ-fXdTJzv8V5dIhRsjSjskmz9s0Je9yO0FdYfmVRYjxLsRuSMFpEdo_zNP4FVVotvwVD
+j_xiEJnXfGy1eFsIdpm4nuEtVjYvaZedx9Vu8FFP3zconNS-ofRiVhf9oPvSDGyMhGJOiff0gNTdKKCWnvu0oiA2t8KSU0FnEKSO3rwWtBY2yWGEAGykeUmE
+0ion6_UKlUEq4e_0actFlVqN
+}
+
+EntityColoring(ionic)
+!define ionic(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ionic, ionic)
+!define ionic(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ionic, ionic)
+!define ionicParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ionic, ionic)
+!define ionicParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ionic, ionic)

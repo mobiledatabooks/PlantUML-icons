@@ -1,0 +1,13 @@
+sprite $gnome [64x23/16z] {
+dT5PikGW34JHAoO3aidzxxODqOxtxJfLdfMCl1AF4jBW1nRgKBKP7sMZIO4jFOAFBWLTSfgsoaSkMP4QG_ey_LJfKY8S-lSuIzNku32FoaUIOmQad1FVDGLG
+vzBZlk2uOYqlT3V8SK7njMRQ3v6WXXizDcgXtdfTR5DQInTJ4ueczRnOYNPAGaguDg3hZ_EeKeLiJAbHDBWriD3OjO59ohXwIWaklTx-JxVlE5BMID8UjHP3
+abL9TUVDm9R-E5le8iyvc795qIXQG9RCvQfJeORhaQdwC-tDdzTCPLVyvPU5gc95LyTrpvbeUgq6nv23pPrFjlIEl-csfHHIhvguJdtHVyFuhqYNcU_y6TyW
+D2tVwgR59UKYnpLAAU_yLm5IChQkRPqyGvDyYcvBMkHptBWs6DeA9DybR7L6Z48xOneDyeZeHXeNF8UDJflRkm5dVW_Ziw97P7D9anzKRMiVYL_aq75dVjH2
+Mjtux1y
+}
+
+EntityColoring(gnome)
+!define gnome(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gnome, gnome)
+!define gnome(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gnome, gnome)
+!define gnomeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gnome, gnome)
+!define gnomeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gnome, gnome)

@@ -1,0 +1,12 @@
+sprite $imba [64x17/16z] {
+ZP49ZaGX20KVgw9u_-iEtqoRtjELnBrKG4sL2O_Go8RVKD-etD_HSYM_7kt3yGBxFwP7yV89pqHcnokaViDklsYXUA7dXwZO_20u_EeNVFS70Y32LqFGrXYm
+veJjaxTzWCHRCtuRHLcP4v8vUXOwgXbK_fepQwkqcHj_5mKVlxgyjLP-hXoP6K3a7FEkIYpcDu3ZDxHg5MMr_Jx3jqKbqbnfv-y7EVvAWcSE8BQ_wqUrhDkY
+iNO0wlSOllkOboLzdWI8cfcgoDRf5__Qc_6KGBlfd_ts7tMiQrZjdQz7_-m7zhACdODnxtFf2dptizlCDIvpMCzgxtvlZAz-DSLQAR3QguqAvVWYE7141rqD
+DA817c6m2ErbAG0ljPE4_G4
+}
+
+EntityColoring(imba)
+!define imba(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, imba, imba)
+!define imba(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, imba, imba)
+!define imbaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, imba, imba)
+!define imbaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, imba, imba)

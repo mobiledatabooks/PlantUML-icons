@@ -1,0 +1,13 @@
+sprite $launchrock [60x64/16z] {
+xPO5hkOm30O_Gy3s_S-xr7t-goZGPHnH0wFQOG1g7juL3v7k4LO0W7fSD3oYnKMd_7ugr-pU8V62SOGy4cqtj-A8nWkpU-5HjdCSH_hI9PomN-JstzLbBK8t
+WLM57hbgkLu_KJm-qcZh1W4eGnIvWEteicUf0u14qavklHLbw4n0sxasx0s_bNNlqhrl1pXkr2zmxKetwGStVc_tlyl_dkk3UolxmGLnGeIXl7Fb6-uZ1a1h
+0FIDMds3BbtBT5QChkS44AZ75W5ivZQ0BBOu3QxbCSOUUpgkwK-k34kkWdsw6ZViOyaLa3XXuzNT-9gR4aTa-6qKk3rJwvXjC2IdTKl3sCq1F59BtgP9oyVe
+biwNEkOFEuXMUHQSO-KgQwcrbhU7XzWaY_aOj_6vlNW_aazNhj05Q_FvuCr_h42Dy8_475izk3h0vqM6QTGCzDDq9p8sw7cH9JgaugUDl905g2Tra7tSB-U0
+4xQSyxOnNJ61skU8vR0hfeX5tMuE4wnXRCwG9ZZ1rIPfTYKyWgGqypVDMc7CU0y
+}
+
+EntityColoring(launchrock)
+!define launchrock(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, launchrock, launchrock)
+!define launchrock(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, launchrock, launchrock)
+!define launchrockParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, launchrock, launchrock)
+!define launchrockParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, launchrock, launchrock)

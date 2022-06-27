@@ -1,0 +1,12 @@
+sprite $itsalive [64x17/16z] {
+fTC5mYmn20FWO2Nf_U_xXFukgwoCViW805YsjZhnM0JtX1YFyD9-3UK3rGy_8GS0_tcKP5eNlWJ7TVVauKcvO2k_Drgk_ffqM05OaoYc0U3xcKWL_AVoe_pC
+iUP-kDLc0bansnMUzj-7Mpg0J20g3HflG75yd_vJ__Usf0NNXAVIrIQTxdfsxhUfJRDwF7BJNBG8j9RN7d-SOobIoq8Sf3QWFzO_yrCTC140N_qSbK1L9ZT7
+oL5lyxzxMz8wljyyg5I1MnAPnuSVhlZe7KOv5N2z-v9cX0GCTXor9uWtp_-ejv0IDRx6ctPZ3hRoj-VFUW59jSzYLNjqdEUlEkOigUpfvn_-vXzx_q9iQelv
+YFuB
+}
+
+EntityColoring(itsalive)
+!define itsalive(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, itsalive, itsalive)
+!define itsalive(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, itsalive, itsalive)
+!define itsaliveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, itsalive, itsalive)
+!define itsaliveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, itsalive, itsalive)

@@ -1,0 +1,14 @@
+sprite $glitch_icon [64x50/16z] {
+xTRfTkem30JWaKQIjnRU_sqlZXj8V5oQsz_zsCH9D5vOSVRdZm0WbG_w88B_GsxztUlXnn0ntIigbDY9gFQOznbwkz_iC07LALx9T_Cej_kzFIS0SFJF6T_E
+ml5nw9TL_puDBXFyziczdlld1CLi3BeOVqLLyOuICYsJjaIiK26Ao_rgVfRS8lmIG6cpCCzXLn2WBM8ZXrzW2e3BVh-4w9Hs7KbLdlTVkDY4j18gs2Yt7i4N
+dVUXj3efoHK7ecR4JbCvgMV950koFwRwNZ8A9cBks5XPjBIXFkKWNZJr9dHHZtAjnSqykfHpwL5rAA7en7BTu66QkwLMncwQiJEFz0efoIC_znIGyIHCRLzg
+RM7rw-oSasynlQj7dCG-UlwuVIYV4yZSNx-n1IF4V8wGVUtjVhzNbAqCgvNvTDwM4JqYoY4Xm3faxTz_epzpcqElfupI8w8y3n5x7Voycuxp2ciR_Ok8xEJp
+cA6EijKKr3BgRBLQRhrSoSxKXeI-8oEWb3qhMQiihLUnvBuN03ItYKTBhBqAMt7thyBm876MKaJE8_ydWAXDF9lLVFdxpnTIIvU_ltIHcwhR5Oe7CVDP-5gF
+fIfjz1WszCjCiL7pJZ286jcpxLiqAew43tWIqGSnNx7r_mOHpCGEsAaABZflfn6_yLg2uPTqRARYH_y
+}
+
+EntityColoring(glitch_icon)
+!define glitch_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, glitch_icon, glitch_icon)
+!define glitch_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, glitch_icon, glitch_icon)
+!define glitch_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, glitch_icon, glitch_icon)
+!define glitch_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, glitch_icon, glitch_icon)

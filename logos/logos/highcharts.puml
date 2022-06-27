@@ -1,0 +1,13 @@
+sprite $highcharts [64x61/16z] {
+fPPfjiKW28C54JljVxtFtZ7tIJmzzVlT025jDLqZfod4vmfOTPbgNskPqEUcdt7WjN7VWPxw2GVbgQ_v_lRgX0Fp-g9CjM_OlV0Q_dIWTy83_4vuYDqCxvE1
+tjaUTo2gSY4yxa1FvChsOWVwGbXu7Ix_30nAb1fG4gA8iF0GpqGF9J2yiGFH3ed2S-P08mJ36piGZH5nr7C7Ih05ntQQWH9yQQ0I0GV2sZUW17V0ssC9hyo1
+HkJbbsu26nieIyUwa0yfQbzx_RxlMC97Ubi2_N4SMC861ZpGRqszGmbNEa1UcFvLOblG0M-Fh4yzb2Z4G5v2_OwSorZ906K9-PMt0S003my30FMA2nGI7bbW
+QprwXvthNuEJRmYsHm9u3juV9MZ0gVuCZHnbR7ly2ye94GWlfXOfevDqtBvcISdOETWOXVT-MfsSOZ20zsg34uLVvaXuZdlomKKcQb-B9gJmzabWUpWuOf1T
+nszuuPKzZ-vnq1u7HzGnkzw0iS4X07uHLdKsE0RWolIP3eu1M2A8iS4n0EUFw9NhkAK9n3rDuNbERmdv0m
+}
+
+EntityColoring(highcharts)
+!define highcharts(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, highcharts, highcharts)
+!define highcharts(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, highcharts, highcharts)
+!define highchartsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, highcharts, highcharts)
+!define highchartsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, highcharts, highcharts)

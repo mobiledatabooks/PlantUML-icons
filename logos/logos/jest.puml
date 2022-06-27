@@ -1,0 +1,13 @@
+sprite $jest [58x64/16z] {
+tPNPhlOW24L1KLc-__l-GzEIy0s6StlMLQUTlKMXyXimFp4EoiR-3bqEB0vAFSRbkt3A2QKSjXuNEMCSmfRZOkImvRWkWrhOY1ikIWfRZUiYCgc5ZRZnhL89
+6t73CamhOSE6_d9NO8NbqCSKgM3S9WsxJPbIGRaj5qzvQL9YSLlknzIbHkUsVFQKAJMKst9VfWsQ55ctPQnNgcYBaOHTjsN2CXMdY9sLVQxL9Q73VMgSsAiu
+jlpbim6ybBnnqKGqNavWCzA-HH429pBQ-8T6Rhe4ytqfZVT6zllHIarnGOxnceFzPh3EditCUlRC1ddj7Z5atQKQiSwyK5YvjjUp_ZJck7ldjKNDyI49dUwp
+HVtGwpDVzkCpj2HH5swMFcboJtn0LStP0REfQ9-UJj_uv0QNBk2cvTwl_tin2SjFIjy59VjTEIaeZSse2yCcfc9Lk4cbI75r7OKZxxLBq9rzm3KdOyPvPP-W
+fUwCqwK3ZZfl4ZpPS6lpf0FSFcyvy5K3FgrL3ajmQrJUMHnrovAeUivyg7odyrNNvGoVTQlN1aQ6q9rPL7Nd8i5iKiOSBXLHpZ9zElYo9h-Ilm
+}
+
+EntityColoring(jest)
+!define jest(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jest, jest)
+!define jest(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jest, jest)
+!define jestParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jest, jest)
+!define jestParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jest, jest)

@@ -1,0 +1,14 @@
+sprite $hermes [64x49/16z] {
+bPPNclCm30Fb8ea4SF_h_bKRcr-CBVCQrH71EFG6YUX7imnm4KUZdY76rfxOKXSyKeWtCa69epqGOiO2uX3d4v6KiBzDtwcu1b4RbVEPfFYcePVzg5OEK0c8
+UwjCuJP0R1k4wO3GAda_RWh_RiHm9w16jK_5VVdPMZie8em3eJpZmNhzy_-P9178MAlK8KLVkJx_wnaYkAecOnPIKVNbNH_MctBq6GbAObO3WjDthHt2-PS-
+WXBhV6vUttWLLPwBa53ttwm-VhWvgUnhWIb5cV-flaMdEDSAfQ1IMSAJPcbSzY6Q-HiKvcb2W1Rt-I7X1SKtVOjJs8yn8n8KQWelIg6pf1CQRVi7QgBZHiq6
+jnhiyz_qqY4CHTyYrWA76DDIzHLI7FksEeoZwgjC2lCCOLgCliK9Ib9EWml6nJ4XVVFwQ4-SvFoPlieGlgcljoTI-LDzli7El15EdssmGPdYBxcq3HR2LVSf
+pjhwAxL3r0Qrkkmtz45X4dQM_Q_ULTZ9C0cRWjDdDac5ULYhRrPztJoirPTLt-7qKQUh7dF7RlJvyAJIwuCBZxkZrrS7VLFVSDStTpoyFZEew3F_d2uytzVd
+vrF3pOVfNJkLiK2jyBF-P3xF1_M2LT7K1NipTEW_ZFspp_uNlm4
+}
+
+EntityColoring(hermes)
+!define hermes(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hermes, hermes)
+!define hermes(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hermes, hermes)
+!define hermesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hermes, hermes)
+!define hermesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hermes, hermes)

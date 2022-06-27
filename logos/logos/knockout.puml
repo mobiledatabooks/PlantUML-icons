@@ -1,0 +1,12 @@
+sprite $knockout [64x16/16z] {
+bP85TWGn34DZ9uP__mlNAhVB2Xhrefdr33RdTj0YSo_XtCegRjTl1CK3x3g30ZVWqD6WSk9wJf3NkdRDNin-m6Rb3OvcN-sgUXGB-Z2cvQdIK-O8fNIvNjWM
+iMoioVNPTfedz9WG8cZKBH4-prZrPLLHrhByNSl6uoD5ER4Pb4cdSsWH-g5cUcFs4Ksqmi0chi9qwTTqqQrUXngoUATmkVUAa3ZINzo7a9P5_7mJsnjEq1yw
+mLRSajHXyfun5B2vplIFLZqndoM2eSDypWrK8DZ7aI0oBnbjVA0QsAeGGMgBJUWvf6KZgUUWapCKxLPqsTpcW8WvtLJluE-VSDtu-zPjcCsga8vm_5NyRbsy
+Zbe_S5w6T7i3
+}
+
+EntityColoring(knockout)
+!define knockout(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, knockout, knockout)
+!define knockout(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, knockout, knockout)
+!define knockoutParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, knockout, knockout)
+!define knockoutParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, knockout, knockout)

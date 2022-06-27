@@ -1,0 +1,12 @@
+sprite $jspm [55x64/16z] {
+xTP7qiDW389X2_JT_yX_IN_7HYdhi7z6aEejfbJR-v5jVOByBYpVKoyZ6NaD0eMckL-6CnBArclzfAfwX4fGE7ME7k7pVlUCJLc78SoZaD0qzSjmHdDJ1JJ3
+Tc2pMwk3owYxrqemenCBa8Zgn4wkynidd08R3WA1PKW4bY57WKKdg6R828dsB4myGlO3Swy86qfWTWT7938726GTCNFYlf-EcGstGv4H0asC4ACcneauDJ4U
+lACl-pAwcV5NcP2C20oGZ2YunAYy5M1YHBNzHOHxHjJ_w1Glm1tpWn8UWU38E0hXH32EsaKBEJ7cZX2FJ5jAEJ87WebWOLIS64VD4-EekMaObQCJZAFcYG7D
+yJJg5m
+}
+
+EntityColoring(jspm)
+!define jspm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jspm, jspm)
+!define jspm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jspm, jspm)
+!define jspmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jspm, jspm)
+!define jspmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jspm, jspm)

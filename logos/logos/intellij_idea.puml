@@ -1,0 +1,14 @@
+sprite $intellij_idea [64x64/16z] {
+fTU5biGW38NX1CjDzVsVTYs74JOmFULVbwzCaHMg2IJd69ZknMe18Zcvrmc5-pvh4o0bleq0HUXwg5UaPwAgY1qUNFuwOD6_ik-B-Y6qz-TF0hGJxDkJFX9d
+4g9sa-Rst4aGxLV-flwjr7263ieipZLVIphCkRgmz_2NQxMJ463ylDYgFo6rU_UwRoO1ztoTXAZtVDsTvQC_ZiFpjXCOxnx9ahC6PbRVAr7ITv_9YcTDYAZl
+vQF7o3CQlshvMzFrca_wugt5ll-QbpaVTCwNIPynvub2nWSlVGzRQjmTttoOzA8TlyNjvtKaejNtKX_-q--h455PV-GUY8ia8k9ZuAMt_nFLojdt4Js_Xlh-
+CV2YRxwmbN_UFmh_JM-Lda_j_ZciqzgslJh7b-Ryzkhxh3C-C-Oy9Snv2fZpn3BdYJBk-aJF0xpSy96i87EUkFpv0-zTyXP-_KRl7Hzye1fF-cJplxwrdPUz
+cEytzWnTPdpKEnvSVPxqKDNrOlhV1-YDdZxTuf9wVy2Zo2UC4Zf_mAD4EzJ3eTd__mEFhmGP3Ut_zuSSw5c2gnDJ4nfSOp7It5jRW7t1AM4uj9NifjsuZ8Qs
+Og114NNect5HwGtz3G
+}
+
+EntityColoring(intellij_idea)
+!define intellij_idea(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, intellij_idea, intellij_idea)
+!define intellij_idea(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, intellij_idea, intellij_idea)
+!define intellij_ideaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, intellij_idea, intellij_idea)
+!define intellij_ideaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, intellij_idea, intellij_idea)

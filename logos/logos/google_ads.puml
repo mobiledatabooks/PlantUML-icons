@@ -1,0 +1,12 @@
+sprite $google_ads [64x58/16z] {
+dPS7SiL024EzB23kV-7ytXWMQwEfAKJYQVAnZqPYZe3Fur-QZhWBq6DVXdWBFdR7FNw4iUaUIRwtEo89kfs-t82tpxBDxRCWxBYa-9i8nwpdCSdjrQCKEFlb
+V2XdhmK_kaFHgn2rZBBNvG8GmhuBuEVmhce8A96-2u11s3S1mWXx6c4DZqDOsnC19Z7U8Zo5HtNOs-ztA6cUxZ3RKntstV4TPdWamjccvn5cUngXKlOwZGeW
+g_4n6eI4_N4e-Wvx-tHBSu0Udae-flM_mLHp801OId-Ndo0Swf_lURA_QhJN81D2ihzgsM6v7xxXzG6y_A4d-mRXBCDP6cyGbjdmWFSbMGRGA9Ji6uHU9hCl
+U3r2bD_tR7ylcPTVxRCMyxN_Dxo-GwS_dxsqL_R4rXtQ07rXhNGophxkqAll6lrO3YdsylwTA5-Hz0TWHoD5TOI6WNt65aSy19UlRniYk5V5QRZ7V4vV
+}
+
+EntityColoring(google_ads)
+!define google_ads(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_ads, google_ads)
+!define google_ads(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_ads, google_ads)
+!define google_adsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_ads, google_ads)
+!define google_adsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_ads, google_ads)

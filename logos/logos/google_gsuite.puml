@@ -1,0 +1,11 @@
+sprite $google_gsuite [64x16/16z] {
+XLC9TaGX20C4alkVk1Lb5cRwch_AIsHLVg41acdoXACDJsY6V8Fp8hLDoO9FtjYnkOryC66YQ_0DK57akpmgT5KBels3gxO9bGabnleHfZtO685-rQjUzoaJ
+Bw5OUf4pwqcGI3i5XczN9zQFeEA4i1ZjTZyWIIn9ClSZl4NA0-zM5UrJBqQeoYAqMDxwqG6nGAsclbvT82Cw_WH0CjxxxT_rIg90velF61EpY7_qWBtqhtCH
+lnRoJxqqujPQdHsAaLgYqfVDP_xhHAWzl-26zaZ3ghmXMZ4PMt_MgmbP4LpWzVm0sz2_Q7sviwr1jiAor3xFP3mJxFbxL7dX47u
+}
+
+EntityColoring(google_gsuite)
+!define google_gsuite(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_gsuite, google_gsuite)
+!define google_gsuite(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_gsuite, google_gsuite)
+!define google_gsuiteParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_gsuite, google_gsuite)
+!define google_gsuiteParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_gsuite, google_gsuite)

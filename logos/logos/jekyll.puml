@@ -1,0 +1,13 @@
+sprite $jekyll [64x26/16z] {
+fPC7TiH024Ff0oFkVzuydBB5JbUodOyqUZRzLU8kz1yP4FntNCspGl_Ciupusp6Lw-_vHtW0cp-9xsxVy9me2xbzzjSFW_7e6xoGH77pB429lH2YPgRVyDMB
+-Dv-zoBYrL3HqTVuwaLoXrDq7blWH_eBUyvRMkiaStgJC2bgY4IGgdd5cTVz0J2sc7pWvRJt08OvGnnLd7JNw895EH7Rp0NJsZABfb9TtPronlDONN7CXM6J
+H4B8WXn7j9eGLjrNzh79i8sMKCA8zX9NW6MBTXwf1kFenZxRAyfwt9niIifGuzr1MRenyz5hAjXzTUyDL1rgGbfTPa9CsSbU8HZGDtXEcJKs9nMqmJEdkJhd
+7JVC72mGqj3Pefcrkyvyj1CWRC5Kf8LbGhMTf_BA5KG8YR12mqwuTXtBGoVYU0lJA8-inmTR8HJTVRuf6VT7yhkt7Oy-rS1wvpzUzsCaliNAvvQx8Kz6WaUS
+bD-cdt5UtNVjwO75gK_srs44FVDeED-Cp3ppV36ocKMkgwkiyuRVUZw9HIw_jhXpUm4
+}
+
+EntityColoring(jekyll)
+!define jekyll(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jekyll, jekyll)
+!define jekyll(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jekyll, jekyll)
+!define jekyllParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jekyll, jekyll)
+!define jekyllParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jekyll, jekyll)

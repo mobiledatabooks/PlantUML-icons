@@ -1,0 +1,14 @@
+sprite $laravel [62x64/16z] {
+vPVRRYqX34D9kDd__y7d7bav7Q9XlpPF5Ue2R6SFq5I-qTk7PHCabty43v1hWfXspVPDRc_D5ubnnremckTzQR_IO6yt3Nab_p3ReTAyczpzISgsvxMIBPJC
+JED1l6-IH1TD4Ck-647OixaTr7fadt9SHa1qSZExJ5ZphUt4tw9paZdXl_fYEnhFjA-ONsli_fUEVSqX3qJd2BC-GjkH_vdUZ_bD4bGo3ePvcOPipKQaN44x
+qA1wIaRyJ_k1TZM_Z32yfGDGyjxQUpfIKreNj3ecEkAALhV6_k_fPg2ylwCr_ZdjtuJs5TqHjCOBMYqDShbejNf1wsCMJHvqZBUIxlzQEWwue3q-SWLjGQZ9
+FOqND5SwtcAt6gzfEPKk21e_qleDvnhK-8cMi5ocXC_qI8BpyRO0EzCwLWxdFAgrTQIfaX4LlK-2OxoaYMNbnQQcLtMngUaa-f3ycSw6Py4rdUyNMV0xMilD
+9BYYDNUIBy4LpVvywNrEtZCjcLa-UMfrUt4f1QnAlaXPT9LyJhccRI4PSKXPTFaFXwb5rvixo1TT6LDQAjecYNdnGX5zzKh9T-Jh5v9I1KptwjjNeOFz-cMe
+vYKb-B9ST_LFIk-kkdu2
+}
+
+EntityColoring(laravel)
+!define laravel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, laravel, laravel)
+!define laravel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, laravel, laravel)
+!define laravelParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, laravel, laravel)
+!define laravelParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, laravel, laravel)

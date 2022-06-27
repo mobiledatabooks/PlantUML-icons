@@ -1,0 +1,12 @@
+sprite $gulp [29x64/16z] {
+dSy5jjn034JHaafG-rznql8uyO3xmnimtDE4szYyDPUqCsxCVp7EUc_n2qDk3AswDTiDfEJOB8blBcdEoAogdgJEe1i0hzPDnNnxrTN_b8oiRfqTqrS6oTBS
+N8hrMmDKgVioDaXkq7s7ja7RO0DztDnZEv1lM4193Sj0wL64fWJoiJ3FeOtK540eqBgKq1412jGr2nqvm9o1LZegz6Fx1fZnyOgb3D6bI8Sln6oJfh8Plnw1
+31TMlGQ6F9MslafKeNfm6Rfj3i5GWOri6oJXfh8oH80qj3FCCLcHQY3JI0kwtBnZKRHc5sVd0mVNpSN2DFb2wZca9blepzQk2ve-rjZYz1aBKt_4n5GVCJ3b
+HoIEcAtdEXqd1XbPrN-hoWX6yaIJr9KPgypgESWPzPhZVs-8IsyR-ZRMJx2kc3_1l6By1EEAtA6rhhNZAMQVaZGS_G4
+}
+
+EntityColoring(gulp)
+!define gulp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gulp, gulp)
+!define gulp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gulp, gulp)
+!define gulpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gulp, gulp)
+!define gulpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gulp, gulp)

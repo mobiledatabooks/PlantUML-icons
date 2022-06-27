@@ -1,0 +1,12 @@
+sprite $hugo [64x17/16z] {
+VPC7TiD024HfIz7z3vn1FDNOdiIT_xT27SqAeIlibKgtMEPYkaL4RjLRPTMwgglZ9o2U4Hbw4TgHipeZ0eOfaAWzXv5NPhYtOGWMLLE3WF4XjWe7xr5RyEWI
+ilqXNG0wVC6GsKOHi4WBXA8I5FWkB2S1jHIbfYqWQdnnSsqmOZ5J9cHN00yKpLCMBK1AdWaf1CAD4oWW43W9AC3C8zXUl1-yN3oJkRkAnywh4C_suNbuXew_
+yiGUtXdU05elukAHx_pgfIk1yeEtvkNYuIRwDRuRttdLQ_mlw-UB5v3kJCjVw_-oVqQ2IHFmuRttlmymildz-7WEKFVpP_3Cm8CKV38XrZnJj01qutF-8o1k
+77u89bKDEgXSQjwu0eCW77dVFqJQkyxxRqSpzWs-EiYo3Q3zkFymsDp_3iVqttmQ8t9rD7lci_z4Jtg6t9xz7w_-rmYZZ_t_1m
+}
+
+EntityColoring(hugo)
+!define hugo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hugo, hugo)
+!define hugo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hugo, hugo)
+!define hugoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hugo, hugo)
+!define hugoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hugo, hugo)

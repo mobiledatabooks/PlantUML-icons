@@ -1,0 +1,12 @@
+sprite $heroku_icon [57x64/16z] {
+tTS5WW8n343Hr1kx_tLtskAUhFDnUJ0k051PRN6F6ukazYG3i7gIM5MLYYtS3FBcm5hJMJ73k62sG_bzc7BPIfVVc-_cHv1qH1SGTSHc6DRNkXbcdHKpx3gI
+O8B78KMmmggpP8J7FxJ2fYE9LfXqLi480n_deGb2d84ThjuNnhbwfl0oH82G6uckXCgBaEj2noW-XxUJv8GgmGcrsw0SHpQ-28MnvXHZh3lRNe629Lv-ZPv3
+BE76regVG6dnzbvD7aAk0S01qs8skFetC7eXLI_KveNQlL3H2vM24of79vJuiuEAuMTdH_lXHIx2hL8TbHlmjVu0B2x8gkWwVHWtp2bR6eO2gwi4aPqdPH2w
+M1r6W0y
+}
+
+EntityColoring(heroku_icon)
+!define heroku_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, heroku_icon, heroku_icon)
+!define heroku_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, heroku_icon, heroku_icon)
+!define heroku_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, heroku_icon, heroku_icon)
+!define heroku_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, heroku_icon, heroku_icon)

@@ -1,0 +1,12 @@
+sprite $kong [64x21/16z] {
+fPC7aiKW241fWX6v_tLNWfdjlxuPkyykV4CQl8EOARwkDrielQgp5VAYJrmZj9SttyZion4qquoxuGCwfYgSCKDnX0DmX3ryUCRx2hO_03sEt9iiA5D2aPmW
+anNWmWfk3U2BVuGZWCnOJ8OUFbT6Szo84G45CLb1yCNtlgGQoSp3bZ-xZHWWCSsEooTLvl8Ll_YB3eiH2c1nGC_TsF9r1U3jiowFP0_mnP-ZvlVq-rVVFlsc
+UdhKxAHztR-7usrVr0h5dPClFiyqnYzVBv_LDYhN0FpfWqReqgRx32s_d-SNxXv1Mcv2W5PG-NESiHEDkHW8DZkiwCZgIBOkp9mIMO7f8-uaertu4Y6sYArZ
+KrMfJ_ZO7v8nXc-_0Lhl_LosFFY7yN3teTUJaRuml3u2mOEaNXk_5i2r_mVv
+}
+
+EntityColoring(kong)
+!define kong(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kong, kong)
+!define kong(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kong, kong)
+!define kongParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kong, kong)
+!define kongParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kong, kong)

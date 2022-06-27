@@ -1,0 +1,12 @@
+sprite $immer_icon [64x36/16z] {
+bPO7bWCn348ZMVZ-Dqxrcp_Mi2LiNmnM8ULsGepIb2hvrnTqbZJVaDoH0JsCUMa2LNHtmPiBOj6SY2QV6pIQV7OejzelT7avKFJRzS6r0det1iWhuXPPea1u
+Bi10L7SUQGZw3J7rEFpfiSJl6510hhRuUvloG8x11-klrrUM0lgqX40ECcC9GRXzA6fhrUUQK5yDs4GFUoMvxebDcR21Ucdqqh1xsS2Qvj58dEl7XamGhmkg
+5XTmCEPwD39vPOQ-VKrWzPG9yRsUS_fPpvXwdx-E5iqvgwP_EuBpQaBYY9coCryQALS0HVos8YK_dAXD4v1RynfX3BmccdnDD8r1rjPDlI1baoz5OJ0EKdgB
+UFvP8qBEUH8kZSoXDMzUXahuir-LsQDayXB2dmlKwDzV7_2NfRzxVKBk3MZMdv2G4pX_Euc2hIzUtac55eY7UmC0tn4vgchWVRbWJZN-0G
+}
+
+EntityColoring(immer_icon)
+!define immer_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, immer_icon, immer_icon)
+!define immer_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, immer_icon, immer_icon)
+!define immer_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, immer_icon, immer_icon)
+!define immer_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, immer_icon, immer_icon)

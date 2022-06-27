@@ -1,0 +1,10 @@
+sprite $kickstarter [64x7/16z] {
+NP054WH120FHyFyVNpRSkgHwUfoQIfG3OT63E0Zmm209G5cYpUZH_ZVDp90PFJNJ3W9gssA8Wt-Q_DyijrAYQ_yp9pKiBmFRqJj6FcNs2PhkayXMoZm2yffP
+Xu5fZBVCPtyeTpWy_vkTg_TZVgpvtly_NAdv9SJVX1Pvc4IbAXhc3MQh_eL1ccE2DlXH5gSQHdgcOfhc1m
+}
+
+EntityColoring(kickstarter)
+!define kickstarter(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kickstarter, kickstarter)
+!define kickstarter(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kickstarter, kickstarter)
+!define kickstarterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kickstarter, kickstarter)
+!define kickstarterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kickstarter, kickstarter)

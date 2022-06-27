@@ -1,0 +1,11 @@
+sprite $hexo [56x64/16z] {
+xPQ5iiD030FFTcBB___1ZrdNLFUOTh2mCzs6D4vYMJxMsT3TkorQKNq3jXNBin-eK2tRqKz9LyDU027JgoTWqyAO2YsCILV3E5C8qpADmgHC2XCoEKp9v30j
+qnAzJaNHMpq1vzwf65wJtsLvwE4c6VsS65VaeJTcdlyohtwcXu_sy4eljkUOvZ6_pFCNZ0y-3lMrNd-Dz-zXsUlqoICRCMm_zzZAdb3e5mI9wXDtmxArqqnI
+IAFr8b0kh2LXCL6ciD2qJAITMlwGmXWlDOmpjJ1caabXKcR54F6YC9607CQPlE75p8EmIm
+}
+
+EntityColoring(hexo)
+!define hexo(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hexo, hexo)
+!define hexo(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hexo, hexo)
+!define hexoParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hexo, hexo)
+!define hexoParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hexo, hexo)

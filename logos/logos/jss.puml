@@ -1,0 +1,13 @@
+sprite $jss [64x51/16z] {
+xPM5cfqm50O99wxl_xRb3pb1hkHIRvTPdsydWehBJ0V4V9LpJzTo-j7v_wN-xk_-xk-Uw69l_KABb8ifHQTwFvkGKh3qfazbGTQfNMcuTJnXk_Ya3wKJPk1s
+OjoRiiCkGX_4i8_u9Ja7aJIl9riR8TIeb_YPbryehlkd386Ju8iJqqTzX96Od4Kzyjln7y_FRFE3SK-fj8qpiGhrOSzdAnhYAwi9BSOzhnTakuv0gObanB1V
+K3m0xu9I5tBK0naAO-hrBtmNUjW37Kj3hVSVzH5et0FLWe0Up3PN4KSz8oDC9lI0Tp7iIVA5qvJW4TApNlbwbVTUnImFGwh0LryuzlomyAZQOgMlfsdkzwro
+47K0oW-zJ53Hkbn_SbIyDRw0g0h8NklrV_AXfmYtFzl83keiq6_8N3gHC68eEy9vH7--VcJSvO3SDgIlocp2FLw_P49U26ORqaQO_W2VXFO9mjBp-uSMtfW9
+227-alVVPOxzDm
+}
+
+EntityColoring(jss)
+!define jss(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jss, jss)
+!define jss(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jss, jss)
+!define jssParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jss, jss)
+!define jssParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jss, jss)

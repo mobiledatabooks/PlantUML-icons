@@ -1,0 +1,15 @@
+sprite $linode [53x64/16z] {
+bPK7rgem44QfFrE_sVzktq4oIA8HtZtLSiNfmvM5eVFm7umBU-p8_DHO1N6Yoxqn_MaQ3xLvi_Y6hJyaH0_hnsPT2ToL6FxLCDQ-jC8ThU92H2hzrC6zrg1C
+EzAN1Zz8muGAedr9uPuFy_AGMudWnK8nKhA-jAJaZSG_fEcKef5ywED9I2EDVKdEeFIvj9sIFPUMK_96cfva0bJnIngyatEVXmUP27akpOul4Ykcdqj2yP5p
+zNOhZSJrhr3KEHUqoh1w1AYgmb_WdNFn2AwLISfu_brgfV6oYhBZIzK0aLXvVxBOWODt9Q5KPelalOBdIBJwUEjjh5TU45zmevJgpn77k_wXGMdVORFQF5Yr
+ULoGow-nZ6cNw1MRNJPFA8aV2KTvj-1yf37VUwyv297gaHxunN8fvOeJ-A6zgbzMxrZUBC5GIXSkOs2bmEPf6LF2TMREWSkoS_Qv5Y6boWAguLoB1Ej904fl
+gcUZfEGToSXn_AJPEI0taXBX9R7BM8rykoQaAjikAMExZgMYNSqQfK-EEE48zxLTBzMQO0_V2KXkGGwRFa_s9UTwrbFVvs0U6sNa26JEsMCdfUxXEQ8-qgTH
+k4ZwJQAi8R57WfIoEWqhSlYGXdZ-twewzHc82cTAIK3TCr1PIaGMs2N5-kiCf56AOoI0gSs_3c9QELIs3HmXDmUnMDaLIiEmRNtbF8YvLN8PtF1v3bLkfQtj
+StOQRk7iy-TEMjddajMvGt3k5ilgtADbvR3hE3nbD3ZwuVGjP3ZFcJpwuVGjs6qu_m
+}
+
+EntityColoring(linode)
+!define linode(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, linode, linode)
+!define linode(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, linode, linode)
+!define linodeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, linode, linode)
+!define linodeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, linode, linode)

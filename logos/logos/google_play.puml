@@ -1,0 +1,11 @@
+sprite $google_play [64x15/16z] {
+fOy5bYin30HRJShU_y0VDemFKZDcb_Kw7dn3MttfD_hERq9SO5vbqdcK2FBURw-Arehnm2oERB9o7lqsF5qyZc_z0Mi_-H4r05HWo9aq0xU4sgfmCy0IgitM
+DfYpRqdaqNUtoJZggDpXgYuROBSTc_PgaRD_E8WS0BC3m2anMm5DWAff1A0Sm7QoZ3id_UVddDlbQ7bRdx_rTqZW_Bn-juEJVZZhWDeGkCk_od6E3029RGPB
+7FKLtkCvXdg21Nwp6vz8-_f21BI733up7owqn3Vy1G
+}
+
+EntityColoring(google_play)
+!define google_play(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_play, google_play)
+!define google_play(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_play, google_play)
+!define google_playParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_play, google_play)
+!define google_playParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_play, google_play)

@@ -1,0 +1,12 @@
+sprite $graphene [54x64/16z] {
+tPQ7SWCX34GDQg3__zzKV9kSvdHYMifETNd3SrcansM8scCtdPYvxp6D-2FKDW_wY6YTuMVKj2m7naoBp25d1gee9sgWwd8hN6V4LgHjovdsM-OtohKEvYH7
+sG7KD-NMcwaDgSlXV-F-mHrC9WSfVuiTSjmAvR5FoXSZ1Jar0rMN-qv9eTcs0eeAHIXJT9AhK3qmWQh83HyvrOW2CprGTt8gxYa5EL6qjDzGB9134UY6KhSb
+Xo9KA9_wLUvHfDm7v7OeoErGU3gb49dk0t8vXJHpjFIMGWZFr2da_rFpH6csaQ0yvg2cIhx9uDgHWREKLthn7lMFJ64iJeLhnrS6WxkVlpHynO9cb4DBUIvi
+wlEudYq7gmXD3qs1vfKSMjg39b4BgrWSLr6JUrWEuYnjEi-QYHpIxQIPo2MQYTo5vXGmOT0dcaCIkKJJxkMG9ekhx7nHCyYLkevfKevC3t8bJUkNBxu2
+}
+
+EntityColoring(graphene)
+!define graphene(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, graphene, graphene)
+!define graphene(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, graphene, graphene)
+!define grapheneParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, graphene, graphene)
+!define grapheneParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, graphene, graphene)

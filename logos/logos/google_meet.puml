@@ -1,0 +1,11 @@
+sprite $google_meet [64x53/16z] {
+fSj5jaL120D0Q4tO_tw_o-DwdzIyBAdjHYrseQBTgbVzmM_beZ_vzQ8BlqBw5Uk_0ItrjJz08lMLxvEVKb_u1VoI-lFVVZfJV_pxRsVg3x-FlyxKd_qo-QzY
+zNVm1RBg1-fh7y6BN-p0wvyXVOJoEqFudrtv8qBvCwIFK7vd2F-pAtz4AB-7zWVLJ_LJ_LG_rK_ra-gd-gb-tlpg1-PhsFp8S8JPrUSz36ZV6hHl5TgtChLl
+FY3yJntQjmRjMm4mXM_UcYl_4yK_LZzw-ex5FzqI7oiVOzFV0G
+}
+
+EntityColoring(google_meet)
+!define google_meet(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_meet, google_meet)
+!define google_meet(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_meet, google_meet)
+!define google_meetParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_meet, google_meet)
+!define google_meetParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_meet, google_meet)

@@ -1,0 +1,7 @@
+sprite $jamstack [64x12/16z] fS-50SCm40F0Pzf_uDQqWAA0yGn4P3KdGa0u3sxGBzx2p0Lvc-LN3VErFSD-llhGV_3xbxzQDmFUbrhG9Wb95Qz2kmNoNErgCQq4ndgcWp7y0m
+
+EntityColoring(jamstack)
+!define jamstack(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jamstack, jamstack)
+!define jamstack(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jamstack, jamstack)
+!define jamstackParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jamstack, jamstack)
+!define jamstackParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jamstack, jamstack)

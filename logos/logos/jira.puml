@@ -1,0 +1,12 @@
+sprite $jira [64x64/16z] {
+nTLdqkGW38JXHg00llzvDqymDTCghxxm_dySYA2Du2bgFWmqYIpGMj73YduKFRpeUz53YnvMzCrg7j2YXrZD0ssO_utwlDQS-M4q5O1wdxmGxdKc6VSzyyvz
+Yvg75tsFp1lryCmhzn8qH-SUdNf3S-xHkOSc7dskjmNGFF5eleutJG0zyu3Oxs_u3ROd_G7A_AqcVVpErkPF3-Wy0UJijtjb9JbaFNN4TgJD8sd8DlwtH3r-
+bNdR_3P4kev5Onw0K9nxUERRf5uo3-vXcNVk4ToVjvC3UosuHt2FvjoFq_drAftCmpEFfZ5ldVXK01B4tvBR5HtpESNf0OwqlldJ0tAFySAZMHJUVzln5G-q
+Faol-wlr-5ulppwkUrIznLF_uQNeOKKls_wzd1ttY2TvqSDNpKDNmTzErUDO5_r-A6R-9m
+}
+
+EntityColoring(jira)
+!define jira(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jira, jira)
+!define jira(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jira, jira)
+!define jiraParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jira, jira)
+!define jiraParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jira, jira)

@@ -1,0 +1,13 @@
+sprite $julia [64x41/16z] {
+fPG7hWKX24MfWi-o_-L-nTThndzIOCWzqqY4Gv2v2Mn3Fj5jtpp0JHrzmR39VtqDtM2RD7M2Dn3XHml5BX4IdirBmdBE-c7bfzRRC4V49GRkna-BoHDvvriV
+L02F25-MG707vy0_-vU8WIm_mHsI5_ZPryiZr5-NG1lFF_hzAyAZUVr-W9IpCtppSKICOJRkYLxtn6E8F879Qg_-YcXuA9hCb16kQAwz2qWRuHOtID7YpHSl
+CmAGIkj1SuG5nuH1Ohxy_kYlY02MUMqsIozuzljlloz_Ueq0iFP1FkfJk_mEZy1H7wTVhelfHttGsghymmUas6Mgctx8yVStVVBuXsNJrsatWxJdQypbs_-Z
+RtwRHN__Vtlhiwpn1v_YxZudxRslroVaDpwKQB9Ow6_yLKx4f_xgnsClVFZ-6ZLYhtvi9pXv58Ie3Qy-rsZUxtz0LbezwVd0n7Nm-kMC9G2qKcjnb1Yy-0E4
+7-1pOla46x3osMyxUXwUWiJMTlms7wmvZjtDvo-QmXPnchVgjAV_0G
+}
+
+EntityColoring(julia)
+!define julia(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, julia, julia)
+!define julia(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, julia, julia)
+!define juliaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, julia, julia)
+!define juliaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, julia, julia)

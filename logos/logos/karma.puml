@@ -1,0 +1,13 @@
+sprite $karma [64x50/16z] {
+bPDRkiGW28FbQlU_uRdd6mMPSyXZor-ILCTPegi4ZqbtyIYaliWKZzLybOwIjrMOOzj5FPu2BgF7guMdFLwY-nwVtRVuxBx5P_SzFhjlyTbzYs-wZxnazxtz
+JVSfRizz_5jHl0wU-H2uTYz5bl-w9vDc0HmNSQi0pOFSAI1spyN_gDmV1xSF_Yf0pqtfWZl1L-a-DoNVE5Fg0fogfWGVczFA03wzR8hVk5zpBhu2VisY0FDd
+D7cDJ2uAUBwRL1uL4dkjnuwy_gcSW7Q7eO3mRXuI18VNkO0tVagWkqCKGDdzEG675R0OtKDQ5E1XWoRtHGADCmHVmNsHGC9CFCAEJnS96EinPw405f0v0GRz
+cZ9uCoZVMsixxwa0VxlMK01u2WOq5k2VqBON07x41Bp_GPzuO4i1-kL_9p07FkXrX-0B_1y953W6SOV1rmcoU3_2uEi4KR8VOV1rWYZ57nJmlGJ3S8V1DnCC
+nn46tqn0A01yDm4lHrWNNnj-pJi
+}
+
+EntityColoring(karma)
+!define karma(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, karma, karma)
+!define karma(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, karma, karma)
+!define karmaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, karma, karma)
+!define karmaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, karma, karma)

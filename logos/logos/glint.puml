@@ -1,0 +1,11 @@
+sprite $glint [64x17/16z] {
+fT87OWCX34JHaMOGvFuN3c8ZLtRJlXljkIDZzD63MBNM31MPg-wELGrjvcfQo-pZgA_f7DJfUZ99n954myIpT08qxYNiMoylh_AkZp70T8tEc0yuzx8tdzJg
+VGDikFAy-w_IwkdZNdbnv-Vfm0yy9VcxpuJCcVcPDrzovxduEB8p3qhwZpT9t7t-jiQIsfpZrCCb-QjFKmiQ8ouyAEdLvotkKrvvyDr3-I5ePci08DyKL_xg
+RUCHx___Q2k-UlZ6GwLxSd2EpZouyV3MKmj7Z0XbNf9a6P9t7n6V
+}
+
+EntityColoring(glint)
+!define glint(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, glint, glint)
+!define glint(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, glint, glint)
+!define glintParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, glint, glint)
+!define glintParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, glint, glint)

@@ -1,0 +1,11 @@
+sprite $houndci [64x63/16z] {
+xS_5GKLH40JH7gkNVyGuVBVR6wpsPoJPZ6Ys7zD_WCKZQd2yf5oVGEcrOjMttefUd32Id1FGPuddbInvRm2XNONdDQOF7kM7Nir3U597yO2kq4d5dRXpXnuz
+W2bTghd99tIvkEafNMjk-hZgywRNzMxvzZnf-Z0yJ6dH0vsXcndsl8UfdNtOpywkUNaUrwVdjpOzOVhs_4PwVYCzlz6vv7S1qvMnu7V1nvYCn_qkFkV4Wjy5
+dj-GvyVpbEdJzFByU9usVPe-J2_Fj-Uf2nxlVRNtlfu1
+}
+
+EntityColoring(houndci)
+!define houndci(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, houndci, houndci)
+!define houndci(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, houndci, houndci)
+!define houndciParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, houndci, houndci)
+!define houndciParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, houndci, houndci)

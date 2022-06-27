@@ -1,0 +1,11 @@
+sprite $importio [64x12/16z] {
+fP47hY0X34Cd3GY-_ttNX2dxUuiKsPG75W37zqhayHr-sPdVvCTy3cZJBclAe_KgJgY8xPqQiOpKl4wONf3M3Wkc08_jkCeFcqk3ox4dZWGcSu8YTtvZ802f
+cyy-gya3eu7h2WIDa1-TaL7oy0tf0xbvlzkGQtDdjtM7awzhjpnyGYlLUxo_vFLTdYtlyN1Dn9b_oiEte8oKpGTchFnumxF6-Nxhd-R5r_k1Q6siLq-9M1-X
+JoEZHwKKTw5uo54IKLztR83MwL-NyUxlrz_vVm
+}
+
+EntityColoring(importio)
+!define importio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, importio, importio)
+!define importio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, importio, importio)
+!define importioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, importio, importio)
+!define importioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, importio, importio)

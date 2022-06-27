@@ -1,0 +1,13 @@
+sprite $khan_academy_icon [59x64/16z] {
+bPPPaWOX28C9GhZ_YMVxTqhIu_TgHmscAMp4ayLSTeopRl1GZAmNz0DXr2S9-n-BrM7Wm6JZsh9dJMZBI9OWPt6mBaYewcWOiZeQBX61A-WY0jUMjKak1zPm
+dPlbK8jcFXniPgksBBChBJXjUcFUt8VhVkHcs7qeaRsJHzN_aCQXL9YLK9wgWIgJ9WxkExyEM19oYXEeFwMPmOEVxGHcdv5XBi0iTnLjuUA-DKMNta1UzxJL
+fRhLhB7aq9cbpn61Z0yXVWUtfXLAuv2U6ocK9dwL5WItJxpdVLmFQyHK_7vbMeTDIcjWsjDL8xkHwb1zhE-T-XYrlZtqeJU8JIKfoYlUrZVtNQ8XjTIuCAgq
+R5PRiw7GPb4D3I56b2WAduIOCg8enerbCJUXnPmV9RVj99VTWDr0S9-2O6tKZfiAlbs7d2b9Ke-fUiZJGYtMKtKlnVbiYZmO3plE8vFISW-u9avCQiizdHhF
+0vF2iXPgSS0EGV2YEjy
+}
+
+EntityColoring(khan_academy_icon)
+!define khan_academy_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, khan_academy_icon, khan_academy_icon)
+!define khan_academy_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, khan_academy_icon, khan_academy_icon)
+!define khan_academy_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, khan_academy_icon, khan_academy_icon)
+!define khan_academy_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, khan_academy_icon, khan_academy_icon)

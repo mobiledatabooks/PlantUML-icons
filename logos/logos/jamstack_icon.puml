@@ -1,0 +1,12 @@
+sprite $jamstack_icon [64x64/16z] {
+nTTdqYOX20HWCK5p__jkVB-I6NEneVy_bfWDar0gLG3TPOXZvYQllSNtFeksNFjazBsd2dNuPFMzpr2FBweUNzNXvnoZz3vFE8TH-EqJN9wWBi_gyWa-B-ho
+MNrUV3whpulF4to-gC-ppnDyFgdF5wTdfnUdn__q-rIdbpmAz1tXOG0P1U_w4SOfu_hbFN-WAuzk_SGRJytZitxpZO-c-wdDyx7FpTTFNt3ZkVdyDPRfmflo
+wUlygkS-cV93YFYqTEov-T8MGpdrPBlVtZsWGr_Duh7jrJCVqNnwFBpIaUV6vLaGwC3dnf5UBp_UUzjxxlOZxpn9uw2-rRhnXciULSMqy6GvZoTLujH7osKw
+BMNYCxGhVjWtoGCVMKqGmpja5qQXfq-C9U-Vu5mY_VQKYkWZCZjjeJOG1bYMTzBzxmivB5AmqKnXcLYnu98wSDu2kEbbA3Cw_9dJmr0gZ6Phck7l
+}
+
+EntityColoring(jamstack_icon)
+!define jamstack_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jamstack_icon, jamstack_icon)
+!define jamstack_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jamstack_icon, jamstack_icon)
+!define jamstack_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jamstack_icon, jamstack_icon)
+!define jamstack_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jamstack_icon, jamstack_icon)

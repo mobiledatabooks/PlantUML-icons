@@ -1,0 +1,13 @@
+sprite $kafka [64x29/16z] {
+fPG73jim34L9JSlYV_S_Rc49QRCmuZBn8lGulWYPfI6DP7VD0o1k1pY8Ke9nbvyKiqBSvwjPlSztr9eup2pte_dF-as0wMPDzuHiqfKsYRC7vmq9OZTohY2x
+0F_II2hVtQ6BEPO68b--hFbbf-M7wdl_0s2u3rIy8ryy7tn6nGRrKpu98X08cltbFL-rb5RTitjdfisddCnIRTboFg0dxw3gGyJ2D--XRda2CMbL8B_uHYJh
+0awXBVWWdaHRl4-wUH2z2xeVHBto5vIjmcW3O1VSaBys6vFZyiVUscxboZGOKZQRz4KXnh_yzfGVvl8tMuzkTV4xeMkbSt50SsjQueTcUSfVl_4duK-y1qZh
+2W3LH_zPoa_rF_ZQEH_rTx2qvp-b4zKqY0T_iKk_un1F_68hdFq4hhMXyfW_Vvw_mTZXv_dC9wbO4p34y_oFf_bFwN4hjPWdDx--FFdbNlDJyrvGfRebFzfa
+seys0Cwj1YZ_Y3TqT2qvopXx-ltyQrUGQJSj_lFy7SoK9kCkdmIWP7SjJvZvBlq7
+}
+
+EntityColoring(kafka)
+!define kafka(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kafka, kafka)
+!define kafka(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kafka, kafka)
+!define kafkaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kafka, kafka)
+!define kafkaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kafka, kafka)

@@ -1,0 +1,10 @@
+sprite $gitter [64x64/16z] {
+xT250OH034JH01kRz5_lkRlhV5mUilYj66FXddVm516dJ_UOhnT3UgLl8ZtW8fBpK_VuxeyyTZtky_JqSetNrdBBpqu53bG7cb_OyZM_zvgs_Rnt-NgJ7r3q
+zup_7RvSrL2fghVv0XRhZumnDWO
+}
+
+EntityColoring(gitter)
+!define gitter(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gitter, gitter)
+!define gitter(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gitter, gitter)
+!define gitterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gitter, gitter)
+!define gitterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gitter, gitter)

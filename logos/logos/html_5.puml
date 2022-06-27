@@ -1,0 +1,13 @@
+sprite $html_5 [45x64/16z] {
+pTHBOkiW38NX8oI47LBO_svl8RO26DBwZdg6vElpDmQ0cBD0Sdwu_DgJKiuUU7oV8UK4MyLynL-GFCVgjE2KYasnuBm_5xWkWgXy8L75THzm_JKzy1cdhpJW
+vvxpTc1XvWOBPCIKDddXiaHhNFuPNCyeztYBqO5Zt02461cWHzo1SXRmY6KF_9tndONjnlI63RUmNvnVLduBkOFv1lRk1fOxc6d-iNPxsStXgEAfMr_vWh6W
+3IReKP9-n06_mMBuI1W-O7yq6R4xHktKyDcxVixsVBKx0mBSOaiq3GYu_y5CPU43Pk3iBI-yRz_RfzWr60NBCMucLXl3mu7hdDKshCieR7ZQUrNRS5XYts3_
+Iwp0kxUsytMkOhNQ02_leAvn1NrkQh40GsztnVIk_Kx8gBrRZ2KM6h5s0UiVqDzltLUOEanb4Wnx7cjVUpls8QWucjHUlmmkUDvxMHkG4sEAzOAhzkm8FNRI
+l0Z6XqE53HDxxUxsqRjTK27xbjtTjeJz32vmly5QRM29ZLf082omoHRh0dS7E4So-bwgEBGZvqFltwa8an5hwANA17PzxLiw_3nYNNpBVm
+}
+
+EntityColoring(html_5)
+!define html_5(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, html_5, html_5)
+!define html_5(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, html_5, html_5)
+!define html_5Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, html_5, html_5)
+!define html_5Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, html_5, html_5)

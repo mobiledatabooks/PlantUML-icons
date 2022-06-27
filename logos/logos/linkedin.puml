@@ -1,0 +1,11 @@
+sprite $linkedin [64x16/16z] {
+bT85aiGm30NHBx0bzVqFlCEGMfek2Bw0RNrOyLRhmpXKvJfNxReNjVLDMKiQjcrUIvroADrBq3Tj-knDTl37zoUZRrfNltr_upraRieLDsyUBiLAqodB5JS_
+FNJJkruzdAyFK5VVZFi0ar8Cvou-bIqxAv-ddxE70Vpi2rn3vGRJGFUhbyoaTVGfXmoccD1YJ5PaG4hrwfDnnS7tPMS5m9Osr_PY9EMh7rXoW7ZtVVQp8RIP
+TIuMs8--rYaxU1LZ0Iw5ow4zvdj_oNZv_cHaGrl136FQdFlEzwMoQi_UadPdT4dUdLh3L4XQCxrwtzRFU03R5-YFxB0plASFQzwQBm
+}
+
+EntityColoring(linkedin)
+!define linkedin(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, linkedin, linkedin)
+!define linkedin(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, linkedin, linkedin)
+!define linkedinParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, linkedin, linkedin)
+!define linkedinParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, linkedin, linkedin)

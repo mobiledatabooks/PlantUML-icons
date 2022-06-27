@@ -1,0 +1,11 @@
+sprite $leveldb [50x64/16z] {
+xSn7SaKX34L1eXxxNx5_3XJjAaQETwe-IklbrdBQMAxzD3JqQEpdnhxTBHhugIaR7Wqy6ditzcxAmaSSWKR-D3HTNitf605_6Oxn-c5Uh9y5_EjnlWOyZ_iR
+btrsN7aquxwLdnhSndrpWzjO3Xx3hs-s__tls0vQZotVssbewD7Okx5tO-_6_juS6nuDF1huYeR_Qobev4z3Gy-6FcSqz2cXaJyD3JqQUZNsRkpTp5vDlZVo
+Rk3TmBkHTqFlsNy
+}
+
+EntityColoring(leveldb)
+!define leveldb(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, leveldb, leveldb)
+!define leveldb(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, leveldb, leveldb)
+!define leveldbParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, leveldb, leveldb)
+!define leveldbParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, leveldb, leveldb)

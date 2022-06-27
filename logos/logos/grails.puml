@@ -1,0 +1,13 @@
+sprite $grails [64x64/16z] {
+fPS5TiKm30Iru_kVkU22OPKuUjbIQck4FnHNacY_0aLDektI2xZYGkr6Aj5r3xIZA0PtgOQxgENkeeQxkCJXG98wqDGQDVwN8lflclg1_at9SBuF-FxRle5k
+nSo7yYdyh_K_Wmyf5Zvm1sCnr9V_y-Vxa8bdRhGDlXlzGlrG8OKcldkm8KnZwK57N4cANnvwRpJCH_Yrfh_w-Mr-v_l6A7PAO9ilf_4FhU7hOisdBak_AAtf
+noEn542PNmjehtZftGMQzRzQ-NwvgANlKYdz8KdVA3m9txtaZJjtW66RD4xeb3rf7UO-boRBl76W0vwF8Huu45pURZ0h4na-3ipGWYk9ZlKWzK13wKTORMWD
+eFKpfxHq8ki2QpwQzxJDBMcZjfdOtb04FiUj8Phti73NF5kzCckLUSnQJtdFd_n4v8PFJdls5HcVHyDFfK5u__sp5yF029k_HTlE9YVMRUryTasM8gJjVDBO
+2x5dRrrr_-T7K6uDTC1J1_VtdDZ5NG0CTr7WppTMx_yGZs-D0BxuxWL8hzxVY8EufHLdKQHTeWYx18_WJm
+}
+
+EntityColoring(grails)
+!define grails(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, grails, grails)
+!define grails(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, grails, grails)
+!define grailsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, grails, grails)
+!define grailsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, grails, grails)

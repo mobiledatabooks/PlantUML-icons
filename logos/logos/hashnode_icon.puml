@@ -1,0 +1,12 @@
+sprite $hashnode_icon [64x64/16z] {
+fTHNaiCm30HHC0vm_mDlpiikZqhlbswGLWhMbx8gSuz0RAg-v6fnJS_w9UUrpUkV7RvL1xgHmm3AWSmSoSkPl9p9ovcydCdBcRoS2NEJ8BS9SfiWjmboco2t
+2NARZ5mlyj60IUkZnQk-wso_BzTHZlZILKSpNkGvR_4J7A55JCf_4_m3s7x47mqEqEj4xlEz5ctl7I05r-K_dGTunx__ViUyszyzlzzdsDTlrqa_zEUTndcg
+-_TNf7S0_Dtoxi2cdxNpu6tT_CvBQhzsfqruiTRdX9brb7ndtsdDkPG5UGiO02270KxE0_oS1_Wv3-2S1_Wv3_1p7i0va9aZUJcJbpDvEPENCtavavSpOMuI
+vBODkMt2zzZMVXr1FIvhI-znBgxZ6G
+}
+
+EntityColoring(hashnode_icon)
+!define hashnode_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hashnode_icon, hashnode_icon)
+!define hashnode_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hashnode_icon, hashnode_icon)
+!define hashnode_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hashnode_icon, hashnode_icon)
+!define hashnode_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hashnode_icon, hashnode_icon)

@@ -1,0 +1,12 @@
+sprite $haiku [64x17/16z] {
+bTDNOkOm20HWGA0kSV_RxfY_5s-IUK3rSpT94Zh2qJcFVbq5H_ZHESlmdUXhabvEpAhXSywAndAsfqtkNXbB_E5LLMuTh39s3eos-wHxUBchOaa-lMcwN8U5
+1-mOhXTFR8din6E9antvyAcljOOHjzwJXhVUksAefEWHWQdQ9NBnWvd3GqICKNBuexHZM2YZmkTxRjvtg4d3VPKu88Psq1oNn_l3cw9SV2HyEcvkFdoaquid
+CKWbpkNkzzxXgQuWBxwzUaJ2brBUxtyuwdxphh4fauKN9XHv-CVpbtXCuyd7qMPiQjp3rwg4mDTlVZH_zb9GCjqVCdnh5hxMcj3umnybCX_lZnPad3f2L6eD
+BrS_vwmOzZaxnRClSmx1h2OK8Pjp5HxkCsDCTFljfBKgz1vcYfml9BdqE2lJd_CF
+}
+
+EntityColoring(haiku)
+!define haiku(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, haiku, haiku)
+!define haiku(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, haiku, haiku)
+!define haikuParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, haiku, haiku)
+!define haikuParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, haiku, haiku)

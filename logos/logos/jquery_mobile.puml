@@ -1,0 +1,12 @@
+sprite $jquery_mobile [64x48/16z] {
+nT9fhiCm20HWTkBU_xvlnPLmGclU-lsDHl6WWKywUWmI6RUUWIdlj-_bZsx-I74StNpkp-twalBQpjFE-KRfm8tw9YMreF26ndN7chfzSAlNuombSmlmnYxp
+jfFNUZqgDPiupjUk7wXSpx5rFYphEuUdzJqzsuDGu0VrPQq_L09289PLgf_MupB1X5oV3zVrc0I6_FzwFJwkdaymSMCzXqnOvClrrFKRwx6KB-fhgg-NzNcx
+lj_QvylhASvNrs-jXvwiHv-iXn-ivrlrutpj-dazS7nlFK3cTwP1S6BHHDJkO3M_kV9alahr4xH9E8ZL11RKonCis2QLeAOLBked20rs1Wre9meDR2SC3LAS
+U9V-Rtso4_dd-jZ-V__vhm
+}
+
+EntityColoring(jquery_mobile)
+!define jquery_mobile(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jquery_mobile, jquery_mobile)
+!define jquery_mobile(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jquery_mobile, jquery_mobile)
+!define jquery_mobileParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jquery_mobile, jquery_mobile)
+!define jquery_mobileParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jquery_mobile, jquery_mobile)

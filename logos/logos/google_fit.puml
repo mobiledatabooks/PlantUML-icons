@@ -1,0 +1,12 @@
+sprite $google_fit [64x54/16z] {
+dPK54kH030CpOCl___2nAZkzL3uLH-aE35rtPaXLKgphPUPEgPInndCvjgeSnRYObN8jnKIx2zcWPVhL4qRMK_BnXb0ncZVEbZUaNlMBE3EDix20DJC_znhy
+TSm4ZkIlUXG20N5-GPnNn4USRQPqle3uGvRUFsxydQRbQAv3zZS1ZZDYtuA8ssKS0kBk-Rthee3uvmdd7WBWd39yVGg8ioNF9KMSpnScgxDs0YVF-H4dldU-
+nQTSARXQZ5i0d8-V1O5n2pxYjIz1ODo2ZxZ6kNodSIUVy67S_qmGFE9xNKyuDv1LZraTV3zD9kslE1Ui1NryO3htSIV-7xUWZn-9DexiBixCTUEXrS4fY2gj
+5cw1yLCmHDoXmBW53To2mFbC70W5nYteu3pzjBxZp3u5atXJGBmh0DuK4EyAYFS5E9uw0k9D0V6-W7XVqCSvbOdt1GBU4X3l2u0tiuapFm4
+}
+
+EntityColoring(google_fit)
+!define google_fit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_fit, google_fit)
+!define google_fit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_fit, google_fit)
+!define google_fitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_fit, google_fit)
+!define google_fitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_fit, google_fit)

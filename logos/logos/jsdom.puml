@@ -1,0 +1,13 @@
+sprite $jsdom [57x64/16z] {
+jPTNGiGm34JTcvJx7vTE9WgP9QBChtdcIIxn1fQOIYav1czIUK_sOaYwZyKC3BvUZAFSqkCR2qkwQ-dn1UP2KHmdayEIbyenxiijwthBdBCJb1JNjiyiuejU
+4d1U-ZAkT0A295jbxk0WtINjN3lOosK8LtK7M_44lT7g0b6Y55U4DnNXY-4lKG0EJurZEqJw_PRgPh9kwbRPJj7Xv12vKUdQhgBToI73oI6htk9SXLR3QLld
+GXllf_shBeGa70vmdKf8mg69JRwhSv7crqb8nY7Tw2vovC6nmKaE4iROQHbN9nujHOGi9wP4j18RD8WSf4b4COhQYQnSZJPSlaGMeYPYfhHPNqJLT3QDe_iy
+omevBLgJ606niiFyawg7AiCmwzECR3kLrJ4MGvncHypZ_LINcHKxMjvU0LtHAIpggcQ3ZyDtKsSCRqbJiP4whiF3TIBOHhfAs5C4UsMURhIkn-qfKeD9mybL
+xUSxRE3J7_aZiDLoIgyF7wtHyUnqeT7z8eUb7yt_y_C1ABLq-6PWBfHRSj_7s3C
+}
+
+EntityColoring(jsdom)
+!define jsdom(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jsdom, jsdom)
+!define jsdom(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jsdom, jsdom)
+!define jsdomParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jsdom, jsdom)
+!define jsdomParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jsdom, jsdom)

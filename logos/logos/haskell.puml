@@ -1,0 +1,11 @@
+sprite $haskell [64x10/16z] {
+ZP07aYKn24DjCeZxdtTXveVUYgCEgfBrd3nKNCzRbZx_o4sUOe3FGu0V0cG79EipbbtdNC3_oXz3QkKxZ-KFUdWIfet6xozFD04B_yUVWdcPneYM9-Bb4oCx
+nzULXfVvQEEyJ_xt169kjZn6FNo4UeCOEptH6A1xFglEMrz-BIkkYDm7pnO1oF2XV7ZJs6x8TFZ11zogogRFt_tVGjKM32ETg8SVmqg-lAAaSbw-zt5_4r_U
+KmfBTWsOW5vqa9gC9-ymKq6Zv6Z5v_xly08Kq30WguC1De0So9srkh5xGY0qOydyFKmElxiBm8VGd5OI3NysTZJy7aNNJbR_
+}
+
+EntityColoring(haskell)
+!define haskell(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, haskell, haskell)
+!define haskell(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, haskell, haskell)
+!define haskellParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, haskell, haskell)
+!define haskellParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, haskell, haskell)

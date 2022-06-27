@@ -1,0 +1,16 @@
+sprite $letsencrypt [64x50/16z] {
+rPG7jXiX34LLw7hiVxiH0cVy-n_dj5mNv0UNuz4KkWchqB-WIVz3drK--AByQr_IGzEhI3SwgVdXyKFFwTvnPts_toqa11OHZktafJQcWEabEENDYnkafQRu
+lkMn4nrmKNWDMQxuHrBWu_dZl8ehlkL7SCU__l_bQnGd_YsYnP55zaA5Rb60wS0vHOsyjYPV6AFGHP_l6P7RHFhuLuM8VKPUyiKmbW7eFP-5mqVCyG0_eikt
+Pb_ut00CfU8BOCFrBDsZhay-b1IV-k8Lu0lgNiX5UKVjoRTGFlFRAiHcru9fENkKtELKwSb7fOhFVBPffUGnmOmpfvXM4rr-M6D-vWlYul0l3Jzew_UGDxvy
+yAC_Bba9-F99gw_kb-zWllDdRuvlYynSIsm5PN9gMiSmlZ__6r7i_jV8C9OEcDVHmF65Fx1HIkOs6XDb86RJE4dizPuMFilcFDHbX-aK4aMWRqbA0J-Wrp1i
+-gl-rOsRQAqf_D6TSjlFcFLSFm6h2kUyVqcfHQAFNBBkBlh08XmZqRhFUXBtqsvV0eO1gEV2dQYwejbhj4S0gC6wZvRs1O5k_kLOTj_BzH5g4PhgtaQmmepP
+E89Or6DvincWB1-PVTiiKQL4os_Ar7r-VQMut4MwnrGmAxDvMHnP_Y0gSvPyxfdbcmynnQlsvU2uMUtgdr2Gu5Ru_gd7FnkDYRgMiyM6_CPFl7ZolJBsLPTV
+CAC7l9RJKiTVVyBCC9xy5LeRu_BP4ozZH6iu_RAIF0ZmTFpBMrHTKL1zHJx-kLnv5QtrJIFjlHBbtdsTD3Dh8X4zEidXemopkATJDylqE-ewOtJwntIJkevO
+Zt_RZYD5evTzYSVYv_uV
+}
+
+EntityColoring(letsencrypt)
+!define letsencrypt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, letsencrypt, letsencrypt)
+!define letsencrypt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, letsencrypt, letsencrypt)
+!define letsencryptParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, letsencrypt, letsencrypt)
+!define letsencryptParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, letsencrypt, letsencrypt)

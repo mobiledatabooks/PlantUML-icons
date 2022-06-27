@@ -1,0 +1,13 @@
+sprite $google_cloud_functions [64x58/16z] {
+hPS75lCm28DZCwJxN_WVtQrC6bwgxl617_8WsuSimL98s_OLuAwGeuMhSWUVtt72QpvvG1WLRk0HHSKVmucvnbtuLWd7KPomfNSyB1pmhkjXiY6CjdVgOLsy
+leV1fd8tFHI0U5YcHwePc0dnSEqTylAD53nHUPWVk8QSbxzXxQ53y2ramaY0M1RlYQy2h3mC7PNQYQXIJKXPevppK0-JmgDSTFgLuI2VojC_qdTv34V5W_Td
+00NFIAvvp6rUB8xBMnGyKF3_gvt_pHmNvnnhdXN_7qh-vozWiE2pu6d3oPmpIH_6WiS4E_xhFfPdU8njeCNhd8uMhrDgwFhn5MyQsHRRnxXyLU1JqiiAB0AO
+3fNpUVP80FkEHt7sOInunJcginVZ4oTDSA-FBpX5ij1RvvVAzdgVVW-KJNwUxXzE3M2Swf_el-pV-YsG_R9_xPTmdkxVJmrWbFn4rxj-2VFKzHjpRBkQYLRZ
+_XS
+}
+
+EntityColoring(google_cloud_functions)
+!define google_cloud_functions(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_cloud_functions, google_cloud_functions)
+!define google_cloud_functions(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_cloud_functions, google_cloud_functions)
+!define google_cloud_functionsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_cloud_functions, google_cloud_functions)
+!define google_cloud_functionsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_cloud_functions, google_cloud_functions)

@@ -1,0 +1,11 @@
+sprite $immutable [64x9/16z] {
+NP47SiHG24FvbIBkVzu8d6IBnYD0vhbcOY5LH3IJdR6xcRSwIrYMN4vYzec43q5Y29TB81zOGi_gZam4UPWu3OpWrLxoA9a0pLD_VCpWqD7qDtvla5oJ7iqV
+xeu_tlTkljNyd_xuAS5TWWdiuZcg_F5Xzl1PDFAl--BR690l-T_zA_tbiu_k_dX_tP-vEYlJRSXDJlh-vpoyMvet7vfkm05346dUq3hahp-yAeUuzvSVFkpX
+Xqzbf_aySl6r7wokVyzVigHbX4-F_l_kowF_FpDH92esTyvx3Bf6q8PuKBVz1m
+}
+
+EntityColoring(immutable)
+!define immutable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, immutable, immutable)
+!define immutable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, immutable, immutable)
+!define immutableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, immutable, immutable)
+!define immutableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, immutable, immutable)

@@ -1,0 +1,13 @@
+sprite $ink [64x64/16z] {
+jTPLWjmm48HXgTNadTp_kW6lF2creOB_-rS3nlRVwxtrl-5xZMmGJZO8XwudE2TVO_X50tYf-jW-Jdb_J83tp3hmYcS-q8yi0vmltd8VUBqrvQkFt0TUxpX7
+Bvaum7dncZZ0UVMUEC1vzP4my8NowYMX3ywhL_IRjbihG_N2n-9TRknGLJCx-PwBJvLh-ybDgn-vfYhLpcnFYxULRtOCoBJ8vm3wADvLLS02dodwdiM7NcQG
+WXzPuzxqf_VADwFSJDy-Jju7vMOwlUJ91-Dx2YTlYV3PmA-FRKOu3lY5TyPnmCu-26S3IJGTCCvdMWRA6M2qguEu1NB--UTlG7Wz2PhuwcroMf_UoarmSbex
+l0Nw-4MkqmzpZuGcPmc-lmHylYtDlqEjrj5x84SxVgJNNt_ws4EEzcPWl7ryXXpetO3Kp_VO-M79WBOZiICFj3Mblk2IHVdvSFpt2C_4WLxVNpbV1bhrHZaE
+QF51U3sx17n4CBvjPQ2ZvnoA-VNn_wSSIpCRuCMKyZeWuCSprpZbri5t4NdmJxSUFY6DX1F2ETyWd6yC4Shvzs2SJt3-3G
+}
+
+EntityColoring(ink)
+!define ink(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, ink, ink)
+!define ink(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, ink, ink)
+!define inkParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, ink, ink)
+!define inkParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, ink, ink)

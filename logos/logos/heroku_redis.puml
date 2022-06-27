@@ -1,0 +1,13 @@
+sprite $heroku_redis [54x64/16z] {
+dTG7RXmn50DGzKRU_xff7v7M7yErraH9RCy3rODBRXCWYlsK5edPImnlaZfeWNstQC78qWoU_FigWZlpsLNGgz3valw0hCYfKFiO2__heaUJNfsaQd_bIhv9
+AKjUnhwqDGhbFndX95EhdSg_gM9IIXd37cFXbRB9Dr6bb6qwzW-NoZQzxF5UgeHpHCQjijEyzdzlLT-h676lYltfGvNtdnAlbNrRVgm-7s7vsMfyklBjdDzn
+h-RPvNQj8ix5JDUgljxBTQlMwxMibwhjLr6LPR5PI6SRRbI6Vu37zwg0jkmdSNsZOkSUdxlRKgMEvn6azQXIAMqiMh3HJXnU-MCpq-E1NlGAt44D8dLfDOAC
+LmK4CM7B9zBeL8WfHJjoiYpYY_9Z46M3GhqhotJggcnffSigfT9b4Lhfia6fT5ccLhfi2UMU6hyXGhdNUegba2ei__jEgNHPfbQwR6gboogbqcKHMkcoJgbq
+MQ9MkcpUglrnDYwKBekGIfULJgdqCx50hNJPUaQ8uLrPnYEgGQOJzJS
+}
+
+EntityColoring(heroku_redis)
+!define heroku_redis(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, heroku_redis, heroku_redis)
+!define heroku_redis(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, heroku_redis, heroku_redis)
+!define heroku_redisParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, heroku_redis, heroku_redis)
+!define heroku_redisParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, heroku_redis, heroku_redis)

@@ -1,0 +1,11 @@
+sprite $kinto_icon [64x25/16z] {
+dTA54GCn34JHQ47kl-A0vrWv_871PtvTAK2HYDUZWbIFn0CEQegypKajuvFPdmyGr2O2aYt65L-ud1xY0--SiqvvL7vh06XLRZ9kBJzBkkEp9fpvojlIw_B-
+S-NRxzy-yr5FlltgMh_sAKb4uJdoLF7rtLFUy1ov1t_oxjETjx5XwuEtJWy-FV2XbHTElOOrLs_lFs0jQjkoP_itVVoPEXRpEtUzs8ygwfLZvZCh0tI-6aAC
+M9xxGjS1-EUvsNBwrt1MEwKLdNm
+}
+
+EntityColoring(kinto_icon)
+!define kinto_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kinto_icon, kinto_icon)
+!define kinto_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kinto_icon, kinto_icon)
+!define kinto_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kinto_icon, kinto_icon)
+!define kinto_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kinto_icon, kinto_icon)

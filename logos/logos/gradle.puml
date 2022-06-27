@@ -1,0 +1,13 @@
+sprite $gradle [64x47/16z] {
+dTO5bjmm30RWNsOBUl_RbkAtYQEwK_LR7B30z0PHgOkQSa_u7pHiqK48osetoOZYR_QWuHwgcUdiGrO5YAhIhhzN8nrEQ2QKS4I4lsdd0bBfaqLLXKVBT0Yl
+Vvw1tCKsEYi17jils50JCqz7_fVnDDHEkE15t7WsvnmXsNjyDUySORhntJmVON-pklmVICi4ojCkx6RaCvLxcYk-51IBKi92h1biPpDbNr_7aiICaVVWkTWj
+0UMOFidLpB0RfoqUt_svxadMTK3tp8nro6-ijfjOvbSxpIvQF-y7eVV2QrfJE0dfC9d-zYDzL4HJbREhtTECPUmBGWHajW-qO4bR9gw9oZJ7PtVf0oHjzrZK
+97Vg8ZeUfaLLTms7D3pbSE_OjFY9tupmtEqud7uduUvtQY45B_7oTnR2E8zV7snsCiRpsXeuzg-Dy5EUsvsDdwYxlNSJVvtujIvk-jpw5__KzBiqustuYId-
+pP3zodIHc-z9yD0FouViSs7wkIuhfFC3
+}
+
+EntityColoring(gradle)
+!define gradle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gradle, gradle)
+!define gradle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gradle, gradle)
+!define gradleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gradle, gradle)
+!define gradleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gradle, gradle)

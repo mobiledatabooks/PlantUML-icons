@@ -1,0 +1,11 @@
+sprite $lets_cloud [64x8/16z] {
+POu7aWD120CbG8Jz_uDlE6UxDqmGJO433rWyyOJ44zPSJHT-qAPPbOv3r2l9m9DEKl5CNzZ0wB6uFtrFWLqdWQK8DHxTOziwWU2M-I1SIoeUldTasRJJEQ52
+nSFFLXSwW7OVvRIPUTpmkzyw6NCbZWmldqDWxERll-hueHjFlpB5cqHrFkPNSZP--0PaWhgpy-yuK8AEB08c-02Jf3oQBSPiP9Vf_CV1UFb-7OIQ4JWDi7SB
+zdMrOTBEsVVORLiM-0C
+}
+
+EntityColoring(lets_cloud)
+!define lets_cloud(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lets_cloud, lets_cloud)
+!define lets_cloud(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lets_cloud, lets_cloud)
+!define lets_cloudParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lets_cloud, lets_cloud)
+!define lets_cloudParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lets_cloud, lets_cloud)

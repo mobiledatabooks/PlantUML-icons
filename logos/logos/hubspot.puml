@@ -1,0 +1,12 @@
+sprite $hubspot [64x19/16z] {
+fPC7jcCn24FfDih-zpl1E4p_LQcKwoBEemzBm-aRueZGkvBRr_YBHOJGbHdFpnMRqKYcekvt0O-ORi0A0NGGHSvI2q_vB1PU88TsLOlND_W593fimWyQqdtx
+5rx4AgicnQkU5Y28krkiws4alRzZysjZG1oBY3PSWGrWCJ7cx85E4SUH5dyQmvxwXJV50xbHfqjWtRsmLs8txxL0vNAXzJkF89A4aLObvHw4A-N7GuiWx_jd
+wG--N3unH_dNbdRgpZw2Yv_v5H-7Tq6ElGU2NjuEpytBvNNutVjNK1td5dIsq4uj1FK4PVOVNW2NgCQD5BRwjsvAyKZjeaOeIuIJLTlmsYCwc-B8ox3I8iCh
+LNp9kTikd_NZYJppbWNiauzE6T9tBYNMK75tFGvjB6OgtP_-ddXIThtKUOQd-14Dxn7q1GqlhdzKVW
+}
+
+EntityColoring(hubspot)
+!define hubspot(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hubspot, hubspot)
+!define hubspot(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hubspot, hubspot)
+!define hubspotParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hubspot, hubspot)
+!define hubspotParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hubspot, hubspot)

@@ -1,0 +1,12 @@
+sprite $koa [64x34/16z] {
+xPDNmYGX28GR4J3N_K-xoPqHUzBc-FUByGEgf074upk-FuL_uzzusY85KH7LIDjzuYYYPf5kUNDNkJOD7w-dbjTsD1Ccec1ZP3hn5XQUK2uKZo6NwIg6WKOR
+hxpmYkfA0VHMU07Cy-B4PmolEW4hjjiiZXTPHn6mpRE1-eAF3ZyQi9jU0NxAinV8EASpm9xn8PrkpxKNL9_nlTFkx5JZA-gFUIb0tkIVMpeyvGkFBMC7-8OV
+VaqVFfV_463GGzxd9qcc4fcvUF_pN9phzytwAKuUNUZE-r47zB5_EWqA0oCyw1zWX8VlbsV4wdts_BnI7_PFd_Pqm1xnXrFGl9kpk7IyudafEFy_5RE_gXTM
+Dtu6RDVOlW35u3bnmhYT-QEjj0dj6a3GUNL6-8nB1DhEXx4Q9xOcSpFtT0qL6kh71Ob-gbSSFn-kBTDIKbLBkbcfhPg8VAg2Kqds7W
+}
+
+EntityColoring(koa)
+!define koa(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, koa, koa)
+!define koa(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, koa, koa)
+!define koaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, koa, koa)
+!define koaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, koa, koa)

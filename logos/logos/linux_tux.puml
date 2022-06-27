@@ -1,0 +1,17 @@
+sprite $linux_tux [56x64/16z] {
+rTC7pkom3GHWjg6wUF_R1XRYjRpbnJzwYBhbyuYaJBzAKwwrDsVwIsbsPM99O_eVcAKpXbkKnqos31xnE17xXnoJ7yRTdCVJGDZ-gKIqPowdxGFFYF7CrS4N
+Qn4Hyim5hbxduVIHQvsPM8GPIlbmzimLKRKOh5p93eTdvooGf2KhkFCVNEveoKJXfNDwxb8urWGLiFO7Lw6qoWm-7pk76Qyb66m5-YDN730LCGCC8oBA8pSQ
+05lAu14FBvf69DWgc6gFXmSj4KgsYeaaHyIJLr1c32OILLaV4V6emnPHzyV8EcZ6_s3Utw-n7wx1_ic0zjuCpmDQqdym0TvwOQOrcSw5Vpld4Q5tnngpHK3J
+JmR98nhntL69qMAGsmycfdr-NcBMY3R2gVmyPMlH-PqnbuWIWyo_CZNxZ5jG8seF-n6OgDOO_CLnZPcZaEDRd7DlyMrep8ZmsKc-1MRHEaBvcvCHFYPH-_9h
+9SzpC7zZNCDRC1NxF6ObJxD-SoBiONqIPVzSGY53oypy6IUYaDQ9SlvmkHAxEujynedNqh8HbVBXIYToEUeUA4TQ8P8oG2rzE4y04Yzv3nFrTRmoRTexOq0D
+AGblaIoB0NKDF7AHTmSmaSARiRoLWOiJb-W0-9vcM4yoOEPt292C4P5NzFqjnsB4i1o5HQyIXH6nkn2jx9tf-Kc1Y7o32hrcgv2jDPNhm2aYZ7yvWLtEBaUA
+5b7lJhQb67JFunSq7tTda2jkxz2W6sIaed9pjsqAR7SN59Zk1MnnA_1rplkrLD-XkzxYzCnZcCWknJpzLrhg_LmjBmKtFX-l8hiKHPkjf5JQZ2Z69plKQ_Yi
+RXSKPXP1YLTbuvFPeLHbmUEZ0sPwQRI8ENeVSxd5cEtiUpaMLGFW_ierJsdDUFq0uLKNutDEvwBMEHHkSdudehwWOB5jOqlAATqNtieSTZvIBhM_s3yA04pt
+LNtOR_nQqkzYvXs_TaF_f_KV
+}
+
+EntityColoring(linux_tux)
+!define linux_tux(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, linux_tux, linux_tux)
+!define linux_tux(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, linux_tux, linux_tux)
+!define linux_tuxParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, linux_tux, linux_tux)
+!define linux_tuxParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, linux_tux, linux_tux)

@@ -1,0 +1,12 @@
+sprite $hardhat_icon [64x44/16z] {
+fTG5aiCm38NXlYUJccvy_zCkr_5aP3dm3nO-WmgFSMWzpeTzDpbmYj_o9CmEQX5Yq5oZSRlvvhw7fo6_mSqzUzlUozzTq1KYZ5nER75HmiZYD7okcc0rve8j
+MQjgEBG0nTZ-MLVLp0EUOlXOVxn6WvDppuy_NyHQ03ONj4hzyvfd1u2rVLZVNeFbOMw_-QKsNsXu-ZxNpMkoF3Pk-D3jdyqBqFBOIk_vH-AyZmAMjMf918JE
+1I2MbrS2v9a5aC7vuLmVI7NvPOmQONgw7bhNGeIYcQwNWUUhrbSslx--xx-1pw818m_V8tzxJV0zEFHOllVd3I_hKt338sKSzlm9kpZtfflN_9sQlX_9Ysya
+IMFyPlsq_x7qpNaVGTd5gUxZmtYE0ypTvjB-WK3AkVYsMm3uawj8e9TV
+}
+
+EntityColoring(hardhat_icon)
+!define hardhat_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hardhat_icon, hardhat_icon)
+!define hardhat_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hardhat_icon, hardhat_icon)
+!define hardhat_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hardhat_icon, hardhat_icon)
+!define hardhat_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hardhat_icon, hardhat_icon)

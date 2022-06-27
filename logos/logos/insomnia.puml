@@ -1,0 +1,16 @@
+sprite $insomnia [64x64/16z] {
+hLS9WkCW3AkviJN__-wM9gXiIbAoivgBASY7C0vvd412AcRu-O5PpS4zxi0bVJ97GBDVPSU1F02MP8LjT5bpUY9NnMuG-Pk5O3it-N6fYnNRHBfYItcjikGc
+StjQUgw3jnSxdixNon0YE7kTNfdEvJPLlsoqPBHL4nbBe__bt8LKQgqvXT5eQ0PKPjuHXsLP3HqsLe-p5i61dXhTZ-7W0ALnqGyDF4W_DG0DtO0nrU63U53A
+S8JrydDqzzOkFmv8-8IwjuWcr8g2d0L0cAVSRu_Fw37PTyM50Nrpqg36gOA42HMlT6-FPJvsLka1H6f_GCKSYNjGzapiCODX3dER-MS0ijb9Cth06IeLY2_r
+uDR29tpNhRx2rutW3ztW7ANN04GOlbWQepUSmwGd45hj-UwGxLKIBX7QekOwj_I5sstPYuXFXckKNeDQcRxkiPdXAvG2M2z3CQp3f1U-zNFaSGU-drlA7-xp
+_K_3F_73V-7_ElxVwsUzbJlSWVJEyQwVM_lF-ca_FA_BgBs3QE3nJrX7x0sWEFJkrqPBw1utgh8FwpA_4NhdoZp00Qlk0u_lLWJnNW3AVDEcWlQEUyTztdL8
+xsTnlP6zO1y9683O0js4J-0mZ5OpQB7IAuV6hl-D7fagmd1vodsC1Vhnog63iOW5kWFBli6F__fp4TNp1iUYOGOcmnrr1l32KpykW8K66bp19xkuSR4AkJHf
+xunSDenaIvoJmrAcj8b8k5ZKO30jSLZjj1S1GRDCaH1Xd4E56UaZ2YK-XMnht7msWJfD8Ljn5Rb-0KAPnk0oM49pSEjXsSlqZHHVNd2uzO3c5FmJ8URQDrF3
+9PaMfa0b-neIApx8oWfQWOIi89SLz8a_
+}
+
+EntityColoring(insomnia)
+!define insomnia(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, insomnia, insomnia)
+!define insomnia(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, insomnia, insomnia)
+!define insomniaParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, insomnia, insomnia)
+!define insomniaParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, insomnia, insomnia)

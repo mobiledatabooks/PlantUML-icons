@@ -1,0 +1,14 @@
+sprite $gwt [61x64/16z] {
+xDKtbiGm30HHo0Ay_uKtaYs-4lETZllBq0QIM_Iov1oVsQlMdgr6JTjQRJtRgg1f3_soXrPxQ5XesaF3GjCUILZNUI_DiARTkdRhUbBhsgrhjuU07hVRbD33
+DY9sw75BFMwfXsrNP-lQkMyZwjvVqT8Dzge_lc-7LXkktRfs-w7LVccpdzgjQxUktRfswzgjQxMkA_kN0MzGwiefe66XQGzDItrOQbhgmqBJKXyMcfQPkpPY
+Zd-UNwOjg-KsHyIsxt-DaGc2XI0CGzcXmFtFEuHq-EwQlrXYdmsItFIsHR8XRML_Q6v3VVoADGKNk64K6KKSHNLj9sTKhYwlLmkcui45XT4Y-qjuosAKnSKF
+lx99ZNmD2_BMv7sKbh1ct3aA1gF4DCJdR_OSOGWNNWt4PQSmTTdCKOw6xd79CJSQqJhZXslOQZXJX0gczk5C7zYCRwzXdMCi42WXS9UeSCuC_nMUix0SN9z5
+D0-n8-3s3y_SQ7EYdhk4QNH1XA52E1CHld7UleQJZeFAEbdcyIlCDQoRBS5Qdp4cmVeFoyBVmfYpLK02fjODL7C1Nz2TBpOohDxAJx3n0WnVyTlpqxC8FxWj
+UADGweXNLbiHARF88i9khhRBFm
+}
+
+EntityColoring(gwt)
+!define gwt(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, gwt, gwt)
+!define gwt(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, gwt, gwt)
+!define gwtParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, gwt, gwt)
+!define gwtParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, gwt, gwt)

@@ -1,0 +1,11 @@
+sprite $intercom [64x16/16z] {
+lTFL0GKm24FHr8K0-s_xt5tl_wctc1-b2I-sveS4B-RBJ7o8p_K2NlVYJ5wxHpE-uvDkVBAPF_Hbwsj55wGEeJ9MLQP0PKEOoeYYEe0nWSQhVdJGIoRYOCGO
+CI9Pp1Qwn271IjGAzGJpctwo46WJ63hwqfUgWGM8MO4-GVPClUaBfsozrBBquXah7tQ-SVQbryFvwv7FnRdss_KhsD4bzh5RVw8bysKsVSpZ-wyL8q4wK1gm
+FhyuaGH13kStGnjOeZPzMn-FxozSlf-Kcf2pnVpE-racDQUK6xVh_-l_gNRCBUF55W
+}
+
+EntityColoring(intercom)
+!define intercom(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, intercom, intercom)
+!define intercom(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, intercom, intercom)
+!define intercomParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, intercom, intercom)
+!define intercomParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, intercom, intercom)

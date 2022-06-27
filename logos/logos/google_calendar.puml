@@ -1,0 +1,12 @@
+sprite $google_calendar [64x64/16z] {
+xTP5WhGm68JXIZwfWllVznV8j5kIwHtl2djm0qfG7Qsd5Xa0QxhBjvP4fSRzkdXengyBv_ogt_E7FppVzThJwviihhlsh7YN-LLVyOUto4mlPrRCoiU-9BSn
+6bgLf7tgIswOKZDmIf_xa1YrRkYyEvzx9ttVwMs2KMAF1zfkKxJDqzdZMuNxXCYA4HyIqUhrvksS3_gK6f_nKIRsFodbgF-v_ZxXuH97VAtd7IZTlYIv8-F8
+zYkbQFUVijyZ9APRK0qrt_dyIsACNR_ODHqdpnwFuf5X1QTghSVtu-jULjxbrothLUAxT5NC_Ku5fdnWoWUcV63A1wPyOCe7fdnWnfyvbX5_vj2rx-MmfTit
+tifU7xZkwX7ivdy1
+}
+
+EntityColoring(google_calendar)
+!define google_calendar(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_calendar, google_calendar)
+!define google_calendar(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_calendar, google_calendar)
+!define google_calendarParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_calendar, google_calendar)
+!define google_calendarParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_calendar, google_calendar)

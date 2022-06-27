@@ -1,0 +1,15 @@
+sprite $kubernetes [64x62/16z] {
+pLQ9Zkmm22k1WFd_7txg2qgp7gHgHzTwpqbY3WDfhpyDyvZZMx8OyeQFhzXpiSl2j-n2w6_OmulzbONXsIBiQtO19Yzi3VBflx70x8HSnajJhXuMoS1rQJ9w
+2zKihNy6N9W-iyMuUZb11aQ-y1dExZiWhalHR_taHzSkGsgE75ra9-e0p6baU1pSSy6wzAqoWLu4yQnrD0BOeOeZlGBNEmWTky0tNT08u5cucJPNCthY3Z9H
+3QFtLJGY2yBfbm8xtaeIl5hG8xbCCZ1GPyeslE9yC1--Pc4BAx6B54TOo0T1tKFBTl93ob7Vma7k_--CsFpbN2W0tUdZfrMjyazVTHWhzzY59W6KvY8gtHEo
+eX7EbDEt2iUONWxFK3dzKaofFBkSGHKSr3srPhb7G3piEG6EzVFkWDIHcDKl6AkNQzC-xn0ZliDjxCmmQfOSp0SDJwxJyZI60dw8o1UL_4mVYSbb6xGmg8EU
+aiA6d4Gzmj1ZQwZwsK5w6gj13vGysoV2xzELd1yTDBSniSYG_IWnwcyiKs4YyQZzoFUmiDKrVrmOQLry-xpO5PMSOCrZLZe2EiljLpohxlJoSVmzOPybAU94
+hCvSzdJT8CgU5XHDLbg3LVRaqr6qznVVLi-vqRWfE1aOY-y186PF7m-TTKtOw_k5KLjp5GdiWGT5axMnMKqlOofNEIx6fEGKcK1u0EipQSVWPrFmwugpTeo7
+0SgNLg0T_JnGwHpGscRjUWt3a-6WQxE1vJkgEtluEvsrOmtVe4nX3NkyQCSQCbwrupdf4TSxDD2ZtkF-5lu1
+}
+
+EntityColoring(kubernetes)
+!define kubernetes(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kubernetes, kubernetes)
+!define kubernetes(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kubernetes, kubernetes)
+!define kubernetesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kubernetes, kubernetes)
+!define kubernetesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kubernetes, kubernetes)

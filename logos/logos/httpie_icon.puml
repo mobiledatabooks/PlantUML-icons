@@ -1,0 +1,12 @@
+sprite $httpie_icon [54x64/16z] {
+pTT50kGm40D0cQdT-lzhbuSzCPospcPIWXkRMkS5bUpmnbKka80dfd1HixYnmcNgRvMKEm9-Cvrx77wftDG1U6vBGECsDOu7OkO14PvG_k-K9uGd2W-8vu44
+uJQrYDnMWFtEr01mIXvSvh1zk_Qh9TmuuI8DU98w5sWsU1LALrxgoM30s6UTBrh00gzyqE8mPr9_6Ph5dCtA1ubOu2kVL8yv4-LbfK-6PZ3tcfVYiI08NnJC
+nJu9uG4dan0U2SgnxYugyIiTLPk7UJSO4ruf68gyvWww8Yi6F6SCFXNEX8C1ZjT3ETFmYLDoLkjiX4UhaV4f7wsyMyYuWo4MZFXfSW_LtRMOVoqt75ncCVZA
+TeurWmkchCrf_dUZPIaPKbFUz7gT33y1
+}
+
+EntityColoring(httpie_icon)
+!define httpie_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, httpie_icon, httpie_icon)
+!define httpie_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, httpie_icon, httpie_icon)
+!define httpie_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, httpie_icon, httpie_icon)
+!define httpie_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, httpie_icon, httpie_icon)

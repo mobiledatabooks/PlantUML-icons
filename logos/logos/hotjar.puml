@@ -1,0 +1,13 @@
+sprite $hotjar [64x31/16z] {
+fP87jXqX28P14N6KsVzo8x-UkKdUkvsfb8zsf5SaQwPlXCrg_eutay_vOY7yAQvcTnj88kcLwjLCVtFwUJe_7zwaMldDUqx-IGDHlNAnV8_dkwKpetybfghq
+9i_DtU979if2x_9b-Xez4SoVYmhleg9QqiKVpB2czPc1PKSoOdFmm-ED-QhZlp6nZNCAHb1tpqG6vucX3ZziQdvUWeXpIoUz_LAR7oM-WYl-R-GOovh2kfHI
+VFcyhRI5QCp87juHFC0ZtcL5DD9LhiRWb2qq4RxuXACwiF7eNVdQFtQz-qGRuxR_YuyCHNtpuFxbeniXOZX_yjBHzQTyndQwt-SRukxrtzQg-bqUYxEbzFKv
+RZn0UiXBMAsEbKR2r_JQ_n7rEO-xF78lyRJMW4oRrx2x_xi_txmZCFMD2qrH9BYTd-KS8uYnUL55R55bV5llJHD1iXszfOiddQfo2YA3Ur4M_xcqhtWnnxdw
+K99ZQ_GLx_8np-Fq8z_p_W4
+}
+
+EntityColoring(hotjar)
+!define hotjar(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, hotjar, hotjar)
+!define hotjar(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, hotjar, hotjar)
+!define hotjarParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, hotjar, hotjar)
+!define hotjarParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, hotjar, hotjar)

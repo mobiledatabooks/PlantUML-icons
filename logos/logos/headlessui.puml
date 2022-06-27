@@ -1,0 +1,11 @@
+sprite $headlessui [64x11/16z] {
+dP25WMKn201np--_t2Fdwp9nO9u408buGVWUgz95S0_8hvQW2Jm7PI6GjVdkc3Oeyve_sWxFa8e8pr2INv3yzCK8W7w-RxSCmCOZvHlJNmdKcoo2IolfJuJq
+AgVxa4vsGfwQGtvdAUEfBjg3Teq190M6SoZ_b17mbuymDi5w_D0Ujm6jxrKi9uun7cUuVcA6XCYVgpVyzV_jfwioTej7pqPd_PwDYTGev_ZrIwxF2hyn-krR
+5glJlYSVtCdnMD-R9JYvUkS1A6HdfYA3Nz1zFoT02EQq0VT48TLaSIZ4ZDq4nxG0MAgeUe4f8h6QCtm9yKK1q7OrPOHlyGC
+}
+
+EntityColoring(headlessui)
+!define headlessui(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, headlessui, headlessui)
+!define headlessui(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, headlessui, headlessui)
+!define headlessuiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, headlessui, headlessui)
+!define headlessuiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, headlessui, headlessui)

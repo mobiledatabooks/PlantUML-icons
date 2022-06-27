@@ -1,0 +1,12 @@
+sprite $kaios [64x17/16z] {
+TP87bW0X24EnGxZ_VVS1STsQLwRnnoGwp8Q4DcpAVshB03j3gAbmTzWGk5k-YUV-3xxWfTCaT9mo2InUQJp-Dl362VImwbTAdk_6twiNQQWLfSMDXRH_yitS
+pvzuHnZl8ct6tPRXRxJuVhR8OFfnzApCsNPW-uqFn7JmwolVy7xOr4CObHiYHeStvOXndBtt8D_nkWkSFqYorS-fdakhKyRy9rtShg1MHIdvvpOUTdH5eVdr
+w2gIDzReK_IVzQKT0CW3KVnmVa05oKMB5_pCdqPwxnCqmG_eqcuHZyzm-srbvAJEuuMHKJccFpuWtq5n_w-QFPvJwKFNySVpQ4AZrMfdgPcg1M79itcsHQtQ
+F_gaqEiKNSMz9V_SKbm_QxiljKkMJM7912RBiSpMObXt6Et0uhSTNfIJ1qN7wVu
+}
+
+EntityColoring(kaios)
+!define kaios(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, kaios, kaios)
+!define kaios(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, kaios, kaios)
+!define kaiosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, kaios, kaios)
+!define kaiosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, kaios, kaios)

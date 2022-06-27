@@ -1,0 +1,12 @@
+sprite $lit [64x30/16z] {
+fT07UiCW38PX8Ujd26hkVziYPQYxpiENOTQROOeaqKxIjhoefZtUqWxVyg9xleK7RtdqBOynTZp6biVOyLh6pru0UfG0iIi3R5U4hpsyC4LlSpwdCkUmQvwp
+sbNpmrU4b_QRF-Ridxn_G3CUNbH_yyJCdxrcynNX5__Tf-JlPVcqKl-0LX7U-A_-EEttvtEkpfLQfI1yqJ_zD5_c8_KGNji5VsHTL-ISTTLx-8OhtkzViQln
+qI7kZL_trQx6pOlxXbUzSVUoVCFBtlZD2ofUzpayS_XC5ptXuPc8tJk_u9Kyc3U-OlF1mmjxuMNEASyFW76BbmyU_bPFxf-BGtsC3kCUemN_uaSYyuCiEQT5
+5Wvwng2ljU7fuiHzLF8ENPymtW4
+}
+
+EntityColoring(lit)
+!define lit(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, lit, lit)
+!define lit(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, lit, lit)
+!define litParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, lit, lit)
+!define litParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, lit, lit)

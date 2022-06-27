@@ -1,0 +1,12 @@
+sprite $keystonejs [64x64/16z] {
+xTM7hXmX38LXbmFi-pzncAQZmIbZI7BhjztI3xBQoadDEppWdQdS6DjdRaSeumGtEHZhcGFKCSkaSqnp5J4iS14iKSCITwmeG5dpr_jlECHPzo1tsMaXg1mK
+KxqAPud-ILv7xAy1y_e0-rHEzxuOytIVpzaRVp3FzlcSVSZJFPXFz7CvUyYfr5Pfq4PNJwWj8_IosbjTwmMP7XALkRwu7BJEz6XLvU2fdbkN_0Qu5TmWsLjx
+jTPVAiBVqIjWlwjSv_L0w9lBgKxrt41RjXytIFLX8b9JFOKDg8nWyQ_IvMGe0m-kFiuwym56x44kbn04fZi3GAudmn_vBWvtU6VyZNl34bUK1J1nhFGYYgNh
+HNpf-iwNyiwnadUAkTr97NFr3m
+}
+
+EntityColoring(keystonejs)
+!define keystonejs(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, keystonejs, keystonejs)
+!define keystonejs(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, keystonejs, keystonejs)
+!define keystonejsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, keystonejs, keystonejs)
+!define keystonejsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, keystonejs, keystonejs)

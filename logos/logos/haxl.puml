@@ -1,0 +1,12 @@
+sprite $haxl [50x64/16z] {
+pTD7UkGm30LXPe3tl_0eSWJvVTMzisl9z2icAFkyyfo-gisxaRxhLubg_Z_BaiYs5jo7hReaHfnlyv5BmkDqHDgRA1iHPWM2X4AOk11t3mWGgtXGVH8z4giS
+49D4Je0eegT421208B5LNeWc61448efWn0N1I1C48qaGZ2Y24KqmOe9Wf081Y20OOQ9rWI3XCmi4Y6tw1-98s3RxHje7GY98d8ZDkxeXWmY9928aGeH0Z0Zn
+TI1Imx6VaNYgGfXG21Cj2mG9xm91GhqJ9kPi0W52lnCcDkGzoeH2cD084umKGIY4YQqHfjoi8x5LqaBMhyR4cWn3J2Y42OrK83Go_4uI6-AFUWe9WXC4zDU8
+Vm
+}
+
+EntityColoring(haxl)
+!define haxl(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, haxl, haxl)
+!define haxl(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, haxl, haxl)
+!define haxlParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, haxl, haxl)
+!define haxlParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, haxl, haxl)

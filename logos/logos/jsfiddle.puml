@@ -1,0 +1,12 @@
+sprite $jsfiddle [64x44/16z] {
+hPM7qXin28GF9E3Z_HyutKNehFnaijDiXaNKlUiC6HP14ZxrQaCDyW72fCTsSW5q8XYvW_55jZXv1-nhzCWFmDlqVW0ld6O9apm1lMKD3mZJIyWpueQjmICz
+px-0kJzEFa5cDm4b6zZNAB87txBl8Ugycq0EwVSRG9i__ok_vW-mMwZy-tCZR8mn7LvadsCC2_A161-cH-WZwkJDjqeQ8RTqgoA4bzCiPwYLNjoHwnWWRlPA
+nf2dkwyMNxqd-reOWClZjrtY05Rp_MbXNqlZFPWd3uFLPK46U_eisKYKyF76Dy-DBwmDqlB_dH9nucV8Ck3j_OJyNB-JiMo8duwbzZ_qClvGn07yHkh8l9-_
+Fdg_MghMn5cPerhgjyMEXssKbQvAYL83k3vzWt9_OiNT7jCezw_BjODDrJ6Twggtqir1VnPuwMSJI16lleZt0-oZ4kSVNo-JQW1VPMsqSWXxBCbt
+}
+
+EntityColoring(jsfiddle)
+!define jsfiddle(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jsfiddle, jsfiddle)
+!define jsfiddle(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jsfiddle, jsfiddle)
+!define jsfiddleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jsfiddle, jsfiddle)
+!define jsfiddleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jsfiddle, jsfiddle)

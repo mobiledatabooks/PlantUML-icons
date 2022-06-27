@@ -1,0 +1,14 @@
+sprite $juju [64x64/16z] {
+fTU9iYiX20JG1XNQ___WjwLgA4EOH-vqBNSzhf5I516TovtSfDiSWcyYqqZkAoHzQbSF2niXVKf7EtSHyhyjQEYYXJijAtGHcjvqNfXpCMV11mljPax6BzP7
+lWe-vNrgj2_u-3GyQtC3e7Cg0BjfOB9OEWK6IGv0kQirKEx22-1yZKEuYrqGhpW1_6C4G1uZIvElF3_vxSN65ruWBq_oRGbyD_oSyyNDZDVQnDftn-yn4Ikw
+xtfACVkkNwdxjhy687pW1p0V-6s0xGUU8io8oSS7-UNZT2kBQfC_Vx1qaBWcStcCQXF-TO19bsF7pKu-uqoyUGCWG-NSSVh17O3CAG2CuQFfT5h3no191VJm
+rzH4ZGVPaLWa1_3ogXgBIOywNda_oyxInTqDWV1-bQrRSkyve3_nKMsctNg_wJ_Mluuzyrnyv7qyyqiUUGxu8ozOVE0TqEIFRv9FnzsJpzMc7ZumcNmwo4KC
+02Jvgzf48OdaAy1Yyfkpkjda6u0a7uNqxlHJtxkWYFW-gat1pplOPMpqgmqbNRye0BjyvEiV5S8cjq_NJoxVlJZEM9Ip5XVa1lgX8iNOvgxz1q0ENV0naos-
+6g-lthv_FmIQu3QooCxZxViM6Bhp0kOxde9-H9Vnmhv6XNy3
+}
+
+EntityColoring(juju)
+!define juju(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, juju, juju)
+!define juju(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, juju, juju)
+!define jujuParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, juju, juju)
+!define jujuParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, juju, juju)

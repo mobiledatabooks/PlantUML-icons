@@ -1,0 +1,11 @@
+sprite $jhipster_icon [64x26/16z] {
+fTLNUiCm30DWRa3tFt1tsQ6Fol3_3gx4jhopuXkagzoadWKIvV8jkRunNGui2lnMNzrY_S6oeNC0_2tbGtTlZ7qHxyuD-Z5Jn-OXD43klCVV4Txf1DksGAt9
+PmNhz0Qz_e0nfVi0jex04-_r9pnAaRgIXmWlvLNNbJpTh-KpRyIBHuLZEaKSF03N3DR_tjdSlF__LXoTHfSMU31Vkhqx7YYmlO7cCzHqjligm4wzRrS8oRzN
+6zB3ExH49DZ_DLUvpNi8fFPK6CBp9mGVixu2
+}
+
+EntityColoring(jhipster_icon)
+!define jhipster_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jhipster_icon, jhipster_icon)
+!define jhipster_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jhipster_icon, jhipster_icon)
+!define jhipster_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jhipster_icon, jhipster_icon)
+!define jhipster_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jhipster_icon, jhipster_icon)

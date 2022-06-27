@@ -1,0 +1,12 @@
+sprite $jelastic [64x16/16z] {
+dP19biD024CP2f3Szxzl0vcppDz8fLS_iIs3LvhyZ2QQyxiV6CgVYp-hkieNrilNgeaXxwi1prz2VUaAF2uySLuOud74X6wjQLFlYn8zvrPP3DVrT_7JrmJB
+r_SYwuW4Y6YVPNa_TcXUon-V_aX5WF2k2bOH5aG2eMGQgK4M6OVNdG_V29N36jzDfEZ54CrKGXGqqCGpLuKTNYHV_Y4YaZYiFYT83xB2vER3EuQsUJerIRGV
+gUkJQ3hBG6JH9K0oRVtzuVMRzGFh0xR-_Rjt3QP8qitKWlJr9_R2DS0Fcl6BQSbIydJcpLSd3JXYv5G55GmBmd4D3rqS977aRAgZ36oobqtjEAJk31U9yGcK
+oM2HuPqUULGiutr9xyYqJDrPnz3g7y2Htt6K_gZ-0m
+}
+
+EntityColoring(jelastic)
+!define jelastic(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, jelastic, jelastic)
+!define jelastic(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, jelastic, jelastic)
+!define jelasticParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, jelastic, jelastic)
+!define jelasticParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, jelastic, jelastic)

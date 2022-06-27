@@ -1,0 +1,11 @@
+sprite $grove [61x64/16z] {
+xTK5YWHH38JXIDMJ-nzuF6jj8Rru_pYX-CP77brTNQdKSvnOWzGoJ19QXqdKuKTUXnzfuQqnVeAaihu24oQPsi02pj8svbZ0sMVTvfnOmgIdu3c7Bc4Y1J_Y
+4YOr0mSTyD7hRJ_Xe0rauaaRz1iEEk2Z9mqYuAY9vSO6mWAE34oD4PS-l-jCZT-6VU2evSQ8qqzuS96lmN7pkG_R9lnexCFKRPXj2uxoSEefUnhM4p1EmB3_
+XJLklV2CnL1vgIDFmP3rKFbmHOfZs6GhnH5iifss3JZrBwLzRCDGEOYRiAV-LySQ39DK_fhtnJIPjV4JzfXcCtCySrSfTtLr1m
+}
+
+EntityColoring(grove)
+!define grove(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, grove, grove)
+!define grove(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, grove, grove)
+!define groveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, grove, grove)
+!define groveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, grove, grove)

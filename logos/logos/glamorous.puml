@@ -1,0 +1,13 @@
+sprite $glamorous [48x64/16z] {
+bTHPUgim38PXpRz8p_xNU-e7eYJ60VMxwl3AW1deCaQuK3z1n5yc96DatFRxG6ZNRzW7hEkV0yvDlsKDzFoMs0Uw_dbErlHr2EduF4A4D_oXzmk_zGE-1Xg-
+UCjhyPx7oVUNRtZ4jlt16xJyzjspc0U0IDWlAhxs6lcRUvr7jVAA72bHv55ufPFc0_cOp2DmHJnz3Gx2uvSw8UTNI-vKVeIrP-IHVFgKfOzQZqPwupMVEOti
+vdmYdocD_3M_yfoLq0Yl-PMNhFXp7dpjvylLfUV9r-KOBptXm_F4pzu-l4_yx8iarzc7yDbNXbqvxzo5MQReFTP0xi5r7CRcQ4vYBCmqklTiWDL9ud5g-z2U
+2QPg-tUEfXrrwlbwkrnQNhE2yQsN_2ZqnYEdO7pXESz1BzRFLHVUkmFJbt3giVOZHUi0qxUvxSK22HR7hH_s_SFfkFI6F78wik_NoyYAJ-_opyb7LawLr_9p
+-KgfGftzXUVfMwGhRyNn_bfc-fVdKwVrPMYuV7t-kJRKpGF8CBbvlrZCFNvpKwPAjf-fXz5L-PZZ_m
+}
+
+EntityColoring(glamorous)
+!define glamorous(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, glamorous, glamorous)
+!define glamorous(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, glamorous, glamorous)
+!define glamorousParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, glamorous, glamorous)
+!define glamorousParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, glamorous, glamorous)
