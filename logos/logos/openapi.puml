@@ -1,0 +1,12 @@
+sprite $openapi [64x17/16z] {
+dT056bn920JWmXku_tqNsBWdDSRmyRyMV1dh4lnxgBlp7voOMpuzN__0FSAhIcsy_grcLprlriO4K5IdWhAgWcH_7bS0LBOWqe5hEopnoiNTZz_YsMxPIfqU
+7ThXRjpje1u8kZDAFtzjthhF4M4PxgM0tH6oRZfBcm6CRw7prZiXs-xmVZKXyLXU3uZ6n5iwxTRlQNDx5P-ln8p9s5k_RltkTfqgrnFscm-ITfWfjtBdUccd
+6Han3j4-OL_FMzu0mFteLiF7_HkyjnEzCMd1BQDgohk-g4VuzIgx-9E_-n-FTtUO8bAbdxsgaRZGyB0ZyPm0lmc-DksV_UBhgeiphc1LzyVCQZCf-EjeM8Qf
+ga_mwz0F2h8ijOccqK-SG9d149gI5JJVHBnjWDxJyyRugHTbOl2MgWGUlrYFi2nd_3Iqh_lzNDmNyNy
+}
+
+EntityColoring(openapi)
+!define openapi(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openapi, openapi)
+!define openapi(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openapi, openapi)
+!define openapiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openapi, openapi)
+!define openapiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openapi, openapi)

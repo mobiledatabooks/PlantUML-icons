@@ -1,0 +1,337 @@
+sprite $bash_icon [56x64/16z] {
+dPS73hCX34CJ-20Xzlsl-uyEf8w8Whl7eqyCoPKasWE45TbB0yDz0AORL0sEAlzIZ6Y_Kkh4DOSOzo7MwK3N5sNuMlOAZY8lKSDAjap5bvJ1g0l5H0DqpHMz
+f9DbSynFbm_5vHVqLJ6NBVaxUURe-NJb4pvbUx8ywUpTPzPlZnlf21NfxBAP2qCANBRJs0nbbofNZN_PfPm4kAlPmNjiXwf1xdFgv07Nm0Ek37AVqmuUS5UG
+-rnnye1hu05N1xdFgO47t0NoW3FoXEiyuWhEkCuppfxVi3tEUKj80uuubNR0zQcynRb8w_kUK0aUpCkGYoTSb-839vmSpKlSdkh7ByPOp6VqLaG-E8Vct2EO
+N3nvLFOb5rBlNtPxSbqSTS6XtfvYcCTp91KDj9mZsgMt9OJP0ET88ZeuQihvym27OthNsHHD4ywqt7VCf62QDyN94V5oYcRBJ6hjv0Zdp2mzIQsTt6jUYl27
+RCfvoPjYJRYfkAwr_ghuSrFqH75LQprHNDNQdYYk_deKt1LrguJ1sY2JhRjg4D4aoLy
+}
+
+EntityColoring(bash_icon)
+!define bash_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, bash_icon, bash_icon)
+!define bash_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, bash_icon, bash_icon)
+!define bash_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, bash_icon, bash_icon)
+!define bash_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, bash_icon, bash_icon)
+
+sprite $brotli [64x64/16z] {
+dPTPeiKW24DDqlrl-Sq3r6ZgvRDw804xZLM0kdv2n3YBV_Q57D1bGtn4NvlWKUtp3BfY257wYnAu9gXrWen_hdOFHxXPrW4Erni5V3PxsGIvywFplebh7CkZ
+WIV7HfizA_KoHHnFluHYHrkDjlUiUxdbvPhNzeOMOtRFoZFmceKrhN74qm8hhtZ2SEzUguN8woPVZNzmWzpae_AoJpQqLEYwcbOudhrZf97FMVweEohX7coQ
+vQCQR2MNzcbusQFWxRld4poVxQjS2xoPNhU4cJJBCFQnvp5B7SOIz_pLU3DHRNaw-sQyPlvrbKw-iL_De9Y3aM_i2vKluenyPr-Zpq-EHxDqQvbiCpJ9zzDV
+JLFcthNo1-8t3Xi_RPFZKUKNtZnk6NYqbXgNWUUw62P9PdpvCspBirQJ5SaTNyf11zycFhUlWVLQ_0psLN9vZHhoyyCMho4hJjcyJw3uKHmIH3ma4A2dtbEp
+FPx_lhBsSmaQ8NJyyvOrP3htGHmd0Qgmwyhl
+}
+
+EntityColoring(brotli)
+!define brotli(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, brotli, brotli)
+!define brotli(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, brotli, brotli)
+!define brotliParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, brotli, brotli)
+!define brotliParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, brotli, brotli)
+
+sprite $chrome [64x64/16z] {
+fPO7bkCm34FD1ZBtl_3APP-U5LXA9dzw-G2POcLxGioHMLMPuRfzXqNMZOJ9fx96KQ0VLQCUILjsewRaV8Qe9I7FvLbpvYCOqIbETQ-FyVdgQsAkhudPyD-l
+eFKrjdKawsjIfjElGQz7JLZV18vyrH-uDj00wY4Wy_YOtec1nkiz02QjGKJKp0bcr_OxEGQuR1qP4sn7zTp-e6u1aDtIPfaUGMft-K2lyQy1NhURLXqNhZt0
+h7D4Aowg1_WvLiVF01lH_d_8L-F_xIg16x4tAVFxFzOLaCTjcZUE0EABeFCw0wo5vWZYk3r7HD798w3L6_8D61t0SD8tQ4L80jW0wXW6ADsK-ye620m3b6oU
+55_xUQmVIOcrZznz90NDruMFQdx-uEUF_KZvPV-6Fjt-ndmdlcGHKjZZnp3Y3uTPiFLLyORG0LBO-BA13U3ql5Bbp_yHRG7vVbY86l4DRuIC0NbUm9Wlu06A
+-oi_CL8lBJOU0ZQDhCpAqEC7O_KD0-CwMnhN4Ub4r-lyOeH9FtsGlFxAVY3SLCq1PDgpBu4PsPZKDspfOrBVy5MzJtIwmRfUPUletFUvth2P7_Ikl-FFEkZo
+8pwlv_ew81DiU8PntudEKLfFRtcEEAldvHoDmO_1bcs1tHDczZeXlSlKveW7JYRo756FW9_gnFq7
+}
+
+EntityColoring(chrome)
+!define chrome(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, chrome, chrome)
+!define chrome(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, chrome, chrome)
+!define chromeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, chrome, chrome)
+!define chromeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, chrome, chrome)
+
+sprite $docker [64x16/16z] {
+fPC55WGX34D9coPp_nClPMJjoKeU3Z_uk6Jd-4N_yyY835RyoDEMTSpFxrrILHsQX8q7v-SjHRt3aDWmPv0GTiNb83vFv7S-lDMsht_cWBVjF4di_E66Hnvd
+XgXYSORg4BbudAV2oIoxiCtcwHXbAuRarlQehXORBmVA32VeW8ciTCWvIjq5EH7UNcIDfRK7KzLUHUtxNqkpI9hkpUcDny57zr9iNdNm2x8bLQmPw1USYsu6
+8utURZXd6CZqw8A44HYBXv_n6eUW_U3ARa_Qhictv-gAnNVzRVP34UWCPnRxjSNPXVDH-83zsmy0vKcB-06-0G
+}
+
+EntityColoring(docker)
+!define docker(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, docker, docker)
+!define docker(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, docker, docker)
+!define dockerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, docker, docker)
+!define dockerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, docker, docker)
+
+sprite $docker_icon [64x46/16z] {
+xTH5aWCn44JHujJzBsme3KcDAc_dRNB0Fnh3TC9Q4ghvxv7AFMkYkzYIV2tBrzxkaKoGTFNy6UtD91UoU__4Fki3mH_qXjRYjCTlttVeyqz-q0TUGgMlQEvm
+kf8zT0hJzVRJVm4Da7nwVc98x3dPU4kGiSy_nlxrD-bHxz6IgvdAs3kt-VuVzWt9UB4tj04MUvdwo3xoTEBe_G-yz9wYTSDzbEvh-Mk9fttXeOUH-ejrqxfD
+wnuOSi_pAGACY51i4SfKxP4fbNkZgIyVdg9--EJrmoV5SgxJTzQYe47KppuP2cTVlW0OpNmbTzfWrFDagESfbgwzUWLGEYAuhftf6CT57KBd76UrqYK9xCTm
+eLl4WRc5AzDjh1xuFUixxHC
+}
+
+EntityColoring(docker_icon)
+!define docker_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, docker_icon, docker_icon)
+!define docker_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, docker_icon, docker_icon)
+!define docker_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, docker_icon, docker_icon)
+!define docker_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, docker_icon, docker_icon)
+
+sprite $firebase [47x64/16z] {
+bTM7ZiGm20JG62Uuc___sgjan9L5PDIkl8m8OhM7XYSV3x9aKrpJ5cbnVeeygMVvI0_p9f_9KJw--8WlvYjdJAVzpMUCPz5S-kRZylYbMkjf-rkjSeVlFJM7
+T_2Llif5jhFLAKYv7-vs5PH-BqQpKzRVij4v6qvYKk_9XjMMNvOFJ7OQJOONoql5Wz0VIRyFJ0qpwY_Ll_YqvSoedz0_fbc2T6PJpz26quRUvPFZNGgquQSj
+_yfG3MmvGs_-Ja4tGkdlOXfh1ZG2Fcmvwg5_JxDikQPNQF1V1xQOaHCC-Vt9gwwcNmUsN8tLL9Hx6glH-vw-nZHJonqDZiLCNuEJtWUqmt5WmzDsDNfEdjOa
+7DY0TaBtOdQ1ThaUM8Tsev-y7TEaY-a1hQjXBOVsLrD5MaJhD4CMT80lQQe3ET9Uq06UfLrXdHClT4TuhVb1g9oFU7wM8_e0JfBY65zMaVj2KkIwR58G8-GF
+xJxWO-UTq-4a1J6IWXWX31qClSJl
+}
+
+EntityColoring(firebase)
+!define firebase(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, firebase, firebase)
+!define firebase(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, firebase, firebase)
+!define firebaseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, firebase, firebase)
+!define firebaseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, firebase, firebase)
+
+sprite $git [64x27/16z] {
+ZPC9ji8W34K3cPZozx_SRsWvmLPFVSx3lS0pmXOKXATmgmIVGwMK9m4Eiv6_uSy2iLTeckXTaxJy820xry_35BPao3y9T7IPFTWRJyg_x23IJZxEpf0oVnIa
+dDFQfWSIlN1h8fAtwhmMkGkeUUUZly9UlmqKM-702yVJJQ0MKJ9Fy8E2APhWNYBQAqLzlrKGU3YViFXhH4oEhmZWJL3EJLQpUlPcUCo1hhC7BmnPTHSqi-7b
+iJ_U-Oa7psS98QZdlEWNlbnuBm7qUBK6jj5ihCC7NYvyoMkK6JofsmhV-104hpbBB0-GJy4GkF4NWRmzZtzS5LLESEKhN0GCTCEzTq7C9vwSPu0vIBtrlGFP
+dwwiuu_H1426JH3IyUIlGmXY5WE7Qf4AOWUV05tipX1esdwvbJmiWWcFp4_czC8kaC2tzGM9HTr3y2stvcFvaPR841u4WGTlZOcuh05y40H-wsyWF0W2ZqWV
+4-wQu24I-9vPUlx2_0C
+}
+
+EntityColoring(git)
+!define git(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, git, git)
+!define git(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, git, git)
+!define gitParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, git, git)
+!define gitParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, git, git)
+
+sprite $git_icon [64x64/16z] {
+rTL9TW8n34NHih2bl_yLPnJ-mK7lL3EAPmdSLwtCGMiiAUEukw8agU8HbnHFE0UOG-0avm3p9u6Nz6y3aV4a4AM2m0ak29pX53Z57NZ5p2O0_7Fivhc0-HvO
+JG2vbEzjH4q0kURxase2mC4xW5phVVwb9a1SDM0MaFi6Se2vL041vhw5Czg0EVXLemcOenS4pC7_1d9bRG5pydwKOss1OGxUWNsOKgUywllBNBhi5u7Mv_5z
+Exb-_fzYr3cl-3gCyuXJtXUmzX6FSruPVlxcMm2yL9dwonrWxsNk07ZW3e0dpe4Sdjk6Ko3zKSCfu9cRn1sW_P-v0_pxOyu1zkOSIFyRE0J24zjm3bHuue3J
+9SpNBE0Sy6BE0UOSOCu1vXm0VZV0d0FCES2S0ypF1vXpW3a72lZfm3ne_G
+}
+
+EntityColoring(git_icon)
+!define git_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, git_icon, git_icon)
+!define git_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, git_icon, git_icon)
+!define git_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, git_icon, git_icon)
+!define git_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, git_icon, git_icon)
+
+sprite $github [64x17/16z] {
+ZPC5ii0W34I3KuZS_xO_YtotdS7p4jXEYIWzhAeo2drIAYLZZAMKhmTNLSqCJJnoyhl8uLbtX6fyppz-4CwygCFgia4qFLEWuFN2uerFXK-ysUM3ECozbZRA
+vPDdA__agnUUWOxIv4h_u-yRlNoYgvYp1sRdUquV-P1oGWG6yAdsbed4Z3yunc7g4eENudh05z_AsphdTUiXDPkUTK0D1CTbfrVmrT47tXPlEqNpDd1ZSut5
+XsUY-kY_yjgBioRU5WzjdYXU_v379Lzva-FTVd-eLUpoN_nlF_2u_BJpRVXdllx2ept_vHDHFpmJvghBxL5oaOzy_uwl5CQj7ocm3pX42hJB1onuVEGJGc0b
+U01yl7Tt5czUS-o7FSWfTqLjUGId40aUKpH9w_yNvsKMeiuyG7GndQ-hmZmZnU5PfJMUvArWnPbU
+}
+
+EntityColoring(github)
+!define github(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github, github)
+!define github(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github, github)
+!define githubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github, github)
+!define githubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github, github)
+
+sprite $github_actions [64x64/16z] {
+fLQ7TXmn20oT___YXDES7aOkAmTNSHg6llldBMAHcM62yvrev5j2wHRDiP29lt99NY2NeYNnEkWjt7aVsUyCS6RQOL0UumDmvcuWwBdtNe57PcmBdcdFwGjc
+MM9WfSnu1fTC1sEqqldJ31WkUWP9MN22MNlgFW7_psrxkq3nC834FLz_-Pt6N-4HkVuMZmZ0Vnq_nj0G_st-L-U7xFnVrj_HGTliJVyL66C8z-cY_r4u7Vr_
+Ct-aIdVp1v7R-P-Yw7e8-MyMM1hsdmNW5oA5oIXf-rSi8jnuN8PUgQcextyZs8Gu3Iw8VTHxONs5WPZWK3GN3FeS-hMpw4DEXU1PS8Sxl_I9-mSUErrRFMBg
+iN6zu_7PsN-nso5wQGZwXa-TwrTSYjL1t_MOlOx7qrStlHHYBmdTz1BGVyIZ3ruxY8tVlMsh5D3hrll0Etb2k3QOOJGqjr2HAlG3Nz6mENYMANjNBUBKd_Wb
+2kzmRSJVz2U-vzzZNPlvTy2F_FlOF_H5_MdMV-Bl-m_uH_qle_ydlizVtinVTuTlvd_YR_VFnD_B_-DvuadCtUGaOb4H-e6V38aA7LRLIbHdOY9Zflai0EiB
+gsgcmpNFv0uFOwArbgd3bOc8NnQELu7UcmH8DBsQoIV_p-reW6m338eE8JMbuK3gNELuHTW8w8Qr_dGuttu2vdW0rDQrCHss1fkbA8NUcHM1mnFVDR7t9saL
+wEMnhREPZMScyEUJkFYqo4Ibuq_-KuWDUHmlcIIc_2CUUt8UP_xFuza94DydXGERlfrc9qWhIX0ywHKGE-aR1lk97ROsXk7ypERP2UuU2JXaZP-i0UIVNkho
+NBEY1lcSVIwGqAaNAm7vNm
+}
+
+EntityColoring(github_actions)
+!define github_actions(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github_actions, github_actions)
+!define github_actions(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github_actions, github_actions)
+!define github_actionsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github_actions, github_actions)
+!define github_actionsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github_actions, github_actions)
+
+sprite $github_copilot [64x52/16z] {
+xPRPmgCW34O9X1tolV_JpjB1fXhzjVTpxWmS4jRMNK0Xjp45WCnMcDmtK6o27TAJVshx8ZX1MdYKMsr3kwyXJlo0v1kzuePExXhgk6M6Qtq0c3Nn7_BOIIKo
+Soe3W5mEq87ERYEftdHlAZ3zvTppVhZ5_8ooO9pglENHmABimaa3EmQmBuna-T7jc11lzGXJr-O7Cyzg_MwZS_dUP18oXnv0Ddvavddq0u1qzBCDae1UwyBM
+xwPywtiWnHWdalM5J2vJVzBZO_Srs35HRKc0JHQXjUvYmuHaJf7ZUQadkOhPwBXvV9pPjBbSEznDghhn0q3NbjNL7DuNBNgYi9xFydaFUWf4dekSh0c5YJUo
+UkWKaxOeaTp2Du5bHXq_35Xay3zTSm_c9kkvF-pPYeyOgex0kitlDQN07CWPD5vq0AzVkajt13MwOoZfcU-Xb04bFlG5vx1JF9D-40Udq0C_2-Jz6IPGllBz
+xeWERNpeytP4jN_wxszywRkVyjTJdoQ0_ldWYJ_rfsjdllDjLDBNSVJWplpXdKkY_Ytgwmlbk_xEFu6tsbS-BQ7u1zdVdUaZMF12QhZxRphNp0yTGyDgoFuw
+TTV7rH0w5gCmsURSPREJEoNeGowZ9WxqmdCiBtUpwNPw2tc1Jtfy_DVVCajmzr2i4mOPMULRGgf3D6zVAshv3G
+}
+
+EntityColoring(github_copilot)
+!define github_copilot(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github_copilot, github_copilot)
+!define github_copilot(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github_copilot, github_copilot)
+!define github_copilotParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github_copilot, github_copilot)
+!define github_copilotParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github_copilot, github_copilot)
+
+sprite $github_icon [64x63/16z] {
+nPTNWkqW34Ff16Dx_xjzDLM105-ZwUKGMuXoJKSsv59PL9MPjkZCYbmYqOUaPZzBnnr6rMHdQDQk98z625K_9UcBjaM7ehwLddL24dkTYyvfQ-9PfrKQ-AOB
+ei7JbmU8QpXwu4LNTG-2vREkJD9dXBRJ9l4DxyGQOsCdW_ml_-SVwrNzjKGUAHPchioo9nUDpWTVtwxacgEpUtSkP2hsM25ND-xbVJP3-TSSr4KU2WYwo4C1
+D0ZsHzBO6kD4B_6OBtfJD2P1h4TAi109wbagGAoLHpb3GSFXRcSTmxXJv8HBQcq6gK0SPiGNm_N6pz5WERI_Qe2iyhXN_W2_jNbUz0_x5pl9rxR_wkVmH-Jl
+O-Nr_Ea61YxQpqcN0tnlcJoUoqF5vod6kkQW1Q3esWP449dupA1Toju6iwdAdoquqeV2RJ-K_KjntTQpD1Blzy8TyN7AHzU0Gv7s7OBsxzrr_nEcnrKr5xvW
+N33-c7oRIYSBwS5Xtiiv00cCZKkkETbEZdP257nylu28VsLxtVqJJDpt9PGEoCSeLRaasrhptQXQFkVJHLCsGtx41xX0Oaq37i-w8FzZvEVutBtzKmeXnEoG
+7xu220BjzVayVldouP_4dabbnAD5g2IZ-WLRnnBaawVX3kcATEkdO2RaDdblf4Mrj9xz6m
+}
+
+EntityColoring(github_icon)
+!define github_icon(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github_icon, github_icon)
+!define github_icon(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github_icon, github_icon)
+!define github_iconParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github_icon, github_icon)
+!define github_iconParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github_icon, github_icon)
+
+sprite $github_octocat [63x64/16z] {
+xPK7akGW3011WOpr_z-UvC5pR09VZZt956e915lhNa9o57RlGhaVxDPaKLfmR-0cIjdeJKuQEk2OQskjviY0LKxwslQ73BfC7Cy7lzEN7F0ZTTSt-hRpI_gs
+yslojlWQNjWeM_f2BxA7LyUsPdrlQQNjLnzbq7AAAULIQwirwo2ctBSt9us006_m075i3TVwGV0-lD6Z65RR-ZY9OvnkwCsMweZSR7i66tTHODdvPE6SqkHx
+5rFo7Y0l_-JXMhjFASL9n_H8bzRNhYzq7dfzNHE8Y8FHhiL73PzqIuTZyIKOh8vrb9bGvvtt7Z1OTjCXHXrVM2-2PQjsvz7osImIytaaH8434vFE7sZnYdaO
+yT4xxop-qEn85ir4O3r4y-pf13GWcp1gOp3z6gVfodgup1bIFy854X32XSq5D-F1lGAxIC5B3o4yzJ3iDJuTSXIpPZ1Ks_TAP7xi198TO6ybfvDSMXTDIMv9
+RYN0Q678LJxJSaJlTaGfwHd5avxS3S25eyHh83FazcZXslDeRfAPwcw1KcsRtaxffC__cFTKQIMNLB8rp0vQFtOESBEyXlV3QfewFlTrHrqkQAJWVbztFjJU
+UrtfU_pnE-Zyo_IWUXo7Xr_Y0h1CUjTV0EzloQ1W4sccawb5f1Ce_ewCo8S9MQI2VLao2O2uJQ2oGgL4vBEcgH53AG4DWArjlf9w8Hjc_LNmmR8-u81OEHqY
+Dd00iArkcCrCbiSWt5OV_gmpqlZTszUPpphHupFaOMyIm7iwJF8k0rglrIFzdC_3lOk_Tl6sx7_-yma
+}
+
+EntityColoring(github_octocat)
+!define github_octocat(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github_octocat, github_octocat)
+!define github_octocat(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github_octocat, github_octocat)
+!define github_octocatParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github_octocat, github_octocat)
+!define github_octocatParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github_octocat, github_octocat)
+
+sprite $go [64x24/16z] {
+XPG7SiGW34LH_Rx_XRSmVuJbGFPDpOigB1v7r1CN4DQrM7nm7VzZ2LmJfAraJqmFsWEIk1O8QWTkDkKuEkDw0Sc7XPxIhmTmfdSWs-4PXqb5vbttnGB5np0G
+eI8Qc1cfJfl-qSOAt42ja67yb_4YWFXOHIqoOPCOVwZAH3WYY_ObuMZeKAm-Kj3cABYFgigDQYIp1qXRjrtI89MVKoTdxc2SyjagkJw2AtPoBEpGV-Kxlfpo
+kUVk-Eajyil-zoQhJoVhzjivr-sJnFD0Upoq_tcriiBqF3yUk8XOChriw1ZYmF7zRD-9rHheUeDiN-_8dTwYsCL9xlJlpm_QcRMFpn49rBekfMtPK_F-eKMO
+D6tVmiXOlTy
+}
+
+EntityColoring(go)
+!define go(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, go, go)
+!define go(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, go, go)
+!define goParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, go, go)
+!define goParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, go, go)
+
+sprite $google [64x21/16z] {
+dP47iYD124C93HBtl_0Mu6fl-cdaf77nYDBo110ktvF_5MZWAlLRF61_f0CHxfv4FE0DJ5qNye07y_e7lFC-lQNwRJx_BUyWSTQRkzlQ0-1u-FAM6mJ6GZ4w
+8i4Ygz1z-4gd44cGCRnF4EFo0ROWJeQgirAaqKdIMU6gyUALDKdeOBxh9o6edEUYQeFjNHKSdyFhAVQzM0ZYlQp3LDB6iznyhRaPiH4OFYftIwfaN3vvFk3z
+nVlmbaKoVGOd_PQ72kiCGwhT_asnQUFs7tgBCgo9d8D4TQIYCE3USEwi8dxtDrKER5UFrkleA29Pj26zFsr1PDxx7HOILT649nlFdLQJLOIDl-SNIm18XcG7
+7hQEhDJSTErIThtU_tkTWRX1a_YxifYK2PT72i14Wz1dl2O94YuFfK4o_y5_0G
+}
+
+EntityColoring(google)
+!define google(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google, google)
+!define google(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google, google)
+!define googleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google, google)
+!define googleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google, google)
+
+sprite $google_cloud [64x52/16z] {
+hPTNWiCm24G3WnZkV-7jXH1Xcys-_qUBaE9RXy2SyGPzGMup11vtq6HWhzYmzA9kqR2krA2C5cAQl68d-eeJrg7kSSeQP1y6iBW2hT4rha7T-um2bm5O7WLU
+Qlxtn0fuFWBPdBLkD9Ipz3W-bgjBJxgJnAO-7XPW7ujkNq2bMOpkDoINPO3752c0r-gItKRm_Wp0DjG0O1D0O5kW_GaZEhqFi68ReEXz2-1k3s0zEBhRs5JV
+wJVPxS6ftlkKcXu034alFbaBmEEu1AXwiygKErz_1eMizujAwBvT1IvTqevcMbgaPefCVgCSTz1lIm_udA__wEF9-ilyn_FJvCkyV8fD2n2_Mm2pMGMQTQAi
+xu8U0cSaMFQNmHCU_meWwpCe-VwQw_Qpx2EzFcAOwlKHnbIlBnZ-f2UcFhs-hSw1JKlgD0AxZmarls0lpSuh
+}
+
+EntityColoring(google_cloud)
+!define google_cloud(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_cloud, google_cloud)
+!define google_cloud(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_cloud, google_cloud)
+!define google_cloudParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_cloud, google_cloud)
+!define google_cloudParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_cloud, google_cloud)
+
+sprite $google_data_studio [64x60/16z] {
+xLT5TWKn34lCll-1ozn6pwzQVT1UCm4BiX34FFv0LdTNoC8GZpzH_GQ7T0r0VqMYln_esLyGPxuV-FqDIgmUxi1c_2QM3_anulF_P_TFN3yUGPyieFQHltsm
+05sB-43PWb0em5S1OspHls3chb-sViS-G6GFoERXVo2hkZiDK4TIIHdGaL9B29l6HhrdEZNI9vBqgTgaJmhBPzTFdXz_Vym2Sb51NSBevvMEQvB_NeK7qE_G
+FmJvnnt_pIyrjzVy8lApGNxI-Stt1vlr5xO_aRvSrzfVdUololhozFr2BI0MDO39oA_RHmB6xzT7
+}
+
+EntityColoring(google_data_studio)
+!define google_data_studio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_data_studio, google_data_studio)
+!define google_data_studio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_data_studio, google_data_studio)
+!define google_data_studioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_data_studio, google_data_studio)
+!define google_data_studioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_data_studio, google_data_studio)
+
+sprite $google_developers [64x31/16z] {
+XPLRiiCW34DZR2on_mNVPqez89hpbmIval1CBu5rCBs-QSdvvf7W7xs-6JymxNh6GIu3dECVzgS93PpWTHXZmlYajiwAtsyv2l2ZEiXd_M2sK_25rxcYFzRG
+aYkuRlfOOUZW5RnjOcp0TV19lMnBxXRIHF19hELCuLA3fP2BWe9YWbycrDaEoo46xCMT5wJjDH0FmPzgK9UcqJS1uVwCUNICofOVsSvgZnzgZnJzevkkp-Dc
+Xg3B-qT8wuNaBVyXn02uibv986wVfYQaIUiJR_Mx2l4U8DI-TEJxX9pJrOzl14wxv48ji0wzIlxPkgv1wxLQrm3RzLAjQq3VLaS7rpMWBzUlr9gs_V-Qdwn_
+0m
+}
+
+EntityColoring(google_developers)
+!define google_developers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_developers, google_developers)
+!define google_developers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_developers, google_developers)
+!define google_developersParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_developers, google_developers)
+!define google_developersParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_developers, google_developers)
+
+sprite $google_drive [64x57/16z] {
+fP9T3WCW28DHKM7tl-_-Hs9iLkQ-zzBQAf0s_R9YNV8ClsnuoyiDw8Tc3wYvRmTCDNcWc0DzV-XBxl6-7vYgoG3LWDxrHHNAz3ThUPeCe0RqhfeDO1uivNqW
+5NRp_O2f1erl5m1x4c3uGcoN3D0Cw5rNAjykYEreWDXk9SeZ1wAyJTztVH58Tq2KHmDKynrJH2NR1TQB9WCqQ2_IaW4caZU90wH2DLJUivVC2mfCNqMI0OO3
+nlis3i2t-tZW2cbv6e-3B-3b1HK68EM50Qsm6owF16XiEn90oxUFBm6fi7tPZWIeTBi0VoAw7TkGbCShx4ws8njEKXuB0Eqhf6dVkG3i5tQvsm_eV_8kzbVw
+8kslz28op-sdt2b-RD_aGJ-r7_B23-shlD3JxJxOKNabzFLmks2SRHSKFoilw8VR1NPMNb2c_oAlig4phTOIgXi
+}
+
+EntityColoring(google_drive)
+!define google_drive(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_drive, google_drive)
+!define google_drive(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_drive, google_drive)
+!define google_driveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_drive, google_drive)
+!define google_driveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_drive, google_drive)
+
+sprite $google_maps [45x64/16z] {
+XPRThZGX20HLa6RU_u6_7tDC5gVSKxTRwJGE8TiEXeVoUPvK-6ZVwAxd4tc_glEfP4gJTS_JNSWXTXK0EHLdzv7WRcJ5jPiBLIwvcDt9hMXiEJB1hQZlDyl3
+Jc3-b5Y034LcddOYiOEBdbfGj6Unz_Pq2xrRAwizsyOEMxrdfNmhLTaC7kYMFUSnSINghyAFoj5IATnVMvutfhKJNLr_ov5CkF-Mh0_N3JgJBF_FE6IlyYxb
+2_lUmlTmP7iMvYZkBiARv7qFjx6hgz7YlriOQv-7AojgpL9-OFzn9MnlE19u38PTNLXVaYUU0ewUV6GuMacD5ztOvJCwm8KIL2IIIf3DxjZUKNk2wwqohBXG
+68e8RotRmk7O5Wv7T0iSZZ7nSCmxMUrA5nTcJ5oOeTj-H_p2Z8bBC9DBC5ty_uMP7CmCSJ0J_1IC2vU2wU8MJF06CIvkmSHblBy
+}
+
+EntityColoring(google_maps)
+!define google_maps(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_maps, google_maps)
+!define google_maps(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_maps, google_maps)
+!define google_mapsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_maps, google_maps)
+!define google_mapsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_maps, google_maps)
+
+sprite $oauth [64x64/16z] {
+bTS7WZCvYu1Xb1Fmtl-skrR5Jl_CF5_eTg142IJPyeUGspJZmtIs7EG_I4tFoBMM6e2l6kLV2LK1xJc6WqZCNO6LvPyr1wqXf3RL7ToFz6Cpq7-wGZ6OAPJf
+V1Wuswf1iiACyhSmOSRGd8E7JkZWqy5NbgnubRzanxFiw14NuDAH3Xf27kpq6mpvNOCPil5H9DWJpv9K-9WX6Il8BmPKwHnI3j4XXYmBwEA0LyDBM6ZuBTnI
+M7ZRjK-I98ELD01Y0cYY-reJ3R-4XsXu344CbuePjxBlNgBb0bC6wyUzMqY-4_Kz4NS9k7YCASW0fao6lENFgxwJKvD-HYhCRhZwVbnKvPn5MLHv12S7EmOH
+IGxuMgmvbQdJVIWVDJXR3-PHRfCkYyt7v6CLXzRsi33B3ZJbL2BhbRrAuqLDfm-VUlmmdJPyEWyFzRa39KU-w1syh2kDyz7R4lKWM_qyuEOJdTEOS-1plHyj
+7ZdJP3DIvaNRXDaLxyFH_dxqKB4ZWVnbUFSplXcOkVlYUEIzmxkdpXbOv6VuEsDbcfVm_sBdA2C-rkIc0HMHYClYyHHk5JdCTPUHbpH98fqHkFYhSDFk-hxB
+g5nweOiegVvUk24NVvNnYRU8VKl_kF4ryRcio6NeNSOrk4Kb5POuftcLQWp7WrpoNLJ3ktCgdTffySb-NgKQCENXx_Z5gMVc91T-vEy-lCXZsdnUux8YfiJ6
+exLh_bQGHz5VvWyDZX4w9tklk2KlmOudZzUUuy4m3vFjsughyZQF_ZbVk-CLzx0uhJNzxDzbKTwAhMSrFkClx5L-tuKxfdh95y7nVht6A_wTFw_u9b_DNTJl
+yOeH1YTzylSeNnM_yr_-Yb-azdF-nf9lWbxhhptr2ivuzOy_zUlotLnN_PpJ2bYbfL_w9ybtvMV_zCHAJF7l_Rlq2Ec7VBJGEjQVltUmBcwYJpZCfd2aRs37
+mVbnhH_b4YTPrci1s1M_HqnshkQZbyeH_r1n3rAfyLl-QlBHxDfDsj52q_QZIqiiaOYASkaDl1tLqtl6L3xM0A_-TC-nI9HOkVYkaOTF-bmhJdStnUCrBaEE
+z-r9_BP_hnYIzdir3aiXFiVm8HRcSLyUEhUzLQhlM_Nd_3CK7_hb03sxf7rDu5n_vpRutlYwVpq_rxqsO-NXNy_Fvz7YeNluvm1VFDx7m7lZVqkL8HUb1kTb
+_lpyq1mqnyxMWdkGItIF-Ns8OFxrymk-AvwoZEi3M957nQIoUSZu-pHioccAiyTHwGnv6onfV5GP6XO_T6D9s-zIgQXyDPax0vKOGdHWSNDbY48LoOvAmOBy
+Se7Yp4IJUVO7U6yAGs8G0qpPutYI7oPhDoaXFvyra-p0AlagK9Fs2d_hU9OEoy1MB81BTndip7UyfJ2n9BygJfUu0Bf8Mgyl8DHzkIRPMK7-41TMTY0sSWUN
+XZGEtaES-z9_guuMYTquJ4Fj-WANvZz_0mm3lASGwxFHkuuIOrNmAlyeZPr--VH1oZcb6C_lhrg3_1knwJ7iccFCfSw-Of9_BzQXpibjrh-2_my
+}
+
+EntityColoring(oauth)
+!define oauth(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, oauth, oauth)
+!define oauth(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, oauth, oauth)
+!define oauthParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, oauth, oauth)
+!define oauthParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, oauth, oauth)
+
+sprite $openai [64x16/16z] {
+dSq5qYWe30JX9ZWXcVlVTd_Mdyk7b7ODWBdank-otBLw-kdy5ZymmkVAmw_hAQit6b1oy9HgV5VXAK_FcUKigkTYNe0jAJhVTjuEIvbIJD9stzdgZVtwezr6
+gF8jHNc1Egxca9Ki-_RfZI47UnzLXpcxdmRCwntMcBuD61gg05j6rhTVOSKfDIjD4o23K7YgShIs1bA4Bd2TN017nd66n-lRSiwcQm34wusgRPhWKHHmLJ0D
+JlpJczpAzZgo3MSTciO_-m55NXNtAeiSjeofLgRgFtrwBbQk_VextoAyxh_-p3bwUVqhhfuDRBs-r9l7y8z-Pe6hNkoe4-eChQ8De_xT5zFflT-abADct0r6
+JozJKG4BVLWGobGOKn7g_Dql6J3KbXuiJ-yU0sBnbpvd1I9iZWBKEGrQXTgf3Q1qi_w0xHiQfVhbKv7yh9afBtngRtxi3m
+}
+
+EntityColoring(openai)
+!define openai(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openai, openai)
+!define openai(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openai, openai)
+!define openaiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openai, openai)
+!define openaiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openai, openai)
+
+sprite $openapi [64x17/16z] {
+dT056bn920JWmXku_tqNsBWdDSRmyRyMV1dh4lnxgBlp7voOMpuzN__0FSAhIcsy_grcLprlriO4K5IdWhAgWcH_7bS0LBOWqe5hEopnoiNTZz_YsMxPIfqU
+7ThXRjpje1u8kZDAFtzjthhF4M4PxgM0tH6oRZfBcm6CRw7prZiXs-xmVZKXyLXU3uZ6n5iwxTRlQNDx5P-ln8p9s5k_RltkTfqgrnFscm-ITfWfjtBdUccd
+6Han3j4-OL_FMzu0mFteLiF7_HkyjnEzCMd1BQDgohk-g4VuzIgx-9E_-n-FTtUO8bAbdxsgaRZGyB0ZyPm0lmc-DksV_UBhgeiphc1LzyVCQZCf-EjeM8Qf
+ga_mwz0F2h8ijOccqK-SG9d149gI5JJVHBnjWDxJyyRugHTbOl2MgWGUlrYFi2nd_3Iqh_lzNDmNyNy
+}
+
+EntityColoring(openapi)
+!define openapi(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, openapi, openapi)
+!define openapi(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, openapi, openapi)
+!define openapiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, openapi, openapi)
+!define openapiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, openapi, openapi)
+
+sprite $visual_studio_code [64x64/16z] {
+dTTPpYKX20LW5Ho0slzw-vgkX1JYy7lUloCcU8VmXq1ZAZ7S1kLvcAYaEvv__16-RIYTTt_NKBj-VM-ewOPtVzFG7kDxgCAPZlGO_uRAAVSzKzxpnC_KCsqv
+oBFmVCJlpqVbDpuhl_55-TBd0YwtslUHHAHuE-jaz8caXvBXpUD2rYUM_s4qI-U4ilNG-PkoumtGUXBHjAWxEqOAGBPUFc6OSyw0es-c8ElEVjCGqF6Hv9iM
+KVpPqVCXDbF0ui-ElW-XYOtbX81p7-gwG2e0hdmeOcDdNtk_G6VV-f1bqg2pBtr0zWgag5xx04w1phxtQVJIpdtVMHb26Suy_hXNm0NMNhbV81LXw_FBtG92
+sFZI-Ro0ConzLUqNw0DmlE5-GKEO-MOuf-pVmVUMrwYxRE_WUVFKS-Z1oHqSpv_PGH-3UuVHeoXlqNqDcZ9w_ONm_GfDvDvXzBr0PzT4ju177u1_d68mYSqj
+67r8jUNWf9tvUUgTrvGxRmlkVSXtNeEyyXos0Ruxto_WYpy0YIUUwkaV4CzJmpsr1UVQVmmlFjPsbz-puPJPWkF_RVukCtLzcUnC_Wy
+}
+
+EntityColoring(visual_studio_code)
+!define visual_studio_code(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, visual_studio_code, visual_studio_code)
+!define visual_studio_code(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, visual_studio_code, visual_studio_code)
+!define visual_studio_codeParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, visual_studio_code, visual_studio_code)
+!define visual_studio_codeParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, visual_studio_code, visual_studio_code)
+

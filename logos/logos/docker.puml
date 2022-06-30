@@ -1,0 +1,11 @@
+sprite $docker [64x16/16z] {
+fPC55WGX34D9coPp_nClPMJjoKeU3Z_uk6Jd-4N_yyY835RyoDEMTSpFxrrILHsQX8q7v-SjHRt3aDWmPv0GTiNb83vFv7S-lDMsht_cWBVjF4di_E66Hnvd
+XgXYSORg4BbudAV2oIoxiCtcwHXbAuRarlQehXORBmVA32VeW8ciTCWvIjq5EH7UNcIDfRK7KzLUHUtxNqkpI9hkpUcDny57zr9iNdNm2x8bLQmPw1USYsu6
+8utURZXd6CZqw8A44HYBXv_n6eUW_U3ARa_Qhictv-gAnNVzRVP34UWCPnRxjSNPXVDH-83zsmy0vKcB-06-0G
+}
+
+EntityColoring(docker)
+!define docker(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, docker, docker)
+!define docker(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, docker, docker)
+!define dockerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, docker, docker)
+!define dockerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, docker, docker)
