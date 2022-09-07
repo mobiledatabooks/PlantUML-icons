@@ -1,0 +1,10 @@
+sprite $logo_keep_2020q4_color_1x_web_64dp [64x64/16z] {
+xTK54W9144FHwMHo_oFZ3gF1uPTkzRvrIMzLbEhIoCNWyIoqVQxvzWQYxWNJ2wONJ2-ONZ2zO7h1z8Bf1TCBfXU6FNcs55NVxcSyINRxqcgOypoEEE5nEkEm
+v_cGepvgmxRdvNJGutAACH_tzl7S_SFmnlNtxlzPbTrtUHhF_oR68Vxazo-ga_Vtn2us_F__z_T_d_fzkXbxEPAr0QHYqL5wgvO
+}
+
+EntityColoring(logo_keep_2020q4_color_1x_web_64dp)
+!define logo_keep_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_keep_2020q4_color_1x_web_64dp, logo_keep_2020q4_color_1x_web_64dp)
+!define logo_keep_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_keep_2020q4_color_1x_web_64dp, logo_keep_2020q4_color_1x_web_64dp)
+!define logo_keep_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_keep_2020q4_color_1x_web_64dp, logo_keep_2020q4_color_1x_web_64dp)
+!define logo_keep_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_keep_2020q4_color_1x_web_64dp, logo_keep_2020q4_color_1x_web_64dp)

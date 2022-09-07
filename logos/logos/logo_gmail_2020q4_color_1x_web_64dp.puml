@@ -1,0 +1,12 @@
+sprite $logo_gmail_2020q4_color_1x_web_64dp [64x64/16z] {
+xSu7Se0m34HH5MmjtF--gQ8hM92UyAU2_SPBx-xkJaejGkbOX6cH3Sz1abgxv-RR_U1rgQsTf_wZ3bFMvkfwNZ0iwZdv-3n0XcNG8zwXM_RwR-rHtzHSiVOS
+UHZ7N82K1pJUdlQeuVQyXt6mFVOQUK3Nsm-yXHvrkJtqLLuyBFGmdhS7lXZS0tta0VNjaQ_0xD677dNUll66bGT23yEcQVlM-mGq6hVlFVgiDuGUI7ZV7dlh
+sxu0aVSg6bKSUh3X86CqF54v64_KyluZJ2ZbYItUJabFLCBjUKyQR3_ZYMspFU-zijb-rfDkjf_rnERRptkl-FQhdbJeglS-sTzUhdkcf_YwfvVALT_vltBD
+5nfZqR6Mrp5X-kxkxXu1
+}
+
+EntityColoring(logo_gmail_2020q4_color_1x_web_64dp)
+!define logo_gmail_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_gmail_2020q4_color_1x_web_64dp, logo_gmail_2020q4_color_1x_web_64dp)
+!define logo_gmail_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_gmail_2020q4_color_1x_web_64dp, logo_gmail_2020q4_color_1x_web_64dp)
+!define logo_gmail_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_gmail_2020q4_color_1x_web_64dp, logo_gmail_2020q4_color_1x_web_64dp)
+!define logo_gmail_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_gmail_2020q4_color_1x_web_64dp, logo_gmail_2020q4_color_1x_web_64dp)

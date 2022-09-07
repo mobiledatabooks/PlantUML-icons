@@ -1,0 +1,10 @@
+sprite $Google_Workspace_256x34px_Grey400_3x [64x8/16z] {
+VSI5OHW040Enitx_cTim9pAqk-ipFTc7h_MZwPlhYTS-qO-ksXh5miHgwxQDPjhOM1zsDKTODnceR4ons2nB6sligD1SdMLO5P6Yq51iLBO5YsiiReQAfh6L
+p0P3PgOlblK7_GtzPNts7m
+}
+
+EntityColoring(Google_Workspace_256x34px_Grey400_3x)
+!define Google_Workspace_256x34px_Grey400_3x(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, Google_Workspace_256x34px_Grey400_3x, Google_Workspace_256x34px_Grey400_3x)
+!define Google_Workspace_256x34px_Grey400_3x(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, Google_Workspace_256x34px_Grey400_3x, Google_Workspace_256x34px_Grey400_3x)
+!define Google_Workspace_256x34px_Grey400_3xParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, Google_Workspace_256x34px_Grey400_3x, Google_Workspace_256x34px_Grey400_3x)
+!define Google_Workspace_256x34px_Grey400_3xParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, Google_Workspace_256x34px_Grey400_3x, Google_Workspace_256x34px_Grey400_3x)

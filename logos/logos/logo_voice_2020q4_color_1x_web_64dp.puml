@@ -1,0 +1,12 @@
+sprite $logo_voice_2020q4_color_1x_web_64dp [64x64/16z] {
+xPLNSiGm3CNKIUd-zqrFdaTm6Ii_AOlV9S1PDuK_peDKIavnNVSthAJhqLfpcAd-YULplVWBBKmq5vQkTFTwukjN4ZL2NpHSISpLCzyj7brc1UWpmClC07rT
+uWddPQ9_V14JHkHt11ByShZ3nWjJmk2tZe1y5lBisq0WoaV0w2EGvJEGu2EGDZu2PV8RDZIL4U0Vg1Y8zCTyTKJM1cs7tmylGDI4TFZZ-0vs1QJ3Fxk02aYV
+_NxeP-relBBqKvZGJ9rkZOdsGOKUcbRKi43wqXS3_gal1hBqjO1BNmeawMk1wjyCs4aWczTuULOV1lB9sICA0zBvsI2D0UayUuWX89q14X6GpW3XIIPzBT0S
+nJk1FlhjW6trmK2vleZILmAXITyDX2lALcSWNmQYIMSWXclAsBBmSOWD0UZN1GPAk47nAT1Yk4SirZy3LbDO8kKNuFvsVZ_F
+}
+
+EntityColoring(logo_voice_2020q4_color_1x_web_64dp)
+!define logo_voice_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_voice_2020q4_color_1x_web_64dp, logo_voice_2020q4_color_1x_web_64dp)
+!define logo_voice_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_voice_2020q4_color_1x_web_64dp, logo_voice_2020q4_color_1x_web_64dp)
+!define logo_voice_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_voice_2020q4_color_1x_web_64dp, logo_voice_2020q4_color_1x_web_64dp)
+!define logo_voice_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_voice_2020q4_color_1x_web_64dp, logo_voice_2020q4_color_1x_web_64dp)

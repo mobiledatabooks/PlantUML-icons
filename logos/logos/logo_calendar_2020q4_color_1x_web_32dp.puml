@@ -1,0 +1,10 @@
+sprite $logo_calendar_2020q4_color_1x_web_32dp [32x32/16z] {
+lT030eHG543HPyp-5ppPrisT-E63I7IQ5L7BCUzNrboWSyxAhNPxtcFkmiEiZ8TEC0YbZ4wwkc5vJCkkpkv0aRpwV4vWYLNNa6AzxXQswO29w-uAlEKOcTll
+nnlZnpHCLBLr_vN5C2zN1glUywgNFFHL1kbzo7tYHJPCuQl-
+}
+
+EntityColoring(logo_calendar_2020q4_color_1x_web_32dp)
+!define logo_calendar_2020q4_color_1x_web_32dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_calendar_2020q4_color_1x_web_32dp, logo_calendar_2020q4_color_1x_web_32dp)
+!define logo_calendar_2020q4_color_1x_web_32dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_calendar_2020q4_color_1x_web_32dp, logo_calendar_2020q4_color_1x_web_32dp)
+!define logo_calendar_2020q4_color_1x_web_32dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_calendar_2020q4_color_1x_web_32dp, logo_calendar_2020q4_color_1x_web_32dp)
+!define logo_calendar_2020q4_color_1x_web_32dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_calendar_2020q4_color_1x_web_32dp, logo_calendar_2020q4_color_1x_web_32dp)
