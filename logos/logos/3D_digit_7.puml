@@ -1,0 +1,13 @@
+sprite $3D_digit_7 [64x63/16z] {
+bPPL0lGW30PZoDUz_tb_MGD2csxccObMe0X-GPJdAGsTqxuZ5O9FoTkUlEt9svwqxidRdhJkkT7lExpMwRSHNsOtJGNmUktAPu_kebpw9AZ20Ru0txp5lkl0
+wqmLHJZYncy9VrGpLf_pUNjo-kW_2h06MtsL4oAVUFPxBV-e4wqLdX2UZCq_S6nquO6gAuPdlnqdsApR7C1bPxBZiG4PPyJCT3hFBW1Rw__1X-C1epczgV24
+z_rNfA7oG5JDwU7dcYlSy5HzkiWlG5dJAti_q0reFE7rs2VjWAxfPUime06L9xmU1o05-f8-fU_fHRplv-_Jmq8ztdy3cgHyltgKG8zzaWvqkVVZz1Fd-cK1
+RImlyfzS3B_oudF6Bv_b-Vtk_kc9CRrVhcEdvJUd1tum_J3zPO06GCU2m_IxJu9F-nJuT1M0R6ml240pU_lBWYZIdroq_s7Nh_tnxYHySjkNcnNlBECh7Ffq
+nZI-RkvauW9D5UWgmJjsSpDjG2ywBYxEfuXd_GVGMosc_td68A-79HG0lRVwf9HYukqu0aa3-WkWL_Lsx1CHMsrFQYtAbB3tnua2EV3NUsBQd_JG_Gi
+}
+
+EntityColoring(3D_digit_7)
+!define 3D_digit_7(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 3D_digit_7, 3D_digit_7)
+!define 3D_digit_7(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 3D_digit_7, 3D_digit_7)
+!define 3D_digit_7Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 3D_digit_7, 3D_digit_7)
+!define 3D_digit_7Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 3D_digit_7, 3D_digit_7)

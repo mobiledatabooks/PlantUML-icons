@@ -1,0 +1,16 @@
+sprite $3D_digit_9 [64x63/16z] {
+fPO7Skmu34GfP71y__Ck8Jb0BFVADVzLKk03cc72-3-Ea_4Enx_wT-h9EtBdFRlpdjtve_rkXa-PM4GB4M4YK00r9xKBNJAAW7KnltIX-z1U06TNNrJpQetM
+5dTNlv1j52g0zIqpBD3JSzUxlHL0CxDBDpgwtOrUODS7UHJEzHhiMx_RVOaJRJekiEc5VRKVJtw1uXkrzcGHBhyluROaW-D4wVZHupNdJDtzVlljwv8pWt_q
+W-VfEwC9z7kBN7ZtoMRveTr1PygpCFfvVH3dwHiX_zXzRKE9E2uVJk0ua5-LYNrcPZZ37O3-E7sx_1QgAG_-Q3xSmTqtxkj7MdeOEe97kx7BbrjnpSXmXVuF
+GxEuZILMz-Np-8FFovvvpygYaQ5j5F2BMFuCvrilCZSQm3ywGw_3Ak1y0xyHPu4-WOi3vx-lm2oYJU2X__Pwo7nzL01mGWle5uF4SgQ22SB-_RtCcR9hmEzw
+tuPKQaz8-TVyeorWoqkn5i6PllK8eyq7wolk4P7NEL0HKRLLBOsRVo1_IBfPP4QukY-VEJy-Ng_fsEyJY7HLyynmeN4oNuiPtUzwqJz0heMRyFMUCijtQak4
+_PbXeWlX9SWvbgyVaEQZ0kVEknHSMyD6DJncjlZTtdq-LvsPobk8An5d-_hl-Yy_e3apxOeu2hPOkA7sUmAl03JQvh2gCY5z3s3BJmMdem7_FsMj80rOuUaF
+dBS0YoUzynCW68GcUlm3grN0w4d71MpE6KeFEYmm3ilp417GcmqYIDGKXBfQx3gEe35dc11TCXV7QFPZ1LQFS5EL1OFUa1fvTRvoGnlp8m3vWUrh5lgOxcF-
+0m
+}
+
+EntityColoring(3D_digit_9)
+!define 3D_digit_9(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 3D_digit_9, 3D_digit_9)
+!define 3D_digit_9(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 3D_digit_9, 3D_digit_9)
+!define 3D_digit_9Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 3D_digit_9, 3D_digit_9)
+!define 3D_digit_9Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 3D_digit_9, 3D_digit_9)
