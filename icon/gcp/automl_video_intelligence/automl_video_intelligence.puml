@@ -1,0 +1,12 @@
+sprite $automl_video_intelligence [64x64/16z] {
+xPO5eiGW34IR2J3S_yBhaahAVDUtBgyIAzClunzaQBepeqe-Ume4lUG-srWtzXpwqA-xVXdfOD-1quZsjiFtXyuDcXuybWrC3buyKXsZa6WbUCHhTBpRxkqr
+Ug5GPLBkDE5ZSsSdRY-c1YyE2RZ3JpxWiFM_BIly-v3oCpWVmDMt4fJ2cWqjMl3z_05d7pNiqhWSPRxAdJlCt74zVcij-9NB4WENkRiUl9yu-uW-kCvIuI9t
+PoziF_gD6rN2aBlKZ-VAieu04VsJXbiKevzqIUCrTuFufMq2XYskytVtRPNfEpLkS5q_rGPjOY6bMVtgCoRsprj6NDuchu7z3uyuz7UwFlIFpftv1jHprxY1
+lWZoDow2zdL_mmeooPtawxbBVBdlmDmNBwO9Oj-P9s3wPVnp1
+}
+
+EntityColoring(automl_video_intelligence)
+!define automl_video_intelligence(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, automl_video_intelligence, automl_video_intelligence)
+!define automl_video_intelligence(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, automl_video_intelligence, automl_video_intelligence)
+!define automl_video_intelligenceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, automl_video_intelligence, automl_video_intelligence)
+!define automl_video_intelligenceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, automl_video_intelligence, automl_video_intelligence)

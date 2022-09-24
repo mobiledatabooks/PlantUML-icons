@@ -1,0 +1,13 @@
+sprite $cloud_build [64x64/16z] {
+xPQ5aWCn34DF2kt_V_7L9Krcund7nw1oasTSyCjtrhzOy0OQvI8YIzFmj0KMYKbQmdxYiuZzn6Sn6Rh492qXbhWl8fXu8WcktCKjWCjq4Oy0wtsCLu0JlOhC
+ep5R8AQ_8QFwUnAV1EK5hLSyxOhcYfTFtZzhDpqeAfOLVwfiwLUrrSObFosm6NntN-Xj4w_st4ENUupHe3AwlDRwK_QhZMDqmxdDLriwZZjVjdbRwYFD5olU
+oFXNxmnFyjQsckUhCOOdUFKknwjt6RwfTpbUlKlngEgTqKT3dDVPNk_5iqQ6ULqSEAxqAAVBAqAt-pB6XQxQ4UErpZuQj1xYlUjlbFUl_zBw-kjPMAmWFBFu
+iqmW1Iwz8tm7f_EVApXyV0o3myV7GBeyD-O_yOaX5cUUICo_uf6QeAdFVO4qpjwJ0ZHsV4lzwnK
+}
+
+EntityColoring(cloud_build)
+!define cloud_build(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_build, cloud_build)
+!define cloud_build(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_build, cloud_build)
+!define cloud_buildParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_build, cloud_build)
+!define cloud_buildParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_build, cloud_build)
+

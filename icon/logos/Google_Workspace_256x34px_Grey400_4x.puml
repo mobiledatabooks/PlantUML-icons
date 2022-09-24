@@ -1,0 +1,10 @@
+sprite $Google_Workspace_256x34px_Grey400_4x [64x8/16z] {
+VSg5eHim54MnS-NzPsu_XoF3mtQERkdBBlybtfkwT_gYx_jD5tUxMwDOc5XjdMtHJ1iRo-MTcaDOPp9GsMmAiNpVDbjZXmhDgMCPLaMaM6YZC5QsXRCu3N5c
+g6WQsv8PPiZCT6Upth3UGk-iM_y1
+}
+
+EntityColoring(Google_Workspace_256x34px_Grey400_4x)
+!define Google_Workspace_256x34px_Grey400_4x(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, Google_Workspace_256x34px_Grey400_4x, Google_Workspace_256x34px_Grey400_4x)
+!define Google_Workspace_256x34px_Grey400_4x(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, Google_Workspace_256x34px_Grey400_4x, Google_Workspace_256x34px_Grey400_4x)
+!define Google_Workspace_256x34px_Grey400_4xParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, Google_Workspace_256x34px_Grey400_4x, Google_Workspace_256x34px_Grey400_4x)
+!define Google_Workspace_256x34px_Grey400_4xParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, Google_Workspace_256x34px_Grey400_4x, Google_Workspace_256x34px_Grey400_4x)

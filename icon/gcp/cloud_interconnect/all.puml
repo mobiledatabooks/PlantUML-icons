@@ -1,0 +1,8 @@
+sprite $cloud_interconnect [64x64/16z] xT750O0m0C107FPV67U7UflyxvLe7r5n6_vlQZq-tLIiK-Rn-6hidQ_6n3pUo7yy_ayQFRwu3Jz6r
+
+EntityColoring(cloud_interconnect)
+!define cloud_interconnect(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnect(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_interconnect, cloud_interconnect)
+

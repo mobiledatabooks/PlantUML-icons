@@ -1,0 +1,10 @@
+sprite $datalab [64x64/16z] {
+xPPLeeDG5CHmilyDFyMTd7gR7pHt1YTvN3u0TT0dw9V9ivFM8HqWytfEx2BG-1hjDrxTwDBtLDgFym76F97V08nctindw5SotXTWx2FyqOBKvGt4t4z5l3q2
+bdnSV0CWVZjKWG8OcmsYlHW08F8pive378zFMUHmFD87gfbU7Rw6zNByg9jitx3h5yuV5t1w8te_VlqIjWQeZtuvJNn3hVK6uT-B3zy
+}
+
+EntityColoring(datalab)
+!define datalab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, datalab, datalab)
+!define datalab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, datalab, datalab)

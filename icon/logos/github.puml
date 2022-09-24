@@ -1,0 +1,12 @@
+sprite $github [64x17/16z] {
+ZPC5ii0W34I3KuZS_xO_YtotdS7p4jXEYIWzhAeo2drIAYLZZAMKhmTNLSqCJJnoyhl8uLbtX6fyppz-4CwygCFgia4qFLEWuFN2uerFXK-ysUM3ECozbZRA
+vPDdA__agnUUWOxIv4h_u-yRlNoYgvYp1sRdUquV-P1oGWG6yAdsbed4Z3yunc7g4eENudh05z_AsphdTUiXDPkUTK0D1CTbfrVmrT47tXPlEqNpDd1ZSut5
+XsUY-kY_yjgBioRU5WzjdYXU_v379Lzva-FTVd-eLUpoN_nlF_2u_BJpRVXdllx2ept_vHDHFpmJvghBxL5oaOzy_uwl5CQj7ocm3pX42hJB1onuVEGJGc0b
+U01yl7Tt5czUS-o7FSWfTqLjUGId40aUKpH9w_yNvsKMeiuyG7GndQ-hmZmZnU5PfJMUvArWnPbU
+}
+
+EntityColoring(github)
+!define github(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, github, github)
+!define github(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, github, github)
+!define githubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, github, github)
+!define githubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, github, github)

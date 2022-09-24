@@ -1,0 +1,13 @@
+sprite $cloud_hsm [64x64/16z] {
+xPU7Sjmm34I5HTF_Vt54-BISIGMKddZTENve9FTqnn-hTmcWxgRo3DQbMB9vXAABBzapd7pu0nnIVHW3Z73iKVYi1Rbngaf0boU-vUoWcVxZjK41sEcth3y1
+fl-u09_pMt6foRFyZoSeFVwTvpyAH5whRHxO1h8ejreGw_AVyu-5genk8FcIFd4VC_AkKrmEoVDC4VNLmGolNekl9RUvUP6dP6PU7_C8ZCnBuxmKIZnYO5x8
+pCLd9kW0saalzSkvbONLMUocHt4PKKKaxWBGzCwYJDQnpnMewQ5tUassVI1V7Q0QQF0VfR8yCxQ7phrxzR8zPEuzTGr-1S_wvH8NmVhRl6ScH-rvflVcXukN
+Uy-CupyJtB_U-Oa51KJmzjkzgTeylv8Bgw_9-TtN5mkaGjxIU__-YZD_DI2ylrt_W4Lc6Bmcu4m_UVZY1iOIsluf7mKOl8P0Fov1Z7Wx06iGzPZWXPHGHBo4
+-SC_-VbR007pZsc6g9BDSFofUjS7
+}
+
+EntityColoring(cloud_hsm)
+!define cloud_hsm(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_hsm, cloud_hsm)
+!define cloud_hsm(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_hsm, cloud_hsm)
+!define cloud_hsmParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_hsm, cloud_hsm)
+!define cloud_hsmParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_hsm, cloud_hsm)

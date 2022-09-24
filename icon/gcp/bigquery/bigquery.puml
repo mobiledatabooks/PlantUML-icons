@@ -1,0 +1,13 @@
+sprite $bigquery [64x64/16z] {
+rPP9eiCW34DZoMvx_ml_-Qi3aKFPHRicUKA0QzXEe3CgG6OcWNWVHjRbhk9x5XGi5UPfGIiEKHUdZEd1LoFauzUL9FCf3oRmOSdnuCeMjq4vau3D827lS7Xe
+yDQz75z_xzq0-3F8FhtVPBHVJEmGcm3KqZKg7w26nV5Bd7PkcAjFzwAUFVcjlG0myVdiMR9y-IxDn6BCL7lBN6Rwso4V-j3O6bvIq1q-9_WIFou_ftbqFByK
+AtmkyppWuqjs_jg_SZn0q1UA7bkUN_A5ecr5p_lwKrrx7kP_eWLKBkpoyH0_TZk3ZB73O-molZKHBppmk7fqpLKb0Bpmmo0k09lwJttIT7Uu_gCJmlN6LmCm
+anXm-ExUvPiwGEqH25qZhfVD2UDLHxJmMsimNa02_AQ5tmuDfFgIME76eB--2PU14nrSY2c3o07Lhde3xw3Ld32Gm18hs1WuHG08iOD1RYkImHKhj0okN41b
+87pHGFYQ4ji9T0fz0W
+}
+
+EntityColoring(bigquery)
+!define bigquery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, bigquery, bigquery)
+!define bigquery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, bigquery, bigquery)
+!define bigqueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, bigquery, bigquery)
+!define bigqueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, bigquery, bigquery)

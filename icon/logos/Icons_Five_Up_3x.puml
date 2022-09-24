@@ -1,0 +1,10 @@
+sprite $Icons_Five_Up_3x [64x14/16z] {
+tP57GWL120K93nhm_lUrqyITA_LNPw0cqYV0TA7ecEv3Qx9BHfIF-WvTIFcO8ICLWugLwHizVVLObXa04RxySaP0fs_23Ap238DiNmavmqWLWOUSVaJsrdpw
+417LwKH2WDFNvNjoJrNUV22RnDltREDxwCktw7uzVUg7yDVpHuLx2tyzlvURPrm-DrnpPNHc3fK3NT-e6sNKQL_PiVtztc0Wjt-fzF9PLLIPVWOFwC_n3G
+}
+
+EntityColoring(Icons_Five_Up_3x)
+!define Icons_Five_Up_3x(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, Icons_Five_Up_3x, Icons_Five_Up_3x)
+!define Icons_Five_Up_3x(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, Icons_Five_Up_3x, Icons_Five_Up_3x)
+!define Icons_Five_Up_3xParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, Icons_Five_Up_3x, Icons_Five_Up_3x)
+!define Icons_Five_Up_3xParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, Icons_Five_Up_3x, Icons_Five_Up_3x)

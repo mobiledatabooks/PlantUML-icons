@@ -1,0 +1,11 @@
+sprite $network_topology [64x64/16z] {
+xPO54iGm30CTrly_VCofgiwLOGVZyOR9bi710L2C4eAm2wvuQo3ZYN5u1ZvXEat03yedyPne1Th_Jb9-hPEYdh_m4v8LDCHS5J41p-xl-zOPx13Rb-zS3_z9
+3p-dFZvk_EtZmKn-xkaduiym_XdMZz3RtzlzKRhw4K2k7-uunsNF_I0UC1BGlupwjNCjtm7YVyvt8StBDpmynrdb2LzzThHlHEVZvtyzPF5BOSWU5ji61mTd
+}
+
+EntityColoring(network_topology)
+!define network_topology(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, network_topology, network_topology)
+!define network_topology(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, network_topology, network_topology)
+!define network_topologyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, network_topology, network_topology)
+!define network_topologyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, network_topology, network_topology)
+

@@ -1,0 +1,12 @@
+sprite $anthos_service_mesh [64x64/16z] {
+xPQ5aKGn5CEEd_fl-9PHdxmCyM0yLfW-NarDJLy0-mP0mBEKoXdErr6PaESEl80K5o8yN0F1MGKH3hW2cOExpXNOwk6TxZ4Ov8M7lF2GHpWeCLY1SEZ7lG8W
+V6SLaxOTIzcgPDlPgcJVsgfauzkgzFgJTOCAS9gW0b1QrX2CqaSMDORZ-wkoxRyKtZP4vrTuUdy83_dziJjY3UAEM3tufo93CYuanI67bxWMFSLLGOBVv__X
+NL8Hd__VB02LNqvDJJC
+}
+
+EntityColoring(anthos_service_mesh)
+!define anthos_service_mesh(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, anthos_service_mesh, anthos_service_mesh)
+!define anthos_service_mesh(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, anthos_service_mesh, anthos_service_mesh)
+!define anthos_service_meshParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, anthos_service_mesh, anthos_service_mesh)
+!define anthos_service_meshParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, anthos_service_mesh, anthos_service_mesh)
+

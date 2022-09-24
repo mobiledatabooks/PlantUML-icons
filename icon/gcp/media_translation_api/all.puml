@@ -1,0 +1,13 @@
+sprite $media_translation_api [64x64/16z] {
+xTC7akGW38NX9mdqTFyJhyFYKirGHZqv_Pt3vmJWs_MNwEkyliAB2jGctxU-IE-y-hBDRtRknKlUxFAcsRUYLrpUik_xxt8VRhnlOT5ZtabvZITZulFrcthv
+dpB2P3JPVohvndWUEwxUsHl9tAvPzq_hPCEpobuO54oIMw_k7NkDx5WqyK9Ipzs7uaotgXwDGG2UTiyj6JztTxdpfxHqziQ8wr9sNtbbH6VGC0WZWckVpo3O
+yq1uKCiUpWXYP6HJifUzCT89mqa5WrBqjkcq0OtWnaYh-OsJwWosD8-Cz8LFN01d47iCwl4IKl36WsyvspMQMmosjMyN1rp7u8_5lFGIWwV1lwAkF6pmT3uk
+HvtiXVD_-XlpECh2vp8w8ccF-aPwVl-eXqX-Bq0h-dat-xTUoVSmyURbRE9RdJTCVBbkmDntmSjw9SShELx9yKgELtAyakCL_1NzzTS_
+}
+
+EntityColoring(media_translation_api)
+!define media_translation_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, media_translation_api, media_translation_api)
+!define media_translation_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, media_translation_api, media_translation_api)
+!define media_translation_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, media_translation_api, media_translation_api)
+!define media_translation_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, media_translation_api, media_translation_api)
+

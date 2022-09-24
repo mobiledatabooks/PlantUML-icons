@@ -1,0 +1,13 @@
+sprite $3D_digit_1sh [64x64/16z] {
+jTS7rkqe30DW2R21PF_h_PjdNZC9EhVer5i-ERtWVU7_USG6-gL9w678tuaMofhB05JrEX9V6hKXwVmzg0_dglY1wU8IKFC4DKxe1GHrJr3XvDAl2nYfckV5
+-E9bl_oH5MVhLPjFSFMJxhaQJtFTS_6BjtAvaYbvV74FNwfxIVCJN_flF8vpR3tJcV7jYutZErlFD9wqFkPvdiTn7lqHNySNZGYUoQEE6GN2V39_ZzBdyPKv
+EhSUM1NuFEOSgcVweRJMQd5_r8UIFCElqf_r9Y__AcKedZU-aH3clyUZgXwyy5Nror-QuddjhUyzhZsz5qBpVDJVtVkw5t7xhVrmxkQ3ryrbsDRpvhcdXfV6
+WrnuBum83pT4zjDQCs-raCBz5sdzvt0pTtChv6O-acUVS_GltPfPBRa0n6r1ZQludDrQQvN07SzhWE-2o8YjaFYceFHV3NEqVpYnBs0RtmtdUKmlYUyB29RQ
+p5eb4vSAY4ZcOa54u6e3mErxswrEN6dGDGBd2YIzhG12_lv6Jvx_I6JwU3u1
+}
+
+EntityColoring(3D_digit_1sh)
+!define 3D_digit_1sh(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 3D_digit_1sh, 3D_digit_1sh)
+!define 3D_digit_1sh(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 3D_digit_1sh, 3D_digit_1sh)
+!define 3D_digit_1shParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 3D_digit_1sh, 3D_digit_1sh)
+!define 3D_digit_1shParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 3D_digit_1sh, 3D_digit_1sh)

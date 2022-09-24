@@ -1,0 +1,8 @@
+sprite $filestore [64x64/16z] xSn72i1040F1WS72_t-npqvQDYVLlTkM8k94Wzwfwhq7sB8yGeNUenJlFPAL8tYmBmSUNZqV8A87pyFz-OIu7hazI1xV8xv7NC-jrgjNhtvs8XS
+
+EntityColoring(filestore)
+!define filestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, filestore, filestore)
+!define filestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, filestore, filestore)
+!define filestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, filestore, filestore)
+!define filestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, filestore, filestore)
+

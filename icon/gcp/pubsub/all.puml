@@ -1,0 +1,13 @@
+sprite $pubsub [64x64/16z] {
+xPO7SaCX34IrkwBS_yJ1tvLW9GnCUjvqUvy-7Um3-GSaDcmTO4FVAQ0RjW9r0vi-VwAFpVuRgGFIrhZwjWfTSintsDM7KHe8GptA9zJxjHQ4eL5ly2sVEKS5
+KZxZWT-5qg0ZTty5Vhw2IR_HVJ_mW_ORW2xfOVkDpof7hQIDC9qAiukpWI0qGZ5Olq7eG_UV7bZVVCjRKDfg0DI1d-Jlzv_Z-DEcGQeqzCrdJNZNmoa2BxNc
+r-ilrreSrr2yOA3Iz9Rjxsy_VYn2k9n87NWz9wq1IeGrhbLrG4Pw8pNRRS1RXIH51NJ3IyBpKIsk6_5o4MUs56BVGZxEjwczplWZu5WvtbH4M1ipkv8s0ew5
+uz37lt-lrvNlw3i565osi-ZgQzVVR3zjZPGFaYs2TEYmPUXE-q3-UG4
+}
+
+EntityColoring(pubsub)
+!define pubsub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, pubsub, pubsub)
+!define pubsub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, pubsub, pubsub)
+!define pubsubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, pubsub, pubsub)
+!define pubsubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, pubsub, pubsub)
+

@@ -1,0 +1,11 @@
+sprite $real_world_insights [64x64/16z] {
+xPK7RiD030H7VV__uVGGE81Qo6Hwl2Ywk-MCkqNadabl8SjYMz0GtnewShs5HKaItEjZFm_xVMnPSdtoUYwquOTyHAwDzGBvY9wpdRInEim7ck035g8pmNxU
+MXmSpYhfy3m6VoCtXuCEF2_B-wZFgyNV-Rt9GvtNEwykNyQdqDJu-1Jg3my5sZpgz-1Evt7FUzpp7Y_pChFJHS5fTKrWp1FjJzLFT0HIGn1rNH1bLS01HK7p
+-oNfQ0ZK-u6ezVlsk1V4Rg8YYFLI-2tim_9cmKGi3swFYBJkq9se9zYRF5qUZtFF8m
+}
+
+EntityColoring(real_world_insights)
+!define real_world_insights(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, real_world_insights, real_world_insights)
+!define real_world_insights(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, real_world_insights, real_world_insights)
+!define real_world_insightsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, real_world_insights, real_world_insights)
+!define real_world_insightsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, real_world_insights, real_world_insights)

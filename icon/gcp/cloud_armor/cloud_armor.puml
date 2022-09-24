@@ -1,0 +1,12 @@
+sprite $cloud_armor [64x64/16z] {
+xTU7SWOX20JW7nPy_pTETNPmZiqOqmjJhlcTm6dAxIFZFzpVef5Z9EmC6yQCi0CTeqJuwxJdXCaJtzUeo6SYgX4wyJ1rHuTpR9tDaA8HgcpeHxvJTXEb4ItF
+faZHckoUicmTR8Jos5WQB_dRHlmGRtRekLp2ZhtpCvzuhYNCTPauyy7pF9uVFDtst2fMKzdt3kJSXYVU0S3TbptdUvwS6mx9ygLdpneEHC3MUL9vQxYlmqpv
+UAnIy-f3-P2SuVJDW-ovHs19ixgQs6XvS0MpJQg17NUk8Dq-Dk3AdtO05JYeRy326vyilr-1NlZgWxLqbhbTENAT7WJT5x0B1o82B97TxpkOLmwAPFTq0W40
+FOUSlWu8DRiDMNrDCD5mFbIoLj3pQB8N5KWEBUkm43oqMmUchTnISFM24PMxvFe5IMunzddTCLRqmC7Vpmca-9jmAmL67Fu3m48Emf3ius4OY3ya_kCU
+}
+
+EntityColoring(cloud_armor)
+!define cloud_armor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_armor, cloud_armor)
+!define cloud_armorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_armor, cloud_armor)

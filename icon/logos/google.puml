@@ -1,0 +1,12 @@
+sprite $google [64x21/16z] {
+dP47iYD124C93HBtl_0Mu6fl-cdaf77nYDBo110ktvF_5MZWAlLRF61_f0CHxfv4FE0DJ5qNye07y_e7lFC-lQNwRJx_BUyWSTQRkzlQ0-1u-FAM6mJ6GZ4w
+8i4Ygz1z-4gd44cGCRnF4EFo0ROWJeQgirAaqKdIMU6gyUALDKdeOBxh9o6edEUYQeFjNHKSdyFhAVQzM0ZYlQp3LDB6iznyhRaPiH4OFYftIwfaN3vvFk3z
+nVlmbaKoVGOd_PQ72kiCGwhT_asnQUFs7tgBCgo9d8D4TQIYCE3USEwi8dxtDrKER5UFrkleA29Pj26zFsr1PDxx7HOILT649nlFdLQJLOIDl-SNIm18XcG7
+7hQEhDJSTErIThtU_tkTWRX1a_YxifYK2PT72i14Wz1dl2O94YuFfK4o_y5_0G
+}
+
+EntityColoring(google)
+!define google(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google, google)
+!define google(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google, google)
+!define googleParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google, google)
+!define googleParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google, google)

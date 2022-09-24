@@ -1,0 +1,13 @@
+sprite $key_access_justifications [64x64/16z] {
+xPO7SiCW44NPYkv_ugYCysUq8dobjvUuWTykfhVlpJyMcU6lzprNuet-P-UNnwj5xeGhggPOwgFh4jYcQZgXPshJo3FMXEWCourYet0I8AV8Yxva0ZSLKVK4
+U-Tm0Go56j1dUEwur7vPcUgAv4Hv9V2rom32f8_nq3gHlYOHr16zRwMuntFRT3xzfEXBjqS3d5YmLGz47-RsGETN7PqRxbV-O8v9zXxdkKduKlHRVdJRIrSz
+strVbwKhTCOtTqV_sHu0ElhFtOqOFry3v08TuqVEdpN0gilv5pezVxr3H_ELNp_HfTRTMRz2hrz-__ZW_KkZrtRo-wUQPN_5_WtT_7H-67z-gEsywlo2hit7
+vwSHUXkStwm-kZy8eNkCxozWhAE7gFjJrH40zpTMjxpmWzQr6VHoVwLwtg3psC4k6lHN101V4w2z6kH_9T1VYKhxKVpp1
+}
+
+EntityColoring(key_access_justifications)
+!define key_access_justifications(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, key_access_justifications, key_access_justifications)
+!define key_access_justifications(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, key_access_justifications, key_access_justifications)
+!define key_access_justificationsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, key_access_justifications, key_access_justifications)
+!define key_access_justificationsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, key_access_justifications, key_access_justifications)
+

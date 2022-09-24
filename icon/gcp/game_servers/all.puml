@@ -1,0 +1,13 @@
+sprite $game_servers [64x64/16z] {
+xTG5ZaCn38JXCSJstF_2gnIUbU8ojPyWqKZ_RXcRfoTfcFhIS5LKvIO4G94rw-YzAgxbP6KRtOziHGOkKQwzTMzhJyK5Hj9je-WUshkJj6kzedM_qB_GwzwS
+QBhtbZvv9lzIxx4tmzZpxl_l-s-oMVlUxNg_AErUY-sLFQFxu3jw1p1F0FwQNdnXSxFjN0Z-9SlApP2vH1W06RrN6YvpajaSq7aguDb8EYuHahNsOvvZxOka
+NFtzZyt0eNC0e_URl_-1LMIUJIJjjJrKyQw-_KWlE92-lRxtOWgcGOvzdIn_PQyytfma_LXHNzNlgzggkQ7wBttv_yVWyVd7SP8a1rxPG_JyzLVv0v-VrBlo
+UlywNzKZ-KebkCXUIV0xF3sz
+}
+
+EntityColoring(game_servers)
+!define game_servers(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, game_servers, game_servers)
+!define game_servers(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, game_servers, game_servers)
+!define game_serversParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, game_servers, game_servers)
+!define game_serversParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, game_servers, game_servers)
+

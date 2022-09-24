@@ -1,0 +1,13 @@
+sprite $iot_core [64x64/16z] {
+xPQ5plCm34LZl7d_5_x18rjrIjA4En-igNK2rwFnFNwmgAhGJTdmO4BfiaqEp1U0NjG5c1auNT4rx0p0LrQV6m0wdHnc0_pO928Qmp4xe55VomRyNyRc0dZK
+5zsqYHaWAsY2W7JzRZCpGtVVDdwhEwqcrb6nDh9eENKbSD6fpsi4hO_LyaYNLFoezHj0liqefzJtKCPWxoAaEgiaemmYZURPo8iJm_9BYQBsti3QfpqVZK-p
+x55R7vgNWY_p4ypgv_pGvLTNjEhteze_IfiyvSD7GN7Hv-RrSzw7Dg_VStwd1mhWZ0z0HWUfuzY7Lxj2OYRqfexu_sZi8-ufMlQy6iNelizVzdy-gRkR92FD
+9bPgdMuUMEThgRNyrrNTNRU-b5eBknizTa6R4_lZPjJMsKdDaFEL76GONh6QAzhtDHwR_TExjlR9tOM6k5kAN2ckBKIE67Osy82VIc0Xi0VxJo79khgRn9Cc
+rtJiGVB-maqXfewHc2cFaqJYRMBdVOh7-xu-O-0xVdICuXKvRi6bc_Sda1jgwURt-F4N
+}
+
+EntityColoring(iot_core)
+!define iot_core(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, iot_core, iot_core)
+!define iot_core(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, iot_core, iot_core)

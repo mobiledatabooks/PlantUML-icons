@@ -1,0 +1,12 @@
+sprite $configuration_management [64x64/16z] {
+xT054iD028LXs1TvzxzmlMMYi6KazjVbOvd8cRf2aWFxvO9tIGwKrFw95JvdLmmWnXFisO_a_5b0IByzKEDDcmTgl6dp8r2WAxYX1IleUtBaVwc_FqTXbEFf
+UQIzjJT_-SlhkcyyBqv_-pxfoPGdo-m25STdlFvyF_BnupzblInxoVhw0H5kNYS3VFuZhsi_7X3XDe2J0K5k0qRN8CgD33-QzjFXWExhLQAL5xT8GEAHx6LK
+7PTKb9DrTGS
+}
+
+EntityColoring(configuration_management)
+!define configuration_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, configuration_management, configuration_management)
+!define configuration_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, configuration_management, configuration_management)
+!define configuration_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, configuration_management, configuration_management)
+!define configuration_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, configuration_management, configuration_management)
+

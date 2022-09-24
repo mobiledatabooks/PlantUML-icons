@@ -1,0 +1,11 @@
+sprite $early_access_center [64x64/16z] {
+xT350SGW503HUAR_XjSLTrR-t19us61CalPjMt8yi6RwfREVM_fTzvFonyd1Vo0d1ny7jyV7IHxdKkRvmj-7MxiowWn5NrD6_Q4sn3H2pW8RfiPWZxbC3faS
+MdXSrVTpfiTT0IyUKlr-dPAym7D2edSluFVk1VpLMu24SZsT_P3QdiVvAwvsvHafF2j9EW8
+}
+
+EntityColoring(early_access_center)
+!define early_access_center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, early_access_center, early_access_center)
+!define early_access_center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, early_access_center, early_access_center)
+!define early_access_centerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, early_access_center, early_access_center)
+!define early_access_centerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, early_access_center, early_access_center)
+

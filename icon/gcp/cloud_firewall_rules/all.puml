@@ -1,0 +1,8 @@
+sprite $cloud_firewall_rules [64x64/16z] xTGX5W0G401H1Uv_Oaa30Epywat1hXe7bv0zjJDw-lFWWfRdD8CzFTZ_z3An_-d1_gSV0Gy
+
+EntityColoring(cloud_firewall_rules)
+!define cloud_firewall_rules(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_firewall_rules, cloud_firewall_rules)
+!define cloud_firewall_rules(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_firewall_rules, cloud_firewall_rules)
+!define cloud_firewall_rulesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_firewall_rules, cloud_firewall_rules)
+!define cloud_firewall_rulesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_firewall_rules, cloud_firewall_rules)
+

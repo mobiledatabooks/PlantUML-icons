@@ -1,0 +1,11 @@
+sprite $developer_portal [64x64/16z] {
+xPO7RWGX34NvO7_c_XTEyqR1oACmSVhojewbPtefNy5ciwcYV4AbVaJMFg3reisZ7mFzu9KC-cBt_lPv2kYg3PhDLl54RRGCn9fkPGg6a5XiBO7qeokcfFeK
+bBA6T8c3go0E_W10MGUjE9hDtpcACrt5F_A6EaCK9pf77np0w9E8TUTRwI9M0-yJaUxynYVQyC_vHA0xNqrwJQ2JJynwGBd128mw8yINE8Eq_ru2FnIUQHA0
+w_tdT9TWTVnCzu31_54H3UQFwHFmFlIaiHBfbY2nVgBrMwtkTLw_YVqZHNh_JE_VoVCZVNxbpy_y-Ps_F-JlB_dxKvxDPlC8
+}
+
+EntityColoring(developer_portal)
+!define developer_portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, developer_portal, developer_portal)
+!define developer_portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, developer_portal, developer_portal)
+!define developer_portalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, developer_portal, developer_portal)
+!define developer_portalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, developer_portal, developer_portal)

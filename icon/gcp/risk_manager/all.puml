@@ -1,0 +1,12 @@
+sprite $risk_manager [64x64/16z] {
+xTQ5biKW30JGrCZy_m-lrkQKa3IixvjZs0NojF9fUMHMNOOS1UKcBhWchfNGxHtMjRlOUz2uNjawfDkjGboOosa8CSvUjfil01ASIa6RQtKXrs9bf9eBUNS3
+dbB0dYa63wVNm-3dZZt9laf6mrCdlgBVSq5rBxwtBp1tUhX-fCCyNuJ38pM_K6-gxW-O_bP-ef-eDtgREw__x5-jwU5n0lrU-lta-agNITvp0INXQI3X5pXn
+lBGfnVeCQwMOe6SaSU_zJSv1pugtMdFfDJVGXAVddvYFRy3UUO0xFEB-38J09TB803_IJefpHgnHaGJd93YdXtCvHP8fTFZFo2FF
+}
+
+EntityColoring(risk_manager)
+!define risk_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, risk_manager, risk_manager)
+!define risk_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, risk_manager, risk_manager)
+!define risk_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, risk_manager, risk_manager)
+!define risk_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, risk_manager, risk_manager)
+

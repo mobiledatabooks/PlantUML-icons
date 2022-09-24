@@ -1,0 +1,13 @@
+sprite $profiler [64x64/16z] {
+xPRdOiGm28E36BdtV-7kDh93CTrJlphkmnBXYBVtrxzWYT3dpUCajnVmaUWp-Rx_Vlzq-nrIUHiUBc_2era0QkuHxgPWl5L0nX5m4y8ZR4KduoS7xktnPPcr
+SF5uJlk-Bt5GQ0K0fLRibyiUFPpt1Ume45AQfsxb7TrAFLZLV70eVDbv5Cbi6PuI2kIK3IltuAwfAcGexulZRUYOtaau7khZnodIeK1fGAZr4Z7mm_T7Sfx_
+wHElnaSKzerACV-m0wm8GBNzp7FX8hvmUkQL_YCBNZCU2nw7DSjuFKAYpVlBUVPlskOv6fuMaBRpSsbXxyC4ek2Tdpzxv-TVp0_D5i9r4dX6Kx4tnSnJZv3p
+4bHyvda1rDjFiWB92Pa1xevmTbumKgrVhY-uWoNzTswWsW_AsxdyY9R_gsJy-cA9zMwX7janV7De5WZ3zFfjtfoShprcnhzthsYvTEi9dj6EhIruJQ-58RSH
+tPP0pOm6-Ftrhsi
+}
+
+EntityColoring(profiler)
+!define profiler(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, profiler, profiler)
+!define profiler(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, profiler, profiler)
+!define profilerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, profiler, profiler)
+!define profilerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, profiler, profiler)

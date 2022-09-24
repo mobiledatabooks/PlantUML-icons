@@ -1,0 +1,12 @@
+sprite $retail_api [64x64/16z] {
+xPG7Ogqm30Ijplql_8hHBq5ubTudFMOi2TQCxy0lR8cE5MetQ9n2yHTRw39NTULlVmXQ-VV5LNiMTwQls5_04utRDTZ7t7qvx2mtw96-b0R8RvW-z5bW0yLt
+U-1BX2zyZItNU5BzB4Bh9nayYqpE_DLTdjXi0FcKCu8eCVAp0ch0WCyvuGhE4Azyn-Nt2_JSttXF226Vzoku-7Ek_D4tG2S-3Itbbo7cen-sFpiTZpf5L7mQ
+bj61p2PzZ8CVMgA36k11C__vMcHt_EpgAIfmPhCZGqn7FAFPOpDjHpAPZu2sCz2pgvDMoci7HN2BWfVg-0m-6tIZFtzvUc5vwLFUdt-8jkd713V7BreV8Xu8
+r_6v8IQuW65pT-FL0dMwxqYzgpk4VVFasBid1dNoFt0fdz0Zsgy3QDcuyq5zGBci3DQ5Tr93gbtxYQHUq1ohWqI5mCAtuPSh
+}
+
+EntityColoring(retail_api)
+!define retail_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, retail_api, retail_api)
+!define retail_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, retail_api, retail_api)
+!define retail_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, retail_api, retail_api)
+!define retail_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, retail_api, retail_api)

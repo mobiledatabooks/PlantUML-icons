@@ -1,0 +1,11 @@
+sprite $cloud_inference_api [64x64/16z] {
+xSr75iH0309HHzt_nWuiXsQotOdQYlyq592RqUl9hTv-Hfzu-t4wU-ed9FpqQDZFg2jlZoxnI7ZI-Z0b_20R4pVoJxl4w-BiAX_QhK4-Pl97wYjxNWTAQE7F
+Bl9BdFNWxJdjqLtUdhhSsz-Vsm4
+}
+
+EntityColoring(cloud_inference_api)
+!define cloud_inference_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_inference_api, cloud_inference_api)
+

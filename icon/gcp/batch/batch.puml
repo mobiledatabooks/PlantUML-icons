@@ -1,0 +1,11 @@
+sprite $batch [64x64/16z] {
+xPK53iCm00DJllz_UBnPu3PM1AESA7HM6ooVHQVJsOfXYFK9oWDJgWDWIxaEjfJhO4kvpe8Xqmkx9Bhv2L7N5pTr8fhvzL4oFe4-65rKzU9qiLfzItKOZ3xb
+EXW_qKMZBexriQR3aRvApm8qg-eRQV-0JNkmRGBcUFxQroyFy7fxGB6CQK3PONK1ePwVuBdbwXTRydR4zwSFMDabVpzKOlIwHoCbhQck0-2dCmtOxFkT0hRq
+MtGwdJC
+}
+
+EntityColoring(batch)
+!define batch(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, batch, batch)
+!define batch(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, batch, batch)
+!define batchParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, batch, batch)
+!define batchParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, batch, batch)

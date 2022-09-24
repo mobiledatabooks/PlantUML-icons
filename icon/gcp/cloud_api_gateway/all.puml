@@ -1,0 +1,11 @@
+sprite $cloud_api_gateway [64x64/16z] {
+xPU50S900CJgpVuBu-vS7YT8DUzQlJ5_c2DrQ9mEKeTOtnmpVypzTgC1z5doHINkI2NyFj3PEnTyWu_m-vjyZjXeR-5d0HIjGBP4VikMnA_A-RUK_PxMN0h_
+-RvElo-_vzS_vVowEcAm_VUz_PnU-ipviVchdR6ZOzSFqhVh9pbcz9bl6i_WrgzpiTG2tEuVPCTxN_vC0G
+}
+
+EntityColoring(cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_api_gateway, cloud_api_gateway)
+

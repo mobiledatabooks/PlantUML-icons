@@ -1,0 +1,11 @@
+sprite $cloud_endpoints [64x64/16z] {
+xPHfpiKW30ERc6BkV-5lUKZfOZsB0p2_6tM6xPXiDfjD93x4yQ9naduU4_qgoF47QSSJaqD9ZdzuEdkKlN9oVCWrUuL32eoz0YamzgQ0kMIlX1GOUrVGbktN
+zm3FtyUBPq7pzdMEYunxGSyK--VYGRWLK3B57iAjeDMFtlOXlnS1Z3u_DVO1fGPEJ7I-jTfdAdYvgd-lVUKGQCy9_ZW7Umd8EEmf3w3nTZ1qNkoV9FhzRa7g
+PQLVjF5F5UGBEIUhTykTa_NNGUoLO1LyGyPzWRTNkYdmzhx0hBqfyFQ-89oz8KWjK7jNCD7pdK_xpMQp-GK
+}
+
+EntityColoring(cloud_endpoints)
+!define cloud_endpoints(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_endpoints, cloud_endpoints)
+!define cloud_endpoints(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_endpoints, cloud_endpoints)
+!define cloud_endpointsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_endpoints, cloud_endpoints)
+!define cloud_endpointsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_endpoints, cloud_endpoints)

@@ -1,0 +1,11 @@
+sprite $stream_suite [64x64/16z] {
+xTI5SaKn20HGWYt__yCLdetjD4EzpNck2R3t2i4Snn4gx-60Yt16zRgAAeHG0Qf_Zwg22cCe0hthG3zZ55JU_XufL2IrH6JrxfTC9QfWCkMFtWzypEvL64tA
+xhjteK3rdlMjqQ68pU0nMy4JPKn9yBRz_E0fzzYzK0xATeA78X1xmMC_Xsm4pnD4ak3jUmHludS7JpqZQdp6YmBGknzll46dHqnXFlh-fOzF-Ekwi65Mlrxx
+jlfnlhuFrnTqvJaUlptwlwQ7NOF9ZA6PZAcRobzr7Cy
+}
+
+EntityColoring(stream_suite)
+!define stream_suite(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, stream_suite, stream_suite)
+!define stream_suite(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, stream_suite, stream_suite)
+!define stream_suiteParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, stream_suite, stream_suite)
+!define stream_suiteParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, stream_suite, stream_suite)

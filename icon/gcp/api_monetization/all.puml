@@ -1,0 +1,13 @@
+sprite $api_monetization [64x64/16z] {
+xPG7hiCm34DBKd9o_mjto89hzy-aUn3p9NZUqkRM-GJ4EROaShslcZEcZs2bppDzv01dxF_C0-J1F-y1FD-JnJdlbvAQ0o-bs2AT_OqVz6K3g8OLIWrM-fO-
+pvoVY_UF05JT5nyW4nWw5XOTEv1fy-gXH3JmujP-QK_wrvKXORWn2zA29kUbK_YVzqjrFjBmyVskz9N4CzT_nVFB5V08vduKv6xSl5PoanmsYKR3_fc_nd0w
+n98y21KGqCu_YAV-DCs7C401KrvogQG0p07JYSwgvmAyqemmAkHebiJHLtxse98-SyPlV8q-l_NnFFx7__Y_ru__KZ-jI96ZfP6ZTGQcR-itcuJw9b6GLFOm
+MuAw_Z54PcX0Sms_XcukD3eld-m
+}
+
+EntityColoring(api_monetization)
+!define api_monetization(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, api_monetization, api_monetization)
+!define api_monetization(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, api_monetization, api_monetization)
+!define api_monetizationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, api_monetization, api_monetization)
+!define api_monetizationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, api_monetization, api_monetization)
+

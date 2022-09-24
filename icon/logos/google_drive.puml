@@ -1,0 +1,12 @@
+sprite $google_drive [64x57/16z] {
+fP9T3WCW28DHKM7tl-_-Hs9iLkQ-zzBQAf0s_R9YNV8ClsnuoyiDw8Tc3wYvRmTCDNcWc0DzV-XBxl6-7vYgoG3LWDxrHHNAz3ThUPeCe0RqhfeDO1uivNqW
+5NRp_O2f1erl5m1x4c3uGcoN3D0Cw5rNAjykYEreWDXk9SeZ1wAyJTztVH58Tq2KHmDKynrJH2NR1TQB9WCqQ2_IaW4caZU90wH2DLJUivVC2mfCNqMI0OO3
+nlis3i2t-tZW2cbv6e-3B-3b1HK68EM50Qsm6owF16XiEn90oxUFBm6fi7tPZWIeTBi0VoAw7TkGbCShx4ws8njEKXuB0Eqhf6dVkG3i5tQvsm_eV_8kzbVw
+8kslz28op-sdt2b-RD_aGJ-r7_B23-shlD3JxJxOKNabzFLmks2SRHSKFoilw8VR1NPMNb2c_oAlig4phTOIgXi
+}
+
+EntityColoring(google_drive)
+!define google_drive(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, google_drive, google_drive)
+!define google_drive(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, google_drive, google_drive)
+!define google_driveParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, google_drive, google_drive)
+!define google_driveParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, google_drive, google_drive)

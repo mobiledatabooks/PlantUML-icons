@@ -1,0 +1,12 @@
+sprite $anthos_config_management [64x64/16z] {
+xTRNbeOW40FWWT5ntl-5j-Q2OpX6OFl-kRDyiGlsW_E8UsnBt2DYGR_vY6aD7p6f_JXGKAQuPLeW4zfUlLqq20q_qb2XYpM-Mw0F3iyDMfFd1gtXgM6_ujLw
+Nfy2k9tuMm4tiE_gjspSqFVC4IxG7XGPzKaPyV6sVu54YlQzkqxhli1ZvsWox7FFDkC-5ps42_zJxtz2nDVVFuRBz-yBxtycUwmCxGkkjutRaLYfFFOv5U0d
+kELBhdo2SqExyjAh_sVZvV-xagR_jnu_WZIy6FueSWWjgc3lQNqAapC0hNK3QvtA1IucWU8KvcU0Gkk6Idfg_knVFtz7Wz0YnSD-SXvv1W
+}
+
+EntityColoring(anthos_config_management)
+!define anthos_config_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, anthos_config_management, anthos_config_management)
+!define anthos_config_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, anthos_config_management, anthos_config_management)
+!define anthos_config_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, anthos_config_management, anthos_config_management)
+!define anthos_config_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, anthos_config_management, anthos_config_management)
+

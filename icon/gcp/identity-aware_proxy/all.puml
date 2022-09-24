@@ -1,0 +1,13 @@
+sprite $identity_aware_proxy [64x64/16z] {
+xPK75Y9124J9nVrFlA8zmpFpmkR-PkmYAaD_8flDPiCYmdI7-GMQ88vC8E7QHezYeWwWqRRFz5Q14UuUkER0go8VwGE9qANHwoS-yXV_gg_AZHej1wifGYvV
+ayzLCQ_sIvL01TVzCunCNPb7sEb0QORZY1M5h18GD8AHu1M-iAEb47gBg9PcHV9bZ4BlpGKptMFH1xq3rR3zJ0iuzHrj1J9Y2pvcpxHGwwO1uD8MAzqENr-i
+15QSUzglYDxWhtfMCrE-r-j2tkJVUeiR_boNYBpfNv_pEE67kaJb_VmCqB94S_sS29eWG3pexJPMen58295q_cxzgnoWI5G23LTNu3Gay5IgLVZX_vUazqql
+5EXuVrG5zpiJ2Plkhq9H7aoOMImIcJRSdnsoFEI5wniPxkz68t5Wm-l7FM9rsaq6rwzVpcQpsVm
+}
+
+EntityColoring(identity_aware_proxy)
+!define identity_aware_proxy(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, identity_aware_proxy, identity_aware_proxy)
+!define identity_aware_proxy(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, identity_aware_proxy, identity_aware_proxy)
+!define identity_aware_proxyParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, identity_aware_proxy, identity_aware_proxy)
+!define identity_aware_proxyParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, identity_aware_proxy, identity_aware_proxy)
+

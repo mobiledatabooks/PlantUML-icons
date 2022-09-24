@@ -1,0 +1,12 @@
+sprite $cloud_test_lab [64x64/16z] {
+xPO15W5134E1Jkz_OG2Kl-Iz3603-1gWpNRIIQCYOg6mbXdWFkWHouF0NekPvKatzelRGPONklANEy3O3wuxh2d-66PPrC-_WCzAB7h-VkR_ryp-yVgtuG1f
+B7FoVetYN6F6cOYvnenx2lkI6VSqpHKpdYdTppEDkSQCCv5oYHYcY--dN6F6cUZ_VfnhpFZ_y_k7SuqPsm_b6WFpHsdS__JyqtSzhjEFrLodxtfSf-ygNAVl
+UbodxcfOv_lrNO_h_DzFt_Mupk-V-eIHVn4lpxzHQm
+}
+
+EntityColoring(cloud_test_lab)
+!define cloud_test_lab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_lab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_labParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_test_lab, cloud_test_lab)
+!define cloud_test_labParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_test_lab, cloud_test_lab)
+

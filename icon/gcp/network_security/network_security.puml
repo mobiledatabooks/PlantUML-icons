@@ -1,0 +1,13 @@
+sprite $network_security [64x64/16z] {
+xPQ92kCm34HrJ_x_YpU4OGEElMgybBEFgpdUM095LBx83tNNVTkY2aZRF3hhv3W0XEt9bt-2ernVrKteNqMalJkQFXdwwENHx_jWtNE_xqEpglCPCKsmce7Z
+oIiV_-ExQ63V3pb9RFlNUxxl-tL_tqzbmAPV8GpOzrqPiEb7ie9jdm6xVjKLW9EF_8p88ccMnO3A17hVvSIBaEGxqVh15nS1YSPNuTK0RsjtlZHWwUidlk8u
+-OVlmp83uNs_V9KPTQ4C6FOFxFuICFTvP9YvCY0ZwHz8Trv0faJz9HaG8dV02PFcljSOG7y0CVUrXW2ZFs8ovp5nDlKX2-Avl2O-SkNRREQztNutEGj8zEKJ
+V-x_v_9p8Nq1Fca0Gje2E0Nhu_i2AdBGg_a-Qm3Dx3GTL3EwRGTZzIsQInzGwT6rRxqzZd6Zjm6tVUijcWyVfVA267oalCEoRXzmUOqdVN1gjXBubtiJzJ3v
+8Z_-
+}
+
+EntityColoring(network_security)
+!define network_security(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, network_security, network_security)
+!define network_security(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, network_security, network_security)

@@ -1,0 +1,12 @@
+sprite $dataproc [64x64/16z] {
+xPLNWlGm28CjWStS_y9_TG8EKvdjktf9_IXoQrzLFo95XAZIiea56XB48buF80Unr3lHC6zHI1zRuUFTOtbwk7pF-703N06MU3x9ovFrwvF-gI3WV9ZlAWHy
+_XJuolnrlYUyohCLU7M-LNXGLKIrctLK-0OrE_sL3LRurg3ZZxhMrm_8pKHK-BWLihv-fr3XOmIYn3VmaIQyreSYO3lmkcdkLVM63MwJsac9GqdQVKNonecb
+PaiIZB-exW782xW7687dwDlxIot8GMhmq6epRV3nNE-4LpB42vlf4Vz5JiyOJBcFcfekfZ4ynUxN9-wfPldfxy3d0q-vUzhj02G-BnWTmebJvIwUuJ7C5S44
+aAgzM7-WcUCpyqi2HZewUcFyvZjANkt-37giD7q9E2suCBrlpz-SWHbVbUbLJ7Z-8JL-OGEwjN_Wolx4IESV_FiRw4S_-Wq
+}
+
+EntityColoring(dataproc)
+!define dataproc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, dataproc, dataproc)
+!define dataproc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, dataproc, dataproc)
+!define dataprocParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, dataproc, dataproc)
+!define dataprocParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, dataproc, dataproc)

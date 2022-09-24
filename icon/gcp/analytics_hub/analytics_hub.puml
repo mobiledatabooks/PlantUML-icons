@@ -1,0 +1,12 @@
+sprite $analytics_hub [64x64/16z] {
+xPQ7RYiW34Nnvlz_ECEEh8G7w5dTBRVDT8vzsRIAZewE0F4jj7Opetr-SY5CWcRz9kCbJA552hNkCfZYIAFmDNtG2mFmX66-XIalo-Bf6N2q0BAgdpXklcEp
+v75k7cRVHW9osXRsOIYUmaYB6hJQJLtQAAzpUs62IGAMxhXY_cHIle6eYE8_2JIiRwPTc6GLP1tDiNMd6POuX7jLQ4qK_1iEdwZT9MiwsWXtlZruDXU3zFs4
+3qNvXtyL5EikSzfCFBorZpw_HEz_rfzanj4xMpxYCJZymWjaVD_y53tnnkdlltd-Mhxk7rvvgFRVc9-jD7uvVrB5-JDsG7d-mc2WkdxQheMvVWi6nlqZCj3U
+0BPGTVzw-_wvthznjN-_xVpe-CRpQtz-Ok7yB9tVblNVTd_e4LYagDvVwlUdjz_VZewEhW
+}
+
+EntityColoring(analytics_hub)
+!define analytics_hub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, analytics_hub, analytics_hub)
+!define analytics_hub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, analytics_hub, analytics_hub)
+!define analytics_hubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, analytics_hub, analytics_hub)
+!define analytics_hubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, analytics_hub, analytics_hub)

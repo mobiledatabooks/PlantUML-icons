@@ -1,0 +1,12 @@
+sprite $logo_drive_2020q4_color_1x_web_64dp [64x64/16z] {
+xT99ZaGX30FG1CmdrFqFt3LQlw4G5fiUtpvAiB7lwETpbEEam4Y1IwybqvM8VhuWcIh7CDy0k8bgNFNhWQnVVzNEuu4hyGKULzq1U3354T4VK07vW1Glv_2U
+N0glF-30an0X8eZXWLm9ZzWTPQKxQWoFaX8UiJkGqXqrXYUz84UFtO5Sw8ug1bdeZag6V837o1sZPNS4iuH1MdH7rQumMdH7sQwI5c6EmM5tMeGr1lxC5OEi
+X5Tu6WP9wCu8etLuC9fqkEoECF95U5mWT8X9TpJlSDuTpJgKkXCwz4LuymwdwtcRqg6o_cgQGAtTTCtfZGoKCpxWqciXUjxVpzTugqx-23RNyuksp_CXuXVD
+U-kTrTITyMBa6zU7dHpoUeATDMdz_8jYipkAlUue3UDQTrJtkYDlU-5HthoUqY4UxpRXAIybj-_ZtmS
+}
+
+EntityColoring(logo_drive_2020q4_color_1x_web_64dp)
+!define logo_drive_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_drive_2020q4_color_1x_web_64dp, logo_drive_2020q4_color_1x_web_64dp)
+!define logo_drive_2020q4_color_1x_web_64dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_drive_2020q4_color_1x_web_64dp, logo_drive_2020q4_color_1x_web_64dp)
+!define logo_drive_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_drive_2020q4_color_1x_web_64dp, logo_drive_2020q4_color_1x_web_64dp)
+!define logo_drive_2020q4_color_1x_web_64dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_drive_2020q4_color_1x_web_64dp, logo_drive_2020q4_color_1x_web_64dp)

@@ -1,0 +1,12 @@
+sprite $automl_tables [64x64/16z] {
+xPQ7RiKm24KD66x__uUxYsI4NsuThOxpzZWPh7ZyClxH7PnksE6KZwSjIkXpxoEkTKcz0NRf-qD_NkcQUWV65N7ly2rrD0GVFCm6eOC76mS8Y4GpmOEUw9gw
+tzozZ4HfVQAhid1XWzTMcKTatjZS5J_2pdCNxxX-FtVo4PNuOAx_bgRmI-vKvVt5uvqrrDuChP8xCzEFDzKNr0gp9dTcNriGNtr7ZPAcFrRVL3w3K48Dwue7
+LdqphNwWcKN8t5tvXZpJ6W4euQzTaWGoTxtVjqcYonPNto9zgPbE77Fq_diHoTM8aoYVDVrNB8-I7t6Q_k684qs_QHC6CTLDcv2aNt978_s8uxb_UU9onr_R
+bNRESYVM03vtWGP-4MGt5q6FTJjSGVQvutq-TxtFzvrYxmjNQJicsVKRTFmo_da1
+}
+
+EntityColoring(automl_tables)
+!define automl_tables(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, automl_tables, automl_tables)
+!define automl_tables(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, automl_tables, automl_tables)
+!define automl_tablesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, automl_tables, automl_tables)
+!define automl_tablesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, automl_tables, automl_tables)

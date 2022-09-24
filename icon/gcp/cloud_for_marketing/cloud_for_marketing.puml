@@ -1,0 +1,11 @@
+sprite $cloud_for_marketing [64x64/16z] {
+xP9PUe8X54EPOVyRRbKq_n0qN9uvhHguts5sOpQRJNknQkVsONLoiEhxzszPqo-famq-nTQn-pthumYenOReIi_oF54SpeyI0kkTolxHWSGweFEVz0kTbdFf
+-HEqN-uxZvS5IPzF3ZigQ25e7qkeME1nZObzQAa7SS1V5r35-z1br9cVrKnwmVxdm6a_yGs4wmBdnmAt3ds-kFdI4ur7DaEbS3IrpjLBatHPfxT67HQ_JGqF
+M31CJttIZtVVc_pn_OhzstnQdV0Dzo_yAj-V9lFu5jo0O9fyizbi_W4
+}
+
+EntityColoring(cloud_for_marketing)
+!define cloud_for_marketing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_for_marketing, cloud_for_marketing)
+!define cloud_for_marketingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_for_marketing, cloud_for_marketing)

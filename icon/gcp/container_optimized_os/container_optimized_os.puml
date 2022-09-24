@@ -1,0 +1,12 @@
+sprite $container_optimized_os [64x64/16z] {
+xPS7aaCn24FZhljVUFjg9jWe3DkBqWCFuy9y_kN3zA-A9wLO6ALXgcTfQaNe0g7qu5GSrt_7SMiAuEFeTZC0bzdmmG2qaXSkmYPu4Q3GGjuFu1iCx-s3Wwzh
+dlzjZjqFIxxXHITF5oVldjeGRwKIO4p1Owe463AUmDZugUfOZ2QN18v9yQYdUfc0nrV3ltvVU53PanOxOipyfFYhQXwmTeoNPUO6ECjlLetdc0FHx8nFYLzH
+lXg0rf7WkIjF-qAL62_EptVW4ULlLjGuyVNQkycAsddXB4kwgcIfTOf9NbI_Ik25xyBJhRdE_EL0UWip5q1D2vCjSe4lOLCU9T20q27V0A6aSDsalQa1J3IW
+wHOws_tAgxzTLgsM7fkQukOZh3Q1MIyVft_T0m
+}
+
+EntityColoring(container_optimized_os)
+!define container_optimized_os(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, container_optimized_os, container_optimized_os)
+!define container_optimized_os(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, container_optimized_os, container_optimized_os)
+!define container_optimized_osParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, container_optimized_os, container_optimized_os)
+!define container_optimized_osParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, container_optimized_os, container_optimized_os)

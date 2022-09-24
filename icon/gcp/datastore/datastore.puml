@@ -1,0 +1,11 @@
+sprite $datastore [64x64/16z] {
+xTO53a8n48JXwThq_XV6sTSj3d7wnIVvqMVupR8iJQe6c1S6DAyKIKH7BW39diW0f4vXI5CUnxvp4CU-J8zxYtFlI7Rf5LSjlka5QVMhJoBgL-RNNjArDqcr
+L_ODJpsZ0AINgVJHkUayzd7JCnxrJIe0yd9gM1x_VcroRqfEpl-VLWwqCeZQsFVv-9doc7kBqbF7WtNkFMxwA7qdKlknbp_iLzy-wwtsP8nEVN1pwiKuA7sa
+xADpSEoD_K6lLjr_VfecnM-MPTa3
+}
+
+EntityColoring(datastore)
+!define datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, datastore, datastore)
+!define datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, datastore, datastore)

@@ -1,0 +1,15 @@
+sprite $certificate_authority_service [64x64/16z] {
+lPTdWkCm24Q5gBh_WRVQmQ3Wc2tp_arv13uHbt4BYipHnctxWU0VoK2gzXDL9MZRVDX72MvLc6odxHNcyx5LRKDJ4FNORaTK1Q4pzivzb3FRAioY3uD0YQ6z
+cWMK5CJy75hydoavY6XJ7fj6Wd8GuJ_otEyQp0M2Ru6WLmLglzWJUkZBA91dFbosoUooCVEHppxm-eNF8_T-38_M2pmhhjhFlv_BEKS2g_sSdgmBvqowIZ-F
+RrVVlEWddsBx1yS0lDRw6X-2Rd09vTdyUlKr_FBH-T7LnnZgdM-mDx3jHEtxfGFqfPyb-TRFmGB_QlT89Ev4vSUlFo2HN_9392Qbhsu4mDAHEFBa0gAhz3du
+ni7ptI_x9_UB0X3r5Vy5tI-kmBWYyI8xhUkl67B_yrCuslFp6M7NnxmRJHz67g3Zxok6FHz7fkUF3T9tFk8xtsZt8Vk7XS6FwUK6iaz-xSDgzvte-_M2Dd-y
+1JNwl0ue-37yl0FkinliVZZxEiAPxx-OmxkV06K5s7qCIdK6As7Xw4kuA50DNsVOrtE1lXv7kDVx1Op7Cr1rzoqaVm_8Li2VwJijj3yylySTDiDe0oI_VIMt
+UqnMu_kvlmC
+}
+
+EntityColoring(certificate_authority_service)
+!define certificate_authority_service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, certificate_authority_service, certificate_authority_service)
+!define certificate_authority_serviceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, certificate_authority_service, certificate_authority_service)
+

@@ -1,0 +1,13 @@
+sprite $memorystore [64x64/16z] {
+rTHbqeD060JXVGro_mj_kj769fxvIpre5-q3zZapv_9yiUJT0nlELukUF3_0WotvwFEZp-e7SzqFOpzFdlX1yBj-WglzRbHyqE_6xTuDlfyWDxs_1Z_-RQXa
+zWxkyDKFk6q9eS5B_TbjtjjjtZPwtpjUddv_SBt_1Y_rR_1I_zxWfVuDNkhV6xpKVuEN-hVB9hpElzzo_zwmKlfhM2Zzyl8czT-mefz_VsvznnCV-_S-M-d_
+x3wa_kbJwP_UqB_c2_rBtgN-wMk-V_w_w7F-_yL-w4tw_zBNRJw6s_pURUiVFk6b_ct0bFwjmAN-0rhhlw3Hl-2r_kdd-mzitkVV8XRxfsS_x-ZzDcz-laWi
+sWViS_OD
+}
+
+EntityColoring(memorystore)
+!define memorystore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, memorystore, memorystore)
+!define memorystore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, memorystore, memorystore)
+!define memorystoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, memorystore, memorystore)
+!define memorystoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, memorystore, memorystore)
+

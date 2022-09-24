@@ -1,0 +1,7 @@
+sprite $cloud_tasks [64x64/16z] xSiX0W0G40LH1Uv_OQXV0s2cmEuptH6HA-dLoRLQtU_nU3m-bFGQv2hpBHwFn-Ex8w84
+
+EntityColoring(cloud_tasks)
+!define cloud_tasks(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_tasks, cloud_tasks)
+!define cloud_tasks(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_tasks, cloud_tasks)
+!define cloud_tasksParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_tasks, cloud_tasks)
+!define cloud_tasksParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_tasks, cloud_tasks)

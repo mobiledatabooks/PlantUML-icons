@@ -1,0 +1,11 @@
+sprite $os_inventory_management [64x64/16z] {
+xTO53iD044DH1yVtlt0fw2gm4wOlMj0hXh1MJvRFm2oo6Rne9YTdShgOGcekpOurS_2uQz7XsRdeyxdJTxyGcHVhn_UFx-xnZo_QtiUCMhFCV9v5ChDmpogT
+XNgoJJZFnp8ByIhezZRJOr6FETvaDlF_D-_nPp8xrVaNKzSPppd_YeNfvny0ctF-5QkOvbtFNn60L3qgRqo2V2w-5It8Gtr659MxshXdvIEYemwV_p-DmfcU
+SQJ_E6SR9EBtx-aD
+}
+
+EntityColoring(os_inventory_management)
+!define os_inventory_management(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, os_inventory_management, os_inventory_management)
+!define os_inventory_management(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, os_inventory_management, os_inventory_management)
+!define os_inventory_managementParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, os_inventory_management, os_inventory_management)
+!define os_inventory_managementParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, os_inventory_management, os_inventory_management)

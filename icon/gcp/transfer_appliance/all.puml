@@ -1,0 +1,11 @@
+sprite $transfer_appliance [64x64/16z] {
+xTJLOGCn44NHuJVzDnmmumg3rZ7ytGKHJROiow95J1iuKMBRVS8C-LofXn0f-llatNzzBnuxhhiUHcHewED4zkyVWUpjAL2YTCtYmAaFomxJR-15Cd7zYbwG
+NPyXKZj_SjtphXSY6UXBwxVq_71cny3-GoQsM6d-8ZhdxmVMx_Z-uSRzMzZ_sCddu5ld5m7EP8L-0x1xYe5UYNYaXseCF7z9eHSjOHgnBClo3W
+}
+
+EntityColoring(transfer_appliance)
+!define transfer_appliance(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, transfer_appliance, transfer_appliance)
+!define transfer_appliance(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, transfer_appliance, transfer_appliance)
+!define transfer_applianceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, transfer_appliance, transfer_appliance)
+!define transfer_applianceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, transfer_appliance, transfer_appliance)
+

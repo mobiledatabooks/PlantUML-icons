@@ -1,0 +1,12 @@
+sprite $logo_classroom_color_1x_web_96dp [64x64/16z] {
+xTG5ZiKW483XyM7kV-55qZnI2uNrtJzI_Ue5laF_uVCwJFmy8TnuMPg9cYUMoPhdQO-5OyzrjBrF3rlmaVj27t_RnwVwY2NlPhxW5G78TdpS6zGi9ZqrJpi-
+xB5vtEIeT_VUqxPoq9jgU-hIl4RXbainu5qjL-S8SjmEMl87lgRCcXPyv3gVHdozLM-yzLevu4jLHt8LPj72KYs6V2rS2A15kiaXxoL5w2AhQmVUlrkDOPTO
+BTtxZIlkFQhL_DvRI-2GM2lTUL_rkkQJrvBR8NyoViTTUoyxlslHntc3Fk8hVSIAZvZrUwtyoYzyz7ONmokxy3TbZrlPbpLfx-_JBgdDUzrvO9cz0gYXJ1w0
+e4KoLVTMS2Ru-lvx0m
+}
+
+EntityColoring(logo_classroom_color_1x_web_96dp)
+!define logo_classroom_color_1x_web_96dp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, logo_classroom_color_1x_web_96dp, logo_classroom_color_1x_web_96dp)
+!define logo_classroom_color_1x_web_96dp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, logo_classroom_color_1x_web_96dp, logo_classroom_color_1x_web_96dp)
+!define logo_classroom_color_1x_web_96dpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, logo_classroom_color_1x_web_96dp, logo_classroom_color_1x_web_96dp)
+!define logo_classroom_color_1x_web_96dpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, logo_classroom_color_1x_web_96dp, logo_classroom_color_1x_web_96dp)

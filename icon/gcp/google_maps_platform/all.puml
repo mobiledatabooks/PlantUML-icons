@@ -1,0 +1,14 @@
+sprite $google_maps_platform [64x64/16z] {
+jPLRrlKW24CLqAJp7_1_uQLrMSDttU-RGqANfvteFi3h7yJmtZw9JLuFCEmpjkDQ887vuGaTrmh_0uoFfN1Ucvy0tch6zQedYA_gUe3MvO0w-uhie9CKUW9n
+XSb_Q9qOHzsOQ9-mamzo7K00sFmfVdwPG8o8COb5nwd2mNK0h2KsyFJ9mmBaCk3Ha-EfarsldwI-3S3v6mZUR3iEC4sSJpZLLz9nwuS2m0UnJSUj4vM_FrS1
+4bJ-K_VDTn1BEk7FUFF1cwxsHqIul0wKZqXVNaVTBvBU5WobFvYCIFnzkBY_F_K8MwzNFuAMaoDU1WHNhBs1r6-yjwG7k83soY1YnTtCFV2n5z0Ghu3r-edx
+XtIq0prUc9_u1t6XY-EB1GQfqw-OxxekNoU0-lkh4-2mlKoWkaEq2bVwR3L-hXwzrVIpRkqZMEhWXajjxH2wEuq7L7SrkhiQqnzEJK26hvbGuMiwPFWQXtno
+QgPyScfCTrype9wScWvPNisKwMiCCdrD-cXVPg1ghmu0Qry7SlqQ1xpzAdy1
+}
+
+EntityColoring(google_maps_platform)
+!define google_maps_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, google_maps_platform, google_maps_platform)
+!define google_maps_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, google_maps_platform, google_maps_platform)
+!define google_maps_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, google_maps_platform, google_maps_platform)
+!define google_maps_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, google_maps_platform, google_maps_platform)
+

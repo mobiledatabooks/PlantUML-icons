@@ -1,0 +1,12 @@
+sprite $performance_dashboard [64x64/16z] {
+xTCt5eH030HH_DJzJxpHulKA7wb3gJ-UwgLaCXa0BkiQRXs0Vsvo-DvpoyFQmnczv-6O7lwacV7ZNyBQCB-MuIYVNqexNnYFIpq0vHYFj-vbhTmAlesZldRF
+bTE3Ne0zUZb98uVkv2m0NSon6e3pgWQ8lN-KuWEklGv0UEZzV_OuzsB0lSdkYSf_Qas0U2nDcxQpqR3RP9QZfwTLFq1yevJOnvyAUl-ITtmbt9lD_v5gob_V
+J2QJ-G4
+}
+
+EntityColoring(performance_dashboard)
+!define performance_dashboard(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, performance_dashboard, performance_dashboard)
+!define performance_dashboard(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, performance_dashboard, performance_dashboard)
+!define performance_dashboardParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, performance_dashboard, performance_dashboard)
+!define performance_dashboardParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, performance_dashboard, performance_dashboard)
+

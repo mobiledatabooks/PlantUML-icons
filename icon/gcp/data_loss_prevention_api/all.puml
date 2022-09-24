@@ -1,0 +1,14 @@
+sprite $data_loss_prevention_api [64x64/16z] {
+xPLNOg0m30LHz_rFlFWXHDiasDzC2dNKQCl_-FZu85PR4PwosI9feJISsrgq8aB7T8cqQ-aqf6zkk7j4Rl2WteoHayG30UXjxt7FfzZZBtsFwfSOYuKHG7vK
+E2_oSIuyTdSvxTpAGukgVD9Df2-OCdqMRxv2rGBsik28q7bWEIfcTB-tIjx9F7stuMJuYaL2BBRxKkahFx2-ltoYSm2YnGb-5bfzeVzZ0WGV_qJF_PjYoSWJ
+VewSK5l1030EipfIfm4_-SJCTQJw-ft39_MEyTy-uG2hdkeNtv6i7_rl5nw55PGNbLIs-U4-E42uRRyeMVTX7tIVR3sAEOTSVLggBkN52Fb_yD6dFtpSLbe-
+hjM9e_x5iW0ga3xR4cNKV_DhViZqdBJMxRlDZqf_eiy0ql1C3hm0q6n2Le__AoXmVYXJhzIYuWq5QD4Y-byRqG5vkn3lYw-E8qeEeo5TLrl4iduV_NpHVWiJ
+upaPnV9UdOJhPfd3i_n9D1_06PwFpzpmRDQkhzyi4e7XJKDMmvk4tmtlu-FZ7m
+}
+
+EntityColoring(data_loss_prevention_api)
+!define data_loss_prevention_api(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, data_loss_prevention_api, data_loss_prevention_api)
+!define data_loss_prevention_api(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, data_loss_prevention_api, data_loss_prevention_api)
+!define data_loss_prevention_apiParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, data_loss_prevention_api, data_loss_prevention_api)
+!define data_loss_prevention_apiParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, data_loss_prevention_api, data_loss_prevention_api)
+

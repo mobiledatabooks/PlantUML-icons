@@ -1,0 +1,15 @@
+sprite $partner_portal [64x64/16z] {
+pPU7hcmX24KVAXly_nz-pZZde13cnjowKgSi2oN1VtyKWZpHFb2bKx_9f4_urEVTnwcFtPTJNtPV3tLoVgTF-kNCRzvdEjZyjitl-i4A3UtrXoeBtT0sVo-i
+yFQKk8xDUTKhzmKfZp_sGKloZSsMiHxt5QZBfu-Nr-S24GxfIlHi0LfzplHy0InwkHqCd9ujK6Epo3oKqvC5TClTn89fkYqWQlQQGt4-YOJyycD3ujLN2hbh
+hPNdVK2xJZelB2678NVpGY2lFtue8OVHB_D6e4sV7Ip17nHiFh-k15hqcU-wsLgktrbMw7KcaEbpBrrreQJysrKH8DEVfyeRe8Y1koH0bnwshpw_CO83N7fp
+HIYn_sC41z2xLYaKR-RBabKxBTxweNEPSJSZOkca_ln_1Ezzk0nwQky7zmyK_S1dT_tA4onX3FdBwuTauiIiVbg8Vkh7-etzCtoy44Ed6FgdG88Vi0hm_KlY
+QAdleUbxweblmJF0Dp0a2w5815lYLNla7YfhjEaAwzNzXE0tNxo61SREAKvNNtq6sx9Bc9nVOlNdVkn0l9iVx4kxA6BkZ2Rn07pvMkBn-Vty1EOrVmBDvgTy
+VZC_pc_ry_FZ-VpwkVdvi_FxvtpwvFlbfzzFlFluxFlnq-_NFyf_
+}
+
+EntityColoring(partner_portal)
+!define partner_portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, partner_portal, partner_portal)
+!define partner_portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, partner_portal, partner_portal)
+!define partner_portalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, partner_portal, partner_portal)
+!define partner_portalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, partner_portal, partner_portal)
+

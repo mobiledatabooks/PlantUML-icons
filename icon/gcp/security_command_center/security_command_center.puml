@@ -1,0 +1,13 @@
+sprite $security_command_center [64x64/16z] {
+xPS5TlGm30Oj_7J_2_yO1PvInIxievrssICpZP_Y3VFsIf-o7Vh_dS9urHO78EaZN1PaKW0HXny1G6dIDY0YhluV09k8m1Q8A7v6uETgHrG_oORegjtvsH1D
+jLk_QOYqEp-1t_WnxmU-wFkKhr_nZtOc1LPzGCO90PPy69NUNV2Xew2OybDl0_G-VDpYcFJfLE_p-zwlfIVrFoYL6lH-fXVVa8pN-ecTzMk0x4IW-fpagFCJ
+-TqbJO-UVHtBsDctTTylV3N_r_jyzdbcszcGB43DNco3Rlp0VtmFcFgUtF6Ve6vwyH7WgdCxGHNbLnPLuP4OklM1hkjsXH4RtAyFeDluU5XVv4X0DxhZe_8b
+Y1gWwe7n0Ogo_2U2kZxrQx3BvImMTNcio3dPNWO6-iNzmF6qVy970ztvSlcIHuUWzw6Znz3viF64e_fDvPi0nIzw5w3wS1fJ68fVwjwYTxwEUHYu-W2F9HGu
+_7ox0bbA2gCltPzu_1HlVWC
+}
+
+EntityColoring(security_command_center)
+!define security_command_center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, security_command_center, security_command_center)
+!define security_command_center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, security_command_center, security_command_center)
+!define security_command_centerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, security_command_center, security_command_center)
+!define security_command_centerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, security_command_center, security_command_center)

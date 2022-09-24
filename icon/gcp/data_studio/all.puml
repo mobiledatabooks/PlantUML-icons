@@ -1,0 +1,12 @@
+sprite $data_studio [64x64/16z] {
+xPTN4eCm34HZ5OlxdpZq3ilCfiVlVy7gqks7AIJPe3LoJIsUjqIBNf3Rdhhg28TotPVtX25ztg6QY0ICF_jz3NA18RspUiPzs849w2kKH7uUlmnprqy26FlX
+mn-8LXovbcF4V4EkyKti2qbjYxlhYQTHkdSuaA9aYqoqgalDAf6zHd-zroZjFpv-VFxm-SlN3wR0zsz-Vl3poz3yPEStkpzyPa_YzpT-V-JtLtv_hb5kVwz9
+eiJzyFaKxW
+}
+
+EntityColoring(data_studio)
+!define data_studio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, data_studio, data_studio)
+!define data_studio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, data_studio, data_studio)
+!define data_studioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, data_studio, data_studio)
+!define data_studioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, data_studio, data_studio)
+

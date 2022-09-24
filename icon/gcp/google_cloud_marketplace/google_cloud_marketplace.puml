@@ -1,0 +1,13 @@
+sprite $google_cloud_marketplace [64x64/16z] {
+pPE7hlOW34C9mGbz_mV-vwtaKfTyqfr76-KufgELzD7UWo7nBXqvyHuTMGGKEh88A7JaFg2VcDQH-m346z0wSX-0at2f8qM0z25rf0XGFg8h7Ra4oFil1Gp2
+rm7z7rHWqP4gm9OK3m0nX8uK0Hx36cDKmE92JcQyJGVSdWgCcSJ1fD6mA63_mpXWqRaiCpYJ0nQTHjNtPhU0czv3hAVK9O3rTP2ne08KiEgTvaG1Rql0eZUe
+zHoy12owBrEo00TSTUD_NHTeru1Jlwnl4fm5E81qyUde0XnmwdH5j0VkwJvPjw01WT_ZHvhunge2k_i51TO56CZrTO7Yqs5ShAW_7HwgQ7j6O4TuuMDBLEkz
+MD_RAzUF1z1VMpyqtWgiA5bGVDyb5j-x7l-mzzL7jvBYvLUCtVzTy-ZxE_qsudr-SqGD-olMlQQtdunXpWchppL-_6FswbnZnnlJYdCDZXCKvvfvdCpY_EVv
+xx__-vz_yqdlMPuNM1p737lf_3S
+}
+
+EntityColoring(google_cloud_marketplace)
+!define google_cloud_marketplace(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, google_cloud_marketplace, google_cloud_marketplace)
+!define google_cloud_marketplace(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, google_cloud_marketplace, google_cloud_marketplace)
+!define google_cloud_marketplaceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, google_cloud_marketplace, google_cloud_marketplace)
+!define google_cloud_marketplaceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, google_cloud_marketplace, google_cloud_marketplace)

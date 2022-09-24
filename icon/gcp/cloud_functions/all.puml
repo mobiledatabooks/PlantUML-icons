@@ -1,0 +1,12 @@
+sprite $cloud_functions [64x64/16z] {
+xPTbWeL038DfmiZzBxo6QxjavLd-F2bVWD5CSqjwYPJg_91GvvSkrzdhOfsZlBfJjdtUPWOUxXluk6_Wuxw1Z_i6m0mF6W0pVeR73ROyce1moASOdmxuL1dX
+MTE6x_0Ikt-fQSrtU8xnkJEOynqUvJk31Py-w3Z_uP0mvpiyp7S6ioRD-JjyfrbdjLVuzjTuWmqLcxx1WZp0uLe27702CNwQtG29sP-_m0lFhxRVV_U_Edx5
+-IFENsNzo3M9wvUuVghhjxv_wFkNl7zg-pSXvWSnlvYMdqpBRwRbHzFogsdvsRJyRjhvmRJpYpKtf9VU0G
+}
+
+EntityColoring(cloud_functions)
+!define cloud_functions(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_functions, cloud_functions)
+!define cloud_functions(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_functions, cloud_functions)
+!define cloud_functionsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_functions, cloud_functions)
+!define cloud_functionsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_functions, cloud_functions)
+

@@ -1,0 +1,15 @@
+sprite $3D_digit_3 [64x63/16z] {
+dPRHblCg24O1HS3s_P_tQ98S4Yikvz-NCXi_TPK9BC0B-0SEoNNyip_mfnOuPTiEsRLZTksOJJrcruuhctfStSc-hAzqm4J1NpWBdJXl90nhL0fjt52i2tjr
+ju4liqZsMlIEqJgGlFmiAan1WEdsgW-VfDRwqRGEW0z4LGlTjQHDhrPe7W1_tqux9TFH7hdM-grQbW7m5RzXfiA944chVRuVbT0VbqgpzK1ApaMjVhyrz74U
+lmTeY4ZtgqYXXO-0Zfew8i8vfmQi_0V0rPhslvuGaOWm7CeuBagrYzw1iREOJkx_DD2UP3WuJNGO4l6bToG1FkmqyH769Ke7ecQQNhiJJlnVJa6RV-M_xmbY
+VmHoFmF3xG7Y_04YfEbAf-QnTlS7qkwN8b8onGt2-Ad7lv04VY_n_O--EbU2cGzpduhUMAsyxVl8f2nMJqpH3x3qc-NJ6_cqpPG27mSzYSZjD_YmJKlWmn0W
+YwgG-w3rq3doNol0sacF0BdvAeM7qmP-qKv6SEJGKt3yz_m5jkwNfu-bk1vzOlXlHZi9dlI2Jvgbd-n0cW1FeX_Vq01GxO1ddwlOeTdstbdi90V_OObcstk0
+VFdAE8ComVe3Gcl36f9-xPGJpdKFK0-E2FIIcyqSwHv0gdSeET59IiqkZ13xS3-1Dp1LATmf3Ldfte2qtbX7Rq9zJ23rWTrCzAW1MntHv7Qa-oiGgxti76mU
+HG1CN4GxKfZSTZtYPwu117O4Be0T7o2KzmdaRRhmS6C_nlq5_m4
+}
+
+EntityColoring(3D_digit_3)
+!define 3D_digit_3(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, GCPBlue, 3D_digit_3, 3D_digit_3)
+!define 3D_digit_3(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, GCPBlue, 3D_digit_3, 3D_digit_3)
+!define 3D_digit_3Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, GCPBlue, 3D_digit_3, 3D_digit_3)
+!define 3D_digit_3Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, GCPBlue, 3D_digit_3, 3D_digit_3)

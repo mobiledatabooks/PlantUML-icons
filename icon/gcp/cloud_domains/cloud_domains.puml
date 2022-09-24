@@ -1,0 +1,11 @@
+sprite $cloud_domains [64x64/16z] {
+xT872iGm34HHuR5z_njlJ_cm8fBfGKFzmDkIo6wyMgqsjmtK378HeF9UQTy1qfv00i_ujkH5WCfxPNtRXIrvmQF-Rynjz1Rq4rxqADUxNwXhB-_haIDuBVJQ
+C_AsuL5XByT7heMU5RwMJHYyN0yEZmeCmfOyGTlJidvibV00I1VW_SAZVEvuM_A2P_cyVpY4KDclrnUWBhpHiwBN0f3odG2bvBL8hE7wzbtl_LlRwErMgzLg
+Jm
+}
+
+EntityColoring(cloud_domains)
+!define cloud_domains(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_domains, cloud_domains)
+!define cloud_domains(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_domains, cloud_domains)
+!define cloud_domainsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_domains, cloud_domains)
+!define cloud_domainsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_domains, cloud_domains)

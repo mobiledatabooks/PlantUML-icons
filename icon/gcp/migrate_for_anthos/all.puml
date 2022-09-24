@@ -1,0 +1,12 @@
+sprite $migrate_for_anthos [64x64/16z] {
+xTO5SiH034JHXO5__mk7gSibopqA9xsydYVBxDFtpdzQqLFaKE7deWUWnkkU8cSK_EFRCcTz5LwVuAe7k2vkGs6-LpK1LZZotOiGtwFUBJ1Gu7g0y-CNim4T
+BjlmOdazVXk0EtkUuYx16wu5ZlFvpBKPeti46WsWN0jQPmss7VNK2vS2vwm1DEQfZ8XhWGMkatEkgxxf08vncf2a05dU3feRtjwCswaGDY2Z8aKB2mI0SDrg
+hccV-mK8MWxdmJcvIqbs8N3zOu82OzD_6gtjSyYtd--LZ_r8WUYWoQDRj-5wRK2uauIR5QQjzIpmH_AVMm
+}
+
+EntityColoring(migrate_for_anthos)
+!define migrate_for_anthos(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthos(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthosParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, migrate_for_anthos, migrate_for_anthos)
+!define migrate_for_anthosParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, migrate_for_anthos, migrate_for_anthos)
+

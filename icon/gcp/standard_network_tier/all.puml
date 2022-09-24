@@ -1,0 +1,11 @@
+sprite $standard_network_tier [64x64/16z] {
+xP873iD020JnrVt_XzCh8gliMLPbr14pN8h594cI0DYZRrWBp8U6bwzbFZHixu7kMpMJ_F7Sdq6GuaJ7Plyn0AXv-bBXOs2w7SsVm6i9EnutI83mjd1ZHQ_s
+4MXhvzy1_5xbkZKVyAjRD9mkToFs2pdl0eW2v3m9AF_QgWIYBTKtpv7-zx2flXlMSAdJy-2_AFyNrsWS5uOTG98aIN86
+}
+
+EntityColoring(standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, standard_network_tier, standard_network_tier)
+

@@ -1,0 +1,11 @@
+sprite $cloud_deployment_manager [64x64/16z] {
+xTLLOYKn34HHgGJk_Mzu9bmFZU7u_fy6eyXkfv63XGhJd4ZfRSORlSzuVsSVw2vkUPVk_CTvNVDckkBj8PttUFI1MM-FPKcCU3r_Unub4rsU0qQkA0y-qVP4
+oezN4JpwHDlpa_7sTXunQ7do8_7sTZu0LKyUZmFcv7n0pVEFDHzyEZaVKFCSCCt7NA-EMQ_ugm73rJbTzpWRC78-eEh97rF8LHeL3v3VIwtYoIjLFCZdl7x1
+-Rdz-lqvqJVoEkDL669K1wIHbUEbOZ8HwF6PVllr-VF8Yy87k4LU5TRluJU2l7-x_m
+}
+
+EntityColoring(cloud_deployment_manager)
+!define cloud_deployment_manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_managerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_managerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, cloud_deployment_manager, cloud_deployment_manager)

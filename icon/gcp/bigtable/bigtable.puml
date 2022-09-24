@@ -1,0 +1,14 @@
+sprite $bigtable [64x64/16z] {
+xPQ9aiCW34EnR8ly_nVlW6d6FO4USwxstlO5IHaSoi_qBz4FUJhA9tBIvIC39AsyBv1yCuH8_sxaMo6WYlZ5UmZPejMq2V47ctJ3kfECAso6IE-6e5kG2B6Q
+8RiLN8KmO0RVjYKvX2bapNei7ivJYF2Yc5iF3jSXWWTrRZryupf4y4wTMq_qQIPuuMFU6wtb9h9SoWC6hvdF4f6JFgbqfHaVoi4xdPBC-RmWD4cMU4dMzLgG
+1HvGHTf_MMvBlFN5YvDsHTVA1Tve_Lxr7UocGyQZ4dDUIMiuudTwu3oEQYlzWHmfMuSMGyJhSRYK8ZkysTWG7jPRe2tUEKBKRbrhtUB5Ojw9jUzWhTxyOvKF
+ypQcwL4hulRAHdzATpJh4K5At1SthFGd9K9qwz5VbofM-9WoQ3X6VvSD1bdihuDMplx6749Pxayk_H5fDgpmqHzrz9V7sWeFARc_FDPYr3tZTV20H8Xxwzf7
+xHCUWx-yMpLPdnq7G2_1v_MoTV5N1neGWy_GQIQszClvMOA_cSKojtuz1Ftc8PYiIva9C59lazlwIGvs-oI5SkSa6LPp2DiymetrqeFCK7OaaLVJMN9JcFIz
+6W9lyoE4bFSbCOK_49pbCsdvdVxr1m
+}
+
+EntityColoring(bigtable)
+!define bigtable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, bigtable, bigtable)
+!define bigtable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, bigtable, bigtable)
+!define bigtableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, bigtable, bigtable)
+!define bigtableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, bigtable, bigtable)

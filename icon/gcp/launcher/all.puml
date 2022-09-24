@@ -1,0 +1,14 @@
+sprite $launcher [64x64/16z] {
+pTRfOeGW30JW4WQ2x__0FR9q9ml6hTWhFz4lZ2Uy_E_AkCIbAAxCNeeghl2ggbZdvXMhl7l54gTNB75wnHAdLonnUiK2zrwnmBrNdE3qfnj8cVof1kMXzA5E
+UcGHr6Kl_O8MVVeSIKjUE2GB7dwidlVPZ-6y5pycl-_Z_EltR_tv_VxxmmJokzyFuk-tNFn_vA_u5FlqX8gTWCXNQo_Xn2Zv-VyJMbBysxK-aRUPhL5qrwgr
+ZhmrRtObUOfkTHl7lhTmCAzQnMakTvLP9c-zjNjrjy6VdeQ1uUcbhSrl8zpfUHWOdXwSB_CRLxKShx_gVDxvP7hAFIyMVvlZ-xozwvwtOCuNUg7d1T3pzEgy
+x7tpVHwPVRRupaVx7Uix-tIBpyU_-ytMVW2Zhpr-c-EFyyNxjqPVu_sU-41-khpHuz4dv-4lO8Xldl5Pz8msLgElqQQDlQUIZOyFqL-Jljg9DcUpWUnyYdxx
+pAPMcnNpC_vGSlSvyhZx7Fxsgpt_ENyFqEA50DtZO6aq7pmXwJx5FdMV3nPU7AxDZV632qX7Fl7J-oVr1W
+}
+
+EntityColoring(launcher)
+!define launcher(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, launcher, launcher)
+!define launcher(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, launcher, launcher)
+!define launcherParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, launcher, launcher)
+!define launcherParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, launcher, launcher)
+

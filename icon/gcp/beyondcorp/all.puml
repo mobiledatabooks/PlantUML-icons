@@ -1,0 +1,12 @@
+sprite $beyondcorp [64x64/16z] {
+xTO55i8m54JHL3Fxtp1Ux_1V3ow3aznODJql_qWgRj3dbBTnANFJIEsOdp-sTJV0kliVusdwCgQzPtho5_PJFFqRp7-YpQJgW4UBGbQE5l4-RkGfvC6-NNVS
+j17kcJqNvTDKkbQlLfUWdRm-JSFnGBblpEvXF1k0tQsv1z9MRhPwWUb_a0VgY_thrxyU-nhu-fRz_p77dsxnYIzW6vw_6jQzRm3mspmluBNehYE1fXdtIy0v
+Rw3Zg07FGGEuXD__4Juz5SmmFq9bad2ivW4Of2ZJ8_FF7W
+}
+
+EntityColoring(beyondcorp)
+!define beyondcorp(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorp(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorpParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, beyondcorp, beyondcorp)
+!define beyondcorpParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, beyondcorp, beyondcorp)
+

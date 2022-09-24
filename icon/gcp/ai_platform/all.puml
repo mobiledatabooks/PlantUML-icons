@@ -1,0 +1,14 @@
+sprite $ai_platform [64x64/16z] {
+xPO7SYGn24LD-6BkV-ALA6fbUXZK6rondtDuq-WBXQ_CmmDlva-KVpmZOpCDjetUq6bS_TTlZCw-TZwEEe_IjyNySem0qz85llk6nVmwReIdCOxjHzsmbqdl
+Bua--MI725sIhyftrFe8VUwyKY3bPsPUbasQ24LLEPwTyuyQ683SRA7ivxdhGUsFHgbR2EvFbd-QEyArzJOIhn3GiV47BdrXhyCou96WIt7X1zo5vgX3quIJ
+V1lThb7k7tlmTPHZeNaiuLzgXXKxYUP1Q_9pPkG-YewJ_7FsQJ_hlG14Pevu7DdthLC09o9ivmwf__o_oIDCtLZxUPkkUoZyUlAvqhbf0Se-RZoUckRt97F_
+OMotMW8uz5_qdGM3VkBygi_F7FaP57uqGGT7xyM9Z-_-u0Mje36HUk1XbET789uaDGFlVVErq0rScSlw7RX_shZB_9p3BE23NpT-tpjf_JhXy_doKrQe5etV
+aNR_1DcT5fQFEmXIUAS8tzTl4rv_VqkR7l_0_V6dr_z6_-_z_U7X5m
+}
+
+EntityColoring(ai_platform)
+!define ai_platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #0384fc, ai_platform, ai_platform)
+!define ai_platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #0384fc, ai_platform, ai_platform)
+!define ai_platformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #0384fc, ai_platform, ai_platform)
+!define ai_platformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #0384fc, ai_platform, ai_platform)
+
