@@ -42,4 +42,4 @@
 ./convert.bash DaprApp1
 ./convert.bash DaprUser
 
-./convert.bash DarpBlueLogo
+./convert.bash DaprBlueLogo
