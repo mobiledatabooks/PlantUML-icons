@@ -41,3 +41,5 @@
 ./convert.bash DaprApp2
 ./convert.bash DaprApp1
 ./convert.bash DaprUser
+
+./convert.bash DarpBlueLogo
