@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 ./convert.bash DaprEncryption
+./convert.bash DaprSidecar
+
 ./convert.bash DaprWorkFlow02
 ./convert.bash DaprSubscribe
 ./convert.bash DaprPublish
